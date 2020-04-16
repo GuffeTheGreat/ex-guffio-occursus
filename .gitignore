@@ -12,11 +12,13 @@
 .minecraft/local/*
 .minecraft/logs/*
 .minecraft/screenshots/*
+.minecraft/saves/*
 .minecraft/icon.png
 .minecraft/options.txt
 .minecraft/optionsof.txt
 .minecraft/patchouli_data.json
 .minecraft/resources/pack.mcmeta
+natives/*
 instance.cfg
 mmc-pack.json
 .minecraft/textures_0.png
@@ -25,3 +27,8 @@ mmc-pack.json
 .minecraft/config/vanillafix/config_version
 .minecraft/config/vanillafix/methods-stable_39.csv
 .minecraft/config/waitingtimestats.json
+.minecraft/config/splash.properties
+.minecraft/config/jei/worldSettings.cfg
+.minecraft/config/InvTweaks.cfg
+.minecraft/config/AppliedEnergistics2/VersionChecker.cfg
+
