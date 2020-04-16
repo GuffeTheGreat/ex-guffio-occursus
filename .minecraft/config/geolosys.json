@@ -1,0 +1,316 @@
+{
+	"ores": [{
+			"blocks": [
+				"minecraft:coal_ore",
+				75,
+				"metallurgy:phosphorite_ore",
+				25
+			],
+			"samples": [
+				"botania:mushroom:15",
+				100
+			],
+			"yMin": 50,
+			"yMax": 80,
+			"chance": 6,
+			"size":150,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"thermalfoundation:ore",
+				75,
+				"metallurgy:potash_ore",
+				20,
+				"metallurgy:carmot_ore",
+				5
+			],
+			"samples": [
+				"botania:mushroom:1",
+				125
+			],
+			"yMin": 10,
+			"yMax": 30,
+			"chance": 6,
+			"size": 100,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"thermalfoundation:ore:2",
+				50,
+				"thermalfoundation:ore:3",
+				50
+			],
+			"samples": [
+				"botania:mushroom:2",
+				100
+			],
+			"yMin": 30,
+			"yMax": 60,
+			"chance": 6,
+			"size": 100,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"minecraft:coal_ore",
+				90,
+				"minecraft:diamond_ore",
+				10
+			],
+			"samples": [
+				"botania:mushroom:3",
+				100
+			],
+			"yMin": 5,
+			"yMax": 20,
+			"chance": 2,
+			"size": 200,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0,
+			"biomes": [
+			],
+			"isWhitelist": false
+		},
+		{
+			"blocks": [
+				"thaumcraft:ore_amber",
+				95,
+				"metallurgy:atlarus_ore",
+				5
+			],
+			"samples": [
+				"botania:mushroom:4",
+				100
+			],
+			"yMin": 2,
+			"yMax": 15,
+			"chance": 3,
+			"size": 75,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"minecraft:iron_ore",
+				65,
+				"minecraft:gold_ore",
+				15,
+				"thermalfoundation:ore:5",
+				15,
+				"metallurgy:manganese_ore",
+				5
+			],
+			"samples": [
+				"botania:mushroom:7",
+				100
+			],
+			"yMin": 4,
+			"yMax": 32,
+			"chance": 7,
+			"size": 150,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"thermalfoundation:ore:1",
+				90,
+				"metallurgy:zinc_ore",
+				10
+			],
+			"samples": [
+				"botania:mushroom:8",
+				100
+			],
+			"yMin": 32,
+			"yMax": 60,
+			"chance": 6,
+			"size": 125,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"minecraft:lapis_ore",
+				90,
+				"metallurgy:infuscolium_ore",
+				10
+			],
+			"samples": [
+				"botania:mushroom:11",
+				100
+			],
+			"yMin": 6,
+			"yMax": 32,
+			"chance": 3,
+			"size": 100,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"metallurgy:oureclase_ore",
+				49,
+				"metallurgy:orichalcum_ore",
+				49,
+				"metallurgy:adamantine_ore",
+				2
+			],
+			"samples": [
+				"botania:mushroom:12",
+				40
+			],
+			"yMin": 12,
+			"yMax": 44,
+			"chance": 3,
+			"size": 100,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"nuclearcraft:ore:4",
+				60,
+				"nuclearcraft:ore:3",
+				34,
+				"minecraft:emerald_ore",
+				5,
+				"metallurgy:lutetium_ore",
+				1
+			],
+			"samples": [
+				"botania:mushroom:13",
+				100
+			],
+			"yMin": 3,
+			"yMax": 20,
+			"chance": 5,
+			"size": 150,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0,
+			"biomes": [
+       "nuclearcraft:nuclear_wasteland"
+			],
+			"isWhitelist": true
+		},
+		{
+			"blocks": [
+				"minecraft:redstone_ore",
+				60,
+				"thaumcraft:ore_cinnabar",
+				20,
+				"thermalfoundation:ore_fluid:2",
+				15,
+				"metallurgy:rubracium_ore",
+				5
+			],
+			"samples": [
+				"botania:mushroom:14",
+				100
+			],
+			"yMin": 8,
+			"yMax": 43,
+			"chance": 3,
+			"size": 125,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"thaumcraft:ore_quartz",
+				50,
+				"appliedenergistics2:quartz_ore",
+				30,
+				"appliedenergistics2:charged_quartz_ore",
+				15,
+				"libvulpes:ore0",
+				5
+			],
+			"samples": [
+				"botania:mushroom",
+				100
+			],
+			"yMin": 16,
+			"yMax": 50,
+			"chance": 6,
+			"size": 100,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		}
+	],
+	"stones": [{
+			"block": "minecraft:stone:1",
+			"size": 40,
+			"chance": 10,
+			"yMin": 2,
+			"yMax": 70,
+			"dimBlacklist": [
+				-1,
+				1
+			]
+		},
+		{
+			"block": "minecraft:stone:3",
+			"size": 40,
+			"chance": 10,
+			"yMin": 2,
+			"yMax": 70,
+			"dimBlacklist": [
+				-1,
+				1
+			]
+		},
+		{
+			"block": "minecraft:stone:5",
+			"size": 40,
+			"chance": 10,
+			"yMin": 2,
+			"yMax": 70,
+			"dimBlacklist": [
+				-1,
+				1
+			]
+		}
+	]
+}

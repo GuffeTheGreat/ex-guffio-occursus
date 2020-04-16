@@ -1,0 +1,1 @@
+mods.jei.JEI.removeAndHide(<appliedenergistics2:facade>, false);
