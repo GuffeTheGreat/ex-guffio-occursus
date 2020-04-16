@@ -2,6 +2,7 @@ import mods.pyrotech.CrudeDryingRack;
 import mods.pyrotech.SoakingPot;
 import mods.pyrotech.DryingRack;
 import mods.pyrotech.GraniteAnvil;
+import mods.pyrotech.Chopping;
 
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
@@ -9,6 +10,11 @@ mods.jei.JEI.removeAndHide(<pyrotech:worktable_stone>);
 mods.jei.JEI.removeAndHide(<pyrotech:planks_tarred>);
 mods.jei.JEI.removeAndHide(<pyrotech:bucket_wood>);
 mods.jei.JEI.removeAndHide(<pyrotech:bucket_stone>);
+mods.jei.JEI.removeAndHide(<pyrotech:material:17>);
+
+//ClayBrickSwapping
+recipes.addShapeless("1x_item_pyrotech_unfired_brick_shapeless", <pyrotech:material:24>, [<betterwithmods:unfired_pottery:4>]);
+recipes.addShapeless("1x_item_pyrotech_unfired_brick_shapeless", <betterwithmods:unfired_pottery:4>, [<pyrotech:material:24>]);
 
 #DryingRack
 recipes.remove(<pyrotech:drying_rack>);
@@ -51,6 +57,7 @@ recipes.addShapedMirrored("pyrotech_tech/basic/anvil_granite_black", <pyrotech:a
 	[<ore:stoneSlab>]
 ]);
 //IroncladAnvil
+recipes.remove(<pyrotech:anvil_iron_plated>);
 recipes.addShapedMirrored("1x_tile_pyrotech_anvil_iron_plated_shaped", <pyrotech:anvil_iron_plated>, [
 	[<embers:plate_iron>],
 	[<pyrotech:anvil_granite>]
@@ -71,21 +78,39 @@ recipes.addShapedMirrored("pyrotech_tech/machine/bellows", <pyrotech:bellows>, [
 	[<betterwithmods:material:32>, <pyrotech:material:27>, <betterwithmods:material:32>],
 	[<pyrotech:stone_bricks>, null, <pyrotech:stone_bricks>]
 ]);
-//MechanicalBellow
+//Mechanicalmachines
+recipes.remove(<pyrotech:mechanical_bellows>);
+recipes.remove(<pyrotech:mechanical_hopper>);
+recipes.remove(<pyrotech:mechanical_bellows>);
 recipes.remove(<pyrotech:mechanical_bellows>);
 recipes.addShapedMirrored("pyrotech_tech/machine/mechanical_bellows", <pyrotech:mechanical_bellows>, [
 	[<pyrotech:material:23>, <ore:plateIron>, <pyrotech:material:23>],
 	[<pyrotech:material:27>, <pyrotech:bellows>, <pyrotech:material:27>],
 	[<immersiveengineering:treated_wood>, null, <immersiveengineering:treated_wood>]
 ]);
+recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_hopper_shaped", <pyrotech:mechanical_hopper>, [
+	[<pyrotech:material:16>, null, <pyrotech:material:16>],
+	[<immersiveengineering:treated_wood>, <pyrotech:material:27>, <immersiveengineering:treated_wood>],
+	[null, <pyrotech:material:16>, null]
+]);
+
+
+
+
 
 //CompactingBin
 recipes.remove(<pyrotech:compacting_bin>);
 recipes.addShapedMirrored(<pyrotech:compacting_bin>, [
     [<ore:cobblestone>, null, <ore:cobblestone>],
-    [<ore:woodensiding>, null, <ore:woodensiding>],
+    [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), null, <betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}})],
     [<ore:cobblestone>, <ore:slabWood>, <ore:cobblestone>]
 ]);
+
+//FlintAndTinder
+recipes.remove(<pyrotech:flint_and_tinder>);
+recipes.addShapeless("1x_item_pyrotech_flint_and_tinder_shapeless", <pyrotech:flint_and_tinder>, [<minecraft:flint>, <pyrotech:material:13>, <ore:rock>]);
+
+
 
 
 //StoneTorches
@@ -99,9 +124,10 @@ GraniteAnvil.addRecipe("soulforged_plate", <betterwithmods:material:51>, <better
 GraniteAnvil.addRecipe("thaumium_plate", <thaumcraft:plate:2>, <thaumcraft:ingot>, 8, "hammer");
 GraniteAnvil.addRecipe("void_plate", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 8, "hammer");
 GraniteAnvil.addRecipe("titaniumiridium_plate", <advancedrocketry:productplate:1>, <advancedrocketry:productingot:1>, 8, "hammer");
-GraniteAnvil.addRecipe("titaniumaluminide_plate",  <advancedrocketry:productplate:7>, <advancedrocketry:productingot>, 8, "hammer");
-GraniteAnvil.addRecipe("silicon_plate", <libvulpes:productplate:3>, <advancedrocketry:productingot:3>, 8, "hammer");
+GraniteAnvil.addRecipe("titaniumaluminide_plate",  <advancedrocketry:productplate>, <advancedrocketry:productingot>, 8, "hammer");
+GraniteAnvil.addRecipe("silicon_plate", <libvulpes:productplate:3>, <libvulpes:productingot:3>, 8, "hammer");
 GraniteAnvil.addRecipe("titanium_plate", <libvulpes:productplate:7>, <libvulpes:productingot:7>, 8, "hammer");
+GraniteAnvil.addRecipe("brass_plate", <thaumcraft:plate>, <thaumcraft:ingot:2>, 8, "hammer");
 
 //SoakingPotReecipes
 SoakingPot.addRecipe("treated_planks_from_planks", <immersiveengineering:treated_wood>, <liquid:wood_tar>*200, <ore:plankWood>, 2 * 60 * 20);
