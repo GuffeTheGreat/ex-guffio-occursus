@@ -83,11 +83,19 @@ recipes.remove(<pyrotech:mechanical_bellows>);
 recipes.remove(<pyrotech:mechanical_hopper>);
 recipes.remove(<pyrotech:mechanical_bellows>);
 recipes.remove(<pyrotech:mechanical_bellows>);
+//Bellow
 recipes.addShapedMirrored("pyrotech_tech/machine/mechanical_bellows", <pyrotech:mechanical_bellows>, [
 	[<pyrotech:material:23>, <ore:plateIron>, <pyrotech:material:23>],
 	[<pyrotech:material:27>, <pyrotech:bellows>, <pyrotech:material:27>],
 	[<immersiveengineering:treated_wood>, null, <immersiveengineering:treated_wood>]
+	]);
+//Mulcher
+recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_mulch_spreader_shaped", <pyrotech:mechanical_mulch_spreader>, [
+	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>],
+	[<pyrotech:mechanical_hopper>, <minecraft:dispenser>, <pyrotech:mechanical_hopper>],
+	[<pyrotech:stone_bricks>, <ore:plankTreatedWood>, <pyrotech:stone_bricks>]
 ]);
+//Hopper
 recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_hopper_shaped", <pyrotech:mechanical_hopper>, [
 	[<pyrotech:material:16>, null, <pyrotech:material:16>],
 	[<immersiveengineering:treated_wood>, <pyrotech:material:27>, <immersiveengineering:treated_wood>],

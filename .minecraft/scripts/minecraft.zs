@@ -6,6 +6,14 @@ recipes.addShapedMirrored("1x_tile_workbench_shaped", <minecraft:crafting_table>
 	[<ore:plankWood>,<ore:plankWood>]
 ]);
 
+//Piston
+recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
+	[<immersiveengineering:treated_wood>, <immersiveengineering:metal:38>, <immersiveengineering:treated_wood>],
+	[<minecraft:stone>, <betterwithmods:wooden_axle>, <minecraft:stone>],
+	[<minecraft:stone>, <betterwithmods:material:34>, <minecraft:stone>]
+]);
+
+
 //RemovePyrotechCobblestoneSlabRecipe
 recipes.remove(<minecraft:stone_slab:3>);
 
