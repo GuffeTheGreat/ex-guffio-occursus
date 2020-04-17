@@ -4,6 +4,7 @@ import mods.pyrotech.DryingRack;
 import mods.pyrotech.GraniteAnvil;
 import mods.pyrotech.Chopping;
 
+
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
 mods.jei.JEI.removeAndHide(<pyrotech:worktable_stone>);
@@ -11,6 +12,10 @@ mods.jei.JEI.removeAndHide(<pyrotech:planks_tarred>);
 mods.jei.JEI.removeAndHide(<pyrotech:bucket_wood>);
 mods.jei.JEI.removeAndHide(<pyrotech:bucket_stone>);
 mods.jei.JEI.removeAndHide(<pyrotech:material:17>);
+
+
+
+
 
 //ClayBrickSwapping
 recipes.addShapeless("1x_item_pyrotech_unfired_brick_shapeless", <pyrotech:material:24>, [<betterwithmods:unfired_pottery:4>]);
@@ -115,13 +120,7 @@ recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_hopper_shaped", <pyrotech
 
 
 
-//CompactingBin
-recipes.remove(<pyrotech:compacting_bin>);
-recipes.addShapedMirrored(<pyrotech:compacting_bin>, [
-    [<ore:cobblestone>, null, <ore:cobblestone>],
-    [<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}), null, <betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}})],
-    [<ore:cobblestone>, <ore:slabWood>, <ore:cobblestone>]
-]);
+
 
 //FlintAndTinder
 recipes.remove(<pyrotech:flint_and_tinder>);
@@ -169,3 +168,14 @@ DryingRack.addRecipe("sponge", <minecraft:sponge>, <minecraft:sponge:1>, 8 * 60 
 DryingRack.addRecipe("paper", <minecraft:paper>, <pyrotech:material:25>, 5 * 60 * 20);
 DryingRack.addRecipe("zombiejerky", <harvestcraft:zombiejerkyitem>, <minecraft:rotten_flesh>, 8 * 60 * 20);
 DryingRack.addRecipe("meatjerky", <harvestcraft:beefjerkyitem>, <ore:listAllmeatraw>, 8 * 60 * 20);
+
+
+#CompactingBin
+recipes.remove(<pyrotech:compacting_bin>);
+recipes.addShapedMirrored(<pyrotech:compacting_bin>, [
+    [<ore:cobblestone>, null, <ore:cobblestone>],
+    [<ore:plankWood>, null, <ore:plankWood>],
+    [<ore:cobblestone>, <ore:slabWood>, <ore:cobblestone>]
+]);
+
+

@@ -11,7 +11,7 @@
   "spawning": {
     "enabled": true,
     "spawners": [
-      "water"
+      "waterunderground"
     ],
     "disableSubspecies": false,
     "dimensionIds": [
@@ -89,9 +89,9 @@
       "chance": 1
     },
     {
-      "item": "minecraft:glowstone_dust",
+      "item": "harvestcraft:eelrawitem",
       "minAmount": 1,
-      "maxAmount": 8,
+      "maxAmount": 1,
       "chance": 1
     },
     {

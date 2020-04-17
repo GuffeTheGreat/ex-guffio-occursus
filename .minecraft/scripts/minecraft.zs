@@ -13,7 +13,12 @@ recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
 	[<ore:stone>, <betterwithmods:material:34>, <ore:stone>]
 ]);
 
-
+//Chest
+recipes.addShapedMirrored("chest",<minecraft:chest>, [
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, null, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
 //RemovePyrotechCobblestoneSlabRecipe
 recipes.remove(<minecraft:stone_slab:3>);
 

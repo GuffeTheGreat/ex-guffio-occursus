@@ -2,23 +2,14 @@
 //StoneSlabs
 <ore:stoneSlab>.addItems([<minecraft:stone_slab>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>]);
 
-//TreatedSidings
-<ore:treatedSiding>.addItems([<betterwithmods:siding_wood>.withTag({texture: {Properties: {type: "horizontal"}, Name: "immersiveengineering:treated_wood"}}), <betterwithmods:siding_wood>.withTag({texture: {Properties: {type: "vertical"}, Name: "immersiveengineering:treated_wood"}}), <betterwithmods:siding_wood>.withTag({texture: {Properties: {type: "packaged"}, Name: "immersiveengineering:treated_wood"}})]);
+<ore:plant>.addItems([<minecraft:tallgrass:*>, <minecraft:deadbush>, <minecraft:double_plant:*>,<minecraft:sapling:*>,<minecraft:yellow_flower>, <minecraft:red_flower:*>]);
 
-//TreatedMoulding
-<ore:treatedMoulding>.add(<betterwithmods:moulding_wood>.withTag({texture: {Properties: {type: "horizontal"}, Name: "immersiveengineering:treated_wood"}}));
-<ore:treatedMoulding>.add(<betterwithmods:moulding_wood>.withTag({texture: {Properties: {type: "vertical"}, Name: "immersiveengineering:treated_wood"}}));
-<ore:treatedMoulding>.add(<betterwithmods:moulding_wood>.withTag({texture: {Properties: {type: "packaged"}, Name: "immersiveengineering:treated_wood"}}));
+//RemoveAlchemicalBrass
+<ore:ingotBrass>.remove(<thaumcraft:ingot:2>);
+<ore:nuggetBrass>.remove(<thaumcraft:nugget:8>);
+<ore:plateBrass>.remove(<thaumcraft:plate>);
+<ore:blockBrass>.remove(<thaumcraft:metal_brass>);
 
-//TreatedCorner
-<ore:treatedCorner>.add(<betterwithmods:corner_wood>.withTag({texture: {Properties: {type: "horizontal"}, Name: "immersiveengineering:treated_wood"}}));
-<ore:treatedCorner>.add(<betterwithmods:corner_wood>.withTag({texture: {Properties: {type: "vertical"}, Name: "immersiveengineering:treated_wood"}}));
-<ore:treatedCorner>.add(<betterwithmods:corner_wood>.withTag({texture: {Properties: {type: "packaged"}, Name: "immersiveengineering:treated_wood"}}));
+<ore:blockMarble>.add(<undergroundbiomes:metamorphic_stone:2>);
+<ore:stoneMarble>.add(<undergroundbiomes:metamorphic_stone:2>);
 
-//WoodenSiding
-<ore:woodenSiding>.add(<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "oak"}, Name: "minecraft:planks"}}));
-<ore:woodenSiding>.add(<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "spruce"}, Name: "minecraft:planks"}}));
-<ore:woodenSiding>.add(<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "birch"}, Name: "minecraft:planks"}}));
-<ore:woodenSiding>.add(<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "jungle"}, Name: "minecraft:planks"}}));
-<ore:woodenSiding>.add(<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "acacia"}, Name: "minecraft:planks"}}));
-<ore:woodenSiding>.add(<betterwithmods:siding_wood>.withTag({texture: {Properties: {variant: "dark_oak"}, Name: "minecraft:planks"}}));
