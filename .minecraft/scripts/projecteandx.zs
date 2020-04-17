@@ -26,7 +26,7 @@ recipes.addShapedMirrored("1x_item_projectex_matter_pink_shaped", <projectex:mat
 recipes.remove(<projectex:matter:2>);
 recipes.addShapedMirrored("1x_item_projectex_matter_purple_shaped", <projectex:matter:2>, [
 	[<projectex:matter:1>, <projecte:item.pe_fuel:2>, <projectex:matter:1>],
-	[<projecte:item.pe_fuel:2>, <projecte:item.pe_klein_star:5>, <projecte:item.pe_fuel:2>],
+	[<projecte:item.pe_fuel:2>, <avaritia:block_resource:2>, <projecte:item.pe_fuel:2>],
 	[<projectex:matter:1>, <projecte:item.pe_fuel:2>, <projectex:matter:1>]
 ]);
 recipes.remove(<projectex:matter:3>);
@@ -50,7 +50,7 @@ recipes.addShapedMirrored("1x_item_projectex_matter_cyan_shaped", <projectex:mat
 recipes.remove(<projectex:matter:6>);
 recipes.addShapedMirrored("1x_item_projectex_matter_green_shaped", <projectex:matter:6>, [
 	[<projectex:matter:5>, <projecte:item.pe_fuel:2>, <projectex:matter:5>],
-	[<projecte:item.pe_fuel:2>, <projectex:magnum_star_omega>, <projecte:item.pe_fuel:2>],
+	[<projecte:item.pe_fuel:2>, <minecraft:stone>, <projecte:item.pe_fuel:2>],
 	[<projectex:matter:5>, <projecte:item.pe_fuel:2>, <projectex:matter:5>]
 ]);
 recipes.remove(<projectex:matter:7>);
@@ -79,26 +79,22 @@ recipes.addShapedMirrored("1x_item_projectex_matter_white_shaped", <projectex:ma
 ]);
 recipes.remove(<projectex:matter:11>);
 recipes.addShapedMirrored("1x_item_projectex_matter_fading_shaped", <projectex:matter:11>, [
-	[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>],
-	[<projectex:matter:10>, <tconstruct:materials:50>, <projectex:matter:10>],
-	[<projecte:fuel_block:2>, <projecte:fuel_block:2>, <projecte:fuel_block:2>]
+	[<projectex:matter:10>, <projecte:item.pe_fuel:2>, <projectex:matter:10>],
+	[<projecte:item.pe_fuel:2>, <avaritia:matter_cluster>, <projecte:item.pe_fuel:2>],
+	[<projectex:matter:10>, <projecte:item.pe_fuel:2>, <projectex:matter:10>]
 ]);
 
 
 
 
 
-//Finalstar
+
+
+//FinalstarShard
 recipes.remove(<projectex:final_star_shard>);
 recipes.addShapeless("1x_item_projectex_final_star_shard_shapeless", <projectex:final_star_shard>, [<projectex:colossal_star_sphere>, <projectex:matter:11>, <minecraft:nether_star>]);
 
 
-recipes.remove(<projectex:final_star>);
-recipes.addShapedMirrored("1x_item_projectex_final_star_shaped", <projectex:final_star>, [
-	[<projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>],
-	[<projectex:final_star_shard>, <projectex:colossal_star_omega>, <projectex:final_star_shard>],
-	[<projectex:final_star_shard>, <projectex:final_star_shard>, <projectex:final_star_shard>]
-]);
 
 
 

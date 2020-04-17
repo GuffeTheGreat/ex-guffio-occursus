@@ -8,11 +8,7 @@ recipes.addShapeless("6x_item_immersiveengineering_material_hemp_fiber_shapeless
 mods.betterwithmods.Mill.addRecipe([<betterwithmods:material:2>],[<immersiveengineering:material:4>*3]);
 
 //RedstoneLatch
-recipes.addShapedMirrored("1x_item_bwm:material_redstone_latch_shaped", <betterwithmods:material:34>, [
-	[null, null, null],
-	[<metallurgy:electrum_nugget>, <metallurgy:electrum_nugget>, <metallurgy:electrum_nugget>],
-	[null, <minecraft:redstone>, null]
-]);
+recipes.remove(<betterwithmods:material:34>);
 
 
 //Millstone

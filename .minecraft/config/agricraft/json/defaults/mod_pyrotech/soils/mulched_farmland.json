@@ -1,0 +1,18 @@
+{
+  "path": "mod_pyrotech/soils/mulched_farmland.json",
+  "enabled": true,
+  "id": "mulched_farmland",
+  "name": "Mulched Farmland",
+  "varients": [
+    {
+      "item": "pyrotech:farmland_mulched",
+      "meta": 0,
+      "tags": "",
+      "ignoreMeta": true,
+      "ignoreTags": [
+        "*"
+      ],
+      "useOreDict": true
+    }
+  ]
+}

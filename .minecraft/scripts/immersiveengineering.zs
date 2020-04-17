@@ -1,20 +1,4 @@
 
-//CokeBricks
-recipes.remove(<immersiveengineering:stone_decoration>*3);
-//CokeOvenRecipes
-#RemovedRecipes
-mods.immersiveengineering.CokeOven.removeRecipe(<minecraft:coal:1>);
-mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:material:6>);
-mods.immersiveengineering.CokeOven.removeRecipe(<immersiveengineering:stone_decoration:3>);
-
-//AlloyKiln
-recipes.remove(<immersiveengineering:stone_decoration:10>);
-recipes.addShapedMirrored("1x_tile_alloykiln_stone_decoration_alloy_shaped", <immersiveengineering:stone_decoration:10>, [
-	[<pyrotech:material:4>, <tconstruct:materials:2>, <pyrotech:material:4>],
-	[<tconstruct:materials:2>, <pyrotech:material:1>, <tconstruct:materials:2>],
-	[<pyrotech:material:4>, <tconstruct:materials:2>, <pyrotech:material:4>]
-]);
-
 //ChangeCraftingComponentBlueprintCausenoAluminium
 recipes.addShapedMirrored("1x_item_immersiveengineering_blueprint_shaped", <immersiveengineering:blueprint>.withTag({blueprint: "components"}), [
 	[<metallurgy:bronze_ingot>, <immersiveengineering:metal:6>, <minecraft:iron_ingot>],

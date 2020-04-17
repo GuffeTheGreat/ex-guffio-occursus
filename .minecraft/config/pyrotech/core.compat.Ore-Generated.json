@@ -85,24 +85,6 @@
         "thermalfoundation:material:196"
       ]
     },
-    "oreArdite": {
-      "slagColor": "e85e17",
-      "langKey": [
-        "tconstruct:tile.tconstruct.ore.ardite"
-      ],
-      "output": [
-        "tconstruct:nuggets:1"
-      ]
-    },
-    "oreCobalt": {
-      "slagColor": "1c5bc1",
-      "langKey": [
-        "tconstruct:tile.tconstruct.ore.cobalt"
-      ],
-      "output": [
-        "tconstruct:nuggets:0"
-      ]
-    },
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [

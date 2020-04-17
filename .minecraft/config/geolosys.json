@@ -10,8 +10,8 @@
 				"botania:mushroom:15",
 				100
 			],
-			"yMin": 50,
-			"yMax": 80,
+			"yMin": 30,
+			"yMax": 60,
 			"chance": 6,
 			"size":150,
 			"dimBlacklist": [
@@ -83,10 +83,7 @@
 				-1,
 				1
 			],
-			"density": 1.0,
-			"biomes": [
-			],
-			"isWhitelist": false
+			"density": 1.0
 		},
 		{
 			"blocks": [
@@ -101,13 +98,17 @@
 			],
 			"yMin": 2,
 			"yMax": 15,
-			"chance": 8,
+			"chance": 3,
 			"size": 75,
 			"dimBlacklist": [
 				-1,
 				1
 			],
-			"density": 1.0
+			"density": 1.0,
+            "biomes": [
+       "thaumcraft:magical_forest"
+			],
+			"isWhitelist": true
 		},
 		{
 			"blocks": [
@@ -197,7 +198,11 @@
 				-1,
 				1
 			],
-			"density": 1.0
+			"density": 1.0,
+            "biomes": [
+       "thaumcraft:magical_forest"
+			],
+			"isWhitelist": true
 		},
 		{
 			"blocks": [

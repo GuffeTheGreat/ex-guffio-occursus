@@ -13,7 +13,7 @@ Carving.addVariation("guidebooks", <guideapi:bloodmagic-guide>);
 Carving.addVariation("guidebooks", <guideapi:crossroads-info_guide>);
 Carving.addVariation("guidebooks", <guideapi:crossroads-crossroadsmainguide>);
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "mysticalworld:world_guide"}));
-Carving.addVariation("guidebooks", <tconstruct:book>);
+Carving.addVariation("guidebooks", <draconicevolution:info_tablet>);
 Carving.addVariation("guidebooks", <astralsorcery:itemjournal>);
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "pneumaticcraft:book"}));
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}));

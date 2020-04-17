@@ -16,6 +16,15 @@ mods.jei.JEI.removeAndHide(<pyrotech:material:17>);
 recipes.addShapeless("1x_item_pyrotech_unfired_brick_shapeless", <pyrotech:material:24>, [<betterwithmods:unfired_pottery:4>]);
 recipes.addShapeless("1x_item_pyrotech_unfired_brick_shapeless", <betterwithmods:unfired_pottery:4>, [<pyrotech:material:24>]);
 
+//PotashMulch
+recipes.remove(<pyrotech:mulch>);
+recipes.addShapedMirrored("4x_item_pyrotech_mulch_shaped", <pyrotech:mulch> * 4, [
+	[<pyrotech:rock:7>, <pyrotech:material>, <pyrotech:rock:7>],
+	[<metallurgy:potash>, <ore:mulchNitrogen>, <metallurgy:potash>],
+	[<pyrotech:rock:7>, <pyrotech:material>, <pyrotech:rock:7>]
+]);
+
+
 #DryingRack
 recipes.remove(<pyrotech:drying_rack>);
 recipes.addShapedMirrored("1x_tile_pyrotech_drying_rack_crude_shaped", <pyrotech:drying_rack>, [
@@ -149,27 +158,14 @@ CrudeDryingRack.addRecipe("dried_plant_fibers_from_plants", <pyrotech:material:1
 CrudeDryingRack.addRecipe("straw", <pyrotech:material:2>, <ore:listAllgrain>, 5 * 60 * 20);
 CrudeDryingRack.addRecipe("dried_plant_fibers_from_plant_fiber", <pyrotech:material:13>, <pyrotech:material:12>, 2 * 60 * 20);
 CrudeDryingRack.addRecipe("dried_soup", <harvestcraft:driedsoupitem>, <harvestcraft:stockitem>, 4 * 60 * 20);
-CrudeDryingRack.addRecipe("dried_bricks", <tconstruct:materials:2>, <pyrotech:material:24>, 5 * 60 * 20);
-CrudeDryingRack.addRecipe("dried_clay", <tconstruct:dried_clay>, <minecraft:clay>, 8 * 60 * 20);
 CrudeDryingRack.addRecipe("sponge", <minecraft:sponge>, <minecraft:sponge:1>, 8 * 60 * 20);
 CrudeDryingRack.addRecipe("paper", <minecraft:paper>, <pyrotech:material:25>, 5 * 60 * 20);
-CrudeDryingRack.addRecipe("fishone", <tconstruct:edible:20>, <minecraft:fish>, 8 * 60 * 20);
-CrudeDryingRack.addRecipe("fishtwo", <tconstruct:edible:21>, <minecraft:fish:1>, 8 * 60 * 20);
-CrudeDryingRack.addRecipe("fishthree", <tconstruct:edible:22>, <minecraft:fish:2>, 8 * 60 * 20);
-CrudeDryingRack.addRecipe("fishfour", <tconstruct:edible:23>, <minecraft:fish:3>, 8 * 60 * 20);
 CrudeDryingRack.addRecipe("zombiejerky", <harvestcraft:zombiejerkyitem>, <minecraft:rotten_flesh>, 8 * 60 * 20);
 CrudeDryingRack.addRecipe("meatjerky", <harvestcraft:beefjerkyitem>, <ore:listAllmeatraw>, 8 * 60 * 20);
 DryingRack.addRecipe("dried_plant_fibers_from_plants", <pyrotech:material:13>, <ore:plant>, 2 * 60 * 20);
 DryingRack.addRecipe("dried_plant_fibers_from_plant_fiber", <pyrotech:material:13>, <pyrotech:material:12>, 2 * 60 * 20);
 DryingRack.addRecipe("dried_soup", <harvestcraft:driedsoupitem>, <harvestcraft:stockitem>, 4 * 60 * 20);
-DryingRack.addRecipe("dried_bricks", <tconstruct:materials:2>, <pyrotech:material:24>, 5 * 60 * 20);
-DryingRack.addRecipe("dried_clay", <tconstruct:dried_clay>, <minecraft:clay>, 8 * 60 * 20);
 DryingRack.addRecipe("sponge", <minecraft:sponge>, <minecraft:sponge:1>, 8 * 60 * 20);
 DryingRack.addRecipe("paper", <minecraft:paper>, <pyrotech:material:25>, 5 * 60 * 20);
-DryingRack.addRecipe("fishone", <tconstruct:edible:20>, <minecraft:fish>, 8 * 60 * 20);
-DryingRack.addRecipe("fishtwo", <tconstruct:edible:21>, <minecraft:fish:1>, 8 * 60 * 20);
-DryingRack.addRecipe("fishthree", <tconstruct:edible:22>, <minecraft:fish:2>, 8 * 60 * 20);
-DryingRack.addRecipe("fishfour", <tconstruct:edible:23>, <minecraft:fish:3>, 8 * 60 * 20);
 DryingRack.addRecipe("zombiejerky", <harvestcraft:zombiejerkyitem>, <minecraft:rotten_flesh>, 8 * 60 * 20);
 DryingRack.addRecipe("meatjerky", <harvestcraft:beefjerkyitem>, <ore:listAllmeatraw>, 8 * 60 * 20);
-CrudeDryingRack.addRecipe("spaghetti", <tconstruct:spaghetti:2>, <tconstruct:spaghetti:1>, 30 * 60 * 20);
