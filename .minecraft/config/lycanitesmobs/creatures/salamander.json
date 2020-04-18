@@ -15,8 +15,8 @@
       "lava"
     ],
     "disableSubspecies": false,
-    "dimensionIds": [-1],
-    "dimensionListType": "whitelist",
+    "dimensionIds": [],
+    "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomes": [
       "all"

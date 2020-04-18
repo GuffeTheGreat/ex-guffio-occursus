@@ -10,9 +10,9 @@
     {
       "type": "world",
       "dimensionIds": [
-        0
+        4
       ],
-      "dimensionListType": "whitelist"
+      "dimensionListType": "blacklist"
     }
   ],
   "triggers": [

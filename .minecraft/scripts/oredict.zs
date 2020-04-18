@@ -4,11 +4,15 @@
 
 <ore:plant>.addItems([<minecraft:tallgrass:*>, <minecraft:deadbush>, <minecraft:double_plant:*>,<minecraft:sapling:*>,<minecraft:yellow_flower>, <minecraft:red_flower:*>]);
 
-//RemoveAlchemicalBrass
+//FixAlchemicalBrass
 <ore:ingotBrass>.remove(<thaumcraft:ingot:2>);
 <ore:nuggetBrass>.remove(<thaumcraft:nugget:8>);
 <ore:plateBrass>.remove(<thaumcraft:plate>);
 <ore:blockBrass>.remove(<thaumcraft:metal_brass>);
+<ore:ingotAlchemicalBrass>.add(<thaumcraft:ingot:2>);
+<ore:nuggetAlchemicalBrass>.add(<thaumcraft:nugget:8>);
+<ore:plateAlchemicalBrass>.add(<thaumcraft:plate>);
+<ore:blockAlchemicalBrass>.add(<thaumcraft:metal_brass>);
 
 <ore:blockMarble>.add(<undergroundbiomes:metamorphic_stone:2>);
 <ore:stoneMarble>.add(<undergroundbiomes:metamorphic_stone:2>);

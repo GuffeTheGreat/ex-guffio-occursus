@@ -143,12 +143,40 @@ GraniteAnvil.addRecipe("titaniumiridium_plate", <advancedrocketry:productplate:1
 GraniteAnvil.addRecipe("titaniumaluminide_plate",  <advancedrocketry:productplate>, <advancedrocketry:productingot>, 8, "hammer");
 GraniteAnvil.addRecipe("silicon_plate", <libvulpes:productplate:3>, <libvulpes:productingot:3>, 8, "hammer");
 GraniteAnvil.addRecipe("titanium_plate", <libvulpes:productplate:7>, <libvulpes:productingot:7>, 8, "hammer");
-GraniteAnvil.addRecipe("brass_plate", <thaumcraft:plate>, <thaumcraft:ingot:2>, 8, "hammer");
+GraniteAnvil.addRecipe("constantan_plate", <immersiveengineering:metal:36>, <thaumcraft:ingot:2>, 8, "hammer");
+GraniteAnvil.addRecipe("steel_plate", <immersiveengineering:metal:38>, <metallurgy:steel_ingot>, 8, "hammer");
+GraniteAnvil.addRecipe("bioplastic_plate", <emergingtechnology:plasticsheet>, <emergingtechnology:plasticblock>, 8, "hammer");
+GraniteAnvil.addRecipe("platinum_plate", <thermalfoundation:material:326>, <metallurgy:platinum_ingot>, 8, "hammer");
+GraniteAnvil.addRecipe("iridium_plate", <thermalfoundation:material:327>, <thermalfoundation:material:135>, 8, "hammer");
+GraniteAnvil.addRecipe("mana_plate", <thermalfoundation:material:136>, <emergingtechnology:plasticblock>, 8, "hammer");
+GraniteAnvil.addRecipe("invar_plate", <thermalfoundation:material:162>, <emergingtechnology:plasticblock>, 8, "hammer");
+GraniteAnvil.addRecipe("signalum_plate", <thermalfoundation:material:357>, <thermalfoundation:material:165>, 8, "hammer");
+GraniteAnvil.addRecipe("lumium_plate", <thermalfoundation:material:358>, <thermalfoundation:material:166>, 8, "hammer");
+GraniteAnvil.addRecipe("enderium_plate", <thermalfoundation:material:359>, <thermalfoundation:material:167>, 8, "hammer");
+GraniteAnvil.addRecipe("mithrillium_plate", <thaumadditions:mithrillium_plate>, <thaumadditions:mithrillium_ingot>, 8, "hammer");
+GraniteAnvil.addRecipe("adaminite_plate", <thaumadditions:adaminite_plate>, <thaumadditions:adaminite_ingot>, 8, "hammer");
+GraniteAnvil.addRecipe("mithminite_plate", <thaumadditions:mithminite_plate>, <thaumadditions:mithminite_ingot>, 8, "hammer");
+
 
 //SoakingPotReecipes
-SoakingPot.addRecipe("treated_planks_from_planks", <immersiveengineering:treated_wood>, <liquid:wood_tar>*200, <ore:plankWood>, 2 * 60 * 20);
-SoakingPot.addRecipe("treated_leather", <betterwithmods:material:6>, <liquid:wood_tar>*100, <betterwithmods:material:7>, 3 * 30 * 20);
+#RemovedRecipes
+SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
+SoakingPot.removeRecipes(<pyrotech:material:30>);
+SoakingPot.removeRecipes(<pyrotech:living_tar>);
+SoakingPot.removeRecipes(<minecraft:coal_block>);
+SoakingPot.removeRecipes(<pyrotech:material:23>);
+SoakingPot.removeRecipes(<pyrotech:wool_tarred>);
 SoakingPot.removeRecipes(<pyrotech:planks_tarred>);
+SoakingPot.removeRecipes(<pyrotech:material:26>);
+#TreatedRecipes
+SoakingPot.addRecipe("treated_planks_from_planks", <immersiveengineering:treated_wood>, <liquid:creosote>*200, <ore:plankWood>, 2 * 60 * 20);
+SoakingPot.addRecipe("treated_leather", <betterwithmods:material:6>, <liquid:creosote>*100, <betterwithmods:material:7>, 3 * 30 * 20);
+SoakingPot.addRecipe("tar_bale", <pyrotech:wood_tar_block>, <liquid:tar>*1000, <pyrotech:thatch>, 3 * 30 * 20);
+SoakingPot.addRecipe("treated_kindling", <pyrotech:material:30>, <liquid:creosote>*125, <pyrotech:material:29>, 3 * 30 * 20);
+SoakingPot.addRecipe("treated_board", <pyrotech:material:23>, <liquid:creosote>*50, <pyrotech:material:20>, 3 * 30 * 20);
+SoakingPot.addRecipe("durable_twine", <pyrotech:material:26>, <liquid:creosote>*125, <pyrotech:material:14>, 3 * 30 * 20);
+SoakingPot.addRecipe("treated_wool", <pyrotech:wool_tarred>, <liquid:creosote>*250, <ore:woolBlock>, 3 * 30 * 20);
+
 
 //DryingRecipes
 CrudeDryingRack.removeAllRecipes();

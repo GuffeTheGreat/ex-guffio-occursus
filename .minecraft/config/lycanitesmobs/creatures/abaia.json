@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAbaia",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAbaia",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -23,7 +23,7 @@
     "biomes": [
       "all"
     ],
-    "spawnWeight": 6,
+    "spawnWeight": 12,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
@@ -81,13 +81,6 @@
   "summonCost": 4,
   "dungeonLevel": 1,
   "drops": [
-    {
-      "item": "minecraft:fish",
-      "burningItem": "minecraft:cooked_fish",
-      "minAmount": 1,
-      "maxAmount": 5,
-      "chance": 1
-    },
     {
       "item": "harvestcraft:eelrawitem",
       "minAmount": 1,

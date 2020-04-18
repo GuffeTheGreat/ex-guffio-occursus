@@ -5,13 +5,13 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
 
-// Compressed Capacitor
-var compressedCapacitor as Item = VanillaFactory.createItem("compressed_capacitor");
-compressedCapacitor.register();
+// Life Essence
+var lifeEssence as Item = VanillaFactory.createItem("lifessence");
+lifeEssence.register();
 
-// Zarassium Crystal
-var zarassiumCrystal as Item = VanillaFactory.createItem("zarassium_crystal");
-zarassiumCrystal.register();
+// Defense Essence
+var DefenseEssence as Item = VanillaFactory.createItem("defenseessence");
+DefenseEssence.register();
 
 // Molten Zarassium
 var moltenZarassium as Item = VanillaFactory.createItem("molten_zarassium");

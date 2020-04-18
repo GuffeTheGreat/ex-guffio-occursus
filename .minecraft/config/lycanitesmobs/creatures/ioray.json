@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityIoray",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelIoray",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -15,13 +15,15 @@
     ],
     "disableSubspecies": false,
     "dimensionIds": [
-0
+      -1,
+      1
     ],
-    "dimensionListType": "whitelist",
+    "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomes": [
+      "ocean"
     ],
-    "spawnWeight": 4,
+    "spawnWeight": 6,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
     "spawnGroupMin": 1,
@@ -71,7 +73,7 @@
   "mountable": true,
   "summonCost": 4,
   "dungeonLevel": 2,
-  "drops": [W
+  "drops": [
     {
       "item": "minecraft:prismarine_shard",
       "minAmount": 1,
@@ -79,13 +81,13 @@
       "chance": 1
     },
     {
-      "item": "astralsorcery:itemcraftingcomponent",
+      "item": "minecraft:prismarine_crystals",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 0.5
     },
     {
-      "item": "minecraft:prismarine_crystals",
+      "item": "astralsorcery:itemcraftingcomponent",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 0.5
@@ -96,12 +98,6 @@
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 1
-    },
-    {
-      "item": "minecraft:diamond",
-      "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 0.25
     },
     {
       "item": "iceandfire:sapphire_gem",
