@@ -21,7 +21,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "ocean",
       "beach"
     ],
@@ -55,14 +55,19 @@
   "eggForeColor": "#BB2299",
   "subspecies": [
     {
-      "index": 1,
-      "name": "ashen",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "scarlet",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "ashen",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "scarlet",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "shadow",

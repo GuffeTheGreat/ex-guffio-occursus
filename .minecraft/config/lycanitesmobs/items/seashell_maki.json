@@ -13,7 +13,7 @@
       {
         "effectId": "lycanitesmobs:swiftswimming",
         "duration": 120,
-        "amplifier": 2,
+        "amplifier": 4,
         "chance": 1.0
       }
     ]

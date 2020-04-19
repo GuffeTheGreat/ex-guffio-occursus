@@ -10,7 +10,7 @@ mods.betterwithmods.Mill.addRecipe([<betterwithmods:material:2>],[<immersiveengi
 //RedstoneLatch
 recipes.remove(<betterwithmods:material:34>);
 //Woodengear
-recipes.addShapedMirrored("1x_item_bwm:material_gear_shaped", <betterwithmods:material>, [
+recipes.addShapedMirrored("1x_item_bwm_material_gear_shaped", <betterwithmods:material>, [
 	[<immersiveengineering:material>, <immersiveengineering:treated_wood>, <immersiveengineering:material>],
 	[<immersiveengineering:treated_wood>, null, <immersiveengineering:treated_wood>],
 	[<immersiveengineering:material>, <immersiveengineering:treated_wood>, <immersiveengineering:material>]
@@ -18,7 +18,7 @@ recipes.addShapedMirrored("1x_item_bwm:material_gear_shaped", <betterwithmods:ma
 
 //MechanicalSaw
 recipes.remove(<betterwithmods:saw>);
-recipes.addShapedMirrored("1x_tile_bwm:saw_shaped", <betterwithmods:saw>, [
+recipes.addShapedMirrored("1x_tile_bwm_saw_shaped", <betterwithmods:saw>, [
 	[<immersiveengineering:treated_wood>, <pyrotech:sawmill_blade_iron>, <immersiveengineering:treated_wood>],
 	[<betterwithmods:material>, <betterwithmods:material:9>, <betterwithmods:material>],
 	[<immersiveengineering:treated_wood>, <betterwithmods:material>, <immersiveengineering:treated_wood>]

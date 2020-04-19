@@ -19,7 +19,7 @@
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
@@ -50,14 +50,19 @@
   "eggForeColor": "#FF0000",
   "subspecies": [
     {
-      "index": 1,
-      "name": "verdant",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "azure",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "azure",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "nether",

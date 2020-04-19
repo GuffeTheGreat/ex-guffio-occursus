@@ -3,7 +3,7 @@
   "loadDefault": true,
   "slotType": "jewel",
   "dropMobId": "lycanitesmobs:spriggan",
-  "dropChance": 0.2,
+  "dropChance": 0.1,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [

@@ -12,7 +12,7 @@
     "effects": [
       {
         "effectId": "lycanitesmobs:bleed",
-        "duration": 10,
+        "duration": 20,
         "amplifier": 0,
         "chance": 1.0
       }

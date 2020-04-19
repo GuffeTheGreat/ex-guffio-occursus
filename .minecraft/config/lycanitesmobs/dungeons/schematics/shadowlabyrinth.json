@@ -17,6 +17,7 @@
         "spooky",
         "mountain",
         "swamp",
+        "nether",
         "end"
       ],
       "biomeTagListType": "whitelist"
@@ -32,7 +33,8 @@
     "roombasic",
     "roombasicloot",
     "roombasicmob",
-    "roombasicpit"
+    "roombasicpit",
+    "roomdiamondpit"
   ],
   "corridors": [
     "corridorbasic",
@@ -42,6 +44,9 @@
   ],
   "stairs": [
     "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
   ],
   "bossRooms": [
     "roombasicboss"
@@ -55,23 +60,23 @@
     },
     {
       "id": "minecraft:chests/village_blacksmith",
-      "level": 0
+      "level": 2
     },
     {
       "id": "minecraft:chests/nether_bridge",
-      "level": 1
+      "level": 3
     },
     {
       "id": "minecraft:chests/abandoned_mineshaft",
-      "level": 1
+      "level": 4
     },
     {
       "id": "minecraft:chests/stronghold_corridor",
-      "level": 2
+      "level": 5
     },
     {
       "id": "minecraft:chests/stronghold_crossing",
-      "level": 2
+      "level": 6
     }
   ],
   "mobSpawns": [
@@ -81,83 +86,114 @@
     },
     {
       "mobId": "lycanitesmobs:grue",
-      "weight": 8,
-      "dungeonLevelMin": "0"
+      "weight": 8
     },
     {
       "mobId": "lycanitesmobs:shade",
       "weight": 4,
-      "dungeonLevelMin": "1"
+      "dungeonLevelMin": 1
     },
     {
-      "mobId": "lycanitesmobs:chupacabra",
+      "mobId": "lycanitesmobs:gnekk",
       "weight": 4,
-      "dungeonLevelMin": "1"
+      "dungeonLevelMin": 3
     },
     {
       "mobId": "lycanitesmobs:darkling",
       "weight": 14,
-      "dungeonLevelMin": "1"
+      "dungeonLevelMin": 4
     },
     {
       "mobId": "lycanitesmobs:epion",
       "weight": 1,
-      "dungeonLevelMin": "2"
+      "dungeonLevelMin": 5
     },
     {
       "mobId": "lycanitesmobs:reaper",
       "weight": 1,
-      "dungeonLevelMin": "2"
+      "dungeonLevelMin": 5
     },
     {
-      "mobId": "lycanitesmobs:chupacabra",
+      "mobId": "lycanitesmobs:gnekk",
       "weight": 1,
-      "subspecies": 1,
-      "mobNameTag": "Shadow Hound",
+      "variant": 1,
+      "mobNameTag": "Precious",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 30,
+      "mobLevel": 50,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
-      "dungeonLevelMax": "0",
+      "dungeonLevelMax": 2,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "lycanitesmobs:bloodleechscepter"
+          "item": "minecraft:venomshotcharge",
+          "minAmount": 10,
+          "maxAmount": 20,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_imp",
+          "amountMultiplier": false
         }
       ]
     },
     {
       "mobId": "lycanitesmobs:shade",
       "weight": 1,
-      "subspecies": 1,
+      "variant": 1,
       "mobNameTag": "Chaos Serpent",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 50,
+      "mobLevel": 20,
       "spawnAsBoss": true,
-      "dungeonLevelMin": "1",
-      "dungeonLevelMax": "1",
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "lycanitesmobs:spectralboltscepter"
+          "item": "lycanitesmobs:spectralboltscepter",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_aberration",
+          "amountMultiplier": false
         }
       ]
     },
     {
       "mobId": "lycanitesmobs:grue",
       "weight": 1,
-      "subspecies": 3,
+      "variant": 3,
       "mobSizeScale": 1.5,
       "mobNameTag": "Night Shade",
       "naturalDespawn": "false",
+      "mobLevel": 10,
       "spawnAsBoss": true,
-      "dungeonLevelMin": "2",
+      "dungeonLevelMin": 5,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "lycanitesmobs:spectralboltscepter"
+          "item": "lycanitesmobs:grueclaw",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_undead",
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_arthropod",
+          "amountMultiplier": false
         }
       ]
     }

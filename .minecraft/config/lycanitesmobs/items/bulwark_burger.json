@@ -12,8 +12,8 @@
     "effects": [
       {
         "effectId": "minecraft:absorption",
-        "duration": 30,
-        "amplifier": 1,
+        "duration": 40,
+        "amplifier": 3,
         "chance": 1.0
       }
     ]

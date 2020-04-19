@@ -30,7 +30,8 @@
     "roombasic",
     "roombasicloot",
     "roombasicmob",
-    "roombasicpit"
+    "roombasicpit",
+    "roomdiamondpit"
   ],
   "corridors": [
     "corridorbasic",
@@ -40,6 +41,9 @@
   ],
   "stairs": [
     "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
   ],
   "bossRooms": [
     "roombasicboss"
@@ -53,23 +57,23 @@
     },
     {
       "id": "minecraft:chests/village_blacksmith",
-      "level": 0
+      "level": 2
     },
     {
       "id": "minecraft:chests/nether_bridge",
-      "level": 1
+      "level": 3
     },
     {
       "id": "minecraft:chests/abandoned_mineshaft",
-      "level": 1
+      "level": 4
     },
     {
       "id": "minecraft:chests/stronghold_corridor",
-      "level": 2
+      "level": 5
     },
     {
       "id": "minecraft:chests/stronghold_crossing",
-      "level": 2
+      "level": 6
     }
   ],
   "mobSpawns": [
@@ -83,84 +87,105 @@
     },
     {
       "mobId": "lycanitesmobs:geken",
-      "weight": 14
+      "weight": 14,
+      "dungeonLevelMin": 2
     },
     {
       "mobId": "lycanitesmobs:lurker",
       "weight": 6,
-      "dungeonLevelMin": "1"
+      "dungeonLevelMin": 2
     },
     {
       "mobId": "lycanitesmobs:spriggan",
       "weight": 8,
-      "dungeonLevelMin": "1"
+      "dungeonLevelMin": 3
     },
     {
       "mobId": "lycanitesmobs:sylph",
       "weight": 4,
-      "dungeonLevelMin": "2"
+      "dungeonLevelMin": 3
     },
     {
       "mobId": "lycanitesmobs:aglebemu",
       "weight": 4,
-      "dungeonLevelMin": "2"
+      "dungeonLevelMin": 4
     },
     {
       "mobId": "lycanitesmobs:eyewig",
       "weight": 4,
-      "dungeonLevelMin": "2"
+      "dungeonLevelMin": 5
     },
     {
       "mobId": "lycanitesmobs:conba",
       "weight": 1,
-      "subspecies": 1,
+      "variant": 1,
       "mobNameTag": "Pong Kong",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 30,
+      "mobLevel": 100,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
-      "dungeonLevelMax": "0",
+      "dungeonLevelMax": 2,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "lycanitesmobs:poopscepter"
+          "item": "lycanitesmobs:poopscepter",
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_plant",
+          "amountMultiplier": false
         }
       ]
     },
     {
       "mobId": "lycanitesmobs:jabberwock",
       "weight": 1,
-      "subspecies": 0,
+      "variant": 1,
       "mobNameTag": "Princess",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 50,
+      "mobLevel": 100,
       "spawnAsBoss": true,
-      "dungeonLevelMin": "1",
-      "dungeonLevelMax": "1",
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
       "dungeonBoss": true,
       "mobDrops": [
         {
           "item": "minecraft:diamond",
-          "minAmount": 10
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_avian",
+          "amountMultiplier": false
         }
       ]
     },
     {
       "mobId": "lycanitesmobs:beholder",
       "weight": 1,
-      "subspecies": 2,
+      "variant": 2,
       "mobSizeScale": 1.25,
       "mobNameTag": "Malevolent Observer",
       "naturalDespawn": "false",
       "mobLevel": 100,
       "spawnAsBoss": true,
-      "dungeonLevelMin": "2",
+      "dungeonLevelMin": 5,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "lycanitesmobs:arcanelaserstormscepter"
+          "item": "lycanitesmobs:arcanelaserstormscepter",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 50,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_aberration",
+          "amountMultiplier": false
         }
       ]
     }

@@ -2,7 +2,8 @@
   "name": "grue",
   "creatureType": "elemental",
   "groups": [
-    "monster"
+    "monster",
+    "dark"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGrue",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGrue",
@@ -19,7 +20,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
@@ -50,20 +51,25 @@
   "eggForeColor": "#BB44AA",
   "subspecies": [
     {
-      "index": 1,
-      "name": "scarlet",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "verdant",
-      "type": "uncommon"
-    },
-    {
-      "index": 3,
-      "name": "lunar",
-      "scale": 2,
-      "type": "rare"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 3,
+          "name": "lunar",
+          "scale": 2,
+          "type": "rare"
+        }
+      ]
     }
   ],
   "element": "shadow",
@@ -87,11 +93,11 @@
       "chance": 0.5
     },
     {
-      "item": "lycanitesmobs:soulstoneshadow",
+      "item": "lycanitesmobs:soulstone_undead",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1,
-      "subspecies": 3
+      "variant": 3
     }
   ],
   "sizeScale": 1,

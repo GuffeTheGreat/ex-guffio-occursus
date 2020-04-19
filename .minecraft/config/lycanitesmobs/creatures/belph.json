@@ -22,7 +22,7 @@
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
-    "biomes": [
+    "biomeTags": [
       "nether"
     ],
     "spawnWeight": 8,
@@ -55,14 +55,19 @@
   "eggForeColor": "#000000",
   "subspecies": [
     {
-      "index": 1,
-      "name": "scarlet",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "dark",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "dark",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "void",

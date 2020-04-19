@@ -1,7 +1,9 @@
 {
   "name": "wisp",
   "creatureType": "elemental",
-  "groups": [],
+  "groups": [
+    "light"
+  ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityWisp",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelWisp",
   "loadDefault": true,
@@ -16,7 +18,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 0,
     "spawnAreaLimit": 2,
@@ -47,14 +49,19 @@
   "eggForeColor": "#fefcef",
   "subspecies": [
     {
-      "index": 1,
-      "name": "azure",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "violet",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "light",
@@ -78,7 +85,7 @@
       "chance": 0.5
     },
     {
-      "item": "lycanitesmobs:lightball",
+      "item": "lycanitesmobs:lightballcharge",
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 1

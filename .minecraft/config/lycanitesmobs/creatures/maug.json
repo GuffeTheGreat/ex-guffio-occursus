@@ -21,7 +21,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "cold",
       "snowy",
       "coniferous",
@@ -57,14 +57,19 @@
   "eggForeColor": "#52504e",
   "subspecies": [
     {
-      "index": 1,
-      "name": "russet",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "dark",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "dark",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "frost",

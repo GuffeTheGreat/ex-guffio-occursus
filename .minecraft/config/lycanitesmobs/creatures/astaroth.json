@@ -23,7 +23,7 @@
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
-    "biomes": [
+    "biomeTags": [
       "nether",
       "end"
     ],
@@ -57,21 +57,25 @@
   "eggForeColor": "#0000FF",
   "subspecies": [
     {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "color": "golden",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "color": "scarlet",
+          "type": "uncommon"
+        }
+      ]
+    },
+    {
       "index": 1,
-      "color": "golden",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "color": "scarlet",
-      "type": "uncommon"
-    },
-    {
-      "index": 4,
-      "skin": "void",
-      "modelClass": "com.lycanitesmobs.client.model.creature.ModelAstarothVoid",
-      "type": "common",
       "priority": 1,
+      "name": "void",
+      "modelClass": "com.lycanitesmobs.client.model.creature.ModelAstarothVoid",
       "elements": [
         "void"
       ],
@@ -83,45 +87,17 @@
           ],
           "dimensionListType": "whitelist"
         }
-      ]
-    },
-    {
-      "index": 5,
-      "skin": "void",
-      "modelClass": "com.lycanitesmobs.client.model.creature.ModelAstarothVoid",
-      "color": "violet",
-      "type": "uncommon",
-      "priority": 1,
-      "elements": [
-        "void"
       ],
-      "conditions": [
+      "variants": [
         {
-          "type": "world",
-          "dimensionIds": [
-            1
-          ],
-          "dimensionListType": "whitelist"
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "skin": "void",
-      "modelClass": "com.lycanitesmobs.client.model.creature.ModelAstarothVoid",
-      "color": "keppel",
-      "type": "uncommon",
-      "priority": 1,
-      "elements": [
-        "void"
-      ],
-      "conditions": [
+          "index": 1,
+          "color": "violet",
+          "type": "uncommon"
+        },
         {
-          "type": "world",
-          "dimensionIds": [
-            1
-          ],
-          "dimensionListType": "whitelist"
+          "index": 2,
+          "color": "keppel",
+          "type": "uncommon"
         }
       ]
     }

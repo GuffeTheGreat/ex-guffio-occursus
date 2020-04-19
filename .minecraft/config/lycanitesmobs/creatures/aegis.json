@@ -15,7 +15,7 @@
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 0,
     "spawnAreaLimit": 5,
@@ -46,14 +46,19 @@
   "eggForeColor": "#f1f0dc",
   "subspecies": [
     {
-      "index": 1,
-      "name": "russet",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "dark",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "dark",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "order",

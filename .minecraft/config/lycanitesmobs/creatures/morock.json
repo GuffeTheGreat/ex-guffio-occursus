@@ -20,7 +20,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "plains",
       "savanna",
       "-snowy"
@@ -55,14 +55,19 @@
   "eggForeColor": "#554444",
   "subspecies": [
     {
-      "index": 1,
-      "name": "lux",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "verdant",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "lux",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "order",

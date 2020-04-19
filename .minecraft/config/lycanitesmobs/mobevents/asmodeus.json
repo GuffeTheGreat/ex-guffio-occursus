@@ -8,10 +8,8 @@
   "conditions": [
     {
       "type": "world",
-      "dimensionIds": [
-        -1
-      ],
-      "dimensionListType": "whitelist"
+      "dimensionIds": [],
+      "dimensionListType": "blacklist"
     }
   ],
   "levelBoostMax": 0,

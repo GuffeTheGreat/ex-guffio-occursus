@@ -4,7 +4,6 @@ import mods.pyrotech.DryingRack;
 import mods.pyrotech.GraniteAnvil;
 import mods.pyrotech.Chopping;
 
-
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
 mods.jei.JEI.removeAndHide(<pyrotech:worktable_stone>);
@@ -13,13 +12,9 @@ mods.jei.JEI.removeAndHide(<pyrotech:bucket_wood>);
 mods.jei.JEI.removeAndHide(<pyrotech:bucket_stone>);
 mods.jei.JEI.removeAndHide(<pyrotech:material:17>);
 
-
-
-
-
 //ClayBrickSwapping
-recipes.addShapeless("1x_item_pyrotech_unfired_brick_shapeless", <pyrotech:material:24>, [<betterwithmods:unfired_pottery:4>]);
-recipes.addShapeless("1x_item_pyrotech_unfired_brick_shapeless", <betterwithmods:unfired_pottery:4>, [<pyrotech:material:24>]);
+recipes.addShapeless("brickconversion1", <pyrotech:material:24>, [<betterwithmods:unfired_pottery:4>]);
+recipes.addShapeless("brickconversion2", <betterwithmods:unfired_pottery:4>, [<pyrotech:material:24>]);
 
 //PotashMulch
 recipes.remove(<pyrotech:mulch>);
@@ -30,13 +25,7 @@ recipes.addShapedMirrored("4x_item_pyrotech_mulch_shaped", <pyrotech:mulch> * 4,
 ]);
 
 
-#DryingRack
-recipes.remove(<pyrotech:drying_rack>);
-recipes.addShapedMirrored("1x_tile_pyrotech_drying_rack_crude_shaped", <pyrotech:drying_rack>, [
-	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>],
-	[<pyrotech:material:12>, <pyrotech:material:12>, <pyrotech:material:12>],
-	[<ore:slabWood>, <ore:slabWood>, <ore:slabWood>]
-]);
+
 recipes.remove(<pyrotech:drying_rack:1>);
 recipes.addShapedMirrored("pyrotech_tech/basic/drying_rack.normal", <pyrotech:drying_rack:1>, [
 	[<immersiveengineering:material>, <pyrotech:material:26>, <immersiveengineering:material>],
@@ -48,13 +37,7 @@ recipes.addShapedMirrored("pyrotech_tech/basic/drying_rack.normal", <pyrotech:dr
 recipes.remove(<pyrotech:material:12>);
 recipes.addShapeless("1x_item_pyrotech_plant_fibers_shapeless", <pyrotech:material:12>, [<ore:plant>]);
 
-//PitKiln
-recipes.remove(<pyrotech:kiln_pit>);
-recipes.addShapedMirrored("pyrotech_tech/basic/kiln_pit", <pyrotech:kiln_pit>, [
-	[null, null, null],
-	[<pyrotech:material:13>, null, <pyrotech:material:13>],
-	[<pyrotech:material:2>, <pyrotech:thatch>, <pyrotech:material:2>]
-]);
+
 
 //GraniteAnvil
 recipes.remove(<pyrotech:anvil_granite>);
@@ -187,15 +170,15 @@ CrudeDryingRack.addRecipe("dried_plant_fibers_from_plant_fiber", <pyrotech:mater
 CrudeDryingRack.addRecipe("dried_soup", <harvestcraft:driedsoupitem>, <harvestcraft:stockitem>, 4 * 60 * 20);
 CrudeDryingRack.addRecipe("sponge", <minecraft:sponge>, <minecraft:sponge:1>, 8 * 60 * 20);
 CrudeDryingRack.addRecipe("paper", <minecraft:paper>, <pyrotech:material:25>, 5 * 60 * 20);
-CrudeDryingRack.addRecipe("zombiejerky", <harvestcraft:zombiejerkyitem>, <minecraft:rotten_flesh>, 8 * 60 * 20);
-CrudeDryingRack.addRecipe("meatjerky", <harvestcraft:beefjerkyitem>, <ore:listAllmeatraw>, 8 * 60 * 20);
+CrudeDryingRack.addRecipe("zombiejerky", <harvestcraft:zombiejerkyitem>, <minecraft:rotten_flesh>, 5 * 60 * 20);
+CrudeDryingRack.addRecipe("meatjerky", <harvestcraft:beefjerkyitem>, <ore:listAllmeatraw>, 4 * 60 * 20);
 DryingRack.addRecipe("dried_plant_fibers_from_plants", <pyrotech:material:13>, <ore:plant>, 2 * 60 * 20);
 DryingRack.addRecipe("dried_plant_fibers_from_plant_fiber", <pyrotech:material:13>, <pyrotech:material:12>, 2 * 60 * 20);
 DryingRack.addRecipe("dried_soup", <harvestcraft:driedsoupitem>, <harvestcraft:stockitem>, 4 * 60 * 20);
 DryingRack.addRecipe("sponge", <minecraft:sponge>, <minecraft:sponge:1>, 8 * 60 * 20);
 DryingRack.addRecipe("paper", <minecraft:paper>, <pyrotech:material:25>, 5 * 60 * 20);
-DryingRack.addRecipe("zombiejerky", <harvestcraft:zombiejerkyitem>, <minecraft:rotten_flesh>, 8 * 60 * 20);
-DryingRack.addRecipe("meatjerky", <harvestcraft:beefjerkyitem>, <ore:listAllmeatraw>, 8 * 60 * 20);
+DryingRack.addRecipe("zombiejerky", <harvestcraft:zombiejerkyitem>, <minecraft:rotten_flesh>, 5 * 60 * 20);
+DryingRack.addRecipe("meatjerky", <harvestcraft:beefjerkyitem>, <ore:listAllmeatraw>, 4 * 60 * 20);
 
 
 #CompactingBin

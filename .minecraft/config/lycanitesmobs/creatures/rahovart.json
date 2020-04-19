@@ -17,7 +17,7 @@
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "nether"
     ],
     "spawnWeight": 1,
@@ -51,14 +51,19 @@
   "boss": true,
   "subspecies": [
     {
-      "index": 1,
-      "name": "lux",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "dark",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "lux",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "dark",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "nether",
@@ -99,13 +104,13 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:doomfirecharge",
+      "item": "lycanitesmobs:doomfireballcharge",
       "minAmount": 10,
       "maxAmount": 20,
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:hellfirecharge",
+      "item": "lycanitesmobs:hellfireballcharge",
       "minAmount": 10,
       "maxAmount": 20,
       "chance": 1
@@ -135,9 +140,9 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:soulstonedemonic",
-      "minAmount": 1,
-      "maxAmount": 3,
+      "item": "lycanitesmobs:soulstone_demon",
+      "minAmount": 2,
+      "maxAmount": 6,
       "chance": 1
     },
     {

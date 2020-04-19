@@ -23,7 +23,7 @@
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
-    "biomes": [
+    "biomeTags": [
       "nether",
       "end"
     ],
@@ -57,21 +57,25 @@
   "eggForeColor": "#000000",
   "subspecies": [
     {
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "color": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "color": "lux",
+          "type": "uncommon"
+        }
+      ]
+    },
+    {
       "index": 1,
-      "name": "verdant",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "lux",
-      "type": "uncommon"
-    },
-    {
-      "index": 4,
-      "skin": "void",
-      "modelClass": "com.lycanitesmobs.client.model.creature.ModelTriteVoid",
-      "type": "common",
       "priority": 1,
+      "name": "void",
+      "modelClass": "com.lycanitesmobs.client.model.creature.ModelTriteVoid",
       "elements": [
         "void"
       ],
@@ -83,45 +87,17 @@
           ],
           "dimensionListType": "whitelist"
         }
-      ]
-    },
-    {
-      "index": 5,
-      "skin": "void",
-      "modelClass": "com.lycanitesmobs.client.model.creature.ModelTriteVoid",
-      "color": "ashen",
-      "type": "uncommon",
-      "priority": 1,
-      "elements": [
-        "void"
       ],
-      "conditions": [
+      "variants": [
         {
-          "type": "world",
-          "dimensionIds": [
-            1
-          ],
-          "dimensionListType": "whitelist"
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "skin": "void",
-      "modelClass": "com.lycanitesmobs.client.model.creature.ModelTriteVoid",
-      "color": "azure",
-      "type": "uncommon",
-      "priority": 1,
-      "elements": [
-        "void"
-      ],
-      "conditions": [
+          "index": 1,
+          "color": "ashen",
+          "type": "uncommon"
+        },
         {
-          "type": "world",
-          "dimensionIds": [
-            1
-          ],
-          "dimensionListType": "whitelist"
+          "index": 2,
+          "color": "azure",
+          "type": "uncommon"
         }
       ]
     }

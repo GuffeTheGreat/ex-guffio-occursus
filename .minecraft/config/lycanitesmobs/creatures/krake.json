@@ -24,10 +24,8 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
-      "forest",
+    "biomeTags": [
       "river",
-      "-mountain",
       "-snowy"
     ],
     "spawnWeight": 8,
@@ -60,14 +58,19 @@
   "eggForeColor": "#3D6999",
   "subspecies": [
     {
-      "index": 1,
-      "name": "keppel",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "lux",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "keppel",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "lux",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "elements": [

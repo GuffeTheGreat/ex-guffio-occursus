@@ -11,12 +11,13 @@
   "spawning": {
     "enabled": true,
     "spawners": [
+      "water"
     ],
     "disableSubspecies": false,
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
@@ -47,14 +48,19 @@
   "eggForeColor": "#4444FF",
   "subspecies": [
     {
-      "index": 1,
-      "name": "lux",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "keppel",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "lux",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "keppel",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "water",

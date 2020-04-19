@@ -20,7 +20,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "swamp",
       "spooky",
       "jungle"
@@ -55,14 +55,19 @@
   "eggForeColor": "#994499",
   "subspecies": [
     {
-      "index": 1,
-      "name": "azure",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "russet",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "russet",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "arbour",

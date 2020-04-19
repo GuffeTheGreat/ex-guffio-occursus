@@ -20,7 +20,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "ocean"
     ],
     "spawnWeight": 1,
@@ -53,14 +53,19 @@
   "eggForeColor": "#99FFBB",
   "subspecies": [
     {
-      "index": 1,
-      "name": "ashen",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "golden",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "ashen",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "earth",

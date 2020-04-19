@@ -12,8 +12,8 @@
     "effects": [
       {
         "effectId": "lycanitesmobs:leech",
-        "duration": 60,
-        "amplifier": 0,
+        "duration": 30,
+        "amplifier": 1,
         "chance": 1.0
       }
     ]

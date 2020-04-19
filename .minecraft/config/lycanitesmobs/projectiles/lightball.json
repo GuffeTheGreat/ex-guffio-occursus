@@ -13,11 +13,20 @@
   "effectAmplifier": 1,
   "velocity": 0.8,
   "weight": 0,
-  "lifetime": 200,
+  "lifetime": 100,
   "elements": [
     "light"
   ],
-  "behaviours": [],
+  "behaviours": [
+    {
+      "type": "catch",
+      "catchEntityIds": [
+        "lycanitesmobs:wisp"
+      ],
+      "resetAttackCooldown": true,
+      "preventDamage": true
+    }
+  ],
   "waterproof": true,
   "lavaproof": false,
   "cutGrass": false,

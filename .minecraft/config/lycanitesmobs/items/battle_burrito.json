@@ -13,25 +13,25 @@
       {
         "effectId": "minecraft:strength",
         "duration": 120,
-        "amplifier": 0,
+        "amplifier": 3,
         "chance": 1.0
       },
       {
         "effectId": "minecraft:absorption",
         "duration": 120,
-        "amplifier": 0,
+        "amplifier": 3,
         "chance": 1.0
       },
       {
         "effectId": "minecraft:resistance",
         "duration": 60,
-        "amplifier": 0,
+        "amplifier": 1,
         "chance": 1.0
       },
       {
         "effectId": "minecraft:regeneration",
         "duration": 20,
-        "amplifier": 0,
+        "amplifier": 1,
         "chance": 1.0
       },
       {

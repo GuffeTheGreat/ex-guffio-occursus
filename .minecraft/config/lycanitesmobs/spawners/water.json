@@ -2,7 +2,7 @@
   "name": "water",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 4,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,
@@ -27,6 +27,7 @@
         48,
         48
       ],
+      "yMin": 30,
       "sorting": "random",
       "limit": 32,
       "blocks": [

@@ -3,7 +3,7 @@
   "loadDefault": true,
   "slotType": "head",
   "dropMobId": "lycanitesmobs:banshee",
-  "dropChance": 0.2,
+  "dropChance": 0.05,
   "levelMin": 2,
   "levelMax": 3,
   "elements": [

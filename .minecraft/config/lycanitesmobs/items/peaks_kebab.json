@@ -12,7 +12,7 @@
     "effects": [
       {
         "effectId": "minecraft:haste",
-        "duration": 60,
+        "duration": 90,
         "amplifier": 2,
         "chance": 1.0
       }

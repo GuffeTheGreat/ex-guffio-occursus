@@ -3,7 +3,7 @@
   "loadDefault": true,
   "slotType": "jewel",
   "dropMobId": "lycanitesmobs:wisp",
-  "dropChance": 0.2,
+  "dropChance": 0.05,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [

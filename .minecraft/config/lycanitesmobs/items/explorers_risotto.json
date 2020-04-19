@@ -13,13 +13,13 @@
       {
         "effectId": "minecraft:speed",
         "duration": 120,
-        "amplifier": 2,
+        "amplifier": 3,
         "chance": 1.0
       },
       {
         "effectId": "minecraft:haste",
         "duration": 120,
-        "amplifier": 2,
+        "amplifier": 3,
         "chance": 1.0
       },
       {
@@ -31,7 +31,7 @@
       {
         "effectId": "lycanitesmobs:swiftswimming",
         "duration": 120,
-        "amplifier": 2,
+        "amplifier": 4,
         "chance": 1.0
       },
       {
@@ -43,7 +43,7 @@
       {
         "effectId": "lycanitesmobs:fallresist",
         "duration": 120,
-        "amplifier": 0,
+        "amplifier": 1,
         "chance": 1.0
       }
     ]

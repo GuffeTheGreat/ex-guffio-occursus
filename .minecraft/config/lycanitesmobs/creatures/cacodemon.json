@@ -20,7 +20,7 @@
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
-    "biomes": [
+    "biomeTags": [
       "nether"
     ],
     "spawnWeight": 4,
@@ -34,8 +34,8 @@
     "despawnNatural": true,
     "despawnForced": false
   },
-  "width": 1.9,
-  "height": 1.9,
+  "width": 2.5,
+  "height": 2.5,
   "experience": 10,
   "health": 20,
   "defense": 1,
@@ -53,20 +53,25 @@
   "eggForeColor": "#000099",
   "subspecies": [
     {
-      "index": 1,
-      "name": "russet",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "violet",
-      "type": "uncommon"
-    },
-    {
-      "index": 3,
-      "name": "ebon",
-      "scale": 2,
-      "type": "rare"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        },
+        {
+          "index": 3,
+          "name": "ebon",
+          "scale": 2,
+          "type": "rare"
+        }
+      ]
     }
   ],
   "element": "nether",
@@ -107,11 +112,11 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:soulstonedemonic",
+      "item": "lycanitesmobs:soulstone_demon",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1,
-      "subspecies": 3
+      "variant": 3
     }
   ],
   "sizeScale": 1,

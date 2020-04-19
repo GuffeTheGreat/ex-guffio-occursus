@@ -2,7 +2,8 @@
   "name": "shade",
   "creatureType": "aberration",
   "groups": [
-    "monster"
+    "monster",
+    "dark"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityShade",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelShade",
@@ -19,7 +20,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 2,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
@@ -50,14 +51,19 @@
   "eggForeColor": "#102336",
   "subspecies": [
     {
-      "index": 1,
-      "name": "keppel",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "russet",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "keppel",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "russet",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "void",

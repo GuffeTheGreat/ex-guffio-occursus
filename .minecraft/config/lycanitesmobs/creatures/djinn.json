@@ -18,7 +18,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
@@ -49,14 +49,19 @@
   "eggForeColor": "#f0f1f1",
   "subspecies": [
     {
-      "index": 1,
-      "name": "ashen",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "violet",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "ashen",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "violet",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "air",

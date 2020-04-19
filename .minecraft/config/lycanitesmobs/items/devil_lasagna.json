@@ -13,7 +13,7 @@
       {
         "effectId": "minecraft:strength",
         "duration": 60,
-        "amplifier": 0,
+        "amplifier": 2,
         "chance": 1.0
       }
     ]

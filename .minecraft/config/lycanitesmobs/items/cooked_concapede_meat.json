@@ -12,13 +12,13 @@
     "effects": [
       {
         "effectId": "minecraft:jump_boost",
-        "duration": 10,
+        "duration": 20,
         "amplifier": 2,
         "chance": 1.0
       },
       {
         "effectId": "lycanitesmobs:fallresist",
-        "duration": 10,
+        "duration": 20,
         "amplifier": 0,
         "chance": 1.0
       }

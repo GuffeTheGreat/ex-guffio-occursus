@@ -21,7 +21,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "mountain"
     ],
     "spawnWeight": 16,
@@ -54,14 +54,19 @@
   "eggForeColor": "#FFDD77",
   "subspecies": [
     {
-      "index": 1,
-      "name": "lux",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "golden",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "lux",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "earth",
@@ -81,6 +86,12 @@
       "burningItem": "lycanitesmobs:cooked_yale_meat",
       "minAmount": 1,
       "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "minecraft:wool",
+      "minAmount": 1,
+      "maxAmount": 1,
       "chance": 1
     }
   ],

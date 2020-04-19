@@ -15,7 +15,7 @@
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "spooky"
     ],
     "spawnWeight": 1,
@@ -49,14 +49,19 @@
   "boss": true,
   "subspecies": [
     {
-      "index": 1,
-      "name": "russet",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "ashen",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "ashen",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "elements": [
@@ -147,7 +152,19 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:soulstoneshadow",
+      "item": "lycanitesmobs:soulstone_undead",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_aberration",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:soulstone_beast",
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 1

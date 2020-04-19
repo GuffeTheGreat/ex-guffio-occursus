@@ -29,6 +29,22 @@
   ],
   "wall": [
     {
+      "layer": -1,
+      "tileHorizontal": true,
+      "centerHorizontal": true,
+      "tileVertical": true,
+      "centerVertical": false,
+      "pattern": [
+        "3222222222222223",
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003",
+        "3000000000000003",
+        "3222222222222223"
+      ]
+    },
+    {
       "layer": 0,
       "tileHorizontal": true,
       "centerHorizontal": true,

@@ -20,7 +20,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
@@ -51,14 +51,19 @@
   "eggForeColor": "#822b9e",
   "subspecies": [
     {
-      "index": 1,
-      "name": "dark",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "lux",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "dark",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "lux",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "chaos",
@@ -99,8 +104,8 @@
     {
       "item": "lycanitesmobs:chaosorbcharge",
       "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 0.1
+      "maxAmount": 2,
+      "chance": 0.5
     }
   ],
   "sizeScale": 1,

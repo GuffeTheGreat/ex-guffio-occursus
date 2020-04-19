@@ -23,7 +23,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "cold",
       "snowy",
       "coniferous",
@@ -59,14 +59,19 @@
   "eggForeColor": "#0000BB",
   "subspecies": [
     {
-      "index": 1,
-      "name": "azure",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "verdant",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "verdant",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "frost",

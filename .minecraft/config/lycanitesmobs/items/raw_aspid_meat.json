@@ -12,8 +12,8 @@
     "effects": [
       {
         "effectId": "minecraft:poison",
-        "duration": 10,
-        "amplifier": 0,
+        "duration": 20,
+        "amplifier": 1,
         "chance": 1.0
       }
     ]

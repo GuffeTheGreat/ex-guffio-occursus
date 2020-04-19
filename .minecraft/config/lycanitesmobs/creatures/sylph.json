@@ -2,7 +2,8 @@
   "name": "sylph",
   "creatureType": "elemental",
   "groups": [
-    "guardian"
+    "guardian",
+    "light"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySylph",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSylph",
@@ -18,7 +19,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
@@ -50,14 +51,19 @@
   "eggForeColor": "#e8fdff",
   "subspecies": [
     {
-      "index": 1,
-      "name": "verdant",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "golden",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "verdant",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "aether",

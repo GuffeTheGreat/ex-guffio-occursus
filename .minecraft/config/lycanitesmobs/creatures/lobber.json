@@ -17,7 +17,7 @@
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "all"
     ],
     "spawnWeight": 2,
@@ -50,20 +50,25 @@
   "eggForeColor": "#FF5500",
   "subspecies": [
     {
-      "index": 1,
-      "name": "azure",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "scarlet",
-      "type": "uncommon"
-    },
-    {
-      "index": 3,
-      "name": "umber",
-      "scale": 2,
-      "type": "rare"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 3,
+          "name": "umber",
+          "scale": 2,
+          "type": "rare"
+        }
+      ]
     }
   ],
   "elements": [
@@ -104,11 +109,11 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:soulstoneinferno",
+      "item": "lycanitesmobs:soulstone_imp",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1,
-      "subspecies": 3
+      "variant": 3
     }
   ],
   "sizeScale": 1,

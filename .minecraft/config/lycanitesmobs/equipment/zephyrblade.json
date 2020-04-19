@@ -3,7 +3,7 @@
   "loadDefault": true,
   "slotType": "blade",
   "dropMobId": "lycanitesmobs:zephyr",
-  "dropChance": 0.1,
+  "dropChance": 0.2,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [

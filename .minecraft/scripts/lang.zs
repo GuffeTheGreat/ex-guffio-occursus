@@ -9,4 +9,6 @@
 <betterwithmods:leather_tanned_boots>.displayName = "Treated Leather Boots";
 <betterwithmods:material:32>.displayName = "Cut Leather (Treated)";
 <betterwithmods:material:2>.displayName = "Industrial Hemp";
-
+//<liquid:rubber>.displayName = "Liquid Sticky Resin";
+<thebetweenlands:syrmorite_bucket_solid_rubber>.displayName = "Syrmorite Bucket With Solid Sticky Resin";
+<thebetweenlands:items_misc:23>.displayName = "Sticky Resin";

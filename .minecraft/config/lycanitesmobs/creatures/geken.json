@@ -21,7 +21,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "jungle",
       "swamp"
     ],
@@ -55,14 +55,19 @@
   "eggForeColor": "#FFFF00",
   "subspecies": [
     {
-      "index": 1,
-      "name": "scarlet",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "keppel",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "keppel",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "fae",

@@ -27,9 +27,9 @@
       "featureType": "harvest",
       "levelMin": 2,
       "levelMax": 2,
-      "harvestType": "cross",
+      "harvestType": "pickaxe",
       "harvestSpeed": 7,
-      "harvestShape": "block",
+      "harvestShape": "cross",
       "harvestRange": [
         5,
         5,
@@ -42,7 +42,7 @@
       "harvestType": "pickaxe",
       "levelMin": 3,
       "harvestSpeed": 8,
-      "harvestShape": "block",
+      "harvestShape": "cross",
       "harvestRange": [
         7,
         7,

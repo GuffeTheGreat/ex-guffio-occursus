@@ -2,9 +2,9 @@
   "name": "predator",
   "loadDefault": true,
   "hunt": [
-    "humanoid",
     "animal",
-    "critter"
+    "critter",
+    "humanoid"
   ],
   "pack": [
     "alpha"

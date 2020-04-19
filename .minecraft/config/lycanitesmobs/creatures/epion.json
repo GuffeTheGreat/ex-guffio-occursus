@@ -17,7 +17,7 @@
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "spooky",
       "end"
     ],
@@ -51,19 +51,24 @@
   "eggForeColor": "#FF22DD",
   "subspecies": [
     {
-      "index": 1,
-      "name": "azure",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "russet",
-      "type": "uncommon"
-    },
-    {
-      "index": 3,
-      "name": "crimson",
-      "type": "rare"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "russet",
+          "type": "uncommon"
+        },
+        {
+          "index": 3,
+          "name": "crimson",
+          "type": "rare"
+        }
+      ]
     }
   ],
   "element": "void",
@@ -98,11 +103,11 @@
       "chance": 1
     },
     {
-      "item": "lycanitesmobs:soulstoneshadow",
+      "item": "lycanitesmobs:soulstone_aberration",
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1,
-      "subspecies": 3
+      "variant": 3
     }
   ],
   "sizeScale": 1,
@@ -110,7 +115,7 @@
   "flags": [
     {
       "name": "griefing",
-      "value": true
+      "value": false
     }
   ]
 }

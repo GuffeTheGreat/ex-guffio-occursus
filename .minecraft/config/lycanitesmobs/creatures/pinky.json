@@ -24,7 +24,7 @@
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": true,
-    "biomes": [
+    "biomeTags": [
       "nether",
       "end"
     ],
@@ -59,23 +59,37 @@
   "eggForeColor": "#990000",
   "subspecies": [
     {
+      "index": 0,
+      "mountOffset": [
+        0,
+        1.0,
+        0
+      ],
+      "variants": [
+        {
+          "index": 1,
+          "name": "ashen",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "scarlet",
+          "type": "uncommon"
+        }
+      ]
+    },
+    {
       "index": 1,
-      "name": "ashen",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "scarlet",
-      "type": "uncommon"
-    },
-    {
-      "index": 4,
-      "skin": "moloch",
-      "modelClass": "com.lycanitesmobs.client.model.creature.ModelPinkyMoloch",
-      "type": "common",
       "priority": 1,
+      "name": "moloch",
+      "modelClass": "com.lycanitesmobs.client.model.creature.ModelPinkyMoloch",
       "elements": [
         "void"
+      ],
+      "mountOffset": [
+        0,
+        1.0,
+        0
       ],
       "conditions": [
         {
@@ -86,60 +100,17 @@
           "dimensionListType": "whitelist"
         }
       ],
-      "mountOffset": [
-        0,
-        1.0,
-        0
-      ]
-    },
-    {
-      "index": 5,
-      "skin": "moloch",
-      "modelClass": "com.lycanitesmobs.client.model.creature.ModelPinkyMoloch",
-      "color": "verdant",
-      "type": "uncommon",
-      "priority": 1,
-      "elements": [
-        "void"
-      ],
-      "conditions": [
+      "variants": [
         {
-          "type": "world",
-          "dimensionIds": [
-            1
-          ],
-          "dimensionListType": "whitelist"
-        }
-      ],
-      "mountOffset": [
-        0,
-        1.0,
-        0
-      ]
-    },
-    {
-      "index": 6,
-      "skin": "moloch",
-      "modelClass": "com.lycanitesmobs.client.model.creature.ModelPinkyMoloch",
-      "color": "golden",
-      "type": "uncommon",
-      "priority": 1,
-      "elements": [
-        "void"
-      ],
-      "conditions": [
+          "index": 1,
+          "name": "verdant",
+          "type": "uncommon"
+        },
         {
-          "type": "world",
-          "dimensionIds": [
-            1
-          ],
-          "dimensionListType": "whitelist"
+          "index": 2,
+          "name": "golden",
+          "type": "uncommon"
         }
-      ],
-      "mountOffset": [
-        0,
-        1.0,
-        0
       ]
     }
   ],

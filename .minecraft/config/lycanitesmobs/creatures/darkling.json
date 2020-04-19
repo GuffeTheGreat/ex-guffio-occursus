@@ -2,7 +2,8 @@
   "name": "darkling",
   "creatureType": "arthropod",
   "groups": [
-    "predator"
+    "predator",
+    "dark"
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityDarkling",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelDarkling",
@@ -19,7 +20,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
-    "biomes": [],
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
@@ -39,7 +40,7 @@
   "armor": 0,
   "speed": 36,
   "damage": 1,
-  "attackSpeed": 1,
+  "attackSpeed": 2,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": -1,
@@ -50,14 +51,19 @@
   "eggForeColor": "#9dfbcd",
   "subspecies": [
     {
-      "index": 1,
-      "name": "azure",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "russet",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "azure",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "russet",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "shadow",

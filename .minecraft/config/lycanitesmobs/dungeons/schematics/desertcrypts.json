@@ -31,7 +31,8 @@
     "roombasic",
     "roombasicloot",
     "roombasicmob",
-    "roombasicpit"
+    "roombasicpit",
+    "roomdiamondpit"
   ],
   "corridors": [
     "corridorbasic",
@@ -41,6 +42,9 @@
   ],
   "stairs": [
     "stairsbasic"
+  ],
+  "towers": [
+    "towerbasic"
   ],
   "bossRooms": [
     "roombasicboss"
@@ -54,23 +58,23 @@
     },
     {
       "id": "minecraft:chests/village_blacksmith",
-      "level": 0
+      "level": 2
     },
     {
       "id": "minecraft:chests/nether_bridge",
-      "level": 1
+      "level": 3
     },
     {
       "id": "minecraft:chests/abandoned_mineshaft",
-      "level": 1
+      "level": 4
     },
     {
       "id": "minecraft:chests/stronghold_corridor",
-      "level": 2
+      "level": 5
     },
     {
       "id": "minecraft:chests/stronghold_crossing",
-      "level": 2
+      "level": 6
     }
   ],
   "mobSpawns": [
@@ -84,87 +88,109 @@
     },
     {
       "mobId": "lycanitesmobs:clink",
-      "weight": 14
+      "weight": 14,
+      "dungeonLevelMin": 2
     },
     {
       "mobId": "lycanitesmobs:erepede",
       "weight": 6,
-      "dungeonLevelMin": "1"
+      "dungeonLevelMin": 2
     },
     {
       "mobId": "lycanitesmobs:geonach",
       "weight": 8,
-      "dungeonLevelMin": "1"
+      "dungeonLevelMin": 3
     },
     {
       "mobId": "lycanitesmobs:sylph",
       "weight": 4,
-      "dungeonLevelMin": "2"
+      "dungeonLevelMin": 4
     },
     {
       "mobId": "lycanitesmobs:triffid",
       "weight": 4,
-      "dungeonLevelMin": "2"
+      "dungeonLevelMin": 5
     },
     {
       "mobId": "lycanitesmobs:gorgomite",
       "weight": 4,
-      "dungeonLevelMin": "2"
+      "dungeonLevelMin": 5
     },
     {
       "mobId": "lycanitesmobs:crusk",
       "weight": 1,
-      "subspecies": 1,
+      "variant": 1,
       "mobNameTag": "Graboid",
-      "mobSizeScale": 1.5,
+      "mobSizeScale": 3,
       "naturalDespawn": "false",
-      "mobLevel": 30,
+      "mobLevel": 25,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
-      "dungeonLevelMax": "0",
+      "dungeonLevelMax": 2,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "lycanitesmobs:scorchfirescepter"
+          "item": "lycanitesmobs:scorchfirescepter",
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_worm",
+          "amountMultiplier": false
         }
       ]
     },
     {
       "mobId": "lycanitesmobs:clink",
       "weight": 1,
-      "subspecies": 0,
+      "variant": 0,
       "mobNameTag": "Crypt Executioner",
       "mobSizeScale": 2,
       "naturalDespawn": "false",
-      "mobLevel": 50,
+      "mobLevel": 250,
       "spawnAsBoss": true,
-      "dungeonLevelMin": "1",
-      "dungeonLevelMax": "1",
+      "dungeonLevelMin": 3,
+      "dungeonLevelMax": 4,
       "dungeonBoss": true,
       "mobDrops": [
         {
-          "item": "lycanitesmobs:scythescepter"
+          "item": "lycanitesmobs:clinkscythe",
+          "amountMultiplier": false
+        },
+        {
+          "item": "minecraft:diamond",
+          "minAmount": 10,
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_imp",
+          "amountMultiplier": false
         }
       ]
     },
     {
       "mobId": "lycanitesmobs:ignibus",
       "weight": 1,
-      "subspecies": 2,
+      "variant": 1,
       "mobSizeScale": 1.1,
       "mobNameTag": "The Tyrant Dragon",
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 5,
       "spawnAsBoss": true,
-      "dungeonLevelMin": "2",
+      "dungeonLevelMin": 5,
       "dungeonBoss": true,
       "mobDrops": [
         {
           "item": "minecraft:diamond",
-          "minAmount": 20
+          "minAmount": 50,
+          "amountMultiplier": false
         },
         {
-          "item": "lycanitesmobs:magmascepter"
+          "item": "lycanitesmobs:magmascepter",
+          "amountMultiplier": false
+        },
+        {
+          "item": "lycanitesmobs:soulstone_dragon",
+          "amountMultiplier": false
         }
       ]
     }

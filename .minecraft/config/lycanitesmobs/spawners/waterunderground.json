@@ -2,7 +2,7 @@
   "name": "waterunderground",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 16,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,
@@ -43,7 +43,8 @@
       "blocks": [
         "minecraft:water"
       ],
-      "solidGround": true
+      "listType": "whitelist",
+      "solidGround": false
     }
   ]
 }

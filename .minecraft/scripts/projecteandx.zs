@@ -50,7 +50,7 @@ recipes.addShapedMirrored("1x_item_projectex_matter_cyan_shaped", <projectex:mat
 recipes.remove(<projectex:matter:6>);
 recipes.addShapedMirrored("1x_item_projectex_matter_green_shaped", <projectex:matter:6>, [
 	[<projectex:matter:5>, <projecte:item.pe_fuel:2>, <projectex:matter:5>],
-	[<projecte:item.pe_fuel:2>, <minecraft:stone>, <projecte:item.pe_fuel:2>],
+	[<projecte:item.pe_fuel:2>, <draconicevolution:draconium_capacitor:2>, <projecte:item.pe_fuel:2>],
 	[<projectex:matter:5>, <projecte:item.pe_fuel:2>, <projectex:matter:5>]
 ]);
 recipes.remove(<projectex:matter:7>);

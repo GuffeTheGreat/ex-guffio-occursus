@@ -13,7 +13,7 @@
       {
         "effectId": "minecraft:resistance",
         "duration": 60,
-        "amplifier": 0,
+        "amplifier": 1,
         "chance": 1.0
       }
     ]

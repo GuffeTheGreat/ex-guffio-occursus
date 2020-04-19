@@ -17,7 +17,7 @@
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomes": [
+    "biomeTags": [
       "spooky",
       "magical"
     ],
@@ -51,14 +51,19 @@
   "eggForeColor": "#0d1014",
   "subspecies": [
     {
-      "index": 1,
-      "name": "scarlet",
-      "type": "uncommon"
-    },
-    {
-      "index": 2,
-      "name": "keppel",
-      "type": "uncommon"
+      "index": 0,
+      "variants": [
+        {
+          "index": 1,
+          "name": "scarlet",
+          "type": "uncommon"
+        },
+        {
+          "index": 2,
+          "name": "keppel",
+          "type": "uncommon"
+        }
+      ]
     }
   ],
   "element": "phase",
