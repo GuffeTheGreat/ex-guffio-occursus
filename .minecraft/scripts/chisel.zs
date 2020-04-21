@@ -19,3 +19,10 @@ Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:bo
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}));
 Carving.addVariation("guidebooks", <botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}));
 Carving.addVariation("guidebooks", <projecte:item.pe_manual>);
+
+//Stamps
+Carving.addGroup("stamps");
+Carving.addVariation("stamps", <embers:stamp_flat>);
+Carving.addVariation("stamps", <embers:stamp_bar>);
+Carving.addVariation("stamps", <embers:stamp_plate>);
+Carving.addVariation("stamps", <embers:stamp_gear>);

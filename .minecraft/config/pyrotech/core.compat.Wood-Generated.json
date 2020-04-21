@@ -10,6 +10,9 @@
     "Entry item strings are in the format: (domain):(path):(meta)"
   ],
   "entries": {
+    "abyssalcraft:dltlog:0": "abyssalcraft:dltplank:0",
+    "abyssalcraft:dltplank:0": "abyssalcraft:dltslab1:0",
+    "abyssalcraft:dreadlog:0": "abyssalcraft:dreadplanks:0",
     "advancedrocketry:alienwood:0": "advancedrocketry:planks:0",
     "betterwithmods:blood_log:0": "minecraft:planks:3",
     "erebus:log_asper:0": "erebus:planks:4",
@@ -54,10 +57,6 @@
     "mysticalworld:charred_planks:0": "mysticalworld:charred_slab:0",
     "roots:wildwood_log:0": "roots:wildwood_planks:0",
     "roots:wildwood_planks:0": "roots:wildwood_slab:0",
-    "rustic:log:0": "rustic:planks:0",
-    "rustic:log:1": "rustic:planks:1",
-    "rustic:planks:0": "rustic:olive_slab_item:0",
-    "rustic:planks:1": "rustic:ironwood_slab_item:0",
     "thaumcraft:log_greatwood:0": "thaumcraft:plank_greatwood:0",
     "thaumcraft:log_silverwood:0": "thaumcraft:plank_silverwood:0",
     "thaumcraft:plank_greatwood:0": "thaumcraft:slab_greatwood:0",

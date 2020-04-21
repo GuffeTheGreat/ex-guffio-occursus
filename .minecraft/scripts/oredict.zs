@@ -35,14 +35,20 @@
 <ore:gearElectrum>.remove(<crossroads:gear_electrum>);
 
 //FixManaInfused
-<ore:ingotBrass>.remove(<thaumcraft:ingot:2>);
-<ore:nuggetBrass>.remove(<thaumcraft:nugget:8>);
-<ore:plateBrass>.remove(<thaumcraft:plate>);
-<ore:blockBrass>.remove(<thaumcraft:metal_brass>);
-<ore:ingotAlchemicalBrass>.add(<thaumcraft:ingot:2>);
-<ore:nuggetAlchemicalBrass>.add(<thaumcraft:nugget:8>);
-<ore:plateAlchemicalBrass>.add(<thaumcraft:plate>);
-<ore:blockAlchemicalBrass>.add(<thaumcraft:metal_brass>);
+<ore:oreMithril>.remove(<thermalfoundation:ore:8>);
+<ore:blockMithril>.remove(<thermalfoundation:storage:8>);
+<ore:coinMithril>.remove(<thermalfoundation:coin:72>);
+<ore:ingotMithril>.remove(<thermalfoundation:material:136>);
+<ore:nuggetMithril>.remove(<thermalfoundation:material:200>);
+<ore:gearMithril>.remove(<thermalfoundation:material:264>);
+<ore:plateMithril>.remove(<thermalfoundation:material:328>);
+<ore:oreMana>.add(<thermalfoundation:ore:8>);
+<ore:blockMana>.add(<thermalfoundation:storage:8>);
+<ore:coinMana>.add(<thermalfoundation:coin:72>);
+<ore:ingotMana>.add(<thermalfoundation:material:136>);
+<ore:nuggetMana>.add(<thermalfoundation:material:200>);
+<ore:gearMana>.add(<thermalfoundation:material:264>);
+<ore:plateMana>.add(<thermalfoundation:material:328>);
 
 //SulfurChanges
 <ore:dustSulfur>.remove(<metallurgy:sulfur_dust>);

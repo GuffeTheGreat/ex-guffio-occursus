@@ -14,6 +14,15 @@ recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
 	[<ore:stone>, <betterwithmods:material:34>, <ore:stone>]
 ]);
 
+//Gunpowder
+recipes.remove(<minecraft:gunpowder>);
+recipes.addShapeless("1x_item_sulphur_shapeless", <minecraft:gunpowder>, [<ore:dustSaltpeter>, <ore:dustSulfur>, <ore:dustCharcoal>]);
+
+
+
+
+
+
 //Chest
 recipes.addShapedMirrored("chest",<minecraft:chest>, [
     [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
@@ -26,7 +35,12 @@ recipes.remove(<minecraft:stone_slab:3>);
 //WoodenGearRecipesRemoved
 recipes.remove(<ore:gearWood>);
 
+//Stick
 recipes.remove(<minecraft:stick>*2);
+recipes.addShapedMirrored("sticks", <minecraft:stick>*4, [
+	[<ore:plankWood>],
+	[<ore:plankWood>]
+]);
 
 //ClearBookRecipe
 recipes.remove(<minecraft:book>);
@@ -35,25 +49,18 @@ recipes.addShapeless("1x_item_book_shapeless", <minecraft:book>, [<minecraft:pap
 //Torches
 recipes.remove(<minecraft:torch>);
 recipes.addShapedMirrored("4x_tile_torch_shapedcoke", <minecraft:torch> * 4, [
-	[<pyrotech:material:1>, null, null],
-	[<minecraft:stick>, null, null],
-	[null, null, null]
+	[<pyrotech:material:1>],
+	[<ore:stick>]
 ]);
 recipes.addShapedMirrored("4x_tile_torch_shapedrosin", <minecraft:torch> * 4, [
-	[<thermalfoundation:material:832>, null, null],
-	[<minecraft:stick>, null, null],
-	[null, null, null]
+	[<thermalfoundation:material:832>],
+	[<ore:stick>]
 ]);
 recipes.addShapedMirrored("4x_tile_torch_shapedtar", <minecraft:torch> * 4, [
-	[<thermalfoundation:material:833>, null, null],
-	[<minecraft:stick>, null, null],
-	[null, null, null]
+	[<thermalfoundation:material:833>],
+	[<ore:stick>]
 ]);
-recipes.addShapedMirrored("6x_tile_torch_shapedncoal", <minecraft:torch> * 6, [
-	[<betterwithmods:material:1>, null, null],
-	[<minecraft:stick>, null, null],
-	[null, null, null]
-]);
+
 
 
 

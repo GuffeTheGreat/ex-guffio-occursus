@@ -3,6 +3,7 @@ import mods.pyrotech.SoakingPot;
 import mods.pyrotech.DryingRack;
 import mods.pyrotech.GraniteAnvil;
 import mods.pyrotech.Chopping;
+import mods.pyrotech.IroncladAnvil;
 
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
@@ -78,8 +79,8 @@ recipes.addShapedMirrored("pyrotech_tech/machine/bellows", <pyrotech:bellows>, [
 //Mechanicalmachines
 recipes.remove(<pyrotech:mechanical_bellows>);
 recipes.remove(<pyrotech:mechanical_hopper>);
-recipes.remove(<pyrotech:mechanical_bellows>);
-recipes.remove(<pyrotech:mechanical_bellows>);
+recipes.remove(<pyrotech:mechanical_compacting_bin>);
+recipes.remove(<pyrotech:mechanical_mulch_spreader>);
 //Bellow
 recipes.addShapedMirrored("pyrotech_tech/machine/mechanical_bellows", <pyrotech:mechanical_bellows>, [
 	[<pyrotech:material:23>, <ore:plateIron>, <pyrotech:material:23>],
@@ -98,6 +99,13 @@ recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_hopper_shaped", <pyrotech
 	[<immersiveengineering:treated_wood>, <pyrotech:material:27>, <immersiveengineering:treated_wood>],
 	[null, <pyrotech:material:16>, null]
 ]);
+//Compactor
+recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_compacting_bin_shaped", <pyrotech:mechanical_compacting_bin>, [
+	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>],
+	[<pyrotech:mechanical_hopper>, <pyrotech:compacting_bin>, <minecraft:piston>],
+	[<pyrotech:stone_bricks>, <immersiveengineering:treated_wood>, <pyrotech:stone_bricks>]
+]);
+
 
 
 
@@ -118,27 +126,79 @@ recipes.addShapedMirrored("4x_tile_pyrotech_torch_stone_shaped", <pyrotech:torch
 	[<pyrotech:material:27>]
 ]);
 //GraniteRecipes
-GraniteAnvil.addRecipe("uranium_plate", <immersiveengineering:metal:35>, <immersiveengineering:metal:5>, 8, "hammer");
-GraniteAnvil.addRecipe("soulforged_plate", <betterwithmods:material:51>, <betterwithmods:material:14>, 8, "hammer");
-GraniteAnvil.addRecipe("thaumium_plate", <thaumcraft:plate:2>, <thaumcraft:ingot>, 8, "hammer");
-GraniteAnvil.addRecipe("void_plate", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 8, "hammer");
-GraniteAnvil.addRecipe("titaniumiridium_plate", <advancedrocketry:productplate:1>, <advancedrocketry:productingot:1>, 8, "hammer");
-GraniteAnvil.addRecipe("titaniumaluminide_plate",  <advancedrocketry:productplate>, <advancedrocketry:productingot>, 8, "hammer");
+IroncladAnvil.addRecipe("uranium_plate", <immersiveengineering:metal:35>, <immersiveengineering:metal:5>, 8, "hammer");
+IroncladAnvil.addRecipe("soulforged_plate", <betterwithmods:material:51>, <betterwithmods:material:14>, 8, "hammer");
+IroncladAnvil.addRecipe("thaumium_plate", <thaumcraft:plate:2>, <thaumcraft:ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("void_plate", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 8, "hammer");
+IroncladAnvil.addRecipe("titaniumiridium_plate", <advancedrocketry:productplate:1>, <advancedrocketry:productingot:1>, 8, "hammer");
+IroncladAnvil.addRecipe("titaniumaluminide_plate",  <advancedrocketry:productplate>, <advancedrocketry:productingot>, 8, "hammer");
 GraniteAnvil.addRecipe("silicon_plate", <libvulpes:productplate:3>, <libvulpes:productingot:3>, 8, "hammer");
-GraniteAnvil.addRecipe("titanium_plate", <libvulpes:productplate:7>, <libvulpes:productingot:7>, 8, "hammer");
+IroncladAnvil.addRecipe("ironsilicon_plate", <libvulpes:productplate:3>, <libvulpes:productingot:3>, 8, "hammer");
+IroncladAnvil.addRecipe("titanium_plate", <libvulpes:productplate:7>, <libvulpes:productingot:7>, 8, "hammer");
 GraniteAnvil.addRecipe("constantan_plate", <immersiveengineering:metal:36>, <thaumcraft:ingot:2>, 8, "hammer");
-GraniteAnvil.addRecipe("steel_plate", <immersiveengineering:metal:38>, <metallurgy:steel_ingot>, 8, "hammer");
-GraniteAnvil.addRecipe("bioplastic_plate", <emergingtechnology:plasticsheet>, <emergingtechnology:plasticblock>, 8, "hammer");
-GraniteAnvil.addRecipe("platinum_plate", <thermalfoundation:material:326>, <metallurgy:platinum_ingot>, 8, "hammer");
-GraniteAnvil.addRecipe("iridium_plate", <thermalfoundation:material:327>, <thermalfoundation:material:135>, 8, "hammer");
-GraniteAnvil.addRecipe("mana_plate", <thermalfoundation:material:136>, <emergingtechnology:plasticblock>, 8, "hammer");
-GraniteAnvil.addRecipe("invar_plate", <thermalfoundation:material:162>, <emergingtechnology:plasticblock>, 8, "hammer");
-GraniteAnvil.addRecipe("signalum_plate", <thermalfoundation:material:357>, <thermalfoundation:material:165>, 8, "hammer");
-GraniteAnvil.addRecipe("lumium_plate", <thermalfoundation:material:358>, <thermalfoundation:material:166>, 8, "hammer");
-GraniteAnvil.addRecipe("enderium_plate", <thermalfoundation:material:359>, <thermalfoundation:material:167>, 8, "hammer");
-GraniteAnvil.addRecipe("mithrillium_plate", <thaumadditions:mithrillium_plate>, <thaumadditions:mithrillium_ingot>, 8, "hammer");
-GraniteAnvil.addRecipe("adaminite_plate", <thaumadditions:adaminite_plate>, <thaumadditions:adaminite_ingot>, 8, "hammer");
-GraniteAnvil.addRecipe("mithminite_plate", <thaumadditions:mithminite_plate>, <thaumadditions:mithminite_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("ironconstantan_plate", <immersiveengineering:metal:36>, <thaumcraft:ingot:2>, 8, "hammer");
+IroncladAnvil.addRecipe("steel_plate", <immersiveengineering:metal:38>, <metallurgy:steel_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("bioplastic_plate", <emergingtechnology:plasticsheet>, <emergingtechnology:plasticblock>, 8, "hammer");
+IroncladAnvil.addRecipe("platinum_plate", <thermalfoundation:material:326>, <metallurgy:platinum_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("iridium_plate", <thermalfoundation:material:327>, <thermalfoundation:material:135>, 8, "hammer");
+IroncladAnvil.addRecipe("mana_plate", <thermalfoundation:material:328>, <thermalfoundation:material:136>, 8, "hammer");
+IroncladAnvil.addRecipe("invar_plate", <thermalfoundation:material:354>, <thermalfoundation:material:162>, 8, "hammer");
+IroncladAnvil.addRecipe("signalum_plate", <thermalfoundation:material:357>, <thermalfoundation:material:165>, 8, "hammer");
+IroncladAnvil.addRecipe("lumium_plate", <thermalfoundation:material:358>, <thermalfoundation:material:166>, 8, "hammer");
+IroncladAnvil.addRecipe("enderium_plate", <thermalfoundation:material:359>, <thermalfoundation:material:167>, 8, "hammer");
+IroncladAnvil.addRecipe("mithrillium_plate", <thaumadditions:mithrillium_plate>, <thaumadditions:mithrillium_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("adaminite_plate", <thaumadditions:adaminite_plate>, <thaumadditions:adaminite_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("mithminite_plate", <thaumadditions:mithminite_plate>, <thaumadditions:mithminite_ingot>, 8, "hammer");
+GraniteAnvil.addRecipe("copper_plate", <embers:plate_copper>, <metallurgy:copper_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("ironcopper_plate", <embers:plate_copper>, <metallurgy:copper_ingot>, 8, "hammer");
+GraniteAnvil.addRecipe("lead_plate", <embers:plate_lead>, <embers:ingot_lead>, 8, "hammer");
+IroncladAnvil.addRecipe("ironlead_plate", <embers:plate_lead>, <embers:ingot_lead>, 8, "hammer");
+GraniteAnvil.addRecipe("silver_plate", <embers:plate_silver>, <ore:ingotSilver>, 8, "hammer");
+IroncladAnvil.addRecipe("ironsilver_plate", <embers:plate_silver>, <ore:ingotSilver>, 8, "hammer");
+IroncladAnvil.addRecipe("dawnstone_plate", <embers:plate_dawnstone>, <embers:ingot_dawnstone>, 8, "hammer");
+GraniteAnvil.addRecipe("iron_plate", <embers:plate_iron>, <minecraft:iron_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("ironiron_plate", <embers:plate_iron>, <minecraft:iron_ingot>, 8, "hammer");
+GraniteAnvil.addRecipe("gold_plate", <embers:plate_gold>, <minecraft:gold_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("irongold_plate", <embers:plate_gold>, <minecraft:gold_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("aluminium_plate", <embers:plate_aluminum>, <embers:ingot_aluminum>, 8, "hammer");
+GraniteAnvil.addRecipe("bronze_plate", <embers:plate_bronze>, <metallurgy:bronze_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("ironbronze_plate", <embers:plate_bronze>, <metallurgy:bronze_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("electrum_plate", <embers:plate_electrum>, <metallurgy:electrum_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("nickel_plate", <embers:plate_nickel>, <embers:ingot_nickel>, 8, "hammer");
+GraniteAnvil.addRecipe("tin_plate", <embers:plate_tin>, <metallurgy:tin_ingot>, 8, "hammer");
+IroncladAnvil.addRecipe("irontin_plate", <embers:plate_tin>, <metallurgy:tin_ingot>, 8, "hammer");
+
+//RefractoryMachines
+//Kiln
+recipes.remove(<pyrotech:brick_kiln>);
+recipes.addShapedMirrored("1x_tile_pyrotech_brick_kiln_shaped", <pyrotech:brick_kiln>, [
+	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>],
+	[<pyrotech:refractory_brick_block>, <pyrotech:stone_kiln>, <pyrotech:refractory_brick_block>],
+	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>]
+]);
+recipes.remove(<pyrotech:brick_oven>);
+recipes.addShapedMirrored("1x_tile_pyrotech_brick_oven_shaped", <pyrotech:brick_oven>, [
+	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>],
+	[<pyrotech:refractory_brick_block>, <pyrotech:stone_oven>, <pyrotech:refractory_brick_block>],
+	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>]
+]);
+recipes.remove(<pyrotech:brick_sawmill>);
+recipes.addShapedMirrored("1x_tile_pyrotech_brick_sawmill_shaped", <pyrotech:brick_sawmill>, [
+	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>],
+	[<pyrotech:refractory_brick_block>, <pyrotech:stone_sawmill>, <pyrotech:refractory_brick_block>],
+	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>]
+]);
+recipes.remove(<pyrotech:brick_crucible>);
+recipes.addShapedMirrored("1x_tile_pyrotech_brick_crucible_shaped", <pyrotech:brick_crucible>, [
+	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>],
+	[<pyrotech:refractory_brick_block>, <pyrotech:stone_crucible>, <pyrotech:refractory_brick_block>],
+	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>]
+]);
+
+
+
+
+
 
 
 //SoakingPotReecipes

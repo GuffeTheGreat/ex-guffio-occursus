@@ -88,6 +88,7 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
+        "abyssalcraft:tile.abycopore",
         "crossroads:tile.ore_copper",
         "embers:tile.ore_copper",
         "geolosys:geolosys.cluster.copper",
@@ -208,6 +209,7 @@
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
+        "abyssalcraft:tile.abygolore",
         "erebus:tile.erebus.ore_gold",
         "geolosys:geolosys.cluster.gold",
         "minecraft:tile.oreGold",
@@ -278,6 +280,7 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
+        "abyssalcraft:tile.abyiroore",
         "erebus:tile.erebus.ore_iron",
         "geolosys:geolosys.cluster.iron",
         "minecraft:tile.oreIron",
@@ -406,7 +409,6 @@
       "slagColor": "9cf9ff",
       "langKey": [
         "metallurgy:tile.metallurgy.mithril_ore",
-        "thermalfoundation:tile.thermalfoundation.ore.mithril",
         "undergroundbiomes:tile.igneous_stone_metallurgy_mithril_ore",
         "undergroundbiomes:tile.igneous_stone_metallurgy_mithril_ore",
         "undergroundbiomes:tile.igneous_stone_metallurgy_mithril_ore",
@@ -457,8 +459,7 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.thermalfoundation.ore.mithril"
       ],
       "output": [
-        "metallurgy:mithril_nugget:0",
-        "thermalfoundation:material:200"
+        "metallurgy:mithril_nugget:0"
       ]
     },
     "oreNickel": {
@@ -734,6 +735,7 @@
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
+        "abyssalcraft:tile.abytinore",
         "crossroads:tile.ore_tin",
         "embers:tile.ore_tin",
         "geolosys:geolosys.cluster.tin",
