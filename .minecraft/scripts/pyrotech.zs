@@ -4,6 +4,9 @@ import mods.pyrotech.DryingRack;
 import mods.pyrotech.GraniteAnvil;
 import mods.pyrotech.Chopping;
 import mods.pyrotech.IroncladAnvil;
+import mods.pyrotech.StoneKiln;
+import mods.pyrotech.BrickKiln;
+import mods.pyrotech.PitKiln;
 
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
@@ -25,7 +28,9 @@ recipes.addShapedMirrored("4x_item_pyrotech_mulch_shaped", <pyrotech:mulch> * 4,
 	[<pyrotech:rock:7>, <pyrotech:material>, <pyrotech:rock:7>]
 ]);
 
-
+//EasyAsh
+StoneKiln.addRecipe("ashpile", <pyrotech:material>, <ore:logWood>, 1200);
+BrickKiln.addRecipe("ashpile", <pyrotech:material>, <ore:logWood>, 600);
 
 recipes.remove(<pyrotech:drying_rack:1>);
 recipes.addShapedMirrored("pyrotech_tech/basic/drying_rack.normal", <pyrotech:drying_rack:1>, [
@@ -106,19 +111,9 @@ recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_compacting_bin_shaped", <
 	[<pyrotech:stone_bricks>, <immersiveengineering:treated_wood>, <pyrotech:stone_bricks>]
 ]);
 
-
-
-
-
-
-
-
 //FlintAndTinder
 recipes.remove(<pyrotech:flint_and_tinder>);
 recipes.addShapeless("1x_item_pyrotech_flint_and_tinder_shapeless", <pyrotech:flint_and_tinder>, [<minecraft:flint>, <pyrotech:material:13>, <ore:rock>]);
-
-
-
 
 //StoneTorches
 recipes.addShapedMirrored("4x_tile_pyrotech_torch_stone_shaped", <pyrotech:torch_stone> * 4, [
@@ -226,14 +221,14 @@ CrudeDryingRack.removeAllRecipes();
 DryingRack.removeAllRecipes();
 CrudeDryingRack.addRecipe("dried_plant_fibers_from_plants", <pyrotech:material:13>, <ore:plant>, 2 * 60 * 20);
 CrudeDryingRack.addRecipe("straw", <pyrotech:material:2>, <ore:listAllgrain>, 5 * 60 * 20);
-CrudeDryingRack.addRecipe("dried_plant_fibers_from_plant_fiber", <pyrotech:material:13>, <pyrotech:material:12>, 2 * 60 * 20);
+CrudeDryingRack.addRecipe("dried_plant_fibers_from_plant_fiber", <pyrotech:material:13>, <pyrotech:material:12>, 3 * 60 * 20);
 CrudeDryingRack.addRecipe("dried_soup", <harvestcraft:driedsoupitem>, <harvestcraft:stockitem>, 4 * 60 * 20);
 CrudeDryingRack.addRecipe("sponge", <minecraft:sponge>, <minecraft:sponge:1>, 8 * 60 * 20);
 CrudeDryingRack.addRecipe("paper", <minecraft:paper>, <pyrotech:material:25>, 5 * 60 * 20);
 CrudeDryingRack.addRecipe("zombiejerky", <harvestcraft:zombiejerkyitem>, <minecraft:rotten_flesh>, 5 * 60 * 20);
 CrudeDryingRack.addRecipe("meatjerky", <harvestcraft:beefjerkyitem>, <ore:listAllmeatraw>, 4 * 60 * 20);
 DryingRack.addRecipe("dried_plant_fibers_from_plants", <pyrotech:material:13>, <ore:plant>, 2 * 60 * 20);
-DryingRack.addRecipe("dried_plant_fibers_from_plant_fiber", <pyrotech:material:13>, <pyrotech:material:12>, 2 * 60 * 20);
+DryingRack.addRecipe("dried_plant_fibers_from_plant_fiber", <pyrotech:material:13>, <pyrotech:material:12>, 3 * 60 * 20);
 DryingRack.addRecipe("dried_soup", <harvestcraft:driedsoupitem>, <harvestcraft:stockitem>, 4 * 60 * 20);
 DryingRack.addRecipe("sponge", <minecraft:sponge>, <minecraft:sponge:1>, 8 * 60 * 20);
 DryingRack.addRecipe("paper", <minecraft:paper>, <pyrotech:material:25>, 5 * 60 * 20);
@@ -249,4 +244,157 @@ recipes.addShapedMirrored(<pyrotech:compacting_bin>, [
     [<ore:cobblestone>, <ore:slabWood>, <ore:cobblestone>]
 ]);
 
+//RedoingAllTHePitkilnRecipes
+PitKiln.removeAllRecipes();
+PitKiln.addRecipe("stone_from_cobblestone", <minecraft:stone>, <minecraft:cobblestone>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("brick", <minecraft:brick>, <betterwithmods:unfired_pottery:4>, 5 * 60 * 20, 0.33, [
+    <pyrotech:material:6>, // randomly chosen failure items
+    <pyrotech:material:7>,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("bucket", <pyrotech:bucket_clay>, <pyrotech:bucket_clay_unfired>, 2 * 60 * 20, 0.33, [
+    <pyrotech:material:6>, // randomly chosen failure items
+    <pyrotech:material:7>,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("shears", <pyrotech:clay_shears>, <pyrotech:unfired_clay_shears>, 2 * 60 * 20, 0.33, [
+    <pyrotech:material:6>, // randomly chosen failure items
+    <pyrotech:material:7>,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("ig0", <undergroundbiomes:igneous_stone>, <undergroundbiomes:igneous_cobble>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("ig1", <undergroundbiomes:igneous_stone:1>, <undergroundbiomes:igneous_cobble:1>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("ig2", <undergroundbiomes:igneous_stone:2>, <undergroundbiomes:igneous_cobble:2>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("ig3", <undergroundbiomes:igneous_stone:3>, <undergroundbiomes:igneous_cobble:3>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("ig4", <undergroundbiomes:igneous_stone:4>, <undergroundbiomes:igneous_cobble:4>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("ig5", <undergroundbiomes:igneous_stone:5>, <undergroundbiomes:igneous_cobble:5>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("ig6", <undergroundbiomes:igneous_stone:6>, <undergroundbiomes:igneous_cobble:6>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("ig7", <undergroundbiomes:igneous_stone:7>, <undergroundbiomes:igneous_cobble:7>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("me0", <undergroundbiomes:metamorphic_stone>, <undergroundbiomes:metamorphic_cobble>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("me1", <undergroundbiomes:metamorphic_stone:1>, <undergroundbiomes:metamorphic_cobble:2>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("me2", <undergroundbiomes:metamorphic_stone:2>, <undergroundbiomes:metamorphic_cobble:2>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("me3", <undergroundbiomes:metamorphic_stone:3>, <undergroundbiomes:metamorphic_cobble:3>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("me4", <undergroundbiomes:metamorphic_stone:4>, <undergroundbiomes:metamorphic_cobble:4>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("me5", <undergroundbiomes:metamorphic_stone:5>, <undergroundbiomes:metamorphic_cobble:5>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("me6", <undergroundbiomes:metamorphic_stone:6>, <undergroundbiomes:metamorphic_cobble:6>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("me7", <undergroundbiomes:metamorphic_stone:7>, <undergroundbiomes:metamorphic_cobble:7>, 4 * 60 * 20, 0.33, [
+    <pyrotech:rock>, // randomly chosen failure items
+    <pyrotech:rock> * 2,
+    <pyrotech:rock> * 3,
+    <pyrotech:rock> * 4,
+    <pyrotech:rock> * 5,
+    <pyrotech:material>
+]);
 

@@ -18,7 +18,7 @@ Carving.addVariation("guidebooks", <astralsorcery:itemjournal>);
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "pneumaticcraft:book"}));
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}));
 Carving.addVariation("guidebooks", <botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}));
-Carving.addVariation("guidebooks", <projecte:item.pe_manual>);
+
 
 //Stamps
 Carving.addGroup("stamps");
@@ -26,3 +26,5 @@ Carving.addVariation("stamps", <embers:stamp_flat>);
 Carving.addVariation("stamps", <embers:stamp_bar>);
 Carving.addVariation("stamps", <embers:stamp_plate>);
 Carving.addVariation("stamps", <embers:stamp_gear>);
+Carving.addVariation("stamps", <soot:stamp_nugget>);
+Carving.addVariation("stamps", <soot:stamp_text>);

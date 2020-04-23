@@ -10,11 +10,9 @@
     "Entry item strings are in the format: (domain):(path):(meta)"
   ],
   "entries": {
-    "abyssalcraft:dltlog:0": "abyssalcraft:dltplank:0",
-    "abyssalcraft:dltplank:0": "abyssalcraft:dltslab1:0",
-    "abyssalcraft:dreadlog:0": "abyssalcraft:dreadplanks:0",
     "advancedrocketry:alienwood:0": "advancedrocketry:planks:0",
     "betterwithmods:blood_log:0": "minecraft:planks:3",
+    "cuisine:log:0": "cuisine:planks:0",
     "erebus:log_asper:0": "erebus:planks:4",
     "erebus:log_balsam:0": "erebus:planks:6",
     "erebus:log_baobab:0": "erebus:planks:0",
@@ -38,9 +36,6 @@
     "erebus:planks:7": "erebus:slab_planks_white:0",
     "erebus:planks:8": "erebus:slab_planks_bamboo:0",
     "erebus:planks:9": "erebus:slab_planks_rotten:0",
-    "harvestcraft:pamcinnamon:0": "minecraft:planks:3",
-    "harvestcraft:pammaple:0": "minecraft:planks:1",
-    "harvestcraft:pampaperbark:0": "minecraft:planks:3",
     "minecraft:log2:0": "minecraft:planks:4",
     "minecraft:log2:1": "minecraft:planks:5",
     "minecraft:log:0": "minecraft:planks:0",
@@ -67,6 +62,8 @@
     "thebetweenlands:log_rubber:0": "thebetweenlands:rubber_tree_planks:0",
     "thebetweenlands:nibbletwig_planks:0": "thebetweenlands:nibbletwig_plank_slab:0",
     "thebetweenlands:rubber_tree_planks:0": "thebetweenlands:rubber_tree_plank_slab:0",
-    "thebetweenlands:weedwood_planks:0": "thebetweenlands:weedwood_plank_slab:0"
+    "thebetweenlands:weedwood_planks:0": "thebetweenlands:weedwood_plank_slab:0",
+    "traverse:fir_log:0": "traverse:fir_planks:0",
+    "traverse:fir_planks:0": "traverse:fir_slab:0"
   }
 }

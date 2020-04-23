@@ -1,4 +1,5 @@
 //Matters
+
 recipes.remove(<projecte:item.pe_matter>);
 recipes.addShapedMirrored("1x_item_pe_matter_dark_shaped", <projecte:item.pe_matter>, [
 	[<avaritia:resource:2>, <projecte:item.pe_fuel:2>, <avaritia:resource:2>],
@@ -32,7 +33,7 @@ recipes.addShapedMirrored("1x_item_projectex_matter_purple_shaped", <projectex:m
 recipes.remove(<projectex:matter:3>);
 recipes.addShapedMirrored("1x_item_projectex_matter_violet_shaped", <projectex:matter:3>, [
 	[<projectex:matter:2>, <projecte:item.pe_fuel:2>, <projectex:matter:2>],
-	[<projecte:item.pe_fuel:2>, <extendedcrafting:material:32>, <projecte:item.pe_fuel:2>],
+	[<projecte:item.pe_fuel:2>, <rats:idol_of_ratlantis>, <projecte:item.pe_fuel:2>],
 	[<projectex:matter:2>, <projecte:item.pe_fuel:2>, <projectex:matter:2>]
 ]);
 recipes.remove(<projectex:matter:4>);
@@ -44,7 +45,7 @@ recipes.addShapedMirrored("1x_item_projectex_matter_blue_shaped", <projectex:mat
 recipes.remove(<projectex:matter:5>);
 recipes.addShapedMirrored("1x_item_projectex_matter_cyan_shaped", <projectex:matter:5>, [
 	[<projectex:matter:4>, <projecte:item.pe_fuel:2>, <projectex:matter:4>],
-	[<projecte:item.pe_fuel:2>, <extendedcrafting:singularity_ultimate>, <projecte:item.pe_fuel:2>],
+	[<projecte:item.pe_fuel:2>, <rats:potato_kinishes>, <projecte:item.pe_fuel:2>],
 	[<projectex:matter:4>, <projecte:item.pe_fuel:2>, <projectex:matter:4>]
 ]);
 recipes.remove(<projectex:matter:6>);
@@ -93,6 +94,7 @@ recipes.addShapedMirrored("1x_item_projectex_matter_fading_shaped", <projectex:m
 //FinalstarShard
 recipes.remove(<projectex:final_star_shard>);
 recipes.addShapeless("1x_item_projectex_final_star_shard_shapeless", <projectex:final_star_shard>, [<projectex:colossal_star_sphere>, <projectex:matter:11>, <minecraft:nether_star>]);
+
 
 
 

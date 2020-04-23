@@ -5,17 +5,19 @@ mods.jei.JEI.removeAndHide(<embers:cinder_plinth>);
 mods.jei.JEI.removeAndHide(<embers:stamp_bar_raw>);
 mods.jei.JEI.removeAndHide(<embers:stamp_gear_raw>);
 mods.jei.JEI.removeAndHide(<embers:stamp_plate_raw>);
+mods.jei.JEI.removeAndHide(<soot:stamp_text_raw>);
+mods.jei.JEI.removeAndHide(<soot:stamp_nugget_raw>);
 
 //CaminiteBrick
 recipes.remove(<embers:blend_caminite>);
-StoneKiln.addRecipe("stone_caminitebricks", <embers:brick_caminite>, <embers:blend_caminite>, 600, 0.08, [<pyrotech:material>]);
+StoneKiln.addRecipe("stone_caminitebricks", <embers:brick_caminite>, <embers:blend_caminite>, 1200, 0.08, [<pyrotech:material>]);
 BrickKiln.addRecipe("brick_caminitebricks", <embers:brick_caminite>, <embers:blend_caminite>, 600, 0.02, [<pyrotech:material>]);
-StoneKiln.addRecipe("stone_caminiteplate", <embers:brick_caminite>, <embers:plate_caminite_raw>, 600, 0.08, [<pyrotech:material>]);
-BrickKiln.addRecipe("brick_caminiteplate", <embers:brick_caminite>, <embers:plate_caminite_raw>, 600, 0.02, [<pyrotech:material>]);
+StoneKiln.addRecipe("stone_caminiteplate", <embers:plate_caminite>, <embers:plate_caminite_raw>, 1200, 0.08, [<pyrotech:material>]);
+BrickKiln.addRecipe("brick_caminiteplate", <embers:plate_caminite>, <embers:plate_caminite_raw>, 600, 0.02, [<pyrotech:material>]);
 
 //Stamp
-StoneKiln.addRecipe("stone_stamp", <embers:stamp_flat>, <embers:stamp_flat_raw>, 600, 0.08, [<pyrotech:material>]);
-BrickKiln.addRecipe("brick_stamp", <embers:stamp_flat>, <embers:stamp_flat_raw>, 2400, 0.02, [<pyrotech:material>]);
+StoneKiln.addRecipe("stone_stamp", <embers:stamp_flat>, <embers:stamp_flat_raw>, 1200, 0.08, [<pyrotech:material>]);
+BrickKiln.addRecipe("brick_stamp", <embers:stamp_flat>, <embers:stamp_flat_raw>, 600, 0.02, [<pyrotech:material>]);
 //Ashpile
 
 
@@ -118,6 +120,9 @@ recipes.addShapedMirrored("1x_tile_beam_cannon_shaped", <embers:beam_cannon>, [
 	[<thaumcraft:ingot:2>, <embers:block_caminite_brick>, <thaumcraft:ingot:2>]
 ]);
 
+//Ashpile
+recipes.addShapeless("4x_item_dust_ash_shapeless", <embers:dust_ash> * 4, [<thermalfoundation:material:768>, <thermalfoundation:material:769>, <pyrotech:material>, <pyrotech:material>]);
+
 
 
 
@@ -127,7 +132,9 @@ recipes.addShapedMirrored("1x_tile_beam_cannon_shaped", <embers:beam_cannon>, [
 //WindingGears
 mods.embers.Alchemy.remove(<embers:winding_gears>);
 mods.embers.Alchemy.add(<embers:winding_gears>, [<jaopca:item_gearatlarus>, <thermalfoundation:material:291>, <thermalfoundation:material:291>, <thermalfoundation:material:291>, <thermalfoundation:material:291>], {"copper": 32 to 64, "alchemicalbrass": 32 to 128});
-
+//FelPumpkin
+recipes.remove(<botania:felpumpkin>);
+mods.embers.Alchemy.add(<botania:felpumpkin>, [<minecraft:pumpkin>, <thebetweenlands:shimmer_stone>, <minecraft:gunpowder>, <minecraft:fermented_spider_eye>, <thebetweenlands:sludge_ball>], {"copper": 32 to 64, "dawnstone": 16 to 48});
 //ChangingDawnstone
 mods.embers.Mixer.add(<liquid:dawnstone>*8,[<liquid:copper>*3,<liquid:gold>*3,<liquid:octine>*2]);
 mods.embers.Mixer.remove(<liquid:dawnstone>*8);

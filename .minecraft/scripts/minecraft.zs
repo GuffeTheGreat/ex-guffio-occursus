@@ -18,6 +18,12 @@ recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
 recipes.remove(<minecraft:gunpowder>);
 recipes.addShapeless("1x_item_sulphur_shapeless", <minecraft:gunpowder>, [<ore:dustSaltpeter>, <ore:dustSulfur>, <ore:dustCharcoal>]);
 
+//CharcoalCleanup
+furnace.remove(<minecraft:coal:1>);
+recipes.remove(<minecraft:coal:1>);
+mods.thermalexpansion.RedstoneFurnace.removeRecipe(<minecraft:coal:1>);
+recipes.addShapeless("9x_item_charcoal_shapeless", <minecraft:coal:1> * 9, [<ore:blockCharcoal>]);
+
 
 
 

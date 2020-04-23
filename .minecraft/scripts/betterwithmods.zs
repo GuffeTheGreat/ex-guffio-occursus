@@ -9,6 +9,21 @@ mods.betterwithmods.Mill.addRecipe([<betterwithmods:material:2>],[<immersiveengi
 
 //RedstoneLatch
 recipes.remove(<betterwithmods:material:34>);
+
+//Bricks
+recipes.remove(<betterwithmods:unfired_pottery:4>);
+recipes.remove(<betterwithmods:unfired_pottery:5>);
+recipes.addShapedMirrored("1x_tile_bwm_unfired_pottery_5_shaped", <betterwithmods:unfired_pottery:5>, [
+	[<betterwithmods:material:35>, <betterwithmods:material:35>]
+]);
+recipes.addShapedMirrored("1x_tile_bwm_unfired_pottery_4_shaped", <betterwithmods:unfired_pottery:4>, [
+	[<minecraft:clay_ball>, <minecraft:clay_ball>]
+]);
+
+
+
+
+
 //Woodengear
 recipes.addShapedMirrored("1x_item_bwm_material_gear_shaped", <betterwithmods:material>, [
 	[<immersiveengineering:material>, <immersiveengineering:treated_wood>, <immersiveengineering:material>],
@@ -20,9 +35,22 @@ recipes.addShapedMirrored("1x_item_bwm_material_gear_shaped", <betterwithmods:ma
 recipes.remove(<betterwithmods:saw>);
 recipes.addShapedMirrored("1x_tile_bwm_saw_shaped", <betterwithmods:saw>, [
 	[<immersiveengineering:treated_wood>, <pyrotech:sawmill_blade_iron>, <immersiveengineering:treated_wood>],
-	[<betterwithmods:material>, <betterwithmods:material:9>, <betterwithmods:material>],
-	[<immersiveengineering:treated_wood>, <betterwithmods:material>, <immersiveengineering:treated_wood>]
+	[<thermalfoundation:material:24>, <betterwithmods:material:9>, <thermalfoundation:material:24>],
+	[<immersiveengineering:treated_wood>, <thermalfoundation:material:24>, <immersiveengineering:treated_wood>]
 ]);
+//Turntable
+recipes.remove(<betterwithmods:single_machine:3>);
+recipes.addShapedMirrored("1x_tile_bwm_single_machine_3_shaped", <betterwithmods:single_machine:3>, [
+	[<immersiveengineering:treated_wood>, <minecraft:piston>, <immersiveengineering:treated_wood>],
+	[<embers:plate_iron>, <betterwithmods:wooden_axle>, <embers:plate_iron>],
+	[<embers:plate_iron>, <thermalfoundation:material:24>, <embers:plate_iron>]
+]);
+
+//DiamondIngot
+recipes.remove(<betterwithmods:single_machine>);
+mods.betterwithmods.Crucible.addStoked([<metallurgy:steel_ingot>,<betterwithmods:creeper_oyster>,<pyrotech:material:33>,<minecraft:diamond>],[<betterwithmods:material:45>]);
+
+
 
 
 
@@ -42,23 +70,9 @@ recipes.addShapedMirrored("1x_tile_bwm_hand_crank_shaped", <betterwithmods:hand_
 	[<pyrotech:stone_bricks>, <betterwithmods:material>, <pyrotech:stone_bricks>]
 ]);
 
-//WoodenGearBox
-recipes.remove(<betterwithmods:wooden_axle>);
-recipes.addShapedMirrored("1x_tile_bwm_wooden_gearbox_shaped", <betterwithmods:wooden_gearbox>, [
-	[<betterwithmods:material>, <ore:treatedSiding>, <betterwithmods:material>],
-	[<ore:treatedSiding>, <immersiveengineering:wooden_decoration:1>, <ore:treatedSiding>],
-	[<betterwithmods:material>, <ore:treatedSiding>, <betterwithmods:material>]
-]);
-
-//Axle
-recipes.remove(<betterwithmods:wooden_axle>);
-recipes.addShapedMirrored("1x_tile_bwm_wooden_axle_shaped", <betterwithmods:wooden_axle>, [
-	[null, <betterwithmods:moulding_wood>, null],
-	[null, <betterwithmods:rope>, null],
-	[null, <betterwithmods:moulding_wood>, null]
-]);
-
-
+//UnifyingCharcoalDust
+mods.betterwithmods.Mill.remove([<betterwithmods:material:37>]);
+mods.betterwithmods.Mill.addRecipe([<minecraft:coal:1>],[<thermalfoundation:material:769>]);
 
 
 

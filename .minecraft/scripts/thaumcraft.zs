@@ -56,6 +56,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tile.metal_alchemical", ""
 [<thaumcraft:tube>,<thaumcraft:mechanism_complex>,<thaumcraft:tube>], 
 [<jaopca:item_plateinfuscolium>,<thaumcraft:tube_valve>,<jaopca:item_plateinfuscolium>]]);
 
+
 //InfusionRecipes
 #FinalStar
 recipes.remove(<projectex:final_star>);
@@ -69,7 +70,7 @@ mods.thaumcraft.Infusion.registerRecipe("thefinalstar", "", <projectex:final_sta
 #RatMeat
 mods.thaumcraft.Crucible.registerRecipe("rawrat", "BASEALCHEMY", <rats:raw_rat>, <minecraft:chicken>, [<aspect:rattus>*10]);
 #WitherSkull
-mods.thaumcraft.Crucible.registerRecipe("witherskull", "BASEALCHEMY", <minecraft:skull:1>, <minecraft:skull>, [<aspect:exitium>*15,<aspect:perditio>*10,<aspect:spiritius>*10,<aspect:tenebrae>*20]);
+mods.thaumcraft.Crucible.registerRecipe("witherskull", "BASEALCHEMY", <minecraft:skull:1>, <minecraft:skull>, [<aspect:exitium>*15,<aspect:perditio>*10,<aspect:spiritus>*10,<aspect:tenebrae>*20]);
 #AlchemicalBrass
 mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrass", "BASEALCHEMY", <thaumcraft:ingot:2>, <metallurgy:brass_ingot>, [<aspect:instrumentum> * 5, <aspect:alkimia> * 5]);
 #Thaumium
@@ -77,10 +78,10 @@ mods.thaumcraft.Crucible.registerRecipe("Thaumium", "BASEALCHEMY", <thaumcraft:i
 mods.thaumcraft.Crucible.registerRecipe("ThaumiumfromAldourite", "BASEALCHEMY", <thaumcraft:ingot> *4, <metallurgy:alduorite_ingot>, [<aspect:praecantatio> * 5, <aspect:terra> * 5, <aspect:permutatio> * 5]);
 //Nitor
 mods.thaumcraft.Crucible.registerRecipe("tile.nitor.yellow", "BASEALCHEMY", <thaumcraft:nitor_yellow>, <ore:dustSulfur>, [<aspect:potentia> * 10, <aspect:ignis> * 10, <aspect:lux> * 10]);
-
+//Glowstone
+mods.thaumcraft.Crucible.registerRecipe("glowstone", "BASEALCHEMY", <minecraft:glowstone_dust>, <metallurgy:gold_dust>, [<aspect:lux> * 20]);
 //CaminiteBlend
 mods.thaumcraft.Crucible.registerRecipe("caminiteblend", "BASEALCHEMY", <embers:blend_caminite>*3, <pyrotech:material:4>, [<aspect:machina> * 2, <aspect:praecantatio> * 2]);
-
 //EmberShard
 mods.thaumcraft.Crucible.registerRecipe("embershardbad", "BASEALCHEMY", <embers:shard_ember>, <pyrotech:material:34>, [<aspect:ignis> * 1]);
 mods.thaumcraft.Crucible.registerRecipe("embershardgood", "BASEALCHEMY", <embers:shard_ember>*4, <pyrotech:material:33>, [<aspect:ignis> * 1]);

@@ -31,6 +31,20 @@ recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_cokebri
 	[<pyrotech:material:4>, <pyrotech:material:5>, <pyrotech:material:4>]
 ]);
 
+//Blastbrick
+recipes.remove(<immersiveengineering:stone_decoration:1>*3);
+recipes.addShapedMirrored("27x_tile_immersiveengineering_stone_decoration_blastbrick_shaped1", <immersiveengineering:stone_decoration:1> * 3, [
+	[<pyrotech:material:33>, <pyrotech:refractory_brick_block>, <pyrotech:material:33>],
+	[<minecraft:nether_brick>, <thermalfoundation:material:1024>, <minecraft:nether_brick>],
+	[<pyrotech:material:33>, <pyrotech:refractory_brick_block>, <pyrotech:material:33>]
+]);
+recipes.addShapedMirrored("27x_tile_immersiveengineering_stone_decoration_blastbrick_shaped2", <immersiveengineering:stone_decoration:1> * 3, [
+	[<pyrotech:material:33>, <minecraft:nether_brick>, <pyrotech:material:33>],
+	[<pyrotech:refractory_brick_block>, <thermalfoundation:material:1024>, <pyrotech:refractory_brick_block>],
+	[<pyrotech:material:33>, <minecraft:nether_brick>, <pyrotech:material:33>]
+]);
+
+
 
 
 
@@ -47,4 +61,4 @@ mods.immersiveengineering.Blueprint.addRecipe("components", <betterwithmods:mate
 mods.immersiveengineering.Blueprint.addRecipe("components", <thermalfoundation:material:512>, [<minecraft:redstone>*4, <immersiveengineering:material:1>]);
 mods.immersiveengineering.Blueprint.addRecipe("components", <thermalfoundation:material:513>, [<minecraft:redstone>*2, <thermalfoundation:material:166>]);
 mods.immersiveengineering.Blueprint.addRecipe("components", <thermalfoundation:material:514>, [<minecraft:redstone>*2, <metallurgy:lemurite_ingot>]);
-mods.immersiveengineering.Blueprint.addRecipe("components", <thermalfoundation:material:515>, [<minecraft:redstone>*2, <metallurgy:atlarus_ingot>]);
+mods.immersiveengineering.Blueprint.addRecipe("components", <thermalfoundation:material:515>, [<minecraft:redstone>*2, <alchemistry:ingot:21>  ]);
