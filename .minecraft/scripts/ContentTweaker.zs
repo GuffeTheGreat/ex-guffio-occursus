@@ -4,7 +4,7 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
-
+/*
 // Life Essence
 var lifeEssence as Item = VanillaFactory.createItem("lifessence");
 lifeEssence.register();
@@ -564,3 +564,4 @@ adroysiumSword.register();
 // Adroysium Axe
 var adroysiumAxe = VanillaFactory.createItem("adroysium_axe");
 adroysiumAxe.register();
+*/

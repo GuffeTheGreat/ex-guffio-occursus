@@ -1,0 +1,97 @@
+  {
+	  "name": "appliedenergistics2:controller",
+	  
+	  "target-item": "appliedenergistics2:controller",
+	  "target-count": 1,
+	  "duration": 200,
+	  "catalyst": "appliedenergistics2:certus_quartz_wrench",
+	  "catalyst-meta": "0",
+		
+	  "input-types": {
+		"a": {
+		  "id": "appliedenergistics2:smooth_sky_stone_block",
+		  "meta": 5
+		},
+		"b": {
+		  "id": "actuallyadditions:block_crystal_empowered",
+		  "meta": 2
+		},
+		"c": {
+		  "id": "actuallyadditions:block_crystal",
+		  "meta": 5
+		},
+		"d": {
+		  "id": "appliedenergistics2:energy_acceptor",
+		  "meta": 0
+		},
+		"e": {
+		  "id": "chisel:futura",
+		  "meta": 2
+		},
+		"f": {
+		  "id": "appliedenergistics2:dense_energy_cell",
+		  "meta": 0
+		}
+	  },
+	  "input-nbt": {
+		"d:A": {
+		  "nbt": "{proxy:{p:0,g:1204L,k:-1L},forward:\"WEST\",id:\"appliedenergistics2:energy_acceptor\",up:\"UP\",internalCurrentPower:0.0d}"
+		},
+		"f:A": {
+		  "nbt": "{proxy:{p:0,g:1204L,k:-1L},id:\"appliedenergistics2:energy_cell\",internalCurrentPower:0.0d}"
+		}
+	  },
+	  "shape": [
+		[
+		  [
+			"a",
+			"c",
+			"a"
+		  ],
+		  [
+			"c",
+			"f:A",
+			"c"
+		  ],
+		  [
+			"a",
+			"c",
+			"a"
+		  ]
+		],
+		[
+		  [
+			"c",
+			"e",
+			"c"
+		  ],
+		  [
+			"d:A",
+			"b",
+			"d:A"
+		  ],
+		  [
+			"c",
+			"e",
+			"c"
+		  ]
+		],
+		[
+		  [
+			"a",
+			"c",
+			"a"
+		  ],
+		  [
+			"c",
+			"f:A",
+			"c"
+		  ],
+		  [
+			"a",
+			"c",
+			"a"
+		  ]
+		]
+	  ]
+}

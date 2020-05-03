@@ -1,0 +1,155 @@
+  {
+	  "name": "draconicCore",
+	  
+	  "target-item": "draconicevolution:draconic_core",
+	  "target-count": 1,
+	  "duration": 20,
+	  "catalyst": "extendedcrafting:material",
+	  "catalyst-meta": "40",
+		
+	  
+  "input-types": {
+    "a": {
+      "id": "draconicevolution:draconium_block",
+      "meta": 0
+    },
+    "b": {
+      "id": "extendedcrafting:storage",
+      "meta": 7
+    },
+    "c": {
+      "id": "metallurgy:eximite_block",
+      "meta": 0
+    },
+    "d": {
+      "id": "metallurgy:meutoite_block",
+      "meta": 0
+    },
+    "e": {
+      "id": "rockhounding_chemistry:didymium_glass",
+      "meta": 0
+    },
+    "f": {
+      "id": "thaumcraft:metal_alchemical",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "a",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "d",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "e",
+        "_",
+        "_"
+      ],
+      [
+        "a",
+        "c",
+        "f",
+        "c",
+        "a"
+      ],
+      [
+        "_",
+        "_",
+        "e",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "b",
+        "d",
+        "b",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ],
+    [
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "a",
+        "_",
+        "_"
+      ],
+      [
+        "_",
+        "_",
+        "_",
+        "_",
+        "_"
+      ]
+    ]
+  ]
+
+}

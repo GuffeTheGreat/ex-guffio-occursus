@@ -7,7 +7,7 @@
 				25
 			],
 			"samples": [
-				"botania:mushroom:15",
+				"botania:mushroom:5",
 				100
 			],
 			"yMin": 30,
@@ -22,7 +22,7 @@
 		},
 		{
 			"blocks": [
-				"thermalfoundation:ore",
+				"metallurgy:copper_ore",
 				75,
 				"metallurgy:potash_ore",
 				20,
@@ -45,10 +45,12 @@
 		},
 		{
 			"blocks": [
-				"thermalfoundation:ore:2",
-				50,
-				"thermalfoundation:ore:3",
-				50
+				"metallurgy:silver_ore",
+				45,
+				"nuclearcraft:ore:2",
+				45,
+				"aoa3:amethyst_ore",
+				10
 			],
 			"samples": [
 				"botania:mushroom:2",
@@ -116,9 +118,9 @@
 				65,
 				"minecraft:gold_ore",
 				15,
-				"thermalfoundation:ore:5",
+				"immersiveengineering:ore:4",
 				15,
-				"metallurgy:manganese_ore",
+				"aoa3:limonite_ore",
 				5
 			],
 			"samples": [
@@ -137,8 +139,10 @@
 		},
 		{
 			"blocks": [
-				"thermalfoundation:ore:1",
-				90,
+				"metallurgy:tin_ore",
+				80,
+				"metallurgy:manganese_ore",
+				10,
 				"metallurgy:zinc_ore",
 				10
 			],
@@ -156,12 +160,37 @@
 			],
 			"density": 1.0
 		},
+				{
+			"blocks": [
+				"nuclearcraft:ore:6",
+				45,
+				"nuclearcraft:ore:7",
+				45,
+				"nuclearcraft:ore:5",
+				10
+			],
+			"samples": [
+				"botania:mushroom:6",
+				100
+			],
+			"yMin": 32,
+			"yMax": 60,
+			"chance": 5,
+			"size": 125,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
 		{
 			"blocks": [
 				"minecraft:lapis_ore",
-				90,
+				75,
 				"metallurgy:infuscolium_ore",
-				10
+				10,
+				"aoa3:sapphire_ore",
+				15
 			],
 			"samples": [
 				"botania:mushroom:11",
@@ -198,22 +227,18 @@
 				-1,
 				1
 			],
-			"density": 1.0,
-            "biomes": [
-       "thaumcraft:magical_forest"
-			],
-			"isWhitelist": true
+			"density": 1.0
 		},
 		{
 			"blocks": [
 				"nuclearcraft:ore:4",
 				60,
 				"nuclearcraft:ore:3",
-				34,
+				30,
 				"minecraft:emerald_ore",
 				5,
-				"metallurgy:lutetium_ore",
-				1
+				"aoa3:jade_ore",
+				5
 			],
 			"samples": [
 				"botania:mushroom:13",
@@ -236,11 +261,11 @@
 		{
 			"blocks": [
 				"minecraft:redstone_ore",
-				60,
+				70,
 				"thaumcraft:ore_cinnabar",
-				20,
-				"thermalfoundation:ore_fluid:2",
 				15,
+				"aoa3:rosite_ore",
+				10,
 				"metallurgy:rubracium_ore",
 				5
 			],
@@ -261,13 +286,11 @@
 		{
 			"blocks": [
 				"thaumcraft:ore_quartz",
-				50,
+				60,
 				"appliedenergistics2:quartz_ore",
 				30,
 				"appliedenergistics2:charged_quartz_ore",
-				15,
-				"astralsorcery:blockcustomore",
-				5
+				10
 			],
 			"samples": [
 				"botania:mushroom",
@@ -282,40 +305,29 @@
 				1
 			],
 			"density": 1.0
-		}
-	],
-	"stones": [{
-			"block": "minecraft:stone:1",
-			"size": 40,
-			"chance": 10,
-			"yMin": 2,
-			"yMax": 70,
-			"dimBlacklist": [
-				-1,
-				1
-			]
 		},
-		{
-			"block": "minecraft:stone:3",
-			"size": 40,
-			"chance": 10,
-			"yMin": 2,
-			"yMax": 70,
+				{
+			"blocks": [
+				"actuallyadditions:block_misc:3",
+				60,
+				"aoa3:runium_ore",
+				30,
+				"aoa3:charged_runium_ore",
+				10
+			],
+			"samples": [
+				"botania:mushroom:15",
+				100
+			],
+			"yMin": 16,
+			"yMax": 50,
+			"chance": 6,
+			"size": 100,
 			"dimBlacklist": [
 				-1,
 				1
-			]
-		},
-		{
-			"block": "minecraft:stone:5",
-			"size": 40,
-			"chance": 10,
-			"yMin": 2,
-			"yMax": 70,
-			"dimBlacklist": [
-				-1,
-				1
-			]
+			],
+			"density": 1.0
 		}
 	]
 }

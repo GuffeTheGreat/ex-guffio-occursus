@@ -1,9 +1,0 @@
-//ElementalDusts
-recipes.remove(<thermalfoundation:material:1024>);
-recipes.remove(<thermalfoundation:material:1025>);
-recipes.remove(<thermalfoundation:material:1026>);
-recipes.remove(<thermalfoundation:material:1027>);
-mods.betterwithmods.Crucible.addStoked([<minecraft:blaze_powder>*2,<minecraft:redstone>,<immersiveengineering:material:25>],[<thermalfoundation:material:1024>]);
-mods.betterwithmods.Crucible.addStoked([<thermalfoundation:material:2049>*2,<minecraft:redstone>,<minecraft:snowball>],[<thermalfoundation:material:1025>]);
-mods.betterwithmods.Crucible.addStoked([<thermalfoundation:material:2051>*2,<minecraft:redstone>,<immersiveengineering:material:24>],[<thermalfoundation:material:1026>]);
-mods.betterwithmods.Crucible.addStoked([<thermalfoundation:material:2053>*2,<minecraft:redstone>,<thermalfoundation:material:770>],[<thermalfoundation:material:1027>]);
