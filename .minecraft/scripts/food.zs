@@ -123,7 +123,7 @@ recipes.addShapeless("1x_tile_cuisine_chopping_board_shapeless", <cuisine:choppi
 
 //Earthenbasinrecipe
 recipes.remove(<cuisine:earthen_basin>);
-recipes.remove(<cuisine:earthen_basin_colored>);
+recipes.remove(<cuisine:earthen_basin_colored:*>);
 recipes.addShapedMirrored("1x_tile_cuisine_earthen_basin_shaped", <cuisine:earthen_basin>, [
 	[<ore:hardenedClay>, null, <ore:hardenedClay>],
 	[<ore:hardenedClay>, <ore:hardenedClay>, <ore:hardenedClay>]

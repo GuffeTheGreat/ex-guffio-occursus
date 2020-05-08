@@ -52,9 +52,9 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("item.mechanism_simple", "U
 //AlchemicalConstruct
 recipes.remove(<thaumcraft:metal_alchemical>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tile.metal_alchemical", "ESSENTIATRANSPORT", 75, [<aspect:aqua>,<aspect:ordo>,<aspect:perditio>], <thaumcraft:metal_alchemical>*2, [
-[<jaopca:item_plateinfuscolium>,<thaumcraft:tube_valve>,<jaopca:item_plateinfuscolium>], 
+[<jaopca:item_platesapphire>,<thaumcraft:tube_valve>,<jaopca:item_platesapphire>], 
 [<thaumcraft:tube>,<thaumcraft:mechanism_complex>,<thaumcraft:tube>], 
-[<jaopca:item_plateinfuscolium>,<thaumcraft:tube_valve>,<jaopca:item_plateinfuscolium>]]);
+[<jaopca:item_platesapphire>,<thaumcraft:tube_valve>,<jaopca:item_platesapphire>]]);
 
 //redstoneinlay
 recipes.remove(<thaumcraft:inlay>);
@@ -70,14 +70,14 @@ mods.thaumcraft.Crucible.registerRecipe("rawrat", "BASEALCHEMY", <rats:raw_rat>,
 #WitherSkull
 mods.thaumcraft.Crucible.registerRecipe("witherskull", "BASEALCHEMY", <minecraft:skull:1>, <minecraft:skull>, [<aspect:exitium>*15,<aspect:perditio>*10,<aspect:spiritus>*10,<aspect:tenebrae>*20]);
 #AlchemicalBrass
-mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrass", "BASEALCHEMY", <thaumcraft:ingot:2>, <metallurgy:brass_ingot>, [<aspect:instrumentum> * 5, <aspect:alkimia> * 5]);
+mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrass", "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotBrass>, [<aspect:instrumentum> * 5, <aspect:alkimia> * 5]);
 #Thaumium
-mods.thaumcraft.Crucible.registerRecipe("Thaumium", "BASEALCHEMY", <thaumcraft:ingot>, <thebetweenlands:items_misc:11>, [<aspect:praecantatio> * 5, <aspect:terra> * 5, <aspect:permutatio> * 5]);
-mods.thaumcraft.Crucible.registerRecipe("ThaumiumfromAldourite", "BASEALCHEMY", <thaumcraft:ingot> *4, <metallurgy:alduorite_ingot>, [<aspect:praecantatio> * 5, <aspect:terra> * 5, <aspect:permutatio> * 5]);
+mods.thaumcraft.Crucible.registerRecipe("Thaumium", "METALLURGY", <thaumcraft:ingot>, <thebetweenlands:items_misc:11>, [<aspect:praecantatio> * 5, <aspect:terra> * 5, <aspect:permutatio> * 5]);
+mods.thaumcraft.Crucible.registerRecipe("ThaumiumfromAldourite", "METALLURGY", <thaumcraft:ingot> *4, <aoa3:ghoulish_ingot>, [<aspect:praecantatio> * 5, <aspect:terra> * 5, <aspect:permutatio> * 5]);
 //Nitor
 mods.thaumcraft.Crucible.registerRecipe("tile.nitor.yellow", "BASEALCHEMY", <thaumcraft:nitor_yellow>, <ore:dustSulfur>, [<aspect:potentia> * 10, <aspect:ignis> * 10, <aspect:lux> * 10]);
 //Glowstone
-mods.thaumcraft.Crucible.registerRecipe("glowstone", "BASEALCHEMY", <minecraft:glowstone_dust>, <metallurgy:gold_dust>, [<aspect:lux> * 20]);
+mods.thaumcraft.Crucible.registerRecipe("glowstone", "BASEALCHEMY", <minecraft:glowstone_dust>, <ore:dustGold>, [<aspect:lux> * 20]);
 //CaminiteBlend
 mods.thaumcraft.Crucible.registerRecipe("caminiteblend", "BASEALCHEMY", <embers:blend_caminite>*3, <pyrotech:material:4>, [<aspect:machina> * 2, <aspect:praecantatio> * 2]);
 //EmberShard

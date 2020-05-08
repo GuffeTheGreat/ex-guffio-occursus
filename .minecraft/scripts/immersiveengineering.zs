@@ -34,7 +34,7 @@ recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_cokebri
 //ChangeCraftingComponentBlueprintCausenoAluminium
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
 recipes.addShapedMirrored("1x_item_immersiveengineering_blueprint_shaped", <immersiveengineering:blueprint>.withTag({blueprint: "components"}), [
-	[<metallurgy:bronze_ingot>, <immersiveengineering:metal:6>, <minecraft:iron_ingot>],
+	[<ore:ingotBronze>, <immersiveengineering:metal:6>, <minecraft:iron_ingot>],
 	[<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
 	[<ore:paper>, <ore:paper>, <ore:paper>]
 ]);

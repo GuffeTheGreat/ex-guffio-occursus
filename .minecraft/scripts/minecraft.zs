@@ -3,9 +3,6 @@ mods.jei.JEI.removeAndHide(<mysticalworld:amethyst_pickaxe>);
 mods.jei.JEI.removeAndHide(<mysticalworld:silver_pickaxe>);
 mods.jei.JEI.removeAndHide(<mysticalworld:copper_pickaxe>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:pickaxe_steel>);
-mods.jei.JEI.removeAndHide(<metallurgy:silver_pickaxe>);
-mods.jei.JEI.removeAndHide(<metallurgy:electrum_pickaxe>);
-mods.jei.JEI.removeAndHide(<metallurgy:copper_pickaxe>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:nether_quartz_pickaxe>);
 mods.jei.JEI.removeAndHide(<embers:pickaxe_silver>);
 //CraftingTable

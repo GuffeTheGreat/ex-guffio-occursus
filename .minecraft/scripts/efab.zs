@@ -66,10 +66,10 @@ EFabRecipe.shaped(<aoa3:frame_bench>, [
 //Furnace
 EFabRecipe.shaped(<minecraft:furnace>, [
 	[<avaritia:block_resource:1>, <minecraft:clay>, <avaritia:block_resource:1>],
-	[<minecraft:clay>, <minecraft:furnace>, <minecraft:clay>],
+	[<minecraft:clay>, null, <minecraft:clay>],
 	[<avaritia:block_resource:1>, <minecraft:clay>, <avaritia:block_resource:1>]])
 	.fluid(<liquid:liquid_clay> * 9001)
-    .time(630720000);
+    .time(1);
 
 
 

@@ -59,9 +59,9 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_speed_shaped", <rats:rat_upg
 //Wingsupgr
 recipes.remove(<rats:rat_upgrade_flight>);
 recipes.addShapedMirrored("1x_item_rats_rat_upgrade_flight_shaped", <rats:rat_upgrade_flight>, [
-	[<jaopca:item_platelapis>, <rats:block_of_cheese>, <jaopca:item_platelapis>],
+	[<ic2:plate:4>, <rats:block_of_cheese>, <ic2:plate:4>],
 	[<minecraft:feather>, <rats:rat_upgrade_basic>, <minecraft:feather>],
-	[<jaopca:item_platelapis>, <rats:block_of_cheese>, <jaopca:item_platelapis>]
+	[<ic2:plate:4>, <rats:block_of_cheese>, <ic2:plate:4>]
 ]);
 
 //Enderupgrade
@@ -76,7 +76,7 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_ender_shaped", <rats:rat_upg
 recipes.remove(<rats:rat_upgrade_blacklist>);
 recipes.addShapedMirrored("1x_item_rats_rat_upgrade_blacklist_shaped", <rats:rat_upgrade_blacklist>, [
 	[<jaopca:item_platequartzblack>, <embers:plate_gold>, <jaopca:item_platequartzblack>],
-	[<embers:plate_gold>, <enderio:item_material:77>, <embers:plate_gold>],
+	[<embers:plate_gold>, <cyclicmagic:carbon_paper>, <embers:plate_gold>],
 	[<jaopca:item_platequartzblack>, <embers:plate_gold>, <jaopca:item_platequartzblack>]
 ]);
 
