@@ -8,7 +8,7 @@ import mods.thaumcraft.Crucible;
 #Thauometer
 recipes.remove(<thaumcraft:thaumometer>);
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:thaumometer>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumometer", "", 20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumometer>, [[null,<ore:plateGold>,null], [<ore:plateAtlarus>,<ore:paneGlass>,<ore:plateAtlarus>], [null,<ore:plateGold>,null]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumometer", "", 20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumometer>, [[null,<ore:plateGold>,null], [<ore:plateAtlarus>,<thebetweenlands:silt_glass_pane>,<ore:plateAtlarus>], [null,<ore:plateGold>,null]]);
 //FormationWand
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_architect");
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("barrierstone", "PAVINGSTONES", 20, [<aspect:ordo>, <aspect:ignis>], <thaumcraft:paving_stone_barrier>*8, [[<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>,<roots:stalicripe>,<thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>]]);
@@ -64,18 +64,24 @@ recipes.remove(<thaumcraft:inlay>);
 
 //CrucibleRecipes
 //mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot>);
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:nitor_yellow>);
+mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:tallow>);
 //mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot:2>);
+#Alumentum
+mods.thaumcraft.Crucible.registerRecipe("alumentum", "BASEALCHEMY", <thaumcraft:alumentum> * 9, <ore:fuelCoke>, [<aspect:perditio> * 5, <aspect:terra> * 5, <aspect:ignis> * 10, <aspect:potentia> * 10]);
 #RatMeat
 mods.thaumcraft.Crucible.registerRecipe("rawrat", "BASEALCHEMY", <rats:raw_rat>, <minecraft:chicken>, [<aspect:rattus>*10]);
 #WitherSkull
-mods.thaumcraft.Crucible.registerRecipe("witherskull", "BASEALCHEMY", <minecraft:skull:1>, <minecraft:skull>, [<aspect:exitium>*15,<aspect:perditio>*10,<aspect:spiritus>*10,<aspect:tenebrae>*20]);
+mods.thaumcraft.Crucible.registerRecipe("witherskull", "HEDGEALCHEMY", <minecraft:skull:1>, <minecraft:skull>, [<aspect:exitium>*15,<aspect:perditio>*10,<aspect:spiritus>*10,<aspect:tenebrae>*20]);
 #AlchemicalBrass
-mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrass", "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotBrass>, [<aspect:instrumentum> * 5, <aspect:alkimia> * 5]);
+mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrass", "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotCarmot>, [<aspect:instrumentum> * 5, <aspect:alkimia> * 5]);
+#AlchemicalBrass
+mods.thaumcraft.Crucible.registerRecipe("tallow", "BASEALCHEMY", <thaumcraft:tallow>, <primal:tallow>, [<aspect:ignis>]);
 #Thaumium
-mods.thaumcraft.Crucible.registerRecipe("Thaumium", "METALLURGY", <thaumcraft:ingot>, <thebetweenlands:items_misc:11>, [<aspect:praecantatio> * 5, <aspect:terra> * 5, <aspect:permutatio> * 5]);
+mods.thaumcraft.Crucible.registerRecipe("Thaumium", "BASEALCHEMY", <thaumcraft:ingot>, <thebetweenlands:items_misc:11>, [<aspect:praecantatio> * 5, <aspect:terra> * 5, <aspect:permutatio> * 5]);
 mods.thaumcraft.Crucible.registerRecipe("ThaumiumfromAldourite", "METALLURGY", <thaumcraft:ingot> *4, <aoa3:ghoulish_ingot>, [<aspect:praecantatio> * 5, <aspect:terra> * 5, <aspect:permutatio> * 5]);
 //Nitor
-mods.thaumcraft.Crucible.registerRecipe("tile.nitor.yellow", "BASEALCHEMY", <thaumcraft:nitor_yellow>, <ore:dustSulfur>, [<aspect:potentia> * 10, <aspect:ignis> * 10, <aspect:lux> * 10]);
+mods.thaumcraft.Crucible.registerRecipe("tile.nitor.yellow", "BASEALCHEMY", <thaumcraft:nitor_yellow>, <thebetweenlands:wisp>, [<aspect:potentia> * 10, <aspect:ignis> * 10, <aspect:lux> * 10]);
 //Glowstone
 mods.thaumcraft.Crucible.registerRecipe("glowstone", "BASEALCHEMY", <minecraft:glowstone_dust>, <ore:dustGold>, [<aspect:lux> * 20]);
 //CaminiteBlend

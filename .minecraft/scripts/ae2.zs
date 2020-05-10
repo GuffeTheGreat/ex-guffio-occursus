@@ -1,4 +1,3 @@
-mods.jei.JEI.removeAndHide(<appliedenergistics2:facade>);
 
 //CertusQuartzWrench
 		recipes.remove(<appliedenergistics2:certus_quartz_wrench>);

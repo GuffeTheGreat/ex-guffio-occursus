@@ -5,15 +5,6 @@
 //Plants
 <ore:plant>.addItems([<minecraft:tallgrass:*>, <minecraft:deadbush>, <minecraft:double_plant:*>,<minecraft:sapling:*>,<minecraft:yellow_flower>, <minecraft:red_flower:*>]);
 
-//FixAlchemicalBrass
-<ore:ingotBrass>.remove(<thaumcraft:ingot:2>);
-<ore:nuggetBrass>.remove(<thaumcraft:nugget:8>);
-<ore:plateBrass>.remove(<thaumcraft:plate>);
-<ore:blockBrass>.remove(<thaumcraft:metal_brass>);
-<ore:ingotAlchemicalBrass>.add(<thaumcraft:ingot:2>);
-<ore:nuggetAlchemicalBrass>.add(<thaumcraft:nugget:8>);
-<ore:plateAlchemicalBrass>.add(<thaumcraft:plate>);
-<ore:blockAlchemicalBrass>.add(<thaumcraft:metal_brass>);
 
 //FixMarble
 <ore:blockMarble>.add(<undergroundbiomes:metamorphic_stone:2>);
@@ -41,6 +32,9 @@
 //MortarIngredients
 <ore:mortalIngredient>.remove(<minecraft:sand>);
 <ore:mortalIngredient>.add(<pyrotech:rock:5>);
+<ore:mortalIngredient>.add(<pyrotech_compat:rock_igneous_sand:*>);
+<ore:mortalIngredient>.add(<pyrotech_compat:rock_metamorphic_sand:*>);
+<ore:mortalIngredient>.add(<pyrotech_compat:rock_sedimentary_sand:*>);
 
 
 <ore:gemSulfur>.add(<thebetweenlands:items_misc:18>);

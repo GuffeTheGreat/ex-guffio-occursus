@@ -6,3 +6,8 @@
 <thebetweenlands:items_misc:23>.displayName = "Solidified Rubber";
 <rockhounding_chemistry:uninspected_mineral>.displayName = "Rare Earth Ore";
 <extendedcrafting:material:40>.displayName = "The Endest Star";
+<immersiveintelligence:material_gem:1>.displayName = "Phosphorus";
+<primal:hibachi:3>.withTag({type: "adobe"}).displayName = "Refractory Hibachi";
+<primal:smelter:3>.withTag({BlockEntityTag: {covered: 1 as byte}, type: "adobe"}).displayName = "Refractory Sariras";
+<primal:smelter:3>.withTag({type: "adobe"}).withTag({type: "adobe"}).displayName = "Refractory Sariras";
+<primal:smelter_lid_adobe>.withTag({type: "adobe"}).withTag({type: "adobe"}).displayName = "Refractory Lid";

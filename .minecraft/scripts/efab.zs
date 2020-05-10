@@ -44,7 +44,7 @@ EFabRecipe.shaped(<efab:upgrade_armory>, [
 //Blastbrick
 EFabRecipe.shaped(<immersiveengineering:stone_decoration:1> * 3, [
 	[<pyrotech:material:33>, <minecraft:nether_brick>, <pyrotech:material:33>],
-	[<pyrotech:refractory_brick_block>, <roots:infernal_bulb>, <pyrotech:refractory_brick_block>],
+	[<pyrotech:refractory_brick_block>, <ore:dustBlaze>, <pyrotech:refractory_brick_block>],
 	[<pyrotech:material:33>, <minecraft:nether_brick>, <pyrotech:material:33>]])
 	.fluid(<liquid:lava> * 250)
     .time(1);

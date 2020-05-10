@@ -3,17 +3,8 @@
 
 //WindmillandWaterwheel
 recipes.remove(<immersiveengineering:wooden_device1>);
-recipes.addShapedMirrored("1x_tile_immersiveengineering_wooden_device1_watermill_shaped", <immersiveengineering:wooden_device1>, [
-	[null, <immersiveengineering:material:10>, null],
-	[<immersiveengineering:material:10>, <jaopca:item_geartin>, <immersiveengineering:material:10>],
-	[null, <immersiveengineering:material:10>, null]
-]);
 recipes.remove(<immersiveengineering:wooden_device1:1>);
-recipes.addShapedMirrored("1x_tile_immersiveengineering_wooden_device1_windmill_shaped", <immersiveengineering:wooden_device1:1>, [
-	[<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>],
-	[<immersiveengineering:material:11>, <jaopca:item_geartin>, <immersiveengineering:material:11>],
-	[<immersiveengineering:material:11>, <immersiveengineering:material:11>, <immersiveengineering:material:11>]
-]);
+
 
 //AlloyKiln
 recipes.remove(<immersiveengineering:stone_decoration:10>*2);

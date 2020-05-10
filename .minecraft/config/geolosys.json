@@ -140,11 +140,9 @@
 		{
 			"blocks": [
 				"metallurgy:tin_ore",
-				80,
+				85,
 				"metallurgy:manganese_ore",
-				10,
-				"metallurgy:zinc_ore",
-				10
+				15
 			],
 			"samples": [
 				"botania:mushroom:8",
@@ -153,7 +151,7 @@
 			"yMin": 32,
 			"yMax": 60,
 			"chance": 5,
-			"size": 125,
+			"size": 90,
 			"dimBlacklist": [
 				-1,
 				1

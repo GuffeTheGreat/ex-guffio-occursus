@@ -10,6 +10,9 @@ import mods.pyrotech.PitKiln;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
+var counter = 1;
+counter = counter +1;
+
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
 mods.jei.JEI.removeAndHide(<pyrotech:worktable_stone>);
@@ -125,6 +128,7 @@ recipes.addShapedMirrored("4x_tile_pyrotech_torch_stone_shaped", <pyrotech:torch
 	[<minecraft:coal>],
 	[<pyrotech:material:27>]
 ]);
+	/*
 //GraniteRecipes
 GraniteAnvil.removeRecipes(<pyrotech:material:10>);
 IroncladAnvil.removeRecipes(<pyrotech:material:10>);
@@ -137,64 +141,82 @@ IroncladAnvil.removeRecipes(<pyrotech:material:31>);
 GraniteAnvil.removeRecipes(<pyrotech:material:28>);
 IroncladAnvil.removeRecipes(<pyrotech:material:28>);
 
-//RefractoryMachines#HoneyandWax
-GraniteAnvil.addRecipe("honey", <harvestcraft:honeyitem>, <harvestcraft:honeycombitem>, 8, "hammer");
-IroncladAnvil.addRecipe("honey2", <harvestcraft:honeyitem>, <harvestcraft:honeycombitem>, 8, "hammer");
-GraniteAnvil.addRecipe("wax", <harvestcraft:beeswaxitem>, <harvestcraft:waxcombitem>, 8, "hammer");
-IroncladAnvil.addRecipe("wax2", <harvestcraft:beeswaxitem>, <harvestcraft:waxcombitem>, 8, "hammer");
-#FlakingBoneandFlint
-GraniteAnvil.addRecipe("flint1", <pyrotech:material:10>*2, <minecraft:flint>, 4, "pickaxe");
-IroncladAnvil.addRecipe("flint2", <pyrotech:material:10>*2, <minecraft:flint>, 4, "pickaxe");
-GraniteAnvil.addRecipe("flint3", <primal:flint_point>*2, <pyrotech:material:10>, 4, "pickaxe");
-IroncladAnvil.addRecipe("flint4", <primal:flint_point>*2, <pyrotech:material:10>, 4, "pickaxe");
+var hammerRecipes as IItemStack[IIngredient] = {
+	<harvestcraft:honeycombitem> : <harvestcraft:honeyitem>,
+	<harvestcraft:waxcombitem> : <harvestcraft:beeswaxitem>,
+    <primal:hide_salted> : <primal:hide_dried>,
+    <pyrotech:material:25> : <minecraft:paper>,
+    <ore:ingotConstantan> : <immersiveengineering:metal:36>,
+    <ore:ingotCopper> : <embers:plate_copper>,
+    <ore:ingotLead> : <embers:plate_lead>,
+    <ore:ingotIron> : <embers:plate_iron>,
+    <ore:ingotGold> : <embers:plate_gold>,
+    <ore:ingotSilver> : <embers:plate_silver>,
+    <ore:ingotBronze> : <embers:plate_bronze>,
+    <ore:ingotTin> : <embers:plate_tin>,
+    <primal:iron_strand> : <primal:iron_ring>,
+    <primal:bat_meat_salted> : <primal:bat_meat_dried>,
+    <primal:bear_meat_salted> : <primal:bear_meat_dried>,
+	<minecraft:sponge:1> : <minecraft:sponge>
+	};
 
-GraniteAnvil.addRecipe("bone1", <primal:sharp_bone>, <minecraft:bone>, 4, "pickaxe");
-IroncladAnvil.addRecipe("bone2", <primal:sharp_bone>, <minecraft:bone>, 4, "pickaxe");
-GraniteAnvil.addRecipe("bone3", <pyrotech:material:11>*2, <primal:sharp_bone>, 4, "pickaxe");
-IroncladAnvil.addRecipe("bone4", <pyrotech:material:11>*2, <primal:sharp_bone>, 4, "pickaxe");
-GraniteAnvil.addRecipe("bone5", <primal:bone_point>*2, <pyrotech:material:11>, 4, "pickaxe");
-IroncladAnvil.addRecipe("bone6", <primal:bone_point>*2, <pyrotech:material:11>, 4, "pickaxe");
+for input, output in hammerRecipes {
 
+GraniteAnvil.addRecipe("granitehammer", output, input, 8, "hammer");
+IroncladAnvil.addRecipe("ironhammer", output, input, 8, "hammer");
+
+}
+
+var pickaxeRecipes as IItemStack[IIngredient] = {
+	<minecraft:flint> : <pyrotech:material:10>*2,
+    <pyrotech:material:10> : <primal:flint_point>*2,
+    <minecraft:bone> : <primal:sharp_bone>,
+    <primal:sharp_bone> : <pyrotech:material:11>*2,
+    <pyrotech:material:11> : <primal:bone_point>*2,
+    <primal:ancient_ice> : <primal:ancient_ice_chunk>*4,
+    <primal:calcified_paraffin> : <primal:paraffin_clump>*4,
+    <ore:plateIron> : <primal:iron_strand>*4,
+    <ore:plateTin> : <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})*4,
+    <ore:plateCopper> : <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})*4,
+    <ore:plateGold> : <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})*4,
+    <primal:fish_lava_worm_salted> : <primal:fish_lava_worm_dried>,
+    <primal:fish_lava_crawdad_salted> : <primal:fish_lava_crawdad_dried>,
+    <primal:bat_meat_salted> : <primal:bat_meat_dried>,
+    <primal:bear_meat_salted> : <primal:bear_meat_dried>,
+	<minecraft:sponge:1> : <minecraft:sponge>
+	};
+
+for input, output in pickaxeRecipes {
+
+GraniteAnvil.addRecipe("granitepickaxe", output, input, 8, "pickaxe");
+IroncladAnvil.addRecipe("ironpickaxe", output, input, 8, "pickaxe");
+
+}
+*/
+
+//Ironrecipes
 IroncladAnvil.addRecipe("obsidian", <primal:obsidian_point>*2, <pyrotech:material:33>, 4, "pickaxe");
-
 IroncladAnvil.addRecipe("diamond", <primal:diamond_point>*2, <pyrotech:material:18>, 4, "pickaxe");
 IroncladAnvil.addRecipe("diamond2", <pyrotech:material:18>*2, <minecraft:diamond>, 4, "pickaxe");
-
 IroncladAnvil.addRecipe("opal", <primal:opal_knapp>*2, <primal:opal>, 4, "pickaxe");
 IroncladAnvil.addRecipe("opal2", <primal:opal_point>*2, <primal:opal_knapp>, 4, "pickaxe");
-
 IroncladAnvil.addRecipe("emerald", <primal:emerald_knapp>*2, <minecraft:emerald>, 4, "pickaxe");
 IroncladAnvil.addRecipe("emerald2", <primal:emerald_point>*2, <primal:emerald_knapp>, 4, "pickaxe");
+
 #Plates
 IroncladAnvil.addRecipe("uranium_plate", <immersiveengineering:metal:35>, <immersiveengineering:metal:5>, 8, "hammer");
 IroncladAnvil.addRecipe("thaumium_plate", <thaumcraft:plate:2>, <thaumcraft:ingot>, 8, "hammer");
 IroncladAnvil.addRecipe("void_plate", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 8, "hammer");
-GraniteAnvil.addRecipe("constantan_plate", <immersiveengineering:metal:36>, <thaumcraft:ingot:2>, 8, "hammer");
-IroncladAnvil.addRecipe("ironconstantan_plate", <immersiveengineering:metal:36>, <thaumcraft:ingot:2>, 8, "hammer");
 IroncladAnvil.addRecipe("steel_plate", <immersiveengineering:metal:38>, <ore:ingotSteel>, 8, "hammer");
 IroncladAnvil.addRecipe("bioplastic_plate", <emergingtechnology:plasticsheet>, <emergingtechnology:plasticblock>, 8, "hammer");
 IroncladAnvil.addRecipe("platinum_plate", <immersiveintelligence:material_plate:2>, <ore:ingotPlatinum>, 8, "hammer");
 IroncladAnvil.addRecipe("mithrillium_plate", <thaumadditions:mithrillium_plate>, <thaumadditions:mithrillium_ingot>, 8, "hammer");
 IroncladAnvil.addRecipe("adaminite_plate", <thaumadditions:adaminite_plate>, <thaumadditions:adaminite_ingot>, 8, "hammer");
 IroncladAnvil.addRecipe("mithminite_plate", <thaumadditions:mithminite_plate>, <thaumadditions:mithminite_ingot>, 8, "hammer");
-GraniteAnvil.addRecipe("copper_plate", <embers:plate_copper>, <ore:ingotCopper>, 8, "hammer");
-IroncladAnvil.addRecipe("ironcopper_plate", <embers:plate_copper>, <ore:ingotCopper>, 8, "hammer");
-GraniteAnvil.addRecipe("lead_plate", <embers:plate_lead>, <embers:ingot_lead>, 8, "hammer");
-IroncladAnvil.addRecipe("ironlead_plate", <embers:plate_lead>, <embers:ingot_lead>, 8, "hammer");
-GraniteAnvil.addRecipe("silver_plate", <embers:plate_silver>, <ore:ingotSilver>, 8, "hammer");
-IroncladAnvil.addRecipe("ironsilver_plate", <embers:plate_silver>, <ore:ingotSilver>, 8, "hammer");
 IroncladAnvil.addRecipe("dawnstone_plate", <embers:plate_dawnstone>, <embers:ingot_dawnstone>, 8, "hammer");
-GraniteAnvil.addRecipe("iron_plate", <embers:plate_iron>, <minecraft:iron_ingot>, 8, "hammer");
-IroncladAnvil.addRecipe("ironiron_plate", <embers:plate_iron>, <minecraft:iron_ingot>, 8, "hammer");
-GraniteAnvil.addRecipe("gold_plate", <embers:plate_gold>, <minecraft:gold_ingot>, 8, "hammer");
-IroncladAnvil.addRecipe("irongold_plate", <embers:plate_gold>, <minecraft:gold_ingot>, 8, "hammer");
 IroncladAnvil.addRecipe("aluminium_plate", <embers:plate_aluminum>, <embers:ingot_aluminum>, 8, "hammer");
-GraniteAnvil.addRecipe("bronze_plate", <embers:plate_bronze>, <ore:ingotBronze>, 8, "hammer");
-IroncladAnvil.addRecipe("ironbronze_plate", <embers:plate_bronze>, <ore:ingotBronze>, 8, "hammer");
 IroncladAnvil.addRecipe("electrum_plate", <embers:plate_electrum>, <ore:ingotElectrum>, 8, "hammer");
 IroncladAnvil.addRecipe("nickel_plate", <embers:plate_nickel>, <embers:ingot_nickel>, 8, "hammer");
-GraniteAnvil.addRecipe("tin_plate", <embers:plate_tin>, <ore:ingotTin>, 8, "hammer");
-IroncladAnvil.addRecipe("irontin_plate", <embers:plate_tin>, <ore:ingotTin>, 8, "hammer");
 //Kiln
 recipes.remove(<pyrotech:brick_kiln>);
 recipes.addShapedMirrored("1x_tile_pyrotech_brick_kiln_shaped", <pyrotech:brick_kiln>, [

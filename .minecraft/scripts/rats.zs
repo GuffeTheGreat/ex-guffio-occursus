@@ -59,9 +59,9 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_speed_shaped", <rats:rat_upg
 //Wingsupgr
 recipes.remove(<rats:rat_upgrade_flight>);
 recipes.addShapedMirrored("1x_item_rats_rat_upgrade_flight_shaped", <rats:rat_upgrade_flight>, [
-	[<ic2:plate:4>, <rats:block_of_cheese>, <ic2:plate:4>],
+	[<ore:plateLapis>, <rats:block_of_cheese>, <ore:plateLapis>],
 	[<minecraft:feather>, <rats:rat_upgrade_basic>, <minecraft:feather>],
-	[<ic2:plate:4>, <rats:block_of_cheese>, <ic2:plate:4>]
+	[<ore:plateLapis>, <rats:block_of_cheese>, <ore:plateLapis>]
 ]);
 
 //Enderupgrade

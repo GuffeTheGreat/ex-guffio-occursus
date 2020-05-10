@@ -12,6 +12,16 @@ recipes.addShapedMirrored("1x_tile_workbench_shaped", <minecraft:crafting_table>
 	[<ore:plankWood>,<ore:plankWood>]
 ]);
 
+
+#RemoveGallgagherreicpe
+recipes.remove(<minecraft:quartz>*4);
+recipes.remove(<minecraft:soul_sand>*4);
+recipes.remove(<minecraft:glowstone_dust>*4);
+recipes.remove(<minecraft:sand>*4);
+recipes.remove(<minecraft:sand:1>*4);
+recipes.remove(<minecraft:soul_sand>*4);
+recipes.remove(<minecraft:glowstone_dust>*4);
+
 //Piston
 recipes.remove(<minecraft:piston>);
 recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
@@ -88,7 +98,8 @@ recipes.addShapedMirrored("1x_item_bed_red_shaped", <minecraft:bed:14>, [
 	[<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]
 ]);
 
-
+//Netherbrick
+furnace.remove(<minecraft:netherbrick>);
 
 
 
