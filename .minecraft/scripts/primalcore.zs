@@ -34,6 +34,9 @@ mods.rockhounding_chemistry.LabOven.add("Tannin", <primal:tannin_ground>, null, 
 mods.rockhounding_chemistry.LabOven.add("TanninNether", <primal:inferum_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
 mods.primal.Gallagher.removeAll();
 
+//Planks
+recipes.remove(<primal:planks:*>);
+
 //ObsidianPlate
 recipes.remove(<primal:obsidian_shard>);
 furnace.remove(<primal:obsidian_plate>);

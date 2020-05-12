@@ -11,3 +11,8 @@
 <primal:smelter:3>.withTag({BlockEntityTag: {covered: 1 as byte}, type: "adobe"}).displayName = "Refractory Sariras";
 <primal:smelter:3>.withTag({type: "adobe"}).withTag({type: "adobe"}).displayName = "Refractory Sariras";
 <primal:smelter_lid_adobe>.withTag({type: "adobe"}).withTag({type: "adobe"}).displayName = "Refractory Lid";
+
+<immersiveengineering:material:22>.displayName = "Silver Wire";
+<immersiveengineering:material:20>.displayName = "Brass Wire";
+<immersiveengineering:material:21>.displayName = "Scandium Wire";
+<immersiveengineering:material:23>.displayName = "Neodymium Wire";

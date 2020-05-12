@@ -101,6 +101,10 @@ recipes.addShapedMirrored("1x_item_bed_red_shaped", <minecraft:bed:14>, [
 //Netherbrick
 furnace.remove(<minecraft:netherbrick>);
 
+//Planks
+recipes.remove(<minecraft:planks:*>);
+
+
 
 
 

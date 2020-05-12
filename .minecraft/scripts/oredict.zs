@@ -52,3 +52,7 @@
 //Fish
 <ore:fish>.add(<harvestcraft:rawtofishitem>);
 <ore:fish>.add(<harvestcraft:tunarawitem>);
+
+//Chili
+//Fish
+<ore:cropChilipepper>.add(<aoa3:chilli>);

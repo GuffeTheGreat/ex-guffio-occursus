@@ -4,7 +4,7 @@
 	  "target-item": "draconicevolution:draconic_core",
 	  "target-count": 1,
 	  "duration": 20,
-	  "catalyst": "extendedcrafting:material",
+	  "catalyst": "minecraft:dirt",
 	  "catalyst-meta": "40",
 		
 	  

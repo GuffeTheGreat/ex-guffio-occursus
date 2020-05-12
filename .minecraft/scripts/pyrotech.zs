@@ -10,8 +10,7 @@ import mods.pyrotech.PitKiln;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
-var counter = 1;
-counter = counter +1;
+
 
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
@@ -128,7 +127,9 @@ recipes.addShapedMirrored("4x_tile_pyrotech_torch_stone_shaped", <pyrotech:torch
 	[<minecraft:coal>],
 	[<pyrotech:material:27>]
 ]);
-	/*
+
+
+	
 //GraniteRecipes
 GraniteAnvil.removeRecipes(<pyrotech:material:10>);
 IroncladAnvil.removeRecipes(<pyrotech:material:10>);
@@ -141,6 +142,10 @@ IroncladAnvil.removeRecipes(<pyrotech:material:31>);
 GraniteAnvil.removeRecipes(<pyrotech:material:28>);
 IroncladAnvil.removeRecipes(<pyrotech:material:28>);
 
+
+var counter = 1;
+counter = counter +1;
+/*
 var hammerRecipes as IItemStack[IIngredient] = {
 	<harvestcraft:honeycombitem> : <harvestcraft:honeyitem>,
 	<harvestcraft:waxcombitem> : <harvestcraft:beeswaxitem>,
@@ -162,8 +167,8 @@ var hammerRecipes as IItemStack[IIngredient] = {
 
 for input, output in hammerRecipes {
 
-GraniteAnvil.addRecipe("granitehammer", output, input, 8, "hammer");
-IroncladAnvil.addRecipe("ironhammer", output, input, 8, "hammer");
+GraniteAnvil.addRecipe("granitehammer"+counter, output, input, 8, "hammer");
+IroncladAnvil.addRecipe("ironhammer"+counter, output, input, 8, "hammer");
 
 }
 
@@ -176,9 +181,8 @@ var pickaxeRecipes as IItemStack[IIngredient] = {
     <primal:ancient_ice> : <primal:ancient_ice_chunk>*4,
     <primal:calcified_paraffin> : <primal:paraffin_clump>*4,
     <ore:plateIron> : <primal:iron_strand>*4,
-    <ore:plateTin> : <ic2:cable:4>.withTag({type: 4 as byte, insulation: 0 as byte})*4,
-    <ore:plateCopper> : <ic2:cable>.withTag({type: 0 as byte, insulation: 0 as byte})*4,
-    <ore:plateGold> : <ic2:cable:2>.withTag({type: 2 as byte, insulation: 0 as byte})*4,
+    <ore:ingotSilver> : <immersiveengineering:material:22>,
+    <ore:ingotBrass> : <immersiveengineering:material:20>,
     <primal:fish_lava_worm_salted> : <primal:fish_lava_worm_dried>,
     <primal:fish_lava_crawdad_salted> : <primal:fish_lava_crawdad_dried>,
     <primal:bat_meat_salted> : <primal:bat_meat_dried>,
@@ -188,12 +192,12 @@ var pickaxeRecipes as IItemStack[IIngredient] = {
 
 for input, output in pickaxeRecipes {
 
-GraniteAnvil.addRecipe("granitepickaxe", output, input, 8, "pickaxe");
-IroncladAnvil.addRecipe("ironpickaxe", output, input, 8, "pickaxe");
+GraniteAnvil.addRecipe("granitepickaxe"+ counter, output, input, 8, "pickaxe");
+IroncladAnvil.addRecipe("ironpickaxe"+ counter, output, input, 8, "pickaxe");
 
 }
-*/
 
+*/
 //Ironrecipes
 IroncladAnvil.addRecipe("obsidian", <primal:obsidian_point>*2, <pyrotech:material:33>, 4, "pickaxe");
 IroncladAnvil.addRecipe("diamond", <primal:diamond_point>*2, <pyrotech:material:18>, 4, "pickaxe");

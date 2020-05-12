@@ -11,7 +11,7 @@ import mods.contenttweaker.Material;
 
 #Limonite
 var limonite = MaterialSystem.getMaterialBuilder().setName("Limonite").setColor(Color.fromHex("ffa500")).build();
-limonite.registerParts(["gear", "plate",  "nugget"] as string[]);
+limonite.registerParts(["gear", "plate",  "nugget", "crushed_ore"] as string[]);
 
 var moltenLimonite = limonite.registerPart("molten").getData();
 moltenLimonite.addDataValue("temperature", "400");
