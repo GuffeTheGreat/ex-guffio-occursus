@@ -142,13 +142,7 @@ IroncladAnvil.removeRecipes(<pyrotech:material:31>);
 GraniteAnvil.removeRecipes(<pyrotech:material:28>);
 IroncladAnvil.removeRecipes(<pyrotech:material:28>);
 
-
-var counter = 1;
-counter = counter +1;
-/*
 var hammerRecipes as IItemStack[IIngredient] = {
-	<harvestcraft:honeycombitem> : <harvestcraft:honeyitem>,
-	<harvestcraft:waxcombitem> : <harvestcraft:beeswaxitem>,
     <primal:hide_salted> : <primal:hide_dried>,
     <pyrotech:material:25> : <minecraft:paper>,
     <ore:ingotConstantan> : <immersiveengineering:metal:36>,
@@ -165,11 +159,11 @@ var hammerRecipes as IItemStack[IIngredient] = {
 	<minecraft:sponge:1> : <minecraft:sponge>
 	};
 
+var counter = 0;
 for input, output in hammerRecipes {
-
-GraniteAnvil.addRecipe("granitehammer"+counter, output, input, 8, "hammer");
-IroncladAnvil.addRecipe("ironhammer"+counter, output, input, 8, "hammer");
-
+	counter = counter +1;
+	GraniteAnvil.addRecipe("granitehammer"+counter, output, input, 8, "hammer");
+	IroncladAnvil.addRecipe("ironhammer"+counter, output, input, 8, "hammer");
 }
 
 var pickaxeRecipes as IItemStack[IIngredient] = {
@@ -190,14 +184,14 @@ var pickaxeRecipes as IItemStack[IIngredient] = {
 	<minecraft:sponge:1> : <minecraft:sponge>
 	};
 
+counter = 0;
 for input, output in pickaxeRecipes {
-
-GraniteAnvil.addRecipe("granitepickaxe"+ counter, output, input, 8, "pickaxe");
-IroncladAnvil.addRecipe("ironpickaxe"+ counter, output, input, 8, "pickaxe");
+	counter = counter +1;
+	GraniteAnvil.addRecipe("granitepickaxe"+ counter, output, input, 8, "pickaxe");
+	IroncladAnvil.addRecipe("ironpickaxe"+ counter, output, input, 8, "pickaxe");
 
 }
 
-*/
 //Ironrecipes
 IroncladAnvil.addRecipe("obsidian", <primal:obsidian_point>*2, <pyrotech:material:33>, 4, "pickaxe");
 IroncladAnvil.addRecipe("diamond", <primal:diamond_point>*2, <pyrotech:material:18>, 4, "pickaxe");
@@ -212,8 +206,7 @@ IroncladAnvil.addRecipe("uranium_plate", <immersiveengineering:metal:35>, <immer
 IroncladAnvil.addRecipe("thaumium_plate", <thaumcraft:plate:2>, <thaumcraft:ingot>, 8, "hammer");
 IroncladAnvil.addRecipe("void_plate", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 8, "hammer");
 IroncladAnvil.addRecipe("steel_plate", <immersiveengineering:metal:38>, <ore:ingotSteel>, 8, "hammer");
-IroncladAnvil.addRecipe("bioplastic_plate", <emergingtechnology:plasticsheet>, <emergingtechnology:plasticblock>, 8, "hammer");
-IroncladAnvil.addRecipe("platinum_plate", <immersiveintelligence:material_plate:2>, <ore:ingotPlatinum>, 8, "hammer");
+IroncladAnvil.addRecipe("platinum_plate", <primal:platinum_plate>, <ore:ingotPlatinum>, 8, "hammer");
 IroncladAnvil.addRecipe("mithrillium_plate", <thaumadditions:mithrillium_plate>, <thaumadditions:mithrillium_ingot>, 8, "hammer");
 IroncladAnvil.addRecipe("adaminite_plate", <thaumadditions:adaminite_plate>, <thaumadditions:adaminite_ingot>, 8, "hammer");
 IroncladAnvil.addRecipe("mithminite_plate", <thaumadditions:mithminite_plate>, <thaumadditions:mithminite_ingot>, 8, "hammer");

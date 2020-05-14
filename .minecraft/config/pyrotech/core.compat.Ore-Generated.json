@@ -24,8 +24,16 @@
       "slagColor": "e2e2e3",
       "langKey": [
         "embers:tile.ore_aluminum",
+        "galacticraftcore:tile.basic_block_core.ore_aluminum_gc",
+        "galacticraftplanets:tile.asteroids_block.ore_aluminum_asteroids",
+        "galacticraftplanets:tile.venus.venus_ore_aluminum",
         "geolosys:geolosys.cluster.aluminum",
         "immersiveengineering:tile.immersiveengineering.ore.aluminum",
+        "moreplanets:tile.chalos_aluminum_ore",
+        "moreplanets:tile.diona_aluminum_ore",
+        "moreplanets:tile.fronos_aluminum_ore",
+        "moreplanets:tile.infected_aluminum_ore",
+        "moreplanets:tile.koentus_aluminum_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_1",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_1",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_1",
@@ -52,7 +60,6 @@
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_1"
       ],
       "output": [
-        "agricraft:agri_nugget:8",
         "embers:nugget_aluminum:0",
         "immersiveengineering:metal:21",
         "primal:aluminum_nugget:0"
@@ -62,9 +69,18 @@
       "slagColor": "ffaa1c",
       "langKey": [
         "embers:tile.ore_copper",
+        "galacticraftcore:tile.basic_block_core.ore_copper_gc",
+        "galacticraftcore:tile.basic_block_moon.coppermoon",
+        "galacticraftplanets:tile.mars.coppermars",
+        "galacticraftplanets:tile.venus.venus_ore_copper",
         "geolosys:geolosys.cluster.copper",
         "immersiveengineering:tile.immersiveengineering.ore.copper",
         "metallurgy:tile.metallurgy.copper_ore",
+        "moreplanets:tile.chalos_copper_ore",
+        "moreplanets:tile.diona_copper_ore",
+        "moreplanets:tile.fronos_copper_ore",
+        "moreplanets:tile.infected_copper_ore",
+        "moreplanets:tile.koentus_copper_ore",
         "nuclearcraft:tile.nuclearcraft.ore.copper",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore",
@@ -140,7 +156,6 @@
         "undergroundbiomes:tile.sedimentary_stone_nuclearcraft_ore"
       ],
       "output": [
-        "agricraft:agri_nugget:4",
         "embers:nugget_copper:0",
         "immersiveengineering:metal:20",
         "metallurgy:copper_nugget:0",
@@ -156,6 +171,8 @@
         "cyclicmagic:tile.nether_gold_ore",
         "geolosys:geolosys.cluster.gold",
         "minecraft:tile.oreGold",
+        "moreplanets:tile.fronos_gold_ore",
+        "moreplanets:tile.infected_gold_ore",
         "undergroundbiomes:tile.igneous_stone_gold_ore",
         "undergroundbiomes:tile.igneous_stone_gold_ore",
         "undergroundbiomes:tile.igneous_stone_gold_ore",
@@ -190,8 +207,14 @@
       "langKey": [
         "cyclicmagic:tile.end_iron_ore",
         "cyclicmagic:tile.nether_iron_ore",
+        "galacticraftplanets:tile.asteroids_block.ore_iron_asteroids",
+        "galacticraftplanets:tile.mars.ironmars",
         "geolosys:geolosys.cluster.iron",
         "minecraft:tile.oreIron",
+        "moreplanets:tile.chalos_iron_ore",
+        "moreplanets:tile.fronos_iron_ore",
+        "moreplanets:tile.infected_iron_ore",
+        "moreplanets:tile.koentus_iron_ore",
         "undergroundbiomes:tile.igneous_stone_iron_ore",
         "undergroundbiomes:tile.igneous_stone_iron_ore",
         "undergroundbiomes:tile.igneous_stone_iron_ore",
@@ -218,7 +241,6 @@
         "undergroundbiomes:tile.sedimentary_stone_iron_ore"
       ],
       "output": [
-        "agricraft:agri_nugget:3",
         "immersiveengineering:metal:29",
         "minecraft:iron_nugget:0",
         "thaumcraft:nugget:0"
@@ -228,8 +250,10 @@
       "slagColor": "95afee",
       "langKey": [
         "embers:tile.ore_lead",
+        "galacticraftplanets:tile.venus.venus_ore_galena",
         "geolosys:geolosys.cluster.lead",
         "immersiveengineering:tile.immersiveengineering.ore.lead",
+        "moreplanets:tile.fronos_lead_ore",
         "nuclearcraft:tile.nuclearcraft.ore.lead",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_2",
         "undergroundbiomes:tile.igneous_stone_immersiveengineering_ore_2",
@@ -281,7 +305,6 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.nuclearcraft.ore.lead"
       ],
       "output": [
-        "agricraft:agri_nugget:6",
         "embers:nugget_lead:0",
         "immersiveengineering:metal:22",
         "primal:lead_nugget:0",
@@ -353,7 +376,6 @@
         "undergroundbiomes:tile.sedimentary_stone_immersiveengineering_ore_4"
       ],
       "output": [
-        "agricraft:agri_nugget:9",
         "embers:nugget_nickel:0",
         "immersiveengineering:metal:24",
         "primal:nickel_nugget:0"
@@ -399,7 +421,6 @@
         "undergroundbiomes:tile.sedimentary_stone_metallurgy_osmium_ore"
       ],
       "output": [
-        "agricraft:agri_nugget:11",
         "metallurgy:osmium_nugget:0"
       ]
     },
@@ -407,7 +428,6 @@
       "slagColor": "55f3ff",
       "langKey": [
         "geolosys:geolosys.cluster.platinum",
-        "immersiveintelligence:tile.immersiveintelligence.ore.platinum",
         "metallurgy:tile.metallurgy.platinum_ore",
         "undergroundbiomes:tile.igneous_stone_metallurgy_platinum_ore",
         "undergroundbiomes:tile.igneous_stone_metallurgy_platinum_ore",
@@ -435,8 +455,6 @@
         "undergroundbiomes:tile.sedimentary_stone_metallurgy_platinum_ore"
       ],
       "output": [
-        "agricraft:agri_nugget:10",
-        "immersiveintelligence:material_nugget:2",
         "metallurgy:platinum_nugget:0",
         "primal:platinum_nugget:0"
       ]
@@ -499,7 +517,6 @@
         "undergroundbiomes:tile.sedimentary_stone_metallurgy_silver_ore"
       ],
       "output": [
-        "agricraft:agri_nugget:7",
         "embers:nugget_silver:0",
         "iceandfire:silver_nugget:0",
         "immersiveengineering:metal:23",
@@ -522,8 +539,17 @@
       "slagColor": "c3e9ff",
       "langKey": [
         "embers:tile.ore_tin",
+        "galacticraftcore:tile.basic_block_core.ore_tin_gc",
+        "galacticraftcore:tile.basic_block_moon.tinmoon",
+        "galacticraftplanets:tile.mars.tinmars",
+        "galacticraftplanets:tile.venus.venus_ore_tin",
         "geolosys:geolosys.cluster.tin",
         "metallurgy:tile.metallurgy.tin_ore",
+        "moreplanets:tile.chalos_tin_ore",
+        "moreplanets:tile.diona_tin_ore",
+        "moreplanets:tile.fronos_tin_ore",
+        "moreplanets:tile.infected_tin_ore",
+        "moreplanets:tile.koentus_tin_ore",
         "nuclearcraft:tile.nuclearcraft.ore.tin",
         "undergroundbiomes:tile.igneous_stone_metallurgy_tin_ore",
         "undergroundbiomes:tile.igneous_stone_metallurgy_tin_ore",
@@ -575,7 +601,6 @@
         "undergroundbiomes:tile.sedimentary_stone_tile.nuclearcraft.ore.tin"
       ],
       "output": [
-        "agricraft:agri_nugget:5",
         "embers:nugget_tin:0",
         "metallurgy:tin_nugget:0",
         "primal:tin_nugget:0",

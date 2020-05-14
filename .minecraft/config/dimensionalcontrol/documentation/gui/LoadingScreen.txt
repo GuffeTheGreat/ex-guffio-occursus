@@ -4,14 +4,6 @@ Custom loading screen for all your loading needs. Anchor point options are "Top_
 
 
 
-addText:
-    Arguments:
-        String, String
-    Usage:
-        anchor point, text
-    Notes:
-        Adds a text string. Documentation can be found in documentation/gui/guiElements/Text.txt
-
 addTiledTexture:
     Arguments:
         String, String
@@ -19,6 +11,14 @@ addTiledTexture:
         anchor point, texture location
     Notes:
         Adds a tiled texture. Documentation can be found in documentation/gui/guiElements/Tiled_Texture.txt
+
+addText:
+    Arguments:
+        String, String
+    Usage:
+        anchor point, text
+    Notes:
+        Adds a text string. Documentation can be found in documentation/gui/guiElements/Text.txt
 
 addStretchedTexture:
     Arguments:

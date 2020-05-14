@@ -1,0 +1,724 @@
+{
+  "de/androidpit/colorthief/MMCQ$1": {
+    "name": "de/androidpit/colorthief/MMCQ$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "de/androidpit/colorthief/MMCQ$2": {
+    "name": "de/androidpit/colorthief/MMCQ$2",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "thelm/jaopca/JAOPCA": {
+    "name": "thelm/jaopca/JAOPCA",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "thelm/jaopca/JAOPCA",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "dependencies": {
+            "value": "required-before:wrapup"
+          },
+          "modid": {
+            "value": "jaopca"
+          },
+          "name": {
+            "value": "JAOPCA"
+          },
+          "version": {
+            "value": "1.12.2-2.2.8.103"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$Instance;",
+        "target": "core",
+        "value": {
+          "value": "jaopca"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lnet/minecraftforge/fml/common/SidedProxy;",
+        "target": "proxy",
+        "values": {
+          "clientSide": {
+            "value": "thelm.jaopca.proxy.ClientProxy"
+          },
+          "modId": {
+            "value": "jaopca"
+          },
+          "serverSide": {
+            "value": "thelm.jaopca.proxy.CommonProxy"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "firstMovement(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "secondMovement(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      }
+    ]
+  },
+  "thelm/jaopca/api/ItemEntry": {
+    "name": "thelm/jaopca/api/ItemEntry",
+    "interfaces": [
+      "thelm/jaopca/api/IItemRequest"
+    ]
+  },
+  "thelm/jaopca/api/ItemEntryGroup": {
+    "name": "thelm/jaopca/api/ItemEntryGroup",
+    "interfaces": [
+      "thelm/jaopca/api/IItemRequest"
+    ]
+  },
+  "thelm/jaopca/api/block/BlockBase": {
+    "name": "thelm/jaopca/api/block/BlockBase",
+    "interfaces": [
+      "thelm/jaopca/api/block/IBlockWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/block/BlockFluidBase": {
+    "name": "thelm/jaopca/api/block/BlockFluidBase",
+    "interfaces": [
+      "thelm/jaopca/api/block/IBlockFluidWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/block/BlockProperties": {
+    "name": "thelm/jaopca/api/block/BlockProperties",
+    "interfaces": [
+      "thelm/jaopca/api/IProperties"
+    ]
+  },
+  "thelm/jaopca/api/block/IBlockFluidWithProperty": {
+    "name": "thelm/jaopca/api/block/IBlockFluidWithProperty",
+    "interfaces": [
+      "thelm/jaopca/api/IObjectWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/block/IBlockWithProperty": {
+    "name": "thelm/jaopca/api/block/IBlockWithProperty",
+    "interfaces": [
+      "thelm/jaopca/api/IObjectWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/fluid/FluidBase": {
+    "name": "thelm/jaopca/api/fluid/FluidBase",
+    "interfaces": [
+      "thelm/jaopca/api/fluid/IFluidWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/fluid/FluidProperties": {
+    "name": "thelm/jaopca/api/fluid/FluidProperties",
+    "interfaces": [
+      "thelm/jaopca/api/IProperties"
+    ]
+  },
+  "thelm/jaopca/api/fluid/IFluidWithProperty": {
+    "name": "thelm/jaopca/api/fluid/IFluidWithProperty",
+    "interfaces": [
+      "thelm/jaopca/api/IObjectWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/item/IItemBlockFluidWithProperty": {
+    "name": "thelm/jaopca/api/item/IItemBlockFluidWithProperty",
+    "interfaces": [
+      "thelm/jaopca/api/IObjectWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/item/IItemBlockWithProperty": {
+    "name": "thelm/jaopca/api/item/IItemBlockWithProperty",
+    "interfaces": [
+      "thelm/jaopca/api/IObjectWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/item/IItemWithProperty": {
+    "name": "thelm/jaopca/api/item/IItemWithProperty",
+    "interfaces": [
+      "thelm/jaopca/api/IObjectWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/item/ItemBase": {
+    "name": "thelm/jaopca/api/item/ItemBase",
+    "interfaces": [
+      "thelm/jaopca/api/item/IItemWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/item/ItemBlockBase": {
+    "name": "thelm/jaopca/api/item/ItemBlockBase",
+    "interfaces": [
+      "thelm/jaopca/api/item/IItemBlockWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/item/ItemBlockFluidBase": {
+    "name": "thelm/jaopca/api/item/ItemBlockFluidBase",
+    "interfaces": [
+      "thelm/jaopca/api/item/IItemBlockFluidWithProperty"
+    ]
+  },
+  "thelm/jaopca/api/item/ItemProperties": {
+    "name": "thelm/jaopca/api/item/ItemProperties",
+    "interfaces": [
+      "thelm/jaopca/api/IProperties"
+    ]
+  },
+  "thelm/jaopca/crafttweaker/JAOPCA": {
+    "name": "thelm/jaopca/crafttweaker/JAOPCA",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lstanhebben/zenscript/annotations/ZenClass;",
+        "target": "thelm/jaopca/crafttweaker/JAOPCA",
+        "value": {
+          "value": "mods.jaopca.JAOPCA"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lcrafttweaker/annotations/ZenRegister;",
+        "target": "thelm/jaopca/crafttweaker/JAOPCA"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "containsEntry(Ljava/lang/String;)Z"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getOre(Ljava/lang/String;)Lthelm/jaopca/crafttweaker/OreEntry;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getOresForEntry(Ljava/lang/String;)Ljava/util/List;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getOresForType(Ljava/lang/String;)Ljava/util/List;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getAllOres()Ljava/util/List;"
+      }
+    ]
+  },
+  "thelm/jaopca/crafttweaker/OreEntry": {
+    "name": "thelm/jaopca/crafttweaker/OreEntry",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lstanhebben/zenscript/annotations/ZenClass;",
+        "target": "thelm/jaopca/crafttweaker/OreEntry",
+        "value": {
+          "value": "mods.jaopca.OreEntry"
+        }
+      },
+      {
+        "type": "CLASS",
+        "name": "Lcrafttweaker/annotations/ZenRegister;",
+        "target": "thelm/jaopca/crafttweaker/OreEntry"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getOreName()Ljava/lang/String;",
+        "value": {
+          "value": "oreName"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getOreNameSynonyms()Ljava/util/List;",
+        "value": {
+          "value": "oreNameSynonyms"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getOreDictEntry(Ljava/lang/String;)Lcrafttweaker/api/oredict/IOreDictEntry;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getItemStack(Ljava/lang/String;)Lcrafttweaker/api/item/IItemStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getItemStack(Ljava/lang/String;Ljava/lang/String;)Lcrafttweaker/api/item/IItemStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getLiquidStack(Ljava/lang/String;)Lcrafttweaker/api/liquid/ILiquidStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getLiquidStack(Ljava/lang/String;Ljava/lang/String;)Lcrafttweaker/api/liquid/ILiquidStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "hasExtra()Z",
+        "value": {
+          "value": "hasExtra"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getExtra()Lthelm/jaopca/crafttweaker/OreEntry;",
+        "value": {
+          "value": "extra"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getExtraName()Ljava/lang/String;",
+        "value": {
+          "value": "extraName"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getOreDictEntryExtra(Ljava/lang/String;)Lcrafttweaker/api/oredict/IOreDictEntry;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getItemStackExtra(Ljava/lang/String;)Lcrafttweaker/api/item/IItemStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getItemStackExtra(Ljava/lang/String;Ljava/lang/String;)Lcrafttweaker/api/item/IItemStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getLiquidStackExtra(Ljava/lang/String;)Lcrafttweaker/api/liquid/ILiquidStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getLiquidStackExtra(Ljava/lang/String;Ljava/lang/String;)Lcrafttweaker/api/liquid/ILiquidStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "hasSecondExtra()Z",
+        "value": {
+          "value": "hasSecondExtra"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getSecondExtra()Lthelm/jaopca/crafttweaker/OreEntry;",
+        "value": {
+          "value": "secondExtra"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getSecondExtraName()Ljava/lang/String;",
+        "value": {
+          "value": "secondExtraName"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getOreDictEntrySecondExtra(Ljava/lang/String;)Lcrafttweaker/api/oredict/IOreDictEntry;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getItemStackSecondExtra(Ljava/lang/String;)Lcrafttweaker/api/item/IItemStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getItemStackSecondExtra(Ljava/lang/String;Ljava/lang/String;)Lcrafttweaker/api/item/IItemStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getLiquidStackSecondExtra(Ljava/lang/String;)Lcrafttweaker/api/liquid/ILiquidStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getLiquidStackSecondExtra(Ljava/lang/String;Ljava/lang/String;)Lcrafttweaker/api/liquid/ILiquidStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "hasThirdExtra()Z",
+        "value": {
+          "value": "hasThirdExtra"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getThirdExtra()Lthelm/jaopca/crafttweaker/OreEntry;",
+        "value": {
+          "value": "thirdExtra"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getThirdExtraName()Ljava/lang/String;",
+        "value": {
+          "value": "thirdExtraName"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getOreDictEntryThirdExtra(Ljava/lang/String;)Lcrafttweaker/api/oredict/IOreDictEntry;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getItemStackThirdExtra(Ljava/lang/String;)Lcrafttweaker/api/item/IItemStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getItemStackThirdExtra(Ljava/lang/String;Ljava/lang/String;)Lcrafttweaker/api/item/IItemStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getLiquidStackThirdExtra(Ljava/lang/String;)Lcrafttweaker/api/liquid/ILiquidStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenMethod;",
+        "target": "getLiquidStackThirdExtra(Ljava/lang/String;Ljava/lang/String;)Lcrafttweaker/api/liquid/ILiquidStack;"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getEnergyModifier()D",
+        "value": {
+          "value": "energyModifier"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getRarity()D",
+        "value": {
+          "value": "rarity"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lstanhebben/zenscript/annotations/ZenGetter;",
+        "target": "getOreType()Ljava/lang/String;",
+        "value": {
+          "value": "oreType"
+        }
+      }
+    ]
+  },
+  "thelm/jaopca/model/ModelFluidTextured": {
+    "name": "thelm/jaopca/model/ModelFluidTextured",
+    "interfaces": [
+      "net/minecraftforge/client/model/IModel"
+    ]
+  },
+  "thelm/jaopca/model/ModelFluidTextured$BakedFluidTextured": {
+    "name": "thelm/jaopca/model/ModelFluidTextured$BakedFluidTextured",
+    "interfaces": [
+      "net/minecraft/client/renderer/block/model/IBakedModel"
+    ]
+  },
+  "thelm/jaopca/model/ModelFluidTextured$FluidTexturedLoader": {
+    "name": "thelm/jaopca/model/ModelFluidTextured$FluidTexturedLoader",
+    "interfaces": [
+      "net/minecraftforge/client/model/ICustomModelLoader"
+    ]
+  },
+  "thelm/jaopca/modules/ModuleAbyssalCraft$ItemBlockUnlockableBase": {
+    "name": "thelm/jaopca/modules/ModuleAbyssalCraft$ItemBlockUnlockableBase",
+    "interfaces": [
+      "com/shinoow/abyssalcraft/api/item/IUnlockableItem"
+    ]
+  },
+  "thelm/jaopca/modules/ModuleAbyssalCraft$ItemUnlockableBase": {
+    "name": "thelm/jaopca/modules/ModuleAbyssalCraft$ItemUnlockableBase",
+    "interfaces": [
+      "com/shinoow/abyssalcraft/api/item/IUnlockableItem"
+    ]
+  },
+  "thelm/jaopca/modules/ModuleAbyssalCraft$JAOPCAAbyssFuelHandler": {
+    "name": "thelm/jaopca/modules/ModuleAbyssalCraft$JAOPCAAbyssFuelHandler",
+    "interfaces": [
+      "net/minecraftforge/fml/common/IFuelHandler"
+    ]
+  },
+  "thelm/jaopca/modules/ModuleExNihiloCreatio$1": {
+    "name": "thelm/jaopca/modules/ModuleExNihiloCreatio$1",
+    "interfaces": [
+      "java/lang/reflect/ParameterizedType"
+    ]
+  },
+  "thelm/jaopca/modules/ModuleExNihiloCreatio$JAOPCADefaultRegistryProvider": {
+    "name": "thelm/jaopca/modules/ModuleExNihiloCreatio$JAOPCADefaultRegistryProvider",
+    "interfaces": [
+      "exnihilocreatio/registries/manager/ISieveDefaultRegistryProvider"
+    ]
+  },
+  "thelm/jaopca/modules/ModuleFoundry$FluidLiquidMetalBase": {
+    "name": "thelm/jaopca/modules/ModuleFoundry$FluidLiquidMetalBase",
+    "interfaces": [
+      "thelm/jaopca/api/fluid/IFluidWithProperty"
+    ]
+  },
+  "thelm/jaopca/modules/ModuleMekanism$GasBase": {
+    "name": "thelm/jaopca/modules/ModuleMekanism$GasBase",
+    "interfaces": [
+      "thelm/jaopca/modules/ModuleMekanism$IGasWithProperty"
+    ]
+  },
+  "thelm/jaopca/modules/ModuleMekanism$GasProperties": {
+    "name": "thelm/jaopca/modules/ModuleMekanism$GasProperties",
+    "interfaces": [
+      "thelm/jaopca/api/IProperties"
+    ]
+  },
+  "thelm/jaopca/modules/ModuleMekanism$IGasWithProperty": {
+    "name": "thelm/jaopca/modules/ModuleMekanism$IGasWithProperty",
+    "interfaces": [
+      "thelm/jaopca/api/IObjectWithProperty"
+    ]
+  },
+  "thelm/jaopca/ore/OreEntry": {
+    "name": "thelm/jaopca/ore/OreEntry",
+    "interfaces": [
+      "thelm/jaopca/api/IOreEntry"
+    ]
+  },
+  "thelm/jaopca/proxy/ClientProxy$2": {
+    "name": "thelm/jaopca/proxy/ClientProxy$2",
+    "interfaces": [
+      "net/minecraft/client/renderer/color/IItemColor"
+    ]
+  },
+  "thelm/jaopca/proxy/ClientProxy$3": {
+    "name": "thelm/jaopca/proxy/ClientProxy$3",
+    "interfaces": [
+      "net/minecraft/client/renderer/color/IBlockColor"
+    ]
+  },
+  "thelm/jaopca/utils/JAOPCAEventHandler": {
+    "name": "thelm/jaopca/utils/JAOPCAEventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTextureStitchPre(Lnet/minecraftforge/client/event/TextureStitchEvent$Pre;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPreInitWrapUp(Lthelm/wrapup/event/PreInitializationWrapUpEvent$Event2;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRegistryWrapUp(Lthelm/wrapup/event/RegistryWrapUpEvent$Event2;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onInitWrapUp(Lthelm/wrapup/event/InitializationWrapUpEvent$Event2;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPostInitWrapUp(Lthelm/wrapup/event/PostInitializationWrapUpEvent$Event2;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onMissingMappings(Lnet/minecraftforge/event/RegistryEvent$MissingMappings;)V"
+      }
+    ]
+  },
+  "thelm/oredictinit/OreDictInit": {
+    "name": "thelm/oredictinit/OreDictInit",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "thelm/oredictinit/OreDictInit",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "dependencies": {
+            "value": "required-before:wrapup"
+          },
+          "modid": {
+            "value": "oredictinit"
+          },
+          "name": {
+            "value": "OreDictInit"
+          },
+          "version": {
+            "value": "1.12.2-2.2.1.71"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      }
+    ]
+  },
+  "thelm/oredictinit/compat/CompatAlternativeNaming": {
+    "name": "thelm/oredictinit/compat/CompatAlternativeNaming",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatAppliedEnergistics": {
+    "name": "thelm/oredictinit/compat/CompatAppliedEnergistics",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatAstralSorcery": {
+    "name": "thelm/oredictinit/compat/CompatAstralSorcery",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatCalculator": {
+    "name": "thelm/oredictinit/compat/CompatCalculator",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatDraconicEvolution": {
+    "name": "thelm/oredictinit/compat/CompatDraconicEvolution",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatEvilCraft": {
+    "name": "thelm/oredictinit/compat/CompatEvilCraft",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatFrogCraftRebirth": {
+    "name": "thelm/oredictinit/compat/CompatFrogCraftRebirth",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatGalacticraftCore": {
+    "name": "thelm/oredictinit/compat/CompatGalacticraftCore",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatGalacticraftPlanets": {
+    "name": "thelm/oredictinit/compat/CompatGalacticraftPlanets",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatGregTech": {
+    "name": "thelm/oredictinit/compat/CompatGregTech",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatMekanism": {
+    "name": "thelm/oredictinit/compat/CompatMekanism",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatMinecraft": {
+    "name": "thelm/oredictinit/compat/CompatMinecraft",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatNuclearCraft": {
+    "name": "thelm/oredictinit/compat/CompatNuclearCraft",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatQuark": {
+    "name": "thelm/oredictinit/compat/CompatQuark",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatRFTools": {
+    "name": "thelm/oredictinit/compat/CompatRFTools",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatTheBetweenlands": {
+    "name": "thelm/oredictinit/compat/CompatTheBetweenlands",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/compat/CompatTinkersConstruct": {
+    "name": "thelm/oredictinit/compat/CompatTinkersConstruct",
+    "interfaces": [
+      "thelm/oredictinit/api/ICompat"
+    ]
+  },
+  "thelm/oredictinit/lib/EventHandler": {
+    "name": "thelm/oredictinit/lib/EventHandler",
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onPreInitWrapUp(Lthelm/wrapup/event/PreInitializationWrapUpEvent$Event0;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRegistryWrapUp(Lthelm/wrapup/event/RegistryWrapUpEvent$Event0;)V"
+      }
+    ]
+  }
+}

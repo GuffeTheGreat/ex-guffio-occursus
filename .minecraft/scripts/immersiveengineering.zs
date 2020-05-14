@@ -2,8 +2,9 @@
 
 
 //WindmillandWaterwheel
-recipes.remove(<immersiveengineering:wooden_device1>);
-recipes.remove(<immersiveengineering:wooden_device1:1>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device1>);
+mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device1:1>);
+
 
 
 //AlloyKiln

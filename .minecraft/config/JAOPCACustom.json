@@ -1,0 +1,14 @@
+[
+	{
+		"name": "impureDust",
+		"type": "item",
+		"ore_types": [
+			"ingot",
+			"dust"
+		],
+		"properties": {
+			"rarity": "common",
+			"max_stack_size": 64
+		}
+	},
+]

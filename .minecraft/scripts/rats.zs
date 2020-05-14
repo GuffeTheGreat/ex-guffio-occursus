@@ -13,22 +13,6 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_basic_shaped2", <rats:rat_up
 ]);
 
 
-//EmergingTechnologyIntergration
-recipes.addShapedMirrored("1x_tile_emergingtechnology_plasticblock_shaped", <emergingtechnology:plasticblock>, [
-	[<rats:raw_plastic>, <rats:raw_plastic>, <rats:raw_plastic>],
-	[<rats:raw_plastic>, <rats:raw_plastic>, <rats:raw_plastic>],
-	[<rats:raw_plastic>, <rats:raw_plastic>, <rats:raw_plastic>]
-]);
-recipes.addShapeless("9x_item_rats_raw_plastic_shapeless", <rats:raw_plastic> * 9, [<emergingtechnology:plasticblock>]);
-
-//Newtubes
-recipes.remove(<rats:rat_tube_white>*16);
-recipes.addShapedMirrored("32x_tile_rats_rat_tube_white_shaped", <rats:rat_tube_white> * 32, [
-	[<emergingtechnology:plasticsheet>, <emergingtechnology:plasticsheet>, <emergingtechnology:plasticsheet>],
-	[null, null, null],
-	[<emergingtechnology:plasticsheet>, <emergingtechnology:plasticsheet>, <emergingtechnology:plasticsheet>]
-]);
-
 //RatGem
 recipes.remove(<rats:gem_of_ratlantis>);
 recipes.addShapedMirrored("1x_item_rats_gem_of_ratlantis_shaped", <rats:gem_of_ratlantis>, [
@@ -47,7 +31,10 @@ mods.jei.JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
 //RatUpgrades
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.addChefRatRecipe(<avaritia:ultimate_stew>, <rats:confit_byaldi>);
-//mods.rats.recipes.addChefRatRecipe(<draconicevolution:chaos_shard>, <rats:little_black_squash_balls>);
+
+mods.rats.recipes.removeGemcutterRatRecipe(<rats:little_black_squash_balls>);
+mods.rats.recipes.addGemcutterRatRecipe(<actuallyadditions:item_crystal_empowered:3>, <rats:little_black_squash_balls>);
+
 
 //Ratsspeedupgrade
 recipes.remove(<rats:rat_upgrade_speed>);
@@ -124,7 +111,7 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_disenchanter_shaped", <rats:
 recipes.remove(<rats:rat_upgrade_milker>);
 recipes.addShapedMirrored("1x_item_rats_rat_upgrade_milker_shaped", <rats:rat_upgrade_milker>, [
 	[<minecraft:milk_bucket>, <aoa3:halycon_milk>, <minecraft:milk_bucket>],
-	[<harvestcraft:groundbeefitem>, <rats:rat_upgrade_bucket>, <harvestcraft:groundbeefitem>],
+	[<primal:pelt_cow>, <rats:rat_upgrade_bucket>, <primal:pelt_cow>],
 	[<minecraft:milk_bucket>, <aoa3:halycon_milk>, <minecraft:milk_bucket>]
 ]);
 

@@ -20,10 +20,10 @@ recipes.addShapedMirrored("1x_tile_efab_grid_shaped", <efab:grid>, [
 
 //Gearbox
 EFabRecipe.shaped(<efab:gearbox>, [
-	[<embers:plate_bronze>, <immersiveintelligence:motor_gear>.withTag({gear_damage: 0}), <embers:plate_bronze>],
-	[<immersiveintelligence:motor_gear>.withTag({gear_damage: 0}), <efab:base>, <immersiveintelligence:motor_gear>.withTag({gear_damage: 0})],
-	[<embers:plate_bronze>, <immersiveintelligence:motor_gear>.withTag({gear_damage: 0}), <embers:plate_bronze>]])
-    .time(1);
+	[<embers:plate_bronze>, <ore:gearIron>, <embers:plate_bronze>],
+	[<ore:gearIron>, <efab:base>, <ore:gearIron>],
+	[<embers:plate_bronze>, <ore:gearIron>, <embers:plate_bronze>]])
+    .time(20);
     
 //Tank
 EFabRecipe.shaped(<efab:tank>, [
@@ -31,7 +31,7 @@ EFabRecipe.shaped(<efab:tank>, [
 	[<embers:plate_bronze>, <pyrotech:tank:1>, <embers:plate_bronze>],
 	[<embers:plate_bronze>, <embers:plate_bronze>, <embers:plate_bronze>]])
 	.tier("GEARBOX")
-    .time(1);
+    .time(60);
 
 //Armory Upgrade
 EFabRecipe.shaped(<efab:upgrade_armory>, [
@@ -39,7 +39,7 @@ EFabRecipe.shaped(<efab:upgrade_armory>, [
 	[<immersiveengineering:treated_wood>, <minecraft:shield>, <immersiveengineering:treated_wood>],
 	[<embers:plate_bronze>, <immersiveengineering:treated_wood>, <embers:plate_bronze>]])
 	.tier("GEARBOX")
-    .time(1);
+    .time(60);
 
 //Blastbrick
 EFabRecipe.shaped(<immersiveengineering:stone_decoration:1> * 3, [
@@ -47,21 +47,16 @@ EFabRecipe.shaped(<immersiveengineering:stone_decoration:1> * 3, [
 	[<pyrotech:refractory_brick_block>, <ore:dustBlaze>, <pyrotech:refractory_brick_block>],
 	[<pyrotech:material:33>, <minecraft:nether_brick>, <pyrotech:material:33>]])
 	.fluid(<liquid:lava> * 250)
-    .time(1);
+    .time(20);
 
-//Salt
-EFabRecipe.shapeless(<cuisine:material:3>*10, [
-<harvestcraft:wovencottonitem>])
-	.fluid(<liquid:water> * 1000)
-    .time(1);
 
 //Framebench
 EFabRecipe.shaped(<aoa3:frame_bench>, [
 	[<ore:plankTreatedWood>, <minecraft:crafting_table>, <ore:plankTreatedWood>],
-	[<immersiveengineering:tool>, <immersiveintelligence:wrench>, <immersiveengineering:tool:1>],
+	[<immersiveengineering:tool>, <actuallyadditions:block_misc:4>, <immersiveengineering:tool:1>],
 	[<ore:plankTreatedWood>, <ore:ingotSteel>, <ore:plankTreatedWood>]])
 	.tier("UPGRADE_ARMORY")
-    .time(1);
+    .time(60);
 
 //Furnace
 EFabRecipe.shaped(<minecraft:furnace>, [
@@ -70,6 +65,17 @@ EFabRecipe.shaped(<minecraft:furnace>, [
 	[<avaritia:block_resource:1>, <minecraft:clay>, <avaritia:block_resource:1>]])
 	.fluid(<liquid:liquid_clay> * 9001)
     .time(1);
+
+//Vacuumtube
+EFabRecipe.shaped(<immersiveengineering:material:26>, [
+	[<immersiveengineering:material:21>, <immersiveengineering:material:26>, <immersiveengineering:material:21>],
+	[null, null, null],
+	[<immersiveengineering:material:23>, <immersiveengineering:material:26>, <immersiveengineering:material:23>]
+])
+	.fluid(<liquid:neon>*288)
+	.tier("COMPUTING")
+	.rfPerTick(500)
+    .time(20);
 
 
 

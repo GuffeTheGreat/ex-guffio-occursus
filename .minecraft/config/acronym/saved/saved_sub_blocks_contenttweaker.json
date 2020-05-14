@@ -1,7 +1,10 @@
 {
   "savedSubBlockNames": {
     "0": {
-      "0": "enderium_block"
+      "0": "naquadah_block",
+      "1": "enriched_naquadah_block",
+      "2": "naquadria_block",
+      "3": "naquadah_alloy_block"
     }
   }
 }

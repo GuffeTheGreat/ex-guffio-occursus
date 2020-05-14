@@ -74,7 +74,7 @@ mods.thaumcraft.Crucible.registerRecipe("rawrat", "BASEALCHEMY", <rats:raw_rat>,
 #WitherSkull
 mods.thaumcraft.Crucible.registerRecipe("witherskull", "HEDGEALCHEMY", <minecraft:skull:1>, <minecraft:skull>, [<aspect:exitium>*15,<aspect:perditio>*10,<aspect:spiritus>*10,<aspect:tenebrae>*20]);
 #AlchemicalBrass
-mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrass", "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotCarmot>, [<aspect:instrumentum> * 5, <aspect:alkimia> * 5]);
+mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrass", "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotCarmot>, [<aspect:instrumentum> * 5]);
 #AlchemicalBrass
 mods.thaumcraft.Crucible.registerRecipe("tallow", "BASEALCHEMY", <thaumcraft:tallow>, <primal:tallow>, [<aspect:ignis>]);
 #Thaumium

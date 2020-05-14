@@ -1,6 +1,10 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.appliedenergistics2.Grinder;
+import mods.integrateddynamics.Squeezer;
+
+//JustsRemovedThings
+mods.rustichromia.Quern.removeAll();
 /*
 //OreProcessingRemoval
 recipes.remove(<immersiveengineering:metal:9>);
@@ -30,33 +34,27 @@ mods.astralsorcery.StarlightInfusion.removeInfusion(i);
 recipes.remove(i);
 }
 */
-//RemovedCrusherRecipes
-var dustRecipes as IItemStack[IIngredient] = {
-	<ore:dyeWhite> : <minecraft:concrete>,
-	<ore:dyeLightGray> : <minecraft:concrete:8>,
-	<ore:dyeGray> : <minecraft:concrete:7>,
-	<ore:dyePink> : <minecraft:concrete:6>,
-	<ore:dyeLime> : <minecraft:concrete:5>,
-	<ore:dyeYellow> : <minecraft:concrete:4>,
-	<ore:dyeLightBlue> : <minecraft:concrete:3>,
-	<ore:dyeMagenta> : <minecraft:concrete:2>,
-	<ore:dyeOrange> : <minecraft:concrete:1>,
-	<ore:dyeCyan> : <minecraft:concrete:9>,
-	<ore:dyePurple> : <minecraft:concrete:10>,
-	<ore:dyeBlue> : <minecraft:concrete:11>,
-	<ore:dyeBrown> : <minecraft:concrete:12>,
-	<ore:dyeGreen> : <minecraft:concrete:13>,
-	<ore:dyeRed> : <minecraft:concrete:14>,	
-	<ore:dyeBlack> : <minecraft:concrete:15>
+//DustProcessing
+
+var dustRecipes as IItemStack[IItemStack] = {
+	<minecraft:redstone_ore> : <minecraft:redstone>,
+	<metallurgy:potash_ore> : <metallurgy:potash>
 	};
 
-for ingot, dust in dustRecipes {
-mods.immersiveengineering.Crusher.removeRecipe(dust);
-mods.immersiveengineering.Crusher.addRecipe(dust, ingot, 2048);
-mods.nuclearcraft.Manufactory.addRecipe(ingot, dust);
-mods.nuclearcraft.Manufactory.removeRecipeWithOutput(dust);
+for ore, dust in dustRecipes {
+furnace.remove(dust);
+mods.astralsorcery.Grindstone.removeRecipe(dust);
+mods.bloodmagic.AlchemyTable.removeRecipe([ore, <bloodmagic:cutting_fluid>]);
+mods.prodigytech.rotarygrinder.removeRecipe(ore);
+mods.prodigytech.orerefinery.removeRecipe(ore);
+mods.prodigytech.orerefinery.addRecipe(ore, dust);
+mods.immersiveengineering.Crusher.removeRecipesForInput(ore);
 }
-
+furnace.remove(<metallurgy:phosphorus>);
+furnace.remove(<metallurgy:potash>);
+mods.astralsorcery.StarlightInfusion.removeInfusion(<minecraft:redstone_block>);
+Squeezer.removeRecipesWithOutput(<minecraft:redstone>);
+mods.embers.Melter.remove(<minecraft:redstone_ore>);
 
 mods.immersiveengineering.Crusher.removeRecipesForInput(<geolosys:ore>);
 mods.immersiveengineering.Crusher.removeRecipesForInput(<geolosys:ore:1>);
@@ -80,3 +78,4 @@ mods.immersiveengineering.Crusher.removeRecipesForInput(<geolosys:ore_vanilla:6>
 
 //SulfurUnification
 mods.immersiveengineering.Crusher.addRecipe(<thebetweenlands:items_misc:18>*2, <thebetweenlands:sulfur_ore>, 2048);
+

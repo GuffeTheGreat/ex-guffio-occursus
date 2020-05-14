@@ -33,16 +33,16 @@ var dryingRecipes as IItemStack[IIngredient] = {
 
 for input, output in dryingRecipes {
 
-counter = counter +1;
+	counter = counter +1;
 
-#Crudedryying
-CrudeDryingRack.addRecipe("crudedrying" + counter, output, input, 6 * 30 * 20);
-#Primalcore
-mods.primal.DryingRack.addNonRottingRecipe(
-    "drying" + counter, 
-    2, 
-    input,
-    output
-);
+	#Crudedryying
+	CrudeDryingRack.addRecipe("crudedrying" + counter, output, input, 6 * 30 * 20);
+	#Primalcore
+	mods.primal.DryingRack.addNonRottingRecipe(
+	    "drying" + counter, 
+	    2, 
+	    input,
+	    output
+	);
 
 }

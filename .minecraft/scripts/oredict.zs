@@ -49,10 +49,5 @@
 <ore:barkDarkOak>.add(<roots:bark_dark_oak>);
 <ore:barkWood>.addItems([<roots:bark_oak>, <roots:bark_spruce>, <roots:bark_birch>, <roots:bark_wildwood>, <roots:bark_jungle>, <roots:bark_acacia>, <roots:bark_dark_oak>]);
 
-//Fish
-<ore:fish>.add(<harvestcraft:rawtofishitem>);
-<ore:fish>.add(<harvestcraft:tunarawitem>);
-
 //Chili
-//Fish
 <ore:cropChilipepper>.add(<aoa3:chilli>);

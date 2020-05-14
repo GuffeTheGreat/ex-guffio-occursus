@@ -3,8 +3,9 @@ import moretweaker.betweenlands.DruidAltar;
 import moretweaker.betweenlands.Purifier;
 
 //Purifier
-Purifier.addRecipe(<harvestcraft:ediblerootitem>, <roots:wildroot>);
+Purifier.addRecipe(<aoa3:rosid_root>, <roots:wildroot>);
 Purifier.addRecipe(<thebetweenlands:tangled_root>, <roots:wildroot>);
+Purifier.addRecipe(<ore:stone>, <thebetweenlands:cragrock>);
 
 //AnimatorRecipes
 Animator.addRecipe(<rats:raw_rat>, 10, 10, "rats:rat");
