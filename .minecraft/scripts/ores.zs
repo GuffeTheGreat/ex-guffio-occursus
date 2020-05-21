@@ -1,10 +1,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.appliedenergistics2.Grinder;
-import mods.integrateddynamics.Squeezer;
+
 
 //JustsRemovedThings
-mods.rustichromia.Quern.removeAll();
 /*
 //OreProcessingRemoval
 recipes.remove(<immersiveengineering:metal:9>);
@@ -53,7 +52,6 @@ mods.immersiveengineering.Crusher.removeRecipesForInput(ore);
 furnace.remove(<metallurgy:phosphorus>);
 furnace.remove(<metallurgy:potash>);
 mods.astralsorcery.StarlightInfusion.removeInfusion(<minecraft:redstone_block>);
-Squeezer.removeRecipesWithOutput(<minecraft:redstone>);
 mods.embers.Melter.remove(<minecraft:redstone_ore>);
 
 mods.immersiveengineering.Crusher.removeRecipesForInput(<geolosys:ore>);

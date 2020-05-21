@@ -32,4 +32,4 @@ mmc-pack.json
 .minecraft/config/InvTweaks.cfg
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
 .minecraft/cache/*
-
+.minecraft/asm/*

@@ -9,6 +9,11 @@ recipes.addShapeless("9x_tile_sand_default_shapeless", <minecraft:sand> * 9, [<o
 recipes.addShapeless("9x_tile_sandStone_default_shapeless", <minecraft:sandstone> * 9, [<ore:sandstone>, <ore:sandstone>, <ore:sandstone>, <ore:sandstone>, <ore:sandstone>, <ore:sandstone>, <ore:sandstone>, <ore:sandstone>, <ore:sandstone>]);
 */
 
+//Ashunification
+mods.embers.Stamper.add(<pyrotech:material>,null,<embers:stamp_flat>,<embers:alchemic_waste>);
+mods.embers.Stamper.remove(<embers:dust_ash>);
+recipes.addShapeless("1x_item_pyrotech_pit_ash_shapeless", <pyrotech:material>, [<ore:dustAsh>]);
+
 
 
 

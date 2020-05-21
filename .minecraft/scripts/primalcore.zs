@@ -21,6 +21,7 @@ mods.jei.JEI.removeAndHide(<primal:adobe_clump>);
 mods.jei.JEI.removeAndHide(<primal:smelter_lid_mud>);
 mods.jei.JEI.removeAndHide(<primal:smelter_lid_terra>);
 mods.jei.JEI.removeAndHide(<primal:smelter_lid_cinis>);
+mods.jei.JEI.removeAndHide(<primal:carbonate_slack>);
 mods.jei.JEI.removeAndHide(<primal:smelter:2>.withTag({type: "cinis"}));
 mods.jei.JEI.removeAndHide(<primal:smelter:1>.withTag({type: "terra"}));
 mods.jei.JEI.removeAndHide(<primal:smelter>.withTag({type: "mud"}));
@@ -112,10 +113,50 @@ mods.jei.JEI.removeAndHide(<primal:diamond_knapp>);
 mods.jei.JEI.removeAndHide(<primal:obsidian_knapp>);
 mods.jei.JEI.removeAndHide(<primal:flint_hatchet>);
 
-
-
-
-
+#Cauldron
+//Glue
+mods.primal.Cauldron.addRecipe(
+    "glue", 
+    2, 
+    <liquid:ethanol>*100, 
+    <liquid:glue>*200, 
+    [<primal:hide_raw>*4,<pyrotech:material:28>*2,<thebetweenlands:items_misc:23>*3,<thebetweenlands:items_misc:14>], 
+    []
+);
+//Ehtanol
+mods.primal.Cauldron.addRecipe(
+    "ethanol", 
+    2, 
+    <liquid:water>*100, 
+    <liquid:ethanol>*100, 
+    [<extratrees:misc:4>*2,<minecraft:sugar>*4], 
+    []
+);
+//Yeast
+mods.primal.Cauldron.addRecipe(
+    "yeast", 
+    2, 
+    <liquid:water>*200, 
+    [<cuisine:food:1>*4], 
+    [<extratrees:misc:4>*8]
+);
+//Dough
+mods.primal.Cauldron.addRecipe(
+    "dough", 
+    2, 
+    <liquid:milk>*200, 
+    [<cuisine:food:1>,<extratrees:misc:4>,<ore:dustSalt>,<minecraft:egg>], 
+    [<cuisine:food:2>]
+);
+//Sulfuricacid
+mods.primal.Cauldron.addRecipe(
+    "sulfuracid", 
+    2, 
+    <liquid:water>*200,
+    <liquid:sulfuric_acid>*100, 
+    [<ore:dustSulfur>], 
+    []
+);
 
 
 

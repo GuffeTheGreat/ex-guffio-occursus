@@ -19,13 +19,12 @@ recipes.addShapedMirrored("1x_tile_cable_wireless_fluid_shaped", <cyclicmagic:ca
 	[<alchemistry:ingot:27>, <betterchests:bettertank>, <alchemistry:ingot:27>]
 ]);
 
-//Redstoneclock
-recipes.remove(<cyclicmagic:clock>);
-recipes.addShapedMirrored("1x_tile_clock_shaped", <cyclicmagic:clock>, [
-	[<jaopca:item_platequartz>, <minecraft:redstone>, <jaopca:item_platequartz>],
-	[<minecraft:redstone>, <mysticalmechanics:gear_gold_off>, <minecraft:redstone>],
-	[<jaopca:item_platequartz>, <minecraft:redstone>, <jaopca:item_platequartz>]
-]);
+//Experience
+mods.embers.Melter.add(<liquid:xpjuice>*160,<actuallyadditions:item_solidified_experience>);
+mods.nuclearcraft.Melter.addRecipe(<actuallyadditions:item_solidified_experience>, <liquid:xpjuice>*160);
+mods.crossroads.HeatingCrucible.addRecipe(<actuallyadditions:item_solidified_experience>, <liquid:xpjuice>*160,"tile.xpjuice");
+
+
 
 
 

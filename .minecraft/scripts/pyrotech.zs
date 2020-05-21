@@ -9,13 +9,12 @@ import mods.pyrotech.BrickKiln;
 import mods.pyrotech.PitKiln;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-
+import mods.pyrotech.Burn;
 
 
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
 mods.jei.JEI.removeAndHide(<pyrotech:worktable_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:planks_tarred>);
 mods.jei.JEI.removeAndHide(<pyrotech:stone_shears>);
 mods.jei.JEI.removeAndHide(<pyrotech:bone_shears>);
 mods.jei.JEI.removeAndHide(<pyrotech:flint_shears>);
@@ -28,61 +27,71 @@ mods.jei.JEI.removeAndHide(<pyrotech:dense_nether_coal_ore>);
 mods.jei.JEI.removeAndHide(<pyrotech:bone_pickaxe>);
 mods.jei.JEI.removeAndHide(<pyrotech:flint_pickaxe>);
 mods.jei.JEI.removeAndHide(<pyrotech:obsidian_pickaxe>);
+mods.jei.JEI.removeAndHide(<pyrotech:drying_rack:1>);
 
 //Liquidclay
 mods.embers.Melter.add(<liquid:liquid_clay>*250,<minecraft:clay_ball>);
 mods.embers.Melter.add(<liquid:liquid_clay>*1000,<minecraft:clay>);
 mods.nuclearcraft.Melter.addRecipe(<minecraft:clay>, <liquid:liquid_clay>*1000);
 mods.nuclearcraft.Melter.addRecipe(<minecraft:clay_ball>, <liquid:liquid_clay>*250);
+mods.crossroads.HeatingCrucible.addRecipe(<minecraft:clay>, <liquid:liquid_clay>*250,"tile.clay");
+mods.crossroads.HeatingCrucible.addRecipe(<minecraft:clay>, <liquid:liquid_clay>*1000,"tile.clay");
 
-
+/*
 //EasyAsh
 StoneKiln.addRecipe("ashpile", <pyrotech:material>, <ore:logWood>, 1200);
 BrickKiln.addRecipe("ashpile2", <pyrotech:material>, <ore:logWood>, 600);
+*/
 
-recipes.remove(<pyrotech:drying_rack:1>);
-recipes.addShapedMirrored("pyrotech_tech/basic/drying_rack.normal", <pyrotech:drying_rack:1>, [
-	[<immersiveengineering:material>, <pyrotech:material:26>, <immersiveengineering:material>],
-	[<pyrotech:material:26>, <minecraft:ladder>, <pyrotech:material:26>],
-	[<immersiveengineering:material>, <pyrotech:material:26>, <immersiveengineering:material>]
-]);
+//CharcoalandCoke
+Burn.createBuilder("charcoal_from_log_pile", <minecraft:clay>, "pyrotech:log_pile:*")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(8 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 50)
+    .setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<pyrotech:material:15> * 4) // charcoal flakes
+    .addFailureItem(<pyrotech:material:15> * 6) // charcoal flakes
+    .addFailureItem(<pyrotech:material:15> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(false)
+    .setFluidLevelAffectsFailureChance(true)
+    .register();
 
-
-//GraniteAnvil
+//Anvils
 recipes.remove(<pyrotech:anvil_granite>);
+recipes.remove(<pyrotech_compat:anvil_diorite>);
+recipes.remove(<pyrotech_compat:anvil_andesite>);
+recipes.remove(<pyrotech:anvil_iron_plated>);
 recipes.addShapedMirrored("pyrotech_tech/basic/anvil_granite", <pyrotech:anvil_granite>, [
 	[<minecraft:stone:2>],
 	[<ore:stoneSlab>]
 ]);
-recipes.addShapedMirrored("pyrotech_tech/basic/anvil_granite_red", <pyrotech:anvil_granite>, [
-	[<undergroundbiomes:igneous_stone>],
+recipes.addShapedMirrored("pyrotech_tech/basic/anvil_diorite", <pyrotech_compat:anvil_diorite>, [
+	[<minecraft:stone:4>],
 	[<ore:stoneSlab>]
 ]);
-recipes.addShapedMirrored("pyrotech_tech/basic/anvil_granite_black", <pyrotech:anvil_granite>, [
-	[<undergroundbiomes:igneous_stone:1>],
+recipes.addShapedMirrored("pyrotech_tech/basic/anvil_andesite", <pyrotech_compat:anvil_andesite>, [
+	[<minecraft:stone:6>],
 	[<ore:stoneSlab>]
 ]);
-//IroncladAnvil
-recipes.remove(<pyrotech:anvil_iron_plated>);
 recipes.addShapedMirrored("1x_tile_pyrotech_anvil_iron_plated_shaped", <pyrotech:anvil_iron_plated>, [
 	[<embers:plate_iron>],
 	[<pyrotech:anvil_granite>]
 ]);
 
-
 //RockBag
 recipes.remove(<pyrotech:bag_simple>);
 recipes.addShapedMirrored("1x_tile_pyrotech_bag_simple_shaped", <pyrotech:bag_simple>, [
-	[<ore:wool>, <ore:twine>, <ore:wool>],
-	[<ore:hide>, <ore:chest>, <ore:hide>],
-	[<ore:hide>, <ore:hide>, <ore:hide>]
+	[<ore:wool>, <ore:cordageGeneral>, <ore:wool>],
+	[<ore:pelt>, <ore:chest>, <ore:pelt>],
+	[<ore:pelt>, <ore:pelt>, <ore:pelt>]
 ]);
 
 //Straw
 recipes.remove(<pyrotech:material:2>);
 recipes.addShapeless("1x_item_pyrotech_straw_shapeless", <pyrotech:material:2>, [<pyrotech:material:13>, <primal:thatching_dry>, <primal:thatching_dry>, <pyrotech:material:13>]);
-
-
 
 //Bellow
 recipes.remove(<pyrotech:bellows>);
@@ -141,6 +150,8 @@ GraniteAnvil.removeRecipes(<pyrotech:material:31>);
 IroncladAnvil.removeRecipes(<pyrotech:material:31>);
 GraniteAnvil.removeRecipes(<pyrotech:material:28>);
 IroncladAnvil.removeRecipes(<pyrotech:material:28>);
+GraniteAnvil.removeRecipes(<pyrotech:material:27>);
+IroncladAnvil.removeRecipes(<pyrotech:material:27>);
 
 var hammerRecipes as IItemStack[IIngredient] = {
     <primal:hide_salted> : <primal:hide_dried>,
@@ -174,10 +185,10 @@ var pickaxeRecipes as IItemStack[IIngredient] = {
     <pyrotech:material:11> : <primal:bone_point>*2,
     <primal:ancient_ice> : <primal:ancient_ice_chunk>*4,
     <primal:calcified_paraffin> : <primal:paraffin_clump>*4,
-    <ore:plateIron> : <primal:iron_strand>*4,
+    <ore:plateIron> : <primal:iron_strand>,
     <ore:ingotSilver> : <immersiveengineering:material:22>,
     <ore:ingotBrass> : <immersiveengineering:material:20>,
-    <primal:fish_lava_worm_salted> : <primal:fish_lava_worm_dried>,
+    <pyrotech:material:16> : <pyrotech:material:10>,
     <primal:fish_lava_crawdad_salted> : <primal:fish_lava_crawdad_dried>,
     <primal:bat_meat_salted> : <primal:bat_meat_dried>,
     <primal:bear_meat_salted> : <primal:bear_meat_dried>,
@@ -242,7 +253,6 @@ recipes.addShapedMirrored("1x_tile_pyrotech_brick_crucible_shaped", <pyrotech:br
 
 //SoakingPotReecipes
 #RemovedRecipes
-SoakingPot.removeRecipes(<pyrotech:wood_tar_block>);
 SoakingPot.removeRecipes(<pyrotech:material:30>);
 SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<minecraft:coal_block>);
@@ -252,15 +262,14 @@ SoakingPot.removeRecipes(<pyrotech:planks_tarred>);
 SoakingPot.removeRecipes(<pyrotech:material:26>);
 #TreatedRecipes
 SoakingPot.addRecipe("treated_planks_from_planks", <immersiveengineering:treated_wood>, <liquid:creosote>*200, <ore:plankWood>, 2 * 60 * 20);
-SoakingPot.addRecipe("tar_bale", <pyrotech:wood_tar_block>, <liquid:tar>*1000, <pyrotech:thatch>, 3 * 30 * 20);
 SoakingPot.addRecipe("treated_kindling", <pyrotech:material:30>, <liquid:creosote>*125, <pyrotech:material:29>, 3 * 30 * 20);
-SoakingPot.addRecipe("treated_board", <pyrotech:material:23>, <liquid:creosote>*50, <pyrotech:material:20>, 3 * 30 * 20);
-SoakingPot.addRecipe("durable_twine", <pyrotech:material:26>, <liquid:creosote>*125, <primal:plant_cordage>, 3 * 30 * 20);
-SoakingPot.addRecipe("treated_wool", <pyrotech:wool_tarred>, <liquid:creosote>*250, <ore:woolBlock>, 3 * 30 * 20);
 //TannedHide
 SoakingPot.addRecipe("tanned_hide", <primal:hide_tanned>, <liquid:tannin>*250, <primal:hide_dried>, 3 * 30 * 20);
 SoakingPot.addRecipe("tanned_pigman_hide", <primal:pigman_hide_tanned>, <liquid:tannin>*250, <primal:pigman_hide_dried>, 3 * 30 * 20);
 
+//Sugar
+SoakingPot.addRecipe("sugarfrombamboo", <minecraft:sugar>, <liquid:sugarcane_juice>*200, <ore:charcoal>, 2 * 30 * 20);
+SoakingPot.addRecipe("sugarfromcharcoal", <minecraft:sugar>, <liquid:sugarcane_juice>*250, <ore:charcoal>, 2 * 30 * 20);
 
 //DryingRack
 recipes.remove(<pyrotech:drying_rack>);

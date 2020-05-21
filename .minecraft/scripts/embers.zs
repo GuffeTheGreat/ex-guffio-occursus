@@ -13,13 +13,14 @@ furnace.remove(<embers:stamp_gear_raw>);
 furnace.remove(<embers:stamp_plate_raw>);
 furnace.remove(<soot:stamp_text_raw>);
 furnace.remove(<soot:stamp_nugget_raw>);
+recipes.remove(<minecraft:bread>);
 
 //CaminiteBrick
 recipes.remove(<embers:blend_caminite>);
-StoneKiln.addRecipe("stone_caminitebricks", <embers:brick_caminite>, <embers:blend_caminite>, 1200, 0.08, [<pyrotech:material>]);
-BrickKiln.addRecipe("brick_caminitebricks", <embers:brick_caminite>, <embers:blend_caminite>, 600, 0.02, [<pyrotech:material>]);
-StoneKiln.addRecipe("stone_caminiteplate", <embers:plate_caminite>, <embers:plate_caminite_raw>, 1200, 0.08, [<pyrotech:material>]);
-BrickKiln.addRecipe("brick_caminiteplate", <embers:plate_caminite>, <embers:plate_caminite_raw>, 600, 0.02, [<pyrotech:material>]);
+StoneKiln.addRecipe("stone_caminitebricks", <embers:brick_caminite>, <embers:blend_caminite>, 6000, 0.08, [<pyrotech:material>]);
+BrickKiln.addRecipe("brick_caminitebricks", <embers:brick_caminite>, <embers:blend_caminite>, 3600, 0.02, [<pyrotech:material>]);
+StoneKiln.addRecipe("stone_caminiteplate", <embers:plate_caminite>, <embers:plate_caminite_raw>, 6000, 0.08, [<pyrotech:material>]);
+BrickKiln.addRecipe("brick_caminiteplate", <embers:plate_caminite>, <embers:plate_caminite_raw>, 3600, 0.02, [<pyrotech:material>]);
 //Stamp
 StoneKiln.addRecipe("stone_stamp", <embers:stamp_flat>, <embers:stamp_flat_raw>, 1200, 0.08, [<pyrotech:material>]);
 BrickKiln.addRecipe("brick_stamp", <embers:stamp_flat>, <embers:stamp_flat_raw>, 600, 0.02, [<pyrotech:material>]);

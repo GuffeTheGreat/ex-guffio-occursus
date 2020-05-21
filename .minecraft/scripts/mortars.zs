@@ -3,22 +3,12 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.prodigytech.rotarygrinder;
 
-//Ashpile
-mods.primal.Quern.addRecipe(
-    "ash_pile", 
-    5, 
-    [<pyrotech:material:15>, <nuclearcraft:gem_dust:7>,<pyrotech:material>, <pyrotech:material>], 
-    [<embers:dust_ash>*3]);
-mods.rustichromia.Quern.add("ashpile", [<pyrotech:material:15>, <nuclearcraft:gem_dust:7>,<pyrotech:material>, <pyrotech:material>], [<embers:dust_ash>*3], 0, 0, 0);
+
 
 //RemovedRecipes
 Mortar.removeRecipe(<minecraft:dye:14>);
 Mortar.removeRecipe(<mysticalworld:silk_thread>);
 recipes.remove(<mysticalworld:silk_thread>);
-
-
-
-//Singleitemmortaring
 
 
 
@@ -43,8 +33,8 @@ for input, output in mortarRecipes {
 	    [input], 
 	    [output]);
 
-	#rustichromia
-	mods.rustichromia.Quern.add("quernrecipe" + counter, [input], [output], 0, 0, 0);
+	#Crossroadss
+	mods.crossroads.Grindstone.addRecipe(input, output);
 
 	#Prodigytech
 	mods.prodigytech.rotarygrinder.addRecipe(input, output);

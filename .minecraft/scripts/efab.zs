@@ -14,8 +14,8 @@ recipes.addShapedMirrored("4x_tile_efab_base_shaped", <efab:base> * 4, [
 //Efab
 recipes.addShapedMirrored("1x_tile_efab_grid_shaped", <efab:grid>, [
 	[<embers:plate_bronze>, <minecraft:crafting_table>, <embers:plate_bronze>],
-	[<embers:plate_bronze>, <immersiveengineering:material:27>, <embers:plate_bronze>],
-	[<embers:plate_bronze>, <efab:base>, <embers:plate_bronze>]
+	[<embers:plate_bronze>, <efab:base>, <embers:plate_bronze>],
+	[<embers:plate_bronze>, <minecraft:piston>, <embers:plate_bronze>]
 ]);
 
 //Gearbox
@@ -68,17 +68,41 @@ EFabRecipe.shaped(<minecraft:furnace>, [
 
 //Vacuumtube
 EFabRecipe.shaped(<immersiveengineering:material:26>, [
-	[<immersiveengineering:material:21>, <immersiveengineering:material:26>, <immersiveengineering:material:21>],
-	[null, null, null],
-	[<immersiveengineering:material:23>, <immersiveengineering:material:26>, <immersiveengineering:material:23>]
+	[<immersiveengineering:material:20>, <embers:plate_nickel>, <immersiveengineering:material:20>],
+	[<embers:plate_nickel>, <immersiveengineering:stone_decoration:8>, <embers:plate_nickel>],
+	[<embers:plate_nickel>, <immersiveengineering:stone_decoration:8>, <embers:plate_nickel>]
 ])
-	.fluid(<liquid:neon>*288)
-	.tier("COMPUTING")
-	.rfPerTick(500)
+	.fluid(<liquid:neon>*72)
     .time(20);
+//Bookshelf
+EFabRecipe.shaped(<minecraft:bookshelf>, [
+	[<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>],
+	[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+	[<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]
+])
+	.fluid(<liquid:xpjuice>*1000)
+    .time(80);
 
+//Dynamite
+EFabRecipe.shapeless(<cyclicmagic:ender_tnt_1>, [<minecraft:gunpowder>, <minecraft:string>, <minecraft:paper>])
+	.fluid(<liquid:sulfuric_acid>*50)
+    .time(15);
 
+//HeatExchangerMaybetonerfed?
+recipes.addShapedMirrored("1x_tile_heat_exchanger_shaped", <crossroads:heat_exchanger>, [
+	[<ore:plateIron>, <ore:plateCopper>, <ore:plateIron>],
+	[<ore:plateCopper>, <ore:blockConstantan>, <ore:plateCopper>],
+	[<ore:plateIron>, <ore:plateCopper>, <ore:plateIron>]
+]);
 
-
+EFabRecipe.shaped(<minecraft:enchanting_table>, [
+	[null, <minecraft:enchanted_book>, null],
+	[<jaopca:item_gemflawlessdiamond>, <minecraft:obsidian>, <jaopca:item_gemflawlessdiamond>],
+	[<minecraft:obsidian>, <minecraft:obsidian>, <minecraft:obsidian>]
+])
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:xpjuice>*10000)
+	.manaPerTick(5000)
+    .time(50);
 
 

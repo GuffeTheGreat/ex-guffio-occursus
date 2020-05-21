@@ -26,13 +26,13 @@ recipes.remove(<minecraft:glowstone_dust>*4);
 recipes.remove(<minecraft:piston>);
 recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
 	[<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>],
-	[<ore:stone>, <mysticalmechanics:axle_iron>, <ore:stone>],
+	[<ore:stone>, <crossroads:axle>, <ore:stone>],
 	[<ore:stone>, <thaumcraft:inlay>, <ore:stone>]
 ]);
 
 //Gunpowder
 recipes.remove(<minecraft:gunpowder>);
-recipes.addShapeless("1x_item_sulphur_shapeless", <minecraft:gunpowder>, [<ore:dustSaltpeter>, <ore:dustSulfur>, <ore:dustCharcoal>]);
+recipes.addShapeless("1x_item_sulphur_shapeless", <minecraft:gunpowder>, [<ore:dustSaltpeter>, <ore:dustSulfur>, <ore:charcoal>]);
 
 //CharcoalCleanup
 furnace.remove(<minecraft:coal:1>);
@@ -79,14 +79,7 @@ recipes.addShapedMirrored("4x_tile_torch_shapedcoke", <minecraft:torch> * 4, [
 
 //Framebench
 recipes.remove(<aoa3:frame_bench>);
-
-//Enchantngtable
 recipes.remove(<minecraft:enchanting_table>);
-recipes.addShapedMirrored("1x_tile_enchantmentTable_shaped", <minecraft:enchanting_table>, [
-	[null, <minecraft:enchanted_book>, null],
-	[<botania:manaresource:2>, <minecraft:obsidian>, <botania:manaresource:2>],
-	[<minecraft:obsidian>, <aoa3:deep_crystal>, <minecraft:obsidian>]
-]);
 
 //Furnace
 recipes.remove(<minecraft:furnace>);

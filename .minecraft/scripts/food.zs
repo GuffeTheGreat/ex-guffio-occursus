@@ -1,8 +1,11 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import mods.cuisine.BasinThrowing;
+import mods.cuisine.BasinSqueezing;
 
 //RemovedRecipes
 recipes.remove(<minecraft:bread>);
+furnace.remove(<minecraft:bread>);
 
 //Cuisine
 recipes.remove(<cuisine:chopping_board>);
@@ -16,5 +19,8 @@ recipes.addShapedMirrored("1x_tile_cuisine_earthen_basin_shaped", <cuisine:earth
 	[<ore:hardenedClay>, <ore:hardenedClay>, <ore:hardenedClay>]
 ]);
 
+//Basinthrowingremov
+BasinThrowing.removeAll();
 
-
+//CrushedIce
+BasinSqueezing.add(<item:minecraft:ice>, <liquid:ice> * 1000);

@@ -1,6 +1,7 @@
 {
     "registryname": "swamp_reactor",
     "localizedname": "Swamp Reactor",
+    "color": "013220",
     "parts": [
         {
             "x": -1,

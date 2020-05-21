@@ -16,35 +16,6 @@ Dropt.list("silk_ore")
           .items([<metallurgy:phosphorite_ore>])
       )
   );
-  Dropt.list("silk_ore")
-    .add(Dropt.rule()
-      .matchBlocks(["draconicevolution:draconium_ore:2"])
-      .addDrop(Dropt.drop()
-          .items([<draconicevolution:draconium_ore:2>])
-      )
-  );
-  Dropt.list("silk_ore")
-    .add(Dropt.rule()
-      .matchBlocks(["draconicevolution:draconium_ore"])
-      .addDrop(Dropt.drop()
-          .items([<draconicevolution:draconium_ore>])
-      )
-  );
-   Dropt.list("silk_ore")
-    .add(Dropt.rule()
-      .matchBlocks(["redstone_ore:1"])
-      .addDrop(Dropt.drop()
-          .items([<minecraft:redstone_ore:1>])
-      )
-        ); 
-
-   Dropt.list("silk_ore")
-    .add(Dropt.rule()
-      .matchBlocks(["redstone_ore"])
-      .addDrop(Dropt.drop()
-          .items([<minecraft:redstone_ore>])
-      )
-        ); 
 //Gems
 Dropt.list("silk_ore")
   .add(Dropt.rule()

@@ -1,14 +1,84 @@
 [
-	{
-		"name": "impureDust",
-		"type": "item",
-		"ore_types": [
-			"ingot",
-			"dust"
-		],
-		"properties": {
-			"rarity": "common",
-			"max_stack_size": 64
-		}
-	},
+  {
+        "name": "clump",
+        "type": "item",
+        "ore_types": [
+            "ingot",
+            "gem",
+            "dust"
+        ],
+        "properties": {}
+    },
+      {
+        "name": "crushed",
+        "type": "item",
+        "ore_types": [
+            "ingot",
+            "gem",
+            "dust"
+        ],
+        "properties": {}
+    },
+          {
+        "name": "crushedPurified",
+        "type": "item",
+        "ore_types": [
+            "ingot",
+            "gem",
+            "dust"
+        ],
+        "properties": {}
+    },
+      {
+        "name": "shard",
+        "type": "item",
+        "ore_types": [
+            "ingot",
+            "gem",
+            "dust"
+        ],
+        "properties": {}
+    },
+      {
+        "name": "dustImpure",
+        "type": "item",
+        "ore_types": [
+            "ingot",
+            "gem",
+            "dust"
+        ],
+        "properties": {}
+    },
+          {
+        "name": "gemChipped",
+        "type": "item",
+        "ore_types": [
+            "gem"
+        ],
+        "properties": {}
+    },
+          {
+        "name": "gemFlawed",
+        "type": "item",
+        "ore_types": [
+            "gem"
+        ],
+        "properties": {}
+    },
+          {
+        "name": "gemFlawless",
+        "type": "item",
+        "ore_types": [
+            "gem"
+        ],
+        "properties": {}
+    },
+          {
+        "name": "gemExquisite",
+        "type": "item",
+        "ore_types": [
+            "gem"
+        ],
+        "properties": {}
+    }
 ]

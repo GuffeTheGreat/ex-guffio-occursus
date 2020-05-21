@@ -1,4 +1,6 @@
 import mods.chisel.Carving;
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 # Guidebooks
 Carving.addGroup("guidebooks");
 Carving.addVariation("guidebooks", <minecraft:book>);
@@ -7,7 +9,6 @@ Carving.addVariation("guidebooks", <pyrotech:book>);
 Carving.addVariation("guidebooks", <immersiveengineering:tool:3>);
 Carving.addVariation("guidebooks", <guideapi:bloodmagic-guide>);
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "mysticalworld:world_guide"}));
-Carving.addVariation("guidebooks", <draconicevolution:info_tablet>);
 Carving.addVariation("guidebooks", <astralsorcery:itemjournal>);
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "pneumaticcraft:book"}));
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}));
