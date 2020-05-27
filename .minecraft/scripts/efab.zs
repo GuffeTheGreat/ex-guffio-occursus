@@ -83,18 +83,15 @@ EFabRecipe.shaped(<minecraft:bookshelf>, [
 	.fluid(<liquid:xpjuice>*1000)
     .time(80);
 
-//Dynamite
-EFabRecipe.shapeless(<cyclicmagic:ender_tnt_1>, [<minecraft:gunpowder>, <minecraft:string>, <minecraft:paper>])
-	.fluid(<liquid:sulfuric_acid>*50)
-    .time(15);
 
-//HeatExchangerMaybetonerfed?
-recipes.addShapedMirrored("1x_tile_heat_exchanger_shaped", <crossroads:heat_exchanger>, [
-	[<ore:plateIron>, <ore:plateCopper>, <ore:plateIron>],
-	[<ore:plateCopper>, <ore:blockConstantan>, <ore:plateCopper>],
-	[<ore:plateIron>, <ore:plateCopper>, <ore:plateIron>]
-]);
+    //NightmareFuel
+EFabRecipe.shapeless(<extrabotany:nightmarefuel>, [<jaopca:item_gemflawedcoal>])
+	.fluid(<liquid:liquid_death>*10)
+	.manaPerTick(250)
+    .time(5);
 
+
+//Enchantingtable
 EFabRecipe.shaped(<minecraft:enchanting_table>, [
 	[null, <minecraft:enchanted_book>, null],
 	[<jaopca:item_gemflawlessdiamond>, <minecraft:obsidian>, <jaopca:item_gemflawlessdiamond>],
@@ -105,4 +102,10 @@ EFabRecipe.shaped(<minecraft:enchanting_table>, [
 	.manaPerTick(5000)
     .time(50);
 
-
+EFabRecipe.shaped(<bassebombecraft:saturationidolinventoryitem>, [
+	[<thebetweenlands:spirit_fruit>, <nuclearcraft:foursmore>, <crossroads:magenta_bread>], 
+	[<moreplanets:enchanted_infected_golden_apple>, <galacticraftcore:food:5>, <minecraft:golden_apple:1>], 
+	[<moreplanets:glowing_alien_fish>, <aoa3:raw_razorfish>, <moreplanets:zelius_fish>]
+])
+	.fluid(<liquid:liquidfat>*50000)
+    .time(600);

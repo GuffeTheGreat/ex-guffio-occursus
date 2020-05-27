@@ -130,7 +130,7 @@ moltenVarsium.addDataValue("luminosity", "10");
 
 //Naquadah
 var naquadah = MaterialSystem.getMaterialBuilder().setName("Naquadah").setColor(Color.fromHex("121111")).build();
-naquadah.registerParts(["gear", "dust", "plate", "nugget", "ingot", "rod"] as string[]);
+naquadah.registerParts(["ingot", "crushed_ore"] as string[]);
 
 var blockNaquadah = naquadah.registerPart("block").getData();
 blockNaquadah.addDataValue("hardness", "5");
@@ -140,7 +140,7 @@ blockNaquadah.addDataValue("harvestLevel", "1");
 
 //NaquadahAlloy
 var naquadaha = MaterialSystem.getMaterialBuilder().setName("Naquadah Alloy").setColor(Color.fromHex("030108")).build();
-naquadaha.registerParts(["gear", "dust", "plate", "nugget", "ingot", "rod"] as string[]);
+naquadaha.registerParts(["ingot"] as string[]);
 
 var blockNaquadaha = naquadaha.registerPart("block").getData();
 blockNaquadaha.addDataValue("hardness", "5");
@@ -150,7 +150,35 @@ blockNaquadaha.addDataValue("harvestLevel", "1");
 
 //Naquadria
 var naquadria = MaterialSystem.getMaterialBuilder().setName("Naquadria").setColor(Color.fromHex("101012")).build();
-naquadria.registerParts(["gear", "dust", "plate", "nugget", "ingot", "rod"] as string[]);
+naquadria.registerParts(["ingot"] as string[]);
+
+//Tungstensteel
+var tungstensteel = MaterialSystem.getMaterialBuilder().setName("Tungstensteel").setColor(Color.fromHex("536878")).build();
+tungstensteel.registerParts(["ingot"] as string[]);
+
+//HSS-E
+var hsse = MaterialSystem.getMaterialBuilder().setName("HSS-E").setColor(Color.fromHex("006400")).build();
+hsse.registerParts(["ingot"] as string[]);
+
+//HSS-G
+var hssg = MaterialSystem.getMaterialBuilder().setName("HSS-G").setColor(Color.fromHex("a6d67d")).build();
+hssg.registerParts(["ingot"] as string[]);
+
+//HSS-S
+var hsss = MaterialSystem.getMaterialBuilder().setName("HSS-S").setColor(Color.fromHex("3e0000")).build();
+hsss.registerParts(["ingot"] as string[]);
+
+//Hdbcs
+var hdbcs = MaterialSystem.getMaterialBuilder().setName("High Durability Compound Steel Dust").setColor(Color.fromHex("949494")).build();
+hdbcs.registerParts(["ingot"] as string[]);
+
+//PigIron
+var pigiron = MaterialSystem.getMaterialBuilder().setName("Pig Iron").setColor(Color.fromHex("f3b6bd")).build();
+pigiron.registerParts(["ingot"] as string[]);
+
+//SolderingAlloy
+var solderingalloy = MaterialSystem.getMaterialBuilder().setName("Soldering Alloy").setColor(Color.fromHex("ebecf0")).build();
+solderingalloy.registerParts(["ingot", "crushed_ore"] as string[]);
 
 var blockNaquadria = naquadria.registerPart("block").getData();
 blockNaquadria.addDataValue("hardness", "5");
@@ -160,7 +188,7 @@ blockNaquadria.addDataValue("harvestLevel", "1");
 
 //Enriched Naquadah
 var naquadahe = MaterialSystem.getMaterialBuilder().setName("Enriched Naquadah").setColor(Color.fromHex("09090a")).build();
-naquadahe.registerParts(["gear", "dust", "plate", "nugget", "ingot", "rod"] as string[]);
+naquadahe.registerParts(["ingot"] as string[]);
 
 var blockNaquadahe = naquadahe.registerPart("block").getData();
 blockNaquadahe.addDataValue("hardness", "5");
@@ -250,12 +278,12 @@ sulfuricNaphtha.viscosity = 10000;
 sulfuricNaphtha.temperature = 671;
 sulfuricNaphtha.register();
 
-  #Tolulene
-var tolulene = mods.contenttweaker.VanillaFactory.createFluid("tolulene", Color.fromHex("ff8533"));
-tolulene.density = 10000;
-tolulene.viscosity = 10000;
-tolulene.temperature = 671;
-tolulene.register();
+  #EyeGoop
+var eyegoop = mods.contenttweaker.VanillaFactory.createFluid("eyegoop", Color.fromHex("ff8533"));
+eyegoop.density = 10000;
+eyegoop.viscosity = 10000;
+eyegoop.temperature = 671;
+eyegoop.register();
 
   #Rubber
 var new_rubber = mods.contenttweaker.VanillaFactory.createFluid("new_ rubber", Color.fromHex("1776664"));

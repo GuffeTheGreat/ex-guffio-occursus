@@ -2,7 +2,7 @@
 //Enderium
 //mods.rockhounding_chemistry.MetalAlloyer.add(["dustSilver", "dustPlatinum", "dustLead", "dustEnder"], [20, 20, 10, 50], <contenttweaker:material_part:75>);
 //InfinityIngot
-mods.rockhounding_chemistry.MetalAlloyer.add(["dustIron", "dustEximite", "dustMeutoite", "dustEnder"], [1, 20, 20, 50], <avaritia:resource:6>);
+mods.rockhounding_chemistry.MetalAlloyer.add(["dustTungsten", "dustSteel", "dustMolybdenum", "dustIron", "dustChrome", "dustVanadium","dustPlutonium239", "dustIridium", "dustManganese", "dustSilicon",  "dustCobalt", "dustDiamond", "dustTellurium", "dustBismuth", "dustZirconium"], [30, 30, 8, 6, 4, 4, 3, 3, 3, 3, 2, 1, 1, 1, 1, 1, 1], <contenttweaker:material_part:140>);
 
 //Labblender
 //InfinityCatalyst

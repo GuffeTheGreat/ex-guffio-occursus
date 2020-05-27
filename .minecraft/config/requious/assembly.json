@@ -48,6 +48,42 @@
     }
   },
   {
+    "resourceName": "cutting_saw",
+    "model": "requious:assembly_block",
+    "placeType": "Horizontal",
+    "hasGUI": true,
+    "colorA": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "colorB": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    }
+  },
+ {
+    "resourceName": "fast_cutting_saw",
+    "model": "requious:assembly_block",
+    "placeType": "Horizontal",
+    "hasGUI": true,
+    "colorA": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    },
+    "colorB": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 1
+    }
+  },
+  {
     "placeType": "Any",
     "hasGUI": true,
     "resourceName": "assembler",

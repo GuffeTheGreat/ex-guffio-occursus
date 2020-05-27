@@ -1,15 +1,22 @@
 mods.jei.JEI.removeAndHide(<minecraft:diamond_pickaxe>);
-mods.jei.JEI.removeAndHide(<mysticalworld:amethyst_pickaxe>);
-mods.jei.JEI.removeAndHide(<mysticalworld:silver_pickaxe>);
-mods.jei.JEI.removeAndHide(<mysticalworld:copper_pickaxe>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:pickaxe_steel>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:nether_quartz_pickaxe>);
 mods.jei.JEI.removeAndHide(<embers:pickaxe_silver>);
+
+//Shears
 //CraftingTable
 recipes.remove(<minecraft:crafting_table>);
 recipes.addShapedMirrored("1x_tile_workbench_shaped", <minecraft:crafting_table>, [
 	[<ore:plankWood>,<ore:plankWood>],
 	[<ore:plankWood>,<ore:plankWood>]
+]);
+
+//Dispensor
+recipes.remove(<minecraft:dispenser>);
+recipes.addShapedMirrored("1x_tile_dispenser_shaped", <minecraft:dispenser>, [
+	[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
+	[<minecraft:cobblestone>, <minecraft:bow>, <minecraft:cobblestone>],
+	[<minecraft:cobblestone>, <thaumcraft:inlay>, <minecraft:cobblestone>]
 ]);
 
 

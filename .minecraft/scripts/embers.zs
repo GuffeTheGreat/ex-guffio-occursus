@@ -29,19 +29,13 @@ recipes.remove(<embers:block_furnace>);
 recipes.addShapedMirrored("1x_tile_block_furnace_shaped", <embers:block_furnace>, [
 	[<embers:brick_caminite>, <embers:plate_caminite>, <embers:brick_caminite>],
 	[<embers:brick_caminite>, <pyrotech:brick_crucible>, <embers:brick_caminite>],
-	[<ore:plateLapis>, <aoa3:amethyst_block>, <ore:plateLapis>]
-]);
-//GeologicSeperator
-recipes.remove(<embers:geo_separator>);
-recipes.addShapedMirrored("1x_tile_geo_separator_shaped", <embers:geo_separator>, [[null, null, <embers:plate_nickel>],
-	[null, null, <pyrotech:faucet_brick>],
-	[<embers:brick_caminite>, <embers:block_tank>, <embers:brick_caminite>]
+	[<ore:plateLapis>, <crossroads:coal_heater>, <ore:plateLapis>]
 ]);
 //FluidVessel
 recipes.remove(<embers:block_tank>);
 recipes.addShapedMirrored("1x_tile_block_tank_shaped", <embers:block_tank>, [
 	[<embers:brick_caminite>, null, <embers:brick_caminite>],
-	[<ore:plateLapis>, <pyrotech:tank>, <ore:plateLapis>],
+	[<ore:plateIron>, <crossroads:heating_crucible>, <ore:plateIron>],
 	[<embers:brick_caminite>, <embers:plate_iron>, <embers:brick_caminite>]
 ]);
 //EmberUsers
@@ -61,7 +55,7 @@ recipes.remove(<embers:ember_activator>);
 recipes.addShapedMirrored("1x_tile_ember_activator_shaped", <embers:ember_activator>, [
 	[<thaumcraft:plate>, null, <thaumcraft:plate>],
 	[<thaumcraft:plate>, <ore:blockCopper>, <thaumcraft:plate>],
-	[<jaopca:item_platesapphire>, <pyrotech:brick_kiln>, <jaopca:item_platesapphire>]
+	[<ore:plateSyrmorite>, <pyrotech:brick_kiln>, <ore:plateSyrmorite>]
 ]);
 //CopperCell
 recipes.remove(<embers:copper_cell>);
@@ -74,7 +68,7 @@ recipes.addShapedMirrored("1x_tile_copper_cell_shaped", <embers:copper_cell>, [
 recipes.remove(<embers:stamper_base>);
 recipes.addShapedMirrored("1x_tile_stamper_base_shaped", <embers:stamper_base>, [
 	[<thaumcraft:ingot>, null, <thaumcraft:ingot>],
-	[<embers:block_caminite_brick>, <embers:block_tank>, <embers:block_caminite_brick>]
+	[<embers:block_caminite_brick>, <crossroads:fluid_cooling_chamber>, <embers:block_caminite_brick>]
 ]);
 recipes.remove(<embers:stamper>);
 recipes.addShapedMirrored("1x_tile_stamper_shaped", <embers:stamper>, [
@@ -93,7 +87,7 @@ recipes.addShapedMirrored("1x_tile_ember_bore_shaped", <embers:ember_bore>, [
 recipes.remove(<embers:mixer>);
 recipes.addShapedMirrored("1x_tile_mixer_shaped", <embers:mixer>, [
 	[<embers:plate_iron>, null, <embers:plate_iron>],
-	[<jaopca:item_platesyrmorite>, <thaumcraft:ingot>, <jaopca:item_platesyrmorite>],
+	[<jaopca:item_platesyrmorite>, <embers:block_tank>, <jaopca:item_platesyrmorite>],
 	[<thaumcraft:ingot:2>, <thaumcraft:metal_alchemical>, <thaumcraft:ingot:2>]
 ]);
 //ExchangeTablet
@@ -108,7 +102,7 @@ recipes.remove(<embers:alchemy_pedestal>);
 recipes.addShapedMirrored("1x_tile_alchemy_pedestal_shaped", <embers:alchemy_pedestal>, [
 	[<thaumcraft:plate>, null, <thaumcraft:plate>],
 	[<thaumcraft:ingot:2>, <embers:crystal_ember>, <thaumcraft:ingot:2>],
-	[<embers:stairs_caminite_brick>, <ore:blockLimonite>, <embers:stairs_caminite_brick>]
+	[<embers:stairs_caminite_brick>, <ore:blockAtlarus>, <embers:stairs_caminite_brick>]
 ]);
 //Beamcannon
 recipes.remove(<embers:beam_cannon>);
@@ -119,10 +113,10 @@ recipes.addShapedMirrored("1x_tile_beam_cannon_shaped", <embers:beam_cannon>, [
 ]);
 //WindingGears
 mods.embers.Alchemy.remove(<embers:winding_gears>);
-mods.embers.Alchemy.add(<embers:winding_gears>, [<ore:gearLimonite>, <jaopca:item_gearamber>, <jaopca:item_gearamber>, <jaopca:item_gearamber>, <jaopca:item_gearamber>], {"copper": 32 to 64, "iron": 32 to 128});
+mods.embers.Alchemy.add(<embers:winding_gears>, [<ore:gearAtlarus>, <jaopca:item_gearamber>, <jaopca:item_gearamber>, <jaopca:item_gearamber>, <jaopca:item_gearamber>], {"copper": 32 to 64, "iron": 32 to 128});
 //FelPumpkin
 recipes.remove(<botania:felpumpkin>);
-mods.embers.Alchemy.add(<botania:felpumpkin>, [<minecraft:pumpkin>, <thebetweenlands:shimmer_stone>, <minecraft:gunpowder>, <minecraft:fermented_spider_eye>, <thebetweenlands:sludge_ball>], {"copper": 32 to 64, "dawnstone": 16 to 48});
+mods.embers.Alchemy.add(<botania:felpumpkin>, [<minecraft:pumpkin>, <thebetweenlands:shimmer_stone>, <minecraft:gunpowder>, <minecraft:fermented_spider_eye>, <thebetweenlands:items_misc:25>], {"copper": 32 to 64, "dawnstone": 16 to 48});
 
 //ChangingDawnstone
 mods.embers.Mixer.add(<liquid:dawnstone>*8,[<liquid:copper>*3,<liquid:gold>*3,<liquid:octine>*2]);

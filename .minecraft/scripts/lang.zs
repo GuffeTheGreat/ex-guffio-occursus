@@ -18,6 +18,8 @@ game.setLocalization("fluid.rubber", "Sap");
 //ItsRiceFlourNow
 <appliedenergistics2:material:4>.displayName = "Rice Flour";
 
+//Reinforced Shears
+<cyclicmagic:shears_obsidian>.displayName = "High Durability Shears";
 
 //Langisstupid
 <alchemistry:element>.displayName = "Neutronium";
@@ -53,9 +55,9 @@ game.setLocalization("fluid.rubber", "Sap");
 <bassebombecraft:saturationidolinventoryitem>.displayName = "Transcendent Processor";
 */
 <actuallyadditions:block_misc:9>.displayName = "Basic Casing";
-<alchemistry:fission_casing>.displayName = "Intermediate Casing";
-<emergingtechnology:machinecase>.displayName = "Advanced Casing";
-<nuclearcraft:part:12>.displayName = "Elite Casing";
-<nuclearcraft:part:10>.displayName = "Insane Casing";
-<alchemistry:fusion_casing>.displayName = "Ludicrous Casing";
+<rftools:machine_frame>.displayName = "Intermediate Casing";
+<nuclearcraft:part:11>.displayName = "Advanced Casing";
+<nuclearcraft:part:10>.displayName = "Elite Casing";
+<nuclearcraft:part:12>.displayName = "Insane Casing";
+<extendedcrafting:frame>.displayName = "Ludicrous Casing";
 <actuallyadditions:block_misc:8>.displayName = "Transcendent Casing";

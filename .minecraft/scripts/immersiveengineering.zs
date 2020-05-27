@@ -54,6 +54,10 @@ recipes.addShapedMirrored("1x_tile_immersiveengineering_wooden_device0_workbench
 	[<minecraft:crafting_table>, null, <pyrotech:material:23>]
 ]);
 
-//Distillery
-mods.immersivetechnology.Distiller.addRecipe(<liquid:creosote> * 50, <liquid:wood_tar> * 100, <minecraft:nether_star>);
-mods.immersivetechnology.Distiller.addRecipe(<liquid:phenol> * 50, <liquid:coal_tar> * 100, <minecraft:nether_star>);
+//Conveyor
+recipes.addShapedMirrored("8x_tile_immersiveengineering_conveyor_immersiveengineering:conveyor_shaped", (<immersiveengineering:conveyor> * 8).withTag({conveyorType: "immersiveengineering:conveyor"}), [
+	[null, null, null],
+	[<ore:leather>, <contenttweaker:basicconveyor>, <ore:leather>],
+	[<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>]
+]);
+

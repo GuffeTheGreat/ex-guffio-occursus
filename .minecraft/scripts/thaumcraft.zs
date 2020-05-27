@@ -2,16 +2,17 @@ import mods.thaumcraft.Infusion;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
 
-
-
+#Salismundus
+recipes.remove(<thaumcraft:salis_mundus>);
+recipes.remove(<thaumcraft:nugget:9>);
 //ArcaneWorkbench
 #Thauometer
 recipes.remove(<thaumcraft:thaumometer>);
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:thaumometer>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumometer", "", 20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumometer>, [[null,<ore:plateGold>,null], [<ore:plateAtlarus>,<thebetweenlands:silt_glass_pane>,<ore:plateAtlarus>], [null,<ore:plateGold>,null]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumometer", "", 20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumometer>, [[null,<jaopca:item_plateoctine>,null], [<ore:plateAtlarus>,<thebetweenlands:silt_glass_pane>,<ore:plateAtlarus>], [null,<jaopca:item_plateoctine>,null]]);
 //FormationWand
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_architect");
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("barrierstone", "PAVINGSTONES", 20, [<aspect:ordo>, <aspect:ignis>], <thaumcraft:paving_stone_barrier>*8, [[<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>,<roots:stalicripe>,<thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("barrierstone", "PAVINGSTONES", 20, [<aspect:ordo>, <aspect:ignis>], <thaumcraft:paving_stone_barrier>*8, [[<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>,<thebetweenlands:syrmorite_shield>,<thaumcraft:stone_arcane>], [<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>,<thaumcraft:stone_arcane>]]);
 //BarrierStone
 recipes.remove(<thaumcraft:paving_stone_barrier>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tile.paving_stone_barrier", "", 20, [<aspect:ordo>*4, <aspect:aqua>*1], <astralsorcery:itemarchitectwand>, [[null,<astralsorcery:itemcraftingcomponent>,<aoa3:sapphire>], [null,<ore:blockMarble>,<astralsorcery:itemcraftingcomponent>], [<ore:blockMarble>,null,null]]);
@@ -52,9 +53,9 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("item.mechanism_simple", "U
 //AlchemicalConstruct
 recipes.remove(<thaumcraft:metal_alchemical>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tile.metal_alchemical", "ESSENTIATRANSPORT", 75, [<aspect:aqua>,<aspect:ordo>,<aspect:perditio>], <thaumcraft:metal_alchemical>*2, [
-[<jaopca:item_platesapphire>,<thaumcraft:tube_valve>,<jaopca:item_platesapphire>], 
+[<ore:plateSyrmorite>,<thaumcraft:tube_valve>,<ore:plateSyrmorite>], 
 [<thaumcraft:tube>,<thaumcraft:mechanism_complex>,<thaumcraft:tube>], 
-[<jaopca:item_platesapphire>,<thaumcraft:tube_valve>,<jaopca:item_platesapphire>]]);
+[<ore:plateSyrmorite>,<thaumcraft:tube_valve>,<ore:plateSyrmorite>]]);
 
 //redstoneinlay
 recipes.remove(<thaumcraft:inlay>);

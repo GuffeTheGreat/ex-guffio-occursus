@@ -33,3 +33,4 @@ mmc-pack.json
 .minecraft/config/AppliedEnergistics2/VersionChecker.cfg
 .minecraft/cache/*
 .minecraft/asm/*
+.minecraft/woot/*

@@ -18,6 +18,14 @@ setBiome:
     Notes:
         Sets the biome id. Can be an int or String.
 
+setYMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Y coordinates.
+
 setXMinMax:
     Arguments:
         float, float
@@ -25,14 +33,6 @@ setXMinMax:
         min, max
     Notes:
         Sets the min and max X coordinates.
-
-setXMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min X coordinate.
 
 setXMax:
     Arguments:
@@ -42,29 +42,13 @@ setXMax:
     Notes:
         Sets the max X coordinate.
 
-setYMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Y coordinates.
-
-setZMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Z coordinates.
-
-setYMax:
+setZMin:
     Arguments:
         float
     Usage:
-        max
+        min
     Notes:
-        Sets the max Y coordinate.
+        Sets the min Z coordinate.
 
 setDimensionType:
     Arguments:
@@ -82,13 +66,29 @@ setZMax:
     Notes:
         Sets the max Z coordinate.
 
-setZMin:
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
+
+setXMin:
     Arguments:
         float
     Usage:
         min
     Notes:
-        Sets the min Z coordinate.
+        Sets the min X coordinate.
+
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Y coordinate.
 
 setYMin:
     Arguments:

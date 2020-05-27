@@ -1,27 +1,16 @@
-import mods.roots.Mortar;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.prodigytech.rotarygrinder;
 
-
-
-//RemovedRecipes
-Mortar.removeRecipe(<minecraft:dye:14>);
-Mortar.removeRecipe(<mysticalworld:silk_thread>);
-recipes.remove(<mysticalworld:silk_thread>);
-
-
-
 var mortarRecipes as IItemStack[IItemStack] = {
 	<minecraft:carrot> : <cuisine:ingredient>.withTag({characteristics: [] as int[], effects: [], material: "carrot", form: "PASTE", doneness: 0, actions: [10, 10] as int[]}),
-	<mysticalworld:silk_cocoon> : <mysticalworld:silk_thread>*5,
 	<cuisine:material:3> : <primal:salt_dust_netjry>,
 	<pyrotech:rock:8> : <pyrotech:material:28>,
 	<pyrotech:material:10> : <pyrotech:material:31>*3,
-	<minecraft:wheat> : <roots:flour>,
-	<cuisine:crops:13> : <roots:flour>,
+	<minecraft:wheat> : <cuisine:food:1>,
+	<cuisine:crops:13> : <cuisine:food:1>,
 	<actuallyadditions:item_food:16> : <appliedenergistics2:material:4>,
-	<cuisine:crops:2> : <roots:flour>,
+	<cuisine:crops:2> : <cuisine:food:1>,
 	};
 var counter = 0;
 for input, output in mortarRecipes {

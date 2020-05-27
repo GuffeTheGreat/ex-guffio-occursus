@@ -77,7 +77,7 @@ recipes.addShapedMirrored("1x_tile_primal_hibachi_adobe_shaped", <primal:hibachi
 
 //SilkCordage
 recipes.remove(<primal:silk_cordage>);
-recipes.addShapeless("1x_item_primal_silk_cordage_shapeless", <primal:silk_cordage>, [<mysticalworld:silk_thread>, <mysticalworld:silk_thread>, <mysticalworld:silk_thread>]);
+recipes.addShapeless("1x_item_primal_silk_cordage_shapeless", <primal:silk_cordage>, [<forestry:crafting_material:2>, <forestry:crafting_material:2>, <forestry:crafting_material:2>]);
 
 
 //Querns
@@ -157,6 +157,7 @@ mods.primal.Cauldron.addRecipe(
     [<ore:dustSulfur>], 
     []
 );
+
 
 
 

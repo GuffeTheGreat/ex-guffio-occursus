@@ -28,13 +28,9 @@ setBiome:
     Notes:
         Sets the biome id. Can be an int or String.
 
-setBlockToReplace:
-    Arguments:
-        String
-    Usage:
-        block id
+getBlockToReplace:
     Notes:
-        Sets the block to be replaced. This counts for any meta.
+        Returns the BlockData object for the block to be replaced so functions can be called on it.
 
 setBlockToReplace:
     Arguments:
@@ -44,33 +40,33 @@ setBlockToReplace:
     Notes:
         Sets the block to be replaced with the provided meta.
 
-getBlockToReplace:
-    Notes:
-        Returns the BlockData object for the block to be replaced so functions can be called on it.
-
-setXMinMax:
+setBlockToReplace:
     Arguments:
-        float, float
+        String
     Usage:
-        min, max
+        block id
     Notes:
-        Sets the min and max X coordinates.
+        Sets the block to be replaced. This counts for any meta.
 
-setXMin:
+setReplacement:
     Arguments:
-        float
+        String
     Usage:
-        min
+        block ID
     Notes:
-        Sets the min X coordinate.
+        Sets the block replacement with a meta of 0.
 
-setXMax:
+setReplacement:
     Arguments:
-        float
+        String, int
     Usage:
-        max
+        block ID, meta
     Notes:
-        Sets the max X coordinate.
+        Sets the block replacement and meta.
+
+getLocationData:
+    Notes:
+        Returns the LocationData object so functions can be called on it.
 
 setYMinMax:
     Arguments:
@@ -80,21 +76,29 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
-setZMinMax:
+setXMinMax:
     Arguments:
         float, float
     Usage:
         min, max
     Notes:
-        Sets the min and max Z coordinates.
+        Sets the min and max X coordinates.
 
-setYMax:
+setXMax:
     Arguments:
         float
     Usage:
         max
     Notes:
-        Sets the max Y coordinate.
+        Sets the max X coordinate.
+
+setZMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min Z coordinate.
 
 setDimensionType:
     Arguments:
@@ -112,13 +116,29 @@ setZMax:
     Notes:
         Sets the max Z coordinate.
 
-setZMin:
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
+
+setXMin:
     Arguments:
         float
     Usage:
         min
     Notes:
-        Sets the min Z coordinate.
+        Sets the min X coordinate.
+
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Y coordinate.
 
 setYMin:
     Arguments:
@@ -127,26 +147,6 @@ setYMin:
         min
     Notes:
         Sets the min Y coordinate.
-
-getLocationData:
-    Notes:
-        Returns the LocationData object so functions can be called on it.
-
-setReplacement:
-    Arguments:
-        String, int
-    Usage:
-        block ID, meta
-    Notes:
-        Sets the block replacement and meta.
-
-setReplacement:
-    Arguments:
-        String
-    Usage:
-        block ID
-    Notes:
-        Sets the block replacement with a meta of 0.
 
 addGenerationPoint:
     Arguments:

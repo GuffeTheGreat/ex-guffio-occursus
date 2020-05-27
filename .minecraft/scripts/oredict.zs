@@ -1,23 +1,15 @@
 #priority 998
-//StoneSlabs
-<ore:stoneSlab>.addItems([<minecraft:stone_slab>, <undergroundbiomes:igneous_stone_halfslab:*>, <undergroundbiomes:metamorphic_stone_halfslab:*>, <undergroundbiomes:sedimentary_stone_halfslab:*>]);
+
 
 //Plants
 <ore:plant>.addItems([<minecraft:tallgrass:*>, <minecraft:deadbush>, <minecraft:double_plant:*>,<minecraft:sapling:*>,<minecraft:yellow_flower>, <minecraft:red_flower:*>]);
 
 
-//FixMarble
-<ore:blockMarble>.add(<undergroundbiomes:metamorphic_stone:2>);
-<ore:stoneMarble>.add(<undergroundbiomes:metamorphic_stone:2>);
 
 //Peltsandhie
 <ore:peltSmall>.add(<rats:rat_pelt>);
-<ore:peltSmall>.add(<mysticalworld:pelt>);
 <ore:peltMedium>.add(<aoa3:urka_hide>);
 <ore:peltLarge>.add(<aoa3:rammerhead_hide>);
-<ore:peltLarge>.add(<iceandfire:troll_leather_forest>);
-<ore:peltLarge>.add(<iceandfire:troll_leather_frost>);
-<ore:peltLarge>.add(<iceandfire:troll_leather_mountain>);
 
 //Flakes
 <ore:flakeFlint>.add(<pyrotech:material:10>);
@@ -32,9 +24,6 @@
 //MortarIngredients
 <ore:mortalIngredient>.remove(<minecraft:sand>);
 <ore:mortalIngredient>.add(<pyrotech:rock:5>);
-<ore:mortalIngredient>.add(<pyrotech_compat:rock_igneous_sand:*>);
-<ore:mortalIngredient>.add(<pyrotech_compat:rock_metamorphic_sand:*>);
-<ore:mortalIngredient>.add(<pyrotech_compat:rock_sedimentary_sand:*>);
 
 <ore:dustSulfur>.remove(<metallurgy:sulfur_dust>);
 <ore:dustSulphur>.remove(<metallurgy:sulfur_dust>);
@@ -42,13 +31,8 @@
 
 //Bark
 //Flakes
-<ore:barkOak>.add(<roots:bark_oak>);
-<ore:barkSpruce>.add(<roots:bark_spruce>);
-<ore:barkBirch>.add(<roots:bark_birch>);
-<ore:barkJungle>.add(<roots:bark_jungle>);
-<ore:barkAcacia>.add(<roots:bark_acacia>);
-<ore:barkDarkOak>.add(<roots:bark_dark_oak>);
-<ore:barkWood>.addItems([<roots:bark_oak>, <roots:bark_spruce>, <roots:bark_birch>, <roots:bark_wildwood>, <roots:bark_jungle>, <roots:bark_acacia>, <roots:bark_dark_oak>]);
+<ore:barkWood>.add(<extratrees:misc:1>);
+
 
 //Chili
 <ore:cropChilipepper>.add(<aoa3:chilli>);
@@ -74,3 +58,12 @@
 //Ashaddition
 <ore:dustAsh>.add(<bonfires:ash_pile>);
 
+<ore:fish>.remove(<aoa3:raw_rainbowfish>);
+<ore:listAllbeefraw>.remove(<galacticraftcore:food:6>);
+<ore:listAllbeefraw>.add(<moreplanets:raw_cheese_beef>);
+<ore:listAllbeefraw>.remove(<avaritia:cosmic_meatballs>);
+<ore:listAllmeatraw>.remove(<galacticraftcore:food:6>);
+<ore:listAllmeatraw>.add(<moreplanets:raw_cheese_beef>);
+<ore:listAllmeatraw>.remove(<avaritia:cosmic_meatballs>);
+<ore:dustAshes>.remove(<embers:dust_ash>);
+<ore:dustCharcoal>.add(<embers:dust_ash>);
