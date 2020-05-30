@@ -352,8 +352,6 @@
     "thebetweenlands:log_rubber:0": "thebetweenlands:rubber_tree_planks:0",
     "thebetweenlands:nibbletwig_planks:0": "thebetweenlands:nibbletwig_plank_slab:0",
     "thebetweenlands:rubber_tree_planks:0": "thebetweenlands:rubber_tree_plank_slab:0",
-    "thebetweenlands:weedwood_planks:0": "thebetweenlands:weedwood_plank_slab:0",
-    "traverse:fir_log:0": "traverse:fir_planks:0",
-    "traverse:fir_planks:0": "traverse:fir_slab:0"
+    "thebetweenlands:weedwood_planks:0": "thebetweenlands:weedwood_plank_slab:0"
   }
 }

@@ -55,9 +55,12 @@ recipes.addShapedMirrored("1x_tile_immersiveengineering_wooden_device0_workbench
 ]);
 
 //Conveyor
-recipes.addShapedMirrored("8x_tile_immersiveengineering_conveyor_immersiveengineering:conveyor_shaped", (<immersiveengineering:conveyor> * 8).withTag({conveyorType: "immersiveengineering:conveyor"}), [
-	[null, null, null],
+recipes.addShapedMirrored("8x_tile_immersiveengineering_conveyor_immersiveengineering_conveyor_shaped", (<immersiveengineering:conveyor> * 8).withTag({conveyorType: "immersiveengineering:conveyor"}), [
 	[<ore:leather>, <contenttweaker:basicconveyor>, <ore:leather>],
 	[<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>]
 ]);
 
+mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <contenttweaker:material_part:141>, 2000, <pyrotech:slag>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, 2000, <pyrotech:slag>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<metallurgy:steel_ingot>);
+mods.immersiveengineering.BlastFurnace.removeRecipe(<metallurgy:steel_block>);

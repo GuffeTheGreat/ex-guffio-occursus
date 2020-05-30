@@ -18,13 +18,13 @@ setBiome:
     Notes:
         Sets the biome id. Can be an int or String.
 
-setYMinMax:
+setXMax:
     Arguments:
-        float, float
+        float
     Usage:
-        min, max
+        max
     Notes:
-        Sets the min and max Y coordinates.
+        Sets the max X coordinate.
 
 setXMinMax:
     Arguments:
@@ -34,13 +34,13 @@ setXMinMax:
     Notes:
         Sets the min and max X coordinates.
 
-setXMax:
+setYMin:
     Arguments:
         float
     Usage:
-        max
+        min
     Notes:
-        Sets the max X coordinate.
+        Sets the min Y coordinate.
 
 setZMin:
     Arguments:
@@ -58,22 +58,6 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-setZMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max Z coordinate.
-
-setZMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Z coordinates.
-
 setXMin:
     Arguments:
         float
@@ -81,6 +65,22 @@ setXMin:
         min
     Notes:
         Sets the min X coordinate.
+
+setYMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Y coordinates.
+
+setZMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Z coordinate.
 
 setYMax:
     Arguments:
@@ -90,11 +90,11 @@ setYMax:
     Notes:
         Sets the max Y coordinate.
 
-setYMin:
+setZMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        min
+        min, max
     Notes:
-        Sets the min Y coordinate.
+        Sets the min and max Z coordinates.
 

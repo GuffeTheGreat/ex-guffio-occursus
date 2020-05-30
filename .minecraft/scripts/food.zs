@@ -53,14 +53,14 @@ recipes.addShapedMirrored("1x_item_cuisine_material_wooden_arm_shaped", <cuisine
 ]);
 
 //Fan
-recipes.addShapedMirrored("1x_item_cuisine_material_wooden_arm_shaped", <cuisine:fan>, [
+recipes.addShapedMirrored("1x_item_cuisine_material_lilypad_shaped", <cuisine:fan>, [
 	[null, <minecraft:waterlily>],
 	[<ore:stickWood>, null]
 ]);
 
 
 //Knife
-recipes.addShapedMirrored("1x_item_cuisine_material_wooden_arm_shaped", <cuisine:kitchen_knife>, [
+recipes.addShapedMirrored("1x_item_cuisine_material_knife_shaped", <cuisine:kitchen_knife>, [
 	[null, <actuallyadditions:item_misc:2>],
 	[<ore:stickWood>, null]
 ]);

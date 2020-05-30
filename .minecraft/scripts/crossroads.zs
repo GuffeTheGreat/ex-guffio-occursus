@@ -23,5 +23,3 @@ recipes.addShapedMirrored("1x_tile_heat_exchanger_shaped", <crossroads:heat_exch
 	[<ore:plateIron>, <ore:plateCopper>, <ore:plateIron>]
 ]);
 
-mods.crossroads.EnvHeatSource.addRecipe(<minecraft:water>,<minecraft:dirt>,100,1000);
-mods.crossroads.EnvHeatSource.addRecipe(<minecraft:stone>,<minecraft:water>,100,1000);

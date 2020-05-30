@@ -29,6 +29,15 @@
         ],
         "properties": {}
     },
+          {
+        "name": "dustPurified",
+        "type": "item",
+        "ore_types": [
+            "ingot",
+            "dust"
+        ],
+        "properties": {}
+    },
       {
         "name": "shard",
         "type": "item",

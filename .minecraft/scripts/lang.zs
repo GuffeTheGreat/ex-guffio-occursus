@@ -61,3 +61,24 @@ game.setLocalization("fluid.rubber", "Sap");
 <nuclearcraft:part:12>.displayName = "Insane Casing";
 <extendedcrafting:frame>.displayName = "Ludicrous Casing";
 <actuallyadditions:block_misc:8>.displayName = "Transcendent Casing";
+
+<extendedcrafting:storage:4>.displayName = "Block of Guffio";
+<extendedcrafting:material:13>.displayName = "Guffio Catalyst";
+<extendedcrafting:material:19>.displayName = "Guffio Component";
+<extendedcrafting:material:32>.displayName = "Guffio Ingot";
+<extendedcrafting:material:33>.displayName = "Guffio Nugget";
+<extendedcrafting:singularity_ultimate>.displayName = "Guffio Catalyst";
+<jaopca:item_dustultimate>.displayName = "Guffio Dust";
+<jaopca:item_coinultimate>.displayName = "Guffio Coin";
+<jaopca:item_gearultimate>.displayName = "Guffio Gear";
+<jaopca:item_platedenseultimate>.displayName = "Guffio Plate";
+<jaopca:item_dustsmallultimate>.displayName = "Guffio Rod";
+<jaopca:item_dusttinyultimate>.displayName = "Tiny Pile of Guffio Dust";
+<jaopca:item_stickultimate>.displayName = "Small Pile of Guffio Dust";
+<jaopca:item_plateultimate>.displayName = "Dense Guffio Plate";
+
+<primal:logs_stacked:2>.displayName = "Poor Grade Log Stack";
+<primal:logs_stacked>.displayName = "Fair Grade Log Stack";
+<primal:logs_stacked:1>.displayName = "Good Grade Log Stack";
+<primal:logs_stacked_corypha>.displayName = "High Grade Log Stack";
+<primal:logs_stacked:5>.displayName = "Pure Carbon Log Stack";

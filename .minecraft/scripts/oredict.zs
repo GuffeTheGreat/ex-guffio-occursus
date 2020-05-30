@@ -67,3 +67,11 @@
 <ore:listAllmeatraw>.remove(<avaritia:cosmic_meatballs>);
 <ore:dustAshes>.remove(<embers:dust_ash>);
 <ore:dustCharcoal>.add(<embers:dust_ash>);
+
+//AACrystals
+<ore:gemRestonia>.add(<actuallyadditions:item_crystal>);
+<ore:gemPalis>.add(<actuallyadditions:item_crystal:1>);
+<ore:gemDiamantine>.add(<actuallyadditions:item_crystal:2>);
+<ore:gemVoidCrystal>.add(<actuallyadditions:item_crystal:3>);
+<ore:gemEmeradic>.add(<actuallyadditions:item_crystal:4>);
+<ore:gemEnori>.add(<actuallyadditions:item_crystal:5>);
