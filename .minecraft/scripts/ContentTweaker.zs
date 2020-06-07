@@ -6,155 +6,258 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Color;
 import mods.contenttweaker.MaterialSystem;
+import mods.contenttweaker.Part;
+import mods.contenttweaker.MaterialPart;
 import mods.contenttweaker.Material;
 import mods.contenttweaker.Fluid;
 
+  #Ring
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("ring")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("ring")
+  .build();
+
+  #Screw
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("screw")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("screw")
+  .build();
+
+  #Rotor
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("rotor")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("rotor")
+  .build();
+
+  #Purified Ore
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("ore_purified")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("purifiedOre")
+  .build();
+
+  #Ore Cluster
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("ore_cluster")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("cluster")
+  .build();
+/*
+  #Ore Shard
+  mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("ore_shard")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("shard")
+  .build();
+  
+    #Ore Clump
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("ore_clump")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("clump")
+  .build();
+
+    #Ore Crystal
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("ore_crystal")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("crystal")
+  .build();
+*/
+#Pure Dust
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("purified_dust")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("pure_dust")
+  .build();
+
+
+
+#Exquisitegem
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("exquisite")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("exquisite")
+  .build();
+
+#Flawless
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("flawless")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("flawless")
+  .build();
+
+#flaked
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("flaked")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("flaked")
+  .build();
+
+#point
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("point")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("point")
+  .build();
+  /*
+//Oreprocessing
+var materialMap as string[string] = {
+
+	//Metals
+	"Tritanium" : "565656",
+	"Astral Silver" : "d8d8d8",
+	"Naquadah" : "121111",
+	"Enrinched Naquadah" : "09090a",
+	"Meutoite" : "301934",
+	"Eximite" : "68478D",
+	"Zyptorium" : "0066cc",
+	"Diremesium" : "ff0000",
+	"Graphite" : "060607",
+	"Silver" : "bec2cb",
+	"Lead" : "5e6673",
+	"Iron" : "cbcdcd",
+	"Gold" : "d4af37",
+	"Atlarus" : "ffd700",
+	"Cinnabar" : "4e0707",
+	"Oureclase" : "593c1f",
+	"Orichalum" : "905e26",
+	"Nickel" : "e1c699",
+	"Cobalt" : "0047ab",
+	"Tin" : "585858",
+	"Copper" : "b87333",
+	"Beryllium" : "526b2d",
+	/*
+	"Palladium" : <material:palladium>.color,
+	"Pentlandite" : <material:pentlandite>.color,
+	"Platinum" : <material:platinum>.color,
+	"Pyrolusite" : <material:pyrolusite>.color,
+	"Rutile" : <material:rutile>.color,
+	"Silver" : <material:silver>.color,
+	"Stibnite" : <material:stibnite>.color,
+	"Tantalum" : <material:tantalum>.color,
+	"Tetrahedrite" : <material:tetrahedrite>.color,
+	"Tin" : <material:tin>.color,
+	"Titanium" : <material:titanium>.color,
+	"Tungstate" : <material:tungstate>.color,
+	"Tungsten" : <material:tungsten>.color,
+	"Uraninite" : <material:uraninite>.color,
+	"Uranium" : <material:uranium>.color,
+	"Uranium235" : <material:uranium235>.color,
+	"Yellow Limonite" : <material:yellow_limonite>.color,
+	"Zinc" : <material:zinc>.color,
+
+	//Dusts
+	"Galena" : "2e1a47",
+	"Magnetite" : "010203",
+	"Vanadium Magnetite" : "000026",
+	"Redstone" : "f51b00",
+	"Cobaltite" : "0047ab",
+	"Garnierite" : "33a532",
+	"Pentlandite" : "b28104",
+	"Calcite" : "d3d3d3",
+	"Tetrahedrite" : "430000",
+	"Cassiterite" : "d3d4d5",
+	"Stibnite" : "0d0d0d",
+	"Chalcopyrite" : "5c4827",
+	"Malachite" : "2a2c05",
+	"Pyrite" : "654312",
+	
+	"Magnesite" : <material:magnesite>.color,
+	"Magnetite" : <material:magnetite>.color,
+	"Monazite" : <material:monazite>.color,
+	"Naquadah Enriched" : <material:naquadah_enriched>.color,
+	"Pitchblende" : <material:pitchblende>.color,
+	"Powellite" : <material:powellite>.color,
+	"Phosphor" : <material:phosphor>.color,
+	"Pyrite" : <material:pyrite>.color,
+	"Redstone" : <material:redstone>.color,
+	"Rock Salt" : <material:rock_salt>.color,
+	"Salt" : <material:salt>.color,
+	"Saltpeter" : <material:saltpeter>.color,
+	"Scheelite" : <material:scheelite>.color,
+	"Soapstone" : <material:soapstone>.color,
+	"Sodalite" : <material:sodalite>.color,
+	"Spessartine" : <material:spessartine>.color,
+	"Sphalerite" : <material:sphalerite>.color,
+	//"Silicon" : <material:silicon>.color,
+	"Spodumene" : <material:spodumene>.color,
+	"Sulfur" : <material:sulfur>.color,
+	"Talc" : <material:talc>.color,
+	"Tantalite" : <material:tantalite>.color,
+	"Thorium" : <material:thorium>.color,
+	"Vanadium Magnetite" : <material:vanadium_magnetite>.color,
+	"Wulfenite" : <material:wulfenite>.color,
+
+	//Gems
+	"Dilithium" : "f5fafa",
+	"Quartz" : "ffffff",
+	"Charged Certus Quartz" : "e0ffff",
+	"Certus Quartz" : "c0f6fb",
+	"Black Quartz" : "000000",
+	"Diamond" : "b9f2ff",
+	"Lapis" : "0066cc",
+	"Amber" : "ffff00",
+	"Coal" : "060607",
+	"Amethyst" :  "7719aa",
+	"Emerald" : "32cd32",
+	"Jade" : "00a86b",
+	"Fluorite" : "cc8899",
+	"Goldenite Crystal" : "d4af37",
+	"Anti Gravity" : "585858",
+	"Ruby" : "e0115f",
+	"Sodalite" : "00001b",
+	"Lunar Gem" : "003366",
+	"Sapphire" : "00008b",
+	"Monazite" : "050403",
+	"Vinteum" : "6495ed"
+
+};
+
+for material, color in materialMap {
+	var part = MaterialSystem.getMaterialBuilder()
+		.setName(material)
+		.setColor(Color.fromHex(color))
+		.build();
+	part.registerPart("dense_ore");
+	print(material + " Dense Ore registered");
+	part.registerPart("clump");
+	print(material + " Clump registered");
+	part.registerPart("crystal");
+	print(material + " Crystal registered");
+	part.registerPart("ore_cluster");
+	print(material + " Ore Cluster registered");	
+	part.registerPart("shard");
+}
+*/
 //MATERIALS ------------------------------------------------------
-#Limonite
-var limonite = MaterialSystem.getMaterialBuilder().setName("Limonite").setColor(Color.fromHex("ffa500")).build();
-limonite.registerParts(["gear", "plate",  "nugget", "crushed_ore", "dust"] as string[]);
-
-var moltenLimonite = limonite.registerPart("molten").getData();
-moltenLimonite.addDataValue("temperature", "400");
-moltenLimonite.addDataValue("luminosity", "10");
-
-#Runium
-var runium = MaterialSystem.getMaterialBuilder().setName("Runium").setColor(Color.fromHex("010203")).build();
-runium.registerParts(["nugget", "crushed_ore", "dust"] as string[]);
-
-var moltenRunium = runium.registerPart("molten").getData();
-moltenRunium.addDataValue("temperature", "400");
-moltenRunium.addDataValue("luminosity", "10");
-
-#ChargedRunium
-var chargedRunium = MaterialSystem.getMaterialBuilder().setName("ChargedRunium").setColor(Color.fromHex("1C2951")).build();
-chargedRunium.registerParts(["nugget", "crushed_ore", "dust"] as string[]);
-
-var moltenChargedRunium = chargedRunium.registerPart("molten").getData();
-moltenChargedRunium.addDataValue("temperature", "400");
-moltenChargedRunium.addDataValue("luminosity", "10");
-
-#Rosite
-var rosite = MaterialSystem.getMaterialBuilder().setName("Rosite").setColor(Color.fromHex("FF2400")).build();
-rosite.registerParts(["gear", "plate", "nugget", "rod", "crushed_ore", "dust"] as string[]);
-
-var moltenRosite = rosite.registerPart("molten").getData();
-moltenRosite.addDataValue("temperature", "400");
-moltenRosite.addDataValue("luminosity", "10");
-
-#Blazium
-var blazium = MaterialSystem.getMaterialBuilder().setName("Blazium").setColor(Color.fromHex("FDA50F")).build();
-blazium.registerParts(["gear", "plate", "nugget", "rod", "crushed_ore", "dust"] as string[]);
-
-var moltenBlazium = blazium.registerPart("molten").getData();
-moltenBlazium.addDataValue("temperature", "400");
-moltenBlazium.addDataValue("luminosity", "10");
-
-#Baronyte
-var baronyte = MaterialSystem.getMaterialBuilder().setName("Baronyte").setColor(Color.fromHex("5E1914")).build();
-baronyte.registerParts(["gear", "plate", "nugget", "rod", "crushed_ore", "dust"] as string[]);
-
-var moltenBaronyte = baronyte.registerPart("molten").getData();
-moltenBaronyte.addDataValue("temperature", "400");
-moltenBaronyte.addDataValue("luminosity", "10");
-
-#Lyon
-var lyon = MaterialSystem.getMaterialBuilder().setName("Lyon").setColor(Color.fromHex("d0c90b")).build();
-lyon.registerParts(["gear", "plate", "nugget", "rod", "crushed_ore", "dust"] as string[]);
-
-var moltenLyon = lyon.registerPart("molten").getData();
-moltenLyon.addDataValue("temperature", "400");
-moltenLyon.addDataValue("luminosity", "10");
-
-#Elecanium
-var elecanium = MaterialSystem.getMaterialBuilder().setName("Elecanium").setColor(Color.fromHex("7df9ff")).build();
-elecanium.registerParts(["gear", "plate", "nugget", "rod", "crushed_ore", "dust"] as string[]);
-
-var moltenElecanium = elecanium.registerPart("molten").getData();
-moltenElecanium.addDataValue("temperature", "400");
-moltenElecanium.addDataValue("luminosity", "10");
-
-
-#Emberstone
-var emberstone = MaterialSystem.getMaterialBuilder().setName("Emberstone").setColor(Color.fromHex("78110e")).build();
-emberstone.registerParts(["gear", "plate", "nugget", "crushed_ore", "dust"] as string[]);
-
-var moltenEmberstone = emberstone.registerPart("molten").getData();
-moltenEmberstone.addDataValue("temperature", "400");
-moltenEmberstone.addDataValue("luminosity", "10");
-
-
-#Ghastly
-var ghastly = MaterialSystem.getMaterialBuilder().setName("Ghastly").setColor(Color.fromHex("f8f8ff")).build();
-ghastly.registerParts(["gear", "plate", "nugget", "crushed_ore", "dust"] as string[]);
-
-var moltenGhastly = ghastly.registerPart("molten").getData();
-moltenGhastly.addDataValue("temperature", "400");
-moltenGhastly.addDataValue("luminosity", "10");
-
-
-#Ghoulish
-var ghoulish = MaterialSystem.getMaterialBuilder().setName("Ghoulish").setColor(Color.fromHex("842bd7")).build();
-ghoulish.registerParts(["gear", "plate", "nugget", "crushed_ore", "dust"] as string[]);
-
-var moltenGhoulish = ghoulish.registerPart("molten").getData();
-moltenGhoulish.addDataValue("temperature", "400");
-moltenGhoulish.addDataValue("luminosity", "10");
-
-
-#Mystite
-var mystite = MaterialSystem.getMaterialBuilder().setName("Mystite").setColor(Color.fromHex("e8e4c9")).build();
-mystite.registerParts(["gear", "plate", "nugget", "crushed_ore", "dust"] as string[]);
-
-var moltenMystite = mystite.registerPart("molten").getData();
-moltenMystite.addDataValue("temperature", "400");
-moltenMystite.addDataValue("luminosity", "10");
-
-
-#Shyrestone
-var shyrestone = MaterialSystem.getMaterialBuilder().setName("Shyrestone").setColor(Color.fromHex("6ac5fe")).build();
-shyrestone.registerParts(["gear", "plate", "nugget", "crushed_ore", "dust"] as string[]);
-
-var moltenShyrestone = shyrestone.registerPart("molten").getData();
-moltenShyrestone.addDataValue("temperature", "400");
-moltenShyrestone.addDataValue("luminosity", "10");
-
-
-#Varsium
-var varsium = MaterialSystem.getMaterialBuilder().setName("Varsium").setColor(Color.fromHex("ffae42")).build();
-varsium.registerParts(["gear", "plate", "nugget", "crushed_ore", "dust"] as string[]);
-
-var moltenVarsium = varsium.registerPart("molten").getData();
-moltenVarsium.addDataValue("temperature", "400");
-moltenVarsium.addDataValue("luminosity", "10");
 
 //Naquadah
 var naquadah = MaterialSystem.getMaterialBuilder().setName("Naquadah").setColor(Color.fromHex("121111")).build();
-naquadah.registerParts(["ingot", "crushed_ore"] as string[]);
-
-var blockNaquadah = naquadah.registerPart("block").getData();
-blockNaquadah.addDataValue("hardness", "5");
-blockNaquadah.addDataValue("resistance", "30");
-blockNaquadah.addDataValue("harvestTool", "pickaxe");
-blockNaquadah.addDataValue("harvestLevel", "1");
+naquadah.registerParts(["ingot", "crushed_ore", "dense_ore", "clump", "crystal", "ore_cluster","purified_ore", "dust"] as string[]);
 
 //NaquadahAlloy
 var naquadaha = MaterialSystem.getMaterialBuilder().setName("Naquadah Alloy").setColor(Color.fromHex("030108")).build();
 naquadaha.registerParts(["ingot"] as string[]);
 
-var blockNaquadaha = naquadaha.registerPart("block").getData();
-blockNaquadaha.addDataValue("hardness", "5");
-blockNaquadaha.addDataValue("resistance", "30");
-blockNaquadaha.addDataValue("harvestTool", "pickaxe");
-blockNaquadaha.addDataValue("harvestLevel", "1");
+//Iron
+var iron = MaterialSystem.getMaterialBuilder().setName("Iron").setColor(Color.fromHex("cbcdcd")).build();
+iron.registerParts(["rotor", "ring", "bolt"] as string[]);
+
+//Octine
+var octine = MaterialSystem.getMaterialBuilder().setName("Octine").setColor(Color.fromHex("ffa500")).build();
+octine.registerParts(["plate", "dense_ore", "crushed_ore", "clump", "shard", "crystal", "cluster", "purified_ore","pure_dust","dirty_dust"] as string[]);
+
+var molteOctine = octine.registerPart("molten").getData();
+molteOctine.addDataValue("temperature", "3000");
+molteOctine.addDataValue("luminosity", "10");
 
 //Naquadria
 var naquadria = MaterialSystem.getMaterialBuilder().setName("Naquadria").setColor(Color.fromHex("101012")).build();
 naquadria.registerParts(["ingot"] as string[]);
-
-//Tungstensteel
-var tungstensteel = MaterialSystem.getMaterialBuilder().setName("Tungstensteel").setColor(Color.fromHex("536878")).build();
-tungstensteel.registerParts(["ingot"] as string[]);
 
 //HSS-E
 var hsse = MaterialSystem.getMaterialBuilder().setName("HSS-E").setColor(Color.fromHex("006400")).build();
@@ -178,27 +281,255 @@ pigiron.registerParts(["ingot"] as string[]);
 
 //SolderingAlloy
 var solderingalloy = MaterialSystem.getMaterialBuilder().setName("Soldering Alloy").setColor(Color.fromHex("ebecf0")).build();
-solderingalloy.registerParts(["ingot", "crushed_ore"] as string[]);
+solderingalloy.registerParts(["ingot"] as string[]);
 
-var blockNaquadria = naquadria.registerPart("block").getData();
-blockNaquadria.addDataValue("hardness", "5");
-blockNaquadria.addDataValue("resistance", "30");
-blockNaquadria.addDataValue("harvestTool", "pickaxe");
-blockNaquadria.addDataValue("harvestLevel", "1");
+var molteSolderingalloy = solderingalloy.registerPart("molten").getData();
+molteSolderingalloy.addDataValue("temperature", "900");
+molteSolderingalloy.addDataValue("luminosity", "10");
 
-//Enriched Naquadah
-var naquadahe = MaterialSystem.getMaterialBuilder().setName("Enriched Naquadah").setColor(Color.fromHex("09090a")).build();
-naquadahe.registerParts(["ingot"] as string[]);
+//Chalcopyrite
+var chalcoopyrite = MaterialSystem.getMaterialBuilder().setName("Chalcopyrite").setColor(Color.fromHex("964b00")).build();
+chalcoopyrite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
-var blockNaquadahe = naquadahe.registerPart("block").getData();
-blockNaquadahe.addDataValue("hardness", "5");
-blockNaquadahe.addDataValue("resistance", "30");
-blockNaquadahe.addDataValue("harvestTool", "pickaxe");
-blockNaquadahe.addDataValue("harvestLevel", "1");
+//Vermiculite
+var vermiculite = MaterialSystem.getMaterialBuilder().setName("Vermiculite").setColor(Color.fromHex("efa536")).build();
+vermiculite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
+//Cassiterite
+var cassiterite = MaterialSystem.getMaterialBuilder().setName("Cassiterite").setColor(Color.fromHex("d3d3d3")).build();
+cassiterite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Alunite
+var alunite = MaterialSystem.getMaterialBuilder().setName("Cassiterite").setColor(Color.fromHex("b5651d")).build();
+alunite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Grossular
+var grossular = MaterialSystem.getMaterialBuilder().setName("Grossular").setColor(Color.fromHex("933a16")).build();
+grossular.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Spessartine
+var spessartine = MaterialSystem.getMaterialBuilder().setName("Spessartine").setColor(Color.fromHex("933a16")).build();
+spessartine.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Pyrolusite
+var pyrolusite = MaterialSystem.getMaterialBuilder().setName("Pyrolusite").setColor(Color.fromHex("7d7098")).build();
+pyrolusite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Tantalite
+var tantalite = MaterialSystem.getMaterialBuilder().setName("Tantalite").setColor(Color.fromHex("530201")).build();
+tantalite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Redstone
+var redstone = MaterialSystem.getMaterialBuilder().setName("Redstone").setColor(Color.fromHex("dff2800")).build();
+redstone.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Ruby
+var ruby = MaterialSystem.getMaterialBuilder().setName("Ruby").setColor(Color.fromHex("e0115f")).build();
+ruby.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Cinnabar
+var cinnabar = MaterialSystem.getMaterialBuilder().setName("Cinnabar").setColor(Color.fromHex("2f0000")).build();
+cinnabar.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Kyanite
+var kyanite = MaterialSystem.getMaterialBuilder().setName("Kyanite").setColor(Color.fromHex("BF00FF")).build();
+kyanite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Mica
+var mica = MaterialSystem.getMaterialBuilder().setName("Mica").setColor(Color.fromHex("aec6cf")).build();
+mica.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Pollucite
+var pollucite = MaterialSystem.getMaterialBuilder().setName("Pollucite").setColor(Color.fromHex("cdcdcd")).build();
+pollucite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Pyrite
+var pyrite = MaterialSystem.getMaterialBuilder().setName("Pyrite").setColor(Color.fromHex("654321")).build();
+pyrite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Apatite
+var apatite = MaterialSystem.getMaterialBuilder().setName("Apatite").setColor(Color.fromHex("add8e6")).build();
+apatite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Tricalcium Phosphate
+var phosphate = MaterialSystem.getMaterialBuilder().setName("Apatite").setColor(Color.fromHex("ffcc00")).build();
+phosphate.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Pyrochlore
+var pyrochlore = MaterialSystem.getMaterialBuilder().setName("Pyrochlore").setColor(Color.fromHex("362204")).build();
+pyrochlore.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Basaltic Mineral Sand
+var basaltic = MaterialSystem.getMaterialBuilder().setName("Basaltic Mineral Sand").setColor(Color.fromHex("013220")).build();
+basaltic.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//granitic Mineral Sand
+var granitic = MaterialSystem.getMaterialBuilder().setName("Granitic Mineral Sand").setColor(Color.fromHex("002929")).build();
+granitic.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Fullers Earth
+var fullers = MaterialSystem.getMaterialBuilder().setName("Fullers Earth").setColor(Color.fromHex("002929")).build();
+fullers.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Gypsum
+var gypsum = MaterialSystem.getMaterialBuilder().setName("Gypsum").setColor(Color.fromHex("85929e")).build();
+gypsum.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Magnetite
+var magnetite = MaterialSystem.getMaterialBuilder().setName("Magnetite").setColor(Color.fromHex("010203")).build();
+magnetite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Vanadium Magnetite
+var vanadiummagnetite = MaterialSystem.getMaterialBuilder().setName("Vanadium Magnetite").setColor(Color.fromHex("071630")).build();
+vanadiummagnetite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Mixed Garnet
+var mixedgarnet = MaterialSystem.getMaterialBuilder().setName("Mixed Gem").setColor(Color.fromHex("ff5e13")).build();
+mixedgarnet.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Asbestos
+var asbestos = MaterialSystem.getMaterialBuilder().setName("Asbestos").setColor(Color.fromHex("d1d3d4")).build();
+asbestos.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Diotomite
+var diatomite = MaterialSystem.getMaterialBuilder().setName("Diatomite").setColor(Color.fromHex("d8d8d8d")).build();
+diatomite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Rock Salt
+var rsalt = MaterialSystem.getMaterialBuilder().setName("Rock Salt").setColor(Color.fromHex("cdcdcd")).build();
+rsalt.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Lepidolite
+var lepidolite = MaterialSystem.getMaterialBuilder().setName("Lepidolite").setColor(Color.fromHex("872557")).build();
+lepidolite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Spodumene
+var spodumene = MaterialSystem.getMaterialBuilder().setName("Spodumene").setColor(Color.fromHex("aca1b4")).build();
+spodumene.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Graphite
+var graphite = MaterialSystem.getMaterialBuilder().setName("Graphite").setColor(Color.fromHex("333333")).build();
+graphite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Lazurite
+var lazurite = MaterialSystem.getMaterialBuilder().setName("Lazurite").setColor(Color.fromHex("00008b")).build();
+lazurite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Sodalite
+var sodalite = MaterialSystem.getMaterialBuilder().setName("Sodalite").setColor(Color.fromHex("3300cc")).build();
+sodalite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Calcite
+var calcite = MaterialSystem.getMaterialBuilder().setName("Calcite").setColor(Color.fromHex("efe7db")).build();
+calcite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Lignite Coal
+var lignite = MaterialSystem.getMaterialBuilder().setName("Lignite Coal").setColor(Color.fromHex("3c2f23")).build();
+lignite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Dolomite
+var dolomite = MaterialSystem.getMaterialBuilder().setName("Dolomite").setColor(Color.fromHex("f2f2f2")).build();
+dolomite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Wollastonite
+var wollastonite = MaterialSystem.getMaterialBuilder().setName("Wollastonite").setColor(Color.fromHex("949494")).build();
+wollastonite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Trona
+var trona = MaterialSystem.getMaterialBuilder().setName("Trona").setColor(Color.fromHex("526b2d")).build();
+trona.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Andradite
+var andradite = MaterialSystem.getMaterialBuilder().setName("Andradite").setColor(Color.fromHex("a57600")).build();
+andradite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Soapstone
+var soapstone = MaterialSystem.getMaterialBuilder().setName("Soapstone").setColor(Color.fromHex("013200")).build();
+soapstone.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Talc
+var talc = MaterialSystem.getMaterialBuilder().setName("Talc").setColor(Color.fromHex("33a532")).build();
+talc.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Glaconite
+var glaconite = MaterialSystem.getMaterialBuilder().setName("Glauconite").setColor(Color.fromHex("cb9a49")).build();
+glaconite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Pentlandite
+var pentlandite = MaterialSystem.getMaterialBuilder().setName("Pentlandite").setColor(Color.fromHex("b28104")).build();
+pentlandite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Zeolite
+var zeolite = MaterialSystem.getMaterialBuilder().setName("Zeolite").setColor(Color.fromHex("dedede")).build();
+zeolite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Kaolinite
+var kaolinite = MaterialSystem.getMaterialBuilder().setName("Kaolinite").setColor(Color.fromHex("ececec")).build();
+kaolinite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","ore_cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+
+//Manasteel
+var manasteel = MaterialSystem.getMaterialBuilder().setName("Manasteel").setColor(Color.fromHex("0066cc")).build();
+manasteel.registerParts(["ring","plate","bolt"] as string[]);
+
+//Amber
+var amber = MaterialSystem.getMaterialBuilder().setName("Amber").setColor(Color.fromHex("fc9c24")).build();
+amber.registerParts(["gear","plate","rod"] as string[]);
+
+//Atlarus
+var atlarus = MaterialSystem.getMaterialBuilder().setName("Atlarus").setColor(Color.fromHex("ffdf00")).build();
+atlarus.registerParts(["gear","plate","rod"] as string[]);
+
+//Syrmorite
+var syrmorite = MaterialSystem.getMaterialBuilder().setName("Syrmorite").setColor(Color.fromHex("003366")).build();
+syrmorite.registerParts(["plate"] as string[]);
+
+//Valonite
+var valonite = MaterialSystem.getMaterialBuilder().setName("Valonite").setColor(Color.fromHex("eeeeee")).build();
+valonite.registerParts(["rod"] as string[]);
+
+////Oreprocessing
+var gemMap as string[string] = {
+
+	//Gems
+	"Dilithium" : "f5fafa",
+	"Quartz" : "ffffff",
+	"Charged Certus Quartz" : "e0ffff",
+	"Certus Quartz" : "c0f6fb",
+	"Black Quartz" : "000000",
+	"Diamond" : "b9f2ff",
+	"Lapis" : "0066cc",
+	"Amber" : "ffff00",
+	"Coal" : "060607",
+	"Amethyst" :  "7719aa",
+	"Emerald" : "32cd32",
+	"Jade" : "00a86b",
+	"Fluorite" : "cc8899",
+	"Goldenite Crystal" : "d4af37",
+	"Anti Gravity" : "585858",
+	"Ruby" : "e0115f",
+	"Sodalite" : "00001b",
+	"Lunar Gem" : "003366",
+	"Sapphire" : "00008b",
+	"Monazite" : "050403",
+	"Vinteum" : "6495ed"
+
+};
+
+for material, color in gemMap {
+	var part = MaterialSystem.getMaterialBuilder()
+		.setName(material)
+		.setColor(Color.fromHex(color))
+		.build();
+	part.registerPart("exquisite");
+	part.registerPart("flawless");
+	part.registerPart("flaked");
+	part.registerPart("point");	
+}
+//Microcraftingparts
 //Parts
 #Basic, Intermediate, Advanced, Elite, and Insane Parts
-var techTiers = ["basic","intermediate","advanced","elite","insane","ludicrous"] as string[];
+var techTiers = ["basic","intermediate","advanced","elite","insane","ludicrous","divine","absurd"] as string[];
 var techParts = ["piston","conveyor","motor","sensor","emitter","robotarm","valve","field_generator", "circuit", "processor"] as string[];
 
 for techTiers in techTiers {
@@ -219,6 +550,7 @@ for lastTiers in lastTiers {
     item.register();
   }
  }
+
 //FLUIDS---------------------------------------------------------
   #Diluted Sulfuric Acid
 var sulfuricAcidDiluted = mods.contenttweaker.VanillaFactory.createFluid("diluted_sulfuric_acid", Color.fromHex("aaaa55"));
@@ -246,6 +578,13 @@ teflon.density = 10000;
 teflon.viscosity = 10000;
 teflon.temperature = 1000;
 teflon.register();
+
+#Mutagen
+var mutagen = mods.contenttweaker.VanillaFactory.createFluid("Mutagen", Color.fromHex("cc8899"));
+mutagen.density = 10000;
+mutagen.viscosity = 10000;
+mutagen.temperature = 1000;
+mutagen.register();
 
   #Sulfuric Diesel
 var sulfuricDiesel = mods.contenttweaker.VanillaFactory.createFluid("sulfuric_diesel", Color.fromHex("D1C28F"));
@@ -286,7 +625,7 @@ eyegoop.temperature = 671;
 eyegoop.register();
 
   #Rubber
-var new_rubber = mods.contenttweaker.VanillaFactory.createFluid("new_ rubber", Color.fromHex("1776664"));
+var new_rubber = mods.contenttweaker.VanillaFactory.createFluid("new_rubber", Color.fromHex("1776664"));
 new_rubber.density = 10000;
 new_rubber.viscosity = 10000;
 new_rubber.temperature = 300;
@@ -313,565 +652,19 @@ chlorine.viscosity = 10000;
 chlorine.temperature = 300;
 chlorine.register();
 
-//ITEMS
+
+
+//ITEMS-----------------------------
 #Carbonfirbres
 var carbonFibres as Item = VanillaFactory.createItem("carbon_fibres");
 carbonFibres.register();
-/*
 
-// Defense Essence
-var DefenseEssence as Item = VanillaFactory.createItem("defenseessence");
-DefenseEssence.register();
+#Quarry Rat
+var quarryRat as Item = VanillaFactory.createItem("quarryrat");
+quarryRat.register();
 
-// Molten Zarassium
-var moltenZarassium as Item = VanillaFactory.createItem("molten_zarassium");
-moltenZarassium.register();
+#Digital Miner Rat
+var digitalMinerRat as Item = VanillaFactory.createItem("dmrat");
+digitalMinerRat.register();
 
-// Plateless Molten Zarassium
-var platelessmoltenZarassium as Item = VanillaFactory.createItem("platelessmolten_zarassium");
-platelessmoltenZarassium.register();
 
-// Zarassium
-var zarassium as Item = VanillaFactory.createItem("zarassium");
-zarassium.register();
-
-// Chassis Plate
-var chassisPlate as Item = VanillaFactory.createItem("chassis_plate");
-chassisPlate.register();
-
-// Mega Compressed Capacitor
-var megacompressedCapacitor as Item = VanillaFactory.createItem("megacompressed_capacitor");
-megacompressedCapacitor.register();
-
-// Ultimate Compressed Capacitor
-var ultimatecompressedCapacitor as Item = VanillaFactory.createItem("ultimatecompressed_capacitor");
-ultimatecompressedCapacitor.register();
-
-// Fire Gem
-var fireGem as Item = VanillaFactory.createItem("fire_gem");
-fireGem.register();
-
-// Condensed Netherite Block
-var condensednetheriteBlock = VanillaFactory.createBlock("condensednetherite_block", <blockmaterial:rock>);
-condensednetheriteBlock.setBlockHardness(8.0);
-condensednetheriteBlock.setBlockResistance(3.0);
-condensednetheriteBlock.setToolClass("pickaxe");
-condensednetheriteBlock.setToolLevel(1);
-condensednetheriteBlock.setBlockSoundType(<soundtype:stone>);
-condensednetheriteBlock.register();
-
-// Storage Singularity 
-var storageSingularity = VanillaFactory.createBlock("storage_singularity", <blockmaterial:rock>);
-storageSingularity.setBlockHardness(3.5);
-storageSingularity.setBlockResistance(3.0);
-storageSingularity.setToolClass("pickaxe");
-storageSingularity.setToolLevel(2);
-storageSingularity.setBlockSoundType(<soundtype:stone>);
-storageSingularity.register();
-
-// Elysian Ingot
-var elysianIngot as Item = VanillaFactory.createItem("elysian_ingot");
-elysianIngot.register();
-
-// Asmeysium
-var asmeysium as Item = VanillaFactory.createItem("asmeysium");
-asmeysium.register();
-
-// Empty Base
-var emptyBase as Item = VanillaFactory.createItem("empty_base");
-emptyBase.register();
-
-// Simple Stimulant
-var simpleStimulant as Item = VanillaFactory.createItem("simple_stimulant");
-simpleStimulant.register();
-
-// Vitriol
-var vitriol as Item = VanillaFactory.createItem("vitriol");
-vitriol.register();
-
-// Aquis
-var aquis as Item = VanillaFactory.createItem("aquis");
-aquis.register();
-
-// Block of Blood
-var blockofBlood = VanillaFactory.createBlock("blockof_blood", <blockmaterial:rock>);
-blockofBlood.setBlockHardness(4.0);
-blockofBlood.setBlockResistance(3.0);
-blockofBlood.setToolClass("pickaxe");
-blockofBlood.setToolLevel(1);
-blockofBlood.setBlockSoundType(<soundtype:stone>);
-blockofBlood.register();
-
-// Projectile Base
-var projectileBase as Item = VanillaFactory.createItem("projectile_base");
-projectileBase.register();
-
-// Warm Blood
-var warmBlood as Item = VanillaFactory.createItem("warm_blood");
-warmBlood.register();
-
-// Empty Socket
-var emptySocket = VanillaFactory.createBlock("empty_socket", <blockmaterial:rock>);
-emptySocket.setBlockHardness(4.0);
-emptySocket.setBlockResistance(3.0);
-emptySocket.setToolClass("pickaxe");
-emptySocket.setToolLevel(1);
-emptySocket.setBlockSoundType(<soundtype:stone>);
-emptySocket.register();
-
-// Ambustio
-var ambustio as Item = VanillaFactory.createItem("ambustio");
-ambustio.register();
-
-// Fire Base
-var fireBase as Item = VanillaFactory.createItem("fire_base");
-fireBase.register();
-
-// Glacialis
-var glacialis as Item = VanillaFactory.createItem("glacialis");
-glacialis.register();
-
-// Icy Base
-var icyBase as Item = VanillaFactory.createItem("icy_base");
-icyBase.register();
-
-// Blood Filled Socket
-var bloodfilledSocket = VanillaFactory.createBlock("bloodfilled_socket", <blockmaterial:rock>);
-bloodfilledSocket.setBlockHardness(4.0);
-bloodfilledSocket.setBlockResistance(3.0);
-bloodfilledSocket.setToolClass("pickaxe");
-bloodfilledSocket.setToolLevel(1);
-bloodfilledSocket.setBlockSoundType(<soundtype:stone>);
-bloodfilledSocket.register();
-
-// Carbo
-var carbo as Item = VanillaFactory.createItem("carbo");
-carbo.register();
-
-// Advanced Stimulant
-var advancedStimulant as Item = VanillaFactory.createItem("advanced_stimulant");
-advancedStimulant.register();
-
-// Demon Gem
-var demonGem as Item = VanillaFactory.createItem("demon_gem");
-demonGem.register();
-
-// Defensio
-var defensio as Item = VanillaFactory.createItem("defensio");
-defensio.register();
-
-// Defensive Base
-var defensiveBase as Item = VanillaFactory.createItem("defensive_base");
-defensiveBase.register();
-
-// Offensio
-var offensio as Item = VanillaFactory.createItem("offensio");
-offensio.register();
-
-// Solis
-var solis as Item = VanillaFactory.createItem("solis");
-solis.register();
-
-// Sunny Base
-var sunnyBase as Item = VanillaFactory.createItem("sunny_base");
-sunnyBase.register();
-
-// Aeris
-var aeris as Item = VanillaFactory.createItem("aeris");
-aeris.register();
-
-// Windy Base
-var windyBase as Item = VanillaFactory.createItem("windy_base");
-windyBase.register();
-
-// Deductio
-var deductio as Item = VanillaFactory.createItem("deductio");
-deductio.register();
-
-// Heart Soup
-var heartSoup as Item = VanillaFactory.createItem("heart_soup");
-heartSoup.register();
-
-// Infused Heart Soup
-var infusedheartSoup as Item = VanillaFactory.createItem("infusedheart_soup");
-infusedheartSoup.register();
-
-// Condensed Bloodgem Block
-var condensedbloodgemBlock = VanillaFactory.createBlock("condensedbloodgem_block", <blockmaterial:rock>);
-condensedbloodgemBlock.setBlockHardness(8.0);
-condensedbloodgemBlock.setBlockResistance(3.0);
-condensedbloodgemBlock.setToolClass("pickaxe");
-condensedbloodgemBlock.setToolLevel(1);
-condensedbloodgemBlock.setBlockSoundType(<soundtype:stone>);
-condensedbloodgemBlock.register();
-
-// Ultimate Condensed Bloodgem Block
-var ultimatecondensedbloodgemBlock = VanillaFactory.createBlock("ultimatecondensedbloodgem_block", <blockmaterial:rock>);
-ultimatecondensedbloodgemBlock.setBlockHardness(12.0);
-ultimatecondensedbloodgemBlock.setBlockResistance(4.0);
-ultimatecondensedbloodgemBlock.setToolClass("pickaxe");
-ultimatecondensedbloodgemBlock.setToolLevel(1);
-ultimatecondensedbloodgemBlock.setBlockSoundType(<soundtype:stone>);
-ultimatecondensedbloodgemBlock.register();
-
-// Compressed Obsidian
-var compressedObsidian = VanillaFactory.createBlock("compressed_obsidian", <blockmaterial:rock>);
-compressedObsidian.setBlockHardness(50.0);
-compressedObsidian.setBlockResistance(1500.0);
-compressedObsidian.setToolClass("pickaxe");
-compressedObsidian.setToolLevel(3);
-compressedObsidian.setBlockSoundType(<soundtype:stone>);
-compressedObsidian.register();
-
-// Double Compressed Obsidian
-var doublecompressedObsidian = VanillaFactory.createBlock("doublecompressed_obsidian", <blockmaterial:rock>);
-doublecompressedObsidian.setBlockHardness(60.0);
-doublecompressedObsidian.setBlockResistance(1500.0);
-doublecompressedObsidian.setToolClass("pickaxe");
-doublecompressedObsidian.setToolLevel(3);
-doublecompressedObsidian.setBlockSoundType(<soundtype:stone>);
-doublecompressedObsidian.register();
-
-// Triple Compressed Obsidian 
-var triplecompressedObsidian = VanillaFactory.createBlock("triplecompressed_obsidian", <blockmaterial:rock>);
-triplecompressedObsidian.setBlockHardness(70.0);
-triplecompressedObsidian.setBlockResistance(2000.0);
-triplecompressedObsidian.setToolClass("pickaxe");
-triplecompressedObsidian.setToolLevel(3);
-triplecompressedObsidian.setBlockSoundType(<soundtype:stone>);
-triplecompressedObsidian.register();
-
-// Quadruple Compressed Obsidian
-var quadruplecompressedObsidian = VanillaFactory.createBlock("quadruplecompressed_obsidian", <blockmaterial:rock>);
-quadruplecompressedObsidian.setBlockHardness(85.0);
-quadruplecompressedObsidian.setBlockResistance(2500.0);
-quadruplecompressedObsidian.setToolClass("pickaxe");
-quadruplecompressedObsidian.setToolLevel(3);
-quadruplecompressedObsidian.setBlockSoundType(<soundtype:stone>);
-quadruplecompressedObsidian.register();
-
-// Blood Tear
-var soulTear as Item = VanillaFactory.createItem("soul_tear");
-soulTear.register();
-
-// Water Gem
-var waterGem as Item = VanillaFactory.createItem("water_gem");
-waterGem.register();
-
-// Frozen Block
-var frozenBlock = VanillaFactory.createBlock("frozen_block", <blockmaterial:rock>);
-frozenBlock.setBlockHardness(1.0);
-frozenBlock.setBlockResistance(1.0);
-frozenBlock.setToolClass("pickaxe");
-frozenBlock.setToolLevel(3);
-frozenBlock.setBlockSoundType(<soundtype:stone>);
-frozenBlock.register();
-
-// Air Gem
-var airGem as Item = VanillaFactory.createItem("air_gem");
-airGem.register();
-
-// Sunglasses
-var sunglasses as Item = VanillaFactory.createItem("sunglasses");
-sunglasses.register();
-
-// Potestas
-var potestas as Item = VanillaFactory.createItem("potestas");
-potestas.register();
-
-// Power Base
-var powerBase as Item = VanillaFactory.createItem("power_base");
-powerBase.register();
-
-// Molybdenum
-var molybdenum as Item = VanillaFactory.createItem("molybdenum");
-molybdenum.register();
-
-// Mass Supremium Essence Block
-var masssupremiumessenceBlock = VanillaFactory.createBlock("masssupremiumessence_block", <blockmaterial:rock>);
-masssupremiumessenceBlock.setBlockHardness(4.0);
-masssupremiumessenceBlock.setBlockResistance(3.0);
-masssupremiumessenceBlock.setToolClass("pickaxe");
-masssupremiumessenceBlock.setToolLevel(1);
-masssupremiumessenceBlock.setBlockSoundType(<soundtype:stone>);
-masssupremiumessenceBlock.register();
-
-// Carved Void Stone
-var carvedvoidStone = VanillaFactory.createBlock("carvedvoid_stone", <blockmaterial:rock>);
-carvedvoidStone.setBlockHardness(4.0);
-carvedvoidStone.setBlockResistance(3.0);
-carvedvoidStone.setToolClass("pickaxe");
-carvedvoidStone.setToolLevel(1);
-carvedvoidStone.setBlockSoundType(<soundtype:stone>);
-carvedvoidStone.register();
-
-// Base Data Model
-var dataModel as Item = VanillaFactory.createItem("base_datamodel");
-dataModel.register();
-
-// Corrupted Awakened Draconium
-var corruptedawakenedDraconium = VanillaFactory.createItem("corruptedawakened_draconium");
-corruptedawakenedDraconium.register();
-
-// Ball of Silicon
-var ballofSilicon = VanillaFactory.createItem("ballof_silicon");
-ballofSilicon.register();
-
-// Saxum
-var saxum = VanillaFactory.createItem("saxum");
-saxum.register();
-
-// Terrestris
-var terrestris = VanillaFactory.createItem("terrestris");
-terrestris.register();
-
-// Earthern Base
-var earthernBase = VanillaFactory.createItem("earthern_base");
-earthernBase.register();
-
-// Tool Base
-var toolBase = VanillaFactory.createItem("tool_base");
-toolBase.register();
-
-// Fluorite Stone
-var fluoriteStone = VanillaFactory.createItem("fluorite_stone");
-fluoriteStone.register();
-
-// Adroysium 
-var adroysium = VanillaFactory.createItem("adroysium");
-adroysium.register();
-
-// Adroysium Bulb
-var adroysiumBulb = VanillaFactory.createItem("adroysium_bulb");
-adroysiumBulb.register();
-
-// Adroysium Nugget
-var adroysiumNugget = VanillaFactory.createItem("adroysium_nugget");
-adroysiumNugget.register();
-
-// Compressed Zarassium
-var compressedZarassium = VanillaFactory.createItem("compressed_zarassium");
-compressedZarassium.register();
-
-// Adroysium Ingot
-var adroysiumIngot = VanillaFactory.createItem("adroysium_ingot");
-adroysiumIngot.register();
-
-// Zarassium Chain
-var zarassiumChain = VanillaFactory.createItem("zarassium_chain");
-zarassiumChain.register();
-
-// Zarassium Binder
-var zarassiumBinder = VanillaFactory.createItem("zarassium_binder");
-zarassiumBinder.register();
-
-// Zombie Register
-var zombieDatamodel as Item = VanillaFactory.createItem("zombie_datamodel");
-zombieDatamodel.register();
-var zombieOrb as Item = VanillaFactory.createItem("zombie_orb");
-zombieOrb.register();
-var zombieData as Item = VanillaFactory.createItem("zombie_data");
-zombieData.register();
-var zombieShard as Item = VanillaFactory.createItem("zombieshard");
-zombieShard.register();
-var zombieDNA as Item = VanillaFactory.createItem("zombie_dna");
-zombieDNA.register();
-var zombieSuper as Item = VanillaFactory.createItem("red_zombie");
-zombieSuper.register();
-
-// Skeleton Register
-var skeletonDatamodel as Item = VanillaFactory.createItem("skeleton_datamodel");
-skeletonDatamodel.register();
-var skeletonOrb as Item = VanillaFactory.createItem("skeleton_orb");
-skeletonOrb.register();
-var skeletonData as Item = VanillaFactory.createItem("skeleton_data");
-skeletonData.register();
-var skeletonShard as Item = VanillaFactory.createItem("skeletonshard");
-skeletonShard.register();
-var skeletonDNA as Item = VanillaFactory.createItem("skeleton_dna");
-skeletonDNA.register();
-var skeletonSuper as Item = VanillaFactory.createItem("red_skeleton");
-skeletonSuper.register();
-
-// Elven Frostfire
-var elvenFrostfire = VanillaFactory.createItem("elven_frostfire");
-elvenFrostfire.register();
-
-// Arcane Adroysium 
-var arcaneAdroysium = VanillaFactory.createItem("arcane_adroysium");
-arcaneAdroysium.register();
-
-// Earth Gem
-var earthGem = VanillaFactory.createItem("earth_gem");
-earthGem.register();
-
-// Earth Gem Block
-var earthgemBlock = VanillaFactory.createBlock("earthgem_block", <blockmaterial:rock>);
-earthgemBlock.setBlockHardness(4.0);
-earthgemBlock.setBlockResistance(3.0);
-earthgemBlock.setToolClass("pickaxe");
-earthgemBlock.setToolLevel(2);
-earthgemBlock.setBlockSoundType(<soundtype:stone>);
-earthgemBlock.register();
-
-// Fire Gem Block
-var firegemBlock = VanillaFactory.createBlock("firegem_block", <blockmaterial:rock>);
-firegemBlock.setBlockHardness(4.0);
-firegemBlock.setBlockResistance(3.0);
-firegemBlock.setToolClass("pickaxe");
-firegemBlock.setToolLevel(2);
-firegemBlock.setBlockSoundType(<soundtype:stone>);
-firegemBlock.register();
-
-// Water Gem Block
-var watergemBlock = VanillaFactory.createBlock("watergem_block", <blockmaterial:rock>);
-watergemBlock.setBlockHardness(4.0);
-watergemBlock.setBlockResistance(3.0);
-watergemBlock.setToolClass("pickaxe");
-watergemBlock.setToolLevel(2);
-watergemBlock.setBlockSoundType(<soundtype:stone>);
-watergemBlock.register();
-
-// Air Gem Block
-var airrgemBlock = VanillaFactory.createBlock("airgem_block", <blockmaterial:rock>);
-airrgemBlock.setBlockHardness(4.0);
-airrgemBlock.setBlockResistance(3.0);
-airrgemBlock.setToolClass("pickaxe");
-airrgemBlock.setToolLevel(2);
-airrgemBlock.setBlockSoundType(<soundtype:stone>);
-airrgemBlock.register();
-
-// Ceremonial Blood Orb
-var ceremonialbloodOrb = VanillaFactory.createItem("ceremonial_bloodorb");
-ceremonialbloodOrb.register();
-
-// Elysian Block
-var elysianBlock = VanillaFactory.createBlock("elysian_block", <blockmaterial:rock>);
-elysianBlock.setBlockHardness(4.0);
-elysianBlock.setBlockResistance(3.0);
-elysianBlock.setToolClass("pickaxe");
-elysianBlock.setToolLevel(2);
-elysianBlock.setBlockSoundType(<soundtype:stone>);
-elysianBlock.register();
-
-// Adroysium Glass
-var adroysiumGlass = VanillaFactory.createBlock("adroysium_glass", <blockmaterial:glass>);
-adroysiumGlass.setBlockHardness(0.5);
-adroysiumGlass.setBlockResistance(1.5);
-adroysiumGlass.setToolClass("pickaxe");
-adroysiumGlass.setToolLevel(1);
-adroysiumGlass.setBlockSoundType(<soundtype:glass>);
-adroysiumGlass.register();
-
-// Cold Iron Glass
-var coldironGlass = VanillaFactory.createBlock("coldiron_glass", <blockmaterial:glass>);
-coldironGlass.setBlockHardness(0.5);
-coldironGlass.setBlockResistance(1.5);
-coldironGlass.setToolClass("pickaxe");
-coldironGlass.setToolLevel(1);
-coldironGlass.setBlockSoundType(<soundtype:glass>);
-coldironGlass.register();
-
-// Draconium Glass
-var draconiumGlass = VanillaFactory.createBlock("draconium_glass", <blockmaterial:glass>);
-draconiumGlass.setBlockHardness(0.5);
-draconiumGlass.setBlockResistance(1.5);
-draconiumGlass.setToolClass("pickaxe");
-draconiumGlass.setToolLevel(1);
-draconiumGlass.setBlockSoundType(<soundtype:glass>);
-draconiumGlass.register();
-
-// Elysian Glass
-var elysianGlass = VanillaFactory.createBlock("elysian_glass", <blockmaterial:glass>);
-elysianGlass.setBlockHardness(0.5);
-elysianGlass.setBlockResistance(1.5);
-elysianGlass.setToolClass("pickaxe");
-elysianGlass.setToolLevel(1);
-elysianGlass.setBlockSoundType(<soundtype:glass>);
-elysianGlass.register();
-
-// Rainbow Glass
-var rainbowGlass = VanillaFactory.createBlock("rainbow_glass", <blockmaterial:glass>);
-rainbowGlass.setBlockHardness(0.5);
-rainbowGlass.setBlockResistance(1.5);
-rainbowGlass.setToolClass("pickaxe");
-rainbowGlass.setToolLevel(1);
-rainbowGlass.setBlockSoundType(<soundtype:glass>);
-rainbowGlass.register();
-
-// Adroysium Block
-var adroysiumBlock = VanillaFactory.createBlock("adroysium_block", <blockmaterial:rock>);
-adroysiumBlock.setBlockHardness(4.0);
-adroysiumBlock.setBlockResistance(3.0);
-adroysiumBlock.setToolClass("pickaxe");
-adroysiumBlock.setToolLevel(2);
-adroysiumBlock.setBlockSoundType(<soundtype:stone>);
-adroysiumBlock.register();
-
-// Everlasting Stone
-var everlastingStone = VanillaFactory.createBlock("everlasting_stone", <blockmaterial:rock>);
-everlastingStone.setBlockHardness(150.0);
-everlastingStone.setBlockResistance(5000.0);
-everlastingStone.setToolClass("pickaxe");
-everlastingStone.setToolLevel(4);
-everlastingStone.setBlockSoundType(<soundtype:stone>);
-everlastingStone.register();
-
-// Ender Silicon
-var enderSilicon = VanillaFactory.createItem("ender_silicon");
-enderSilicon.register();
-
-// Adroysium Robe
-var adroysiumRobe = VanillaFactory.createItem("adroysium_robe");
-adroysiumRobe.register();
-
-// Adroysium Boots
-var adroysiumBoots = VanillaFactory.createItem("adroysium_boots");
-adroysiumBoots.register();
-
-// Adroysium Leggings 
-var adroysiumLeggings = VanillaFactory.createItem("adroysium_leggings");
-adroysiumLeggings.register();
-
-// Ultimate Condensed Netherite Block
-var ultimatecondensednetheriteBlock = VanillaFactory.createBlock("ultimatecondensednetherite_block", <blockmaterial:rock>);
-ultimatecondensednetheriteBlock.setBlockHardness(12.0);
-ultimatecondensednetheriteBlock.setBlockResistance(4.0);
-ultimatecondensednetheriteBlock.setToolClass("pickaxe");
-ultimatecondensednetheriteBlock.setToolLevel(1);
-ultimatecondensednetheriteBlock.setBlockSoundType(<soundtype:stone>);
-ultimatecondensednetheriteBlock.register();
-
-// Dried Sponge
-var driedSponge = VanillaFactory.createBlock("dried_sponge", <blockmaterial:rock>);
-driedSponge.setBlockHardness(1.0);
-driedSponge.setBlockResistance(1.0);
-driedSponge.setToolClass("pickaxe");
-driedSponge.setToolLevel(1);
-driedSponge.setBlockSoundType(<soundtype:plant>);
-driedSponge.register();
-
-// Bewitched Leather
-var bewitchedLeather = VanillaFactory.createItem("bewitched_leather");
-bewitchedLeather.register();
-
-// Death Base
-var deathBase = VanillaFactory.createItem("death_base");
-deathBase.register();
-
-// Corrupted Base
-var corruptedBase = VanillaFactory.createItem("corrupted_base");
-corruptedBase.register();
-
-// Ultimate Nether Star
-var ultimatenetherStar = VanillaFactory.createItem("ultimatenether_star");
-ultimatenetherStar.register();
-
-// Adroysium Sword
-var adroysiumSword = VanillaFactory.createItem("adroysium_sword");
-adroysiumSword.register();
-
-// Adroysium Axe
-var adroysiumAxe = VanillaFactory.createItem("adroysium_axe");
-adroysiumAxe.register();
-*/

@@ -1,33 +1,34 @@
 {
 	"ores": [{
 			"blocks": [
-				"minecraft:coal_ore",
-				75,
-				"metallurgy:phosphorite_ore",
-				25
+				"thaumcraft:ore_quartz",
+				50,
+				"appliedenergistics2:quartz_ore",
+				40,
+				"appliedenergistics2:charged_quartz_ore",
+				10
 			],
 			"samples": [
-				"botania:mushroom:5",
+				"botania:mushroom",
 				100
 			],
 			"yMin": 30,
 			"yMax": 60,
 			"chance": 6,
 			"size":150,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		},
 		{
 			"blocks": [
+				"contenttweaker:tetrahedrite_block",
+				40,
+				"contenttweaker:stibnite_block",
+				35,
 				"metallurgy:copper_ore",
-				75,
-				"metallurgy:potash_ore",
-				20,
-				"metallurgy:carmot_ore",
-				5
+				25
 			],
 			"samples": [
 				"botania:mushroom:1",
@@ -45,11 +46,15 @@
 		},
 		{
 			"blocks": [
-				"metallurgy:silver_ore",
-				45,
-				"nuclearcraft:ore:2",
-				45,
-				"aoa3:amethyst_ore",
+				"contenttweaker:chalcopyrite_block",
+				30,
+				"contenttweaker:malachite_block",
+				25,
+				"metallurgy:copper_ore",
+				20,
+				"contenttweaker:pyrite_block",
+				20,
+				"minecraft:iron_ore",
 				10
 			],
 			"samples": [
@@ -69,7 +74,9 @@
 		{
 			"blocks": [
 				"minecraft:coal_ore",
-				90,
+				70,
+				"contenttweaker:graphite_block",
+				20,
 				"minecraft:diamond_ore",
 				10
 			],
@@ -114,14 +121,60 @@
 		},
 		{
 			"blocks": [
+				"contenttweaker:beryllium_block",
+				60,
+				"minecraft:emerald_ore",
+				25,
+				"aoa3:jade_ore",
+				15
+			],
+			"samples": [
+				"botania:mushroom:5",
+				100
+			],
+			"yMin": 32,
+			"yMax": 60,
+			"chance": 5,
+			"size": 90,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"metallurgy:tin_ore",
+				50,
+				"contenttweaker:cassiterite_block",
+				40,				
+				"aoa3:amethyst_ore",
+				10
+			],
+			"samples": [
+				"botania:mushroom:6",
+				100
+			],
+			"yMin": 32,
+			"yMax": 60,
+			"chance": 5,
+			"size": 90,
+			"dimBlacklist": [
+				-1,
+				1
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"contenttweaker:magnetite_block",
+				50,
+				"contenttweaker:vanadiummagnetite_block",
+				20,
 				"minecraft:iron_ore",
-				65,
+				20,
 				"minecraft:gold_ore",
-				15,
-				"immersiveengineering:ore:4",
-				15,
-				"aoa3:limonite_ore",
-				5
+				10
 			],
 			"samples": [
 				"botania:mushroom:7",
@@ -139,9 +192,13 @@
 		},
 		{
 			"blocks": [
-				"metallurgy:tin_ore",
-				85,
-				"metallurgy:manganese_ore",
+				"contenttweaker:spodumene_block",
+				15,
+				"immersiveintelligence:ore:3",
+				50,
+				"contenttweaker:lepidolite_block",
+				20,
+				"metallurgy:potash_ore",
 				15
 			],
 			"samples": [
@@ -160,15 +217,17 @@
 		},
 				{
 			"blocks": [
-				"nuclearcraft:ore:6",
-				45,
-				"nuclearcraft:ore:7",
-				45,
-				"nuclearcraft:ore:5",
-				10
+				"embers:ore_nickel",
+				35,
+				"contenttweaker:cobaltite_block",
+				20,
+				"contenttweaker:garnierite_block",
+				25,
+				"contenttweaker:pentlandite_block",
+				25
 			],
 			"samples": [
-				"botania:mushroom:6",
+				"botania:mushroom:9",
 				100
 			],
 			"yMin": 32,
@@ -183,15 +242,15 @@
 		},
 		{
 			"blocks": [
-				"minecraft:lapis_ore",
-				75,
-				"metallurgy:infuscolium_ore",
-				10,
-				"aoa3:sapphire_ore",
-				15
+				"contenttweaker:galena_block",
+				40,
+				"embers:ore_lead",
+				35,
+				"metallurgy:silver_ore",
+				25
 			],
 			"samples": [
-				"botania:mushroom:11",
+				"botania:mushroom:10",
 				100
 			],
 			"yMin": 6,
@@ -206,15 +265,17 @@
 		},
 		{
 			"blocks": [
-				"metallurgy:oureclase_ore",
-				49,
-				"metallurgy:orichalcum_ore",
-				49,
-				"metallurgy:adamantine_ore",
-				2
+				"minecraft:lapis_ore",
+				40,
+				"contenttweaker:sodalite_block",
+				25,
+				"aoa3:sapphire_ore",
+				15,
+				"contenttweaker:calcite_block",
+				20
 			],
 			"samples": [
-				"botania:mushroom:12",
+				"botania:mushroom:11",
 				40
 			],
 			"yMin": 12,
@@ -229,17 +290,13 @@
 		},
 		{
 			"blocks": [
-				"nuclearcraft:ore:4",
-				60,
-				"nuclearcraft:ore:3",
-				30,
-				"minecraft:emerald_ore",
-				5,
-				"aoa3:jade_ore",
-				5
+				"metallurgy:oureclase_ore",
+				55
+				"metallurgy:orichalcum_ore",
+				45
 			],
 			"samples": [
-				"botania:mushroom:13",
+				"botania:mushroom:12",
 				100
 			],
 			"yMin": 3,
@@ -252,7 +309,6 @@
 			],
 			"density": 1.0,
 			"biomes": [
-       "nuclearcraft:nuclear_wasteland"
 			],
 			"isWhitelist": true
 		},
@@ -262,10 +318,8 @@
 				70,
 				"thaumcraft:ore_cinnabar",
 				15,
-				"aoa3:rosite_ore",
-				10,
-				"metallurgy:rubracium_ore",
-				5
+				"contenttweaker:ruby_block",
+				15
 			],
 			"samples": [
 				"botania:mushroom:14",
@@ -283,15 +337,17 @@
 		},
 		{
 			"blocks": [
-				"thaumcraft:ore_quartz",
-				60,
-				"appliedenergistics2:quartz_ore",
+				"contenttweaker:soapstone_block",
 				30,
-				"appliedenergistics2:charged_quartz_ore",
-				10
+				"contenttweaker:talc_block",
+				20,
+				"contenttweaker:glauconite_block",
+				25,
+				"contenttweaker:pentlandite_block",
+				25
 			],
 			"samples": [
-				"botania:mushroom",
+				"botania:mushroom:13",
 				100
 			],
 			"yMin": 16,
@@ -306,12 +362,10 @@
 		},
 				{
 			"blocks": [
+				"minecraft:coal_ore",
+				70,
 				"actuallyadditions:block_misc:3",
-				60,
-				"aoa3:runium_ore",
-				30,
-				"aoa3:charged_runium_ore",
-				10
+				30
 			],
 			"samples": [
 				"botania:mushroom:15",

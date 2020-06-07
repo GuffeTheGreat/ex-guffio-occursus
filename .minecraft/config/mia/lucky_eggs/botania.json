@@ -1,0 +1,310 @@
+{
+  "modCanAutomaticallyReplaceConfig": true,
+  "configVersion": 0,
+  "loot": [
+    {
+      "itemID": "botania:petal",
+      "metaID": 0,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 1,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 2,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 3,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 4,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 5,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 6,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 7,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 8,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 9,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 10,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 11,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 12,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 13,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 14,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:petal",
+      "metaID": 15,
+      "weight": 2,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 2
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 0,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 1,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 2,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 3,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 4,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 5,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 6,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 7,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 8,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 9,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 10,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 11,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 12,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 13,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 14,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:rune",
+      "metaID": 15,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 4,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:recordgaia1",
+      "metaID": 0,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 1,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:recordgaia2",
+      "metaID": 0,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 1,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:enchantedsoil",
+      "metaID": 0,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 1,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:manaresource",
+      "metaID": 0,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 1,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:manaresource",
+      "metaID": 1,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 1,
+      "field_76292_a": 1
+    },
+    {
+      "itemID": "botania:manaresource",
+      "metaID": 2,
+      "weight": 1,
+      "minQty": 1,
+      "maxQty": 1,
+      "field_76292_a": 1
+    }
+  ]
+}

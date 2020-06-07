@@ -37,23 +37,7 @@ game.setLocalization("fluid.rubber", "Sap");
 <enderio:item_endergy_conduit:2>.displayName = "Zircaloy Conduit";
 <enderio:item_endergy_conduit:5>.displayName = "NIB Conduit";
 <enderio:item_endergy_conduit:7>.displayName = "Oganesson Conduit";
-/*
-//TieredStuff
-<prodigytech:circuit_crude>.displayName = "Basic Circuit";
-<rockhounding_chemistry:misc_items:1>.displayName = "Intermediate Circuit";
-<pneumaticcraft:printed_circuit_board>.displayName = "Advanced Circuit";
-<appliedenergistics2:material:18>.displayName = "Elite Circuit";
-<appliedenergistics2:material:16>.displayName = "Insane Circuit";
-<appliedenergistics2:material:17>.displayName = "Ludicrous Circuit";
-<avaritia:resource>.displayName = "Transcendent Circuit";
-<prodigytech:circuit_refined>.displayName = "Basic Processor";
-<rockhounding_chemistry:misc_items:10>.displayName = "Intermediate Processor";
-<immersiveengineering:material:27>.displayName = "Advanced Processor";
-<appliedenergistics2:material:22>.displayName = "Elite Processor";
-<appliedenergistics2:material:23>.displayName = "Insane Processor";
-<appliedenergistics2:material:24>.displayName = "Ludicrous Processor";
-<bassebombecraft:saturationidolinventoryitem>.displayName = "Transcendent Processor";
-*/
+
 <actuallyadditions:block_misc:9>.displayName = "Basic Casing";
 <rftools:machine_frame>.displayName = "Intermediate Casing";
 <nuclearcraft:part:11>.displayName = "Advanced Casing";
@@ -68,6 +52,7 @@ game.setLocalization("fluid.rubber", "Sap");
 <extendedcrafting:material:32>.displayName = "Guffio Ingot";
 <extendedcrafting:material:33>.displayName = "Guffio Nugget";
 <extendedcrafting:singularity_ultimate>.displayName = "Guffio Catalyst";
+/*
 <jaopca:item_dustultimate>.displayName = "Guffio Dust";
 <jaopca:item_coinultimate>.displayName = "Guffio Coin";
 <jaopca:item_gearultimate>.displayName = "Guffio Gear";
@@ -76,9 +61,20 @@ game.setLocalization("fluid.rubber", "Sap");
 <jaopca:item_dusttinyultimate>.displayName = "Tiny Pile of Guffio Dust";
 <jaopca:item_stickultimate>.displayName = "Small Pile of Guffio Dust";
 <jaopca:item_plateultimate>.displayName = "Dense Guffio Plate";
-
+*/
+//CharcoalRelatedThings
+//WoodStacks
 <primal:logs_stacked:2>.displayName = "Poor Grade Log Stack";
 <primal:logs_stacked>.displayName = "Fair Grade Log Stack";
 <primal:logs_stacked:1>.displayName = "Good Grade Log Stack";
 <primal:logs_stacked_corypha>.displayName = "High Grade Log Stack";
 <primal:logs_stacked:5>.displayName = "Pure Carbon Log Stack";
+
+//Charcoal
+<primal:logs_stacked:2>.displayName = "Poor Grade Charcoal";
+//CharcoalBLocks
+<minecraft:coal:1>.displayName = "Poor Grade Charcoal Block";
+<chisel:block_charcoal2:1>.displayName = "Fair Grade Charcoal Block";
+<pyrotech:charcoal_block>.displayName = "Good Grade Charcoal Block";
+<metallurgy:charcoal_block>.displayName = "High Grade Charcoal Block";
+<rockhounding_chemistry:misc_blocks_a:11>.displayName = "Pure Carbon Block";

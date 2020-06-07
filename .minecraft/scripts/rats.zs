@@ -12,7 +12,7 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_basic_shaped2", <rats:rat_up
 	[<rats:rat_diamond>, <rats:cheese>, <rats:rat_diamond>]
 ]);
 
-
+/*
 //RatGem
 recipes.remove(<rats:gem_of_ratlantis>);
 recipes.addShapedMirrored("1x_item_rats_gem_of_ratlantis_shaped", <rats:gem_of_ratlantis>, [
@@ -21,19 +21,19 @@ recipes.addShapedMirrored("1x_item_rats_gem_of_ratlantis_shaped", <rats:gem_of_r
 	[<rats:rat_diamond>, <rats:ratglove_petals>, <rats:rat_diamond>]
 ]);
 
-
-
-
-
 //RemovedUpgrades
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_farmer>);
 mods.jei.JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
+
 //RatUpgrades
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.addChefRatRecipe(<avaritia:ultimate_stew>, <rats:confit_byaldi>);
 
 mods.rats.recipes.removeGemcutterRatRecipe(<rats:little_black_squash_balls>);
 mods.rats.recipes.addGemcutterRatRecipe(<actuallyadditions:item_crystal_empowered:3>, <rats:little_black_squash_balls>);
+
+//ChaosShard
+mods.rats.recipes.addGemcutterRatRecipe(<draconicevolution:chaos_shard:3>, <avaritia:resource:2>);
 
 
 //Ratsspeedupgrade
@@ -74,7 +74,7 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_whitelist_shaped", <rats:rat
 	[<embers:plate_gold>, <minecraft:paper>, <embers:plate_gold>],
 	[<jaopca:item_platequartz>, <embers:plate_gold>, <jaopca:item_platequartz>]
 ]);
-
+*/
 //PlatterUpgrade
 recipes.remove(<rats:rat_upgrade_platter>);
 recipes.addShapedMirrored("1x_item_rats_rat_upgrade_platter_shaped", <rats:rat_upgrade_platter>, [
@@ -110,9 +110,9 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_disenchanter_shaped", <rats:
 //Milkmaid
 recipes.remove(<rats:rat_upgrade_milker>);
 recipes.addShapedMirrored("1x_item_rats_rat_upgrade_milker_shaped", <rats:rat_upgrade_milker>, [
-	[<minecraft:milk_bucket>, <aoa3:halycon_milk>, <minecraft:milk_bucket>],
+	[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>],
 	[<primal:pelt_cow>, <rats:rat_upgrade_bucket>, <primal:pelt_cow>],
-	[<minecraft:milk_bucket>, <aoa3:halycon_milk>, <minecraft:milk_bucket>]
+	[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>]
 ]);
 
 

@@ -87,14 +87,14 @@ recipes.addShapedMirrored("1x_tile_ember_bore_shaped", <embers:ember_bore>, [
 recipes.remove(<embers:mixer>);
 recipes.addShapedMirrored("1x_tile_mixer_shaped", <embers:mixer>, [
 	[<embers:plate_iron>, null, <embers:plate_iron>],
-	[<jaopca:item_platesyrmorite>, <embers:block_tank>, <jaopca:item_platesyrmorite>],
+	[<ore:plateSyrmorite>, <embers:block_tank>, <ore:plateSyrmorite>],
 	[<thaumcraft:ingot:2>, <thaumcraft:metal_alchemical>, <thaumcraft:ingot:2>]
 ]);
 //ExchangeTablet
 recipes.remove(<embers:alchemy_tablet>);
 recipes.addShapedMirrored("1x_tile_alchemy_tablet_shaped", <embers:alchemy_tablet>, [
 	[null, <thaumcraft:plate>, null],
-	[<embers:stairs_caminite_brick>, <jaopca:item_plateamber>, <embers:stairs_caminite_brick>],
+	[<embers:stairs_caminite_brick>, <ore:plateAmber>, <embers:stairs_caminite_brick>],
 	[<embers:block_caminite_brick>, <thaumcraft:ingot:2>, <embers:block_caminite_brick>]
 ]);
 //AlchemyPedestal
@@ -107,13 +107,13 @@ recipes.addShapedMirrored("1x_tile_alchemy_pedestal_shaped", <embers:alchemy_ped
 //Beamcannon
 recipes.remove(<embers:beam_cannon>);
 recipes.addShapedMirrored("1x_tile_beam_cannon_shaped", <embers:beam_cannon>, [
-	[<jaopca:item_plateamber>, <embers:crystal_ember>, <jaopca:item_plateamber>],
-	[<jaopca:item_plateamber>, <embers:crystal_ember>, <jaopca:item_plateamber>],
+	[<ore:plateAmber>, <embers:crystal_ember>, <ore:plateAmber>],
+	[<ore:plateAmber>, <embers:crystal_ember>, <ore:plateAmber>],
 	[<thaumcraft:ingot:2>, <embers:block_caminite_brick>, <thaumcraft:ingot:2>]
 ]);
 //WindingGears
 mods.embers.Alchemy.remove(<embers:winding_gears>);
-mods.embers.Alchemy.add(<embers:winding_gears>, [<ore:gearAtlarus>, <jaopca:item_gearamber>, <jaopca:item_gearamber>, <jaopca:item_gearamber>, <jaopca:item_gearamber>], {"copper": 32 to 64, "iron": 32 to 128});
+mods.embers.Alchemy.add(<embers:winding_gears>, [<ore:gearAtlarus>, <ore:gearAmber>, <ore:gearAmber>, <ore:gearAmber>, <ore:gearAmber>], {"copper": 32 to 64, "iron": 32 to 128});
 //FelPumpkin
 recipes.remove(<botania:felpumpkin>);
 mods.embers.Alchemy.add(<botania:felpumpkin>, [<minecraft:pumpkin>, <thebetweenlands:shimmer_stone>, <minecraft:gunpowder>, <minecraft:fermented_spider_eye>, <thebetweenlands:items_misc:25>], {"copper": 32 to 64, "dawnstone": 16 to 48});

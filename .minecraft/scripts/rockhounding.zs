@@ -6,7 +6,7 @@
 
 //Labblender
 //InfinityCatalyst
-mods.rockhounding_chemistry.LabBlender.add([<avaritia:resource:1>*64, <minecraft:dragon_egg>*48, <thaumadditions:mithminite_fabric>*32, <avaritia:resource:4>*16, <avaritia:block_resource:1>*10, <advsolars:sunnarium_enriched_plate>*8, <jaopca:item_gemexquisitedimensionalshard>], <avaritia:resource:5>);
+//mods.rockhounding_chemistry.LabBlender.add([<avaritia:resource:1>*64, <minecraft:dragon_egg>*48, <thaumadditions:mithminite_fabric>*32, <avaritia:resource:4>*16, <avaritia:block_resource:1>*10, <advsolars:sunnarium_enriched_plate>*8, <jaopca:item_gemexquisitedimensionalshard>], <avaritia:resource:5>);
 
 //LabOven
 mods.rockhounding_chemistry.LabOven.add("Creosote from Tar", <metallurgy:tar>, null, <liquid:water>*500, null, <liquid:sulfuric_acid>*50, <liquid:creosote>*50);

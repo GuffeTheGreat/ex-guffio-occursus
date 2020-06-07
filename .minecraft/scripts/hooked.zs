@@ -18,7 +18,7 @@ recipes.addShapedMirrored("1x_item_hooked_hook_diamond_shaped", <hooked:hook:2>,
 	[null, <hooked:hook:1>, <ore:rodDiamond>],
 	[<ore:fiberSinuous>, null, <ore:rodDiamond>]
 ]);
-
+/*
 recipes.addShapedMirrored("1x_item_hooked_hook_red_shaped", <hooked:hook:3>, [
 	[<contenttweaker:intermediatepiston>, <jaopca:item_plateredstonealloy>, <minecraft:redstone_block>],
 	[null, <hooked:hook:2>, <jaopca:item_plateredstonealloy>],
@@ -31,3 +31,4 @@ recipes.addShapedMirrored("1x_item_hookedhook_ender_shaped", <hooked:hook:4>, [
 	[<jaopca:item_stickendsteel>, null, <bloodarsenal:base_item:7>]
 ]);
 
+*/

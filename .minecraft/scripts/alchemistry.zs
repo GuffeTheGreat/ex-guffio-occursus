@@ -1,11 +1,3 @@
-//NeonLightUnification
-mods.jei.JEI.removeAndHide(<alchemistry:neon_light>);
-mods.immersiveengineering.BottlingMachine.addRecipe(<aoa3:neon_lamp_off>, <ore:glassReinforced>, <liquid:neon>*1000);
-mods.nuclearcraft.Infuser.addRecipe(<ore:glassReinforced>, <liquid:neon>*1000, <aoa3:neon_lamp_off>);
-//Sunnarium
-mods.alchemistry.Combiner.addRecipe(<advsolars:sunnarium>,
-    [<alchemistry:element:190>*16]);
-
 //AdvancedSunnarium
 mods.alchemistry.Combiner.addRecipe(<advsolars:sunnarium_enriched>,
     [<alchemistry:element:190>*16,<alchemistry:element:93>*4,<alchemistry:element:95>*4]);
@@ -23,13 +15,21 @@ recipes.addShapedMirrored("1x_item_advsolars_sunnarium_enriched_plate_shaped", <
 	[null, <advsolars:sunnarium_enriched>, null]
 ]);
 
-//SmeltingNeonLamp
-mods.embers.Melter.add(<liquid:neon>*576,<aoa3:neon_lamp_off>);
-mods.nuclearcraft.Melter.addRecipe(<aoa3:neon_lamp_off>, <liquid:neon>*576);
-
 //Claytoliquidclay
 mods.alchemistry.Atomizer.addRecipe(<alchemistry:compound:8>,<liquid:liquid_clay>*250);
 mods.alchemistry.Liquifier.addRecipe(<liquid:liquid_clay>*250,<alchemistry:compound:8>);
 
+//Neutronium
+mods.alchemistry.Combiner.addRecipe(<avaritia:resource:2>,
+    [<alchemistry:element>]);
+mods.alchemistry.Combiner.addRecipe(<avaritia:resource:3>,
+    [<alchemistry:element>*9]);
+mods.alchemistry.Combiner.addRecipe(<avaritia:resource:4>,
+    [<alchemistry:element>*64,<alchemistry:element>*17]);
 
-
+mods.alchemistry.Dissolver.addRecipe(<avaritia:resource:2>, true, 1,
+[[100, <alchemistry:element>]]);
+mods.alchemistry.Dissolver.addRecipe(<avaritia:resource:3>, true, 1,
+[[100, <alchemistry:element>*9]]);
+mods.alchemistry.Dissolver.addRecipe(<avaritia:resource:4>, true, 1,
+[[100, <alchemistry:element>*81]]);

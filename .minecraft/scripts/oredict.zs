@@ -8,18 +8,27 @@
 
 //Peltsandhie
 <ore:peltSmall>.add(<rats:rat_pelt>);
-<ore:peltMedium>.add(<aoa3:urka_hide>);
-<ore:peltLarge>.add(<aoa3:rammerhead_hide>);
+<ore:peltSmall>.add(<zawa:reptile_hide>);
+<ore:peltMedium>.add(<zawa:amur_leopard_hide>);
+<ore:peltMedium>.add(<zawa:zebra_leather>);
+<ore:peltMedium>.add(<zawa:crocodile_leather>);
+<ore:peltMedium>.add(<zawa:thick_fur>);
+<ore:peltMedium>.add(<zawa:tiger_fur>);
+<ore:peltMedium>.add(<zawa:fur>);
+<ore:peltLarge>.add(<zawa:giraffe_hide>);
+<ore:peltLarge>.add(<zawa:gorilla_hide>);
+<ore:peltLarge>.add(<zawa:rhino_hide>);
+<ore:peltLarge>.add(<zawa:elephant_leather>);
+<ore:peltLarge>.add(<zawa:polar_bear_hide>);
 
 //Flakes
 <ore:flakeFlint>.add(<pyrotech:material:10>);
 <ore:flakeBone>.add(<pyrotech:material:11>);
-<ore:flakeDiamond>.add(<jaopca:item_gemflaweddiamond>);
 <ore:flakeIron>.add(<pyrotech:material:19>);
 <ore:shardObsidian>.add(<pyrotech:material:33>);
 <ore:flakeObsidian>.add(<pyrotech:material:33>);
 <ore:flakeGold>.add(<pyrotech:material:34>);
-<ore:flake>.addItems([<pyrotech:material:10>, <pyrotech:material:11>, <jaopca:item_gemflaweddiamond>, <pyrotech:material:19>, <pyrotech:material:33>, <pyrotech:material:34>]);
+<ore:flake>.addItems([<pyrotech:material:10>, <pyrotech:material:11>, <pyrotech:material:19>, <pyrotech:material:33>, <pyrotech:material:34>]);
 
 //MortarIngredients
 <ore:mortalIngredient>.remove(<minecraft:sand>);
@@ -28,14 +37,6 @@
 <ore:dustSulfur>.remove(<metallurgy:sulfur_dust>);
 <ore:dustSulphur>.remove(<metallurgy:sulfur_dust>);
 <ore:gemSulfur>.add(<thebetweenlands:items_misc:18>);
-
-//Bark
-//Flakes
-<ore:barkWood>.add(<extratrees:misc:1>);
-
-
-//Chili
-<ore:cropChilipepper>.add(<aoa3:chilli>);
 
 //FixingCrossroads
 <ore:stickIron>.remove(<crossroads:axle>);
@@ -58,16 +59,6 @@
 //Ashaddition
 <ore:dustAsh>.add(<bonfires:ash_pile>);
 
-<ore:fish>.remove(<aoa3:raw_rainbowfish>);
-<ore:listAllbeefraw>.remove(<galacticraftcore:food:6>);
-<ore:listAllbeefraw>.add(<moreplanets:raw_cheese_beef>);
-<ore:listAllbeefraw>.remove(<avaritia:cosmic_meatballs>);
-<ore:listAllmeatraw>.remove(<galacticraftcore:food:6>);
-<ore:listAllmeatraw>.add(<moreplanets:raw_cheese_beef>);
-<ore:listAllmeatraw>.remove(<avaritia:cosmic_meatballs>);
-<ore:dustAshes>.remove(<embers:dust_ash>);
-<ore:dustCharcoal>.add(<embers:dust_ash>);
-
 //AACrystals
 <ore:gemRestonia>.add(<actuallyadditions:item_crystal>);
 <ore:gemPalis>.add(<actuallyadditions:item_crystal:1>);
@@ -75,3 +66,18 @@
 <ore:gemVoidCrystal>.add(<actuallyadditions:item_crystal:3>);
 <ore:gemEmeradic>.add(<actuallyadditions:item_crystal:4>);
 <ore:gemEnori>.add(<actuallyadditions:item_crystal:5>);
+
+//Charcoalgrades
+<ore:charcoalGrade>.add(<minecraft:coal:1>);
+<ore:charcoalPoor>.add(<minecraft:coal:1>);
+<ore:charcoalPoor>.add(<minecraft:coal:1>);
+<ore:charcoalPoor>.add(<primal:charcoal_fair>);
+<ore:charcoalPoor>.add(<primal:charcoal_good>);
+<ore:charcoalPoor>.add(<primal:charcoal_high>);
+<ore:charcoalPoor>.add(<primal:charcoal_pure>);
+<ore:charcoalFair>.add(<primal:charcoal_good>);
+<ore:charcoalFair>.add(<primal:charcoal_high>);
+<ore:charcoalFair>.add(<primal:charcoal_pure>);
+<ore:charcoalGood>.add(<primal:charcoal_pure>);
+<ore:charcoalGood>.add(<primal:charcoal_high>);
+<ore:charcoalHigh>.add(<primal:charcoal_pure>);

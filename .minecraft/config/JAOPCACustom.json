@@ -30,10 +30,11 @@
         "properties": {}
     },
           {
-        "name": "dustPurified",
+        "name": "dustPure",
         "type": "item",
         "ore_types": [
             "ingot",
+            "gem",
             "dust"
         ],
         "properties": {}

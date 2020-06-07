@@ -24,16 +24,23 @@
       "slagColor": "e2e2e3",
       "langKey": [
         "embers:tile.ore_aluminum",
+        "exoplanets:tile.exoplanets.metalore5",
         "galacticraftcore:tile.basic_block_core.ore_aluminum_gc",
         "galacticraftplanets:tile.asteroids_block.ore_aluminum_asteroids",
         "galacticraftplanets:tile.venus.venus_ore_aluminum",
+        "galaxyspace:tile.aluminum_ore",
+        "galaxyspace:tile.europa_aluminum_ore",
+        "galaxyspace:tile.haumea_aluminum_ore",
+        "galaxyspace:tile.mars_aluminum",
         "geolosys:geolosys.cluster.aluminum",
         "immersiveengineering:tile.immersiveengineering.ore.aluminum",
         "moreplanets:tile.chalos_aluminum_ore",
         "moreplanets:tile.diona_aluminum_ore",
         "moreplanets:tile.fronos_aluminum_ore",
         "moreplanets:tile.infected_aluminum_ore",
-        "moreplanets:tile.koentus_aluminum_ore"
+        "moreplanets:tile.koentus_aluminum_ore",
+        "zollerngalaxy:tile.edenaluminumore",
+        "zollerngalaxy:tile.purgaluminumore"
       ],
       "output": [
         "embers:nugget_aluminum:0",
@@ -46,11 +53,13 @@
       "langKey": [
         "crossroads:tile.ore_copper",
         "embers:tile.ore_copper",
-        "forestry:tile.for.resources.copper",
+        "exoplanets:tile.exoplanets.metalore0",
         "galacticraftcore:tile.basic_block_core.ore_copper_gc",
         "galacticraftcore:tile.basic_block_moon.coppermoon",
         "galacticraftplanets:tile.mars.coppermars",
         "galacticraftplanets:tile.venus.venus_ore_copper",
+        "galaxyspace:tile.copper_ore",
+        "galaxyspace:tile.io_copper_ore",
         "geolosys:geolosys.cluster.copper",
         "immersiveengineering:tile.immersiveengineering.ore.copper",
         "metallurgy:tile.metallurgy.copper_ore",
@@ -59,11 +68,17 @@
         "moreplanets:tile.fronos_copper_ore",
         "moreplanets:tile.infected_copper_ore",
         "moreplanets:tile.koentus_copper_ore",
-        "nuclearcraft:tile.nuclearcraft.ore.copper"
+        "nuclearcraft:tile.nuclearcraft.ore.copper",
+        "zollerngalaxy:tile.edencopperore",
+        "zollerngalaxy:tile.kriffcopperore",
+        "zollerngalaxy:tile.purgcopperore",
+        "zollerngalaxy:tile.xantheoncopperore",
+        "zollerngalaxy:tile.zolcopperore"
       ],
       "output": [
         "crossroads:nugget_copper:0",
         "embers:nugget_copper:0",
+        "exoplanets:metalnugget:0",
         "immersiveengineering:metal:20",
         "metallurgy:copper_nugget:0",
         "primal:copper_nugget:0",
@@ -75,10 +90,20 @@
       "langKey": [
         "cyclicmagic:tile.end_gold_ore",
         "cyclicmagic:tile.nether_gold_ore",
+        "galaxyspace:tile.gold_ore",
+        "galaxyspace:tile.mars_gold",
         "geolosys:geolosys.cluster.gold",
         "minecraft:tile.oreGold",
         "moreplanets:tile.fronos_gold_ore",
-        "moreplanets:tile.infected_gold_ore"
+        "moreplanets:tile.infected_gold_ore",
+        "zollerngalaxy:tile.altumgoldore",
+        "zollerngalaxy:tile.edengoldore",
+        "zollerngalaxy:tile.kriffgoldore",
+        "zollerngalaxy:tile.oasisgoldore",
+        "zollerngalaxy:tile.perdgoldore",
+        "zollerngalaxy:tile.purggoldore",
+        "zollerngalaxy:tile.xathgoldore",
+        "zollerngalaxy:tile.zolgoldore"
       ],
       "output": [
         "minecraft:gold_nugget:0"
@@ -91,12 +116,25 @@
         "cyclicmagic:tile.nether_iron_ore",
         "galacticraftplanets:tile.asteroids_block.ore_iron_asteroids",
         "galacticraftplanets:tile.mars.ironmars",
+        "galaxyspace:tile.iron_ore",
+        "galaxyspace:tile.mercury_iron_ore",
+        "galaxyspace:tile.miranda_iron_ore",
         "geolosys:geolosys.cluster.iron",
+        "industrialrenewal:item.industrialrenewal.chunk_hematite",
         "minecraft:tile.oreIron",
         "moreplanets:tile.chalos_iron_ore",
         "moreplanets:tile.fronos_iron_ore",
         "moreplanets:tile.infected_iron_ore",
-        "moreplanets:tile.koentus_iron_ore"
+        "moreplanets:tile.koentus_iron_ore",
+        "zollerngalaxy:tile.altumironore",
+        "zollerngalaxy:tile.edenironore",
+        "zollerngalaxy:tile.kriffironore",
+        "zollerngalaxy:tile.oasisironore",
+        "zollerngalaxy:tile.perdironore",
+        "zollerngalaxy:tile.purgironore",
+        "zollerngalaxy:tile.xantheonironore",
+        "zollerngalaxy:tile.xathironore",
+        "zollerngalaxy:tile.zolironore"
       ],
       "output": [
         "immersiveengineering:metal:29",
@@ -108,14 +146,19 @@
       "slagColor": "95afee",
       "langKey": [
         "embers:tile.ore_lead",
+        "exoplanets:tile.exoplanets.metalore2",
         "galacticraftplanets:tile.venus.venus_ore_galena",
         "geolosys:geolosys.cluster.lead",
         "immersiveengineering:tile.immersiveengineering.ore.lead",
         "moreplanets:tile.fronos_lead_ore",
-        "nuclearcraft:tile.nuclearcraft.ore.lead"
+        "nuclearcraft:tile.nuclearcraft.ore.lead",
+        "zollerngalaxy:tile.edenleadore",
+        "zollerngalaxy:tile.oasisleadore",
+        "zollerngalaxy:tile.purgleadore"
       ],
       "output": [
         "embers:nugget_lead:0",
+        "exoplanets:metalnugget:2",
         "immersiveengineering:metal:22",
         "primal:lead_nugget:0",
         "thaumcraft:nugget:4"
@@ -134,11 +177,18 @@
       "slagColor": "e4e5d8",
       "langKey": [
         "embers:tile.ore_nickel",
+        "exoplanets:tile.exoplanets.metalore3",
+        "galaxyspace:tile.mercury_nickel_ore",
+        "galaxyspace:tile.nickel_ore",
+        "galaxyspace:tile.nickel_ore",
         "geolosys:geolosys.cluster.nickel",
-        "immersiveengineering:tile.immersiveengineering.ore.nickel"
+        "immersiveengineering:tile.immersiveengineering.ore.nickel",
+        "zollerngalaxy:tile.edennickleore",
+        "zollerngalaxy:tile.xantheonnickelore"
       ],
       "output": [
         "embers:nugget_nickel:0",
+        "exoplanets:metalnugget:3",
         "immersiveengineering:metal:24",
         "primal:nickel_nugget:0"
       ]
@@ -165,11 +215,14 @@
     "orePlatinum": {
       "slagColor": "55f3ff",
       "langKey": [
+        "exoplanets:tile.exoplanets.metalore4",
         "geolosys:geolosys.cluster.platinum",
         "immersiveintelligence:tile.immersiveintelligence.ore.platinum",
-        "metallurgy:tile.metallurgy.platinum_ore"
+        "metallurgy:tile.metallurgy.platinum_ore",
+        "zollerngalaxy:tile.edenplatinumore"
       ],
       "output": [
+        "exoplanets:metalnugget:4",
         "immersiveintelligence:material_nugget:2",
         "metallurgy:platinum_nugget:0",
         "primal:platinum_nugget:0"
@@ -180,11 +233,14 @@
       "langKey": [
         "embers:tile.ore_silver",
         "geolosys:geolosys.cluster.silver",
+        "iceandfire:tile.iceandfire.silverOre",
         "immersiveengineering:tile.immersiveengineering.ore.silver",
-        "metallurgy:tile.metallurgy.silver_ore"
+        "metallurgy:tile.metallurgy.silver_ore",
+        "zollerngalaxy:tile.edensilverore"
       ],
       "output": [
         "embers:nugget_silver:0",
+        "iceandfire:silver_nugget:0",
         "immersiveengineering:metal:23",
         "metallurgy:silver_nugget:0",
         "primal:silver_nugget:0",
@@ -205,11 +261,12 @@
       "langKey": [
         "crossroads:tile.ore_tin",
         "embers:tile.ore_tin",
-        "forestry:tile.for.resources.tin",
+        "exoplanets:tile.exoplanets.metalore1",
         "galacticraftcore:tile.basic_block_core.ore_tin_gc",
         "galacticraftcore:tile.basic_block_moon.tinmoon",
         "galacticraftplanets:tile.mars.tinmars",
         "galacticraftplanets:tile.venus.venus_ore_tin",
+        "galaxyspace:tile.tin_ore",
         "geolosys:geolosys.cluster.tin",
         "metallurgy:tile.metallurgy.tin_ore",
         "moreplanets:tile.chalos_tin_ore",
@@ -217,11 +274,18 @@
         "moreplanets:tile.fronos_tin_ore",
         "moreplanets:tile.infected_tin_ore",
         "moreplanets:tile.koentus_tin_ore",
-        "nuclearcraft:tile.nuclearcraft.ore.tin"
+        "nuclearcraft:tile.nuclearcraft.ore.tin",
+        "zollerngalaxy:tile.atheontinore",
+        "zollerngalaxy:tile.edentinore",
+        "zollerngalaxy:tile.oasistinore",
+        "zollerngalaxy:tile.purgtinore",
+        "zollerngalaxy:tile.xathtinore",
+        "zollerngalaxy:tile.zoltinore"
       ],
       "output": [
         "crossroads:nugget_tin:0",
         "embers:nugget_tin:0",
+        "exoplanets:metalnugget:1",
         "metallurgy:tin_nugget:0",
         "primal:tin_nugget:0",
         "thaumcraft:nugget:2"
@@ -230,9 +294,12 @@
     "oreUranium": {
       "slagColor": "5c734b",
       "langKey": [
+        "galaxyspace:tile.uranium_ore",
         "geolosys:geolosys.cluster.uranium",
         "immersiveengineering:tile.immersiveengineering.ore.uranium",
-        "nuclearcraft:tile.nuclearcraft.ore.uranium"
+        "nuclearcraft:tile.nuclearcraft.ore.uranium",
+        "zollerngalaxy:tile.perdfueltoniumore",
+        "zollerngalaxy:tile.xantheonfueltoniumore"
       ],
       "output": [
         "immersiveengineering:metal:25"

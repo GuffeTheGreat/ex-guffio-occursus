@@ -47,6 +47,125 @@ StoneKiln.addRecipe("ashpile", <pyrotech:material>, <ore:logWood>, 1200);
 BrickKiln.addRecipe("ashpile2", <pyrotech:material>, <ore:logWood>, 600);
 */
 
+//BurningRecipes
+Burn.removeAllRecipes();
+//TarUse
+Burn.createBuilder("charcoalfromtar", <primal:charcoal_fair>*10, "pyrotech:wood_tar_block")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(5 * 60 * 20)
+    .setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(false)
+    .register();
+//Pileofwoodchiphs
+    Burn.createBuilder("charcoalfromwoodpiles", <primal:charcoal_mote>*8, "pyrotech:pile_wood_chips")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(6 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 20)
+    .setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(false)
+    .register();
+
+//Coke
+Burn.createBuilder("coke", <pyrotech:material:1>*10, "minecraft:coal_block")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(6 * 60 * 20)
+    .setFluidProduced(<liquid:coal_tar> * 50)
+    .setFailureChance(0.15)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<pyrotech:material:21> * 4) // charcoal flakes
+    .addFailureItem(<pyrotech:material:21> * 6) // charcoal flakes
+    .addFailureItem(<pyrotech:material:21> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(true)
+    .register();
+
+//poorgradeCharcoal
+Burn.createBuilder("poorcharcoal", <minecraft:coal:1>*10, "primal:logs_stacked:2")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(5 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 20)
+    .setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(false)
+    .register();
+//fairgradeCharcoal
+Burn.createBuilder("faircgarciak", <primal:charcoal_fair>*10, "primal:logs_stacked")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(5 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 30)
+    .setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(false)
+    .register();
+
+//goodgradeCharcoal
+Burn.createBuilder("goodcharcoal", <primal:charcoal_good>*10, "primal:logs_stacked:1")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(5 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 40)
+    .setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(false)
+    .register();
+
+//highgradeCharcoal
+Burn.createBuilder("highcharcoal", <primal:charcoal_high>*10, "primal:logs_stacked_corypha")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(5 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 50)
+    .setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(false)
+    .register();
+
+//puregradeCharcoal
+Burn.createBuilder("purecharcoal", <primal:charcoal_pure>*10, "primal:logs_stacked:5")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(5 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 60)
+    .setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(false)
+    .register();
+
 //Anvils
 recipes.remove(<pyrotech:anvil_granite>);
 recipes.remove(<pyrotech:anvil_iron_plated>);
@@ -59,12 +178,24 @@ recipes.addShapedMirrored("1x_tile_pyrotech_anvil_iron_plated_shaped", <pyrotech
 	[<pyrotech:anvil_granite>]
 ]);
 
+//Shears
+
 //RockBag
 recipes.remove(<pyrotech:bag_simple>);
 recipes.addShapedMirrored("1x_tile_pyrotech_bag_simple_shaped", <pyrotech:bag_simple>, [
 	[<ore:wool>, <ore:cordageGeneral>, <ore:wool>],
 	[<ore:pelt>, <ore:chest>, <ore:pelt>],
 	[<ore:pelt>, <ore:pelt>, <ore:pelt>]
+]);
+//Diamond
+recipes.addShapedMirrored("1x_item_pyrotech_diamond_shears_shaped", <pyrotech:diamond_shears>, [
+	[<ore:flakeDiamond>, null],
+	[<ore:cordageQuality>, <ore:flakeDiamond>]
+]);
+//Obsidian
+recipes.addShapedMirrored("1x_item_pyrotech_obsidian_shears_shaped", <pyrotech:obsidian_shears>, [
+	[<pyrotech:material:33>, null],
+	[<ore:cordageQuality>, <pyrotech:material:33>]
 ]);
 
 //Straw
@@ -128,6 +259,8 @@ GraniteAnvil.removeRecipes(<pyrotech:material:28>);
 IroncladAnvil.removeRecipes(<pyrotech:material:28>);
 GraniteAnvil.removeRecipes(<pyrotech:material:27>);
 IroncladAnvil.removeRecipes(<pyrotech:material:27>);
+GraniteAnvil.removeRecipes(<pyrotech:material:15>);
+IroncladAnvil.removeRecipes(<pyrotech:material:15>);
 
 var hammerRecipes as IItemStack[IIngredient] = {
     <primal:hide_salted> : <primal:hide_dried>,
@@ -141,9 +274,11 @@ var hammerRecipes as IItemStack[IIngredient] = {
     <ore:ingotBronze> : <embers:plate_bronze>,
     <ore:ingotTin> : <embers:plate_tin>,
     <primal:iron_strand> : <primal:iron_ring>,
-    <primal:bat_meat_salted> : <primal:bat_meat_dried>,
-    <primal:bear_meat_salted> : <primal:bear_meat_dried>,
-	<minecraft:sponge:1> : <minecraft:sponge>
+    <minecraft:coal:1> : <primal:charcoal_mote>*6,
+    <primal:charcoal_fair> : <primal:charcoal_mote>*8,
+	<primal:charcoal_good> : <primal:charcoal_mote>*10,
+    <primal:charcoal_high> : <primal:charcoal_mote>*12,
+    <primal:charcoal_pure> : <primal:charcoal_mote>*16
 	};
 
 counter = 0;
@@ -202,28 +337,25 @@ IroncladAnvil.addRecipe("aluminium_plate", <embers:plate_aluminum>, <embers:ingo
 IroncladAnvil.addRecipe("electrum_plate", <embers:plate_electrum>, <ore:ingotElectrum>, 8, "hammer");
 IroncladAnvil.addRecipe("nickel_plate", <embers:plate_nickel>, <embers:ingot_nickel>, 8, "hammer");
 
-//Kiln
+//StoneMacines
 recipes.remove(<pyrotech:stone_kiln>);
 recipes.addShapedMirrored("1x_tile_pyrotech_stone_kiln_shaped", <pyrotech:stone_kiln>, [
 	[<pyrotech:material:16>, null, <pyrotech:material:16>],
 	[<pyrotech:material:16>, <pyrotech:kiln_pit>, <pyrotech:material:16>],
 	[<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]
 ]);
-
 recipes.remove(<pyrotech:stone_oven>);
 recipes.addShapedMirrored("1x_tile_pyrotech_stone_oven_shaped", <pyrotech:stone_oven>, [
 	[<pyrotech:material:16>, null, <pyrotech:material:16>],
 	[<pyrotech:material:16>, <pyrotech:tinder>, <pyrotech:material:16>],
 	[<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]
 ]);
-
 recipes.remove(<pyrotech:stone_sawmill>);
 recipes.addShapedMirrored("1x_tile_pyrotech_stone_sawmill_shaped", <pyrotech:stone_sawmill>, [
 	[<pyrotech:material:16>, null, <pyrotech:material:16>],
 	[<pyrotech:material:16>, <pyrotech:chopping_block>, <pyrotech:material:16>],
 	[<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]
 ]);
-
 recipes.remove(<pyrotech:stone_crucible>);
 recipes.addShapedMirrored("1x_tile_pyrotech_stone_crucible_shaped", <pyrotech:stone_crucible>, [
 	[<pyrotech:material:16>, null, <pyrotech:material:16>],
@@ -231,9 +363,7 @@ recipes.addShapedMirrored("1x_tile_pyrotech_stone_crucible_shaped", <pyrotech:st
 	[<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]
 ]);
 
-
-
-//Kiln
+//RefractoryMachines
 recipes.remove(<pyrotech:brick_kiln>);
 recipes.addShapedMirrored("1x_tile_pyrotech_brick_kiln_shaped", <pyrotech:brick_kiln>, [
 	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>],
@@ -277,7 +407,6 @@ SoakingPot.addRecipe("tanned_pigman_hide", <primal:pigman_hide_tanned>, <liquid:
 //Thaumcraft
 SoakingPot.addRecipe("salismundus", <thaumcraft:salis_mundus>, <liquid:fluidedmana>*250, <ore:dustLapis>, 4 * 30 * 20);
 SoakingPot.addRecipe("quartzsliver", <thaumcraft:nugget:9>, <liquid:fluidedmana>*50, <ore:gemChippedQuartz>, 15 * 20);
-
 //Sugar
 SoakingPot.addRecipe("sugarfrombamboo", <minecraft:sugar>, <liquid:sugarcane_juice>*200, <ore:charcoal>, 2 * 30 * 20);
 SoakingPot.addRecipe("sugarfromcharcoal", <minecraft:sugar>, <liquid:sugarcane_juice>*250, <ore:charcoal>, 2 * 30 * 20);
@@ -319,6 +448,7 @@ recipes.addShapedMirrored("1x_item_pyrotech_crude_pickaxe_shaped", <pyrotech:cru
 	[<ore:stickWood>, <ore:rock>]
 ]);
 
+
 //CombingStone
 var stoneRecipes as IItemStack[IIngredient] = {
 	<pyrotech:rock> : <minecraft:cobblestone>,
@@ -327,7 +457,6 @@ var stoneRecipes as IItemStack[IIngredient] = {
 	<pyrotech:rock:3> : <pyrotech:cobblestone>,
 	<pyrotech:rock:8> : <pyrotech:cobblestone:3>,
 	};
-
 for rock, stone in stoneRecipes {
 recipes.addShapedMirrored(stone, [
     [rock, rock, rock],
@@ -336,6 +465,7 @@ recipes.addShapedMirrored(stone, [
 ]);
     recipes.remove(stone);
 }
+
 #CompactingBin
 recipes.remove(<pyrotech:compacting_bin>);
 recipes.addShapedMirrored(<pyrotech:compacting_bin>, [
@@ -406,3 +536,11 @@ PitKiln.addRecipe("stoneslab_from_cobblestone", <minecraft:stone_slab>, <minecra
     <pyrotech:rock> * 5,
     <pyrotech:rock> * 6
 ]);
+
+//OtherKilns
+StoneKiln.removeRecipes(<pyrotech:material:15>);
+BrickKiln.removeRecipes(<pyrotech:material:15>);
+StoneKiln.addRecipe("charcoalmotesstone", <primal:charcoal_mote>, <thebetweenlands:items_misc:13>, 6000, 0.08, [<minecraft:dirt>]);
+BrickKiln.addRecipe("charcoalmotebrick", <primal:charcoal_mote>, <thebetweenlands:items_misc:13>, 6000, 0.02, [<minecraft:dirt>]);
+StoneKiln.addRecipe("charcoalmotesstone1", <primal:charcoal_mote>, <pyrotech:rock:7>, 6000, 0.08, [<pyrotech:material>]);
+BrickKiln.addRecipe("charcoalmotebrick1", <primal:charcoal_mote>, <pyrotech:rock:7>, 6000, 0.02, [<pyrotech:material>]);

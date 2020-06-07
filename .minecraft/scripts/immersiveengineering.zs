@@ -60,7 +60,17 @@ recipes.addShapedMirrored("8x_tile_immersiveengineering_conveyor_immersiveengine
 	[<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>]
 ]);
 
-mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <contenttweaker:material_part:141>, 2000, <pyrotech:slag>);
+//Blastfurnace
+mods.immersiveengineering.BlastFurnace.removeAll();
+mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <contenttweaker:material_part:94>, 2000, <pyrotech:slag>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, 2000, <pyrotech:slag>);
-mods.immersiveengineering.BlastFurnace.removeRecipe(<metallurgy:steel_ingot>);
-mods.immersiveengineering.BlastFurnace.removeRecipe(<metallurgy:steel_block>);
+
+//Blastfurnace
+mods.immersiveengineering.CokeOven.removeAll();
+mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <contenttweaker:material_part:94>, 2000, <pyrotech:slag>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, 2000, <pyrotech:slag>);
+
+//Blastfurnace
+mods.immersiveengineering.BlastFurnace.removeAll();
+mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <contenttweaker:material_part:94>, 2000, <pyrotech:slag>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, 2000, <pyrotech:slag>);

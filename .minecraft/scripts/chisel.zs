@@ -6,18 +6,22 @@ Carving.addGroup("guidebooks");
 Carving.addVariation("guidebooks", <minecraft:book>);
 Carving.addVariation("guidebooks", <ftbquests:book>);
 Carving.addVariation("guidebooks", <pyrotech:book>);
-Carving.addVariation("guidebooks", <immersiveengineering:tool:3>);
-Carving.addVariation("guidebooks", <guideapi:bloodmagic-guide>);
-Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "mysticalworld:world_guide"}));
-Carving.addVariation("guidebooks", <astralsorcery:itemjournal>);
-Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "pneumaticcraft:book"}));
-Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "roots:roots_guide"}));
-Carving.addVariation("guidebooks", <botania:lexicon>.withTag({"knowledge.minecraft": 1 as byte, "knowledge.alfheim": 1 as byte, "knowledge.relic": 1 as byte}));
-Carving.addVariation("guidebooks", <cuisine:manual>);
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "alchemistry:alchemistry_book"}));
-Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "deepmoblearning:book"}));
-Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));
+Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "pneumaticcraft:book"}));
+Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "prodigytech:guide"}));
 Carving.addVariation("guidebooks", <guideapi:bloodarsenal-guide>);
+Carving.addVariation("guidebooks", <guideapi:bloodmagic-guide>);
+Carving.addVariation("guidebooks", <guideapi:crossroads-info_guide>);
+Carving.addVariation("guidebooks", <guideapi:crossroads-crossroadsmainguide>);
+Carving.addVariation("guidebooks", <guideapi:cyclicmagic-guide>);
+Carving.addVariation("guidebooks", <guideapi:woot-guide>);
+Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));
+Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));
+Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));
+Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));
+Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));
+Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));
+
 
 //Stamps
 Carving.addGroup("stamps");
@@ -66,13 +70,5 @@ Carving.addVariation("bed", <minecraft:bed:13>);
 Carving.addVariation("bed", <minecraft:bed:14>);
 Carving.addVariation("bed", <minecraft:bed:15>);
 
-//NeonLamps
-Carving.addGroup("Neonlamps");
-Carving.addVariation("Neonlamps", <aoa3:neon_lamp_off>);
-Carving.addVariation("Neonlamps", <aoa3:neon_circling_lamp_off>);
-Carving.addVariation("Neonlamps", <aoa3:neon_lapis_lamp_off>);
-Carving.addVariation("Neonlamps", <aoa3:neon_lapis_circling_lamp_off>);
-Carving.addVariation("Neonlamps", <aoa3:neon_lapis_triangles_lamp_off>);
-Carving.addVariation("Neonlamps", <aoa3:neon_runic_lamp_off>);
-Carving.addVariation("Neonlamps", <aoa3:neon_triangles_lamp_off>);
+
 

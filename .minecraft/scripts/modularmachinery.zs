@@ -6,7 +6,7 @@ mods.jei.JEI.removeAndHide(<modularmachinery:blockfluidinputhatch:7>);
 mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyinputhatch:7>);
 
 #Pyrolyseoven
- //Birch
+ //Poor
  var poorCharcoalBirch = RecipeBuilder.newBuilder("PyrolysePoorCharcoalBirch", "pyrolyseoven", 320);
 poorCharcoalBirch.addEnergyPerTickInput(2048);
 poorCharcoalBirch.addItemInput(<primal:logs_stacked:2>*16);
@@ -22,23 +22,7 @@ poorCharcoalFastBirch.addFluidOutput(<liquid:wood_tar> * 6000);
 poorCharcoalFastBirch.addItemOutput(<minecraft:coal:1>*36);
 poorCharcoalFastBirch.build();
 
-//Yew
- var poorCharcoalYew = RecipeBuilder.newBuilder("PyrolysePoorCharcoalBYew", "pyrolyseoven", 320);
-poorCharcoalYew.addEnergyPerTickInput(2048);
-poorCharcoalYew.addItemInput(<primal:logs_stacked:7>*16);
-poorCharcoalYew.addFluidOutput(<liquid:wood_tar> * 6000);
-poorCharcoalYew.addItemOutput(<minecraft:coal:1>*36);
-poorCharcoalYew.build();
-
- var poorCharcoalFastYew = RecipeBuilder.newBuilder("PyrolysePoorCharcoalFastYew", "pyrolyseoven", 160);
-poorCharcoalFastYew.addEnergyPerTickInput(2048);
-poorCharcoalFastYew.addItemInput(<primal:logs_stacked:7>*16);
-poorCharcoalFastYew.addFluidInput(<liquid:nitrogen> * 500);
-poorCharcoalFastYew.addFluidOutput(<liquid:wood_tar> * 6000);
-poorCharcoalFastYew.addItemOutput(<minecraft:coal:1>*36);
-poorCharcoalFastYew.build();
-
-//Oak
+//Fair
  var charcoalOak = RecipeBuilder.newBuilder("PyrolyseCharcoalOak", "pyrolyseoven", 320);
 charcoalOak.addEnergyPerTickInput(2048);
 charcoalOak.addItemInput(<primal:logs_stacked>*16);
@@ -54,12 +38,12 @@ charcoalFastOak.addFluidOutput(<liquid:wood_tar> * 8000);
 charcoalFastOak.addItemOutput(<primal:charcoal_fair>*36);
 charcoalFastOak.build();
 
-//DarkOak
+//PureCarbon
  var charcoalDarkOak = RecipeBuilder.newBuilder("PyrolyseCharcoalDarkOak", "pyrolyseoven", 320);
 charcoalDarkOak.addEnergyPerTickInput(2048);
 charcoalDarkOak.addItemInput(<primal:logs_stacked:5>*16);
 charcoalDarkOak.addFluidOutput(<liquid:wood_tar> * 8000);
-charcoalDarkOak.addItemOutput(<primal:charcoal_fair>*36);
+charcoalDarkOak.addItemOutput(<primal:charcoal_pure>*36);
 charcoalDarkOak.build();
 
  var charcoalFastDarkOak = RecipeBuilder.newBuilder("PyrolyseCharcoalFastDarkOak", "pyrolyseoven", 160);
@@ -67,7 +51,7 @@ charcoalFastDarkOak.addEnergyPerTickInput(2048);
 charcoalFastDarkOak.addItemInput(<primal:logs_stacked:5>*16);
 charcoalFastDarkOak.addFluidInput(<liquid:nitrogen> * 500);
 charcoalFastDarkOak.addFluidOutput(<liquid:wood_tar> * 8000);
-charcoalFastDarkOak.addItemOutput(<primal:charcoal_fair>*36);
+charcoalFastDarkOak.addItemOutput(<primal:charcoal_pure>*36);
 charcoalFastDarkOak.build();
 
 //Spruce
@@ -85,54 +69,6 @@ charcoalFastSpruce.addFluidInput(<liquid:nitrogen> * 500);
 charcoalFastSpruce.addFluidOutput(<liquid:wood_tar> * 10000);
 charcoalFastSpruce.addItemOutput(<primal:charcoal_good>*36);
 charcoalFastSpruce.build();
-
-//Acacia
- var charcoalAcacia = RecipeBuilder.newBuilder("PyrolyseCharcoalAcacia", "pyrolyseoven", 320);
-charcoalAcacia.addEnergyPerTickInput(2048);
-charcoalAcacia.addItemInput(<primal:logs_stacked:4>*16);
-charcoalAcacia.addFluidOutput(<liquid:wood_tar> * 10000);
-charcoalAcacia.addItemOutput(<primal:charcoal_good>*36);
-charcoalAcacia.build();
-
- var charcoalFastAcacia = RecipeBuilder.newBuilder("PyrolyseCharcoalFastAcacia", "pyrolyseoven", 160);
-charcoalFastAcacia.addEnergyPerTickInput(2048);
-charcoalFastAcacia.addItemInput(<primal:logs_stacked:4>*16);
-charcoalFastAcacia.addFluidInput(<liquid:nitrogen> * 500);
-charcoalFastAcacia.addFluidOutput(<liquid:wood_tar> * 10000);
-charcoalFastAcacia.addItemOutput(<primal:charcoal_good>*36);
-charcoalFastAcacia.build();
-
-//Jungle
- var charcoalJungle = RecipeBuilder.newBuilder("PyrolyseCharcoalJungle", "pyrolyseoven", 320);
-charcoalJungle.addEnergyPerTickInput(2048);
-charcoalJungle.addItemInput(<primal:logs_stacked:3>*16);
-charcoalJungle.addFluidOutput(<liquid:wood_tar> * 12000);
-charcoalJungle.addItemOutput(<primal:charcoal_high>*36);
-charcoalJungle.build();
-
- var charcoalFastJungle = RecipeBuilder.newBuilder("PyrolyseCharcoalFastJungle", "pyrolyseoven", 160);
-charcoalFastJungle.addEnergyPerTickInput(2048);
-charcoalFastJungle.addItemInput(<primal:logs_stacked:3>*16);
-charcoalFastJungle.addFluidInput(<liquid:nitrogen> * 500);
-charcoalFastJungle.addFluidOutput(<liquid:wood_tar> * 12000);
-charcoalFastJungle.addItemOutput(<primal:charcoal_high>*36);
-charcoalFastJungle.build();
-
-//Ironwood
- var charcoalIronwood = RecipeBuilder.newBuilder("PyrolyseCharcoalIronwood", "pyrolyseoven", 320);
-charcoalIronwood.addEnergyPerTickInput(2048);
-charcoalIronwood.addItemInput(<primal:logs_stacked:6>*16);
-charcoalIronwood.addFluidOutput(<liquid:wood_tar> * 12000);
-charcoalIronwood.addItemOutput(<primal:charcoal_high>*36);
-charcoalIronwood.build();
-
- var charcoalFastIronwood = RecipeBuilder.newBuilder("PyrolyseCharcoalFastIronwood", "pyrolyseoven", 160);
-charcoalFastIronwood.addEnergyPerTickInput(2048);
-charcoalFastIronwood.addItemInput(<primal:logs_stacked:6 >*16);
-charcoalFastIronwood.addFluidInput(<liquid:nitrogen> * 500);
-charcoalFastIronwood.addFluidOutput(<liquid:wood_tar> * 12000);
-charcoalFastIronwood.addItemOutput(<primal:charcoal_high>*36);
-charcoalFastIronwood.build();
 
 //Corphyry
  var charcoalCorphyry = RecipeBuilder.newBuilder("PyrolyseCharcoalCorphyry", "pyrolyseoven", 320);

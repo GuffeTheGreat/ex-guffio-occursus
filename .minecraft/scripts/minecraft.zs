@@ -71,7 +71,7 @@ recipes.remove(<minecraft:stone_slab:3>);
 //WoodenGearRecipesRemoved
 recipes.remove(<ore:gearWood>);
 
-//Leat´her
+//Leather
 recipes.remove(<minecraft:leather>);
 //Sticks
 recipes.remove(<minecraft:stick>);
@@ -84,19 +84,23 @@ recipes.addShapedMirrored("4x_tile_torch_shapedcoke", <minecraft:torch> * 4, [
 	[<ore:stick>]
 ]);
 
-//Framebench
-recipes.remove(<aoa3:frame_bench>);
+//Enchantingtable
 recipes.remove(<minecraft:enchanting_table>);
 
 //Furnace
 recipes.remove(<minecraft:furnace>);
-
-//Bed
-recipes.remove(<minecraft:bed:*>);
-recipes.addShapedMirrored("1x_item_bed_red_shaped", <minecraft:bed:14>, [
-	[<ore:wool>, <ore:wool>, <ore:wool>],
-	[<immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>, <immersiveengineering:treated_wood>]
+mods.avaritia.ExtremeCrafting.addShaped("1x_tile_furnace_shaped", <minecraft:furnace>, [
+	[<avaritia:block_resource:1>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <avaritia:block_resource:1>],
+	[<minecraft:clay>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay>],
+	[<minecraft:clay>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay>],
+	[<minecraft:clay>, <minecraft:clay_ball>, <minecraft:clay_ball>, <ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay>],
+	[<minecraft:clay>, <minecraft:clay_ball>, <minecraft:clay_ball>, <ore:cobblestone>, null, <ore:cobblestone>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay>],
+	[<minecraft:clay>, <minecraft:clay_ball>, <minecraft:clay_ball>, <ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay>],
+	[<minecraft:clay>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay>],
+	[<minecraft:clay>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay>],
+	[<avaritia:block_resource:1>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <minecraft:clay>, <avaritia:block_resource:1>]
 ]);
+
 
 //Netherbrick
 furnace.remove(<minecraft:netherbrick>);
@@ -104,7 +108,9 @@ furnace.remove(<minecraft:netherbrick>);
 //Planks
 recipes.remove(<minecraft:planks:*>);
 
-
+furnace.setFuel(<minecraft:coal:1>, 1200);
+furnace.setFuel(<primal:charcoal_pure>, 3200);
+furnace.setFuel(<primal:charcoal_mote>, 200);
 
 
 

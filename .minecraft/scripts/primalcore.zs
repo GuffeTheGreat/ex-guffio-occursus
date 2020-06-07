@@ -1,4 +1,8 @@
 import mods.cuisine.Vessel;
+mods.jei.JEI.removeAndHide(<primal:logs_stacked:3>);
+mods.jei.JEI.removeAndHide(<primal:logs_stacked:4>);
+mods.jei.JEI.removeAndHide(<primal:logs_stacked:6>);
+mods.jei.JEI.removeAndHide(<primal:logs_stacked:7>);
 mods.jei.JEI.removeAndHide(<primal:rock_stone>);
 mods.jei.JEI.removeAndHide(<primal:rock_granite>);
 mods.jei.JEI.removeAndHide(<primal:rock_diorite>);
@@ -34,10 +38,8 @@ mods.nuclearcraft.Enricher.addRecipe(<ore:dustTannin>, <liquid:water>*250, <liqu
 mods.rockhounding_chemistry.LabOven.add("Tannin", <primal:tannin_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
 mods.rockhounding_chemistry.LabOven.add("TanninNether", <primal:inferum_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
 mods.primal.Gallagher.removeAll();
-
 //Planks
 recipes.remove(<primal:planks:*>);
-
 //ObsidianPlate
 recipes.remove(<primal:obsidian_shard>);
 furnace.remove(<primal:obsidian_plate>);
@@ -57,6 +59,26 @@ recipes.addShapedMirrored("1x_tile_primal_slat_iron_shaped", <primal:slat_iron>,
 	[<ore:stickIron>, <ore:stickIron>],
 	[<ore:stickIron>, <ore:stickIron>]
 ]);
+//Shears
+//Flint
+recipes.addShapedMirrored("1x_item_primal_flint_shears_shaped", <primal:flint_shears>, [
+	[<pyrotech:material:10>, null],
+	[<ore:cordageGeneral>, <pyrotech:material:10>]
+]);
+//Bone
+recipes.addShapedMirrored("1x_item_primal_bone_shears_shaped", <primal:bone_shears>, [
+	[<pyrotech:material:11>, null],
+	[<ore:cordageGeneral>, <pyrotech:material:11>]
+]);
+/*
+recipes.addShapedMirrored("1x_item_primal_quartz_shears_shaped", <primal:quartz_shears>, [
+	[<jaopca:item_gemflawedquartz>, null],
+	[<ore:cordageQuality>, <jaopca:item_gemflawedquartz>]
+]);
+*/
+
+
+
 
 //Ironmesh
 recipes.remove(<primal:iron_mesh>);
@@ -76,8 +98,8 @@ recipes.addShapedMirrored("1x_tile_primal_hibachi_adobe_shaped", <primal:hibachi
 ]);
 
 //SilkCordage
-recipes.remove(<primal:silk_cordage>);
-recipes.addShapeless("1x_item_primal_silk_cordage_shapeless", <primal:silk_cordage>, [<forestry:crafting_material:2>, <forestry:crafting_material:2>, <forestry:crafting_material:2>]);
+//recipes.remove(<primal:silk_cordage>);
+//recipes.addShapeless("1x_item_primal_silk_cordage_shapeless", <primal:silk_cordage>, [<ore:string>, <ore:string>, <ore:string>]);
 
 
 //Querns
@@ -129,7 +151,7 @@ mods.primal.Cauldron.addRecipe(
     2, 
     <liquid:water>*100, 
     <liquid:ethanol>*100, 
-    [<extratrees:misc:4>*2,<minecraft:sugar>*4], 
+    [<prodigytech:flour>*2,<minecraft:sugar>*4], 
     []
 );
 //Yeast
@@ -138,14 +160,14 @@ mods.primal.Cauldron.addRecipe(
     2, 
     <liquid:water>*200, 
     [<cuisine:food:1>*4], 
-    [<extratrees:misc:4>*8]
+    [<prodigytech:flour>*8]
 );
 //Dough
 mods.primal.Cauldron.addRecipe(
     "dough", 
     2, 
     <liquid:milk>*200, 
-    [<cuisine:food:1>,<extratrees:misc:4>,<ore:dustSalt>,<minecraft:egg>], 
+    [<cuisine:food:1>,<prodigytech:flour>,<ore:dustSalt>,<minecraft:egg>], 
     [<cuisine:food:2>]
 );
 //Sulfuricacid

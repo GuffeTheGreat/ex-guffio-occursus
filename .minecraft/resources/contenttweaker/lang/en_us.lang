@@ -79,6 +79,8 @@ item.contenttweaker.ludicrousprocessor.name=Ludicrous Processor
 item.contenttweaker.divineprocessor.name=Transcendent Processor
 
 item.contenttweaker.carbon_fibres.name=Carbon Fibres
+item.contenttweaker.quarryrat.name=Quarry Rat
+item.contenttweaker.dmrat.name=Digital Miner Rat
 
 fluid.diluted_sulfuric_acid=Diluted Sulfuric Acid
 fluid.hydrogen_sulfide=Hydrogen Sulfide
@@ -94,3 +96,60 @@ fluid.new_rubber=Molten Rubber
 fluid.glue=Glue
 fluid.chlorine=Chlorine
 fluid.eyegoop=Eye Goop
+
+tile.contenttweaker.naquadah_blockore.name=Naquadah Ore
+tile.contenttweaker.enriched_naquadah_block.name=Enriched Naquadah Ore
+
+tile.contenttweaker.draconium_block.name=Draconium Ore
+
+tile.contenttweaker.starmetal_block.name=Starmetal Ore
+tile.contenttweaker.osmium_block.name=Osmium Ore
+tile.contenttweaker.platinum_block.name=Platinum Ore
+tile.contenttweaker.palladium_block.name=Palladium Ore
+tile.contenttweaker.ferberite_block.name=Ferberite Ore
+tile.contenttweaker.arsenopyrite_block.name=Arsenopyrite Ore
+tile.contenttweaker.loellingite_block.name=Loellingite Ore
+tile.contenttweaker.roquesite_block.name=Roquesite Ore
+
+tile.contenttweaker.spessartine_block.name=Spessartine Ore
+tile.contenttweaker.pyrolusite_block.name=Pyrolusite Ore
+tile.contenttweaker.tantalite_block.name=Tantalite Ore
+tile.contenttweaker.grossular_block.name=Grossular Ore
+tile.contenttweaker.sulfur_block.name=Sulfur Ore
+
+tile.contenttweaker.cobalt_block.name=Cobalt Ore
+tile.contenttweaker.vinteum_block.name=Vinteum Ore
+tile.contenttweaker.uraninite_block.name=Uraninite Ore
+tile.contenttweaker.pitchblende_block.name=Pitchblende Ore
+
+tile.contenttweaker.molybdenite_block.name=Molybdenite Ore
+tile.contenttweaker.scheelite_block.name=Scheelite Ore
+tile.contenttweaker.tungstate_block.name=Tungstate Ore
+
+tile.contenttweaker.barite_block.name=Barite Ore
+tile.contenttweaker.bastnasite_block.name=Bastnasite Ore
+tile.contenttweaker.monazite_block.name=Monazite Ore
+
+tile.contenttweaker.phosphor_block.name=Phosphor Ore
+tile.contenttweaker.graphite_block.name=Graphite Ore
+tile.contenttweaker.galena_block.name=Galena Ore
+tile.contenttweaker.magnetite_block.name=Magnetite Ore
+tile.contenttweaker.vanadiummagnetite_block.name=Vanadium Magnetite Ore
+tile.contenttweaker.ruby_block.name=Ruby Ore
+tile.contenttweaker.cobaltite_block.name=Cobaltite Ore
+tile.contenttweaker.garnierite_block.name=Garnierite Ore
+tile.contenttweaker.pentlandite_block.name=Pentlandite Ore
+tile.contenttweaker.sodalite_block.name=Sodalite Ore
+tile.contenttweaker.calcite_block.name=Calcie Ore
+tile.contenttweaker.cassiterite_block.name=Cassiterite Ore
+tile.contenttweaker.tetrahedrite_block.name=Tetrahedrite Ore
+tile.contenttweaker.stibnite_block.name=Stibnite Ore
+tile.contenttweaker.chalcopyrite_block.name=Chalcoopyrite Ore
+tile.contenttweaker.malachite_block.name=Malachite Ore
+tile.contenttweaker.pyrite_block.name=Pyrite Ore
+tile.contenttweaker.beryllium_block.name=Beryllium Ore
+tile.contenttweaker.soapstone_block.name=Soapstone Ore
+tile.contenttweaker.talc_block.name=Talc Ore
+tile.contenttweaker.glauconite_block.name=Glauconite Ore
+tile.contenttweaker.lepidolite_block.name=Lepiodlite Ore
+tile.contenttweaker.spodumene_block.name=Spodumene Ore
