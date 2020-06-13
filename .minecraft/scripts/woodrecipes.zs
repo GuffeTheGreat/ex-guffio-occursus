@@ -34,11 +34,6 @@ var woodRecipes as IItemStack[IItemStack] = {
     <thebetweenlands:giant_root> : <thebetweenlands:giant_root_planks>,
     <thebetweenlands:log_rotten_bark> : <thebetweenlands:rotten_planks>,
     <moreplanets:cheese_spore_stem> : <moreplanets:cheese_spore_planks>,
-    <moreplanets:infected_oak_log> : <moreplanets:infected_oak_planks>,
-    <moreplanets:infected_spruce_log> : <moreplanets:infected_spruce_planks>,
-    <moreplanets:infected_deadwood_log> : <moreplanets:infected_oak_planks>,
-    <moreplanets:infected_jungle_log> : <moreplanets:infected_spruce_planks>,
-    <moreplanets:alien_berry_oak_log> : <moreplanets:alien_berry_oak_planks>,
     <cuisine:log> : <cuisine:planks>,
     <astralsorcery:blockinfusedwood> : <astralsorcery:blockinfusedwood:1>
 	};
@@ -113,11 +108,6 @@ var slabRecipes as IItemStack[IItemStack] = {
     <thebetweenlands:giant_root_plank_slab> : <thebetweenlands:giant_root_planks>,
     <thebetweenlands:rotten_plank_slab> : <thebetweenlands:rotten_planks>,
     <moreplanets:cheese_spore_stem> : <moreplanets:cheese_spore_planks>,
-    <moreplanets:infected_oak_log> : <moreplanets:infected_oak_planks>,
-    <moreplanets:infected_spruce_log> : <moreplanets:infected_spruce_planks>,
-    <moreplanets:infected_deadwood_log> : <moreplanets:infected_oak_planks>,
-    <moreplanets:infected_jungle_log> : <moreplanets:infected_spruce_planks>,
-    <moreplanets:alien_berry_oak_log> : <moreplanets:alien_berry_oak_planks>,
     <cuisine:log> : <cuisine:planks>,
     <astralsorcery:blockinfusedwood> : <astralsorcery:blockinfusedwood:1>
 	};

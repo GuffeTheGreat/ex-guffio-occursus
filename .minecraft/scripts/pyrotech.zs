@@ -10,6 +10,8 @@ import mods.pyrotech.PitKiln;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import mods.pyrotech.Burn;
+import mods.pyrotech.CompactingBin;
+import mods.pyrotech.MechanicalCompactor;
 
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
@@ -336,6 +338,14 @@ IroncladAnvil.addRecipe("dawnstone_plate", <embers:plate_dawnstone>, <embers:ing
 IroncladAnvil.addRecipe("aluminium_plate", <embers:plate_aluminum>, <embers:ingot_aluminum>, 8, "hammer");
 IroncladAnvil.addRecipe("electrum_plate", <embers:plate_electrum>, <ore:ingotElectrum>, 8, "hammer");
 IroncladAnvil.addRecipe("nickel_plate", <embers:plate_nickel>, <embers:ingot_nickel>, 8, "hammer");
+
+//CompactingBin
+recipes.remove(<primal:thatching_wet>);
+CompactingBin.addRecipe("thatchingfromgrass", <primal:thatching_wet>, <minecraft:tallgrass:1>, 4);
+CompactingBin.addRecipe("thatchingfromrush", <primal:thatching_wet>, <primal:rush_stems>, 2);
+
+
+
 
 //StoneMacines
 recipes.remove(<pyrotech:stone_kiln>);

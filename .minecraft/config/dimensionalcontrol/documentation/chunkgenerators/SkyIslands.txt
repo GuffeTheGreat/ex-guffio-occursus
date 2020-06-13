@@ -7,85 +7,15 @@ distance value to create a 'density' value.
 
 
 
-setMainBlock:
-    Arguments:
-        String, Integer
-    Usage:
-        block id, meta
-    Notes:
-        Sets the main block for the island.
-
-setMainBlock:
-    Arguments:
-        String
-    Usage:
-        block id
-    Default Values:
-        minecraft:stone
-    Notes:
-        Sets the main block for the island.
-
-decorateBiomes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if biomes should be decorated.
-
-populateIce:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if ice/snow should be populated.
-
-populateLakes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if lakes should be populated.
-
-populateAnimals:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if animals should be populated.
-
-setRegionSize:
+setIslandHeightMin:
     Arguments:
         int
     Usage:
-        region size
+        height
     Default Values:
-        512
+        0
     Notes:
-        Sets the island region size.
-
-setMinBlockDensity:
-    Arguments:
-        double
-    Usage:
-        density
-    Default Values:
-        0.3
-    Notes:
-        Sets the minimum `density` value required for blocks to be placed.
-
-setDistanceStretch:
-    Arguments:
-        double, double, double
-    Usage:
-        x stretch, y bottom stretch, z stretch
-    Default Values:
-        1, 2, 1
-    Notes:
-        Sets the distance stretch values for the island.
+        Sets the minimum height for the bottom of the island.
 
 setIslandHeightMax:
     Arguments:
@@ -96,6 +26,16 @@ setIslandHeightMax:
         236
     Notes:
         Sets the maximum height for the top of the island.
+
+setMaxIslandRadius:
+    Arguments:
+        int
+    Usage:
+        radius
+    Default Values:
+        100
+    Notes:
+        Sets the max island radius.
 
 generateBiomeBlocks:
     Arguments:
@@ -113,26 +53,6 @@ populateLavaLakes:
     Notes:
         Sets if lava lakes should be populated.
 
-setMaxIslandRadius:
-    Arguments:
-        int
-    Usage:
-        radius
-    Default Values:
-        100
-    Notes:
-        Sets the max island radius.
-
-setIslandHeightMin:
-    Arguments:
-        int
-    Usage:
-        height
-    Default Values:
-        0
-    Notes:
-        Sets the minimum height for the bottom of the island.
-
 setNoisePersistence:
     Arguments:
         double
@@ -142,6 +62,42 @@ setNoisePersistence:
         0.45
     Notes:
         Sets how much each octave of noise is used compared to the one before it.
+
+setDistanceStretch:
+    Arguments:
+        double, double, double
+    Usage:
+        x stretch, y bottom stretch, z stretch
+    Default Values:
+        1, 2, 1
+    Notes:
+        Sets the distance stretch values for the island.
+
+setMinBlockDensity:
+    Arguments:
+        double
+    Usage:
+        density
+    Default Values:
+        0.3
+    Notes:
+        Sets the minimum `density` value required for blocks to be placed.
+
+populateIce:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if ice/snow should be populated.
+
+decorateBiomes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if biomes should be decorated.
 
 setNoiseSize:
     Arguments:
@@ -153,6 +109,24 @@ setNoiseSize:
     Notes:
         Sets the noise sizes for the island.
 
+populateLakes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if lakes should be populated.
+
+setRegionSize:
+    Arguments:
+        int
+    Usage:
+        region size
+    Default Values:
+        512
+    Notes:
+        Sets the island region size.
+
 setNoiseOctaves:
     Arguments:
         int
@@ -162,6 +136,32 @@ setNoiseOctaves:
         6
     Notes:
         Sets the number of octaves used for the island noise.
+
+populateAnimals:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if animals should be populated.
+
+setMainBlock:
+    Arguments:
+        String, Integer
+    Usage:
+        block id, meta
+    Notes:
+        Sets the main block for the island.
+
+setMainBlock:
+    Arguments:
+        String
+    Usage:
+        block id
+    Default Values:
+        minecraft:stone
+    Notes:
+        Sets the main block for the island.
 
 setGenerationOptions:
     Arguments:

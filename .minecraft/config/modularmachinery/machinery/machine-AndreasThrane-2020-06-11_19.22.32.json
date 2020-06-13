@@ -1,0 +1,224 @@
+{
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration0@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveintelligence:metal_decoration@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration0@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:diamond_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:ieslab","slabType":"0"},
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        }
+    ]}

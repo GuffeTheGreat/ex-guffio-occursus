@@ -1,1 +1,27 @@
-[]
+[
+   {
+    "hostile": true,
+    "block": ["ore:concrete"],
+    "result": "deny"
+  },
+   {
+    "hostile": true,
+    "minlight": 7,
+    "maxlight": 15,
+    "result": "deny"
+  },
+   {
+    "mob": ["minecraft:squid"],
+    "result": "deny"
+  },
+   {
+    "hostile": true,
+    "block": ["minecraft:grass", "minecraft:dirt", "minecraft:sand", "minecraft:gravel", "minecraft:dirt:1", "minecraft:coal_ore", "magneticraft:limestone", "minecraft:sandstone"],
+    "result": "deny"
+  },
+  {
+    "hostile": false,
+    "block": ["minecraft:obsidian"],
+    "result": "deny"
+  }
+]

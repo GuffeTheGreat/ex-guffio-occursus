@@ -1,4 +1,13 @@
+/*
 import mods.artisanworktables.builder.RecipeBuilder;
+
+//BasicWorktable
+recipes.addShapedMirrored("1x_tile_artisanworktables_workstation_basic_shaped", <artisanworktables:workstation:5>, [
+	[<pyrotech:crude_axe>.transformDamage(4);, <ore:workbench>, <pyrotech:crude_pickaxe>.transformDamage(4);],
+	[null, <pyrotech:crude_shovel>.transformDamage(4);, null]
+]);
+
+
 //MasonsWorktables
 //Blastfurnace
 RecipeBuilder.get("mason")
@@ -189,3 +198,5 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansBeaker>, 1)
   .addOutput(<primal:mortar> * 10)
   .create();
+
+  */

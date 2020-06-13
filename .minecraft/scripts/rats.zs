@@ -12,12 +12,12 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_basic_shaped2", <rats:rat_up
 	[<rats:rat_diamond>, <rats:cheese>, <rats:rat_diamond>]
 ]);
 
-/*
+
 //RatGem
 recipes.remove(<rats:gem_of_ratlantis>);
 recipes.addShapedMirrored("1x_item_rats_gem_of_ratlantis_shaped", <rats:gem_of_ratlantis>, [
 	[<rats:rat_diamond>, <rats:ratglove_petals>, <rats:rat_diamond>],
-	[<rats:ratglove_petals>, <jaopca:item_platedenseemerald>, <rats:ratglove_petals>],
+	[<rats:ratglove_petals>, <ore:blockEmerald>, <rats:ratglove_petals>],
 	[<rats:rat_diamond>, <rats:ratglove_petals>, <rats:rat_diamond>]
 ]);
 
@@ -29,12 +29,13 @@ mods.jei.JEI.removeAndHide(<rats:rat_upgrade_ore_doubling>);
 mods.rats.recipes.removeChefRatRecipe(<rats:confit_byaldi>);
 mods.rats.recipes.addChefRatRecipe(<avaritia:ultimate_stew>, <rats:confit_byaldi>);
 
+//Gemcutter
+mods.rats.recipes.removeGemcutterRatRecipe(<rats:rat_diamond>);
+mods.rats.recipes.addGemcutterRatRecipe(<botania:manaresource:2>, <rats:rat_diamond>);
 mods.rats.recipes.removeGemcutterRatRecipe(<rats:little_black_squash_balls>);
 mods.rats.recipes.addGemcutterRatRecipe(<actuallyadditions:item_crystal_empowered:3>, <rats:little_black_squash_balls>);
-
-//ChaosShard
 mods.rats.recipes.addGemcutterRatRecipe(<draconicevolution:chaos_shard:3>, <avaritia:resource:2>);
-
+/*
 
 //Ratsspeedupgrade
 recipes.remove(<rats:rat_upgrade_speed>);
@@ -113,6 +114,18 @@ recipes.addShapedMirrored("1x_item_rats_rat_upgrade_milker_shaped", <rats:rat_up
 	[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>],
 	[<primal:pelt_cow>, <rats:rat_upgrade_bucket>, <primal:pelt_cow>],
 	[<minecraft:milk_bucket>, <minecraft:milk_bucket>, <minecraft:milk_bucket>]
+]);
+
+mods.avaritia.ExtremeCrafting.addShaped("1x_item_rats_ratlantean_flame_shaped", <rats:ratlantean_flame>, [
+	[null, <advsolars:sunnarium_enriched_plate>, null, null, <advsolars:sunnarium_enriched_plate>, null, null, <advsolars:sunnarium_enriched_plate>, null],
+	[<advsolars:sunnarium_enriched_plate>, <silentgems:gemblocksuperlight:2>, <advsolars:sunnarium_enriched_plate>, null, <advsolars:sunnarium_enriched_plate>, null, <advsolars:sunnarium_enriched_plate>, <silentgems:gemblocksuperlight:2>, <advsolars:sunnarium_enriched_plate>],
+	[null, <advsolars:sunnarium_enriched_plate>, <advsolars:sunnarium_enriched_plate>, <draconicevolution:awakened_core>, <advsolars:sunnarium_enriched_plate>, <draconicevolution:awakened_core>, <advsolars:sunnarium_enriched_plate>, <advsolars:sunnarium_enriched_plate>, null],
+	[null, null, <extrabotany:material:7>, <avaritia:block_resource>, <rats:idol_of_ratlantis>, <avaritia:block_resource>, <extrabotany:material:7>, null, null],
+	[<advsolars:sunnarium_enriched_plate>, <advsolars:sunnarium_enriched_plate>, <draconicevolution:awakened_core>, <rats:idol_of_ratlantis>, <avaritia:resource:5>, <rats:idol_of_ratlantis>, <draconicevolution:awakened_core>, <advsolars:sunnarium_enriched_plate>, <advsolars:sunnarium_enriched_plate>],
+	[null, null, <extrabotany:material:7>, <avaritia:block_resource>, <rats:idol_of_ratlantis>, <avaritia:block_resource>, <extrabotany:material:7>, null, null],
+	[null, <advsolars:sunnarium_enriched_plate>, <advsolars:sunnarium_enriched_plate>, <draconicevolution:awakened_core>, <advsolars:sunnarium_enriched_plate>, <draconicevolution:awakened_core>, <advsolars:sunnarium_enriched_plate>, <advsolars:sunnarium_enriched_plate>, null],
+	[<advsolars:sunnarium_enriched_plate>, <silentgems:gemblocksuperlight:2>, <advsolars:sunnarium_enriched_plate>, null, <advsolars:sunnarium_enriched_plate>, null, <advsolars:sunnarium_enriched_plate>, <silentgems:gemblocksuperlight:2>, <advsolars:sunnarium_enriched_plate>],
+	[null, <advsolars:sunnarium_enriched_plate>, null, null, <advsolars:sunnarium_enriched_plate>, null, null, <advsolars:sunnarium_enriched_plate>, null]
 ]);
 
 

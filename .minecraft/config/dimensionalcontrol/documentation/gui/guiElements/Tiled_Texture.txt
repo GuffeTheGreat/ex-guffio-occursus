@@ -11,6 +11,14 @@ setTileSize:
     Notes:
         Sets the tile size.
 
+setAbsRenderHeight:
+    Arguments:
+        int
+    Usage:
+        height
+    Notes:
+        Sets the height to render the texture in pixels.
+
 setAbsRenderWidth:
     Arguments:
         int
@@ -26,14 +34,6 @@ setRelRenderWidth:
         width
     Notes:
         Sets the width to render the texture relative to the screen size.
-
-setAbsRenderHeight:
-    Arguments:
-        int
-    Usage:
-        height
-    Notes:
-        Sets the height to render the texture in pixels.
 
 setRelRenderHeight:
     Arguments:
