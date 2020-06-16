@@ -76,7 +76,8 @@ recipes.addShapedMirrored("1x_item_primal_quartz_shears_shaped", <primal:quartz_
 	[<ore:cordageQuality>, <jaopca:item_gemflawedquartz>]
 ]);
 */
-
+//ObsidianPlate
+mods.advancedrocketry.PlatePresser.addRecipe(<primal:obsidian_plate>*4,<minecraft:obsidian>*1);
 
 
 

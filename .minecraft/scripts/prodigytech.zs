@@ -5,5 +5,8 @@ recipes.addShapedMirrored("1x_tile_prodigytech_explosion_furnace_shaped", <prodi
 	[<primal:hardened_stone>, <pyrotech:material:33>, <primal:hardened_stone>]
 ]);
 
+mods.prodigytech.atomicreshaper.addRecipeMulti(<iceandfire:pixie_wings>, 100, 120, [<minecraft:elytra>]);
+mods.prodigytech.atomicreshaper.addRecipeMulti(<silentgems:gemsuper:47>, 300, 120, [<thaumcraft:primordial_pearl>]);
+
 
 

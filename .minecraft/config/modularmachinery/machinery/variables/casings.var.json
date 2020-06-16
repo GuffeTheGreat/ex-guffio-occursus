@@ -8,6 +8,15 @@
         "modularmachinery:blockenergyoutputhatch",
         "modularmachinery:blockfluidoutputhatch"
     ],
+    "boiler_casing": [
+        "modularmachinery:blockcasing@2",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyoutputhatch",
+        "modularmachinery:blockfluidoutputhatch"
+    ],
     "casings_decorative": [
         "modularmachinery:blockcasing"
     ],

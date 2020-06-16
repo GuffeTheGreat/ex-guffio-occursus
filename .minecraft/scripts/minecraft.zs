@@ -32,19 +32,53 @@ recipes.remove(<minecraft:glowstone_dust>*4);
 //Piston
 recipes.remove(<minecraft:piston>);
 recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
-	[<pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>, <pyrotech:refractory_brick_block>],
+	[<pyrotech:material:5>, <minecraft:planks>, <pyrotech:material:5>],
 	[<ore:stone>, <crossroads:axle>, <ore:stone>],
 	[<ore:stone>, <thaumcraft:inlay>, <ore:stone>]
 ]);
 
 //Gunpowder
+//CraftingTable
 recipes.remove(<minecraft:gunpowder>);
-recipes.addShapeless("1x_item_sulphur_shapeless", <minecraft:gunpowder>, [<ore:dustSaltpeter>, <ore:dustSulfur>, <ore:charcoal>]);
+recipes.addShapeless("1x_item_sulphur_shapeless", <minecraft:gunpowder>*2, [<ore:dustSaltpeter>, <ore:dustSulfur>, <rockhounding_chemistry:chemical_items:13>]);
+//Labblender
+//mods.rockhounding_chemistry.LabBlender.add([<immersiveengineering:material:24>, <ore:dustSulfur>, <ore:compoundCharcoal>], <minecraft:gunpowder>*4);
 
 //CharcoalCleanup
 furnace.remove(<minecraft:coal:1>);
 recipes.remove(<minecraft:coal:1>);
 recipes.addShapeless("9x_item_charcoal_shapeless", <minecraft:coal:1> * 9, [<ore:blockCharcoal>]);
+recipes.remove(<actuallyadditions:block_misc:5>);
+recipes.remove(<woot:stygianiron>);
+recipes.remove(<pyrotech:charcoal_block>);
+recipes.remove(<metallurgy:charcoal_block>);
+recipes.remove(<rockhounding_chemistry:misc_blocks_a:11>);
+recipes.addShapedMirrored("poorcharcoalblock", <actuallyadditions:block_misc:5>, [
+	[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
+	[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
+	[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>]
+]);
+recipes.addShapedMirrored("faircharcoalblock", <woot:stygianiron>, [
+	[<primal:charcoal_fair>, <primal:charcoal_fair>, <primal:charcoal_fair>],
+	[<primal:charcoal_fair>, <primal:charcoal_fair>, <primal:charcoal_fair>],
+	[<primal:charcoal_fair>, <primal:charcoal_fair>, <primal:charcoal_fair>]
+]);
+recipes.addShapedMirrored("1x_tile_pyrotech_charcoal_block_shaped", <pyrotech:charcoal_block>, [
+	[<primal:charcoal_good>, <primal:charcoal_good>, <primal:charcoal_good>],
+	[<primal:charcoal_good>, <primal:charcoal_good>, <primal:charcoal_good>],
+	[<primal:charcoal_good>, <primal:charcoal_good>, <primal:charcoal_good>]
+]);
+recipes.addShapedMirrored("1x_tile_metallurgy_charcoal_block_shaped", <metallurgy:charcoal_block>, [
+	[<primal:charcoal_high>, <primal:charcoal_high>, <primal:charcoal_high>],
+	[<primal:charcoal_high>, <primal:charcoal_high>, <primal:charcoal_high>],
+	[<primal:charcoal_high>, <primal:charcoal_high>, <primal:charcoal_high>]
+]);
+recipes.addShapedMirrored("1x_tile_rockhounding_chemistry_misc_blocks_a_charcoal_block_shaped", <rockhounding_chemistry:misc_blocks_a:11>, [
+	[<primal:charcoal_pure>, <primal:charcoal_pure>, <primal:charcoal_pure>],
+	[<primal:charcoal_pure>, <primal:charcoal_pure>, <primal:charcoal_pure>],
+	[<primal:charcoal_pure>, <primal:charcoal_pure>, <primal:charcoal_pure>]
+]);
+
 
 //PaperCleanup
 recipes.remove(<minecraft:paper>);

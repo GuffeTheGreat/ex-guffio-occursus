@@ -43,7 +43,9 @@ game.setLocalization("fluid.rubber", "Sap");
 <nuclearcraft:part:11>.displayName = "Advanced Casing";
 <nuclearcraft:part:10>.displayName = "Elite Casing";
 <nuclearcraft:part:12>.displayName = "Insane Casing";
-<extendedcrafting:frame>.displayName = "Ludicrous Casing";
+<alchemistry:fission_casing>.displayName = "Ludicrous Casing";
+<alchemistry:fusion_casing>.displayName = "Absurd Casing";
+<extendedcrafting:frame>.displayName = "Divine Casing";
 <actuallyadditions:block_misc:8>.displayName = "Transcendent Casing";
 
 <extendedcrafting:storage:4>.displayName = "Block of Guffio";
@@ -52,16 +54,7 @@ game.setLocalization("fluid.rubber", "Sap");
 <extendedcrafting:material:32>.displayName = "Guffio Ingot";
 <extendedcrafting:material:33>.displayName = "Guffio Nugget";
 <extendedcrafting:singularity_ultimate>.displayName = "Guffio Catalyst";
-/*
-<jaopca:item_dustultimate>.displayName = "Guffio Dust";
-<jaopca:item_coinultimate>.displayName = "Guffio Coin";
-<jaopca:item_gearultimate>.displayName = "Guffio Gear";
-<jaopca:item_platedenseultimate>.displayName = "Guffio Plate";
-<jaopca:item_dustsmallultimate>.displayName = "Guffio Rod";
-<jaopca:item_dusttinyultimate>.displayName = "Tiny Pile of Guffio Dust";
-<jaopca:item_stickultimate>.displayName = "Small Pile of Guffio Dust";
-<jaopca:item_plateultimate>.displayName = "Dense Guffio Plate";
-*/
+
 //CharcoalRelatedThings
 //WoodStacks
 <primal:logs_stacked:2>.displayName = "Poor Grade Log Stack";
@@ -71,10 +64,20 @@ game.setLocalization("fluid.rubber", "Sap");
 <primal:logs_stacked:5>.displayName = "Pure Carbon Log Stack";
 
 //Charcoal
-<primal:logs_stacked:2>.displayName = "Poor Grade Charcoal";
+<minecraft:coal:1>.displayName = "Poor Grade Charcoal";
 //CharcoalBLocks
-<minecraft:coal:1>.displayName = "Poor Grade Charcoal Block";
-<chisel:block_charcoal2:1>.displayName = "Fair Grade Charcoal Block";
+<actuallyadditions:block_misc:5>.displayName = "Poor Grade Charcoal Block";
+<woot:stygianiron>.displayName = "Fair Grade Charcoal Block";
 <pyrotech:charcoal_block>.displayName = "Good Grade Charcoal Block";
 <metallurgy:charcoal_block>.displayName = "High Grade Charcoal Block";
 <rockhounding_chemistry:misc_blocks_a:11>.displayName = "Pure Carbon Block";
+
+//FluidOutputs
+<modularmachinery:blockfluidoutputhatch>.displayName = "Basic Fluid Output Hatch";
+<modularmachinery:blockfluidoutputhatch:1>.displayName = "Intermediate Fluid Output Hatch";
+<modularmachinery:blockfluidoutputhatch:2>.displayName = "Advanced Fluid Output Hatch";
+<modularmachinery:blockfluidoutputhatch:3>.displayName = "Elite Fluid Output Hatch";
+<modularmachinery:blockfluidoutputhatch:4>.displayName = "Insane Fluid Output Hatch";
+<modularmachinery:blockfluidoutputhatch:5>.displayName = "Ludicrous Fluid Output Hatch";
+<modularmachinery:blockfluidoutputhatch:6>.displayName = "Absurd Fluid Output Hatch";
+<modularmachinery:blockfluidoutputhatch:7>.displayName = "Divine Fluid Output Hatch";

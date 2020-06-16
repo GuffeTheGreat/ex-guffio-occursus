@@ -135,10 +135,6 @@ mods.alchemistry.Util.createCompound(1016, "Yellow Limonite", 189, 168, 0,
 ["oxygen", 1],
  ["hydrogen", 2]]);
 
-  mods.alchemistry.Util.createCompound(1017, "Banded Iron", 61, 72, 73,
-[["iron", 2],
- ["oxygen", 3]]);
-
 mods.alchemistry.Util.createCompound(1018, "Malachite", 14, 255, 0,
 [["copper", 2],
 ["carbon", 1],
@@ -269,9 +265,10 @@ mods.alchemistry.Util.createCompound(1043, "Asbestos", 209, 211, 212,
 ["silicon", 2],
 ["hydrogen", 4],
  ["oxygen", 9]]);
-
-mods.alchemistry.Util.createCompound(1045, "Diatomite", 216, 216, 216,
+/*
+mods.alchemistry.Util.createCompound(1044, "Diatomite", 216, 216, 216,
 [["silicon dioxide", 8],
-["banded iron", 1],
+["iron oxide", 1],
 ["aluminum oxide", 1]]); 
 
+*/

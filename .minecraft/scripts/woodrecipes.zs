@@ -16,8 +16,6 @@ var woodRecipes as IItemStack[IItemStack] = {
     <minecraft:log2> : <minecraft:planks:4>,
     <minecraft:log2:1> : <minecraft:planks:5>,
     <randomthings:spectrelog> : <randomthings:spectreplank>,
-    <primal:logs> : <primal:planks:3>,
-    <primal:corypha_stalk> : <primal:planks:3>,
     <thaumcraft:log_greatwood> : <thaumcraft:plank_greatwood>,
     <thaumcraft:log_silverwood> : <thaumcraft:plank_silverwood>,
     <thaumcraft:taint_log> : <thaumadditions:taintwood_planks>,
@@ -33,7 +31,6 @@ var woodRecipes as IItemStack[IItemStack] = {
     <thebetweenlands:log_rubber> : <thebetweenlands:rubber_tree_planks>,
     <thebetweenlands:giant_root> : <thebetweenlands:giant_root_planks>,
     <thebetweenlands:log_rotten_bark> : <thebetweenlands:rotten_planks>,
-    <moreplanets:cheese_spore_stem> : <moreplanets:cheese_spore_planks>,
     <cuisine:log> : <cuisine:planks>,
     <astralsorcery:blockinfusedwood> : <astralsorcery:blockinfusedwood:1>
 	};
@@ -97,8 +94,6 @@ var slabRecipes as IItemStack[IItemStack] = {
     <minecraft:wooden_slab:3> : <minecraft:planks:3>,
     <minecraft:wooden_slab:4> : <minecraft:planks:4>,
     <minecraft:wooden_slab:5> : <minecraft:planks:5>,
-    <primal:slab_ironwood> : <primal:planks>,
-    <primal:slab_corypha> : <primal:planks:3>,
     <thaumcraft:slab_greatwood> : <thaumcraft:plank_greatwood>,
     <thaumcraft:slab_silverwood> : <thaumcraft:plank_silverwood>,
     <thebetweenlands:hearthgrove_plank_slab> : <thebetweenlands:hearthgrove_planks>,
@@ -107,7 +102,6 @@ var slabRecipes as IItemStack[IItemStack] = {
     <thebetweenlands:rubber_tree_plank_slab> : <thebetweenlands:rubber_tree_planks>,
     <thebetweenlands:giant_root_plank_slab> : <thebetweenlands:giant_root_planks>,
     <thebetweenlands:rotten_plank_slab> : <thebetweenlands:rotten_planks>,
-    <moreplanets:cheese_spore_stem> : <moreplanets:cheese_spore_planks>,
     <cuisine:log> : <cuisine:planks>,
     <astralsorcery:blockinfusedwood> : <astralsorcery:blockinfusedwood:1>
 	};

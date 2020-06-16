@@ -7,7 +7,7 @@ mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyinputhatch:7>);
 
 #Pyrolyseoven
  //Poor
- var poorCharcoalBirch = RecipeBuilder.newBuilder("PyrolysePoorCharcoalBirch", "pyrolyseoven", 320);
+var poorCharcoalBirch = RecipeBuilder.newBuilder("PyrolysePoorCharcoalBirch", "pyrolyseoven", 320);
 poorCharcoalBirch.addEnergyPerTickInput(2048);
 poorCharcoalBirch.addItemInput(<primal:logs_stacked:2>*16);
 poorCharcoalBirch.addFluidOutput(<liquid:wood_tar> * 6000);

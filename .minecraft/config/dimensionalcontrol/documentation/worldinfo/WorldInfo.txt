@@ -11,43 +11,11 @@ setSeed:
     Notes:
         Sets the world seed.
 
-setGeneratorOptions:
-    Arguments:
-        String
-    Usage:
-        vanilla generation options string
-    Notes:
-        Sets the generator options string. This is the string used by the vanilla Customized world type for customizing the world.
-
-setCommandsAllowed:
-    Arguments:
-        Boolean
-    Notes:
-        Sets if commands are allowed.
-
-setMapFeaturesEnabled:
-    Arguments:
-        Boolean
-    Notes:
-        Sets if map features are enabled.
-
-setDifficultyLocked:
-    Arguments:
-        Boolean
-    Notes:
-        Sets if the difficulty is locked.
-
 setRaining:
     Arguments:
         Boolean
     Notes:
         Sets permanent raining.
-
-setThundering:
-    Arguments:
-        Boolean
-    Notes:
-        Sets permanent thundering.
 
 setDifficulty:
     Arguments:
@@ -64,4 +32,36 @@ setWorldType:
         WorldType ID
     Notes:
         Sets the world type.
+
+setThundering:
+    Arguments:
+        Boolean
+    Notes:
+        Sets permanent thundering.
+
+setDifficultyLocked:
+    Arguments:
+        Boolean
+    Notes:
+        Sets if the difficulty is locked.
+
+setCommandsAllowed:
+    Arguments:
+        Boolean
+    Notes:
+        Sets if commands are allowed.
+
+setGeneratorOptions:
+    Arguments:
+        String
+    Usage:
+        vanilla generation options string
+    Notes:
+        Sets the generator options string. This is the string used by the vanilla Customized world type for customizing the world.
+
+setMapFeaturesEnabled:
+    Arguments:
+        Boolean
+    Notes:
+        Sets if map features are enabled.
 

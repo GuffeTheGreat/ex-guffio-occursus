@@ -32,7 +32,6 @@ mods.jei.JEI.removeAndHide(<pyrotech:dense_nether_coal_ore>);
 mods.jei.JEI.removeAndHide(<pyrotech:bone_pickaxe>);
 mods.jei.JEI.removeAndHide(<pyrotech:flint_pickaxe>);
 mods.jei.JEI.removeAndHide(<pyrotech:obsidian_pickaxe>);
-mods.jei.JEI.removeAndHide(<pyrotech:drying_rack:1>);
 
 var counter = 0;
 //Liquidclay
@@ -280,7 +279,12 @@ var hammerRecipes as IItemStack[IIngredient] = {
     <primal:charcoal_fair> : <primal:charcoal_mote>*8,
 	<primal:charcoal_good> : <primal:charcoal_mote>*10,
     <primal:charcoal_high> : <primal:charcoal_mote>*12,
-    <primal:charcoal_pure> : <primal:charcoal_mote>*16
+    <primal:charcoal_pure> : <primal:charcoal_mote>*16,
+    <actuallyadditions:block_misc:5> : <minecraft:coal:1>*9,
+    <chisel:block_charcoal2:1> : <primal:charcoal_fair>*9,
+	<pyrotech:charcoal_block> : <primal:charcoal_good>*9,
+    <metallurgy:charcoal_block> : <primal:charcoal_high>*9,
+    <rockhounding_chemistry:misc_blocks_a:11> : <primal:charcoal_pure>*9
 	};
 
 counter = 0;
@@ -416,7 +420,8 @@ SoakingPot.addRecipe("tanned_hide", <primal:hide_tanned>, <liquid:tannin>*250, <
 SoakingPot.addRecipe("tanned_pigman_hide", <primal:pigman_hide_tanned>, <liquid:tannin>*250, <primal:pigman_hide_dried>, 3 * 30 * 20);
 //Thaumcraft
 SoakingPot.addRecipe("salismundus", <thaumcraft:salis_mundus>, <liquid:fluidedmana>*250, <ore:dustLapis>, 4 * 30 * 20);
-SoakingPot.addRecipe("quartzsliver", <thaumcraft:nugget:9>, <liquid:fluidedmana>*50, <ore:gemChippedQuartz>, 15 * 20);
+SoakingPot.addRecipe("quartzsliver", <thaumcraft:nugget:9>, <liquid:fluidedmana>*50, <ore:pointQuartz>, 15 * 20);
+SoakingPot.addRecipe("quicksilver", <thaumcraft:quicksilver>, <liquid:fluidedmana>*100, <ore:ingotQuickSilver>, 15 * 20);
 //Sugar
 SoakingPot.addRecipe("sugarfrombamboo", <minecraft:sugar>, <liquid:sugarcane_juice>*200, <ore:charcoal>, 2 * 30 * 20);
 SoakingPot.addRecipe("sugarfromcharcoal", <minecraft:sugar>, <liquid:sugarcane_juice>*250, <ore:charcoal>, 2 * 30 * 20);

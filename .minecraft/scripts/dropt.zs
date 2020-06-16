@@ -75,13 +75,6 @@ Dropt.list("silk_ore")
           .items([<thebetweenlands:valonite_ore>])
       )
   );
-    Dropt.list("silk_ore")
-    .add(Dropt.rule()
-      .matchBlocks(["thaumcraft:ore_amber"])
-      .addDrop(Dropt.drop()
-          .items([<thaumcraft:ore_amber>])
-      )
-  );
 
   Dropt.list("silk_ore")
     .add(Dropt.rule()

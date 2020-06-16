@@ -1,21 +1,19 @@
 {
 	"ores": [{
 			"blocks": [
-				"thaumcraft:ore_quartz",
-				50,
-				"appliedenergistics2:quartz_ore",
-				40,
-				"appliedenergistics2:charged_quartz_ore",
+				"thaumcraft:ore_amber",
+				90,
+				"metallurgy:atlarus_ore",
 				10
 			],
 			"samples": [
 				"botania:mushroom",
 				100
 			],
-			"yMin": 30,
-			"yMax": 60,
-			"chance": 6,
-			"size":150,
+			"yMin": 2,
+			"yMax": 20,
+			"chance": 3,
+			"size":80,
 			"dimWhitelist": [
 				0
 			],

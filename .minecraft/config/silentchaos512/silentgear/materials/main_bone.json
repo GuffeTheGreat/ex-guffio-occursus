@@ -1,0 +1,41 @@
+{
+    "type": "main",
+    "stats": [
+        {"name": "durability",      "value":  48},
+        {"name": "armor_durability","value":   4},
+        {"name": "enchantability",  "value":   2},
+        {"name": "harvest_level",   "value":    1},
+        {"name": "harvest_speed",   "value":   4},
+        {"name": "melee_damage",    "value":    4},
+        {"name": "magic_damage",    "value":    0},
+        {"name": "attack_speed",    "value":  -4},
+        {"name": "armor",           "value":   4.5},
+        {"name": "magic_armor",     "value":   0},
+        {"name": "ranged_damage",   "value":    2},
+        {"name": "ranged_speed",    "value":  0.5},
+        {"name": "rarity",          "value":   1},
+        {"name": "chargeability",   "value":  1.0}
+    ],
+    "traits": [
+        {"name": "silentgear:jagged", "level": 2}
+    ],
+    "crafting_items": {
+        "normal": {
+            "item": "pyrotech:material",
+            "data": 11,
+            "oredict": "flakeBone"
+        }
+    },
+    "display": {
+        "hidden": false,
+        "texture_suffix": "generic_hc",
+        "texture_color": "f0e8d3",
+        "broken_color": "f9dfca",
+        "override_localization": "Bone"
+    },
+    "availability": {
+        "enabled": true,
+        "tier": 1,
+        "tool_blacklist": []
+    }
+}
