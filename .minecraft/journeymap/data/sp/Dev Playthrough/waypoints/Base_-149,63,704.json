@@ -1,0 +1,18 @@
+{
+  "id": "Base_-149,63,704",
+  "name": "Base",
+  "icon": "waypoint-normal.png",
+  "x": -149,
+  "y": 63,
+  "z": 704,
+  "r": 56,
+  "g": 93,
+  "b": 127,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

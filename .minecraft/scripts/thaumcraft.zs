@@ -10,7 +10,7 @@ recipes.remove(<thaumcraft:nugget:9>);
 
 #Beacon
 recipes.remove(<minecraft:beacon>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumometer", "", 50, [<aspect:ordo>*10], <thaumcraft:thaumometer>, [[<ore:glass>,<primal:obsidian_lens>,<ore:glass>], [<ore:glass>,<minecraft:nether_star>,<ore:glass>], [<ore:obsidian>,<ore:obsidian>,<ore:obsidian>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("beacon", "", 50, [<aspect:ordo>*10], <thaumcraft:thaumometer>, [[<ore:glass>,<primal:obsidian_lens>,<ore:glass>], [<ore:glass>,<minecraft:nether_star>,<ore:glass>], [<ore:obsidian>,<ore:obsidian>,<ore:obsidian>]]);
 #Thauometer
 recipes.remove(<thaumcraft:thaumometer>);
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:thaumometer>);

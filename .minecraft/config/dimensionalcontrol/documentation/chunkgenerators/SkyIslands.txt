@@ -17,30 +17,6 @@ setRegionSize:
     Notes:
         Sets the island region size.
 
-populateIce:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if ice/snow should be populated.
-
-decorateBiomes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if biomes should be decorated.
-
-populateLakes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if lakes should be populated.
-
 setNoiseOctaves:
     Arguments:
         int
@@ -50,6 +26,38 @@ setNoiseOctaves:
         6
     Notes:
         Sets the number of octaves used for the island noise.
+
+populateAnimals:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if animals should be populated.
+
+populateIce:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if ice/snow should be populated.
+
+populateLakes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if lakes should be populated.
+
+decorateBiomes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if biomes should be decorated.
 
 setNoiseSize:
     Arguments:
@@ -61,13 +69,15 @@ setNoiseSize:
     Notes:
         Sets the noise sizes for the island.
 
-populateAnimals:
+setDistanceStretch:
     Arguments:
-        boolean
+        double, double, double
+    Usage:
+        x stretch, y bottom stretch, z stretch
     Default Values:
-        true
+        1, 2, 1
     Notes:
-        Sets if animals should be populated.
+        Sets the distance stretch values for the island.
 
 setIslandHeightMin:
     Arguments:
@@ -78,16 +88,6 @@ setIslandHeightMin:
         0
     Notes:
         Sets the minimum height for the bottom of the island.
-
-setMaxIslandRadius:
-    Arguments:
-        int
-    Usage:
-        radius
-    Default Values:
-        100
-    Notes:
-        Sets the max island radius.
 
 setMinBlockDensity:
     Arguments:
@@ -109,15 +109,15 @@ setIslandHeightMax:
     Notes:
         Sets the maximum height for the top of the island.
 
-setDistanceStretch:
+setMaxIslandRadius:
     Arguments:
-        double, double, double
+        int
     Usage:
-        x stretch, y bottom stretch, z stretch
+        radius
     Default Values:
-        1, 2, 1
+        100
     Notes:
-        Sets the distance stretch values for the island.
+        Sets the max island radius.
 
 generateBiomeBlocks:
     Arguments:

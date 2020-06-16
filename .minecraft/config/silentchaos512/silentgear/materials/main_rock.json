@@ -8,7 +8,7 @@
         {"name": "harvest_speed",   "value":   2},
         {"name": "melee_damage",    "value":    4},
         {"name": "magic_damage",    "value":    0},
-        {"name": "attack_speed",    "value":  -4},
+        {"name": "attack_speed",    "value":  1},
         {"name": "armor",           "value":   4.5},
         {"name": "magic_armor",     "value":   0},
         {"name": "ranged_damage",   "value":    2},
