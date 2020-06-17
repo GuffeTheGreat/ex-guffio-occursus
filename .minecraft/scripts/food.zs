@@ -16,7 +16,7 @@ recipes.addShapedMirrored("1x_tile_cuisine_earthen_basin_shaped", <cuisine:earth
 ]);
 
 //Basinthrowingremov
-BasinThrowing.removeAll();
+//BasinThrowing.removeAll();
 
 //CrushedIce
 BasinSqueezing.add(<item:minecraft:ice>, <liquid:ice> * 1000);

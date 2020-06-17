@@ -7,11 +7,14 @@ mods.jei.JEI.removeAndHide(<embers:stamp_gear_raw>);
 mods.jei.JEI.removeAndHide(<embers:stamp_plate_raw>);
 mods.jei.JEI.removeAndHide(<soot:stamp_text_raw>);
 mods.jei.JEI.removeAndHide(<soot:stamp_nugget_raw>);
+mods.jei.JEI.removeAndHide(<soot:stamp_text>);
 furnace.remove(<embers:cinder_plinth>);
 furnace.remove(<embers:stamp_bar_raw>);
 furnace.remove(<embers:stamp_gear_raw>);
 furnace.remove(<embers:stamp_plate_raw>);
 furnace.remove(<soot:stamp_text_raw>);
+
+
 furnace.remove(<soot:stamp_nugget_raw>);
 recipes.remove(<minecraft:bread>);
 

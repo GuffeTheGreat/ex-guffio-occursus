@@ -9,14 +9,14 @@ mods.jei.JEI.removeAndHide(<modularmachinery:blockenergyinputhatch:7>);
  //Poor
 var poorCharcoalBirch = RecipeBuilder.newBuilder("PyrolysePoorCharcoalBirch", "pyrolyseoven", 320);
 poorCharcoalBirch.addEnergyPerTickInput(2048);
-poorCharcoalBirch.addItemInput(<primal:logs_stacked:2>*16);
+poorCharcoalBirch.addItemInput(<contenttweaker:pile_poor>*);
 poorCharcoalBirch.addFluidOutput(<liquid:wood_tar> * 6000);
-poorCharcoalBirch.addItemOutput(<minecraft:coal:1>*36);
+poorCharcoalBirch.addItemOutput(<minecraft:coal:1>*12);
 poorCharcoalBirch.build();
 
- var poorCharcoalFastBirch = RecipeBuilder.newBuilder("PyrolysePoorCharcoalFastBirch", "pyrolyseoven", 160);
+var poorCharcoalFastBirch = RecipeBuilder.newBuilder("PyrolysePoorCharcoalFastBirch", "pyrolyseoven", 160);
 poorCharcoalFastBirch.addEnergyPerTickInput(2048);
-poorCharcoalFastBirch.addItemInput(<primal:logs_stacked:2>*16);
+poorCharcoalFastBirch.addItemInput(<contenttweaker:pile_poor>*16);
 poorCharcoalFastBirch.addFluidInput(<liquid:nitrogen> * 500);
 poorCharcoalFastBirch.addFluidOutput(<liquid:wood_tar> * 6000);
 poorCharcoalFastBirch.addItemOutput(<minecraft:coal:1>*36);

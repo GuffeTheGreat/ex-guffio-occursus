@@ -81,3 +81,9 @@ game.setLocalization("fluid.rubber", "Sap");
 <modularmachinery:blockfluidoutputhatch:5>.displayName = "Ludicrous Fluid Output Hatch";
 <modularmachinery:blockfluidoutputhatch:6>.displayName = "Absurd Fluid Output Hatch";
 <modularmachinery:blockfluidoutputhatch:7>.displayName = "Divine Fluid Output Hatch";
+
+//Lightwood
+<advancedrocketry:alienwood>.displayName = "Lightwood Log";
+
+//Dried Bamboo Fix
+<zawa:bamboo_decortation>.displayName = "Bamboo Pile";

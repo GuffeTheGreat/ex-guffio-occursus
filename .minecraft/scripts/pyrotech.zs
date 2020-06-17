@@ -99,7 +99,7 @@ Burn.createBuilder("coke", <pyrotech:material:1>*10, "minecraft:coal_block")
     .register();
 
 //poorgradeCharcoal
-Burn.createBuilder("poorcharcoal", <minecraft:coal:1>*10, "primal:logs_stacked:2")
+Burn.createBuilder("poorcharcoal", <minecraft:coal:1>*10, "contenttweaker:pile_poor")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 20)
@@ -113,7 +113,7 @@ Burn.createBuilder("poorcharcoal", <minecraft:coal:1>*10, "primal:logs_stacked:2
     .setRequiresRefractoryBlocks(false)
     .register();
 //fairgradeCharcoal
-Burn.createBuilder("faircgarciak", <primal:charcoal_fair>*10, "primal:logs_stacked")
+Burn.createBuilder("faircgarciak", <primal:charcoal_fair>*10, "contenttweaker:pile_fair")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 30)
@@ -128,7 +128,7 @@ Burn.createBuilder("faircgarciak", <primal:charcoal_fair>*10, "primal:logs_stack
     .register();
 
 //goodgradeCharcoal
-Burn.createBuilder("goodcharcoal", <primal:charcoal_good>*10, "primal:logs_stacked:1")
+Burn.createBuilder("goodcharcoal", <primal:charcoal_good>*10, "contenttweaker:pile_good")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 40)
@@ -143,7 +143,7 @@ Burn.createBuilder("goodcharcoal", <primal:charcoal_good>*10, "primal:logs_stack
     .register();
 
 //highgradeCharcoal
-Burn.createBuilder("highcharcoal", <primal:charcoal_high>*10, "primal:logs_stacked_corypha")
+Burn.createBuilder("highcharcoal", <primal:charcoal_high>*10, "contenttweaker:pile_high")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 50)
@@ -158,7 +158,7 @@ Burn.createBuilder("highcharcoal", <primal:charcoal_high>*10, "primal:logs_stack
     .register();
 
 //puregradeCharcoal
-Burn.createBuilder("purecharcoal", <primal:charcoal_pure>*10, "primal:logs_stacked:5")
+Burn.createBuilder("purecharcoal", <primal:charcoal_pure>*10, "contenttweaker:pile_pure")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 60)
@@ -171,7 +171,20 @@ Burn.createBuilder("purecharcoal", <primal:charcoal_pure>*10, "primal:logs_stack
     .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
     .setRequiresRefractoryBlocks(false)
     .register();
-
+//bamboogradeCharcoal
+Burn.createBuilder("purecharcoal", <primal:charcoal_pure>*10, "contenttweaker:pile_pure")
+    .setBurnStages(10)
+    .setTotalBurnTimeTicks(5 * 60 * 20)
+    .setFluidProduced(<liquid:wood_tar> * 60)
+    .setFailureChance(0.33)
+    .addFailureItem(<pyrotech:material:0>) // ash
+    .addFailureItem(<pyrotech:material:0> * 2) // ash
+    .addFailureItem(<pyrotech:material:0> * 4) // ash
+    .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
+    .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
+    .setRequiresRefractoryBlocks(false)
+    .register();
 //Anvils
 recipes.remove(<pyrotech:anvil_granite>);
 recipes.remove(<pyrotech:anvil_iron_plated>);

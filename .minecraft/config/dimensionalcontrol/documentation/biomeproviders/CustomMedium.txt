@@ -9,6 +9,14 @@ examples.
 
 
 
+addSpawnBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome ID
+    Notes:
+        Adds a biome to the list for players to spawn in.
+
 setGenLayers:
     Arguments:
         Genlayer, Genlayer
@@ -24,12 +32,4 @@ magnify:
         seed offset, genlayer to zoom, zoom count
     Notes:
         Adds zoom count GenLayerZoom layers to the provided GenLayer. This is just a helper method to quickly add multiple GenLayerZoom layers at once.
-
-addSpawnBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome ID
-    Notes:
-        Adds a biome to the list for players to spawn in.
 

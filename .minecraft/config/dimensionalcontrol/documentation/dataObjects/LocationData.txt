@@ -10,29 +10,13 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-setXMin:
+setBiome:
     Arguments:
-        float
+        Non_Null_Biome_ID
     Usage:
-        min
+        biome id
     Notes:
-        Sets the min X coordinate.
-
-setYMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min Y coordinate.
-
-setXMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max X coordinate.
+        Sets the biome id. Can be an int or String.
 
 setXMinMax:
     Arguments:
@@ -42,21 +26,13 @@ setXMinMax:
     Notes:
         Sets the min and max X coordinates.
 
-setZMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Z coordinates.
-
-setZMax:
+setXMax:
     Arguments:
         float
     Usage:
         max
     Notes:
-        Sets the max Z coordinate.
+        Sets the max X coordinate.
 
 setYMinMax:
     Arguments:
@@ -66,13 +42,21 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
-setYMax:
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
+
+setXMin:
     Arguments:
         float
     Usage:
-        max
+        min
     Notes:
-        Sets the max Y coordinate.
+        Sets the min X coordinate.
 
 setZMin:
     Arguments:
@@ -82,6 +66,22 @@ setZMin:
     Notes:
         Sets the min Z coordinate.
 
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Y coordinate.
+
+setZMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Z coordinate.
+
 setDimensionType:
     Arguments:
         String
@@ -90,11 +90,11 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-setBiome:
+setYMin:
     Arguments:
-        Non_Null_Biome_ID
+        float
     Usage:
-        biome id
+        min
     Notes:
-        Sets the biome id. Can be an int or String.
+        Sets the min Y coordinate.
 

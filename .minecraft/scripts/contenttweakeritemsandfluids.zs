@@ -95,6 +95,13 @@ phenol.viscosity = 10000;
 phenol.temperature = 300;
 phenol.register();
 
+  #Charcoal Byproducts
+var charcoal = mods.contenttweaker.VanillaFactory.createFluid("charcoal", Color.fromHex("654321"));
+charcoal.density = 10000;
+charcoal.viscosity = 10000;
+charcoal.temperature = 300;
+charcoal.register();
+
   #Glue
 var glue = mods.contenttweaker.VanillaFactory.createFluid("glue", Color.fromHex("ffc726"));
 glue.density = 10000;

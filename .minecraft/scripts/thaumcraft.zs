@@ -14,7 +14,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("beacon", "", 50, [<aspect:
 #Thauometer
 recipes.remove(<thaumcraft:thaumometer>);
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:thaumometer>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumometer", "", 20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumometer>, [[null,null,null], [<ore:plateAtlarus>,<thebetweenlands:silt_glass_pane>,<ore:plateAtlarus>], [null,null,null]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumometer", "", 20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumometer>, [[null,<ore:plateAtlarus>,null], [<ore:plateAtlarus>,<thebetweenlands:silt_glass_pane>,<ore:plateAtlarus>], [null,<ore:plateAtlarus>,null]]);
 
 //FormationWand
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_architect");

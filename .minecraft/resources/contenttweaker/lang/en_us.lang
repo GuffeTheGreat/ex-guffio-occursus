@@ -97,6 +97,13 @@ fluid.glue=Glue
 fluid.chlorine=Chlorine
 fluid.eyegoop=Eye Goop
 
+tile.contenttweaker.pile_poor.name=Pile of Poor Grade Wood
+tile.contenttweaker.pile_poor.name=Pile of Fair Grade Wood
+tile.contenttweaker.pile_poor.name=Pile of Good Grade Wood
+tile.contenttweaker.pile_poor.name=Pile of High Grade Wood
+tile.contenttweaker.pile_pure.name=Pile of Pure Carbon Grade Wood
+
+
 tile.contenttweaker.naquadah_blockore.name=Naquadah Ore
 tile.contenttweaker.enriched_naquadah_block.name=Enriched Naquadah Ore
 
