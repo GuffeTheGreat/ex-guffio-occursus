@@ -116,6 +116,70 @@ chlorine.viscosity = 10000;
 chlorine.temperature = 300;
 chlorine.register();
 
+  #Radon
+var radon = mods.contenttweaker.VanillaFactory.createFluid("radon", Color.fromHex("800080"));
+radon.density = 10000;
+radon.viscosity = 10000;
+radon.gaseous = true;
+radon.temperature = 300;
+radon.register();
+
+  #Ethylbenzene
+var ethylbenzene = mods.contenttweaker.VanillaFactory.createFluid("ethylbenzene", Color.fromHex("e1e7e4"));
+ethylbenzene.density = 10000;
+ethylbenzene.viscosity = 10000;
+ethylbenzene.temperature = 136;
+ethylbenzene.register();
+
+  #Anthracene
+var anthracene = mods.contenttweaker.VanillaFactory.createFluid("anthracene", Color.fromHex("ffffff"));
+anthracene.density = 10000;
+anthracene.viscosity = 10000;
+anthracene.temperature = 340;
+anthracene.register();
+
+  #Coal Tar Oil
+var coaloil = mods.contenttweaker.VanillaFactory.createFluid("coaloil", Color.fromHex("ffd59a"));
+coaloil.density = 10000;
+coaloil.viscosity = 10000;
+coaloil.temperature = 240;
+coaloil.register();
+
+  #Benzene
+var benzene = mods.contenttweaker.VanillaFactory.createFluid("benzene", Color.fromHex("060607"));
+benzene.density = 10000;
+benzene.viscosity = 10000;
+benzene.temperature = 300;
+benzene.register();
+
+  #Toluene
+var toluene = mods.contenttweaker.VanillaFactory.createFluid("toluene", Color.fromHex("a8ce12"));
+toluene.density = 10000;
+toluene.viscosity = 10000;
+toluene.temperature = 300;
+toluene.register();
+
+  #Dimethylbenzene
+var dimethylbenzene = mods.contenttweaker.VanillaFactory.createFluid("dimethylbenzene", Color.fromHex("33a532"));
+dimethylbenzene.density = 10000;
+dimethylbenzene.viscosity = 10000;
+dimethylbenzene.temperature = 300;
+dimethylbenzene.register();
+
+  #Phenol
+var phenol = mods.contenttweaker.VanillaFactory.createFluid("phenol", Color.fromHex("bda800"));
+phenol.density = 10000;
+phenol.viscosity = 10000;
+phenol.temperature = 300;
+phenol.register();
+
+  #Wood Vinegear
+var winegar = mods.contenttweaker.VanillaFactory.createFluid("winegar", Color.fromHex("bda800"));
+winegar.density = 10000;
+winegar.viscosity = 10000;
+winegar.temperature = 300;
+winegar.register();
+
 
 
 //ITEMS-----------------------------

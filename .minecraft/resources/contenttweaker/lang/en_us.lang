@@ -96,6 +96,8 @@ fluid.new_rubber=Molten Rubber
 fluid.glue=Glue
 fluid.chlorine=Chlorine
 fluid.eyegoop=Eye Goop
+fluid.charcoal=Charcoal Byproducts
+fluid.radon=Charcoal Byproducts
 
 tile.contenttweaker.pile_poor.name=Pile of Poor Grade Wood
 tile.contenttweaker.pile_poor.name=Pile of Fair Grade Wood

@@ -172,10 +172,9 @@ Burn.createBuilder("purecharcoal", <primal:charcoal_pure>*10, "contenttweaker:pi
     .setRequiresRefractoryBlocks(false)
     .register();
 //bamboogradeCharcoal
-Burn.createBuilder("purecharcoal", <primal:charcoal_pure>*10, "contenttweaker:pile_pure")
+Burn.createBuilder("bamboocharcoal", <cuisine:material:6>*4, "zawa:bamboo_decortation")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
-    .setFluidProduced(<liquid:wood_tar> * 60)
     .setFailureChance(0.33)
     .addFailureItem(<pyrotech:material:0>) // ash
     .addFailureItem(<pyrotech:material:0> * 2) // ash

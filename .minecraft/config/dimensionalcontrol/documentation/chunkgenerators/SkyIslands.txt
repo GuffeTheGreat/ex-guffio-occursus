@@ -7,43 +7,67 @@ distance value to create a 'density' value.
 
 
 
-setMainBlock:
+populateIce:
     Arguments:
-        String, Integer
-    Usage:
-        block id, meta
-    Notes:
-        Sets the main block for the island.
-
-setMainBlock:
-    Arguments:
-        String
-    Usage:
-        block id
+        boolean
     Default Values:
-        minecraft:stone
+        true
     Notes:
-        Sets the main block for the island.
+        Sets if ice/snow should be populated.
 
-setMinBlockDensity:
+populateAnimals:
     Arguments:
-        double
-    Usage:
-        density
+        boolean
     Default Values:
-        0.3
+        true
     Notes:
-        Sets the minimum `density` value required for blocks to be placed.
+        Sets if animals should be populated.
 
-setMaxIslandRadius:
+populateLakes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if lakes should be populated.
+
+setNoiseSize:
+    Arguments:
+        double, double, double
+    Usage:
+        x size, y size, z size
+    Default Values:
+        128, 192, 128
+    Notes:
+        Sets the noise sizes for the island.
+
+decorateBiomes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if biomes should be decorated.
+
+setRegionSize:
     Arguments:
         int
     Usage:
-        radius
+        region size
     Default Values:
-        100
+        512
     Notes:
-        Sets the max island radius.
+        Sets the island region size.
+
+setNoiseOctaves:
+    Arguments:
+        int
+    Usage:
+        octaves
+    Default Values:
+        6
+    Notes:
+        Sets the number of octaves used for the island noise.
 
 generateBiomeBlocks:
     Arguments:
@@ -52,6 +76,14 @@ generateBiomeBlocks:
         true
     Notes:
         Sets if biome blocks should be generated.
+
+populateLavaLakes:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if lava lakes should be populated.
 
 setIslandHeightMin:
     Arguments:
@@ -73,6 +105,16 @@ setIslandHeightMax:
     Notes:
         Sets the maximum height for the top of the island.
 
+setMaxIslandRadius:
+    Arguments:
+        int
+    Usage:
+        radius
+    Default Values:
+        100
+    Notes:
+        Sets the max island radius.
+
 setDistanceStretch:
     Arguments:
         double, double, double
@@ -82,14 +124,6 @@ setDistanceStretch:
         1, 2, 1
     Notes:
         Sets the distance stretch values for the island.
-
-populateLavaLakes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if lava lakes should be populated.
 
 setNoisePersistence:
     Arguments:
@@ -101,67 +135,39 @@ setNoisePersistence:
     Notes:
         Sets how much each octave of noise is used compared to the one before it.
 
-setNoiseSize:
+setMinBlockDensity:
     Arguments:
-        double, double, double
+        double
     Usage:
-        x size, y size, z size
+        density
     Default Values:
-        128, 192, 128
+        0.3
     Notes:
-        Sets the noise sizes for the island.
+        Sets the minimum `density` value required for blocks to be placed.
 
-setNoiseOctaves:
+setMainBlock:
     Arguments:
-        int
+        String
     Usage:
-        octaves
+        block id
     Default Values:
-        6
+        minecraft:stone
     Notes:
-        Sets the number of octaves used for the island noise.
+        Sets the main block for the island.
 
-setRegionSize:
+setMainBlock:
     Arguments:
-        int
+        String, Integer
     Usage:
-        region size
-    Default Values:
-        512
+        block id, meta
     Notes:
-        Sets the island region size.
+        Sets the main block for the island.
 
-populateIce:
+disableMapGen:
     Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if ice/snow should be populated.
-
-populateLakes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if lakes should be populated.
-
-decorateBiomes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if biomes should be decorated.
-
-populateAnimals:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if animals should be populated.
+        String
+    Usage:
+        Disables the provided MapGen type. Types are "CAVES", "CAVES_NETHER", "RAVINE", "END_CITY", "MINESHAFT", "NETHER_BRIDGE", "SCATTERED_FEATURE", "STRONGHOLD", "VILLAGE", "OCEAN_MONUMENT"
 
 setGenerationOptions:
     Arguments:
@@ -170,10 +176,4 @@ setGenerationOptions:
         vanilla generation options string
     Notes:
         Sets the generator options string. This is the string used by the various vanilla customizable ChunkGenerators for customizing the world generation.
-
-disableMapGen:
-    Arguments:
-        String
-    Usage:
-        Disables the provided MapGen type. Types are "CAVES", "CAVES_NETHER", "RAVINE", "END_CITY", "MINESHAFT", "NETHER_BRIDGE", "SCATTERED_FEATURE", "STRONGHOLD", "VILLAGE", "OCEAN_MONUMENT"
 
