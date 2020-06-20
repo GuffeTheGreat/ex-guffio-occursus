@@ -49,24 +49,28 @@ sulfuricDiesel.density = 10000;
 sulfuricDiesel.viscosity = 10000;
 sulfuricDiesel.temperature = 671;
 sulfuricDiesel.register();
+
   #Sulfuric Gasoline
 var sulfuricGasoline = mods.contenttweaker.VanillaFactory.createFluid("sulfuric_gasoline", Color.fromHex("FFE03D"));
 sulfuricGasoline.density = 10000;
 sulfuricGasoline.viscosity = 10000;
 sulfuricGasoline.temperature = 671;
 sulfuricGasoline.register();
+
   #Sulfuric Kerosene
 var sulfuricKerosene = mods.contenttweaker.VanillaFactory.createFluid("sulfuric_kerosene", Color.fromHex("9CFFA6"));
 sulfuricKerosene.density = 10000;
 sulfuricKerosene.viscosity = 10000;
 sulfuricKerosene.temperature = 671;
 sulfuricKerosene.register();
+
   #Sulfuric LPG
 var sulfuricLPG = mods.contenttweaker.VanillaFactory.createFluid("sulfuric_lpg", Color.fromHex("FFFF00"));
 sulfuricLPG.density = 10000;
 sulfuricLPG.viscosity = 10000;
 sulfuricLPG.temperature = 671;
 sulfuricLPG.register();
+
   #Sulfuric Naphtha
 var sulfuricNaphtha = mods.contenttweaker.VanillaFactory.createFluid("sulfuric_naphtha", Color.fromHex("FFCC1A"));
 sulfuricNaphtha.density = 10000;
@@ -120,7 +124,6 @@ chlorine.register();
 var radon = mods.contenttweaker.VanillaFactory.createFluid("radon", Color.fromHex("800080"));
 radon.density = 10000;
 radon.viscosity = 10000;
-radon.gaseous = true;
 radon.temperature = 300;
 radon.register();
 
@@ -166,12 +169,6 @@ dimethylbenzene.viscosity = 10000;
 dimethylbenzene.temperature = 300;
 dimethylbenzene.register();
 
-  #Phenol
-var phenol = mods.contenttweaker.VanillaFactory.createFluid("phenol", Color.fromHex("bda800"));
-phenol.density = 10000;
-phenol.viscosity = 10000;
-phenol.temperature = 300;
-phenol.register();
 
   #Wood Vinegear
 var winegar = mods.contenttweaker.VanillaFactory.createFluid("winegar", Color.fromHex("bda800"));
@@ -180,6 +177,26 @@ winegar.viscosity = 10000;
 winegar.temperature = 300;
 winegar.register();
 
+  #Methane
+var methane = mods.contenttweaker.VanillaFactory.createFluid("methane", Color.fromHex("6dd7a26"));
+methane.density = 10000;
+methane.viscosity = 10000;
+methane.temperature = 300;
+methane.register();
+
+  #Phtalic
+var phtalic = mods.contenttweaker.VanillaFactory.createFluid("phtalic", Color.fromHex("6dd7a26"));
+phtalic.density = 10000;
+phtalic.viscosity = 10000;
+phtalic.temperature = 300;
+phtalic.register();
+
+  #Desalted Oil
+var desalted = mods.contenttweaker.VanillaFactory.createFluid("desaltedoil", Color.fromHex("14100e"));
+desalted.density = 10000;
+desalted.viscosity = 10000;
+desalted.temperature = 300;
+desalted.register();
 
 
 //ITEMS-----------------------------

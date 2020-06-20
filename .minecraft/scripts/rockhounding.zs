@@ -10,6 +10,8 @@
 
 //LabOven
 mods.rockhounding_chemistry.LabOven.add("Creosote from Tar", <metallurgy:tar>, null, <liquid:water>*500, null, <liquid:sulfuric_acid>*50, <liquid:creosote>*50);
-
+mods.rockhounding_chemistry.LabOven.add("Oil Improving", <metallurgy:tar>, null, <liquid:water>*500, null, <liquid:sulfuric_acid>*50, <liquid:creosote>*50);
 //Exquisiteprocessing
 mods.rockhounding_chemistry.LeachingVat.add(<minecraft:slime_ball>, [<minecraft:dye:15>, <minecraft:dye:14>, <minecraft:dye:13>, <minecraft:dye:12>, <minecraft:dye:11>], [3.18F, 4.88F, 7.51F, 3.30F, 12.05F], <liquid:silicone>*1000);
+
+mods.rockhounding_chemistry.BedReactor.add("Cheap Fuel", <liquid:water_vapour>*100, <liquid:oxygen>*150, <liquid:hydrogen>*350, <liquid:flue_gas>*450, <liquid:syngas>*510, <minecraft:diamond_sword>);

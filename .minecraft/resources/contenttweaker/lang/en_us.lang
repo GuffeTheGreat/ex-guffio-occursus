@@ -97,12 +97,22 @@ fluid.glue=Glue
 fluid.chlorine=Chlorine
 fluid.eyegoop=Eye Goop
 fluid.charcoal=Charcoal Byproducts
-fluid.radon=Charcoal Byproducts
+fluid.radon=Radon
+fluid.ethylbenzene=Ethylbenzene
+fluid.anthracene=Anthracene
+fluid.coaloil=Coal Tar Oil
+fluid.benzene=Benzene
+fluid.toluene=Toluene
+fluid.dimethylbenzene=Dimethylbenzene
+fluid.winegar=Wood Vinegar
+fluid.methane=Methane
+fluid.phtalic=Phtalic Acid
+fluid.desaltedoil=Desalted Oil
 
 tile.contenttweaker.pile_poor.name=Pile of Poor Grade Wood
-tile.contenttweaker.pile_poor.name=Pile of Fair Grade Wood
-tile.contenttweaker.pile_poor.name=Pile of Good Grade Wood
-tile.contenttweaker.pile_poor.name=Pile of High Grade Wood
+tile.contenttweaker.pile_fair.name=Pile of Fair Grade Wood
+tile.contenttweaker.pile_good.name=Pile of Good Grade Wood
+tile.contenttweaker.pile_high.name=Pile of High Grade Wood
 tile.contenttweaker.pile_pure.name=Pile of Pure Carbon Grade Wood
 
 

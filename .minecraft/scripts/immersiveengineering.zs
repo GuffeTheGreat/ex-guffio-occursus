@@ -65,3 +65,16 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ing
 mods.immersiveengineering.BlastFurnace.removeAll();
 mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <contenttweaker:material_part:94>, 2000, <pyrotech:slag>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, 2000, <pyrotech:slag>);
+
+//Distillation Tower
+//Wood Tar
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:benzene>*350,<liquid:toluene>*75,<liquid:dimethylbenzene>*200,<liquid:creosote>*300,<liquid:phenol>*75], [], <liquid:wood_tar>*1000, 40000, 40, []);
+
+//Wood Gas
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:methane>*130,<liquid:carbon_monoxide>*340,<liquid:hydrogen>*20,<liquid:carbondioxide>*490,<liquid:ethene>*20], [], <liquid:wood_gas>*1000, 16000, 40, []);
+
+//Coal Tar
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:ethylbenzene>*150,<liquid:anthracene>*50,<liquid:kerosene>*200,<liquid:coaloil>*500,<liquid:naphtha>*100], [], <liquid:coal_tar>*1000, 40000, 40, []);
+
+//CharcoalByproducts
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:wood_gas>*250,<liquid:dimethylbenzene>*100,<liquid:wood_tar>*250,<liquid:winegar>*400], [], <liquid:charcoal>*1000, 40000, 40, []);

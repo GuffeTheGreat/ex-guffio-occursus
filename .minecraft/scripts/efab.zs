@@ -25,3 +25,10 @@
     .fluid(<liquid:lava> * 120);
 
 
+ EFabRecipe.shaped(<roughtweaks:medikit>, [
+	[<ore:paper>, <roughtweaks:salve>, <ore:paper>],
+	[<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "herba"}]}), <roughtweaks:plaster>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "victus"}]})],
+	[<ore:paper>, <roughtweaks:bandage>, <ore:paper>]])
+	    .time(40)
+    .fluid(<liquid:coal_tar> * 250);
+
