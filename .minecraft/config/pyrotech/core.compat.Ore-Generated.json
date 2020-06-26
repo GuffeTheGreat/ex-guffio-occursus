@@ -23,7 +23,6 @@
     "oreAluminum": {
       "slagColor": "e2e2e3",
       "langKey": [
-        "contenttweaker:tile.contenttweaker.sub_block_holder_6",
         "embers:tile.ore_aluminum",
         "geolosys:geolosys.cluster.aluminum",
         "immersiveengineering:tile.immersiveengineering.ore.aluminum",
@@ -49,7 +48,6 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "contenttweaker:tile.contenttweaker.sub_block_holder_9",
         "crossroads:tile.ore_copper",
         "embers:tile.ore_copper",
         "geolosys:geolosys.cluster.copper",
@@ -93,7 +91,6 @@
       "slagColor": "d8af93",
       "langKey": [
         "geolosys:geolosys.cluster.iron",
-        "industrialrenewal:item.industrialrenewal.chunk_hematite",
         "minecraft:tile.oreIron"
       ],
       "output": [

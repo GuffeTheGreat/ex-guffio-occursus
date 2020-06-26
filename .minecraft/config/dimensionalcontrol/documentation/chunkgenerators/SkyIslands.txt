@@ -7,6 +7,24 @@ distance value to create a 'density' value.
 
 
 
+setMainBlock:
+    Arguments:
+        String, Integer
+    Usage:
+        block id, meta
+    Notes:
+        Sets the main block for the island.
+
+setMainBlock:
+    Arguments:
+        String
+    Usage:
+        block id
+    Default Values:
+        minecraft:stone
+    Notes:
+        Sets the main block for the island.
+
 generateBiomeBlocks:
     Arguments:
         boolean
@@ -23,25 +41,15 @@ populateLavaLakes:
     Notes:
         Sets if lava lakes should be populated.
 
-setMinBlockDensity:
-    Arguments:
-        double
-    Usage:
-        density
-    Default Values:
-        0.3
-    Notes:
-        Sets the minimum `density` value required for blocks to be placed.
-
-setIslandHeightMin:
+setMaxIslandRadius:
     Arguments:
         int
     Usage:
-        height
+        radius
     Default Values:
-        0
+        100
     Notes:
-        Sets the minimum height for the bottom of the island.
+        Sets the max island radius.
 
 setIslandHeightMax:
     Arguments:
@@ -53,15 +61,15 @@ setIslandHeightMax:
     Notes:
         Sets the maximum height for the top of the island.
 
-setDistanceStretch:
+setMinBlockDensity:
     Arguments:
-        double, double, double
+        double
     Usage:
-        x stretch, y bottom stretch, z stretch
+        density
     Default Values:
-        1, 2, 1
+        0.3
     Notes:
-        Sets the distance stretch values for the island.
+        Sets the minimum `density` value required for blocks to be placed.
 
 setNoisePersistence:
     Arguments:
@@ -73,15 +81,43 @@ setNoisePersistence:
     Notes:
         Sets how much each octave of noise is used compared to the one before it.
 
-setMaxIslandRadius:
+setIslandHeightMin:
     Arguments:
         int
     Usage:
-        radius
+        height
     Default Values:
-        100
+        0
     Notes:
-        Sets the max island radius.
+        Sets the minimum height for the bottom of the island.
+
+setDistanceStretch:
+    Arguments:
+        double, double, double
+    Usage:
+        x stretch, y bottom stretch, z stretch
+    Default Values:
+        1, 2, 1
+    Notes:
+        Sets the distance stretch values for the island.
+
+populateAnimals:
+    Arguments:
+        boolean
+    Default Values:
+        true
+    Notes:
+        Sets if animals should be populated.
+
+setRegionSize:
+    Arguments:
+        int
+    Usage:
+        region size
+    Default Values:
+        512
+    Notes:
+        Sets the island region size.
 
 decorateBiomes:
     Arguments:
@@ -101,22 +137,6 @@ setNoiseSize:
     Notes:
         Sets the noise sizes for the island.
 
-populateAnimals:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if animals should be populated.
-
-populateLakes:
-    Arguments:
-        boolean
-    Default Values:
-        true
-    Notes:
-        Sets if lakes should be populated.
-
 setNoiseOctaves:
     Arguments:
         int
@@ -127,15 +147,13 @@ setNoiseOctaves:
     Notes:
         Sets the number of octaves used for the island noise.
 
-setRegionSize:
+populateLakes:
     Arguments:
-        int
-    Usage:
-        region size
+        boolean
     Default Values:
-        512
+        true
     Notes:
-        Sets the island region size.
+        Sets if lakes should be populated.
 
 populateIce:
     Arguments:
@@ -145,30 +163,6 @@ populateIce:
     Notes:
         Sets if ice/snow should be populated.
 
-setMainBlock:
-    Arguments:
-        String
-    Usage:
-        block id
-    Default Values:
-        minecraft:stone
-    Notes:
-        Sets the main block for the island.
-
-setMainBlock:
-    Arguments:
-        String, Integer
-    Usage:
-        block id, meta
-    Notes:
-        Sets the main block for the island.
-
-disableMapGen:
-    Arguments:
-        String
-    Usage:
-        Disables the provided MapGen type. Types are "CAVES", "CAVES_NETHER", "RAVINE", "END_CITY", "MINESHAFT", "NETHER_BRIDGE", "SCATTERED_FEATURE", "STRONGHOLD", "VILLAGE", "OCEAN_MONUMENT"
-
 setGenerationOptions:
     Arguments:
         Json
@@ -176,4 +170,10 @@ setGenerationOptions:
         vanilla generation options string
     Notes:
         Sets the generator options string. This is the string used by the various vanilla customizable ChunkGenerators for customizing the world generation.
+
+disableMapGen:
+    Arguments:
+        String
+    Usage:
+        Disables the provided MapGen type. Types are "CAVES", "CAVES_NETHER", "RAVINE", "END_CITY", "MINESHAFT", "NETHER_BRIDGE", "SCATTERED_FEATURE", "STRONGHOLD", "VILLAGE", "OCEAN_MONUMENT"
 

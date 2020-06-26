@@ -8,6 +8,37 @@ Chopping.removeAllRecipes();
 
 var counter = 1;
 
+
+<ore:fairWood>.add(<minecraft:log>);
+<ore:fairWood>.add(<minecraft:log:1>);
+<ore:poorWood>.add(<minecraft:log:2>);
+<ore:fairWood>.add(<minecraft:log:3>);
+<ore:poorWood>.add(<minecraft:log2>);
+<ore:fairWood>.add(<minecraft:log2:1>);
+<ore:pureWood>.add(<randomthings:spectrelog>);
+<ore:fairWood>.add(<thaumcraft:log_greatwood>);
+<ore:goodWood>.add(<thaumcraft:log_silverwood>);
+<ore:goodWood>.add(<thebetweenlands:log_hearthgrove:1>);
+<ore:goodWood>.add(<thebetweenlands:log_hearthgrove:3>);
+<ore:goodWood>.add(<thebetweenlands:log_hearthgrove:5>);
+<ore:goodWood>.add(<thebetweenlands:log_hearthgrove:7>);
+<ore:goodWood>.add(<thebetweenlands:weedwood>);
+<ore:goodWood>.add(<thebetweenlands:log_weedwood>);
+<ore:goodWood>.add(<thebetweenlands:log_weedwood:12>);
+<ore:goodWood>.add(<thebetweenlands:log_nibbletwig>);
+<ore:goodWood>.add(<thebetweenlands:log_nibbletwig:12>);
+<ore:goodWood>.add(<thebetweenlands:log_rubber>);
+<ore:goodWood>.add(<thebetweenlands:giant_root>);
+<ore:goodWood>.add(<thebetweenlands:log_rotten_bark>);
+<ore:poorWood>.add(<cuisine:log>);
+<ore:pureWood>.add(<advancedrocketry:alienwood>);
+<ore:fairWood>.add(<primal:logs>);
+<ore:poorWood>.add(<primal:logs:1>);
+<ore:highWood>.add(<primal:corypha_stalk>);
+<ore:highWood>.add(<prodigytech:zorra_log>);
+<ore:highWood>.add(<astralsorcery:blockinfusedwood>);
+<ore:highWood>.add(<thebetweenlands:log_spirit_tree>);
+
 var woodRecipes as IItemStack[IItemStack] = {
 	<minecraft:log> : <minecraft:planks>,
 	<minecraft:log:1> : <minecraft:planks:1>,
@@ -28,10 +59,16 @@ var woodRecipes as IItemStack[IItemStack] = {
     <thebetweenlands:log_weedwood> : <thebetweenlands:weedwood_planks>,
     <thebetweenlands:log_nibbletwig> : <thebetweenlands:nibbletwig_planks>,
     <thebetweenlands:log_nibbletwig:12> : <thebetweenlands:nibbletwig_planks>,
+    <thebetweenlands:log_sap> : <thebetweenlands:rubber_tree_planks>,
     <thebetweenlands:log_rubber> : <thebetweenlands:rubber_tree_planks>,
     <thebetweenlands:giant_root> : <thebetweenlands:giant_root_planks>,
     <thebetweenlands:log_rotten_bark> : <thebetweenlands:rotten_planks>,
     <cuisine:log> : <cuisine:planks>,
+    <advancedrocketry:alienwood> : <advancedrocketry:planks>,
+    <primal:logs> : <primal:planks>,
+    <primal:logs:1> : <primal:planks:1>,
+    <primal:corypha_stalk> : <primal:planks:3>,
+    <prodigytech:zorra_log> : <prodigytech:zorra_planks>,
     <astralsorcery:blockinfusedwood> : <astralsorcery:blockinfusedwood:1>
 	};
 

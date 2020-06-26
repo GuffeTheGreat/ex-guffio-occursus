@@ -1,8 +1,36 @@
 import mods.dropt.Dropt;
 
-
-//Dusts
-
+/*
+//Salt
+Dropt.list("silk_ore")
+  .add(Dropt.rule()
+      .matchBlocks(["primal:salt_netjry_block"])
+      .addDrop(Dropt.drop()
+          .items([<primal:salt_netjry_block>])
+      )
+  );
+  Dropt.list("silk_ore")
+  .add(Dropt.rule()
+      .matchBlocks(["primal:ore_salt"])
+      .addDrop(Dropt.drop()
+          .items([<primal:ore_salt>])
+      )
+  );
+  Dropt.list("silk_ore")
+  .add(Dropt.rule()
+      .matchBlocks(["primal:ore_salt:1"])
+      .addDrop(Dropt.drop()
+          .items([<primal:ore_salt:1>])
+      )
+  );
+    Dropt.list("silk_ore")
+  .add(Dropt.rule()
+      .matchBlocks(["primal:ore_salt:2"])
+      .addDrop(Dropt.drop()
+          .items([<primal:ore_salt:2>])
+      )
+  );
+*/
 //Gems
 Dropt.list("silk_ore")
   .add(Dropt.rule()

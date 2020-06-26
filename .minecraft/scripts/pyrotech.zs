@@ -15,6 +15,7 @@ import mods.pyrotech.MechanicalCompactor;
 
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
+mods.jei.JEI.removeAndHide(<pyrotech:log_pile>);
 mods.jei.JEI.removeAndHide(<pyrotech:worktable_stone>);
 mods.jei.JEI.removeAndHide(<pyrotech:stone_shears>);
 mods.jei.JEI.removeAndHide(<pyrotech:bone_shears>);
@@ -26,7 +27,6 @@ mods.jei.JEI.removeAndHide(<pyrotech:flint_shears>);
 mods.jei.JEI.removeAndHide(<pyrotech:bucket_wood>);
 mods.jei.JEI.removeAndHide(<pyrotech:bucket_stone>);
 mods.jei.JEI.removeAndHide(<pyrotech:bucket_clay_unfired>);
-mods.jei.JEI.removeAndHide(<pyrotech:material:17>);
 mods.jei.JEI.removeAndHide(<pyrotech:dense_coal_ore>);
 mods.jei.JEI.removeAndHide(<pyrotech:dense_nether_coal_ore>);
 mods.jei.JEI.removeAndHide(<pyrotech:bone_pickaxe>);
@@ -56,8 +56,8 @@ BrickKiln.addRecipe("ashpile2", <pyrotech:material>, <ore:logWood>, 600);
 //BurningRecipes
 Burn.removeAllRecipes();
 //TarUse
-Burn.createBuilder("charcoalfromtar", <primal:charcoal_fair>*10, "pyrotech:wood_tar_block")
-    .setBurnStages(10)
+Burn.createBuilder("charcoalfromtar", <primal:charcoal_fair>*2, "pyrotech:wood_tar_block")
+    .setBurnStages(5)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFailureChance(0.33)
     .addFailureItem(<pyrotech:material:0>) // ash
@@ -69,8 +69,8 @@ Burn.createBuilder("charcoalfromtar", <primal:charcoal_fair>*10, "pyrotech:wood_
     .setRequiresRefractoryBlocks(false)
     .register();
 //Pileofwoodchiphs
-    Burn.createBuilder("charcoalfromwoodpiles", <primal:charcoal_mote>*8, "pyrotech:pile_wood_chips")
-    .setBurnStages(10)
+    Burn.createBuilder("charcoalfromwoodpiles", <primal:charcoal_mote>, "pyrotech:pile_wood_chips")
+    .setBurnStages(8)
     .setTotalBurnTimeTicks(6 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 20)
     .setFailureChance(0.33)
@@ -84,7 +84,7 @@ Burn.createBuilder("charcoalfromtar", <primal:charcoal_fair>*10, "pyrotech:wood_
     .register();
 
 //Coke
-Burn.createBuilder("coke", <pyrotech:material:1>*10, "minecraft:coal_block")
+Burn.createBuilder("coke", <pyrotech:material:1>, "minecraft:coal_block")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(6 * 60 * 20)
     .setFluidProduced(<liquid:coal_tar> * 50)
@@ -99,7 +99,7 @@ Burn.createBuilder("coke", <pyrotech:material:1>*10, "minecraft:coal_block")
     .register();
 
 //poorgradeCharcoal
-Burn.createBuilder("poorcharcoal", <minecraft:coal:1>*10, "contenttweaker:pile_poor")
+Burn.createBuilder("poorcharcoal", <minecraft:coal:1>, "contenttweaker:pile_poor")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 20)
@@ -113,7 +113,7 @@ Burn.createBuilder("poorcharcoal", <minecraft:coal:1>*10, "contenttweaker:pile_p
     .setRequiresRefractoryBlocks(false)
     .register();
 //fairgradeCharcoal
-Burn.createBuilder("faircgarciak", <primal:charcoal_fair>*10, "contenttweaker:pile_fair")
+Burn.createBuilder("faircgarciak", <primal:charcoal_fair>, "contenttweaker:pile_fair")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 30)
@@ -128,7 +128,7 @@ Burn.createBuilder("faircgarciak", <primal:charcoal_fair>*10, "contenttweaker:pi
     .register();
 
 //goodgradeCharcoal
-Burn.createBuilder("goodcharcoal", <primal:charcoal_good>*10, "contenttweaker:pile_good")
+Burn.createBuilder("goodcharcoal", <primal:charcoal_good>, "contenttweaker:pile_good")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 40)
@@ -143,7 +143,7 @@ Burn.createBuilder("goodcharcoal", <primal:charcoal_good>*10, "contenttweaker:pi
     .register();
 
 //highgradeCharcoal
-Burn.createBuilder("highcharcoal", <primal:charcoal_high>*10, "contenttweaker:pile_high")
+Burn.createBuilder("highcharcoal", <primal:charcoal_high>, "contenttweaker:pile_high")
     .setBurnStages(10)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFluidProduced(<liquid:wood_tar> * 50)
@@ -154,26 +154,12 @@ Burn.createBuilder("highcharcoal", <primal:charcoal_high>*10, "contenttweaker:pi
     .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
     .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
     .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
-    .setRequiresRefractoryBlocks(false)
+    .setRequiresRefractoryBlocks(true)
     .register();
 
-//puregradeCharcoal
-Burn.createBuilder("purecharcoal", <primal:charcoal_pure>*10, "contenttweaker:pile_pure")
-    .setBurnStages(10)
-    .setTotalBurnTimeTicks(5 * 60 * 20)
-    .setFluidProduced(<liquid:wood_tar> * 60)
-    .setFailureChance(0.33)
-    .addFailureItem(<pyrotech:material:0>) // ash
-    .addFailureItem(<pyrotech:material:0> * 2) // ash
-    .addFailureItem(<pyrotech:material:0> * 4) // ash
-    .addFailureItem(<primal:charcoal_mote> * 4) // charcoal flakes
-    .addFailureItem(<primal:charcoal_mote> * 6) // charcoal flakes
-    .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
-    .setRequiresRefractoryBlocks(false)
-    .register();
 //bamboogradeCharcoal
-Burn.createBuilder("bamboocharcoal", <cuisine:material:6>*4, "zawa:bamboo_decortation")
-    .setBurnStages(10)
+Burn.createBuilder("bamboocharcoal", <cuisine:material:6>, "zawa:bamboo_decortation")
+    .setBurnStages(5)
     .setTotalBurnTimeTicks(5 * 60 * 20)
     .setFailureChance(0.33)
     .addFailureItem(<pyrotech:material:0>) // ash
@@ -436,7 +422,7 @@ SoakingPot.addRecipe("treated_kindling", <pyrotech:material:30>, <liquid:creosot
 SoakingPot.addRecipe("tanned_hide", <primal:hide_tanned>, <liquid:tannin>*250, <primal:hide_dried>, 3 * 30 * 20);
 SoakingPot.addRecipe("tanned_pigman_hide", <primal:pigman_hide_tanned>, <liquid:tannin>*250, <primal:pigman_hide_dried>, 3 * 30 * 20);
 //Thaumcraft
-SoakingPot.addRecipe("salismundus", <thaumcraft:salis_mundus>, <liquid:fluidedmana>*250, <ore:dustLapis>, 4 * 30 * 20);
+SoakingPot.addRecipe("salismundus", <thaumcraft:salis_mundus>, <liquid:fluidedmana>*250, <ore:dustDiamond>, 4 * 30 * 20);
 SoakingPot.addRecipe("quartzsliver", <thaumcraft:nugget:9>, <liquid:fluidedmana>*50, <ore:pointQuartz>, 15 * 20);
 SoakingPot.addRecipe("quicksilver", <thaumcraft:quicksilver>, <liquid:fluidedmana>*100, <ore:ingotQuickSilver>, 15 * 20);
 //Sugar

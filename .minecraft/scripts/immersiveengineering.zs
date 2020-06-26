@@ -40,30 +40,48 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:21
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:23>*2, <ore:ingotNeodymium>, <immersiveengineering:mold:4>, 2000, 16);
 
 //Engineersworkbenchtakesnotreatedwood
+recipes.remove(<immersiveengineering:wooden_device0:2>);
 recipes.addShapedMirrored("1x_tile_immersiveengineering_wooden_device0_workbench_shaped", <immersiveengineering:wooden_device0:2>, [
 	[<pyrotech:planks_tarred>, <pyrotech:planks_tarred>, <pyrotech:planks_tarred>],
 	[<minecraft:crafting_table>, null, <pyrotech:material:23>]
 ]);
 
 //Conveyor
+recipes.remove(<immersiveengineering:conveyor>);
 recipes.addShapedMirrored("8x_tile_immersiveengineering_conveyor_immersiveengineering_conveyor_shaped", (<immersiveengineering:conveyor> * 8).withTag({conveyorType: "immersiveengineering:conveyor"}), [
 	[<ore:leather>, <contenttweaker:basicconveyor>, <ore:leather>],
 	[<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>]
 ]);
 
-//Blastfurnace
-mods.immersiveengineering.BlastFurnace.removeAll();
-mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <contenttweaker:material_part:94>, 2000, <pyrotech:slag>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, 2000, <pyrotech:slag>);
+//Blastfurnace'
+recipes.remove(<immersiveengineering:stone_decoration:2>);
+recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_reinforced_shaped", <immersiveengineering:stone_decoration:2> * 3, [
+	[<materialpart:crude_steel:bolt>, <materialpart:crudesteel:plate>, <materialpart:crudeSteel:bolt>],
+	[<immersiveengineering:stone_decoration:1>, <immersiveengineering:stone_decoration:1>, <immersiveengineering:stone_decoration:1>],
+	[<materialpart:crudesteel:bolt>, <materialpart:crudesteel:plate>, <materialpart:crudesteel:bolt>]
+]);
+recipes.addShapedMirrored("1x_tile_immersiveengineering_stone_decoration_blastbrick_reinforced_shaped", <immersiveengineering:stone_decoration:2>, [
+	[<immersiveengineering:stone_decoration_slab:2>],
+	[<immersiveengineering:stone_decoration_slab:2>]
+]);
+
+
+
+
+recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
+recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_shaped", <immersiveengineering:stone_decoration:1> * 3, [
+	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>],
+	[<minecraft:nether_brick>, <extendedcrafting:material:140>, <minecraft:nether_brick>],
+	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>]
+]);
 
 //Blastfurnace
 mods.immersiveengineering.CokeOven.removeAll();
-mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <contenttweaker:material_part:94>, 2000, <pyrotech:slag>);
-mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, 2000, <pyrotech:slag>);
+
 
 //Blastfurnace
 mods.immersiveengineering.BlastFurnace.removeAll();
-mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <contenttweaker:material_part:94>, 2000, <pyrotech:slag>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <materialpart:pigiron:plate>, 2000, <pyrotech:slag>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, 2000, <pyrotech:slag>);
 
 //Distillation Tower
@@ -78,3 +96,13 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:ethylbenzene>*150,<liqui
 
 //CharcoalByproducts
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:wood_gas>*250,<liquid:dimethylbenzene>*100,<liquid:wood_tar>*250,<liquid:winegar>*400], [], <liquid:charcoal>*1000, 40000, 40, []);
+
+//MainOil
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:natural_gas>*100,<liquid:lpg>*200,<liquid:processedoil>*700], [], <liquid:hot_crude>*1000, 160000, 40, []);
+
+//NaturalGas
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:lng>*700,<liquid:gascondensates>*200,<liquid:hydrogen_sulfide>*100], [], <liquid:hotnaturalgas>*1000, 160000, 40, []);
+
+/*
+<materialpart:angmallen:plate>
+*/

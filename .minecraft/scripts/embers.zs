@@ -119,7 +119,7 @@ mods.embers.Alchemy.remove(<embers:winding_gears>);
 mods.embers.Alchemy.add(<embers:winding_gears>, [<ore:gearAtlarus>, <ore:gearAmber>, <ore:gearAmber>, <ore:gearAmber>, <ore:gearAmber>], {"copper": 32 to 64, "iron": 32 to 128});
 //FelPumpkin
 recipes.remove(<botania:felpumpkin>);
-mods.embers.Alchemy.add(<botania:felpumpkin>, [<minecraft:pumpkin>, <thebetweenlands:shimmer_stone>, <minecraft:gunpowder>, <minecraft:fermented_spider_eye>, <thebetweenlands:items_misc:25>], {"copper": 32 to 64, "dawnstone": 16 to 48});
+mods.embers.Alchemy.add(<botania:felpumpkin>, [<minecraft:pumpkin>, <thebetweenlands:shimmer_stone>, <minecraft:gunpowder>, <minecraft:fermented_spider_eye>, <primal:ovis_atre_wool>], {"copper": 32 to 64, "dawnstone": 16 to 48});
 
 //ChangingDawnstone
 mods.embers.Mixer.add(<liquid:dawnstone>*8,[<liquid:copper>*3,<liquid:gold>*3,<liquid:octine>*2]);

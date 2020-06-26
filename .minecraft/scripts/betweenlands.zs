@@ -35,9 +35,11 @@ recipes.addShapedMirrored("1x_tile_thebetweenlands_animator_shaped", <thebetween
 //Sulfurfurnace
 recipes.addShapedMirrored("1x_tile_thebetweenlands_sulfur_furnace_shaped", <thebetweenlands:sulfur_furnace>, [
 	[<thebetweenlands:betweenstone>, <thebetweenlands:betweenstone>, <thebetweenlands:betweenstone>],
-	[<ore:plateOctine>, null, <ore:plateOctine>],
-	[<thebetweenlands:betweenstone>, <ore:nitor>, <thebetweenlands:betweenstone>]
+	[<materialpart:syrmorite:plate>, <thaumcraft:nitor_yellow>, <materialpart:syrmorite:plate>],
+	[<thebetweenlands:betweenstone>, <materialpart:syrmorite:gear>, <thebetweenlands:betweenstone>]
 ]);
+
+
 
 
 

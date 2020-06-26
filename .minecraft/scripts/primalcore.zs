@@ -38,8 +38,10 @@ mods.nuclearcraft.Enricher.addRecipe(<ore:dustTannin>, <liquid:water>*250, <liqu
 mods.rockhounding_chemistry.LabOven.add("Tannin", <primal:tannin_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
 mods.rockhounding_chemistry.LabOven.add("TanninNether", <primal:inferum_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
 mods.primal.Gallagher.removeAll();
+
 //Planks
 recipes.remove(<primal:planks:*>);
+
 //ObsidianPlate
 recipes.remove(<primal:obsidian_shard>);
 furnace.remove(<primal:obsidian_plate>);
@@ -52,6 +54,12 @@ recipes.addShapedMirrored("1x_tile_primal_smelter_adobe_shaped", <primal:smelter
 	[null, <pyrotech:material:5>, null],
 	[<pyrotech:material:5>, null, <pyrotech:material:5>],
 	[<pyrotech:material:5>, <pyrotech:material:5>, <pyrotech:material:5>]
+]);
+//Cauldron
+recipes.addShapedMirrored("1x_tile_primal_cauldron_shaped", <primal:cauldron>, [
+	[<ore:plateIron>, null, <ore:plateIron>],
+	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+	[<ore:stickStone>, null, <ore:stickStone>]
 ]);
 //Ironslats
 recipes.remove(<primal:slat_iron>);

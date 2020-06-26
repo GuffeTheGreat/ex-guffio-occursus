@@ -4,7 +4,6 @@ game.setLocalization("fluid.rubber", "Sap");
 <thebetweenlands:items_misc:23>.displayName = "Solidified Sap";
 
 //ThemingPrimalcoreMachinesWithPyrotech
-<primal:hibachi:3>.withTag({type: "adobe"}).displayName = "Refractory Hibachi";
 <primal:smelter:3>.withTag({BlockEntityTag: {covered: 1 as byte}, type: "adobe"}).displayName = "Refractory Sariras";
 <primal:smelter:3>.withTag({type: "adobe"}).withTag({type: "adobe"}).displayName = "Refractory Sariras";
 <primal:smelter_lid_adobe>.withTag({type: "adobe"}).withTag({type: "adobe"}).displayName = "Refractory Lid";
@@ -67,7 +66,7 @@ game.setLocalization("fluid.rubber", "Sap");
 <minecraft:coal:1>.displayName = "Poor Grade Charcoal";
 //CharcoalBLocks
 <actuallyadditions:block_misc:5>.displayName = "Poor Grade Charcoal Block";
-<woot:stygianiron>.displayName = "Fair Grade Charcoal Block";
+<primal:ore_magnetite:2>.displayName = "Fair Grade Charcoal Block";
 <pyrotech:charcoal_block>.displayName = "Good Grade Charcoal Block";
 <metallurgy:charcoal_block>.displayName = "High Grade Charcoal Block";
 <rockhounding_chemistry:misc_blocks_a:11>.displayName = "Pure Carbon Block";

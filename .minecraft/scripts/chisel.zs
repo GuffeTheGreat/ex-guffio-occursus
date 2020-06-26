@@ -14,7 +14,6 @@ Carving.addVariation("guidebooks", <guideapi:bloodmagic-guide>);
 Carving.addVariation("guidebooks", <guideapi:crossroads-info_guide>);
 Carving.addVariation("guidebooks", <guideapi:crossroads-crossroadsmainguide>);
 Carving.addVariation("guidebooks", <guideapi:cyclicmagic-guide>);
-Carving.addVariation("guidebooks", <guideapi:woot-guide>);
 Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));
 Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));
 Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhounding_chemistry:xml/chembook.xml"}));

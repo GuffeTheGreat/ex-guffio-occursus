@@ -108,6 +108,12 @@ fluid.winegar=Wood Vinegar
 fluid.methane=Methane
 fluid.phtalic=Phtalic Acid
 fluid.desaltedoil=Desalted Oil
+fluid.processedoil=Processed Oil
+fluid.mazut=Mazut
+fluid.mineraloil=Mineral Oil
+fluid.gascondensates=Gas Condensates
+fluid.lng=LNG
+fluid.hotnaturalgas=Hot Natural Gas
 
 tile.contenttweaker.pile_poor.name=Pile of Poor Grade Wood
 tile.contenttweaker.pile_fair.name=Pile of Fair Grade Wood
@@ -115,6 +121,15 @@ tile.contenttweaker.pile_good.name=Pile of Good Grade Wood
 tile.contenttweaker.pile_high.name=Pile of High Grade Wood
 tile.contenttweaker.pile_pure.name=Pile of Pure Carbon Grade Wood
 
+contenttweaker.part.ring=%s Ring
+contenttweaker.part.rotor=%s Rotor
+contenttweaker.part.doubleingot=Double %s Ingot
+contenttweaker.part.pure_dust=Pure %s Dust
+contenttweaker.part.exquisite=Exquisite %s
+contenttweaker.part.flawless=Flawless %s
+contenttweaker.part.flaked=Flaked %s
+contenttweaker.part.point=Flaked %s Point
+contenttweaker.part.chunk=%s Chunk
 
 tile.contenttweaker.naquadah_blockore.name=Naquadah Ore
 tile.contenttweaker.enriched_naquadah_block.name=Enriched Naquadah Ore

@@ -198,6 +198,50 @@ desalted.viscosity = 10000;
 desalted.temperature = 300;
 desalted.register();
 
+  #Processed
+var oil = mods.contenttweaker.VanillaFactory.createFluid("processedoil", Color.fromHex("14100e"));
+oil.density = 10000;
+oil.viscosity = 10000;
+oil.temperature = 300;
+oil.register();
+
+  #mazut
+var mazut = mods.contenttweaker.VanillaFactory.createFluid("mazut", Color.fromHex("654321"));
+mazut.density = 10000;
+mazut.viscosity = 10000;
+mazut.temperature = 300;
+mazut.register();
+
+  #mineraloil
+var mineral = mods.contenttweaker.VanillaFactory.createFluid("mineraloil", Color.fromHex("14100e"));
+mineral.density = 10000;
+mineral.viscosity = 10000;
+mineral.temperature = 300;
+mineral.register();
+
+  #gascondensates
+var gas = mods.contenttweaker.VanillaFactory.createFluid("gascondensates", Color.fromHex("e1e17e4"));
+gas.density = 10000;
+gas.viscosity = 10000;
+gas.temperature = 300;
+gas.register();
+
+  #lng
+var lng = mods.contenttweaker.VanillaFactory.createFluid("lng", Color.fromHex("f9e4b7"));
+lng.density = 10000;
+lng.viscosity = 10000;
+lng.temperature = 300;
+lng.register();
+
+  #natural
+var natural = mods.contenttweaker.VanillaFactory.createFluid("hotnaturalgas", Color.fromHex("f9e4b7"));
+natural.density = 10000;
+natural.viscosity = 10000;
+natural.temperature = 1100;
+natural.register();
+
+
+
 
 //ITEMS-----------------------------
 #Carbonfirbres

@@ -1,0 +1,18 @@
+{
+  "id": "place_-1985,97,-185",
+  "name": "place",
+  "icon": "waypoint-normal.png",
+  "x": -1985,
+  "y": 97,
+  "z": -185,
+  "r": 215,
+  "g": 92,
+  "b": 252,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

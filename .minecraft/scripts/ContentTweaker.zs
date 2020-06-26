@@ -18,11 +18,18 @@ mods.contenttweaker.MaterialSystem.getPartBuilder()
   .setOreDictName("ring")
   .build();
 
-  #Screw
+  #Chunk
 mods.contenttweaker.MaterialSystem.getPartBuilder()
-  .setName("screw")
+  .setName("chunk")
   .setPartType(MaterialSystem.getPartType("item"))
-  .setOreDictName("screw")
+  .setOreDictName("chunk")
+  .build();
+
+  #Doubleingot
+mods.contenttweaker.MaterialSystem.getPartBuilder()
+  .setName("doubleingot")
+  .setPartType(MaterialSystem.getPartType("item"))
+  .setOreDictName("doubleIngot")
   .build();
 
   #Rotor
@@ -77,7 +84,7 @@ mods.contenttweaker.MaterialSystem.getPartBuilder()
 //MATERIALS ------------------------------------------------------
 //Naquadah
 var naquadah = MaterialSystem.getMaterialBuilder().setName("Naquadah").setColor(Color.fromHex("121111")).build();
-naquadah.registerParts(["ingot", "crushed_ore", "dense_ore", "clump", "crystal", "cluster","purified_ore", "dust"] as string[]);
+naquadah.registerParts(["ingot", "crushed_ore", "dense_ore", "clump", "crystal", "chunk","purified_ore", "dust"] as string[]);
 
 //NaquadahAlloy
 var naquadaha = MaterialSystem.getMaterialBuilder().setName("Naquadah Alloy").setColor(Color.fromHex("030108")).build();
@@ -85,7 +92,7 @@ naquadaha.registerParts(["ingot"] as string[]);
 
 //Octine
 var octine = MaterialSystem.getMaterialBuilder().setName("Octine").setColor(Color.fromHex("ffa500")).build();
-octine.registerParts(["plate", "dense_ore", "crushed_ore", "clump", "shard", "crystal", "cluster", "purified_ore","pure_dust","dirty_dust"] as string[]);
+octine.registerParts(["plate", "dense_ore", "crushed_ore", "clump", "shard", "crystal", "chunk", "purified_ore","pure_dust","dirty_dust","doubleingot"] as string[]);
 
 var molteOctine = octine.registerPart("molten").getData();
 molteOctine.addDataValue("temperature", "3000");
@@ -119,397 +126,465 @@ pigiron.registerParts(["ingot"] as string[]);
 var solderingalloy = MaterialSystem.getMaterialBuilder().setName("Soldering Alloy").setColor(Color.fromHex("ebecf0")).build();
 solderingalloy.registerParts(["ingot"] as string[]);
 
-var molteSolderingalloy = solderingalloy.registerPart("molten").getData();
-molteSolderingalloy.addDataValue("temperature", "900");
-molteSolderingalloy.addDataValue("luminosity", "10");
+var moltenSolderingalloy = solderingalloy.registerPart("molten").getData();
+moltenSolderingalloy.addDataValue("temperature", "900");
+moltenSolderingalloy.addDataValue("luminosity", "10");
 
 //Chalcopyrite
 var chalcoopyrite = MaterialSystem.getMaterialBuilder().setName("Chalcopyrite").setColor(Color.fromHex("964b00")).build();
-chalcoopyrite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+chalcoopyrite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Vermiculite
 var vermiculite = MaterialSystem.getMaterialBuilder().setName("Vermiculite").setColor(Color.fromHex("efa536")).build();
-vermiculite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+vermiculite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Cassiterite
 var cassiterite = MaterialSystem.getMaterialBuilder().setName("Cassiterite").setColor(Color.fromHex("d3d3d3")).build();
-cassiterite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+cassiterite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Alunite
 var alunite = MaterialSystem.getMaterialBuilder().setName("Alunite").setColor(Color.fromHex("b5651d")).build();
-alunite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+alunite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Grossular
 var grossular = MaterialSystem.getMaterialBuilder().setName("Grossular").setColor(Color.fromHex("933a16")).build();
-grossular.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+grossular.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Spessartine
 var spessartine = MaterialSystem.getMaterialBuilder().setName("Spessartine").setColor(Color.fromHex("933a16")).build();
-spessartine.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+spessartine.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Pyrolusite
 var pyrolusite = MaterialSystem.getMaterialBuilder().setName("Pyrolusite").setColor(Color.fromHex("7d7098")).build();
-pyrolusite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+pyrolusite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Tantalite
 var tantalite = MaterialSystem.getMaterialBuilder().setName("Tantalite").setColor(Color.fromHex("530201")).build();
-tantalite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+tantalite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Redstone
 var redstone = MaterialSystem.getMaterialBuilder().setName("Redstone").setColor(Color.fromHex("dff2800")).build();
-redstone.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+redstone.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Ruby
 var ruby = MaterialSystem.getMaterialBuilder().setName("Ruby").setColor(Color.fromHex("e0115f")).build();
-ruby.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+ruby.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Cinnabar
 var cinnabar = MaterialSystem.getMaterialBuilder().setName("Cinnabar").setColor(Color.fromHex("2f0000")).build();
-cinnabar.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+cinnabar.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Kyanite
 var kyanite = MaterialSystem.getMaterialBuilder().setName("Kyanite").setColor(Color.fromHex("BF00FF")).build();
-kyanite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+kyanite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Mica
 var mica = MaterialSystem.getMaterialBuilder().setName("Mica").setColor(Color.fromHex("aec6cf")).build();
-mica.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+mica.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Pollucite
 var pollucite = MaterialSystem.getMaterialBuilder().setName("Pollucite").setColor(Color.fromHex("cdcdcd")).build();
-pollucite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+pollucite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Iron
 var iron = MaterialSystem.getMaterialBuilder().setName("Iron").setColor(Color.fromHex("a19d94")).build();
-iron.registerParts(["crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust","rotor", "ring", "bolt"] as string[]);
+iron.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust","rotor", "ring", "bolt","doubleingot"] as string[]);
 
 //Pyrite
 var pyrite = MaterialSystem.getMaterialBuilder().setName("Pyrite").setColor(Color.fromHex("654321")).build();
-pyrite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+pyrite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Copper
 var copper = MaterialSystem.getMaterialBuilder().setName("Copper").setColor(Color.fromHex("b87333")).build();
-copper.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+copper.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Brown Limontite
 var bimonite = MaterialSystem.getMaterialBuilder().setName("Brown Limonite").setColor(Color.fromHex("cc5500")).build();
-bimonite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+bimonite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Yellow Limontite
 var yimonite = MaterialSystem.getMaterialBuilder().setName("Yellow Limonite").setColor(Color.fromHex("bda800")).build();
-yimonite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+yimonite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Banded Iron
 var bandedIron = MaterialSystem.getMaterialBuilder().setName("Banded Iron").setColor(Color.fromHex("3d4849")).build();
-bandedIron.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+bandedIron.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Malachite
 var malachite = MaterialSystem.getMaterialBuilder().setName("Malachite").setColor(Color.fromHex("0eff00")).build();
-malachite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+malachite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Apatite
 var apatite = MaterialSystem.getMaterialBuilder().setName("Apatite").setColor(Color.fromHex("add8e6")).build();
-apatite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+apatite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Tricalcium Phosphate
 var tricalciumPhosphate = MaterialSystem.getMaterialBuilder().setName("Tricalcium Phosphate").setColor(Color.fromHex("ffcc00")).build();
-tricalciumPhosphate.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+tricalciumPhosphate.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Pyrochlore
 var pyrochlore = MaterialSystem.getMaterialBuilder().setName("Pyrochlore").setColor(Color.fromHex("362204")).build();
-pyrochlore.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+pyrochlore.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Basaltic Mineral Sand
 var basaltic = MaterialSystem.getMaterialBuilder().setName("Basaltic Mineral Sand").setColor(Color.fromHex("013220")).build();
-basaltic.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+basaltic.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //granitic Mineral Sand
 var granitic = MaterialSystem.getMaterialBuilder().setName("Granitic Mineral Sand").setColor(Color.fromHex("002929")).build();
-granitic.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+granitic.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Fullers Earth
 var fullers = MaterialSystem.getMaterialBuilder().setName("Fullers Earth").setColor(Color.fromHex("cca483")).build();
-fullers.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+fullers.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Gypsum
 var gypsum = MaterialSystem.getMaterialBuilder().setName("Gypsum").setColor(Color.fromHex("85929e")).build();
-gypsum.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+gypsum.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Magnetite
 var magnetite = MaterialSystem.getMaterialBuilder().setName("Magnetite").setColor(Color.fromHex("010203")).build();
-magnetite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+magnetite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Vanadium Magnetite
 var vanadiummagnetite = MaterialSystem.getMaterialBuilder().setName("Vanadium Magnetite").setColor(Color.fromHex("071630")).build();
-vanadiummagnetite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+vanadiummagnetite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //GarnetSnad
 var mixedgarnet = MaterialSystem.getMaterialBuilder().setName("Mixed Gem").setColor(Color.fromHex("ff5e13")).build();
-mixedgarnet.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+mixedgarnet.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Asbestos
 var asbestos = MaterialSystem.getMaterialBuilder().setName("Asbestos").setColor(Color.fromHex("d1d3d4")).build();
-asbestos.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+asbestos.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Diotomite
 var diatomite = MaterialSystem.getMaterialBuilder().setName("Diatomite").setColor(Color.fromHex("d8d8d8d")).build();
-diatomite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+diatomite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Salt
 var salt = MaterialSystem.getMaterialBuilder().setName("Salt").setColor(Color.fromHex("e1e7e4")).build();
-salt.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+salt.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Rock Salt
 var rsalt = MaterialSystem.getMaterialBuilder().setName("Rock Salt").setColor(Color.fromHex("cdcdcd")).build();
-rsalt.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+rsalt.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Lepidolite
 var lepidolite = MaterialSystem.getMaterialBuilder().setName("Lepidolite").setColor(Color.fromHex("872557")).build();
-lepidolite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+lepidolite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Spodumene
 var spodumene = MaterialSystem.getMaterialBuilder().setName("Spodumene").setColor(Color.fromHex("aca1b4")).build();
-spodumene.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+spodumene.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Graphite
 var graphite = MaterialSystem.getMaterialBuilder().setName("Graphite").setColor(Color.fromHex("333333")).build();
-graphite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+graphite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Diamond
 var diamond = MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(Color.fromHex("89cff0")).build();
-diamond.registerParts(["crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+diamond.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Coal
 var coal = MaterialSystem.getMaterialBuilder().setName("Coal").setColor(Color.fromHex("060607")).build();
-coal.registerParts(["crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+coal.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Lazurite now Iolite
 var lazurite = MaterialSystem.getMaterialBuilder().setName("Iolite").setColor(Color.fromHex("00008b")).build();
-lazurite.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+lazurite.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Sodalite
 var sodalite = MaterialSystem.getMaterialBuilder().setName("Sodalite").setColor(Color.fromHex("3300cc")).build();
-sodalite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+sodalite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Lapis
 var lapis = MaterialSystem.getMaterialBuilder().setName("Lapis").setColor(Color.fromHex("003366")).build();
-lapis.registerParts(["crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+lapis.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Calcite
 var calcite = MaterialSystem.getMaterialBuilder().setName("Calcite").setColor(Color.fromHex("efe7db")).build();
-calcite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+calcite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Lignite Coal
 var lignite = MaterialSystem.getMaterialBuilder().setName("Lignite Coal").setColor(Color.fromHex("3c2f23")).build();
-lignite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+lignite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Dolomite
 var dolomite = MaterialSystem.getMaterialBuilder().setName("Dolomite").setColor(Color.fromHex("f2f2f2")).build();
-dolomite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+dolomite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Wollastonite
 var wollastonite = MaterialSystem.getMaterialBuilder().setName("Wollastonite").setColor(Color.fromHex("949494")).build();
-wollastonite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+wollastonite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Trona
 var trona = MaterialSystem.getMaterialBuilder().setName("Trona").setColor(Color.fromHex("526b2d")).build();
-trona.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+trona.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Andradite
 var andradite = MaterialSystem.getMaterialBuilder().setName("Andradite").setColor(Color.fromHex("a57600")).build();
-andradite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+andradite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Soapstone
 var soapstone = MaterialSystem.getMaterialBuilder().setName("Soapstone").setColor(Color.fromHex("013200")).build();
-soapstone.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+soapstone.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Talc
 var talc = MaterialSystem.getMaterialBuilder().setName("Talc").setColor(Color.fromHex("33a532")).build();
-talc.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+talc.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Glaconite
 var glaconite = MaterialSystem.getMaterialBuilder().setName("Glauconite").setColor(Color.fromHex("cb9a49")).build();
-glaconite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+glaconite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Pentlandite
 var pentlandite = MaterialSystem.getMaterialBuilder().setName("Pentlandite").setColor(Color.fromHex("b28104")).build();
-pentlandite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+pentlandite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Gold
 var gold = MaterialSystem.getMaterialBuilder().setName("Gold").setColor(Color.fromHex("d4af37")).build();
-gold.registerParts(["crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+gold.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Zeolite
 var zeolite = MaterialSystem.getMaterialBuilder().setName("Zeolite").setColor(Color.fromHex("dedede")).build();
-zeolite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+zeolite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Kaolinite
 var kaolinite = MaterialSystem.getMaterialBuilder().setName("Kaolinite").setColor(Color.fromHex("ececec")).build();
-kaolinite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+kaolinite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Tin
 var tin = MaterialSystem.getMaterialBuilder().setName("Tin").setColor(Color.fromHex("43464b")).build();
-tin.registerParts(["crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+tin.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Garnierite
 var garnierite = MaterialSystem.getMaterialBuilder().setName("Garnierite").setColor(Color.fromHex("1fc600")).build();
-garnierite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+garnierite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Nickel
 var nickel = MaterialSystem.getMaterialBuilder().setName("Nickel").setColor(Color.fromHex("f5f5dc")).build();
-nickel.registerParts(["crushed_ore", "clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+nickel.registerParts(["crushed_ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Cobaltite
 var cobaltite = MaterialSystem.getMaterialBuilder().setName("Cobaltite").setColor(Color.fromHex("0047ab")).build();
-cobaltite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+cobaltite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Galena
 var galena = MaterialSystem.getMaterialBuilder().setName("Galena").setColor(Color.fromHex("2f1538")).build();
-galena.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+galena.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Lead
 var lead = MaterialSystem.getMaterialBuilder().setName("Lead").setColor(Color.fromHex("7c5295")).build();
-lead.registerParts(["crushed_ore", "clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+lead.registerParts(["crushed_ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Silver
 var silver = MaterialSystem.getMaterialBuilder().setName("Silver").setColor(Color.fromHex("bec2cb")).build();
-silver.registerParts(["crushed_ore", "clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+silver.registerParts(["crushed_ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Bentonite
 var bentonite = MaterialSystem.getMaterialBuilder().setName("Bentonite").setColor(Color.fromHex("a49480")).build();
-bentonite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+bentonite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Magnesite
 var magnesite = MaterialSystem.getMaterialBuilder().setName("Magnesite").setColor(Color.fromHex("c3b091")).build();
-magnesite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+magnesite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Olivine now Peridot
 var peridot = MaterialSystem.getMaterialBuilder().setName("Peridot").setColor(Color.fromHex("76ff03")).build();
-peridot.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+peridot.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Almandine now Carnelian
 var carnelian = MaterialSystem.getMaterialBuilder().setName("Carnelian").setColor(Color.fromHex("8b0000")).build();
-carnelian.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+carnelian.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Pyrope
 var pyrope = MaterialSystem.getMaterialBuilder().setName("Pyrope").setColor(Color.fromHex("f77fbe")).build();
-pyrope.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+pyrope.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Sapphire
 var sapphire = MaterialSystem.getMaterialBuilder().setName("Sapphire").setColor(Color.fromHex("0f52ba")).build();
-sapphire.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+sapphire.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Green Sapphire
 var green_sapphire = MaterialSystem.getMaterialBuilder().setName("Green Sapphire").setColor(Color.fromHex("0bda51")).build();
-green_sapphire.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+green_sapphire.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Wulfenite
 var wulfenite = MaterialSystem.getMaterialBuilder().setName("Wulfenite").setColor(Color.fromHex("ffa500")).build();
-wulfenite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+wulfenite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Molybdenite
 var molybdenite = MaterialSystem.getMaterialBuilder().setName("Molybdenite").setColor(Color.fromHex("010101")).build();
-molybdenite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+molybdenite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Molybdenum
 var molybdenum = MaterialSystem.getMaterialBuilder().setName("Molybdenum").setColor(Color.fromHex("00010a")).build();
-molybdenum.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+molybdenum.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Powellite
 var powellite = MaterialSystem.getMaterialBuilder().setName("Powellite").setColor(Color.fromHex("ffdd3c")).build();
-powellite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+powellite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Tetrahedrite
 var tetrahedrite = MaterialSystem.getMaterialBuilder().setName("Tetrahedrite").setColor(Color.fromHex("420101")).build();
-tetrahedrite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+tetrahedrite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Stibnite
 var stibnite = MaterialSystem.getMaterialBuilder().setName("Stibnite").setColor(Color.fromHex("0d0d0d")).build();
-stibnite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+stibnite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Sulfur
 var sulfur = MaterialSystem.getMaterialBuilder().setName("Sulfur").setColor(Color.fromHex("f1dd38")).build();
-sulfur.registerParts(["crushed_ore", "clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+sulfur.registerParts(["crushed_ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Scheelite
 var scheelite = MaterialSystem.getMaterialBuilder().setName("Scheelite").setColor(Color.fromHex("FFC000")).build();
-scheelite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+scheelite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Beryllium
 var beryllium = MaterialSystem.getMaterialBuilder().setName("Beryllium").setColor(Color.fromHex("006400")).build();
-beryllium.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+beryllium.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Emerald
 var emerald = MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(Color.fromHex("50c878")).build();
-emerald.registerParts(["crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+emerald.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Thorium
 var thorium = MaterialSystem.getMaterialBuilder().setName("Thorium").setColor(Color.fromHex("000000")).build();
-thorium.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+thorium.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Saltpeter
 var saltpeter = MaterialSystem.getMaterialBuilder().setName("Saltpeter").setColor(Color.fromHex("fcfeff")).build();
-saltpeter.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+saltpeter.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Electrotine
 var electrotine = MaterialSystem.getMaterialBuilder().setName("Electrotine").setColor(Color.fromHex("45b6fe")).build();
-electrotine.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+electrotine.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Nether Quartz
 var nether_quartz = MaterialSystem.getMaterialBuilder().setName("Nether Quartz").setColor(Color.fromHex("ffffff")).build();
-nether_quartz.registerParts(["crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+nether_quartz.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Rose Quartz
 var rose_quartz = MaterialSystem.getMaterialBuilder().setName("Rose Quartz").setColor(Color.fromHex("f7cac9")).build();
-rose_quartz.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+rose_quartz.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Barite
 var barite = MaterialSystem.getMaterialBuilder().setName("Barite").setColor(Color.fromHex("aeaeae")).build();
-barite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+barite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Certus Quartz
 var certus_quartz = MaterialSystem.getMaterialBuilder().setName("Certus Quartz").setColor(Color.fromHex("add8e6")).build();
-certus_quartz.registerParts(["crushed_ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+certus_quartz.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Bastnasite
 var bastnasite = MaterialSystem.getMaterialBuilder().setName("Bastnasite").setColor(Color.fromHex("ff5e13")).build();
-bastnasite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+bastnasite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Monazite now Black Diamond
 var biamond = MaterialSystem.getMaterialBuilder().setName("Black Diamond").setColor(Color.fromHex("000000")).build();
-biamond.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+biamond.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Neodymium
 var neodymium = MaterialSystem.getMaterialBuilder().setName("Neodymium").setColor(Color.fromHex("030b07")).build();
-neodymium.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+neodymium.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Bauxite
 var bauxite = MaterialSystem.getMaterialBuilder().setName("Bauxite").setColor(Color.fromHex("c45f00")).build();
-bauxite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+bauxite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Ilmenite
 var ilmenite = MaterialSystem.getMaterialBuilder().setName("Ilmenite").setColor(Color.fromHex("0f0e0e")).build();
-ilmenite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+ilmenite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Aluminum
 var aluminum = MaterialSystem.getMaterialBuilder().setName("Aluminum").setColor(Color.fromHex("b19cd9")).build();
-aluminum.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","cluster","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+aluminum.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Vyroexeres
+var vyroxeres = MaterialSystem.getMaterialBuilder().setName("Vyroxeres").setColor(Color.fromHex("66ff00")).build();
+vyroxeres.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Mirabilite now Midasium
+var midasium = MaterialSystem.getMaterialBuilder().setName("Midasium").setColor(Color.fromHex("66ff00")).build();
+midasium.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Mithril now Kalendrite
+var kalendrite = MaterialSystem.getMaterialBuilder().setName("Kalendrite").setColor(Color.fromHex("c377e0")).build();
+kalendrite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//magnesium
+var magnesium = MaterialSystem.getMaterialBuilder().setName("Magnesium").setColor(Color.fromHex("c377e0")).build();
+magnesium.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Jade
+var jade = MaterialSystem.getMaterialBuilder().setName("Jade").setColor(Color.fromHex("66ff00")).build();
+jade.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Rubracium
+var rubracium = MaterialSystem.getMaterialBuilder().setName("Rubracium").setColor(Color.fromHex("722F37")).build();
+rubracium.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Oriharukon now Ceruclase
+var ceruclase = MaterialSystem.getMaterialBuilder().setName("Ceruclase").setColor(Color.fromHex("722F37")).build();
+ceruclase.registerParts(["crushed_ore","ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Osmium
+var osmium = MaterialSystem.getMaterialBuilder().setName("Osmium").setColor(Color.fromHex("004080")).build();
+osmium.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Iridium
+var iridium = MaterialSystem.getMaterialBuilder().setName("Iridium").setColor(Color.fromHex("f5f5f5")).build();
+iridium.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Adamant
+var adamant = MaterialSystem.getMaterialBuilder().setName("Adamant").setColor(Color.fromHex("000316")).build();
+adamant.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Gallium
+var gallium = MaterialSystem.getMaterialBuilder().setName("Gallium").setColor(Color.fromHex("380915")).build();
+gallium.registerParts(["dust","crushed_ore","ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Niobium
+var niobium = MaterialSystem.getMaterialBuilder().setName("Niobium").setColor(Color.fromHex("0000ff")).build();
+niobium.registerParts(["crushed_ore","ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Sphalerite
+var sphalerite = MaterialSystem.getMaterialBuilder().setName("Sphalerite").setColor(Color.fromHex("0000ff")).build();
+sphalerite.registerParts(["dust","crushed_ore","ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Ilmenite
+var ilmenite = MaterialSystem.getMaterialBuilder().setName("Ilmenite").setColor(Color.fromHex("0000ff")).build();
+ilmenite.registerParts(["dust","crushed_ore","ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Alduorite
+var alduorite = MaterialSystem.getMaterialBuilder().setName("Alduorite").setColor(Color.fromHex("0000ff")).build();
+alduorite.registerParts(["crushed_ore","ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Callisto Ice now Lemurite
+var lemurite = MaterialSystem.getMaterialBuilder().setName("Lemurite").setColor(Color.fromHex("0000ff")).build();
+lemurite.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);'
+
+//Palladium
+var palladium = MaterialSystem.getMaterialBuilder().setName("Palladium").setColor(Color.fromHex("0000ff")).build();
+palladium.registerParts(["dust","crushed_ore","ore", "clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Manasteel
 var manasteel = MaterialSystem.getMaterialBuilder().setName("Manasteel").setColor(Color.fromHex("0066cc")).build();
-manasteel.registerParts(["plate"] as string[]);
+manasteel.registerParts(["plate","doubleingot"] as string[]);
 
 //Amber
 var amber = MaterialSystem.getMaterialBuilder().setName("Amber").setColor(Color.fromHex("fc9c24")).build();
-amber.registerParts(["gear","plate","rod"] as string[]);
+amber.registerParts(["gear","plate","doubleingot"] as string[]);
 
 //Atlarus
 var atlarus = MaterialSystem.getMaterialBuilder().setName("Atlarus").setColor(Color.fromHex("ffdf00")).build();
-atlarus.registerParts(["gear","plate","rod"] as string[]);
+atlarus.registerParts(["gear","plate","doubleingot"] as string[]);
 
 //Syrmorite
 var syrmorite = MaterialSystem.getMaterialBuilder().setName("Syrmorite").setColor(Color.fromHex("003366")).build();
-syrmorite.registerParts(["plate"] as string[]);
+syrmorite.registerParts(["plate","dust","doubleingot","gear"] as string[]);
 
 //Valonite
 var valonite = MaterialSystem.getMaterialBuilder().setName("Valonite").setColor(Color.fromHex("eeeeee")).build();
@@ -517,9 +592,16 @@ valonite.registerParts(["rod"] as string[]);
 
 //Angmallen
 var angmallen = MaterialSystem.getMaterialBuilder().setName("Angmallen").setColor(Color.fromHex("b28104")).build();
-angmallen.registerParts(["plate"] as string[]);
+angmallen.registerParts(["plate","doubleingot"] as string[]);
 
+//Crudesteel
+var crudesteel = MaterialSystem.getMaterialBuilder().setName("Crude Steel").setColor(Color.fromHex("828680")).build();
+crudesteel.registerParts(["plate","doubleingot","rod","bolt"] as string[]);
 
+//Rubber
+var rubber = MaterialSystem.getMaterialBuilder().setName("Rubber").setColor(Color.fromHex("1776664")).build();
+rubber.registerParts(["plate","doubleingot","rod","ring"] as string[]);
+/*
 ////Oreprocessing
 var gemMap as string[string] = {
 
@@ -582,4 +664,4 @@ for lastTiers in lastTiers {
     item.register();
   }
  }
-
+*/

@@ -49,7 +49,6 @@ furnace.remove(<minecraft:coal:1>);
 recipes.remove(<minecraft:coal:1>);
 recipes.addShapeless("9x_item_charcoal_shapeless", <minecraft:coal:1> * 9, [<ore:blockCharcoal>]);
 recipes.remove(<actuallyadditions:block_misc:5>);
-recipes.remove(<woot:stygianiron>);
 recipes.remove(<pyrotech:charcoal_block>);
 recipes.remove(<metallurgy:charcoal_block>);
 recipes.remove(<rockhounding_chemistry:misc_blocks_a:11>);
@@ -58,7 +57,7 @@ recipes.addShapedMirrored("poorcharcoalblock", <actuallyadditions:block_misc:5>,
 	[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
 	[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>]
 ]);
-recipes.addShapedMirrored("faircharcoalblock", <woot:stygianiron>, [
+recipes.addShapedMirrored("faircharcoalblock", <primal:ore_magnetite:2>, [
 	[<primal:charcoal_fair>, <primal:charcoal_fair>, <primal:charcoal_fair>],
 	[<primal:charcoal_fair>, <primal:charcoal_fair>, <primal:charcoal_fair>],
 	[<primal:charcoal_fair>, <primal:charcoal_fair>, <primal:charcoal_fair>]
@@ -145,6 +144,39 @@ recipes.remove(<minecraft:planks:*>);
 furnace.setFuel(<minecraft:coal:1>, 1200);
 furnace.setFuel(<primal:charcoal_pure>, 3200);
 furnace.setFuel(<primal:charcoal_mote>, 200);
+
+//CharcoalPiles
+recipes.addShapedMirrored("1x_tile_contenttweaker_pile_poor_shaped", <contenttweaker:pile_poor>, [
+	[<ore:poorWood>, <ore:poorWood>, <ore:poorWood>],
+	[<ore:poorWood>, <ore:poorWood>, <ore:poorWood>],
+	[<ore:poorWood>, <ore:poorWood>, <ore:poorWood>]
+]);
+recipes.addShapedMirrored("1x_tile_contenttweaker_pile_fair_shaped", <contenttweaker:pile_fair>, [
+	[<ore:fairWood>, <ore:fairWood>, <ore:fairWood>],
+	[<ore:fairWood>, <ore:fairWood>, <ore:fairWood>],
+	[<ore:fairWood>, <ore:fairWood>, <ore:fairWood>]
+]);
+recipes.addShapedMirrored("1x_tile_contenttweaker_pile_good_shaped", <contenttweaker:pile_good>, [
+	[<ore:goodWood>, <ore:goodWood>, <ore:goodWood>],
+	[<ore:goodWood>, <ore:goodWood>, <ore:goodWood>],
+	[<ore:goodWood>, <ore:goodWood>, <ore:goodWood>]
+]);
+recipes.addShapedMirrored("1x_tile_contenttweaker_pile_high_shaped", <contenttweaker:pile_high>, [
+	[<ore:highWood>, <ore:highWood>, <ore:highWood>],
+	[<ore:highWood>, <ore:highWood>, <ore:highWood>],
+	[<ore:highWood>, <ore:highWood>, <ore:highWood>]
+]);
+recipes.addShapedMirrored("1x_tile_contenttweaker_pile_pure_shaped", <contenttweaker:pile_pure>, [
+	[<ore:pureWood>, <ore:pureWood>, <ore:doorWood>],
+	[<ore:pureWood>, <ore:pureWood>, <ore:pureWood>],
+	[<ore:pureWood>, <ore:pureWood>, <ore:pureWood>]
+]);
+
+
+
+
+
+
 
 
 
