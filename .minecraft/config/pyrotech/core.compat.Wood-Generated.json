@@ -11,6 +11,10 @@
   ],
   "entries": {
     "advancedrocketry:alienwood:0": "advancedrocketry:planks:0",
+    "atum:deadwood_log:0": "atum:deadwood_planks:0",
+    "atum:deadwood_planks:0": "atum:deadwood_slab:0",
+    "atum:palm_log:0": "atum:palm_planks:0",
+    "atum:palm_planks:0": "atum:palm_slab:0",
     "cuisine:log:0": "cuisine:planks:0",
     "minecraft:planks:0": "minecraft:wooden_slab:0",
     "minecraft:planks:1": "minecraft:wooden_slab:1",

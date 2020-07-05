@@ -71,6 +71,7 @@
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
+        "atum:tile.atum.goldOre",
         "geolosys:geolosys.cluster.gold",
         "minecraft:tile.oreGold"
       ],
@@ -90,6 +91,7 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
+        "atum:tile.atum.ironOre",
         "geolosys:geolosys.cluster.iron",
         "minecraft:tile.oreIron"
       ],

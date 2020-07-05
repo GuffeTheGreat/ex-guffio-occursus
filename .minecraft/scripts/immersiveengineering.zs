@@ -1,3 +1,4 @@
+import mods.immersiveintelligence.PrecissionAssembler;
 //Removedthings
 mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device1>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device1:1>);
@@ -13,7 +14,6 @@ recipes.addShapedMirrored("2x_tile_immersiveengineering_stone_decoration_alloybr
 	[<enderio:item_alloy_endergy_ingot>, <pyrotech:material:5>],
 	[<pyrotech:material:5>, <enderio:item_alloy_endergy_ingot>]
 ]);
-
 
 //ChangeCraftingComponentBlueprintCausenoAluminium
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
@@ -32,27 +32,37 @@ mods.immersiveengineering.Blueprint.addRecipe("blueprint", <modularmachinery:ite
 //CraftingComponentsRecipes
 mods.immersiveengineering.Blueprint.addRecipe("blueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:clay_forge"}), [<minecraft:paper>, <minecraft:paper>,<avaritia:resource:4>*16,<minecraft:paper>*8,<avaritia:block_resource:1>*3]);
 
-
 //Pressrecipes
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22>*2, <ore:ingotSilver>, <immersiveengineering:mold:4>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:20>*2, <ore:ingotBrass>, <immersiveengineering:mold:4>, 2000, 16);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:21>*2, <ore:ingotScandium>, <immersiveengineering:mold:4>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:23>*2, <ore:ingotNeodymium>, <immersiveengineering:mold:4>, 2000, 16);
+//Ae2 Presses
+mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:19>, <ore:blockAluminum>, <immersiveengineering:mold>, 8000);
+mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:14>, <ore:blockMagnesium>, <immersiveengineering:mold>, 8000);
+mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:15>, <ore:blockZinc>, <immersiveengineering:mold>, 8000);
+mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:13>, <ore:blockLithium>, <immersiveengineering:mold>, 8000);
+//Printedstufftoreplaceinscriber
+mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:20>, <ore:waferSilicon>, <appliedenergistics2:material:19>, 8000);
+mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:17>, <ore:plateDiamond>, <appliedenergistics2:material:14>, 8000);
+mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:18>, <ore:plateGold>, <appliedenergistics2:material:15>, 8000);
+mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:16>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:material:13>, 8000);
 
+PrecissionAssembler.addRecipe(<appliedenergistics2:material:22>,null,[<appliedenergistics2:material:18>,<appliedenergistics2:material:20>,<ore:dustRedstone>,<advancedrocketry:ic>],["Inserter"],["Solderer"],4000,20);
 //Engineersworkbenchtakesnotreatedwood
 recipes.remove(<immersiveengineering:wooden_device0:2>);
 recipes.addShapedMirrored("1x_tile_immersiveengineering_wooden_device0_workbench_shaped", <immersiveengineering:wooden_device0:2>, [
 	[<pyrotech:planks_tarred>, <pyrotech:planks_tarred>, <pyrotech:planks_tarred>],
 	[<minecraft:crafting_table>, null, <pyrotech:material:23>]
 ]);
-
+/*
 //Conveyor
 recipes.remove(<immersiveengineering:conveyor>);
 recipes.addShapedMirrored("8x_tile_immersiveengineering_conveyor_immersiveengineering_conveyor_shaped", (<immersiveengineering:conveyor> * 8).withTag({conveyorType: "immersiveengineering:conveyor"}), [
 	[<ore:leather>, <contenttweaker:basicconveyor>, <ore:leather>],
 	[<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>]
 ]);
-
+*/
 //Blastfurnace'
 recipes.remove(<immersiveengineering:stone_decoration:2>);
 recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_reinforced_shaped", <immersiveengineering:stone_decoration:2> * 3, [
@@ -106,3 +116,6 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:lng>*700,<liquid:gascond
 /*
 <materialpart:angmallen:plate>
 */
+
+//Alloysmelter
+mods.immersiveengineering.AlloySmelter.addRecipe(<extendedcrafting:material>, <ore:ingotIron>, <ore:ingotCarbon>, 2000);

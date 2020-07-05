@@ -256,4 +256,27 @@ quarryRat.register();
 var digitalMinerRat as Item = VanillaFactory.createItem("dmrat");
 digitalMinerRat.register();
 
+//Microcraftingparts
+//Parts
+#Basic, Intermediate, Advanced, Elite, and Insane Parts
+var techTiers = ["basic","intermediate","advanced","elite","insane","ludicrous","divine","absurd"] as string[];
+var techParts = ["piston","conveyor","motor","sensor","emitter","robotarm","valve","field_generator"] as string[];
 
+for techTiers in techTiers {
+  for techParts in techParts {
+    var item = VanillaFactory.createItem(techTiers + techParts);      
+    item.register();
+  }
+}
+
+  #Ludicrous and Divine Microcrafting parts
+var lastTiers = ["transcendent"] as string[];
+for lastTiers in lastTiers {
+  for techParts in techParts {
+    var item = VanillaFactory.createItem(lastTiers + techParts);
+    item.setMaxStackSize(1);
+    item.glowing = true;
+    item.rarity = "epic";
+    item.register();
+  }
+ }

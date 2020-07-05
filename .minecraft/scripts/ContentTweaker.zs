@@ -598,70 +598,49 @@ angmallen.registerParts(["plate","doubleingot"] as string[]);
 var crudesteel = MaterialSystem.getMaterialBuilder().setName("Crude Steel").setColor(Color.fromHex("828680")).build();
 crudesteel.registerParts(["plate","doubleingot","rod","bolt"] as string[]);
 
+//Alchemicalbrass
+var alchemicalbrass = MaterialSystem.getMaterialBuilder().setName("Alchemical Brass").setColor(Color.fromHex("b5a642")).build();
+alchemicalbrass.registerParts(["plate","doubleingot","rod"] as string[])
+
 //Rubber
 var rubber = MaterialSystem.getMaterialBuilder().setName("Rubber").setColor(Color.fromHex("1776664")).build();
 rubber.registerParts(["plate","doubleingot","rod","ring"] as string[]);
-/*
+
 ////Oreprocessing
 var gemMap as string[string] = {
 
-	//Gems
-	"Dilithium" : "f5fafa",
-	"Quartz" : "ffffff",
-	"Charged Certus Quartz" : "e0ffff",
-	"Certus Quartz" : "c0f6fb",
-	"Black Quartz" : "000000",
-	"Diamond" : "b9f2ff",
-	"Lapis" : "0066cc",
-	"Amber" : "ffff00",
-	"Coal" : "060607",
-	"Amethyst" :  "7719aa",
-	"Emerald" : "32cd32",
-	"Jade" : "00a86b",
-	"Fluorite" : "cc8899",
-	"Goldenite Crystal" : "d4af37",
-	"Anti Gravity" : "585858",
-	"Ruby" : "e0115f",
-	"Sodalite" : "00001b",
-	"Lunar Gem" : "003366",
-	"Sapphire" : "00008b",
-	"Monazite" : "050403",
-	"Vinteum" : "6495ed"
+  //Gems
+  "Dilithium" : "f5fafa",
+  "Quartz" : "ffffff",
+  "Charged Certus Quartz" : "e0ffff",
+  "Certus Quartz" : "c0f6fb",
+  "Black Quartz" : "000000",
+  "Diamond" : "b9f2ff",
+  "Lapis" : "0066cc",
+  "Amber" : "ffff00",
+  "Coal" : "060607",
+  "Amethyst" :  "7719aa",
+  "Emerald" : "32cd32",
+  "Jade" : "00a86b",
+  "Fluorite" : "cc8899",
+  "Goldenite Crystal" : "d4af37",
+  "Anti Gravity" : "585858",
+  "Ruby" : "e0115f",
+  "Sodalite" : "00001b",
+  "Lunar Gem" : "003366",
+  "Sapphire" : "00008b",
+  "Monazite" : "050403",
+  "Vinteum" : "6495ed"
 
 };
 
 for material, color in gemMap {
-	var part = MaterialSystem.getMaterialBuilder()
-		.setName(material)
-		.setColor(Color.fromHex(color))
-		.build();
-	part.registerPart("exquisite");
-	part.registerPart("flawless");
-	part.registerPart("flaked");
-	part.registerPart("point");	
+  var part = MaterialSystem.getMaterialBuilder()
+    .setName(material)
+    .setColor(Color.fromHex(color))
+    .build();
+  part.registerPart("exquisite");
+  part.registerPart("flawless");
+  part.registerPart("flaked");
+  part.registerPart("point"); 
 }
-//Microcraftingparts
-//Parts
-#Basic, Intermediate, Advanced, Elite, and Insane Parts
-var techTiers = ["basic","intermediate","advanced","elite","insane","ludicrous","divine","absurd"] as string[];
-var techParts = ["piston","conveyor","motor","sensor","emitter","robotarm","valve","field_generator", "circuit", "processor"] as string[];
-
-for techTiers in techTiers {
-	for techParts in techParts {
-		var item = VanillaFactory.createItem(techTiers + techParts);			
-		item.register();
-	}
-}
-
-  #Ludicrous and Divine Microcrafting parts
-var lastTiers = ["transcendent"] as string[];
-for lastTiers in lastTiers {
-  for techParts in techParts {
-    var item = VanillaFactory.createItem(lastTiers + techParts);
-    item.setMaxStackSize(1);
-    item.glowing = true;
-    item.rarity = "epic";
-    item.register();
-  }
- }
-*/

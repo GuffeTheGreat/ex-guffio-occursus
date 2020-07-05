@@ -19,6 +19,13 @@ recipes.addShapedMirrored("1x_tile_dispenser_shaped", <minecraft:dispenser>, [
 	[<minecraft:cobblestone>, <thaumcraft:inlay>, <minecraft:cobblestone>]
 ]);
 
+//Brewingstand
+recipes.remove(<minecraft:brewing_stand>);
+recipes.addShapedMirrored("1x_item_brewingStand_shaped", <minecraft:brewing_stand>, [
+	[null, <rockhounding_chemistry:misc_items:24>, null],
+	[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+]);
+
 
 #RemoveGallgagherreicpe
 recipes.remove(<minecraft:quartz>*4);
