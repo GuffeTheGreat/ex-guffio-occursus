@@ -36,24 +36,18 @@ game.setLocalization("fluid.rubber", "Sap");
 <enderio:item_endergy_conduit:2>.displayName = "Zircaloy Conduit";
 <enderio:item_endergy_conduit:5>.displayName = "NIB Conduit";
 <enderio:item_endergy_conduit:7>.displayName = "Oganesson Conduit";
-
+/*
 <actuallyadditions:block_misc:9>.displayName = "Basic Casing";
-<rftools:machine_frame>.displayName = "Intermediate Casing";
+<emergingtechnology:machinecase>.displayName = "Intermediate Casing";
 <nuclearcraft:part:11>.displayName = "Advanced Casing";
 <nuclearcraft:part:10>.displayName = "Elite Casing";
 <nuclearcraft:part:12>.displayName = "Insane Casing";
 <alchemistry:fission_casing>.displayName = "Ludicrous Casing";
 <alchemistry:fusion_casing>.displayName = "Absurd Casing";
-<extendedcrafting:frame>.displayName = "Divine Casing";
+<deepmoblearning:machine_casing>'.displayName = "Divine Casing";
 <actuallyadditions:block_misc:8>.displayName = "Transcendent Casing";
 
-<extendedcrafting:storage:4>.displayName = "Block of Guffio";
-<extendedcrafting:material:13>.displayName = "Guffio Catalyst";
-<extendedcrafting:material:19>.displayName = "Guffio Component";
-<extendedcrafting:material:32>.displayName = "Guffio Ingot";
-<extendedcrafting:material:33>.displayName = "Guffio Nugget";
-<extendedcrafting:singularity_ultimate>.displayName = "Guffio Catalyst";
-
+*/
 //CharcoalRelatedThings
 //WoodStacks
 <primal:logs_stacked:2>.displayName = "Poor Grade Log Stack";

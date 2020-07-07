@@ -15,10 +15,10 @@ mods.alchemistry.Util.createElement(120,"mana","Ma", 0, 255, 244);
 mods.alchemistry.Util.createElement(121,"tritanium","Tn", 0, 255, 244);
 
 //Adamantium
-mods.alchemistry.Util.createElement(122,"adamantium","Ad", 0, 255, 244);
+mods.alchemistry.Util.createElement(122,"adamant","Ad", 0, 255, 244);
 
 //Duranium
-mods.alchemistry.Util.createElement(123,"desh","De", 0, 255, 244);
+mods.alchemistry.Util.createElement(123,"chaos","Ch", 0, 255, 244);
 
 //Draconium
 mods.alchemistry.Util.createElement(124,"draconium","D", 0, 255, 244);

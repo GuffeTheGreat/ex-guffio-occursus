@@ -28,22 +28,6 @@ addBiome:
     Notes:
         Adds the provided biome id to the provided heat id with a weight of 1. What heat ids are available depends on the GenLayer used before this
 
-setSpecialBiome:
-    Arguments:
-        Non_Null_Biome_ID, Non_Null_Biome_ID
-    Usage:
-        heat ID, biome ID
-    Notes:
-        Sets the special biome for the provided heat id. What heat ids are available depends on the GenLayer used before this.
-
-setSpecialVariantBiome:
-    Arguments:
-        Non_Null_Biome_ID, Non_Null_Biome_ID
-    Usage:
-        heat ID, biome ID
-    Notes:
-        Sets the special variant biome for the provided heat id. What heat ids are available depends on the GenLayer used before this.
-
 setSpecialVariantChance:
     Arguments:
         Non_Null_Biome_ID, int
@@ -59,4 +43,20 @@ setSpecialVariantChance:
         chance
     Notes:
         Sets the global chance for the special variant biome to be used. This will set the chance for all heat ids. Set this before you set specific ones or it will overwrite. The chance is 1 in the provided number.
+
+setSpecialVariantBiome:
+    Arguments:
+        Non_Null_Biome_ID, Non_Null_Biome_ID
+    Usage:
+        heat ID, biome ID
+    Notes:
+        Sets the special variant biome for the provided heat id. What heat ids are available depends on the GenLayer used before this.
+
+setSpecialBiome:
+    Arguments:
+        Non_Null_Biome_ID, Non_Null_Biome_ID
+    Usage:
+        heat ID, biome ID
+    Notes:
+        Sets the special biome for the provided heat id. What heat ids are available depends on the GenLayer used before this.
 

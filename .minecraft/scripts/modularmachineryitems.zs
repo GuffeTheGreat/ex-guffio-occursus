@@ -8,7 +8,7 @@ recipes.addShapedMirrored("1x_tile_modularmachinery_blockcasing_plain_shaped", <
 //Intermediate
 recipes.addShapedMirrored("2x_tile_modularmachinery_blockcasing_plain_shaped", <modularmachinery:blockcasing> * 2, [
 	[null, <modularmachinery:itemmodularium>, null],
-	[<modularmachinery:itemmodularium>, <rftools:machine_frame>, <modularmachinery:itemmodularium>],
+	[<modularmachinery:itemmodularium>, <emergingtechnology:machinecase>, <modularmachinery:itemmodularium>],
 	[null, <modularmachinery:itemmodularium>, null]
 ]);
 //Advanced

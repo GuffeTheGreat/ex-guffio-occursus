@@ -1,0 +1,87 @@
+  {
+	  "name": "botanicadds:elven_altar",
+	  
+	  "target-item": "botanicadds:elven_altar",
+	  "target-count": 1,
+	  "duration": 200,
+	  "catalyst": "botania:manaresource",
+	  "catalyst-meta": "9",
+		
+	  "input-types": {
+		"a": {
+		  "id": "botania:pylon",
+		  "meta": 2
+		},
+		"b": {
+		  "id": "botania:runealtar",
+		  "meta": 0
+		},
+		"c": {
+		  "id": "botanicadds:elven_lapis_block",
+		  "meta": 0
+		},
+		"d": {
+		  "id": "botanicadds:dreamrock",
+		  "meta": 0
+		},
+		"e": {
+		  "id": "botania:storage",
+		  "meta": 2
+		}
+	  },
+	  "input-nbt": {
+	  },
+	  "shape": [
+		[
+		  [
+			"a",
+			"_",
+			"a"
+		  ],
+		  [
+			"_",
+			"_",
+			"_"
+		  ],
+		  [
+			"a",
+			"_",
+			"a"
+		  ]
+		],
+		[
+		  [
+			"_",
+			"_",
+			"_"
+		  ],
+		  [
+			"_",
+			"b",
+			"_"
+		  ],
+		  [
+			"_",
+			"_",
+			"_"
+		  ]
+		],
+		[
+		  [
+			"c",
+			"d",
+			"c"
+		  ],
+		  [
+			"d",
+			"e",
+			"d"
+		  ],
+		  [
+			"c",
+			"d",
+			"c"
+		  ]
+		]
+	  ]
+}

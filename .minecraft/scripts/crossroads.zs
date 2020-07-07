@@ -1,6 +1,7 @@
 mods.jei.JEI.removeAndHide(<crossroads:gear_invar>);
 mods.jei.JEI.removeAndHide(<crossroads:large_gear_invar>);
 mods.jei.JEI.removeAndHide(<crossroads:toggle_gear_invar>);
+mods.jei.JEI.removeAndHide(<crossroads:fluid_tank>);
 
 //Grindstone
 recipes.addShapedMirrored("1x_tile_grindstone_shaped", <crossroads:grindstone>, [

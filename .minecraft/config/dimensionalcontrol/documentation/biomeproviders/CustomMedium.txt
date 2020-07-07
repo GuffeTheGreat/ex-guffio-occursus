@@ -9,6 +9,14 @@ examples.
 
 
 
+addSpawnBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome ID
+    Notes:
+        Adds a biome to the list for players to spawn in.
+
 magnify:
     Arguments:
         long, Genlayer, int
@@ -24,12 +32,4 @@ setGenLayers:
         genlayer, zoomed genlayer
     Notes:
         Sets the Genlayer chain for this BiomeProvider. The second layer should be the same as the first layer, but with an added GenLayerVoronoiZoom on the end. The first one is used for the lerped terrain generation, the second is used for the detailed biome map.
-
-addSpawnBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome ID
-    Notes:
-        Adds a biome to the list for players to spawn in.
 

@@ -174,7 +174,7 @@ recipes.addShapedMirrored("1x_tile_contenttweaker_pile_high_shaped", <contenttwe
 	[<ore:highWood>, <ore:highWood>, <ore:highWood>]
 ]);
 recipes.addShapedMirrored("1x_tile_contenttweaker_pile_pure_shaped", <contenttweaker:pile_pure>, [
-	[<ore:pureWood>, <ore:pureWood>, <ore:doorWood>],
+	[<ore:pureWood>, <ore:pureWood>, <ore:pureWood>],
 	[<ore:pureWood>, <ore:pureWood>, <ore:pureWood>],
 	[<ore:pureWood>, <ore:pureWood>, <ore:pureWood>]
 ]);

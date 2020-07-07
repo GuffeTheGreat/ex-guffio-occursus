@@ -81,7 +81,7 @@ recipes.addShapedMirrored("1x_tile_immersiveengineering_stone_decoration_blastbr
 recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
 recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_shaped", <immersiveengineering:stone_decoration:1> * 3, [
 	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>],
-	[<minecraft:nether_brick>, <extendedcrafting:material:140>, <minecraft:nether_brick>],
+	[<minecraft:nether_brick>, <silentgems:craftingmaterial:19>, <minecraft:nether_brick>],
 	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>]
 ]);
 
@@ -116,6 +116,3 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:lng>*700,<liquid:gascond
 /*
 <materialpart:angmallen:plate>
 */
-
-//Alloysmelter
-mods.immersiveengineering.AlloySmelter.addRecipe(<extendedcrafting:material>, <ore:ingotIron>, <ore:ingotCarbon>, 2000);

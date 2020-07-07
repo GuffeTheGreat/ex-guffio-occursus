@@ -1,44 +1,36 @@
   {
-	  "name": "appliedenergistics2:controller",
+	  "name": "thaumcraft:metal_alchemical_advanced",
 	  
-	  "target-item": "appliedenergistics2:controller",
+	  "target-item": "thaumcraft:metal_alchemical_advanced",
 	  "target-count": 1,
 	  "duration": 200,
-	  "catalyst": "appliedenergistics2:certus_quartz_wrench",
+	  "catalyst": "thaumcraft:primordial_pearl",
 	  "catalyst-meta": "0",
 		
 	  "input-types": {
 		"a": {
-		  "id": "appliedenergistics2:smooth_sky_stone_block",
-		  "meta": 5
+		  "id": "thaumadditions:brass_plated_silverwood",
+		  "meta": 0
 		},
 		"b": {
-		  "id": "actuallyadditions:block_crystal_empowered",
-		  "meta": 2
+		  "id": "thaumcraft:metal_void",
+		  "meta": 0
 		},
 		"c": {
-		  "id": "actuallyadditions:block_crystal",
-		  "meta": 5
+		  "id": "thaumcraft:stone_arcane",
+		  "meta": 0
 		},
 		"d": {
-		  "id": "appliedenergistics2:energy_acceptor",
+		  "id": "metallurgy:atlarus_block",
 		  "meta": 0
 		},
 		"e": {
-		  "id": "chisel:futura",
-		  "meta": 2
+		  "id": "metallurgy:midasium_block",
+		  "meta": 0
 		},
 		"f": {
-		  "id": "appliedenergistics2:dense_energy_cell",
+		  "id": "thaumcraft:metal_alchemical",
 		  "meta": 0
-		}
-	  },
-	  "input-nbt": {
-		"d:A": {
-		  "nbt": "{proxy:{p:0,g:1204L,k:-1L},forward:\"WEST\",id:\"appliedenergistics2:energy_acceptor\",up:\"UP\",internalCurrentPower:0.0d}"
-		},
-		"f:A": {
-		  "nbt": "{proxy:{p:0,g:1204L,k:-1L},id:\"appliedenergistics2:energy_cell\",internalCurrentPower:0.0d}"
 		}
 	  },
 	  "shape": [
@@ -50,7 +42,7 @@
 		  ],
 		  [
 			"c",
-			"f:A",
+			"f",
 			"c"
 		  ],
 		  [
@@ -66,9 +58,9 @@
 			"c"
 		  ],
 		  [
-			"d:A",
+			"d",
 			"b",
-			"d:A"
+			"d"
 		  ],
 		  [
 			"c",
@@ -84,7 +76,7 @@
 		  ],
 		  [
 			"c",
-			"f:A",
+			"f",
 			"c"
 		  ],
 		  [

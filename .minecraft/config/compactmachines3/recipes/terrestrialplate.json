@@ -1,0 +1,69 @@
+  {
+	  "name": "botania:terraplate",
+	  
+	  "target-item": "botania:terraplate",
+	  "target-count": 1,
+	  "duration": 200,
+	  "catalyst": "thebetweenlands:syrmorite_pressure_plate",
+	  "catalyst-meta": "0",
+		
+	  "input-types": {
+		"a": {
+		  "id": "minecraft:lapis_block",
+		  "meta": 0
+		},
+		"b": {
+		  "id": "botania:storage",
+		  "meta": 0
+		},
+		"c": {
+		  "id": "botanicadds:mana_lapis_block",
+		  "meta": 0
+		},
+		"d": {
+		  "id": "thaumcraft:metal_alchemical_advanced",
+		  "meta": 0
+		}
+	  },
+	  "input-nbt": {
+	  },
+	  "shape": [
+		[
+		  [
+			"a",
+			"a",
+			"a",
+			"a",
+			"a"
+		  ],
+		  [
+			"a",
+			"b",
+			"c",
+			"b",
+			"a"
+		  ],
+		  [
+			"a",
+			"c",
+			"d",
+			"c",
+			"a"
+		  ],
+		  [
+			"a",
+			"b",
+			"c",
+			"b",
+			"a"
+		  ],
+		  [
+			"a",
+			"a",
+			"a",
+			"a",
+			"a"
+		  ]
+		]
+	  ]
+}

@@ -1,4 +1,6 @@
 
+mods.jei.JEI.removeAndHide(<cyclicmagic:block_storeempty>);
+
 //Transfernodes
 recipes.remove(<cyclicmagic:cable_wireless>);
 recipes.addShapedMirrored("1x_tile_cable_wireless_shaped", <cyclicmagic:cable_wireless>, [
@@ -21,7 +23,7 @@ recipes.addShapedMirrored("1x_tile_cable_wireless_fluid_shaped", <cyclicmagic:ca
 
 //Experience
 mods.embers.Melter.add(<liquid:xpjuice>*160,<actuallyadditions:item_solidified_experience>);
-mods.nuclearcraft.Melter.addRecipe(<actuallyadditions:item_solidified_experience>, <liquid:xpjuice>*160);
+mods.nuclearcraft.melter.addRecipe(<actuallyadditions:item_solidified_experience>, <liquid:xpjuice>*160);
 mods.crossroads.HeatingCrucible.addRecipe(<actuallyadditions:item_solidified_experience>, <liquid:xpjuice>*160,"tile.xpjuice");
 
 

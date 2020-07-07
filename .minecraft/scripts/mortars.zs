@@ -33,6 +33,6 @@ for input, output in mortarRecipes {
 	mods.immersiveengineering.Crusher.addRecipe(output, input, 2048);
 
 	#Manufactory
-	mods.nuclearcraft.Manufactory.addRecipe(input, output);
+	mods.nuclearcraft.manufactory.addRecipe(input, output);
 
 }

@@ -37,8 +37,8 @@ var counter = 0;
 //Liquidclay
 mods.embers.Melter.add(<liquid:liquid_clay>*250,<minecraft:clay_ball>);
 mods.embers.Melter.add(<liquid:liquid_clay>*1000,<minecraft:clay>);
-mods.nuclearcraft.Melter.addRecipe(<minecraft:clay>, <liquid:liquid_clay>*1000);
-mods.nuclearcraft.Melter.addRecipe(<minecraft:clay_ball>, <liquid:liquid_clay>*250);
+mods.nuclearcraft.melter.addRecipe(<minecraft:clay>, <liquid:liquid_clay>*1000);
+mods.nuclearcraft.melter.addRecipe(<minecraft:clay_ball>, <liquid:liquid_clay>*250);
 mods.crossroads.HeatingCrucible.addRecipe(<minecraft:clay>, <liquid:liquid_clay>*250,"tile.clay");
 mods.crossroads.HeatingCrucible.addRecipe(<minecraft:clay>, <liquid:liquid_clay>*1000,"tile.clay");
 
@@ -309,7 +309,7 @@ var pickaxeRecipes as IItemStack[IIngredient] = {
     <ore:ingotSilver> : <immersiveengineering:material:22>,
     <ore:ingotBrass> : <immersiveengineering:material:20>,
     <pyrotech:material:16> : <pyrotech:material:10>,
-    <primal:fish_lava_crawdad_salted> : <primal:fish_lava_crawdad_dried>,
+    <minecraft:nether_star> : <silentgems:craftingmaterial:19>*9,
     <primal:bat_meat_salted> : <primal:bat_meat_dried>,
     <primal:bear_meat_salted> : <primal:bear_meat_dried>,
 	<minecraft:sponge:1> : <minecraft:sponge>

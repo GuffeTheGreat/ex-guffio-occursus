@@ -240,6 +240,19 @@ natural.viscosity = 10000;
 natural.temperature = 1100;
 natural.register();
 
+  #ice
+var ice = mods.contenttweaker.VanillaFactory.createFluid("ice", Color.fromHex("d6ecef"));
+ice.density = 10000;
+ice.viscosity = 5000;
+ice.temperature = 250;
+ice.register();
+
+  #mana
+var mana = mods.contenttweaker.VanillaFactory.createFluid("fluidedmana", Color.fromHex("87cefa"));
+mana.density = 10000;
+mana.viscosity = 5000;
+mana.temperature = 300;
+mana.register();
 
 
 

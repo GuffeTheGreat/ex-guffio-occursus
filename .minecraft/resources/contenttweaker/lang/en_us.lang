@@ -113,6 +113,8 @@ fluid.mazut=Mazut
 fluid.mineraloil=Mineral Oil
 fluid.gascondensates=Gas Condensates
 fluid.lng=LNG
+fluid.ice=Liquid Ice
+fluid.fluidedmana=Mana
 fluid.hotnaturalgas=Hot Natural Gas
 
 tile.contenttweaker.pile_poor.name=Pile of Poor Grade Wood

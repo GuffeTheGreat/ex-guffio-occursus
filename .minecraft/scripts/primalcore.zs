@@ -34,7 +34,7 @@ mods.immersiveengineering.Mixer.addRecipe(<liquid:tannin>*250, <liquid:water>*25
 Vessel.add(<ore:dustTannin>, <liquid:water>, null, <liquid:tannin>*100);
 mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:water>*250, <primal:tannin_ground>, 0.0, 473, <liquid:tannin>*250);
 mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:water>*250, <primal:inferum_ground>, 0.0, 473, <liquid:tannin>*250);
-mods.nuclearcraft.Enricher.addRecipe(<ore:dustTannin>, <liquid:water>*250, <liquid:tannin>*250);
+mods.nuclearcraft.dissolver.addRecipe([<ore:dustTannin>, <liquid:water>*250, <liquid:tannin>*250]);
 mods.rockhounding_chemistry.LabOven.add("Tannin", <primal:tannin_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
 mods.rockhounding_chemistry.LabOven.add("TanninNether", <primal:inferum_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
 mods.primal.Gallagher.removeAll();
