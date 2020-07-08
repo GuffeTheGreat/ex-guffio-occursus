@@ -515,6 +515,10 @@ neodymium.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chun
 var bauxite = MaterialSystem.getMaterialBuilder().setName("Bauxite").setColor(Color.fromHex("c45f00")).build();
 bauxite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
+//Realgar
+var realgar = MaterialSystem.getMaterialBuilder().setName("Realgar").setColor(Color.fromHex("354a21")).build();
+realgar.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
 //Uvarovite
 var uvarovite = MaterialSystem.getMaterialBuilder().setName("Uvarovite").setColor(Color.fromHex("0e1111")).build();
 uvarovite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
@@ -580,11 +584,35 @@ var jade = MaterialSystem.getMaterialBuilder().setName("Jade").setColor(Color.fr
 jade.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Jasper
-var jasper = MaterialSystem.getMaterialBuilder().setName("Jasper").setColor(Color.fromHex("9b8780c")).build();
+var jasper = MaterialSystem.getMaterialBuilder().setName("Jasper").setColor(Color.fromHex("9b870c")).build();
 jasper.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
+//VioletSapphire
+var violet = MaterialSystem.getMaterialBuilder().setName("Violet Sapphire").setColor(Color.fromHex("52307c")).build();
+violet.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Chrysoprase
+var chrysoprase = MaterialSystem.getMaterialBuilder().setName("Chrysoprase").setColor(Color.fromHex("52307c")).build();
+chrysoprase.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Onyx
+var onyx = MaterialSystem.getMaterialBuilder().setName("Onyx").setColor(Color.fromHex("08070d")).build();
+onyx.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Garnet
+var garnet = MaterialSystem.getMaterialBuilder().setName("Garnet").setColor(Color.fromHex("e05a00")).build();
+garnet.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Heliodor
+var heliodor = MaterialSystem.getMaterialBuilder().setName("Heliodor").setColor(Color.fromHex("ffff00")).build();
+heliodor.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Tritanium
+var tritanium = MaterialSystem.getMaterialBuilder().setName("Tritanium").setColor(Color.fromHex("577669")).build();
+tritanium.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
 //Silicon
-var silicon = MaterialSystem.getMaterialBuilder().setName("Silicon").setColor(Color.fromHex("9b8780c")).build();
+var silicon = MaterialSystem.getMaterialBuilder().setName("Silicon").setColor(Color.fromHex("92a0ad")).build();
 silicon.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Ignatius
@@ -723,6 +751,18 @@ dilithium.registerParts(["crushed_ore","clump","crystal","dense_ore","chunk","sh
 var tanzanite = MaterialSystem.getMaterialBuilder().setName("Tanzanite").setColor(Color.fromHex("33007b")).build();
 tanzanite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
+//Agate
+var agate = MaterialSystem.getMaterialBuilder().setName("Agate").setColor(Color.fromHex("33007b")).build();
+agate.registerParts(["dust","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Citrine
+var citrine = MaterialSystem.getMaterialBuilder().setName("Citrine").setColor(Color.fromHex("b48d0e")).build();
+citrine.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+//Alexandrite
+var alexandrite = MaterialSystem.getMaterialBuilder().setName("Alexandrite").setColor(Color.fromHex("007c7d")).build();
+alexandrite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
 //Plutonium-239
 var plutonium239 = MaterialSystem.getMaterialBuilder().setName("Plutonium-239").setColor(Color.fromHex("d3d3d3")).build();
 plutonium239.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
@@ -843,7 +883,7 @@ var gemMap as string[string] = {
   "Coal" : "060607",
   "Amethyst" :  "7719aa",
   "Emerald" : "32cd32",
-  "Jade" : "00a86b",
+  "Jade" : "66ff00",
   "Fluorite" : "cc8899",
   "Iolite" : "0859c6",
   "Lepidolite" : "872557",
@@ -861,17 +901,17 @@ var gemMap as string[string] = {
   "Peridot" : "76ff03",
   "Kyanite" : "BF00FF",
   "Golden Beryl" : "d4af37", 
-  "Lepidolite" : "872557",
-  "Lepidolite" : "872557", 
-  "Lepidolite" : "872557",
-  "Lepidolite" : "872557", 
-  "Lepidolite" : "872557",
-  "Lepidolite" : "872557", 
-  "Lepidolite" : "872557",
-  "Lepidolite" : "872557", 
-  "Lepidolite" : "872557",
-  "Lepidolite" : "872557", 
-  "Lepidolite" : "872557",
+  "Tanzanite" : "33007b",
+  "Agate" : "ff00ff", 
+  "Opal" : "fbf7f5",
+  "Citrine" : "b48d0e", 
+  "Jasper" : "9b870c",
+  "Alexandrite" : "007c7d", 
+  "Violet Sapphire" : "52307c",
+  "Onyx" : "08070d", 
+  "Garnet" : "e05a00",
+  "Heliodor" : "ffff00", 
+  "Chrysoprase" : "aef359",
   "Lepidolite" : "872557", 
   "Lepidolite" : "872557",
   "Lepidolite" : "872557", 

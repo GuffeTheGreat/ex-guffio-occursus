@@ -1,4 +1,7 @@
 {
+    "registryname": "thermoeletricgenerator",
+    "localizedname": "Thermoeletric Generator",
+    "color": "FAFAFA",
     "parts": [
         {
             "x": -1,
@@ -12,7 +15,6 @@
             "x": -1,
             "y": 0,
             "z": 1,
-            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"8b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -29,7 +31,6 @@
             "x": 0,
             "y": 0,
             "z": 1,
-            "nbt": {"TileData":{"_modules":[{"tank0":{"Empty":""}},{},{"enable":"0b"},{}]},"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"magneticraft:small_tank"},
             "elements": [
                 "magneticraft:small_tank@0"
             ]
@@ -62,7 +63,6 @@
             "x": 1,
             "y": 0,
             "z": 1,
-            "nbt": {"sideConfig":,"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"immersiveengineering:fluidpipe","connections":"4b"},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -71,7 +71,6 @@
             "x": 0,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -96,7 +95,6 @@
             "x": 2,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -337,7 +335,6 @@
             "x": -2,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]

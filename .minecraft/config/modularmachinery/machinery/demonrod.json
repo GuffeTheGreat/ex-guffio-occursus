@@ -1,6 +1,6 @@
 {
-    "registryname": "voidoreminer",
-    "localizedname": "Void Ore Rat Miner",
+    "registryname": "demonrod",
+    "localizedname": "Demon Will Attraction Rod",
     "color": "FAFAFA",
     "parts": [
         {
@@ -15,7 +15,6 @@
             "x": -1,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -64,7 +63,6 @@
             "x": 1,
             "y": 2,
             "z": 2,
-            "nbt": {"ticksExisted":"389481","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"shouldTick":"1b","id":"bloodmagic:demon_pylon","Will":{}},
             "elements": [
                 "bloodmagic:demon_pylon@0"
             ]
@@ -73,7 +71,6 @@
             "x": 1,
             "y": 0,
             "z": 1,
-            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -82,7 +79,6 @@
             "x": 0,
             "y": 0,
             "z": 2,
-            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -107,7 +103,6 @@
             "x": 0,
             "y": 3,
             "z": 1,
-            "nbt": {"ticksExisted":"1172","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"shouldTick":"1b","id":"bloodmagic:demon_pylon","Will":{}},
             "elements": [
                 "bloodmagic:demon_pylon@0"
             ]
@@ -252,7 +247,6 @@
             "x": -1,
             "y": 2,
             "z": 0,
-            "nbt": {"ticksExisted":"388231","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"shouldTick":"1b","id":"bloodmagic:demon_pylon","Will":{}},
             "elements": [
                 "bloodmagic:demon_pylon@0"
             ]
@@ -277,7 +271,6 @@
             "x": -1,
             "y": 2,
             "z": 2,
-            "nbt": {"ticksExisted":"388262","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"shouldTick":"1b","id":"bloodmagic:demon_pylon","Will":{}},
             "elements": [
                 "bloodmagic:demon_pylon@0"
             ]
@@ -286,7 +279,6 @@
             "x": 0,
             "y": 2,
             "z": 1,
-            "nbt": {"ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"Items":[],"id":"bloodmagic:demon_crucible"},
             "elements": [
                 "bloodmagic:demon_crucible@0"
             ]
@@ -295,7 +287,6 @@
             "x": 1,
             "y": 2,
             "z": 0,
-            "nbt": {"ticksExisted":"389516","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d"}},"shouldTick":"1b","id":"bloodmagic:demon_pylon","Will":{}},
             "elements": [
                 "bloodmagic:demon_pylon@0"
             ]

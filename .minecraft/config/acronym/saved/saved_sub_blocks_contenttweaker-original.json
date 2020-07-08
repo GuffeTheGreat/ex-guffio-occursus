@@ -329,7 +329,9 @@
       "1": "chaos_shard_dense_ore",
       "2": "chaos_shard_ore",
       "3": "silicon_dense_ore",
-      "4": "silicon_ore"
+      "4": "silicon_ore",
+      "5": "golden_beryl_ore",
+      "6": "golden_beryl_dense_ore"
     }
   }
 }
