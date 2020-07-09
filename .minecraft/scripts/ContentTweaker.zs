@@ -84,7 +84,7 @@ mods.contenttweaker.MaterialSystem.getPartBuilder()
 //MATERIALS ------------------------------------------------------
 //Naquadah
 var naquadah = MaterialSystem.getMaterialBuilder().setName("Naquadah").setColor(Color.fromHex("121111")).build();
-naquadah.registerParts(["ingot","dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+naquadah.registerParts(["rod","ingot","dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Enrinched Naquadah
 var enrinchednaquadah = MaterialSystem.getMaterialBuilder().setName("Enriched Naquadah").setColor(Color.fromHex("121111")).build();
@@ -509,7 +509,7 @@ indicolite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_or
 
 //Neodymium
 var neodymium = MaterialSystem.getMaterialBuilder().setName("Neodymium").setColor(Color.fromHex("030b07")).build();
-neodymium.registerParts(["crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+neodymium.registerParts(["rod","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Bauxite
 var bauxite = MaterialSystem.getMaterialBuilder().setName("Bauxite").setColor(Color.fromHex("c45f00")).build();
@@ -843,6 +843,10 @@ atlarus.registerParts(["gear","plate","doubleingot","crushed_ore","clump","cryst
 //Syrmorite
 var syrmorite = MaterialSystem.getMaterialBuilder().setName("Syrmorite").setColor(Color.fromHex("003366")).build();
 syrmorite.registerParts(["plate","dust","doubleingot","gear","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+
+var molteSyrmorite = syrmorite.registerPart("molten").getData();
+molteSyrmorite.addDataValue("temperature", "3000");
+molteSyrmorite.addDataValue("luminosity", "10");
 
 //Valonite
 var valonite = MaterialSystem.getMaterialBuilder().setName("Valonite").setColor(Color.fromHex("eeeeee")).build();

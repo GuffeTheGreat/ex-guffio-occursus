@@ -8,6 +8,7 @@ mods.jei.JEI.removeAndHide(<embers:stamp_plate_raw>);
 mods.jei.JEI.removeAndHide(<soot:stamp_text_raw>);
 mods.jei.JEI.removeAndHide(<soot:stamp_nugget_raw>);
 mods.jei.JEI.removeAndHide(<soot:stamp_text>);
+mods.jei.JEI.removeAndHide(<embers:breaker>);
 furnace.remove(<embers:cinder_plinth>);
 furnace.remove(<embers:stamp_bar_raw>);
 furnace.remove(<embers:stamp_gear_raw>);

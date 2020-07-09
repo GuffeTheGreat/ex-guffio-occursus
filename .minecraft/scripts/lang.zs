@@ -56,6 +56,9 @@ game.setLocalization("fluid.rubber", "Sap");
 <primal:logs_stacked_corypha>.displayName = "High Grade Log Stack";
 <primal:logs_stacked:5>.displayName = "Pure Carbon Log Stack";
 
+//Dark Ash
+<embers:dust_ash>.displayName = "Dark Ashes";
+
 //Charcoal
 <minecraft:coal:1>.displayName = "Poor Grade Charcoal";
 //CharcoalBLocks
@@ -80,3 +83,21 @@ game.setLocalization("fluid.rubber", "Sap");
 
 //Dried Bamboo Fix
 <zawa:bamboo_decortation>.displayName = "Bamboo Pile";
+
+//Circuits
+<prodigytech:circuit_crude>.displayName = "Basic Electronic Circuit";
+<advancedrocketry:ic>.displayName = "Basic Integrated Circuit";
+<immersiveengineering:material:27>.displayName = "Basic Circuit Board";
+<prodigytech:circuit_perfected>.displayName = "Intermediate Electronic Circuit";
+<immersiveintelligence:material:7>.displayName = "Intermediate Circuit Board";
+<immersiveintelligence:material:12>.displayName = "Advanced Circuit Board";
+<appliedenergistics2:material:18>.displayName = "Advanced Circuit";
+<appliedenergistics2:material:22>.displayName = "Elite Processor";
+<appliedenergistics2:material:17>.displayName = "Elite Circuit";
+<appliedenergistics2:material:24>.displayName = "Insane Circuit";
+<appliedenergistics2:material:16>.displayName = "Insane Processor";
+<appliedenergistics2:material:23>.displayName = "Ludicrous Processor";
+<matteroverdrive:isolinear_circuit>.displayName = "Ludicrous Circuit";
+<matteroverdrive:isolinear_circuit:1>.displayName = "Absurd Circuit";
+<matteroverdrive:isolinear_circuit:2>.displayName = "Divine Circuit";
+<matteroverdrive:isolinear_circuit:3>.displayName = "Transcendent Circuit";

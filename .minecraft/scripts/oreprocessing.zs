@@ -163,5 +163,21 @@ add(<ore:gemQuartz>*3, <materialpart:Nether_Quartz:flawless>, 20);
 add(<ore:gemMalachite>*3, <materialpart:Malachite:flawless>, 20);
 add(<ore:gemPeridot>*3, <materialpart:Peridot:flawless>, 20);
 add(<ore:gemGreenSapphire>*3, <materialpart:Green_Sapphire:flawless>, 20);
-
 */
+
+val metalmap = {
+    <thebetweenlands:octine_ingot> : [<thebetweenlands:octine_ore>,<materialpart:Octine:dense_ore>,<materialpart:Octine:clump>,<materialpart:Rose_Quartz:point>]//,
+
+    //<silentgems:gem:6> : [<materialpart:Green_Sapphire:exquisite>,<materialpart:Green_Sapphire:flawless>,<materialpart:Green_Sapphire:flaked>,<materialpart:Green_Sapphire:point>] 
+} as IItemStack[][IItemStack];
+counter = 0;
+for thing, things in metalmap {
+counter = counter +1;
+ 
+	mods.astralsorcery.LightTransmutation.addTransmutation(things[0], things[1], 10);
+	mods.rockhounding_chemistry.MineralSizer.add(things[0], things[2]);
+	mods.rockhounding_chemistry.MineralSizer.add(things[1], things[2]*2);
+	//mods.advancedrocketry.CuttingMachine.addRecipe(types[3]*2, 80, 500, types[2]*1);
+}
+
+//*/

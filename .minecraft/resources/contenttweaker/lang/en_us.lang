@@ -54,7 +54,9 @@ item.contenttweaker.advancedmotor.name=Advanced Motor
 item.contenttweaker.elitemotor.name=Elite Motor
 item.contenttweaker.insanemotor.name=Insane Motor
 item.contenttweaker.ludicrousmotor.name=Ludicrous Motor
-item.contenttweaker.divinemotor.name=Transcendent Motor
+item.contenttweaker.absurdmotor.name=Absurd Motor
+item.contenttweaker.divinerobotarm.name=Divine Robot Arm
+item.contenttweaker.transcendentrobotarm.name=Transcendent Robot Arm
 
 item.contenttweaker.basicrobotarm.name=Basic Robot Arm
 item.contenttweaker.intermediaterobotarm.name=Intermediate Robot Arm
@@ -62,7 +64,9 @@ item.contenttweaker.advancedrobotarm.name=Advanced Robot Arm
 item.contenttweaker.eliterobotarm.name=Elite Robot Arm
 item.contenttweaker.insanerobotarm.name=Insane Robot Arm
 item.contenttweaker.ludicrousrobotarm.name=Ludicrous Robot Arm
-item.contenttweaker.divinerobotarm.name=Transcendent Robot Arm
+item.contenttweaker.absurdrobotarm.name=Absurd Robot Arm
+item.contenttweaker.divinerobotarm.name=Divine Robot Arm
+item.contenttweaker.transcendentrobotarm.name=Transcendent Robot Arm
 
 item.contenttweaker.basicpiston.name=Basic Electric Piston
 item.contenttweaker.intermediatepiston.name=Intermediate Electric Piston
@@ -70,7 +74,9 @@ item.contenttweaker.advancedpiston.name=Advanced Electric Piston
 item.contenttweaker.elitepiston.name=Elite Electric Piston
 item.contenttweaker.insanepiston.name=Insane Electric Piston
 item.contenttweaker.ludicrouspiston.name=Ludicrous Electric Piston
-item.contenttweaker.divinepiston.name=Transcendent Electric Piston
+item.contenttweaker.absurdpiston.name=Absurd Electric Piston
+item.contenttweaker.divinepiston.name=Divine Electric Piston
+item.contenttweaker.transcendentpiston.name=Transcendent Electric Piston
 
 item.contenttweaker.basicsensor.name=Basic Sensor
 item.contenttweaker.intermediatesensor.name=Intermediate Sensor
@@ -78,7 +84,9 @@ item.contenttweaker.advancedsensor.name=Advanced Sensor
 item.contenttweaker.elitesensor.name=Elite Sensor
 item.contenttweaker.insanesensor.name=Insane Sensor
 item.contenttweaker.ludicroussensor.name=Ludicrous Sensor
-item.contenttweaker.divinesensor.name=Transcendent Sensor
+item.contenttweaker.absurdsensor.name=Absurd Sensor
+item.contenttweaker.divinesensor.name=Divine Sensor
+item.contenttweaker.transcendentsensor.name=Transcendent Sensor
 
 item.contenttweaker.basicemitter.name=Basic Emitter
 item.contenttweaker.intermediateemitter.name=Intermediate Emitter
@@ -86,7 +94,9 @@ item.contenttweaker.advancedemitter.name=Advanced Emitter
 item.contenttweaker.eliteemitter.name=Elite Emitter
 item.contenttweaker.insaneemitter.name=Insane Emitter
 item.contenttweaker.ludicrousemitter.name=Ludicrous Emitter
-item.contenttweaker.divineemitter.name=Transcendent Emitter
+item.contenttweaker.absurdemitter.name=Absurd Emitter
+item.contenttweaker.divineemitter.name=Divine Emitter
+item.contenttweaker.transcendentemitter.name=Transcendent Emitter
 
 item.contenttweaker.basicvalve.name=Basic Pump
 item.contenttweaker.intermediatevalve.name=Intermediate Pump
@@ -94,7 +104,9 @@ item.contenttweaker.advancedvalve.name=Advanced Pump
 item.contenttweaker.elitevalve.name=Elite Pump
 item.contenttweaker.insanevalve.name=Insane Pump
 item.contenttweaker.ludicrousvalve.name=Ludicrous Pump
-item.contenttweaker.divinevalve.name=Transcendent Valve
+item.contenttweaker.absurdvalve.name=Absurd Pump
+item.contenttweaker.divinevalve.name=Divine Pump
+item.contenttweaker.transcendentvalve.name=Transcendent Pump
 
 item.contenttweaker.basicconveyor.name=Basic Conveyor
 item.contenttweaker.intermediateconveyor.name=Intermediate Conveyor
@@ -102,7 +114,9 @@ item.contenttweaker.advancedconveyor.name=Advanced Conveyor
 item.contenttweaker.eliteconveyor.name=Elite Conveyor
 item.contenttweaker.insaneconveyor.name=Insane Conveyor
 item.contenttweaker.ludicrousconveyor.name=Ludicrous Conveyor
-item.contenttweaker.divineconveyor.name=Transcendent Conveyor
+item.contenttweaker.absurdconveyor.name=Absurd Conveyor
+item.contenttweaker.divineconveyor.name=Divine Conveyor
+item.contenttweaker.transcendentconveyor.name=Transcendent Conveyor
 
 item.contenttweaker.basicfield_generator.name=Basic Field Generator
 item.contenttweaker.intermediatefield_generator.name=Intermediate Field Generator
@@ -110,23 +124,9 @@ item.contenttweaker.advancedfield_generator.name=Advanced Field Generator
 item.contenttweaker.elitefield_generator.name=Elite Field Generator
 item.contenttweaker.insanefield_generator.name=Insane Field Generator
 item.contenttweaker.ludicrousfield_generator.name=Ludicrous Field Generator
-item.contenttweaker.divinefield_generator.name=Transcendent Field Generator
-
-item.contenttweaker.basiccircuit.name=Basic Circuit
-item.contenttweaker.intermediatecircuit.name=Intermediate Circuit
-item.contenttweaker.advancedcircuit.name=Advanced Circuit
-item.contenttweaker.elitecircuit.name=Elite Circuit
-item.contenttweaker.insanecircuit.name=Insane Circuit
-item.contenttweaker.ludicrouscircuit.name=Ludicrous Circuit
-item.contenttweaker.divinecircuit.name=Transcendent Circuit
-
-item.contenttweaker.basicprocessor.name=Basic Processor
-item.contenttweaker.intermediateprocessor.name=Intermediate Processor
-item.contenttweaker.advancedprocessor.name=Advanced Processor
-item.contenttweaker.eliteprocessor.name=Elite Processor
-item.contenttweaker.insaneprocessor.name=Insane Processor
-item.contenttweaker.ludicrousprocessor.name=Ludicrous Processor
-item.contenttweaker.divineprocessor.name=Transcendent Processor
+item.contenttweaker.absurdfield_generator.name=Absurd Field Generator
+item.contenttweaker.divinefield_generator.name=Divine Field Generator
+item.contenttweaker.transcendentfield_generator.name=Transcendent Field Generators
 
 item.contenttweaker.carbon_fibres.name=Carbon Fibres
 item.contenttweaker.quarryrat.name=Quarry Rat

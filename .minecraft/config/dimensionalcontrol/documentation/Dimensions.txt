@@ -7,6 +7,14 @@ getClientConfigs:
     Notes:
         Gets the ClientConfigs object. Documentation for it can be found in documention/ClientConfigs.txt
 
+setPortalOreDict:
+    Arguments:
+        byte, int, int, String
+    Usage:
+        portal ID, first dimension ID, second dimension ID, oredict ID
+    Notes:
+        Sets the portal of the provided id to be made of blocks from the provided oredict and travel between the two provided dimensions. Portal ID can be set to anything between -128 and 127. The auto generated portal will be created using the default state of the first block in the oredict.
+
 setPortal:
     Arguments:
         byte, int, int, String
@@ -23,29 +31,21 @@ setPortal:
     Notes:
         Sets the portal of the provided id to be made of the provided block with any meta and travel between the two provided dimensions. Portal ID can be set to anything between -128 and 127. The auto generated portal will be created using the default state of the provided block.
 
-setPortalOreDict:
+setPortalIgniter:
     Arguments:
-        byte, int, int, String
+        String
     Usage:
-        portal ID, first dimension ID, second dimension ID, oredict ID
+        item name
     Notes:
-        Sets the portal of the provided id to be made of blocks from the provided oredict and travel between the two provided dimensions. Portal ID can be set to anything between -128 and 127. The auto generated portal will be created using the default state of the first block in the oredict.
+        Sets the portal igniter. This is the item that will be used to ignite any custom portals. This counts for any meta. Returns the ItemData object for the portal igniter.
 
-addBiomePrinter:
+setPortalIgniter:
     Arguments:
-        int, int, int, int, int, int
+        byte, String
     Usage:
-        dimension ID, height, width, spacing, startX, startZ
+        portal id, item name
     Notes:
-        Used to add a biome printer for the selected dimension. I suggest 500 height, 500 width, 10 spacing, 0 startX, 0 startZ for most cases. This can take a long time, or even run the game out of memory in extreme cases, if the size is set too high. Images are saved to config/dimensionalcontrol/output and overwrite eachother.
-
-addBiomePrinter:
-    Arguments:
-        int, int, int, int, int, int, boolean
-    Usage:
-        dimension ID, height, width, spacing, startX, startZ, overwrite
-    Notes:
-        Used to add a biome printer for the selected dimension. I suggest 500 height, 500 width, 10 spacing, 0 startX, 0 startZ for most cases. This can take a long time, or even run the game out of memory in extreme cases, if the size is set too high. Images are saved to config/dimensionalcontrol/output and overwrite eachother if overwrite is set to true.
+        Sets the portal igniter for the provided portal id. This is the item that will be used to ignite the custom portal. This counts for any meta. Returns the ItemData object for the portal igniter.
 
 setPortalIgniter:
     Arguments:
@@ -57,11 +57,11 @@ setPortalIgniter:
 
 setPortalIgniter:
     Arguments:
-        byte, String
+        byte, String, Integer, String
     Usage:
-        portal id, item name
+        portal id, item name, meta, NBT Json
     Notes:
-        Sets the portal igniter for the provided portal id. This is the item that will be used to ignite the custom portal. This counts for any meta. Returns the ItemData object for the portal igniter.
+        Sets the portal igniter with the provided meta and NBT for the provided portal id. This is the item that will be used to ignite the custom portal. Returns the ItemData object for the portal igniter.
 
 setPortalIgniter:
     Arguments:
@@ -79,57 +79,21 @@ setPortalIgniter:
     Notes:
         Sets the portal igniter with the provided meta. This is the item that will be used to ignite any custom portals. Returns the ItemData object for the portal igniter.
 
-setPortalIgniter:
+addBiomePrinter:
     Arguments:
-        String
+        int, int, int, int, int, int
     Usage:
-        item name
+        dimension ID, height, width, spacing, startX, startZ
     Notes:
-        Sets the portal igniter. This is the item that will be used to ignite any custom portals. This counts for any meta. Returns the ItemData object for the portal igniter.
+        Used to add a biome printer for the selected dimension. I suggest 500 height, 500 width, 10 spacing, 0 startX, 0 startZ for most cases. This can take a long time, or even run the game out of memory in extreme cases, if the size is set too high. Images are saved to config/dimensionalcontrol/output and overwrite eachother.
 
-setPortalIgniter:
+addBiomePrinter:
     Arguments:
-        byte, String, Integer, String
+        int, int, int, int, int, int, boolean
     Usage:
-        portal id, item name, meta, NBT Json
+        dimension ID, height, width, spacing, startX, startZ, overwrite
     Notes:
-        Sets the portal igniter with the provided meta and NBT for the provided portal id. This is the item that will be used to ignite the custom portal. Returns the ItemData object for the portal igniter.
-
-setWorldInfoForDimension:
-    Arguments:
-        String, int
-    Usage:
-        script name, dimension ID
-    Notes:
-        Sets the script to be used for the provided dimensions world info options.
-
-setScriptForDimension:
-    Arguments:
-        int, String
-    Usage:
-        dimension ID, script name
-    Notes:
-        Sets the dimension script for the provided dimensionID. The script will be searched for in config/dimensionalcontrol/dimensions/.
-
-setPortalIgniterOreDict:
-    Arguments:
-        byte, String
-    Usage:
-        portal id, ore dict name
-    Notes:
-        Sets the ore dictionary for the portal igniter for the provided portal id. Any item from this ore dict will be usable to ignite the custom portal. Returns the ItemData object for the portal igniter.
-
-setPortalIgniterOreDict:
-    Arguments:
-        String
-    Usage:
-        ore dict name
-    Notes:
-        Sets the ore dictionary for the portal igniter. Any item from this ore dict will be usable to ignite custom portals. Returns the ItemData object for the portal igniter.
-
-setGlobalWorldInfoDefinition:
-    Notes:
-        Sets the global WorldInfoDefinition object and returns it, so functions can be called on it. The same functions that can be called in a worldinfo script, can be called on this object. Documentation can be found in documentation/worldinfo/WorldInfo.txt
+        Used to add a biome printer for the selected dimension. I suggest 500 height, 500 width, 10 spacing, 0 startX, 0 startZ for most cases. This can take a long time, or even run the game out of memory in extreme cases, if the size is set too high. Images are saved to config/dimensionalcontrol/output and overwrite eachother if overwrite is set to true.
 
 setWorldInfoDefinition:
     Arguments:
@@ -147,25 +111,17 @@ setWorldInfoDefinition:
     Notes:
         Sets the WorldInfoDefinition for the provided dimensionID.
 
-getPortalIgniterData:
+setGlobalWorldInfoDefinition:
     Notes:
-        Returns the ItemData object for the portal igniter so functions can be called on it.
+        Sets the global WorldInfoDefinition object and returns it, so functions can be called on it. The same functions that can be called in a worldinfo script, can be called on this object. Documentation can be found in documentation/worldinfo/WorldInfo.txt
 
-getPortalIgniterData:
+setDimensionDefinition:
     Arguments:
-        byte
+        int, DimensionDefinition
     Usage:
-        portal id
+        dimension ID, dimension definition
     Notes:
-        Returns the ItemData object for the portal igniter for the provided portal id so functions can be called on it.
-
-setGlobalWorldInfo:
-    Arguments:
-        String
-    Usage:
-        script name
-    Notes:
-        Sets the script to be used for global world info options.
+        Sets the DimensionDefiniton for provided dimensionID.
 
 setDimensionDefinition:
     Arguments:
@@ -175,13 +131,57 @@ setDimensionDefinition:
     Notes:
         Sets the DimensionDefiniton object for the provided dimensionID and returns it, so functions can be called on it. The same functions that can be called in a dimension script, can be called on this object. Documentation can be found in documentation/dimensions/DimensionScript.txt
 
-setDimensionDefinition:
+setPortalIgniterOreDict:
     Arguments:
-        int, DimensionDefinition
+        byte, String
     Usage:
-        dimension ID, dimension definition
+        portal id, ore dict name
     Notes:
-        Sets the DimensionDefiniton for provided dimensionID.
+        Sets the ore dictionary for the portal igniter for the provided portal id. Any item from this ore dict will be usable to ignite the custom portal. Returns the ItemData object for the portal igniter.
+
+setPortalIgniterOreDict:
+    Arguments:
+        String
+    Usage:
+        ore dict name
+    Notes:
+        Sets the ore dictionary for the portal igniter. Any item from this ore dict will be usable to ignite custom portals. Returns the ItemData object for the portal igniter.
+
+setGlobalWorldInfo:
+    Arguments:
+        String
+    Usage:
+        script name
+    Notes:
+        Sets the script to be used for global world info options.
+
+setWorldInfoForDimension:
+    Arguments:
+        String, int
+    Usage:
+        script name, dimension ID
+    Notes:
+        Sets the script to be used for the provided dimensions world info options.
+
+getPortalIgniterData:
+    Arguments:
+        byte
+    Usage:
+        portal id
+    Notes:
+        Returns the ItemData object for the portal igniter for the provided portal id so functions can be called on it.
+
+getPortalIgniterData:
+    Notes:
+        Returns the ItemData object for the portal igniter so functions can be called on it.
+
+setScriptForDimension:
+    Arguments:
+        int, String
+    Usage:
+        dimension ID, script name
+    Notes:
+        Sets the dimension script for the provided dimensionID. The script will be searched for in config/dimensionalcontrol/dimensions/.
 
 addDimension:
     Arguments:

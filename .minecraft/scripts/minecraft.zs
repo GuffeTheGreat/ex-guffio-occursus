@@ -85,7 +85,12 @@ recipes.addShapedMirrored("1x_tile_rockhounding_chemistry_misc_blocks_a_charcoal
 	[<primal:charcoal_pure>, <primal:charcoal_pure>, <primal:charcoal_pure>]
 ]);
 
-
+//PreMetalSaddle
+recipes.remove(<minecraft:saddle>);
+recipes.addShapedMirrored("1x_item_saddle_shaped", <minecraft:saddle>, [
+	[<ore:leather>, <ore:leather>, <ore:leather>],
+	[<ore:cordageLeather>, <ore:wool>, <ore:cordageLeather>]
+]);
 //PaperCleanup
 recipes.remove(<minecraft:paper>);
 

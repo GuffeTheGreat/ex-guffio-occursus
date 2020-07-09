@@ -30,18 +30,16 @@ all {
      >
 
     # If true, then the blacklist will act as a whitelist. [default: false]
-    B:"Blacklisted Blocks from Dragon is a Whitelist"=false
+    B:"Blacklisted Blocks from Dragon is a Whitelist"=true
 
     # Dragons cannot spawn in these dimensions' IDs
     I:"Blacklisted Dragon Dimensions" <
-        -1
-        1
+     0
      >
 
     # Misc Structures(Cyclops caves, Gorgon temples, etc) cannot spawn in these dimensions' IDs
-    I:"Blacklisted Misc. Structure Dimensions" <
-        -1
-        1
+    I:"Blacklisted Misc. Structure Dimensions" < 
+     0
      >
 
     # True if chickens lay rotten eggs. [default: true]
@@ -63,7 +61,7 @@ all {
     I:"Cockatrice chicken Search Length"=32
 
     # Whether to display the dragon on the main menu or not [default: true]
-    B:"Custom main menu"=true
+    B:"Custom main menu"=false
 
     # How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag. [range: 1 ~ 10000, default: 17]
     I:"Cyclopes Sheep Search Length"=17
@@ -204,7 +202,7 @@ all {
     I:"Generate Dragon Skeleton Chance"=300
 
     # Whether to generate dragon skeletons or not [default: true]
-    B:"Generate Dragon Skeletons"=true
+    B:"Generate Dragon Skeletons"=false
 
     # Whether to generate glacier biomes or not [default: true]
     B:"Generate Glaciers"=true
@@ -216,10 +214,10 @@ all {
     B:"Generate Mausoleums"=true
 
     # Whether to generate sapphire ore or not [default: true]
-    B:"Generate Sapphire Ore"=true
+    B:"Generate Sapphire Ore"=false
 
     # Whether to generate silver ore or not [default: true]
-    B:"Generate Silver Ore"=true
+    B:"Generate Silver Ore"=false
 
     # 1 out of this number chance per chunk for generation [range: 1 ~ 10000, default: 100]
     I:"Generate Snow Village Chance"=100
@@ -252,7 +250,7 @@ all {
     B:"Log Cascading World Gen"=false
 
     # One out of this number chance per chunk to generate a mausoleum. [range: 1 ~ 10000, default: 1800]
-    I:"Mausoleum Gen Chance"=1800
+    I:"Mausoleum Gen Chance"=800
 
     # How high dragons can fly, in Y height. [range: 100 ~ 2147483647, default: 128]
     I:"Max Dragon Flight Height"=128
@@ -311,12 +309,14 @@ all {
 
     # True if cockatrices are allowed to spawn [default: true]
     B:"Spawn Cockatrices"=true
+    B:"Spawn Cyclopes"=true
 
     # True if cyclops caves are allowed to spawn [default: true]
     B:"Spawn Cyclopes Caves"=true
 
     # 1 out of this number chance per chunk for generation [range: 1 ~ 10000, default: 170]
     I:"Spawn Cyclops Cave Chance"=170
+    I:"Spawn Cyclops Chance"=170
 
     # True if deathworms are allowed to spawn [default: true]
     B:"Spawn Death Worms"=true
@@ -409,7 +409,7 @@ all {
     I:"Troll Spawn Check Chance"=1
 
     # Troll spawn weight. Lower = lower chance to spawn [range: 1 ~ 10000, default: 60]
-    I:"Troll Spawn Weight"=60
+    I:"Troll Spawn Weight"=40
 
     # True if trolls are allowed to drop their weapon on death. [default: true]
     B:"Trolls Drop Weapon"=true
@@ -428,12 +428,10 @@ all {
 
     # Dragons can only spawn in these dimensions' IDs
     I:"Whitelisted Dragon Dimensions" <
-        0
      >
 
     # Misc Structures(Cyclops caves, Gorgon temples, etc) can only spawn in these dimensions' IDs
     I:"Whitelisted Misc. Structure Dimensions" <
-        0
      >
 
     # How far apart dragon dens, cyclops caves, gorgon temples etc should spawn apart from eachother (this is kept seperate for each type: a dragon roost can still spawn next to a myrmex hive) [range: 0 ~ 2147483647, default: 150]

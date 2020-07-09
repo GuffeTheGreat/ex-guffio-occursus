@@ -22,3 +22,14 @@ mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empow
 
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:item_crystal_empowered:*>);
 mods.actuallyadditions.Empowerer.removeRecipe(<actuallyadditions:block_crystal_empowered:*>);
+
+//Actuallyadditions
+recipes.remove(<actuallyadditions:block_breaker>);
+recipes.addShapedMirrored("1x_tile_actuallyadditions_block_breaker_shaped", <actuallyadditions:block_breaker>, [
+	[<contenttweaker:intermediaterobotarm>, <ore:gearIron>, <contenttweaker:intermediaterobotarm>],
+	[<minecraft:iron_pickaxe>, <emergingtechnology:machinecase>, <minecraft:iron_shovel>],
+	[<ore:circuitAdvanced>, <enderio:item_endergy_conduit:4>, <ore:circuitAdvanced>]
+]);
+
+
+

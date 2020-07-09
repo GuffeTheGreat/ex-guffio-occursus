@@ -1,11 +1,5 @@
 #priority 998
 
-
-//Plants
-<ore:plant>.addItems([<minecraft:tallgrass:*>, <minecraft:deadbush>, <minecraft:double_plant:*>,<minecraft:sapling:*>,<minecraft:yellow_flower>, <minecraft:red_flower:*>]);
-
-
-
 //Peltsandhie
 <ore:peltSmall>.add(<rats:rat_pelt>);
 <ore:peltSmall>.add(<zawa:reptile_hide>);
@@ -54,7 +48,7 @@
 //AshtoCharcoal
 <ore:dustAsh>.remove(<embers:dust_ash>);
 <ore:dustAshes>.remove(<embers:dust_ash>);
-<ore:dustCharcoal>.add(<embers:dust_ash>);
+<ore:dustDarkAsh>.add(<embers:dust_ash>);
 
 //Ashaddition
 <ore:dustAsh>.add(<bonfires:ash_pile>);
@@ -81,3 +75,23 @@
 <ore:charcoalGood>.add(<primal:charcoal_pure>);
 <ore:charcoalGood>.add(<primal:charcoal_high>);
 <ore:charcoalHigh>.add(<primal:charcoal_pure>);
+
+//Circuit
+<ore:circuitBasic>.add(<prodigytech:circuit_crude>);
+<ore:circuitBasic>.add(<advancedrocketry:ic>);
+<ore:circuitAdvanced>.remove(<immersiveintelligence:material:7>);
+<ore:circuitIntermediate>.add(<immersiveintelligence:material:7>);
+<ore:circuitIntermediate>.add(<prodigytech:circuit_perfected>);
+<ore:circuitElite>.remove(<immersiveintelligence:material:12>);
+<ore:circuitProcessor>.remove(<immersiveintelligence:material:12>);
+<ore:circuitAdvanced>.add(<immersiveintelligence:material:12>);
+<ore:circuitAdvanced>.add(<appliedenergistics2:material:18>);
+<ore:circuitElite>.add(<appliedenergistics2:material:22>);
+<ore:circuitElite>.add(<appliedenergistics2:material:17>);
+<ore:circuitInsane>.add(<appliedenergistics2:material:24>);
+<ore:circuitInsane>.add(<appliedenergistics2:material:16>);
+<ore:circuitLudicrous>.add(<appliedenergistics2:material:23>);
+<ore:circuitLudicrous>.add(<matteroverdrive:isolinear_circuit>);
+<ore:circuitAbsurd>.add(<matteroverdrive:isolinear_circuit:1>);
+<ore:circuitDivine>.add(<matteroverdrive:isolinear_circuit:2>);
+<ore:circuitTranscendent>.add(<matteroverdrive:isolinear_circuit:3>);
