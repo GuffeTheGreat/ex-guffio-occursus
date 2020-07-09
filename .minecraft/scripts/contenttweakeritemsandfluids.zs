@@ -162,14 +162,6 @@ toluene.viscosity = 10000;
 toluene.temperature = 300;
 toluene.register();
 
-  #Dimethylbenzene
-var dimethylbenzene = mods.contenttweaker.VanillaFactory.createFluid("dimethylbenzene", Color.fromHex("33a532"));
-dimethylbenzene.density = 10000;
-dimethylbenzene.viscosity = 10000;
-dimethylbenzene.temperature = 300;
-dimethylbenzene.register();
-
-
   #Wood Vinegear
 var winegar = mods.contenttweaker.VanillaFactory.createFluid("winegar", Color.fromHex("bda800"));
 winegar.density = 10000;

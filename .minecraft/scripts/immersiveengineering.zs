@@ -96,7 +96,7 @@ mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ing
 
 //Distillation Tower
 //Wood Tar
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:benzene>*350,<liquid:toluene>*75,<liquid:dimethylbenzene>*200,<liquid:creosote>*300,<liquid:phenol>*75], [], <liquid:wood_tar>*1000, 40000, 40, []);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:benzene>*350,<liquid:toluene>*75,<liquid:creosote>*500,<liquid:phenol>*75], [], <liquid:wood_tar>*1000, 40000, 40, []);
 
 //Wood Gas
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:methane>*130,<liquid:carbon_monoxide>*340,<liquid:hydrogen>*20,<liquid:carbondioxide>*490,<liquid:ethene>*20], [], <liquid:wood_gas>*1000, 16000, 40, []);
@@ -105,14 +105,32 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:methane>*130,<liquid:car
 mods.immersivepetroleum.Distillation.addRecipe([<liquid:ethylbenzene>*150,<liquid:anthracene>*50,<liquid:kerosene>*200,<liquid:coaloil>*500,<liquid:naphtha>*100], [], <liquid:coal_tar>*1000, 40000, 40, []);
 
 //CharcoalByproducts
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:wood_gas>*250,<liquid:dimethylbenzene>*100,<liquid:wood_tar>*250,<liquid:winegar>*400], [], <liquid:charcoal>*1000, 40000, 40, []);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:wood_gas>*200,<liquid:wood_tar>*500,<liquid:winegar>*300], [], <liquid:charcoal>*1000, 40000, 40, []);
 
 //MainOil
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:natural_gas>*100,<liquid:lpg>*200,<liquid:processedoil>*700], [], <liquid:hot_crude>*1000, 160000, 40, []);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:natural_gas>*100,<liquid:lpg>*200,<liquid:processedoil>*700], [], <liquid:hot_crude>*10000, 160000, 40, []);
 
 //NaturalGas
-mods.immersivepetroleum.Distillation.addRecipe([<liquid:lng>*700,<liquid:gascondensates>*200,<liquid:hydrogen_sulfide>*100], [], <liquid:hotnaturalgas>*1000, 160000, 40, []);
+mods.immersivepetroleum.Distillation.addRecipe([<liquid:lng>*700,<liquid:gascondensates>*200,<liquid:hydrogen_sulfide>*100], [], <liquid:hotnaturalgas>*10000, 160000, 40, []);
 
 /*
-<materialpart:angmallen:plate>
+'<materialpart:angmallen:plate>'
 */
+
+//EngineeringBlocks
+recipes.remove(<immersiveengineering:metal_decoration0:4> * 2);
+recipes.addShapedMirrored("2x_tile_immersiveengineering_metal_decoration0_light_engineering_shaped", <immersiveengineering:metal_decoration0:4> * 2, [
+	[<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>],
+	[<contenttweaker:basicpiston>, <actuallyadditions:block_misc:9>, <contenttweaker:basicpiston>],
+	[<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>]
+]);
+recipes.remove(<immersiveengineering:metal_decoration0:5> * 2);
+recipes.addShapedMirrored("2x_tile_immersiveengineering_metal_decoration0_heavy_engineering_shaped", <immersiveengineering:metal_decoration0:5> * 2, [
+	[<ore:plateAluminium>, <immersiveengineering:material:9>, <ore:plateAluminium>],
+	[<contenttweaker:intermediatepiston>, <emergingtechnology:machinecase>, <contenttweaker:intermediatepiston>],
+	[<ore:plateAluminium>, <immersiveengineering:material:9>, <ore:plateAluminium>]
+]);
+
+
+
+

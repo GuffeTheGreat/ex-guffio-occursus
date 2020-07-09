@@ -9,14 +9,6 @@ examples.
 
 
 
-setGenLayers:
-    Arguments:
-        Genlayer, Genlayer
-    Usage:
-        genlayer, zoomed genlayer
-    Notes:
-        Sets the Genlayer chain for this BiomeProvider. The second layer should be the same as the first layer, but with an added GenLayerVoronoiZoom on the end. The first one is used for the lerped terrain generation, the second is used for the detailed biome map.
-
 magnify:
     Arguments:
         long, Genlayer, int
@@ -32,4 +24,12 @@ addSpawnBiome:
         biome ID
     Notes:
         Adds a biome to the list for players to spawn in.
+
+setGenLayers:
+    Arguments:
+        Genlayer, Genlayer
+    Usage:
+        genlayer, zoomed genlayer
+    Notes:
+        Sets the Genlayer chain for this BiomeProvider. The second layer should be the same as the first layer, but with an added GenLayerVoronoiZoom on the end. The first one is used for the lerped terrain generation, the second is used for the detailed biome map.
 

@@ -10,6 +10,14 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
+
 setZMax:
     Arguments:
         float
@@ -17,22 +25,6 @@ setZMax:
         max
     Notes:
         Sets the max Z coordinate.
-
-setXMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min X coordinate.
-
-setYMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Y coordinates.
 
 setDimensionType:
     Arguments:
@@ -50,6 +42,14 @@ setXMinMax:
     Notes:
         Sets the min and max X coordinates.
 
+setXMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min X coordinate.
+
 setXMax:
     Arguments:
         float
@@ -58,29 +58,13 @@ setXMax:
     Notes:
         Sets the max X coordinate.
 
-setYMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max Y coordinate.
-
-setZMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min Z coordinate.
-
-setZMinMax:
+setYMinMax:
     Arguments:
         float, float
     Usage:
         min, max
     Notes:
-        Sets the min and max Z coordinates.
+        Sets the min and max Y coordinates.
 
 setYMin:
     Arguments:
@@ -90,11 +74,27 @@ setYMin:
     Notes:
         Sets the min Y coordinate.
 
-setBiome:
+setYMax:
     Arguments:
-        Non_Null_Biome_ID
+        float
     Usage:
-        biome id
+        max
     Notes:
-        Sets the biome id. Can be an int or String.
+        Sets the max Y coordinate.
+
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
+
+setZMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min Z coordinate.
 
