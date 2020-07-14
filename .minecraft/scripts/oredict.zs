@@ -3,16 +3,16 @@
 //Peltsandhie
 <ore:peltSmall>.add(<rats:rat_pelt>);
 <ore:peltSmall>.add(<zawa:reptile_hide>);
-<ore:peltMedium>.add(<zawa:amur_leopard_hide>);
-<ore:peltMedium>.add(<zawa:zebra_leather>);
-<ore:peltMedium>.add(<zawa:crocodile_leather>);
+//<ore:peltMedium>.add(<zawa:amur_leopard_hide>);
+//<ore:peltMedium>.add(<zawa:zebra_leather>);
+//<ore:peltMedium>.add(<zawa:crocodile_leather>);
 <ore:peltMedium>.add(<zawa:thick_fur>);
 <ore:peltMedium>.add(<zawa:tiger_fur>);
 <ore:peltMedium>.add(<zawa:fur>);
-<ore:peltLarge>.add(<zawa:giraffe_hide>);
-<ore:peltLarge>.add(<zawa:gorilla_hide>);
-<ore:peltLarge>.add(<zawa:rhino_hide>);
-<ore:peltLarge>.add(<zawa:elephant_leather>);
+//<ore:peltLarge>.add(<zawa:giraffe_hide>);
+//<ore:peltLarge>.add(<zawa:gorilla_hide>);
+//<ore:peltLarge>.add(<zawa:rhino_hide>);
+//<ore:peltLarge>.add(<zawa:elephant_leather>);
 <ore:peltLarge>.add(<zawa:polar_bear_hide>);
 
 //Flakes
@@ -23,6 +23,9 @@
 <ore:flakeObsidian>.add(<pyrotech:material:33>);
 <ore:flakeGold>.add(<pyrotech:material:34>);
 <ore:flake>.addItems([<pyrotech:material:10>, <pyrotech:material:11>, <pyrotech:material:19>, <pyrotech:material:33>, <pyrotech:material:34>]);
+
+//Sulfur
+<ore:dustSulfur>.remove(<crossroads:sulfur>);
 
 //MortarIngredients
 <ore:mortalIngredient>.remove(<minecraft:sand>);
@@ -95,3 +98,12 @@
 <ore:circuitAbsurd>.add(<matteroverdrive:isolinear_circuit:1>);
 <ore:circuitDivine>.add(<matteroverdrive:isolinear_circuit:2>);
 <ore:circuitTranscendent>.add(<matteroverdrive:isolinear_circuit:3>);
+
+<ore:blockBrass>.remove(<thaumcraft:metal_brass>);
+<ore:blockAlchemicalBrass>.add(<thaumcraft:metal_brass>);
+<ore:ingotBrass>.remove(<thaumcraft:ingot:2>);
+<ore:ingotAlchemicalBrass>.add(<thaumcraft:ingot:2>);
+<ore:nuggetBrass>.remove(<thaumcraft:nugget:8>);
+<ore:nuggetAlchemicalBrass>.add(<thaumcraft:nugget:8>);
+<ore:plateBrass>.remove(<thaumcraft:plate>);
+<ore:plateAlchemicalBrass>.add(<thaumcraft:plate>);

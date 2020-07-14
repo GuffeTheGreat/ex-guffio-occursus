@@ -1,0 +1,19 @@
+{
+	x: 11.5d,
+	y: -6.5d,
+	shape: "square",
+	tasks: [{
+		uid: "b842930c",
+		type: "item",
+		items: [{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "galacticraftplanets:mars",
+				Count: 1b,
+				Damage: 5s
+			}
+		}]
+	}]
+}

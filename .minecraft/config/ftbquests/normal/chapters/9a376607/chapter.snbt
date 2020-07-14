@@ -1,0 +1,21 @@
+{
+	title: "Ore Processing",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "pyrotech:bloom",
+		tag: {
+			BlockEntityTag: {
+				integrity: 15,
+				maxIntegrity: 15,
+				langKey: "tile.ore_copper",
+				recipeId: "pyrotech:bloom_from_orecopper"
+			}
+		}
+	},
+	disable_toast: true,
+	always_invisible: false,
+	group: -1466848241,
+	default_quest_shape: ""
+}

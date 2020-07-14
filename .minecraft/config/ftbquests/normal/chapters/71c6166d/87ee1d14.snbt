@@ -1,0 +1,31 @@
+{
+	x: -0.5d,
+	y: -4.5d,
+	shape: "rsquare",
+	dependencies: [
+		"fd5c2b9a"
+	],
+	tasks: [{
+		uid: "e35abe29",
+		type: "checkmark",
+		title: "No Natural Regen",
+		icon: {
+			ForgeCaps: {
+				"bonfires:reinforce": {
+					maxLevel: 10,
+					level: 0
+				},
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6106378302476884828L,
+					AS_Amulet_HolderMost: 4863570407252250259L
+				}
+			},
+			id: "bonfires:estus_flask",
+			tag: {
+				estus: 3,
+				uses: 3
+			},
+			Damage: 3s
+		}
+	}]
+}

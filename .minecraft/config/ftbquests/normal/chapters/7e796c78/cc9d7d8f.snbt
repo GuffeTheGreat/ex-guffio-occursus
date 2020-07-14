@@ -1,0 +1,54 @@
+{
+	title: "Overworld Salts Vein",
+	icon: "immersiveintelligence:ore 1 3",
+	x: -1.0d,
+	y: 7.5d,
+	tasks: [{
+		uid: "f63213c9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_4 1 1"
+		}]
+	},
+	{
+		uid: "39364397",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:ore 1 3"
+		}]
+	},
+	{
+		uid: "8d5d13b8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_4 1 8"
+		}]
+	},
+	{
+		uid: "33c08122",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_5 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "58d1ae91",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_4 1 1"
+	},
+	{
+		uid: "9b0da30a",
+		type: "item",
+		item: "immersiveintelligence:ore 1 3"
+	},
+	{
+		uid: "4b11e6ca",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_4 1 8"
+	},
+	{
+		uid: "4044fc90",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_5 1 2"
+	}]
+}

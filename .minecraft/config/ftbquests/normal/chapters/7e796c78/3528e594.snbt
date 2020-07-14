@@ -1,0 +1,33 @@
+{
+	title: "Overworld Tin Vein",
+	icon: "metallurgy:tin_ore",
+	x: -1.0d,
+	y: 0.5d,
+	dependencies: [
+		"87916cd9"
+	],
+	tasks: [{
+		uid: "de9bf865",
+		type: "item",
+		items: [{
+			item: "metallurgy:tin_ore"
+		}]
+	},
+	{
+		uid: "4c680fe5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_1 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "a27a4d48",
+		type: "item",
+		item: "metallurgy:tin_ore"
+	},
+	{
+		uid: "43877588",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_1 1 5"
+	}]
+}

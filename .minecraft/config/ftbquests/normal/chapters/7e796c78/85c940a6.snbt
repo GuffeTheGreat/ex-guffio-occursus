@@ -1,0 +1,38 @@
+{
+	x: 9.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "06d6c958",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 2"
+		}]
+	},
+	{
+		uid: "2808a907",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	},
+	{
+		uid: "8a1671a0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 15"
+		}]
+	},
+	{
+		uid: "ed775d2a",
+		type: "item",
+		items: [{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "galacticraftcore:basic_block_moon",
+				Count: 1b
+			}
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: 3.5d,
+	shape: "rsquare",
+	dependencies: [
+		"2d470d82"
+	],
+	tasks: [{
+		uid: "dcbefd48",
+		type: "item",
+		items: [{
+			item: "magneticraft:chunks"
+		}]
+	}]
+}

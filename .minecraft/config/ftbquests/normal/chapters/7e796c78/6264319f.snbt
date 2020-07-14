@@ -1,0 +1,17 @@
+{
+	x: 46.0d,
+	y: -6.5d,
+	tasks: [{
+		uid: "6b85b6d1",
+		type: "item",
+		items: [{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "galaxyspace:plutoblocks",
+				Count: 1b
+			}
+		}]
+	}]
+}

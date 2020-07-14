@@ -1,0 +1,18 @@
+{
+	x: 14.0d,
+	y: 2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"d5d3e8cb",
+		"0355d3c8",
+		"c96a2355"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "3574f57b",
+		type: "item",
+		items: [{
+			item: "metallurgy:iron_dust"
+		}]
+	}]
+}

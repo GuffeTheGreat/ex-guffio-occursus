@@ -1,0 +1,16 @@
+{
+	title: "Better Plates and Automated Dust Processing",
+	x: -4.5d,
+	y: -2.5d,
+	shape: "square",
+	dependencies: [
+		"b84697f1"
+	],
+	tasks: [{
+		uid: "58559d61",
+		type: "item",
+		items: [{
+			item: "advancedrocketry:platepress"
+		}]
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "What did the rock say to the other rock?",
+	icon: "primal:rock_stone",
+	x: -1.5d,
+	y: -0.5d,
+	description: "You Rock!",
+	text: [
+		"To get started making crude tools will you need rocks. They can either be gotten from breaking gravel with your fist or a low-level shovel, or from breaking rocks on the ground."
+	],
+	tasks: [{
+		uid: "760e91b6",
+		type: "item",
+		title: "Any Rock",
+		items: [{
+			item: "pyrotech:rock"
+		},
+		{
+			item: "pyrotech:rock 1 1"
+		},
+		{
+			item: "pyrotech:rock 1 2"
+		},
+		{
+			item: "pyrotech:rock 1 3"
+		},
+		{
+			item: "pyrotech:rock 1 6"
+		},
+		{
+			item: "pyrotech:rock 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "d11519ba",
+		type: "item",
+		item: "pyrotech:rock 1 1",
+		count: 8
+	}]
+}

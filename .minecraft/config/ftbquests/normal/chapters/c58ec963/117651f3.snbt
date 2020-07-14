@@ -1,0 +1,22 @@
+{
+	icon: "minecraft:netherrack",
+	x: 5.0d,
+	y: -8.0d,
+	dependencies: [
+		"c8bcd7c1"
+	],
+	tasks: [{
+		uid: "4daa70c0",
+		type: "item",
+		items: [{
+			item: "minecraft:netherrack"
+		}]
+	},
+	{
+		uid: "780a77e3",
+		type: "item",
+		items: [{
+			item: "minecraft:soul_sand"
+		}]
+	}]
+}

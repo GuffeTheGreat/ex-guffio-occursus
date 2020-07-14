@@ -1,0 +1,30 @@
+{
+	title: "Overworld Coal Vein",
+	icon: "minecraft:coal_ore",
+	x: -1.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "1fee523b",
+		type: "item",
+		items: [{
+			item: "minecraft:coal_ore"
+		}]
+	},
+	{
+		uid: "0b812e77",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_1 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "f33be8c7",
+		type: "item",
+		item: "minecraft:coal_ore"
+	},
+	{
+		uid: "195463c6",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_1 1 7"
+	}]
+}

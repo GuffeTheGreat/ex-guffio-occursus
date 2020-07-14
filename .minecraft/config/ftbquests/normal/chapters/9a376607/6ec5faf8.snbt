@@ -1,0 +1,16 @@
+{
+	x: 21.0d,
+	y: -1.5d,
+	shape: "square",
+	dependencies: [
+		"f2f9dc7f",
+		"a8ca7a5d"
+	],
+	tasks: [{
+		uid: "3b8726d0",
+		type: "item",
+		items: [{
+			item: "metallurgy:quicksilver_ingot"
+		}]
+	}]
+}

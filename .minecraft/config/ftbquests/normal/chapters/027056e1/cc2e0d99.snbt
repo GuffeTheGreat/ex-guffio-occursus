@@ -1,0 +1,9 @@
+{
+	x: 3.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "df8789d8",
+		type: "item",
+		items: []
+	}]
+}

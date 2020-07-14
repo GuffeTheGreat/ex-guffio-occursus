@@ -1,0 +1,17 @@
+{
+	x: 6.5d,
+	y: -1.5d,
+	dependencies: [
+		"0f55b627"
+	],
+	tasks: [{
+		uid: "15e9e0af",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {}
+			}
+		}]
+	}]
+}

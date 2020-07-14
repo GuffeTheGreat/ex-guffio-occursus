@@ -1,0 +1,54 @@
+{
+	title: "Overworld Kyanite and Mica Vein",
+	icon: "contenttweaker:sub_block_holder_3 1 4",
+	x: -1.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "bfc62da7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_3 1 4"
+		}]
+	},
+	{
+		uid: "bd70cf95",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_3 1 5"
+		}]
+	},
+	{
+		uid: "8563e4ed",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_1 1 5"
+		}]
+	},
+	{
+		uid: "296d4fa3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_3"
+		}]
+	}],
+	rewards: [{
+		uid: "54dccfcd",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_3 1 4"
+	},
+	{
+		uid: "51e4c5c0",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_3 1 5"
+	},
+	{
+		uid: "e83f46d4",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_1 1 5"
+	},
+	{
+		uid: "bbf0270b",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_3"
+	}]
+}

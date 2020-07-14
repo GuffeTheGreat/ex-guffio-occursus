@@ -1,0 +1,36 @@
+{
+	x: -3.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "0aeabddb",
+		type: "item",
+		items: [{
+			item: "pyrotech:bloomery"
+		}]
+	}],
+	rewards: [{
+		uid: "2e01e78f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"bonfires:reinforce": {
+					maxLevel: 10,
+					level: 0
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bonfires:coiled_sword"
+		}
+	},
+	{
+		uid: "62f103eb",
+		type: "item",
+		item: "bonfires:ash_bone_pile"
+	},
+	{
+		uid: "e24df947",
+		type: "item",
+		item: "pyrotech:material 1 5",
+		count: 16
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "Your Automation Start",
+	icon: "rats:cheese",
+	x: -0.5d,
+	y: -3.5d,
+	text: [
+		"",
+		"",
+		"",
+		"Tips for Automation",
+		"Pyrotech's Machines input is on the top of the machine. But their output is on the bottom"
+	],
+	tasks: [{
+		uid: "9f19bd0f",
+		type: "item",
+		items: [{
+			item: "rats:cheese"
+		}]
+	}],
+	rewards: [{
+		uid: "063b1969",
+		type: "item",
+		item: "rats:raw_rat",
+		count: 2
+	}]
+}

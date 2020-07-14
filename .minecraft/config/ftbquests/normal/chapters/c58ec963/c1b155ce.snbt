@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"830e9e10",
+		"2080a3a6"
+	],
+	tasks: [{
+		uid: "ce7bfc49",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alumentum"
+		}]
+	}]
+}

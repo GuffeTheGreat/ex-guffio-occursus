@@ -1,0 +1,39 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "roughtweaks:salve"
+	},
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "3956bdec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roughtweaks:salve"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6ca0a09e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "roughtweaks:plaster"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a10bc912",
+		type: "item",
+		item: "bonfires:estus_shard"
+	}]
+}

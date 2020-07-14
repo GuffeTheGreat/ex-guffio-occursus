@@ -1,0 +1,16 @@
+{
+	icon: "immersiveintelligence:metal_multiblock 1 4",
+	x: 5.0d,
+	y: 2.0d,
+	dependencies: [
+		"b07cdb04"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "7cda93f8",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:metal_multiblock 1 4"
+		}]
+	}]
+}

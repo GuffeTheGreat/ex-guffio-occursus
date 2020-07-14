@@ -1,0 +1,24 @@
+{
+	title: "Budget Treated Wood",
+	icon: "pyrotech:planks_tarred",
+	x: 9.0d,
+	y: -5.0d,
+	dependencies: [
+		"78de97f6",
+		"0caddbd8"
+	],
+	tasks: [{
+		uid: "0b3be963",
+		type: "item",
+		items: [{
+			item: "pyrotech:planks_tarred"
+		}]
+	},
+	{
+		uid: "c6337213",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_hopper"
+		}]
+	}]
+}

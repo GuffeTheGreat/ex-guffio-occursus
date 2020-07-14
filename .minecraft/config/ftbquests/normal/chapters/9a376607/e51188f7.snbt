@@ -1,0 +1,15 @@
+{
+	icon: "immersiveintelligence:metal_multiblock 1 4",
+	x: 19.5d,
+	y: 0.5d,
+	dependencies: [
+		"cd772cd4"
+	],
+	tasks: [{
+		uid: "77191717",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:metal_multiblock 1 4"
+		}]
+	}]
+}

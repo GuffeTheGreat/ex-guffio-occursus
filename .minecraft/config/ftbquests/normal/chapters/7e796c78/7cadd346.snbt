@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 6.5d,
+	tasks: [{
+		uid: "7d375a45",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 7"
+		}]
+	},
+	{
+		uid: "c9dbe74f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_6 1 1"
+		}]
+	},
+	{
+		uid: "b858ace5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"1c632479"
+	],
+	tasks: [{
+		uid: "ca445ea3",
+		type: "item",
+		items: [{
+			item: "metallurgy:steel_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,222 @@
+{
+	title: "If trees could kill you, they wood",
+	icon: "minecraft:log",
+	x: -1.5d,
+	y: -2.5d,
+	text: [
+		"Now that you have some sticks, rocks, and plant fibres, can you craft your first axe, and get some wood."
+	],
+	dependencies: [
+		"4c31648d",
+		"df4db9c8"
+	],
+	tasks: [{
+		uid: "6e2fa5f4",
+		type: "item",
+		items: [{
+			item: "minecraft:log"
+		},
+		{
+			item: "minecraft:log 1 1"
+		},
+		{
+			item: "minecraft:log 1 2"
+		},
+		{
+			item: "minecraft:log 1 3"
+		},
+		{
+			item: "minecraft:log2"
+		},
+		{
+			item: "minecraft:log2 1 1"
+		},
+		{
+			item: {
+				item: {
+					item: {
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														item: {
+															item: {
+																item: {
+																	item: {
+																		item: {
+																			item: {
+																				item: {
+																					item: {
+																						item: {
+																							item: {
+																								item: {
+																									item: {
+																										item: {
+																											item: {
+																												item: {
+																													item: {
+																														item: {
+																															item: {
+																																item: {
+																																	item: "primal:logs 1 1"
+																																},
+																																Count: 1b
+																															},
+																															Count: 1b
+																														},
+																														Count: 1b
+																													},
+																													Count: 1b
+																												},
+																												Count: 1b
+																											},
+																											Count: 1b
+																										},
+																										Count: 1b
+																									},
+																									Count: 1b
+																								},
+																								Count: 1b
+																							},
+																							Count: 1b
+																						},
+																						Count: 1b
+																					},
+																					Count: 1b
+																				},
+																				Count: 1b
+																			},
+																			Count: 1b
+																		},
+																		Count: 1b
+																	},
+																	Count: 1b
+																},
+																Count: 1b
+															},
+															Count: 1b
+														},
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
+						},
+						Count: 1b
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
+		},
+		{
+			item: "cuisine:log"
+		},
+		{
+			item: {
+				item: {
+					item: {
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														item: {
+															item: {
+																item: {
+																	item: {
+																		item: {
+																			item: {
+																				item: {
+																					item: {
+																						item: {
+																							item: {
+																								item: {
+																									item: {
+																										item: {
+																											item: {
+																												item: {
+																													item: {
+																														item: {
+																															item: {
+																																item: {
+																																	item: "primal:logs"
+																																},
+																																Count: 1b
+																															},
+																															Count: 1b
+																														},
+																														Count: 1b
+																													},
+																													Count: 1b
+																												},
+																												Count: 1b
+																											},
+																											Count: 1b
+																										},
+																										Count: 1b
+																									},
+																									Count: 1b
+																								},
+																								Count: 1b
+																							},
+																							Count: 1b
+																						},
+																						Count: 1b
+																					},
+																					Count: 1b
+																				},
+																				Count: 1b
+																			},
+																			Count: 1b
+																		},
+																		Count: 1b
+																	},
+																	Count: 1b
+																},
+																Count: 1b
+															},
+															Count: 1b
+														},
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
+						},
+						Count: 1b
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
+		}]
+	}]
+}

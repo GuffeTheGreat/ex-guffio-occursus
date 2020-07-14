@@ -1,0 +1,18 @@
+{
+	x: 14.0d,
+	y: -6.5d,
+	shape: "square",
+	tasks: [{
+		uid: "317ead3b",
+		type: "item",
+		items: [{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "galacticraftplanets:venus",
+				Count: 1b
+			}
+		}]
+	}]
+}

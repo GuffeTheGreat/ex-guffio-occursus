@@ -1,0 +1,66 @@
+{
+	x: 4.0d,
+	y: -4.5d,
+	tasks: [{
+		uid: "d3a90c75",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_7 1 11"
+		}]
+	},
+	{
+		uid: "3bb523cc",
+		type: "item",
+		items: [{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "exoplanets:metalore",
+				Count: 1b,
+				Damage: 3s
+			}
+		}]
+	},
+	{
+		uid: "ebe9d30b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_7 1 10"
+		}]
+	},
+	{
+		uid: "1e6eadfb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "7b60759a",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_7 1 11"
+	},
+	{
+		uid: "5b9deda7",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			},
+			id: "exoplanets:metalore",
+			Count: 1b,
+			Damage: 3s
+		}
+	},
+	{
+		uid: "aa6405b3",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_7 1 10"
+	},
+	{
+		uid: "90b1396b",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0 1 5"
+	}]
+}

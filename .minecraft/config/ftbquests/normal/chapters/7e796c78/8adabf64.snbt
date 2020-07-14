@@ -1,0 +1,35 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	tasks: [{
+		uid: "f8fe52dd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 10"
+		}]
+	},
+	{
+		uid: "3654a29b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 9"
+		}]
+	},
+	{
+		uid: "99097186",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "acbbbaa5",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_2 1 10"
+	},
+	{
+		uid: "13e14124",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_2 1 9"
+	}]
+}

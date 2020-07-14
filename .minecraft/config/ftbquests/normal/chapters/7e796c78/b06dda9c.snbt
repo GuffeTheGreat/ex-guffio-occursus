@@ -1,0 +1,54 @@
+{
+	title: "Overworld Mixed Stuff Vein",
+	icon: "contenttweaker:sub_block_holder_1 1 9",
+	x: -2.0d,
+	y: 13.0d,
+	tasks: [{
+		uid: "78a0b04b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 2"
+		}]
+	},
+	{
+		uid: "fde6a17a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_1 1 9"
+		}]
+	},
+	{
+		uid: "80a4bccf",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_1 1 5"
+		}]
+	},
+	{
+		uid: "32f6fa68",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_6 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "cac5eed5",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_2 1 2"
+	},
+	{
+		uid: "cd161fff",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_1 1 9"
+	},
+	{
+		uid: "68f08a16",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_1 1 5"
+	},
+	{
+		uid: "75beea18",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_6 1 11"
+	}]
+}

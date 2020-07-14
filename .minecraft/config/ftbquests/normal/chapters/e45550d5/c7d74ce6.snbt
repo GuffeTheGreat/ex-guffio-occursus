@@ -1,0 +1,35 @@
+{
+	title: "Cutting-Hedge Technology",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "primal:flint_shears"
+	},
+	x: 3.0d,
+	y: -0.5d,
+	text: [
+		"Shears are pretty useful. Butchering Sheep for wool has been disabled. So you will need shears to get that.",
+		""
+	],
+	dependencies: [
+		"4c31648d",
+		"df4db9c8",
+		"1ecff8ec"
+	],
+	tasks: [{
+		uid: "0d16dfe7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6106378302476884828L,
+					AS_Amulet_HolderMost: 4863570407252250259L
+				}
+			},
+			id: "primal:flint_shears"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: 3.5d,
+	dependencies: [
+		"4dd90859"
+	],
+	tasks: [{
+		uid: "d649dac5",
+		type: "item",
+		items: [{
+			item: "requious:autoclave"
+		}]
+	}]
+}

@@ -29,6 +29,7 @@ mods.jei.JEI.removeAndHide(<primal:carbonate_slack>);
 mods.jei.JEI.removeAndHide(<primal:smelter:2>.withTag({type: "cinis"}));
 mods.jei.JEI.removeAndHide(<primal:smelter:1>.withTag({type: "terra"}));
 mods.jei.JEI.removeAndHide(<primal:smelter>.withTag({type: "mud"}));
+
 //Tannin
 mods.immersiveengineering.Mixer.addRecipe(<liquid:tannin>*250, <liquid:water>*250, [<ore:dustTannin>], 2048);
 Vessel.add(<ore:dustTannin>, <liquid:water>, null, <liquid:tannin>*100);
@@ -36,9 +37,71 @@ mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:water>*250,
 mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:water>*250, <primal:inferum_ground>, 0.0, 473, <liquid:tannin>*250);
 mods.nuclearcraft.dissolver.addRecipe([<ore:dustTannin>, <liquid:water>*250, <liquid:tannin>*250]);
 mods.rockhounding_chemistry.LabOven.add("Tannin", <primal:tannin_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
-mods.rockhounding_chemistry.LabOven.add("TanninNether", <primal:inferum_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
+mods.rockhounding_chemistry.LabOven.add("Tannin Nether", <primal:inferum_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
+
+//Urushi
+mods.immersiveengineering.Mixer.addRecipe(<liquid:urushi>*250, <liquid:wood_tar>*250, [<ore:dustTannin>], 2048);
+Vessel.add(<ore:dustUrushi>, <liquid:wood_tar>, null, <liquid:urushi>*100);
+mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:wood_tar>*250, <primal:urushi_ground>, 0.0, 473, <liquid:urushi>*250);
+mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:wood_tar>*250, <primal:sinuous_resin>, 0.0, 473, <liquid:urushi>*250);
+mods.nuclearcraft.dissolver.addRecipe([<ore:dustUrushi>, <liquid:wood_tar>*250, <liquid:urushi>*250]);
+mods.rockhounding_chemistry.LabOven.add("Urushi", <primal:urushi_ground>, null, <liquid:wood_tar>*250, null, <liquid:urushi>*250, null);
+mods.rockhounding_chemistry.LabOven.add("Urushi Nether", <primal:sinuous_resin>, null, <liquid:wood_tar>*250, null, <liquid:urushi>*250, null);
 mods.primal.Gallagher.removeAll();
 
+//Sarirasrecipes
+//Alloys
+mods.primal.Smelter.addRecipe(
+    "Constantan", 
+    60, 
+    [<ore:ingotCopper>,<ore:ingotNickel>,<ore:charcoalGood>], 
+    [<immersiveengineering:metal:6>*2,<pyrotech:slag>]
+);
+mods.primal.Smelter.addRecipe(
+    "Brass", 
+    60, 
+    [<ore:ingotCopper>*3,<ore:ingotZinc>,<ore:charcoalGood>], 
+    [<metallurgy:brass_ingot>*4,<pyrotech:slag>]
+);
+mods.primal.Smelter.addRecipe(
+    "Bronze", 
+    60, 
+    [<ore:ingotCopper>*3,<ore:ingotTin>,<ore:charcoalFair>], 
+    [<metallurgy:bronze_ingot>*4,<pyrotech:slag>]
+);
+mods.primal.Smelter.addRecipe(
+    "Angmallen", 
+    60, 
+    [<ore:ingotIron>,<ore:ingotGold>,<ore:charcoalFair>], 
+    [<metallurgy:angmallen_ingot>*2,<pyrotech:slag>]
+);
+mods.primal.Smelter.addRecipe(
+    "Electrum", 
+    60, 
+    [<ore:stone>*4,<ore:ingotGold>,<ore:charcoalGood>], 
+    [<metallurgy:electrum_ingot>*2,<pyrotech:slag>]
+);
+mods.primal.Smelter.addRecipe(
+    "Tin Silver Alloys", 
+    60, 
+    [<ore:stone>*4,<ore:ingotTin>*3,<ore:charcoalGood>], 
+    [<nuclearcraft:alloy:8>*4,<pyrotech:slag>]
+);
+//HardenedStone
+mods.primal.Smelter.addRecipe(
+    "Netherbrick", 
+    60, 
+    [<primal:soul_residue>,<ore:charcoalMote>], 
+    [<minecraft:netherbrick>]
+);
+//Netherbrick
+recipes.remove(<primal:hardened_stone>);
+mods.primal.Smelter.addRecipe(
+    "Hardened_stone", 
+    60, 
+    [<ore:stone>*4,<ore:shardObsidian>*2,<ore:charcoalGood>], 
+    [<primal:hardened_stone>*4,<pyrotech:material>*3]
+);
 //Planks
 recipes.remove(<primal:planks:*>);
 

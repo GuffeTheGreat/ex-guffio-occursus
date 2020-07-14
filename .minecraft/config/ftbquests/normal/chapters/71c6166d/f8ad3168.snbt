@@ -1,0 +1,15 @@
+{
+	title: "Ozaiga",
+	x: 3.0d,
+	y: -1.5d,
+	dependencies: [
+		"1c632479"
+	],
+	tasks: [{
+		uid: "8cc2ca39",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sapling_silverwood"
+		}]
+	}]
+}

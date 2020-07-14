@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: -3.5d,
+	dependencies: [
+		"72338d94"
+	],
+	tasks: [{
+		uid: "d048dd34",
+		type: "item",
+		items: [{
+			item: "rats:chunky_cheese_token"
+		}]
+	}]
+}

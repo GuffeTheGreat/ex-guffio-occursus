@@ -44,7 +44,7 @@ function add(inputItem as IIngredient, outputItem as IItemStack, power as int, t
 	nuclear_core.addJEIRecipe(recipeJEI);
 }
 
-add(<alchemistry:ingot:46>,<contenttweaker:material_part:1550>,40,200);
+//add(<alchemistry:ingot:46>,<contenttweaker:material_part:1550>,40,200);
 add(<metallurgy:prometheum_ingot>,<metallurgy:prometheum_dust>,80,5000);
 
 

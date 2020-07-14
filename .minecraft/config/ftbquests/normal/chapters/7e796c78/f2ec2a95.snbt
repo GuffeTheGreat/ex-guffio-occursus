@@ -1,0 +1,40 @@
+{
+	x: 4.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "1f566086",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 10"
+		}]
+	},
+	{
+		uid: "f52b07b0",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 9"
+		}]
+	},
+	{
+		uid: "d64ff0d2",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "c18cc6e2",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_2 1 10"
+	},
+	{
+		uid: "c9278b04",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_2 1 9"
+	},
+	{
+		uid: "ec6915e7",
+		type: "item",
+		item: "minecraft:gold_ore"
+	}]
+}

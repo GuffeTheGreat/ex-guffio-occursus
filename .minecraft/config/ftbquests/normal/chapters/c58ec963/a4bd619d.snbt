@@ -1,0 +1,31 @@
+{
+	title: "A Dark World",
+	icon: "thebetweenlands:sulfur_ore",
+	x: 3.5d,
+	y: 2.5d,
+	dependencies: [
+		"d4a7ddc4"
+	],
+	dependency_requirement: "all_started",
+	tasks: [{
+		uid: "33c23f6f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	},
+	{
+		uid: "3d79cec8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 11"
+		}]
+	},
+	{
+		uid: "107b3dc3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 18"
+		}]
+	}]
+}

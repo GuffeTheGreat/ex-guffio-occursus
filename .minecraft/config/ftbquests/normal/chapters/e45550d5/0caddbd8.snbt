@@ -1,0 +1,34 @@
+{
+	title: "Making Charcoal",
+	icon: "minecraft:coal 1 1",
+	x: 7.5d,
+	y: -5.0d,
+	dependencies: [
+		"b33634e6"
+	],
+	tasks: [{
+		uid: "3801a956",
+		type: "item",
+		items: [{
+			item: "pyrotech:tar_collector"
+		}]
+	},
+	{
+		uid: "e00da4df",
+		type: "fluid",
+		fluid: "wood_tar"
+	},
+	{
+		uid: "a27b0995",
+		type: "item",
+		items: [{
+			item: "minecraft:coal 1 1"
+		},
+		{
+			item: "primal:charcoal_fair"
+		},
+		{
+			item: "primal:charcoal_good"
+		}]
+	}]
+}

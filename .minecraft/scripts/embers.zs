@@ -19,6 +19,18 @@ furnace.remove(<soot:stamp_text_raw>);
 furnace.remove(<soot:stamp_nugget_raw>);
 recipes.remove(<minecraft:bread>);
 
+//DarkAshes
+recipes.addShapeless("2x_item_dust_ash_shapeless", <embers:dust_ash> * 2, [<rockhounding_chemistry:chemical_dusts:24>, <bonfires:ash_pile>]);
+
+
+//Ashenstone
+recipes.remove(<embers:ashen_stone> * 4);
+recipes.addShapedMirrored("4x_tile_ashen_stone_shaped", <embers:ashen_stone> * 4, [
+	[<embers:dust_ash>, <primal:hardened_stone>, <embers:dust_ash>],
+	[<primal:hardened_stone>, <embers:dust_ash>, <primal:hardened_stone>],
+	[<embers:dust_ash>, <primal:hardened_stone>, <embers:dust_ash>]
+]);
+
 //CaminiteBrick
 recipes.remove(<embers:blend_caminite>);
 StoneKiln.addRecipe("stone_caminitebricks", <embers:brick_caminite>, <embers:blend_caminite>, 6000, 0.08, [<pyrotech:material>]);
@@ -118,6 +130,9 @@ recipes.addShapedMirrored("1x_tile_beam_cannon_shaped", <embers:beam_cannon>, [
 //WindingGears
 mods.embers.Alchemy.remove(<embers:winding_gears>);
 mods.embers.Alchemy.add(<embers:winding_gears>, [<ore:gearAtlarus>, <ore:gearAmber>, <ore:gearAmber>, <ore:gearAmber>, <ore:gearAmber>], {"copper": 32 to 64, "iron": 32 to 128});
+//AshenFabric
+mods.embers.Alchemy.remove(<embers:ashen_cloth>);
+mods.embers.Alchemy.add(<embers:ashen_cloth>, [<immersiveengineering:material:5>, <ore:dustDarkAsh>, <ore:dustDarkAsh>, <ore:dustDarkAsh>, <ore:dustDarkAsh>], {"lead": 16 to 32});
 //FelPumpkin
 recipes.remove(<botania:felpumpkin>);
 mods.embers.Alchemy.add(<botania:felpumpkin>, [<minecraft:pumpkin>, <thebetweenlands:shimmer_stone>, <minecraft:gunpowder>, <minecraft:fermented_spider_eye>, <primal:ovis_atre_wool>], {"copper": 32 to 64, "dawnstone": 16 to 48});

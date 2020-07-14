@@ -1,0 +1,23 @@
+{
+	icon: "botania:felpumpkin",
+	x: 11.0d,
+	y: -6.5d,
+	dependencies: [
+		"2bd75c79",
+		"ba10768a"
+	],
+	tasks: [{
+		uid: "22efdd0c",
+		type: "item",
+		items: [{
+			item: "botania:felpumpkin"
+		}]
+	},
+	{
+		uid: "9f764327",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	}]
+}

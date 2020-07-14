@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: -2.5d,
+	dependencies: [
+		"91269567"
+	],
+	tasks: [{
+		uid: "a414f0a2",
+		type: "item",
+		items: [{
+			item: "rats:ratlantean_flame"
+		}]
+	}]
+}

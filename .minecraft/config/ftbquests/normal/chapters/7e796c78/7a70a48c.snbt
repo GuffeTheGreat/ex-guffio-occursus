@@ -1,0 +1,11 @@
+{
+	x: -2.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: "4a93880f",
+		type: "item",
+		items: [{
+			item: "plants2:cosmetic_5 1 5"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	icon: "thebetweenlands:life_crystal_stalactite 1 1",
+	x: 1.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "05326397",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:life_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

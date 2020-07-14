@@ -1,0 +1,11 @@
+{
+	x: -1.0d,
+	y: -6.5d,
+	shape: "square",
+	tasks: [{
+		uid: "e361875d",
+		type: "checkmark",
+		title: "The Overworlds Ores",
+		icon: "minecraft:grass"
+	}]
+}

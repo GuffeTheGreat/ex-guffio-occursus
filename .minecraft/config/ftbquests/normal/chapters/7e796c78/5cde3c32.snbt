@@ -1,0 +1,34 @@
+{
+	title: "Overworld Cassiterite and \"Gem\" Vein",
+	icon: "contenttweaker:sub_block_holder_1 1 5",
+	x: -1.0d,
+	y: 8.5d,
+	tasks: [{
+		uid: "eb27ec12",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_1 1 5"
+		}]
+	},
+	{
+		uid: "56925914",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_5"
+		}]
+	},
+	{
+		uid: "d80b3ba7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_1"
+		}]
+	},
+	{
+		uid: "97113cbe",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 1"
+		}]
+	}]
+}

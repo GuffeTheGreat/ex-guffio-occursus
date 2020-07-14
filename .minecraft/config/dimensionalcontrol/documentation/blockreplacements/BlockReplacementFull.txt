@@ -12,6 +12,10 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
+getBlockToReplace:
+    Notes:
+        Returns the BlockData object for the block to be replaced so functions can be called on it.
+
 setBlockToReplace:
     Arguments:
         String
@@ -28,61 +32,13 @@ setBlockToReplace:
     Notes:
         Sets the block to be replaced with the provided meta.
 
-getBlockToReplace:
-    Notes:
-        Returns the BlockData object for the block to be replaced so functions can be called on it.
-
-setXMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max X coordinates.
-
-setReplacement:
+setBlockToReplaceOreDict:
     Arguments:
         String
     Usage:
-        block ID
+        ore dict name
     Notes:
-        Sets the block replacement with a meta of 0.
-
-setReplacement:
-    Arguments:
-        String, int
-    Usage:
-        block ID, meta
-    Notes:
-        Sets the block replacement and meta.
-
-getLocationData:
-    Notes:
-        Returns the LocationData object so functions can be called on it.
-
-setXMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min X coordinate.
-
-setYMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min Y coordinate.
-
-setZMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Z coordinates.
+        Sets the ore dictionary for the block to be replaced.
 
 setXMax:
     Arguments:
@@ -100,29 +56,13 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
-setYMax:
+setYMin:
     Arguments:
         float
     Usage:
-        max
+        min
     Notes:
-        Sets the max Y coordinate.
-
-setZMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max Z coordinate.
-
-setDimensionType:
-    Arguments:
-        String
-    Usage:
-        dimension type
-    Notes:
-        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
+        Sets the min Y coordinate.
 
 setZMin:
     Arguments:
@@ -132,13 +72,73 @@ setZMin:
     Notes:
         Sets the min Z coordinate.
 
-setBlockToReplaceOreDict:
+setDimensionType:
     Arguments:
         String
     Usage:
-        ore dict name
+        dimension type
     Notes:
-        Sets the ore dictionary for the block to be replaced.
+        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
+
+getLocationData:
+    Notes:
+        Returns the LocationData object so functions can be called on it.
+
+setZMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Z coordinate.
+
+setXMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max X coordinates.
+
+setXMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min X coordinate.
+
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Y coordinate.
+
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
+
+setReplacement:
+    Arguments:
+        String, int
+    Usage:
+        block ID, meta
+    Notes:
+        Sets the block replacement and meta.
+
+setReplacement:
+    Arguments:
+        String
+    Usage:
+        block ID
+    Notes:
+        Sets the block replacement with a meta of 0.
 
 setBiome:
     Arguments:

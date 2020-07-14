@@ -48,24 +48,10 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "crossroads:tile.ore_copper",
-        "embers:tile.ore_copper",
-        "geolosys:geolosys.cluster.copper",
-        "immersiveengineering:tile.immersiveengineering.ore.copper",
-        "libvulpes:material.Copper",
-        "magneticraft:tile.magneticraft.ores_copper",
-        "metallurgy:tile.metallurgy.copper_ore",
-        "nuclearcraft:tile.nuclearcraft.ore.copper"
+        "metallurgy:tile.metallurgy.copper_ore"
       ],
       "output": [
-        "crossroads:nugget_copper:0",
-        "embers:nugget_copper:0",
-        "immersiveengineering:metal:20",
-        "libvulpes:productnugget:4",
-        "magneticraft:nuggets:2",
-        "metallurgy:copper_nugget:0",
-        "primal:copper_nugget:0",
-        "thaumcraft:nugget:1"
+        "metallurgy:copper_nugget:0"
       ]
     },
     "oreGold": {
@@ -89,9 +75,9 @@
       ]
     },
     "oreAtlarus": {
-      "slagColor": "ffdf00",
+      "slagColor": "fcee4b",
       "langKey": [
-        "metallurgy:tile.metallurgy.atlarus.ore"
+        "metallurgy:tile.metallurgy.atlarus_ore"
       ],
       "output": [
         "metallurgy:atlarus_nugget:0"
@@ -105,9 +91,7 @@
         "minecraft:tile.oreIron"
       ],
       "output": [
-        "immersiveengineering:metal:29",
-        "minecraft:iron_nugget:0",
-        "thaumcraft:nugget:0"
+        "minecraft:iron_nugget:0"
       ]
     },
     "oreLead": {

@@ -13,7 +13,7 @@ Purifier.addRecipe(<ore:crushedValonite>, <jaopca:item_crushedpurifiedvalonite>)
 */
 //AnimatorRecipes
 Animator.addRecipe(<rats:raw_rat>, 10, 10, "rats:rat");
-Animator.addRecipe(<embers:ashen_stone>, 25, 15, "primal:ovis_atre");
+Animator.addRecipe(<pyrotech:wool_tarred>, 25, 15, "primal:ovis_atre");
 Animator.addRecipe(<thebetweenlands:tar_solid>, 10, 5, <pyrotech:living_tar>);
 
 //Purifer

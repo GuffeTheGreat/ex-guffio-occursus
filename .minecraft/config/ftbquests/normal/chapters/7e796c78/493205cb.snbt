@@ -1,0 +1,33 @@
+{
+	icon: "contenttweaker:sub_block_holder_4 1 7",
+	x: -1.0d,
+	y: 13.0d,
+	tasks: [{
+		uid: "6c09ebba",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_4 1 7"
+		}]
+	},
+	{
+		uid: "3fd3729f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_3 1 14"
+		}]
+	},
+	{
+		uid: "b0e3bf80",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_1 1 4"
+		}]
+	},
+	{
+		uid: "b6d3596d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 12"
+		}]
+	}]
+}

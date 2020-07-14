@@ -1,0 +1,20 @@
+{
+	x: 9.5d,
+	y: -2.0d,
+	dependencies: [
+		"8c4e69ab"
+	],
+	tasks: [{
+		uid: "59488b04",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "11919063",
+		type: "item",
+		item: "minecraft:torch",
+		count: 8
+	}]
+}

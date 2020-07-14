@@ -1,0 +1,54 @@
+{
+	title: "Overworld Iron Vein",
+	icon: "contenttweaker:sub_block_holder_6 1 9",
+	x: -1.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "9c653849",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_6 1 9"
+		}]
+	},
+	{
+		uid: "6944580c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_6 1 10"
+		}]
+	},
+	{
+		uid: "63e5c7ef",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_6 1 3"
+		}]
+	},
+	{
+		uid: "4105418c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_6 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "7109a37a",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_6 1 9"
+	},
+	{
+		uid: "c8b6626d",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_6 1 10"
+	},
+	{
+		uid: "1ef18ea3",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_6 1 3"
+	},
+	{
+		uid: "09eebc4a",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_6 1 7"
+	}]
+}

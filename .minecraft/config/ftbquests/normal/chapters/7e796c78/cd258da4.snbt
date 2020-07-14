@@ -1,0 +1,53 @@
+{
+	icon: "contenttweaker:sub_block_holder_0 1 13",
+	x: -2.0d,
+	y: 12.0d,
+	tasks: [{
+		uid: "4512d1ee",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 13"
+		}]
+	},
+	{
+		uid: "adf8364e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_4 1 5"
+		}]
+	},
+	{
+		uid: "87e61e25",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 7"
+		}]
+	},
+	{
+		uid: "521b9f6d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_4 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "36fc3ab3",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0 1 13"
+	},
+	{
+		uid: "010b44af",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_4 1 5"
+	},
+	{
+		uid: "78aa1259",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_2 1 7"
+	},
+	{
+		uid: "9f3ae34c",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_4 1 13"
+	}]
+}

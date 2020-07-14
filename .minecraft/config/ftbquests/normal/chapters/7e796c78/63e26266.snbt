@@ -1,0 +1,11 @@
+{
+	title: "Betweenlands Ores",
+	x: 1.5d,
+	y: -6.5d,
+	shape: "square",
+	tasks: [{
+		uid: "37087565",
+		type: "checkmark",
+		icon: "thebetweenlands:swamp_grass"
+	}]
+}

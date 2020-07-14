@@ -1,0 +1,16 @@
+{
+	x: 22.5d,
+	y: 0.5d,
+	shape: "rsquare",
+	can_repeat: true,
+	dependencies: [
+		"e51188f7"
+	],
+	tasks: [{
+		uid: "5dd62768",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 151"
+		}]
+	}]
+}

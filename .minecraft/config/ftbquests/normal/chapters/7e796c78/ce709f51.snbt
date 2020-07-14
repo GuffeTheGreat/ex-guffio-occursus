@@ -1,0 +1,18 @@
+{
+	x: 16.5d,
+	y: -6.5d,
+	shape: "square",
+	tasks: [{
+		uid: "45bae834",
+		type: "item",
+		items: [{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "galaxyspace:mercuryblocks",
+				Count: 1b
+			}
+		}]
+	}]
+}

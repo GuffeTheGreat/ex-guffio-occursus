@@ -1,0 +1,17 @@
+{
+	x: 6.5d,
+	y: 2.0d,
+	shape: "rsquare",
+	dependencies: [
+		"23e5212b",
+		"7a6c176f"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "dff6c36d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 208"
+		}]
+	}]
+}

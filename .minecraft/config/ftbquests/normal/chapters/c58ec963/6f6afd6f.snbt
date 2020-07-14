@@ -1,0 +1,30 @@
+{
+	icon: "immersiveengineering:wooden_device0 1 2",
+	x: 2.0d,
+	y: -6.5d,
+	dependencies: [
+		"0b3be963"
+	],
+	tasks: [{
+		uid: "1d91579b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	},
+	{
+		uid: "422a5526",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "components"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	icon: {
+		id: "primal:quern",
+		tag: {
+			type: "sarsen"
+		}
+	},
+	x: 6.0d,
+	y: -0.5d,
+	dependencies: [
+		"b33634e6"
+	],
+	tasks: [{
+		uid: "2c78e534",
+		type: "item",
+		items: [{
+			item: "cuisine:mill"
+		}]
+	}]
+}

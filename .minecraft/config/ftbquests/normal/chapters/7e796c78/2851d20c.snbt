@@ -1,0 +1,21 @@
+{
+	title: "Overworld Fossil Ore",
+	icon: "pyrotech:fossil_ore",
+	x: -1.0d,
+	y: -5.5d,
+	text: [
+		"Fossil ore is the only in the overworld that dosen't spawn in large veins. It spawns commonly from height 120 to 50."
+	],
+	tasks: [{
+		uid: "35e24180",
+		type: "item",
+		items: [{
+			item: "minecraft:bone"
+		}]
+	}],
+	rewards: [{
+		uid: "492c6667",
+		type: "item",
+		item: "minecraft:bone"
+	}]
+}

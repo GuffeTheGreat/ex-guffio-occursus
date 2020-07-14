@@ -1,0 +1,45 @@
+{
+	icon: "silentgems:armorframe 1 1",
+	x: 3.0d,
+	y: -1.5d,
+	tasks: [{
+		uid: "3d53f82a",
+		type: "item",
+		items: [{
+			item: "silentgems:armorframe"
+		}]
+	},
+	{
+		uid: "c52cb7ff",
+		type: "item",
+		items: [{
+			item: "silentgems:armorframe 1 1"
+		}]
+	},
+	{
+		uid: "82fa3aa8",
+		type: "item",
+		items: [{
+			item: "silentgems:armorframe 1 2"
+		}]
+	},
+	{
+		uid: "cd18dff3",
+		type: "item",
+		items: [{
+			item: "silentgems:armorframe 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "48d750c5",
+		type: "item",
+		item: "contenttweaker:material_part 1 220",
+		count: 4
+	},
+	{
+		uid: "b47b3ca7",
+		type: "item",
+		item: "iceandfire:troll_leather_frost",
+		count: 4
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 36.5d,
+	y: -6.5d,
+	tasks: [{
+		uid: "fb9fa577",
+		type: "item",
+		items: [{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "galaxyspace:titanblocks",
+				Count: 1b
+			}
+		}]
+	}]
+}

@@ -166,6 +166,7 @@ fluid.lng=LNG
 fluid.ice=Liquid Ice
 fluid.fluidedmana=Mana
 fluid.hotnaturalgas=Hot Natural Gas
+fluid.refinedmana=Refined Mana
 
 tile.contenttweaker.pile_poor.name=Pile of Poor Grade Wood
 tile.contenttweaker.pile_fair.name=Pile of Fair Grade Wood
@@ -182,3 +183,4 @@ contenttweaker.part.flawless=Flawless %s
 contenttweaker.part.flaked=Flawed %s
 contenttweaker.part.point=Chipped %s
 contenttweaker.part.chunk=%s Chunk
+contenttweaker.part.tiny_pile=Tiny Pile of %s Dust

@@ -19,5 +19,15 @@ recipes.addShapedMirrored("1x_item_chunkAnalyzer_shaped", <randomthings:chunkana
 	[<ore:circuitBasic>, <ore:plateAluminium>, <ore:circuitBasic>]
 ]);
 
+//Blazeandsteel
+recipes.remove(<randomthings:blazeandsteel>);
+recipes.remove(<metallurgy:flint_and_vulcanite>);
+recipes.remove(<metallurgy:flint_and_ignatius>);
+recipes.addShapeless("1x_item_blazeAndSteel_shapeless", <randomthings:blazeandsteel>, [<minecraft:blaze_powder>, <materialpart:Crude_Steel:ring>]);
+recipes.addShapeless("1x_item_metallurgy_flint_and_ignatius_shapeless", <metallurgy:flint_and_ignatius>, [<pyrotech:material:10>, <materialpart:Ignatius:ring>]);
+recipes.addShapeless("1x_item_metallurgy_flint_and_vulcanite_shapeless", <metallurgy:flint_and_vulcanite>, [<pyrotech:material:10>, <materialpart:Vulcanite:ring>]);
+
+
+
 
 

@@ -1,0 +1,42 @@
+{
+	title: "Overworld Gold Magnetite Vein",
+	icon: "minecraft:gold_ore",
+	x: -1.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "ea647d3b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 10"
+		}]
+	},
+	{
+		uid: "a5e5cd07",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 9"
+		}]
+	},
+	{
+		uid: "f7377623",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "565e6375",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_2 1 10"
+	},
+	{
+		uid: "755638ac",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_2 1 9"
+	},
+	{
+		uid: "41c8ae06",
+		type: "item",
+		item: "minecraft:gold_ore"
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 9.5d,
+	y: 8.0d,
+	shape: "square",
+	dependencies: [
+		"d5d3e8cb",
+		"2012064e"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "33b9a6a4",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}]
+}

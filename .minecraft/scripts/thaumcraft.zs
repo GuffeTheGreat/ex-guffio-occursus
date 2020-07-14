@@ -8,6 +8,24 @@ recipes.remove(<thaumcraft:nugget:9>);
 
 //ArcaneWorkbench'
 
+//ThaumiumArmor
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumiumhelmet", "METALLURGY", 15, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumium_helm>, [
+	[<materialpart:Thaumium:Bolt>, <thaumcraft:mechanism_complex>, <materialpart:Thaumium:Bolt>],
+	[<materialpart:Thaumium:Plate>, <minecraft:leather_helmet>, <materialpart:Thaumium:Plate>],
+	[<materialpart:Thaumium:Bolt>, <materialpart:Thaumium:Plate>, <materialpart:Thaumium:Bolt>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumiumchestplate", "METALLURGY", 15, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumium_chest>, [
+	[<materialpart:Thaumium:Bolt>, <thaumcraft:mechanism_complex>, <materialpart:Thaumium:Bolt>],
+	[<materialpart:Thaumium:Plate>, <minecraft:leather_chestplate>, <materialpart:Thaumium:Plate>],
+	[<materialpart:Thaumium:Bolt>, <materialpart:Thaumium:Plate>, <materialpart:Thaumium:Bolt>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumiumleggings", "METALLURGY", 15, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumium_legs>, [
+	[<materialpart:Thaumium:Bolt>, <thaumcraft:mechanism_complex>, <materialpart:Thaumium:Bolt>],
+	[<materialpart:Thaumium:Plate>, <minecraft:leather_leggings>, <materialpart:Thaumium:Plate>],
+	[<materialpart:Thaumium:Bolt>, <materialpart:Thaumium:Plate>, <materialpart:Thaumium:Bolt>]]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumiumboots", "METALLURGY", 15, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumium_boots>, [
+	[<materialpart:Thaumium:Bolt>, <thaumcraft:mechanism_complex>, <materialpart:Thaumium:Bolt>],
+	[<materialpart:Thaumium:Plate>, <minecraft:leather_boots>, <materialpart:Thaumium:Plate>],
+	[<materialpart:Thaumium:Bolt>, <materialpart:Thaumium:Plate>, <materialpart:Thaumium:Bolt>]]);
+
 #Thauometer
 recipes.remove(<thaumcraft:thaumometer>);
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:thaumometer>);
@@ -75,7 +93,10 @@ mods.thaumcraft.Crucible.registerRecipe("alumentum", "BASEALCHEMY", <thaumcraft:
 mods.thaumcraft.Crucible.registerRecipe("ice", "BASEALCHEMY", <forge:bucketfilled>.withTag({FluidName: "ice", Amount: 1000}), <minecraft:water_bucket>, [<aspect:gelum>*10]);
 
 #RatMeat
-mods.thaumcraft.Crucible.registerRecipe("rawrat", "BASEALCHEMY", <rats:raw_rat>, <minecraft:chicken>, [<aspect:gelum>*10]);
+mods.thaumcraft.Crucible.registerRecipe("rawrat", "BASEALCHEMY", <rats:raw_rat>, <minecraft:chicken>, [<aspect:rattus>*10]);
+
+#ChorusFruit
+mods.thaumcraft.Crucible.registerRecipe("chorusfruit", "HEDGEALCHEMY", <minecraft:chorus_fruit>, <ore:listAllfruit>, [<aspect:vitium>*10,<aspect:alienis>*5]);
 
 #WitherSkull
 mods.thaumcraft.Crucible.registerRecipe("witherskull", "HEDGEALCHEMY", <minecraft:skull:1>, <minecraft:skull>, [<aspect:exitium>*15,<aspect:perditio>*10,<aspect:spiritus>*10,<aspect:tenebrae>*20]);

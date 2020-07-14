@@ -1,0 +1,35 @@
+{
+	title: "You first Drawer/Barrel",
+	icon: "pyrotech:stash",
+	x: 1.5d,
+	y: -1.5d,
+	text: [
+		"The Stash can hold a high amount of a single item. It is great for storing stones or other items you get a lot of. It even has a durable version which can hold even more items."
+	],
+	tasks: [{
+		uid: "ce7fc8fc",
+		type: "item",
+		items: [{
+			item: "pyrotech:stash"
+		}]
+	},
+	{
+		uid: "149c2d3c",
+		type: "item",
+		items: [{
+			item: "pyrotech:stash_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "3f7da97b",
+		type: "item",
+		item: "pyrotech:material 1 16",
+		count: 4
+	},
+	{
+		uid: "6c888528",
+		type: "item",
+		item: "pyrotech:material 1 23",
+		count: 4
+	}]
+}

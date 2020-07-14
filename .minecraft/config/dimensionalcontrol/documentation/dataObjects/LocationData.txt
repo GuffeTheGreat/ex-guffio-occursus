@@ -10,38 +10,6 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-setXMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max X coordinates.
-
-setXMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min X coordinate.
-
-setYMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min Y coordinate.
-
-setZMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Z coordinates.
-
 setXMax:
     Arguments:
         float
@@ -58,21 +26,21 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
-setYMax:
+setYMin:
     Arguments:
         float
     Usage:
-        max
+        min
     Notes:
-        Sets the max Y coordinate.
+        Sets the min Y coordinate.
 
-setZMax:
+setZMin:
     Arguments:
         float
     Usage:
-        max
+        min
     Notes:
-        Sets the max Z coordinate.
+        Sets the min Z coordinate.
 
 setDimensionType:
     Arguments:
@@ -82,13 +50,45 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-setZMin:
+setZMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Z coordinate.
+
+setXMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max X coordinates.
+
+setXMin:
     Arguments:
         float
     Usage:
         min
     Notes:
-        Sets the min Z coordinate.
+        Sets the min X coordinate.
+
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Y coordinate.
+
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
 
 setBiome:
     Arguments:

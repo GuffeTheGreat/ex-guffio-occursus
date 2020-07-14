@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -1.0d,
+	dependencies: [
+		"3cdfdc2b"
+	],
+	tasks: [{
+		uid: "00698250",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}]
+}

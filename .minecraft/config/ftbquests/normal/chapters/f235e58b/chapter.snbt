@@ -1,0 +1,7 @@
+{
+	title: "Chapter 1",
+	icon: "pyrotech:bloomery",
+	always_invisible: false,
+	group: 40916705,
+	default_quest_shape: ""
+}

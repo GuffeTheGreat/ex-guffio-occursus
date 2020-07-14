@@ -1,0 +1,18 @@
+{
+	x: 24.5d,
+	y: -2.5d,
+	shape: "square",
+	dependencies: [
+		"f2f9dc7f",
+		"6ba95f1a",
+		"1069c6ca"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "2883a7af",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}]
+}

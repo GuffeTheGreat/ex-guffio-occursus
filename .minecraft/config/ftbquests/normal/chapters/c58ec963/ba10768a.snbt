@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: -0.5d,
+	dependencies: [
+		"be1f00b1"
+	],
+	tasks: [{
+		uid: "3a430898",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:animator"
+		}]
+	}]
+}

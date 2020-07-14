@@ -1,0 +1,16 @@
+{
+	icon: "minecraft:nether_star",
+	x: 8.0d,
+	y: -8.0d,
+	dependencies: [
+		"117651f3",
+		"0866d89c"
+	],
+	tasks: [{
+		uid: "9d480891",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"76898747"
+	],
+	tasks: [{
+		uid: "d0f4204b",
+		type: "item",
+		items: [{
+			item: "crossroads:magenta_bread"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: 22.5d,
+	y: -2.5d,
+	shape: "rsquare",
+	dependencies: [
+		"ccb681ec"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "fdeb7643",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 153"
+		}]
+	}]
+}

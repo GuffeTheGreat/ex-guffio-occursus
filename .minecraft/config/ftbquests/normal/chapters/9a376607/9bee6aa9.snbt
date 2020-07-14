@@ -1,0 +1,12 @@
+{
+	x: 15.0d,
+	y: 5.0d,
+	shape: "rsquare",
+	tasks: [{
+		uid: "aa5a7a4a",
+		type: "item",
+		items: [{
+			item: "minecraft:coal_ore"
+		}]
+	}]
+}

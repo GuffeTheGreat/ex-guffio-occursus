@@ -1,0 +1,25 @@
+{
+	x: 6.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "8367358b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 3"
+		}]
+	},
+	{
+		uid: "d59fb176",
+		type: "item",
+		items: [{
+			item: "crossroads:ore_ruby"
+		}]
+	},
+	{
+		uid: "bc3232b8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ore_cinnabar"
+		}]
+	}]
+}

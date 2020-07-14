@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	tasks: [{
+		uid: "28f958ef",
+		type: "item",
+		items: [{
+			item: "metallurgy:tin_ore"
+		}]
+	},
+	{
+		uid: "3264c97d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_1 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "147a7496",
+		type: "item",
+		item: "metallurgy:tin_ore"
+	},
+	{
+		uid: "7d9d3c49",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_1 1 5"
+	}]
+}

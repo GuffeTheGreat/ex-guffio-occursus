@@ -1,0 +1,42 @@
+{
+	title: "Overworld Diamond Graphite Vein",
+	icon: "minecraft:diamond_ore",
+	x: -1.0d,
+	y: 1.5d,
+	tasks: [{
+		uid: "5924ebea",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0"
+		}]
+	},
+	{
+		uid: "bfface33",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_ore"
+		}]
+	},
+	{
+		uid: "4054703c",
+		type: "item",
+		items: [{
+			item: "minecraft:coal_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "0ed8081f",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0"
+	},
+	{
+		uid: "21800ab1",
+		type: "item",
+		item: "minecraft:diamond_ore"
+	},
+	{
+		uid: "8448b549",
+		type: "item",
+		item: "minecraft:coal_ore"
+	}]
+}

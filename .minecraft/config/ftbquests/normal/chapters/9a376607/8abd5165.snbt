@@ -1,0 +1,14 @@
+{
+	x: 18.0d,
+	y: 11.0d,
+	dependencies: [
+		"130238d5"
+	],
+	tasks: [{
+		uid: "ec2f122b",
+		type: "item",
+		items: [{
+			item: "requious:autoclave"
+		}]
+	}]
+}

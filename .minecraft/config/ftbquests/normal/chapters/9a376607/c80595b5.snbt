@@ -1,0 +1,15 @@
+{
+	x: 14.0d,
+	y: 9.0d,
+	shape: "square",
+	dependencies: [
+		"d5d3e8cb"
+	],
+	tasks: [{
+		uid: "02a0ff9f",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 34"
+		}]
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: 3.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "4f779470",
+		type: "item",
+		items: [{
+			item: "plants2:harvest_1 1 4"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	shape: "square",
+	tasks: [{
+		uid: "824d1886",
+		type: "checkmark",
+		title: "READ ME!!!",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "botania:cosmetic",
+			Damage: 31s
+		}
+	}]
+}

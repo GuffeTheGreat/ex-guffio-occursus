@@ -1,0 +1,22 @@
+{
+	icon: "rats:marbled_cheese_rat_head",
+	x: -3.5d,
+	y: -4.5d,
+	dependencies: [
+		"91269567"
+	],
+	tasks: [{
+		uid: "83df7086",
+		type: "item",
+		items: [{
+			item: "rats:feral_rat_claw"
+		}]
+	},
+	{
+		uid: "c1676895",
+		type: "item",
+		items: [{
+			item: "rats:marbled_cheese_rat_head"
+		}]
+	}]
+}

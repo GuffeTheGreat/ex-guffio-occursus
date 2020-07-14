@@ -1,0 +1,42 @@
+{
+	title: "Overworld Apatite Phopshate Vein",
+	icon: "contenttweaker:sub_block_holder_0 1 7",
+	x: -1.0d,
+	y: 5.5d,
+	tasks: [{
+		uid: "1c57375a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 7"
+		}]
+	},
+	{
+		uid: "2532d8df",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_6 1 1"
+		}]
+	},
+	{
+		uid: "408df8f4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "61795f81",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0 1 7"
+	},
+	{
+		uid: "9af1d4ee",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_6 1 1"
+	},
+	{
+		uid: "a05e8c1f",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0 1 2"
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "rats:rat_upgrade_combined",
+		tag: {}
+	},
+	x: -9.5d,
+	y: -3.5d,
+	dependencies: [
+		"00d5c2a3"
+	],
+	tasks: [{
+		uid: "39188d7c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_combined",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "69d08560",
+		type: "item",
+		items: [{
+			item: "rats:upgrade_combiner"
+		}]
+	},
+	{
+		uid: "e4327e4c",
+		type: "item",
+		items: [{
+			item: "rats:upgrade_separator"
+		}]
+	}]
+}

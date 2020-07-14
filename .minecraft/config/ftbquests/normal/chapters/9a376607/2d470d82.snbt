@@ -1,0 +1,30 @@
+{
+	icon: "bloodmagic:alchemy_table",
+	x: 6.5d,
+	y: 3.5d,
+	dependencies: [
+		"b07cdb04",
+		"b80f263b",
+		"796c921e"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "64df68fd",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	},
+	{
+		uid: "9ec800e1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bloodmagic:cutting_fluid",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}]
+}

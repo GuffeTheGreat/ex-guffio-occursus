@@ -1,0 +1,15 @@
+{
+	x: 6.5d,
+	y: -0.5d,
+	shape: "rsquare",
+	dependencies: [
+		"dba9cbdf"
+	],
+	tasks: [{
+		uid: "97e2e795",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_3 1 1"
+		}]
+	}]
+}

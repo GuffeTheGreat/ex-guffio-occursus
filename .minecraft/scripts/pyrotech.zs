@@ -43,15 +43,20 @@ mods.crossroads.HeatingCrucible.addRecipe(<minecraft:clay>, <liquid:liquid_clay>
 mods.crossroads.HeatingCrucible.addRecipe(<minecraft:clay>, <liquid:liquid_clay>*1000,"tile.clay");
 
 //FixedChoppingblock
-recipes.addShapeless("1x_tile_pyrotech_chopping_block_shapeless", <pyrotech:chopping_block>, [<minecraft:log>, <silentgear:axe:*>.transformDamage(2)]);
-recipes.addShapeless("1x_tile_cuisine_chopping_board_shapeless", <cuisine:chopping_board>.withTag({BlockEntityTag: {cover: {Count: 1, Damage: 0, id: "minecraft:log"}}}), [<pyrotech:chopping_block>, <silentgear:axe:*>.transformDamage(2)]);
+//recipes.addShapeless("1x_tile_pyrotech_chopping_block_shapeless", <pyrotech:chopping_block>, [<minecraft:log>, <silentgear:axe:*>.transformDamage(2)]);
+//recipes.addShapeless("1x_tile_cuisine_chopping_board_shapeless", <cuisine:chopping_board>.withTag({BlockEntityTag: {cover: {Count: 1, Damage: 0, id: "minecraft:log"}}}), [<pyrotech:chopping_block>, <silentgear:axe:*>.transformDamage(2)]);
 
-
-/*
 //EasyAsh
 StoneKiln.addRecipe("ashpile", <pyrotech:material>, <ore:logWood>, 1200);
 BrickKiln.addRecipe("ashpile2", <pyrotech:material>, <ore:logWood>, 600);
-*/
+
+//BoneAsh
+StoneKiln.addRecipe("boneash", <primal:ash_bone>, <ore:bone>, 1200);
+BrickKiln.addRecipe("boneash2", <primal:ash_bone>, <ore:bone>, 600);
+
+//WolfAsh
+StoneKiln.addRecipe("wolfash", <primal:ash_wolf>, <primal:pelt_wolf>, 1200);
+BrickKiln.addRecipe("wolfash2", <primal:ash_wolf>, <primal:pelt_wolf>, 600);
 
 //BurningRecipes
 Burn.removeAllRecipes();
@@ -178,7 +183,7 @@ recipes.addShapedMirrored("pyrotech_tech/basic/anvil_granite", <pyrotech:anvil_g
 	[<ore:slabStone>]
 ]);
 recipes.addShapedMirrored("1x_tile_pyrotech_anvil_iron_plated_shaped", <pyrotech:anvil_iron_plated>, [
-	[<embers:plate_iron>],
+	[<ore:plateIron>],
 	[<pyrotech:anvil_granite>]
 ]);
 
@@ -383,27 +388,27 @@ recipes.addShapedMirrored("1x_tile_pyrotech_stone_crucible_shaped", <pyrotech:st
 //RefractoryMachines
 recipes.remove(<pyrotech:brick_kiln>);
 recipes.addShapedMirrored("1x_tile_pyrotech_brick_kiln_shaped", <pyrotech:brick_kiln>, [
-	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>],
+	[<ore:plateIron>, <pyrotech:refractory_brick_block>, <ore:plateIron>],
 	[<pyrotech:refractory_brick_block>, <pyrotech:stone_kiln>, <pyrotech:refractory_brick_block>],
-	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>]
+	[<ore:plateIron>, <pyrotech:refractory_brick_block>, <ore:plateIron>]
 ]);
 recipes.remove(<pyrotech:brick_oven>);
 recipes.addShapedMirrored("1x_tile_pyrotech_brick_oven_shaped", <pyrotech:brick_oven>, [
-	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>],
+	[<ore:plateIron>, <pyrotech:refractory_brick_block>, <ore:plateIron>],
 	[<pyrotech:refractory_brick_block>, <pyrotech:stone_oven>, <pyrotech:refractory_brick_block>],
-	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>]
+	[<ore:plateIron>, <pyrotech:refractory_brick_block>, <ore:plateIron>]
 ]);
 recipes.remove(<pyrotech:brick_sawmill>);
 recipes.addShapedMirrored("1x_tile_pyrotech_brick_sawmill_shaped", <pyrotech:brick_sawmill>, [
-	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>],
+	[<ore:plateIron>, <pyrotech:refractory_brick_block>, <ore:plateIron>],
 	[<pyrotech:refractory_brick_block>, <pyrotech:stone_sawmill>, <pyrotech:refractory_brick_block>],
-	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>]
+	[<ore:plateIron>, <pyrotech:refractory_brick_block>, <ore:plateIron>]
 ]);
 recipes.remove(<pyrotech:brick_crucible>);
 recipes.addShapedMirrored("1x_tile_pyrotech_brick_crucible_shaped", <pyrotech:brick_crucible>, [
-	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>],
+	[<ore:plateIron>, <pyrotech:refractory_brick_block>, <ore:plateIron>],
 	[<pyrotech:refractory_brick_block>, <pyrotech:stone_crucible>, <pyrotech:refractory_brick_block>],
-	[<embers:plate_iron>, <pyrotech:refractory_brick_block>, <embers:plate_iron>]
+	[<ore:plateIron>, <pyrotech:refractory_brick_block>, <ore:plateIron>]
 ]);
 
 //SoakingPotReecipes
@@ -412,7 +417,6 @@ SoakingPot.removeRecipes(<pyrotech:material:30>);
 SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<minecraft:coal_block>);
 SoakingPot.removeRecipes(<pyrotech:material:23>);
-SoakingPot.removeRecipes(<pyrotech:wool_tarred>);
 SoakingPot.removeRecipes(<pyrotech:planks_tarred>);
 SoakingPot.removeRecipes(<pyrotech:material:26>);
 #TreatedRecipes

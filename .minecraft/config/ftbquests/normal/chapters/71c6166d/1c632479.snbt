@@ -1,0 +1,28 @@
+{
+	icon: "immersiveengineering:stone_device 1 1",
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"50cc058f"
+	],
+	tasks: [{
+		uid: "06c4f19a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	},
+	{
+		uid: "b8d1f863",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "85813fdb",
+		type: "item",
+		item: "bonfires:ash_bone_pile"
+	}]
+}

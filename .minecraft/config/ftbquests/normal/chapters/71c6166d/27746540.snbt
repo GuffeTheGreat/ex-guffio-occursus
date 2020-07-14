@@ -1,0 +1,14 @@
+{
+	title: "Is it on Peaceful?",
+	icon: "minecraft:skull 1 2",
+	x: -1.5d,
+	y: -4.5d,
+	shape: "rsquare",
+	dependencies: [
+		"fd5c2b9a"
+	],
+	tasks: [{
+		uid: "66e2f699",
+		type: "checkmark"
+	}]
+}

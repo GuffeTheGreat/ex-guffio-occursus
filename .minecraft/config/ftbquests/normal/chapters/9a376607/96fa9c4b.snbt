@@ -1,0 +1,14 @@
+{
+	x: 20.0d,
+	y: 9.5d,
+	dependencies: [
+		"03ac3193"
+	],
+	tasks: [{
+		uid: "8ca90b58",
+		type: "item",
+		items: [{
+			item: "magneticraft:sieve"
+		}]
+	}]
+}

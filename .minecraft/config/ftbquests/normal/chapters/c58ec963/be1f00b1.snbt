@@ -1,0 +1,14 @@
+{
+	x: 8.0d,
+	y: -0.5d,
+	dependencies: [
+		"830e9e10"
+	],
+	tasks: [{
+		uid: "71452d35",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purifier"
+		}]
+	}]
+}

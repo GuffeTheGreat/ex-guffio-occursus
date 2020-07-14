@@ -1,0 +1,14 @@
+{
+	x: 15.0d,
+	y: 2.0d,
+	dependencies: [
+		"0a4637dd"
+	],
+	tasks: [{
+		uid: "c5c1e13c",
+		type: "item",
+		items: [{
+			item: "immersiveintelligence:metal_multiblock 1 4"
+		}]
+	}]
+}

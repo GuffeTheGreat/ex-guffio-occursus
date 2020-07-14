@@ -1,0 +1,47 @@
+{
+	icon: "embers:ember_activator",
+	x: 5.0d,
+	y: -5.0d,
+	dependencies: [
+		"e5d8184f",
+		"1d460ce9"
+	],
+	tasks: [{
+		uid: "fecaec23",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	},
+	{
+		uid: "19703371",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	},
+	{
+		uid: "a426522a",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	},
+	{
+		uid: "d6f9cd5e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:tinker_hammer",
+			tag: {
+				targetZ: 766,
+				targetY: 84,
+				targetX: -337
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

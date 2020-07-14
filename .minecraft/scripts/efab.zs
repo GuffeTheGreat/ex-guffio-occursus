@@ -22,15 +22,146 @@
 	[null, <thaumcraft:seal:1>, null],
 	[null, <botania:specialflower>.withTag({type: "manastar"}), null]])
 	    .time(40)
-    .manaPerTick(100);
+    .manaPerTick(1000);
 
     //Arcanestone
- EFabRecipe.shaped(<thaumcraft:stone_arcane>*4, [
+ EFabRecipe.shaped(<thaumcraft:stone_arcane>*6, [
 	[<embers:ashen_stone>, <embers:ashen_stone>, <embers:ashen_stone>],
-	[<embers:ashen_stone>, <thaumcraft:crystal_essence>, <embers:ashen_stone>],
+	[<thaumcraft:crystal_essence>, <thaumcraft:alumentum>, <thaumcraft:crystal_essence>],
 	[<embers:ashen_stone>, <embers:ashen_stone>, <embers:ashen_stone>]])
 	    .time(10)
-    .manaPerTick(50);
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:liquid_death> * 50)
+    .manaPerTick(500);
 
+    //Manasteelarmor
+ //Helmet
+ EFabRecipe.shaped(<botania:manasteelhelm>, [
+	[<materialpart:Manasteel:Bolt>, <botania:manaresource:2>, <materialpart:Manasteel:Bolt>],
+	[<materialpart:Manasteel:Plate>, <silentgems:armorframe:4>, <materialpart:Manasteel:Plate>],
+	[<materialpart:Manasteel:Bolt>, <materialpart:Manasteel:Plate>, <materialpart:Manasteel:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:fluidedmana> * 2000)
+    .manaPerTick(1000);
+//Chestplate
+EFabRecipe.shaped(<botania:manasteelchest>, [
+	[<materialpart:Manasteel:Bolt>, <botania:manaresource:2>, <materialpart:Manasteel:Bolt>],
+	[<materialpart:Manasteel:Plate>, <silentgems:armorframe:5>, <materialpart:Manasteel:Plate>],
+	[<materialpart:Manasteel:Bolt>, <materialpart:Manasteel:Plate>, <materialpart:Manasteel:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:fluidedmana> * 2000)
+    .manaPerTick(1000);
+//Leggings
+    EFabRecipe.shaped(<botania:manasteellegs>, [
+	[<materialpart:Manasteel:Bolt>, <botania:manaresource:2>, <materialpart:Manasteel:Bolt>],
+	[<materialpart:Manasteel:Plate>, <silentgems:armorframe:6>, <materialpart:Manasteel:Plate>],
+	[<materialpart:Manasteel:Bolt>, <materialpart:Manasteel:Plate>, <materialpart:Manasteel:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:fluidedmana> * 2000)
+    .manaPerTick(1000);
+//Boots 
+    EFabRecipe.shaped(<botania:manasteelboots>, [
+	[<materialpart:Manasteel:Bolt>, <botania:manaresource:2>, <materialpart:Manasteel:Bolt>],
+	[<materialpart:Manasteel:Plate>, <silentgems:armorframe:7>, <materialpart:Manasteel:Plate>],
+	[<materialpart:Manasteel:Bolt>, <materialpart:Manasteel:Plate>, <materialpart:Manasteel:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:fluidedmana> * 2000)
+    .manaPerTick(1000);
 
+//ElementiumArmor
+//Helmet
+    EFabRecipe.shaped(<botania:elementiumhelm>, [
+	[<materialpart:Elementium:Bolt>, <botania:manaresource:9>, <materialpart:Elementium:Bolt>],
+	[<materialpart:Elementium:Plate>, <silentgems:armorframe:8>, <materialpart:Elementium:Plate>],
+	[<materialpart:Elementium:Bolt>, <materialpart:Elementium:Plate>, <materialpart:Elementium:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:fluidedmana> * 5000)
+    .manaPerTick(2000);
 
+//Chestplate 
+    EFabRecipe.shaped(<botania:elementiumchest>, [
+	[<materialpart:Elementium:Bolt>, <botania:manaresource:9>, <materialpart:Elementium:Bolt>],
+	[<materialpart:Elementium:Plate>, <silentgems:armorframe:9>, <materialpart:Elementium:Plate>],
+	[<materialpart:Elementium:Bolt>, <materialpart:Elementium:Plate>, <materialpart:Elementium:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:fluidedmana> * 5000)
+    .manaPerTick(2000);
+
+//Leggings
+    EFabRecipe.shaped(<botania:elementiumlegs>, [
+	[<materialpart:Elementium:Bolt>, <botania:manaresource:9>, <materialpart:Elementium:Bolt>],
+	[<materialpart:Elementium:Plate>, <silentgems:armorframe:10>, <materialpart:Elementium:Plate>],
+	[<materialpart:Elementium:Bolt>, <materialpart:Elementium:Plate>, <materialpart:Elementium:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:fluidedmana> * 5000)
+    .manaPerTick(2000);
+
+//Boots 
+    EFabRecipe.shaped(<botania:elementiumboots>, [
+	[<materialpart:Elementium:Bolt>, <botania:manaresource:9>, <materialpart:Elementium:Bolt>],
+	[<materialpart:Elementium:Plate>, <silentgems:armorframe:11>, <materialpart:Elementium:Plate>],
+	[<materialpart:Elementium:Bolt>, <materialpart:Elementium:Plate>, <materialpart:Elementium:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:fluidedmana> * 5000)
+    .manaPerTick(2000);
+
+    //TerrasteelArmor
+//Helmet
+    EFabRecipe.shaped(<botania:terrasteelhelm>, [
+	[<materialpart:Terrasteel:Bolt>, <actuallyadditions:item_crystal:4>, <materialpart:Terrasteel:Bolt>],
+	[<materialpart:Terrasteel:Plate>, <botania:elementiumhelm>, <materialpart:Terrasteel:Plate>],
+	[<materialpart:Terrasteel:Bolt>, <materialpart:Terrasteel:Plate>, <materialpart:Terrasteel:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:refinedmana> * 1000)
+    .manaPerTick(20000);
+
+//Chestplate 
+    EFabRecipe.shaped(<botania:terrasteelchest>, [
+	[<materialpart:Terrasteel:Bolt>, <actuallyadditions:item_crystal:4>, <materialpart:Terrasteel:Bolt>],
+	[<materialpart:Terrasteel:Plate>, <botania:elementiumchest>, <materialpart:Terrasteel:Plate>],
+	[<materialpart:Terrasteel:Bolt>, <materialpart:Terrasteel:Plate>, <materialpart:Terrasteel:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:refinedmana> * 1000)
+    .manaPerTick(20000);
+
+//Leggings
+    EFabRecipe.shaped(<botania:terrasteellegs>, [
+	[<materialpart:Terrasteel:Bolt>, <actuallyadditions:item_crystal:4>, <materialpart:Terrasteel:Bolt>],
+	[<materialpart:Terrasteel:Plate>, <botania:elementiumlegs>, <materialpart:Terrasteel:Plate>],
+	[<materialpart:Terrasteel:Bolt>, <materialpart:Terrasteel:Plate>, <materialpart:Terrasteel:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:refinedmana> * 1000)
+    .manaPerTick(20000);
+
+//Boots 
+    EFabRecipe.shaped(<botania:terrasteelboots>, [
+	[<materialpart:Terrasteel:Bolt>, <actuallyadditions:item_crystal:4>, <materialpart:Terrasteel:Bolt>],
+	[<materialpart:Terrasteel:Plate>, <botania:elementiumboots>, <materialpart:Terrasteel:Plate>],
+	[<materialpart:Terrasteel:Bolt>, <materialpart:Terrasteel:Plate>, <materialpart:Terrasteel:Bolt>]])
+	    .time(100)
+	.tier("UPGRADE_ARMORY")
+	.tier("UPGRADE_MAGIC")
+	.fluid(<liquid:refinedmana> * 1000)
+    .manaPerTick(20000);

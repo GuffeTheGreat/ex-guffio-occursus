@@ -1,0 +1,11 @@
+{
+	x: 1.5d,
+	y: -4.5d,
+	tasks: [{
+		uid: "46e169a2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ore"
+		}]
+	}]
+}

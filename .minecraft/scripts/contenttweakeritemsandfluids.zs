@@ -240,11 +240,18 @@ ice.temperature = 250;
 ice.register();
 
   #mana
-var mana = mods.contenttweaker.VanillaFactory.createFluid("fluidedmana", Color.fromHex("87cefa"));
+var mana = mods.contenttweaker.VanillaFactory.createFluid("fluidedmana", Color.fromHex("0000FF"));
 mana.density = 10000;
-mana.viscosity = 5000;
+mana.viscosity = 4000;
 mana.temperature = 300;
 mana.register();
+
+  #refinedmana
+var refinedmana = mods.contenttweaker.VanillaFactory.createFluid("refinedmana", Color.fromHex("89cff0"));
+refinedmana.density = 10000;
+refinedmana.viscosity = 6000;
+refinedmana.temperature = -1000;
+refinedmana.register();
 
 
 

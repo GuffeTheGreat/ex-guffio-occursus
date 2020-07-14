@@ -1,10 +1,10 @@
-//Basic Motor
+/*//Basic Motor
 recipes.addShapedMirrored("1x_item_contenttweaker_basicmotor_shaped", <contenttweaker:basicmotor>, [
 	[<contenttweaker:material_part:1916>, <enderio:item_endergy_conduit:4>, <immersiveengineering:material:2>],
 	[<enderio:item_endergy_conduit:4>, <immersiveengineering:material:2>, <enderio:item_endergy_conduit:4>],
 	[<immersiveengineering:material:2>, <enderio:item_endergy_conduit:4>, <contenttweaker:material_part:1916>]
 ]);
-
+*/
 //Basic Piston
 recipes.addShapedMirrored("1x_item_contenttweaker_basicpiston_shaped", <contenttweaker:basicpiston>, [
 	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],

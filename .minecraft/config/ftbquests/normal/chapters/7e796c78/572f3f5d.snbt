@@ -1,0 +1,40 @@
+{
+	x: 4.0d,
+	y: 3.5d,
+	tasks: [{
+		uid: "73e2e397",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_0"
+		}]
+	},
+	{
+		uid: "c44da836",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_ore"
+		}]
+	},
+	{
+		uid: "09f0d330",
+		type: "item",
+		items: [{
+			item: "minecraft:coal_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "d13cb225",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0"
+	},
+	{
+		uid: "4d7ba110",
+		type: "item",
+		item: "minecraft:diamond_ore"
+	},
+	{
+		uid: "90d0b880",
+		type: "item",
+		item: "minecraft:coal_ore"
+	}]
+}

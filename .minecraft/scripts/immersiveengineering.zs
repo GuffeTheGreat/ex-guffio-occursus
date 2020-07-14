@@ -37,23 +37,13 @@ mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:20>*2, <ore:ingotBrass>, <immersiveengineering:mold:4>, 2000, 16);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:21>*2, <ore:ingotScandium>, <immersiveengineering:mold:4>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:23>*2, <ore:ingotNeodymium>, <immersiveengineering:mold:4>, 2000, 16);
-//Ae2 Presses
-mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:19>, <ore:blockAluminum>, <immersiveengineering:mold>, 8000);
-mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:14>, <ore:blockMagnesium>, <immersiveengineering:mold>, 8000);
-mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:15>, <ore:blockZinc>, <immersiveengineering:mold>, 8000);
-mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:13>, <ore:blockLithium>, <immersiveengineering:mold>, 8000);
-//Printedstufftoreplaceinscriber
-mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:20>, <ore:waferSilicon>, <appliedenergistics2:material:19>, 8000);
-mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:17>, <ore:plateDiamond>, <appliedenergistics2:material:14>, 8000);
-mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:18>, <ore:plateGold>, <appliedenergistics2:material:15>, 8000);
-mods.immersiveengineering.MetalPress.addRecipe(<appliedenergistics2:material:16>, <ore:crystalPureCertusQuartz>, <appliedenergistics2:material:13>, 8000);
 
-PrecissionAssembler.addRecipe(<appliedenergistics2:material:22>,null,[<appliedenergistics2:material:18>,<appliedenergistics2:material:20>,<ore:dustRedstone>,<advancedrocketry:ic>],["Inserter"],["Solderer"],4000,20);
+
 //Engineersworkbenchtakesnotreatedwood
 recipes.remove(<immersiveengineering:wooden_device0:2>);
 recipes.addShapedMirrored("1x_tile_immersiveengineering_wooden_device0_workbench_shaped", <immersiveengineering:wooden_device0:2>, [
-	[<pyrotech:planks_tarred>, <pyrotech:planks_tarred>, <pyrotech:planks_tarred>],
-	[<minecraft:crafting_table>, null, <pyrotech:material:23>]
+	[<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
+	[<minecraft:crafting_table>, null, <primal:fence:2>]
 ]);
 /*
 //Conveyor
@@ -66,9 +56,9 @@ recipes.addShapedMirrored("8x_tile_immersiveengineering_conveyor_immersiveengine
 //Blastfurnace'
 recipes.remove(<immersiveengineering:stone_decoration:2>);
 recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_reinforced_shaped", <immersiveengineering:stone_decoration:2> * 3, [
-	[<materialpart:crude_steel:bolt>, <materialpart:crudesteel:plate>, <materialpart:crudeSteel:bolt>],
+	[<materialpart:Crude_Steel:bolt>, <materialpart:Crude_Steel:plate>, <materialpart:Crude_Steel:bolt>],
 	[<immersiveengineering:stone_decoration:1>, <immersiveengineering:stone_decoration:1>, <immersiveengineering:stone_decoration:1>],
-	[<materialpart:crudesteel:bolt>, <materialpart:crudesteel:plate>, <materialpart:crudesteel:bolt>]
+	[<materialpart:Crude_Steel:bolt>, <materialpart:Crude_Steel:plate>, <materialpart:Crude_Steel:bolt>]
 ]);
 recipes.addShapedMirrored("1x_tile_immersiveengineering_stone_decoration_blastbrick_reinforced_shaped", <immersiveengineering:stone_decoration:2>, [
 	[<immersiveengineering:stone_decoration_slab:2>],
@@ -79,20 +69,27 @@ recipes.addShapedMirrored("1x_tile_immersiveengineering_stone_decoration_blastbr
 
 
 recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
-recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_shaped", <immersiveengineering:stone_decoration:1> * 3, [
+recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_shapedXD", <immersiveengineering:stone_decoration:1> * 3, [
 	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>],
 	[<minecraft:nether_brick>, <silentgems:craftingmaterial:19>, <minecraft:nether_brick>],
 	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>]
 ]);
+recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_shaped", <immersiveengineering:stone_decoration:1> * 3, [
+	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>],
+	[<minecraft:nether_brick>, <ore:plateCrudeSteel>, <minecraft:nether_brick>],
+	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>]
+]);
 
-//Blastfurnace
+//Cokeoven
 mods.immersiveengineering.CokeOven.removeAll();
 
 
 //Blastfurnace
 mods.immersiveengineering.BlastFurnace.removeAll();
-mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <materialpart:pigiron:plate>, 2000, <pyrotech:slag>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<metallurgy:steel_ingot>, <materialpart:Pig_Iron:ingot>, 2000, <pyrotech:slag>);
 mods.immersiveengineering.BlastFurnace.addRecipe(<enderio:item_alloy_endergy_ingot>, <minecraft:iron_ingot>, 2000, <pyrotech:slag>);
+mods.immersiveengineering.BlastFurnace.addRecipe(<minecraft:netherbrick>, <primal:soul_residue>, 200);
+
 
 //Distillation Tower
 //Wood Tar

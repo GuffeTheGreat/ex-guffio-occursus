@@ -1,0 +1,17 @@
+{
+	x: -5.0d,
+	y: -3.5d,
+	dependencies: [
+		"e60985e9",
+		"abd8c470",
+		"1865edb3",
+		"e10f7dd8"
+	],
+	tasks: [{
+		uid: "2169553b",
+		type: "item",
+		items: [{
+			item: "rats:idol_of_ratlantis"
+		}]
+	}]
+}

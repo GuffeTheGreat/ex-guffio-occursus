@@ -3,6 +3,14 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:pickaxe_steel>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:nether_quartz_pickaxe>);
 mods.jei.JEI.removeAndHide(<embers:pickaxe_silver>);
 
+mods.jei.JEI.removeAndHide(<minecraft:chainmail_helmet>);
+mods.jei.JEI.removeAndHide(<minecraft:chainmail_chestplate>);
+mods.jei.JEI.removeAndHide(<minecraft:chainmail_leggings>);
+mods.jei.JEI.removeAndHide(<minecraft:chainmail_boots>);
+mods.jei.JEI.removeAndHide(<minecraft:furnace>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:block_furnace_double>);
+mods.jei.JEI.removeAndHide(<atum:limestone_furnace>);
+mods.jei.JEI.removeAndHide(<draconicevolution:draconium_chest>);
 //Shears
 //CraftingTable
 recipes.remove(<minecraft:crafting_table>);
@@ -26,9 +34,15 @@ recipes.addShapedMirrored("1x_item_brewingStand_shaped", <minecraft:brewing_stan
 	[<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
 ]);
 
+//FlintandSteel
+recipes.remove(<minecraft:flint_and_steel>);
+recipes.addShapeless("1x_item_flintAndSteel_shapeless", <minecraft:flint_and_steel>, [<pyrotech:material:10>, <materialpart:Crude_Steel:ring>]);
+
+
+
 
 #RemoveGallgagherreicpe
-recipes.remove(<minecraft:quartz>*4);
+
 recipes.remove(<minecraft:soul_sand>*4);
 recipes.remove(<minecraft:glowstone_dust>*4);
 recipes.remove(<minecraft:sand>*4);
@@ -39,7 +53,7 @@ recipes.remove(<minecraft:glowstone_dust>*4);
 //Piston
 recipes.remove(<minecraft:piston>);
 recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
-	[<pyrotech:material:5>, <minecraft:planks>, <pyrotech:material:5>],
+	[<pyrotech:material:5>, <ore:plankTreatedWood>, <pyrotech:material:5>],
 	[<ore:stone>, <crossroads:axle>, <ore:stone>],
 	[<ore:stone>, <thaumcraft:inlay>, <ore:stone>]
 ]);

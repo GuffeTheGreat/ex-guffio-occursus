@@ -1,0 +1,40 @@
+{
+	x: 4.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "ef0d591a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_7"
+		}]
+	},
+	{
+		uid: "4b263d97",
+		type: "item",
+		items: [{
+			item: "embers:ore_lead"
+		}]
+	},
+	{
+		uid: "eaf32ece",
+		type: "item",
+		items: [{
+			item: "metallurgy:silver_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "2cb5882c",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_7"
+	},
+	{
+		uid: "f878a55a",
+		type: "item",
+		item: "embers:ore_lead"
+	},
+	{
+		uid: "35d87443",
+		type: "item",
+		item: "metallurgy:silver_ore"
+	}]
+}

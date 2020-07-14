@@ -1,0 +1,48 @@
+{
+	title: "How do Romans make arts and crafts?",
+	icon: "minecraft:crafting_table",
+	x: -1.5d,
+	y: -4.5d,
+	description: "With Caesars and gluesticks",
+	dependencies: [
+		"0e685ea0"
+	],
+	tasks: [{
+		uid: "fe24d356",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
+		}]
+	},
+	{
+		uid: "d4a3b976",
+		type: "item",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "3efd27d7",
+		type: "item",
+		item: "chisel:dirt",
+		count: 16
+	},
+	{
+		uid: "a72ae180",
+		type: "item",
+		item: "chisel:dirt 1 1",
+		count: 16
+	},
+	{
+		uid: "eae33f45",
+		type: "item",
+		item: "chisel:dirt 1 2",
+		count: 16
+	},
+	{
+		uid: "9ca6b876",
+		type: "item",
+		item: "chisel:dirt 1 7",
+		count: 16
+	}]
+}

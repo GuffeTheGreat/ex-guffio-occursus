@@ -1,0 +1,20 @@
+{
+	x: 5.0d,
+	y: -6.5d,
+	dependencies: [
+		"a3acd3de"
+	],
+	tasks: [{
+		uid: "e5cd0e1f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "rats:rat_upgrade_jury_rigged",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

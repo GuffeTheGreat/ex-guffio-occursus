@@ -1,0 +1,18 @@
+{
+	icon: "immersiveengineering:stone_device 1 1",
+	x: 11.0d,
+	y: -8.0d,
+	dependencies: [
+		"d23cdd90",
+		"a10103a0",
+		"23a2793f"
+	],
+	tasks: [{
+		uid: "93dd290f",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}]
+}

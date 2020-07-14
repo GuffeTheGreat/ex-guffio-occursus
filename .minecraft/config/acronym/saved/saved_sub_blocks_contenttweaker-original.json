@@ -176,7 +176,7 @@
       "10": "cobaltite_ore",
       "11": "graphite_ore",
       "12": "pentlandite_ore",
-      "13": "uranium-235_dense_ore",
+      "13": "uranium238_ore",
       "14": "adamant_dense_ore",
       "15": "enriched_naquadah_ore"
     },
@@ -231,7 +231,7 @@
       "11": "powellite_ore",
       "12": "saltpeter_ore",
       "13": "syrmorite_dense_ore",
-      "14": "uranium-235_ore",
+      "14": "uranium238_dense_ore",
       "15": "niobium_ore"
     },
     "13": {
@@ -295,7 +295,7 @@
       "3": "bismuth_dense_ore",
       "4": "beryllium_ore",
       "5": "stibnite_dense_ore",
-      "6": "uranium-238_ore",
+      "6": "uranium235_dense_ore",
       "7": "malachite_ore",
       "8": "nether_quartz_dense_ore",
       "9": "andradite_dense_ore",
@@ -340,7 +340,7 @@
       "12": "astral_silver_dense_ore",
       "13": "mixed_gem_dense_ore",
       "14": "talc_ore",
-      "15": "uranium-238_dense_ore"
+      "15": "uranium235_ore"
     },
     "19": {
       "0": "lanthanum_ore",
@@ -348,7 +348,8 @@
       "2": "rock_salt_dense_ore",
       "3": "cerium_ore",
       "4": "garnierite_ore",
-      "5": "scheelite_dense_ore"
+      "5": "scheelite_dense_ore",
+      "6": "tartarite_dense_ore"
     }
   }
 }

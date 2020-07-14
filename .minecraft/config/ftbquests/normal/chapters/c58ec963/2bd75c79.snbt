@@ -1,0 +1,29 @@
+{
+	icon: "embers:mixer",
+	x: 9.5d,
+	y: -6.5d,
+	dependencies: [
+		"d67dad45"
+	],
+	tasks: [{
+		uid: "f8e1a568",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	},
+	{
+		uid: "69b35f70",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}]
+	},
+	{
+		uid: "ada5f1db",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_dawnstone"
+		}]
+	}]
+}

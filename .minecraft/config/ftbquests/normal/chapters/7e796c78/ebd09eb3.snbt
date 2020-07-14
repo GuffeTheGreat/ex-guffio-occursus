@@ -1,0 +1,34 @@
+{
+	title: "Overworld Copper and Iron Vein",
+	icon: "metallurgy:copper_ore",
+	x: -1.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "cc17f2b6",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 2"
+		}]
+	},
+	{
+		uid: "111263b4",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	},
+	{
+		uid: "20f0641b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_2 1 15"
+		}]
+	},
+	{
+		uid: "742d412b",
+		type: "item",
+		items: [{
+			item: "metallurgy:copper_ore"
+		}]
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	x: 2.5d,
+	y: -9.5d,
+	shape: "diamond",
+	tasks: [{
+		uid: "417ce711",
+		type: "item",
+		items: [{
+			item: "minecraft:stone"
+		}]
+	}]
+}

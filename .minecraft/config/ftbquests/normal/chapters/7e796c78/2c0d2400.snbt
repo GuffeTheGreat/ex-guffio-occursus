@@ -1,0 +1,25 @@
+{
+	x: 6.5d,
+	y: -0.5d,
+	tasks: [{
+		uid: "f6444240",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_8 1 11"
+		}]
+	},
+	{
+		uid: "beb184ee",
+		type: "item",
+		items: [{
+			item: "contenttweaker:sub_block_holder_8 1 2"
+		}]
+	},
+	{
+		uid: "00f028f4",
+		type: "item",
+		items: [{
+			item: "metallurgy:copper_ore"
+		}]
+	}]
+}

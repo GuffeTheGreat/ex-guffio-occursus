@@ -1,0 +1,22 @@
+{
+	disable_toast: true,
+	x: 6.5d,
+	y: -0.5d,
+	dependencies: [
+		"3101afc2",
+		"a85d60c6"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "ef372364",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

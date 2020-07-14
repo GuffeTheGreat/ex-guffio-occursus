@@ -1,0 +1,14 @@
+{
+	x: 7.5d,
+	y: -2.0d,
+	dependencies: [
+		"b33634e6"
+	],
+	tasks: [{
+		uid: "de4a9c09",
+		type: "item",
+		items: [{
+			item: "pyrotech:stone_kiln"
+		}]
+	}]
+}

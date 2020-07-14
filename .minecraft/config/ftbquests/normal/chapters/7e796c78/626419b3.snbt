@@ -1,0 +1,18 @@
+{
+	x: 21.5d,
+	y: -6.5d,
+	tasks: [{
+		uid: "5d36e097",
+		type: "item",
+		items: [{
+			item: {
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": {}
+				},
+				id: "galacticraftplanets:asteroids_block",
+				Count: 1b,
+				Damage: 2s
+			}
+		}]
+	}]
+}

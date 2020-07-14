@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: 0.5d,
+	dependencies: [
+		"dda54d67"
+	],
+	tasks: [{
+		uid: "477adca7",
+		type: "item",
+		items: [{
+			item: "crossroads:fluid_cooling_chamber"
+		}]
+	}]
+}

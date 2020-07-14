@@ -15,6 +15,21 @@ recipes.addShapedMirrored("1x_tile_cuisine_earthen_basin_shaped", <cuisine:earth
 	[<ore:hardenedClay>, <ore:hardenedClay>, <ore:hardenedClay>]
 ]);
 
+//Choppingboard
+recipes.remove(<cuisine:earthen_basin>);
+
+
+//miull
+recipes.remove(<cuisine:mill>);
+recipes.addShapedMirrored("1x_tile_cuisine_mill_shaped", <cuisine:mill>, [
+	[null, null, <ore:stickWood>],
+	[<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>],
+	[<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]
+]);
+
+
+
+
 //Basinthrowingremov
 //BasinThrowing.removeAll();
 

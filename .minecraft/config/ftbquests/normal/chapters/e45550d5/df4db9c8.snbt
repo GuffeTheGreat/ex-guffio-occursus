@@ -1,0 +1,17 @@
+{
+	title: "What do you call a boomerang that doesn't come back?",
+	icon: "minecraft:stick",
+	x: 0.0d,
+	y: -0.5d,
+	description: "A Stick XD",
+	text: [
+		"One of the first things you need to collect to progress is sticks, right is the only way you can get them by breaking leaves. So do that!"
+	],
+	tasks: [{
+		uid: "5518c976",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}]
+}

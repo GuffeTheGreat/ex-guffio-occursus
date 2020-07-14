@@ -1,0 +1,24 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "87d837b7",
+		type: "item",
+		items: [{
+			item: "pyrotech:tank"
+		}]
+	},
+	{
+		uid: "468d02f1",
+		type: "item",
+		items: [{
+			item: "pyrotech:tank 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "39ecbaf3",
+		type: "item",
+		item: "minecraft:glass",
+		count: 12
+	}]
+}

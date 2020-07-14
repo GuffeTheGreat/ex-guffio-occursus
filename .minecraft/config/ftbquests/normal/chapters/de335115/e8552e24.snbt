@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"4c66f61c"
+	],
+	tasks: [{
+		uid: "ec17ca0d",
+		type: "item",
+		items: [{
+			item: "crossroads:heating_chamber"
+		}]
+	}]
+}

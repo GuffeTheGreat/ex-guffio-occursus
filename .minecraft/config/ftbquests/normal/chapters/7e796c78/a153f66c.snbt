@@ -1,0 +1,33 @@
+{
+	title: "Overworld Amber Atlarus Vein",
+	icon: "thaumcraft:ore_amber",
+	x: -1.0d,
+	y: -4.5d,
+	dependencies: [
+		"6c9d3c62"
+	],
+	tasks: [{
+		uid: "b74d06a4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ore_amber"
+		}]
+	},
+	{
+		uid: "386a5234",
+		type: "item",
+		items: [{
+			item: "metallurgy:atlarus_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "b49a726d",
+		type: "item",
+		item: "thaumcraft:amber"
+	},
+	{
+		uid: "3889ca7c",
+		type: "item",
+		item: "metallurgy:atlarus_ore"
+	}]
+}

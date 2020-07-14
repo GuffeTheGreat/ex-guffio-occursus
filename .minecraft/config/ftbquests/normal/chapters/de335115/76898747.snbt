@@ -1,0 +1,26 @@
+{
+	title: "Burning Things in Potatoes",
+	icon: "essentials:brazier",
+	x: 0.0d,
+	y: -2.5d,
+	tasks: [{
+		uid: "e6fdff36",
+		type: "item",
+		items: [{
+			item: "essentials:brazier"
+		}]
+	},
+	{
+		uid: "ebbdab57",
+		type: "item",
+		items: [{
+			item: "minecraft:poisonous_potato"
+		}]
+	}],
+	rewards: [{
+		uid: "7808a513",
+		type: "item",
+		item: "minecraft:poisonous_potato",
+		count: 4
+	}]
+}

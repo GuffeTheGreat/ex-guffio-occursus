@@ -1,0 +1,17 @@
+{
+	x: 12.5d,
+	y: 6.5d,
+	shape: "square",
+	dependencies: [
+		"d5d3e8cb",
+		"c96a2355"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "34bf8576",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 27"
+		}]
+	}]
+}
