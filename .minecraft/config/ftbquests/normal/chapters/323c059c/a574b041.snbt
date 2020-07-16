@@ -1,0 +1,44 @@
+{
+	icon: "embers:alchemy_tablet",
+	x: -2.5d,
+	y: -8.0d,
+	dependencies: [
+		"fb57d240"
+	],
+	tasks: [{
+		uid: "83aa2654",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_tablet"
+		}]
+	},
+	{
+		uid: "4c4d5aae",
+		type: "item",
+		items: [{
+			item: "embers:alchemy_pedestal"
+		}],
+		count: 2L
+	},
+	{
+		uid: "051d45c4",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	},
+	{
+		uid: "857598aa",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_iron"
+		}]
+	},
+	{
+		uid: "5203bd3c",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_copper"
+		}]
+	}]
+}

@@ -1,6 +1,8 @@
-
 mods.jei.JEI.removeAndHide(<cyclicmagic:block_storeempty>);
-
+mods.jei.JEI.removeAndHide(<cyclicmagic:block_hydrator>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:solidifier>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:melter>);
+mods.jei.JEI.removeAndHide(<cyclicmagic:dehydrator>);
 //Transfernodes
 recipes.remove(<cyclicmagic:cable_wireless>);
 recipes.addShapedMirrored("1x_tile_cable_wireless_shaped", <cyclicmagic:cable_wireless>, [

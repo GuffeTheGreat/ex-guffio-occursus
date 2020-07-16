@@ -7,7 +7,6 @@ mods.jei.JEI.removeAndHide(<primal:rock_stone>);
 mods.jei.JEI.removeAndHide(<primal:rock_granite>);
 mods.jei.JEI.removeAndHide(<primal:rock_diorite>);
 mods.jei.JEI.removeAndHide(<primal:rock_andesite>);
-mods.jei.JEI.removeAndHide(<primal:rock_netherrack>);
 mods.jei.JEI.removeAndHide(<primal:flint_knapp>);
 mods.jei.JEI.removeAndHide(<primal:bone_knapp>);
 mods.jei.JEI.removeAndHide(<primal:diamond_knapp>);
@@ -21,7 +20,6 @@ mods.jei.JEI.removeAndHide(<primal:stone_gallagher>);
 mods.jei.JEI.removeAndHide(<primal:nether_gallagher>);
 mods.jei.JEI.removeAndHide(<primal:quartz_gallagher>);
 mods.jei.JEI.removeAndHide(<primal:iron_gallagher>);
-mods.jei.JEI.removeAndHide(<primal:adobe_clump>);
 mods.jei.JEI.removeAndHide(<primal:smelter_lid_mud>);
 mods.jei.JEI.removeAndHide(<primal:smelter_lid_terra>);
 mods.jei.JEI.removeAndHide(<primal:smelter_lid_cinis>);
@@ -29,6 +27,14 @@ mods.jei.JEI.removeAndHide(<primal:carbonate_slack>);
 mods.jei.JEI.removeAndHide(<primal:smelter:2>.withTag({type: "cinis"}));
 mods.jei.JEI.removeAndHide(<primal:smelter:1>.withTag({type: "terra"}));
 mods.jei.JEI.removeAndHide(<primal:smelter>.withTag({type: "mud"}));
+
+//SaltedMeat
+recipes.remove(<primal:wolf_meat_salted>);
+recipes.remove(<primal:wolf_meat_salted>);
+recipes.addShapeless("1x_item_primal_wolf_meat_salted_shapeless", <primal:wolf_meat_salted>, [<ore:listallmeatraw>, <crossroads:dust_salt>]);
+recipes.addShapeless("1x_item_primal_wolf_meat_salted_shapeless2", <primal:wolf_meat_salted>, [<ore:listallmeatraw>, <cuisine:material:3>]);
+
+
 
 //Tannin
 mods.immersiveengineering.Mixer.addRecipe(<liquid:tannin>*250, <liquid:water>*250, [<ore:dustTannin>], 2048);
@@ -40,7 +46,7 @@ mods.rockhounding_chemistry.LabOven.add("Tannin", <primal:tannin_ground>, null, 
 mods.rockhounding_chemistry.LabOven.add("Tannin Nether", <primal:inferum_ground>, null, <liquid:water>*250, null, <liquid:tannin>*250, null);
 
 //Urushi
-mods.immersiveengineering.Mixer.addRecipe(<liquid:urushi>*250, <liquid:wood_tar>*250, [<ore:dustTannin>], 2048);
+mods.immersiveengineering.Mixer.addRecipe(<liquid:urushi>*250, <liquid:wood_tar>*250, [<ore:dustUrushi>], 2048);
 Vessel.add(<ore:dustUrushi>, <liquid:wood_tar>, null, <liquid:urushi>*100);
 mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:wood_tar>*250, <primal:urushi_ground>, 0.0, 473, <liquid:urushi>*250);
 mods.pneumaticcraft.thermopneumaticprocessingplant.addRecipe(<liquid:wood_tar>*250, <primal:sinuous_resin>, 0.0, 473, <liquid:urushi>*250);
@@ -49,60 +55,17 @@ mods.rockhounding_chemistry.LabOven.add("Urushi", <primal:urushi_ground>, null, 
 mods.rockhounding_chemistry.LabOven.add("Urushi Nether", <primal:sinuous_resin>, null, <liquid:wood_tar>*250, null, <liquid:urushi>*250, null);
 mods.primal.Gallagher.removeAll();
 
-//Sarirasrecipes
-//Alloys
-mods.primal.Smelter.addRecipe(
-    "Constantan", 
-    60, 
-    [<ore:ingotCopper>,<ore:ingotNickel>,<ore:charcoalGood>], 
-    [<immersiveengineering:metal:6>*2,<pyrotech:slag>]
-);
-mods.primal.Smelter.addRecipe(
-    "Brass", 
-    60, 
-    [<ore:ingotCopper>*3,<ore:ingotZinc>,<ore:charcoalGood>], 
-    [<metallurgy:brass_ingot>*4,<pyrotech:slag>]
-);
-mods.primal.Smelter.addRecipe(
-    "Bronze", 
-    60, 
-    [<ore:ingotCopper>*3,<ore:ingotTin>,<ore:charcoalFair>], 
-    [<metallurgy:bronze_ingot>*4,<pyrotech:slag>]
-);
-mods.primal.Smelter.addRecipe(
-    "Angmallen", 
-    60, 
-    [<ore:ingotIron>,<ore:ingotGold>,<ore:charcoalFair>], 
-    [<metallurgy:angmallen_ingot>*2,<pyrotech:slag>]
-);
-mods.primal.Smelter.addRecipe(
-    "Electrum", 
-    60, 
-    [<ore:stone>*4,<ore:ingotGold>,<ore:charcoalGood>], 
-    [<metallurgy:electrum_ingot>*2,<pyrotech:slag>]
-);
-mods.primal.Smelter.addRecipe(
-    "Tin Silver Alloys", 
-    60, 
-    [<ore:stone>*4,<ore:ingotTin>*3,<ore:charcoalGood>], 
-    [<nuclearcraft:alloy:8>*4,<pyrotech:slag>]
-);
-//HardenedStone
-mods.primal.Smelter.addRecipe(
-    "Netherbrick", 
-    60, 
-    [<primal:soul_residue>,<ore:charcoalMote>], 
-    [<minecraft:netherbrick>]
-);
-//Netherbrick
-recipes.remove(<primal:hardened_stone>);
-mods.primal.Smelter.addRecipe(
-    "Hardened_stone", 
-    60, 
-    [<ore:stone>*4,<ore:shardObsidian>*2,<ore:charcoalGood>], 
-    [<primal:hardened_stone>*4,<pyrotech:material>*3]
-);
-//Planks
+//Sarirasrecipes;
+mods.primal.DryingRack.removeAll();
+mods.primal.Hibachi.removeAll();
+mods.primal.Quern.removeAll();
+mods.primal.Smelter.removeAll();
+
+//Animalfat
+mods.nuclearcraft.ingot_former.addRecipe([<liquid:glass> * 1000, <minecraft:glass>]);
+mods.crossroads.FluidCoolingChamber.addRecipe(<minecraft:glass>,<liquid:glass> * 1000,500,50);
+
+//RemovePlanks
 recipes.remove(<primal:planks:*>);
 
 //ObsidianPlate
@@ -130,6 +93,9 @@ recipes.addShapedMirrored("1x_tile_primal_slat_iron_shaped", <primal:slat_iron>,
 	[<ore:stickIron>, <ore:stickIron>],
 	[<ore:stickIron>, <ore:stickIron>]
 ]);
+
+//SaltedHide
+recipes.addShapeless("1x_item_primal_hide_salted_shapeless", <primal:hide_salted>, [<ore:dustCrudesalt>, <primal:hide_raw>]);
 //Shears
 //Flint
 recipes.addShapedMirrored("1x_item_primal_flint_shears_shaped", <primal:flint_shears>, [

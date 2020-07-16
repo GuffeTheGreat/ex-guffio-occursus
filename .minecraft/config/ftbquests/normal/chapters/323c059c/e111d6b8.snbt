@@ -1,0 +1,22 @@
+{
+	icon: "thaumcraft:crucible",
+	x: -1.0d,
+	y: -3.5d,
+	dependencies: [
+		"0cc143b0"
+	],
+	tasks: [{
+		uid: "91c24aad",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	},
+	{
+		uid: "a68b3e3a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:nitor_yellow"
+		}]
+	}]
+}

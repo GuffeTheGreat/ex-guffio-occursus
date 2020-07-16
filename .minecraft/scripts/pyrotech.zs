@@ -1,6 +1,4 @@
-import mods.pyrotech.CrudeDryingRack;
 import mods.pyrotech.SoakingPot;
-import mods.pyrotech.DryingRack;
 import mods.pyrotech.GraniteAnvil;
 import mods.pyrotech.Chopping;
 import mods.pyrotech.IroncladAnvil;
@@ -32,6 +30,7 @@ mods.jei.JEI.removeAndHide(<pyrotech:dense_nether_coal_ore>);
 mods.jei.JEI.removeAndHide(<pyrotech:bone_pickaxe>);
 mods.jei.JEI.removeAndHide(<pyrotech:flint_pickaxe>);
 mods.jei.JEI.removeAndHide(<pyrotech:obsidian_pickaxe>);
+mods.jei.JEI.removeAndHide(<pyrotech:bucket_clay>);
 
 var counter = 0;
 //Liquidclay
@@ -272,18 +271,7 @@ GraniteAnvil.removeRecipes(<pyrotech:material:15>);
 IroncladAnvil.removeRecipes(<pyrotech:material:15>);
 
 var hammerRecipes as IItemStack[IIngredient] = {
-    <primal:hide_salted> : <primal:hide_dried>,
-    <pyrotech:material:25> : <minecraft:paper>,
-    <ore:ingotConstantan> : <immersiveengineering:metal:36>,
-    <ore:ingotCopper> : <embers:plate_copper>,
-    <ore:ingotLead> : <embers:plate_lead>,
-    <ore:ingotIron> : <embers:plate_iron>,
-    <ore:ingotGold> : <embers:plate_gold>,
-    <ore:ingotSilver> : <embers:plate_silver>,
-    <ore:ingotBronze> : <embers:plate_bronze>,
-    <ore:ingotTin> : <embers:plate_tin>,
-    <primal:iron_strand> : <primal:iron_ring>,
-    <minecraft:coal:1> : <primal:charcoal_mote>*6,
+   /* <minecraft:coal:1> : <primal:charcoal_mote>*6,
     <primal:charcoal_fair> : <primal:charcoal_mote>*8,
 	<primal:charcoal_good> : <primal:charcoal_mote>*10,
     <primal:charcoal_high> : <primal:charcoal_mote>*12,
@@ -292,7 +280,7 @@ var hammerRecipes as IItemStack[IIngredient] = {
     <chisel:block_charcoal2:1> : <primal:charcoal_fair>*9,
 	<pyrotech:charcoal_block> : <primal:charcoal_good>*9,
     <metallurgy:charcoal_block> : <primal:charcoal_high>*9,
-    <rockhounding_chemistry:misc_blocks_a:11> : <primal:charcoal_pure>*9
+    <rockhounding_chemistry:misc_blocks_a:11> : <primal:charcoal_pure>*9*/
 	};
 
 counter = 0;
@@ -310,14 +298,16 @@ var pickaxeRecipes as IItemStack[IIngredient] = {
     <pyrotech:material:11> : <primal:bone_point>*2,
     <primal:ancient_ice> : <primal:ancient_ice_chunk>*4,
     <primal:calcified_paraffin> : <primal:paraffin_clump>*4,
-    <ore:plateIron> : <primal:iron_strand>,
-    <ore:ingotSilver> : <immersiveengineering:material:22>,
-    <ore:ingotBrass> : <immersiveengineering:material:20>,
-    <pyrotech:material:16> : <pyrotech:material:10>,
-    <minecraft:nether_star> : <silentgems:craftingmaterial:19>*9,
-    <primal:bat_meat_salted> : <primal:bat_meat_dried>,
-    <primal:bear_meat_salted> : <primal:bear_meat_dried>,
-	<minecraft:sponge:1> : <minecraft:sponge>
+    <minecraft:coal:1> : <primal:charcoal_mote>*6,
+    <primal:charcoal_fair> : <primal:charcoal_mote>*8,
+    <primal:charcoal_good> : <primal:charcoal_mote>*10,
+    <primal:charcoal_high> : <primal:charcoal_mote>*12,
+    <primal:charcoal_pure> : <primal:charcoal_mote>*16,
+    <actuallyadditions:block_misc:5> : <minecraft:coal:1>*9,
+    <chisel:block_charcoal2:1> : <primal:charcoal_fair>*9,
+    <pyrotech:charcoal_block> : <primal:charcoal_good>*9,
+    <metallurgy:charcoal_block> : <primal:charcoal_high>*9,
+    <rockhounding_chemistry:misc_blocks_a:11> : <primal:charcoal_pure>*9
 	};
 
 counter = 0;
@@ -328,36 +318,10 @@ for input, output in pickaxeRecipes {
 
 }
 
-//Ironrecipes
-IroncladAnvil.addRecipe("obsidian", <primal:obsidian_point>*2, <pyrotech:material:33>, 4, "pickaxe");
-IroncladAnvil.addRecipe("diamond", <primal:diamond_point>*2, <pyrotech:material:18>, 4, "pickaxe");
-IroncladAnvil.addRecipe("diamond2", <pyrotech:material:18>*2, <minecraft:diamond>, 4, "pickaxe");
-IroncladAnvil.addRecipe("opal", <primal:opal_knapp>*2, <primal:opal>, 4, "pickaxe");
-IroncladAnvil.addRecipe("opal2", <primal:opal_point>*2, <primal:opal_knapp>, 4, "pickaxe");
-IroncladAnvil.addRecipe("emerald", <primal:emerald_knapp>*2, <minecraft:emerald>, 4, "pickaxe");
-IroncladAnvil.addRecipe("emerald2", <primal:emerald_point>*2, <primal:emerald_knapp>, 4, "pickaxe");
-
-#Plates
-IroncladAnvil.addRecipe("uranium_plate", <immersiveengineering:metal:35>, <immersiveengineering:metal:5>, 8, "hammer");
-IroncladAnvil.addRecipe("thaumium_plate", <thaumcraft:plate:2>, <thaumcraft:ingot>, 8, "hammer");
-IroncladAnvil.addRecipe("void_plate", <thaumcraft:plate:3>, <thaumcraft:ingot:1>, 8, "hammer");
-IroncladAnvil.addRecipe("steel_plate", <immersiveengineering:metal:38>, <ore:ingotSteel>, 8, "hammer");
-IroncladAnvil.addRecipe("platinum_plate", <primal:platinum_plate>, <ore:ingotPlatinum>, 8, "hammer");
-IroncladAnvil.addRecipe("mithrillium_plate", <thaumadditions:mithrillium_plate>, <thaumadditions:mithrillium_ingot>, 8, "hammer");
-IroncladAnvil.addRecipe("adaminite_plate", <thaumadditions:adaminite_plate>, <thaumadditions:adaminite_ingot>, 8, "hammer");
-IroncladAnvil.addRecipe("mithminite_plate", <thaumadditions:mithminite_plate>, <thaumadditions:mithminite_ingot>, 8, "hammer");
-IroncladAnvil.addRecipe("dawnstone_plate", <embers:plate_dawnstone>, <embers:ingot_dawnstone>, 8, "hammer");
-IroncladAnvil.addRecipe("aluminium_plate", <embers:plate_aluminum>, <embers:ingot_aluminum>, 8, "hammer");
-IroncladAnvil.addRecipe("electrum_plate", <embers:plate_electrum>, <ore:ingotElectrum>, 8, "hammer");
-IroncladAnvil.addRecipe("nickel_plate", <embers:plate_nickel>, <embers:ingot_nickel>, 8, "hammer");
-
 //CompactingBin
 recipes.remove(<primal:thatching_wet>);
 CompactingBin.addRecipe("thatchingfromgrass", <primal:thatching_wet>, <minecraft:tallgrass:1>, 4);
 CompactingBin.addRecipe("thatchingfromrush", <primal:thatching_wet>, <primal:rush_stems>, 2);
-
-
-
 
 //StoneMacines
 recipes.remove(<pyrotech:stone_kiln>);
@@ -413,31 +377,36 @@ recipes.addShapedMirrored("1x_tile_pyrotech_brick_crucible_shaped", <pyrotech:br
 
 //SoakingPotReecipes
 #RemovedRecipes
-SoakingPot.removeRecipes(<pyrotech:material:30>);
 SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<minecraft:coal_block>);
-SoakingPot.removeRecipes(<pyrotech:material:23>);
-SoakingPot.removeRecipes(<pyrotech:planks_tarred>);
-SoakingPot.removeRecipes(<pyrotech:material:26>);
+
 #TreatedRecipes
 SoakingPot.addRecipe("treated_planks_from_planks", <immersiveengineering:treated_wood>, <liquid:creosote>*200, <ore:plankWood>, 2 * 60 * 20);
-SoakingPot.addRecipe("treated_kindling", <pyrotech:material:30>, <liquid:creosote>*125, <pyrotech:material:29>, 3 * 30 * 20);
+
 //TannedHide
 SoakingPot.addRecipe("tanned_hide", <primal:hide_tanned>, <liquid:tannin>*250, <primal:hide_dried>, 3 * 30 * 20);
 SoakingPot.addRecipe("tanned_pigman_hide", <primal:pigman_hide_tanned>, <liquid:tannin>*250, <primal:pigman_hide_dried>, 3 * 30 * 20);
+
 //Thaumcraft
 SoakingPot.addRecipe("salismundus", <thaumcraft:salis_mundus>, <liquid:fluidedmana>*250, <ore:dustDiamond>, 4 * 30 * 20);
-SoakingPot.addRecipe("quartzsliver", <thaumcraft:nugget:9>, <liquid:fluidedmana>*50, <ore:pointQuartz>, 15 * 20);
+SoakingPot.addRecipe("quartzsliver", <thaumcraft:nugget:9>, <liquid:fluidedmana>*50, <ore:pointApatite>, 15 * 20);
 SoakingPot.addRecipe("quicksilver", <thaumcraft:quicksilver>, <liquid:fluidedmana>*100, <ore:ingotQuickSilver>, 15 * 20);
+
 //Sugar
 SoakingPot.addRecipe("sugarfrombamboo", <minecraft:sugar>, <liquid:sugarcane_juice>*200, <ore:charcoal>, 2 * 30 * 20);
-SoakingPot.addRecipe("sugarfromcharcoal", <minecraft:sugar>, <liquid:sugarcane_juice>*250, <ore:charcoal>, 2 * 30 * 20);
 
 //DryingRack
-recipes.remove(<pyrotech:drying_rack>);
+recipes.remove(<pyrotech:drying_rack:*>);
 recipes.addShapedMirrored("1x_tile_pyrotech_drying_rack_crude_shaped", <pyrotech:drying_rack>, [
 	[<ore:stickWood>, <ore:cordagePlant>, <ore:stickWood>]
 ]);
+recipes.addShapedMirrored("1x_tile_pyrotech_drying_rack_normal_shaped", <pyrotech:drying_rack:1>, [
+    [<pyrotech:drying_rack>, <ore:cordageGeneral>, <pyrotech:drying_rack>],
+    [<ore:cordageGeneral>, <minecraft:ladder>, <ore:cordageGeneral>],
+    [<pyrotech:drying_rack>, <ore:cordageGeneral>, <pyrotech:drying_rack>]
+]);
+
+
 //CrudeEquipment
 recipes.remove(<pyrotech:crude_fishing_rod>);
 recipes.addShapedMirrored("1x_item_pyrotech_crude_fishing_rod_shaped", <pyrotech:crude_fishing_rod>, [
@@ -470,6 +439,14 @@ recipes.addShapedMirrored("1x_item_pyrotech_crude_pickaxe_shaped", <pyrotech:cru
 	[<ore:stickWood>, <ore:rock>]
 ]);
 
+//RefractoryClay
+recipes.remove(<pyrotech:material:4> * 5);
+recipes.addShapedMirrored("5x_item_pyrotech_refractory_clay_ball_shaped", <pyrotech:material:4> * 5, [
+    [<ore:clayball>, <ore:dustAsh>, <ore:clayball>],
+    [<primal:adobe_clump>, <pyrotech:material:*>, <primal:adobe_clump>],
+    [<ore:clayball>, <ore:dustAsh>, <ore:clayball>]
+]);
+
 
 //CombingStone
 var stoneRecipes as IItemStack[IIngredient] = {
@@ -477,7 +454,7 @@ var stoneRecipes as IItemStack[IIngredient] = {
 	<pyrotech:rock:1> : <pyrotech:cobblestone:2>,
 	<pyrotech:rock:2> : <pyrotech:cobblestone:1>,
 	<pyrotech:rock:3> : <pyrotech:cobblestone>,
-	<pyrotech:rock:8> : <pyrotech:cobblestone:3>,
+	<pyrotech:rock:8> : <pyrotech:cobblestone:3>
 	};
 for rock, stone in stoneRecipes {
 recipes.addShapedMirrored(stone, [
@@ -509,6 +486,11 @@ PitKiln.addRecipe("claybucket", <primal:bucket_clay>, <primal:bucket_clay_soft>,
     <pyrotech:material>
 ]);
 PitKiln.addRecipe("terrabucket", <primal:bucket_terra>, <primal:bucket_terra_soft>, 2 * 60 * 20, 0.33, [
+    <pyrotech:material:6>, // randomly chosen failure items
+    <pyrotech:material:7>,
+    <pyrotech:material>
+]);
+PitKiln.addRecipe("cinisbucket", <primal:bucket_cinis>, <primal:bucket_cinis_soft>, 2 * 60 * 20, 0.33, [
     <pyrotech:material:6>, // randomly chosen failure items
     <pyrotech:material:7>,
     <pyrotech:material>
@@ -562,7 +544,15 @@ PitKiln.addRecipe("stoneslab_from_cobblestone", <minecraft:stone_slab>, <minecra
 //OtherKilns
 StoneKiln.removeRecipes(<pyrotech:material:15>);
 BrickKiln.removeRecipes(<pyrotech:material:15>);
-StoneKiln.addRecipe("charcoalmotesstone", <primal:charcoal_mote>, <thebetweenlands:items_misc:13>, 6000, 0.08, [<minecraft:dirt>]);
-BrickKiln.addRecipe("charcoalmotebrick", <primal:charcoal_mote>, <thebetweenlands:items_misc:13>, 6000, 0.02, [<minecraft:dirt>]);
+StoneKiln.addRecipe("charcoalmotesstone", <primal:charcoal_mote>, <thebetweenlands:items_misc:13>, 6000, 0.08, [<pyrotech:material>]);
+BrickKiln.addRecipe("charcoalmotebrick", <primal:charcoal_mote>, <thebetweenlands:items_misc:13>, 6000, 0.02, [<pyrotech:material>]);
 StoneKiln.addRecipe("charcoalmotesstone1", <primal:charcoal_mote>, <pyrotech:rock:7>, 6000, 0.08, [<pyrotech:material>]);
 BrickKiln.addRecipe("charcoalmotebrick1", <primal:charcoal_mote>, <pyrotech:rock:7>, 6000, 0.02, [<pyrotech:material>]);
+
+//Buckets
+StoneKiln.addRecipe("bucket", <primal:bucket_clay>, <primal:bucket_clay_soft>, 1800, 0.08, [<pyrotech:material>]);
+BrickKiln.addRecipe("bucket1", <primal:bucket_clay>, <primal:bucket_clay_soft>, 1200, 0.02, [<pyrotech:material>]);
+StoneKiln.addRecipe("bucket2", <primal:bucket_terra>, <primal:bucket_terra_soft>, 1800, 0.08, [<pyrotech:material>]);
+BrickKiln.addRecipe("bucket3", <primal:bucket_terra>, <primal:bucket_terra_soft>, 1200, 0.02, [<pyrotech:material>]);
+StoneKiln.addRecipe("bucket4", <primal:bucket_clay>, <primal:bucket_clay_soft>, 1800, 0.08, [<pyrotech:material>]);
+BrickKiln.addRecipe("bucket5", <primal:bucket_clay>, <primal:bucket_clay_soft>, 1200, 0.02, [<pyrotech:material>]);

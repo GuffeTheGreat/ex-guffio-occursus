@@ -2,6 +2,7 @@
 game.setLocalization("fluid.rubber", "Sap");
 <thebetweenlands:syrmorite_bucket_solid_rubber>.displayName = "Syrmorite Bucket With Solidified Sap";
 <thebetweenlands:items_misc:23>.displayName = "Solidified Sap";
+<thebetweenlands:rubber_block>.displayName = "Sap Block";
 
 //ThemingPrimalcoreMachinesWithPyrotech
 <primal:smelter:3>.withTag({BlockEntityTag: {covered: 1 as byte}, type: "adobe"}).displayName = "Refractory Sariras";
@@ -20,11 +21,23 @@ game.setLocalization("fluid.rubber", "Sap");
 //Reinforced Shears
 <cyclicmagic:shears_obsidian>.displayName = "High Durability Shears";
 
+//Apatitesliver
+<thaumcraft:nugget:9>.displayName = "Apatite Sliver";
+
 //Langisstupid
 <alchemistry:element>.displayName = "Neutronium";
 
 //Gottiredofsearchingupenchantingtableinjei
 <minecraft:enchanting_table>.displayName = "Enchanting Table";
+//SaltedMeat
+<primal:wolf_meat_salted>.displayName = "Salted Meat";
+
+//RenamedCrossroadsitems
+<crossroads:pure_quartz>.displayName = "Salt Crystal";
+<crossroads:block_pure_quartz>.displayName = "Block of Salt Crystal";
+<crossroads:small_quartz_stabilizer>.displayName = "Small Salt Crystal Stabilizer";
+<crossroads:large_quartz_stabilizer>.displayName = "Large Salt Crystal Stabilizer";
+<crossroads:luminescent_quartz>.displayName = "Luminescent Salt Crystal";
 
 //Conduits
 <enderio:item_endergy_conduit:4>.displayName = "Brass Conduit";

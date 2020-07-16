@@ -31,15 +31,15 @@
 		}]
 	}],
 	rewards: [{
-		uid: "48d750c5",
-		type: "item",
-		item: "contenttweaker:material_part 1 220",
-		count: 4
-	},
-	{
 		uid: "b47b3ca7",
 		type: "item",
 		item: "iceandfire:troll_leather_frost",
+		count: 4
+	},
+	{
+		uid: "b051b4ff",
+		type: "item",
+		item: "contenttweaker:material_part 1 229",
 		count: 4
 	}]
 }

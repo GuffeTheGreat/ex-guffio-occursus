@@ -10,13 +10,29 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-setXMax:
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
+
+setYMax:
     Arguments:
         float
     Usage:
         max
     Notes:
-        Sets the max X coordinate.
+        Sets the max Y coordinate.
+
+setZMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min Z coordinate.
 
 setYMinMax:
     Arguments:
@@ -26,6 +42,30 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
+setXMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min X coordinate.
+
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
+
+setXMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max X coordinate.
+
 setYMin:
     Arguments:
         float
@@ -34,13 +74,13 @@ setYMin:
     Notes:
         Sets the min Y coordinate.
 
-setZMin:
+setXMinMax:
     Arguments:
-        float
+        float, float
     Usage:
-        min
+        min, max
     Notes:
-        Sets the min Z coordinate.
+        Sets the min and max X coordinates.
 
 setDimensionType:
     Arguments:
@@ -57,44 +97,4 @@ setZMax:
         max
     Notes:
         Sets the max Z coordinate.
-
-setXMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max X coordinates.
-
-setXMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min X coordinate.
-
-setYMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max Y coordinate.
-
-setZMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Z coordinates.
-
-setBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id. Can be an int or String.
 

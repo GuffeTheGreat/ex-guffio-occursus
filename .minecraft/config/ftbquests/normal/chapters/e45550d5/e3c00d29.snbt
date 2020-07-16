@@ -1,10 +1,5 @@
 {
-	icon: {
-		id: "primal:quern",
-		tag: {
-			type: "sarsen"
-		}
-	},
+	icon: "cuisine:mill",
 	x: 6.0d,
 	y: -0.5d,
 	dependencies: [

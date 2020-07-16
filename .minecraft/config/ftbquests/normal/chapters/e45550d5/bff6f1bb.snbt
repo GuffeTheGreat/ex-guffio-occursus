@@ -1,7 +1,7 @@
 {
 	title: "This is Flint and Tinder, but the real question is if Flint is on Tinder.",
 	x: 1.5d,
-	y: -4.5d,
+	y: -5.0d,
 	text: [
 		"To start setting things on fire will you need flint and tinder. You can't get flint shards from breaking gravel with your fists for that will you need a crude shovel. Later on when you get better shovels will you be able to pick up the gravel itself."
 	],

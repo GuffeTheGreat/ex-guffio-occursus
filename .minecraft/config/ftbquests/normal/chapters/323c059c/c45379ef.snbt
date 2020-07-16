@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	dependencies: [
+		"e18e919f"
+	],
+	tasks: [{
+		uid: "bdda2636",
+		type: "item",
+		items: [{
+			item: "crossroads:fat_collector"
+		}]
+	}]
+}

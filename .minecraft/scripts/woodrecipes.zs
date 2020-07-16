@@ -5,6 +5,13 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 Chopping.removeAllRecipes();
+StoneSawmill.removeAllRecipes();
+BrickSawmill.removeAllRecipes();
+mods.prodigytech.heatsawmill.removeAll();
+mods.advancedrocketry.CuttingMachine.removeRecipe(<advancedrocketry:ic>);
+mods.advancedrocketry.CuttingMachine.removeRecipe(<advancedrocketry:ic:2>);
+mods.advancedrocketry.CuttingMachine.removeRecipe(<minecraft:planks:*>);
+mods.advancedrocketry.CuttingMachine.removeRecipe(<advancedrocketry:planks>);
 
 var counter = 1;
 
@@ -106,6 +113,7 @@ for input, output in woodRecipes {
 //Heatsawmill
 mods.prodigytech.heatsawmill.addRecipe(input, output*4, <pyrotech:rock:7>*2, 80);
 
+mods.advancedrocketry.CuttingMachine.addRecipe(output*4, 80, 100, input);
 
 //good_cutting_saw.addRecipe(cuttingWood);
 /*
@@ -139,7 +147,6 @@ var slabRecipes as IItemStack[IItemStack] = {
     <thebetweenlands:rubber_tree_plank_slab> : <thebetweenlands:rubber_tree_planks>,
     <thebetweenlands:giant_root_plank_slab> : <thebetweenlands:giant_root_planks>,
     <thebetweenlands:rotten_plank_slab> : <thebetweenlands:rotten_planks>,
-    <cuisine:log> : <cuisine:planks>,
     <astralsorcery:blockinfusedwood> : <astralsorcery:blockinfusedwood:1>
 	};
 

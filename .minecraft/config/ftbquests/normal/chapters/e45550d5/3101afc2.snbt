@@ -44,13 +44,6 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
-	},
-	{
-		uid: "3292c074",
-		type: "item",
-		items: [{
-			item: "pyrotech:mechanical_bellows"
-		}]
 	}],
 	rewards: [{
 		uid: "fe7d4696",

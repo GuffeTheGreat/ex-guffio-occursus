@@ -178,7 +178,7 @@ val metalmap = {
     <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 15, maxIntegrity: 15, langKey: "tile.atum.ironOre;item.pyrotech.slag.unique", recipeId: "pyrotech:bloom_from_oreiron_slag"}}),
     <materialpart:Zinc:tiny_pile>,
     <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 15, maxIntegrity: 15, langKey: "tile.atum.ironOre;item.pyrotech.slag.unique", recipeId: "pyrotech:bloomery/bloom_from_oreiron_slag"}})],
-
+/*
     <metallurgy:atlarus_dust> : [
     <metallurgy:atlarus_ore>,
     <materialpart:Atlarus:dense_ore>,
@@ -198,7 +198,7 @@ val metalmap = {
     <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 15, maxIntegrity: 15, langKey: "tile.atum.ironOre;item.pyrotech.slag.unique", recipeId: "pyrotech:bloom_from_oreiron_slag"}}),
     <materialpart:Midasium:tiny_pile>,
     <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 15, maxIntegrity: 15, langKey: "tile.atum.ironOre;item.pyrotech.slag.unique", recipeId: "pyrotech:bloomery/bloom_from_oreiron_slag"}})],
-    
+  */  
     <materialpart:Syrmorite:dust> : [
     <materialpart:Syrmorite:ore>,
     <materialpart:Syrmorite:dense_ore>,
@@ -218,7 +218,7 @@ val metalmap = {
     <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 15, maxIntegrity: 15, langKey: "tile.atum.ironOre;item.pyrotech.slag.unique", recipeId: "pyrotech:bloom_from_oreiron_slag"}}),
     <materialpart:Valonite:tiny_pile>,
     <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 15, maxIntegrity: 15, langKey: "tile.atum.ironOre;item.pyrotech.slag.unique", recipeId: "pyrotech:bloomery/bloom_from_oreiron_slag"}})],
-
+/*
     <immersiveengineering:metal:13> : [
     <embers:ore_nickel>,
     <materialpart:Nickel:dense_ore>,
@@ -618,7 +618,7 @@ val metalmap = {
     <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 15, maxIntegrity: 15, langKey: "tile.atum.ironOre;item.pyrotech.slag.unique", recipeId: "pyrotech:bloom_from_oreiron_slag"}}),
     <materialpart:Magnesium:tiny_pile>,
     <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 15, maxIntegrity: 15, langKey: "tile.atum.ironOre;item.pyrotech.slag.unique", recipeId: "pyrotech:bloomery/bloom_from_oreiron_slag"}})],
-
+*/
     <metallurgy:iron_dust> : [
     <minecraft:iron_ore>,
     <materialpart:Iron:dense_ore>,
@@ -639,7 +639,7 @@ val metalmap = {
     <materialpart:Tin:tiny_pile>,
     <pyrotech:bloom>.withTag({BlockEntityTag: {integrity: 15, maxIntegrity: 15, langKey: "tile.atum.ironOre;item.pyrotech.slag.unique", recipeId: "pyrotech:bloomery/bloom_from_oreiron_slag"}})]
 } as IItemStack[][IItemStack];
-counter = 0;
+
 for dust, things in metalmap {
 
     //Denseores
@@ -791,3 +791,151 @@ mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Vyroxeres
 
 //Chromium
 mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chromium:crushed_ore>, ["dustChromium","dustCalcium", "dustMagnesium","dustCobalt"], [100, 20, 15, 10]);
+
+val dustmap = {
+    <materialpart:Vermiculite:dust> : [<materialpart:Vermiculite:ore>,<materialpart:Vermiculite:dense_ore>,<materialpart:Vermiculite:clump>,null,null,<materialpart:Chalcopyrite:crushed_ore>,<materialpart:Octine:chunk>,
+    <materialpart:Pyrite:dust>,<materialpart:Chalcopyrite:shard>,<materialpart:Chalcopyrite:crystal>,<materialpart:Chalcopyrite:dirty_dust>,<materialpart:Chalcopyrite:purified_ore>,<materialpart:Chalcopyrite:pure_dust>,
+    <materialpart:Cobalt:dust>,
+    <materialpart:Pyrite:tiny_pile>,null,
+    <materialpart:Cobalt:tiny_pile>,null],
+
+    <materialpart:Chalcopyrite:dust> : [<materialpart:Chalcopyrite:ore>,<materialpart:Chalcopyrite:dense_ore>,<materialpart:Chalcopyrite:clump>,null,null,<materialpart:Chalcopyrite:crushed_ore>,<materialpart:Chalcopyrite:chunk>,
+    <materialpart:Pyrite:dust>,<materialpart:Chalcopyrite:shard>,<materialpart:Chalcopyrite:crystal>,<materialpart:Chalcopyrite:dirty_dust>,<materialpart:Chalcopyrite:purified_ore>,<materialpart:Chalcopyrite:pure_dust>,
+    <materialpart:Cobalt:dust>,
+    <materialpart:Pyrite:tiny_pile>,null,
+    <materialpart:Cobalt:tiny_pile>,null]
+} as IItemStack[][IItemStack];
+counter = 0;
+for dust, things in dustmap {
+counter = counter+1;
+    
+    //CrushingOre
+    IroncladAnvil.addRecipe("beatingores"+counter, things[5], things[0], 4, "hammer");
+    mods.prodigytech.orerefinery.addRecipe(things[0], things[5]*2, things[7], 0.1, 80);
+    mods.crossroads.Grindstone.addRecipe(things[0], things[5]*2);
+
+    //Denseores
+    mods.astralsorcery.LightTransmutation.addTransmutation(things[0], things[1], 10);
+
+    //CrushingOrestoClumps
+    mods.rockhounding_chemistry.MineralSizer.add(things[0], things[2]);
+    mods.rockhounding_chemistry.MineralSizer.add(things[1], things[2]*2);
+
+    //Crushedore Recipes
+    mods.magneticraft.Grinder.addRecipe(things[2], things[5]*3, things[7], 0.15, 60, true);
+    mods.magneticraft.Grinder.addRecipe(things[6], things[5]*2, things[7], 0.15, 60, true);
+    mods.immersiveengineering.Crusher.addRecipe(things[5]*3, things[2], 2048, things[7], 0.2);
+    mods.immersiveengineering.Crusher.addRecipe(things[5]*2, things[6], 2048, things[7], 0.2);
+    mods.prodigytech.orerefinery.addRecipe(things[2], things[5]*3, things[7], 0.1, 80);
+    mods.prodigytech.orerefinery.addRecipe(things[6], things[5]*2, things[7], 0.1, 80);
+
+    //CuttingFluid
+    mods.bloodmagic.AlchemyTable.addRecipe(things[6]*2, [things[2], <bloodmagic:cutting_fluid>], 400,120,0);
+    mods.bloodmagic.AlchemyTable.addRecipe(things[6]*3, [things[8], <bloodmagic:cutting_fluid>], 600,80,2);
+    mods.bloodmagic.AlchemyTable.addRecipe(things[6]*2, [things[9], <bloodmagic:cutting_fluid>], 800,40,4);
+    
+    //OrePurifying
+    mods.nuclearcraft.infuser.addRecipe([things[5], <liquid:distilledwater>*500, things[11]]);
+    mods.immersiveintelligence.ChemicalBath.addRecipe(things[5],things[11],<liquid:distilledwater>*500,4000,40);
+
+    //CrushedOre
+    mods.magneticraft.SluiceBox.addRecipe(things[5], 1, things[10], 0.1, things[7], true);
+    mods.magneticraft.Sieve.addRecipe(things[5], things[10], 1.0, things[7], 0.1, <minecraft:nether_star>, 0, 40, true);
+    
+    //PurifiedCrushedOre
+    mods.magneticraft.Sieve.addRecipe(things[11], things[12], 1.0, things[13], 0.1, <minecraft:nether_star>, 0, 40, true);
+    
+    //Seperation
+    mods.nuclearcraft.isotope_separator.addRecipe([things[10], dust, things[14]]);
+    mods.nuclearcraft.isotope_separator.addRecipe([things[12], dust, things[16]]);
+    
+    //WashingDust
+    FluidToItem.transform(dust, <liquid:water>, things[10], false);
+    FluidToItem.transform(dust, <liquid:water>, things[12], false);
+    
+    //Removals
+    recipes.remove(dust);
+    mods.immersiveengineering.Crusher.removeRecipesForInput(things[0]);
+    mods.astralsorcery.Grindstone.removeRecipe(dust);
+    mods.bloodmagic.AlchemyTable.removeRecipe([things[0],<bloodmagic:cutting_fluid>.withTag({})]);
+    mods.nuclearcraft.manufactory.removeRecipeWithOutput([dust*2]);
+    mods.nuclearcraft.melter.removeRecipeWithInput([things[0]]);
+    }
+
+//Chalcopyrite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustChalcopyrite","dustPyrite", "dustCobalt","dustCadmium"], [100, 20, 15, 10]);
+
+//Vermiculite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustVermiculite","dustIron", "dustAluminium","dustMagnesium"], [100, 20, 15, 10]);
+
+//Cassiterite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustCassiterite","dustTin", "dustIron","dustZinc"], [100, 20, 15, 10]);
+
+//Alunite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustAlunite","dustPotassium", "dustAluminium","dustSilicon"], [100, 20, 15, 10]);
+
+//Grossular
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustGrossular","dustHeliodor", "dustCalcium","dustVanadium"], [100, 20, 15, 10]);
+
+//Spessartine
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustSpessartine","dustCinnabar", "dustGarnet","dustManganese"], [100, 20, 15, 10]);
+
+//Pyrolusite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustPyrolusite","dustTantalite", "dustManganese","dustNiobium"], [100, 20, 15, 10]);
+
+//Tantalite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustTantalite","dustPyrolusite", "dustTantalum","dustNiobium"], [100, 20, 15, 10]);
+
+//Redstone
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustRedstone","dustCinnabar", "dustRuby","dustGlowstone"], [100, 20, 15, 10]);
+
+//Cinnabar
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustCinnabar","dustRedstone", "dustSulfur","dustSpinel"], [100, 20, 15, 10]);
+
+//Pyrite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustPyrite","dustSulfur", "dustTricalciumPhosphate","dustIron"], [100, 20, 15, 10]);
+
+//BrownLimonite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustBrownLimonite","dustMalachite", "dustYellowLimonite","dustIron"], [100, 20, 15, 10]);
+
+//YellowLimonite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustYellowLimonite","dustNickel", "dustBrownLimonite","dustCobalt"], [100, 20, 15, 10]);
+
+//BandedIron
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustBandedIron","dustIron", "dustBrownLimonite","dustYellowLimonite"], [100, 20, 15, 10]);
+
+//TricalciumPhosphate
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustTricalciumPhosphate","dustApatite", "dustPhosphate","dustPyrochlore"], [100, 20, 15, 10]);
+
+//Pyrochlore
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustPyrochlore","dustApatite", "dustCalcite","dustNiobium"], [100, 20, 15, 10]);
+
+//Magnetite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustMagnetite","dustIron", "dustGold","dustChromium"], [100, 20, 15, 10]);
+
+//VanadiumMagnetite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustVanadiumMagnetite","dustMagnetite", "dustVanadium","dustIron"], [100, 20, 15, 10]);
+
+//MixedGem
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustMixedGem","dustHeliodor", "dustGarnet","dustDiatomite"], [100, 20, 15, 10]);
+
+//Asbestos
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustAsbestos","dustDiatomite", "dustSilicon","dustMagnesium"], [100, 20, 15, 10]);
+
+//Diatomite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustDiatomite","dustBandedIron", "dustSapphire","dustIron"], [100, 20, 15, 10]);
+
+//Calcite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustCalcite","dustAndradite", "dustMalachite","dustCalcium"], [100, 20, 15, 10]);
+
+//Soapstone
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustSoapstone","dustPentlandite", "dustGlauconite","dustTalc"], [100, 20, 15, 10]);
+
+//Talc
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustTalc","dustSoapstone", "dustPentlandite","dustGlauconite"], [100, 20, 15, 10]);
+
+//Glauconite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustGlauconite","dustSoapstone", "dustTalc","dustPentlandite"], [100, 20, 15, 10]);
+
+//Pentlandite
+mods.rockhounding_chemistry.ChemicalExtractor.add("Ore", <materialpart:Chalcopyrite:crushed_ore>, ["dustPentlandite","dustSoapstone", "dustGlauconite","dustTalc"], [100, 20, 15, 10]);

@@ -78,13 +78,6 @@ sulfuricNaphtha.viscosity = 10000;
 sulfuricNaphtha.temperature = 671;
 sulfuricNaphtha.register();
 
-  #EyeGoop
-var eyegoop = mods.contenttweaker.VanillaFactory.createFluid("eyegoop", Color.fromHex("ff8533"));
-eyegoop.density = 10000;
-eyegoop.viscosity = 10000;
-eyegoop.temperature = 671;
-eyegoop.register();
-
   #Rubber
 var new_rubber = mods.contenttweaker.VanillaFactory.createFluid("new_rubber", Color.fromHex("1776664"));
 new_rubber.density = 10000;
@@ -231,6 +224,13 @@ natural.density = 10000;
 natural.viscosity = 10000;
 natural.temperature = 1100;
 natural.register();
+
+  #glass
+var glass = mods.contenttweaker.VanillaFactory.createFluid("glass", Color.fromHex("ffffff"));
+glass.density = 10000;
+glass.viscosity = 1000;
+glass.temperature = 550;
+glass.register();
 
   #ice
 var ice = mods.contenttweaker.VanillaFactory.createFluid("ice", Color.fromHex("d6ecef"));

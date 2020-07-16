@@ -2,12 +2,15 @@
 	title: "Overworld Diamond Graphite Vein",
 	icon: "minecraft:diamond_ore",
 	x: -1.0d,
-	y: 1.5d,
+	y: -1.5d,
+	dependencies: [
+		"345407ef"
+	],
 	tasks: [{
 		uid: "5924ebea",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_0"
+			item: "contenttweaker:sub_block_holder_9 1 11"
 		}]
 	},
 	{
@@ -27,7 +30,7 @@
 	rewards: [{
 		uid: "0ed8081f",
 		type: "item",
-		item: "contenttweaker:sub_block_holder_0"
+		item: "contenttweaker:sub_block_holder_9 1 11"
 	},
 	{
 		uid: "21800ab1",

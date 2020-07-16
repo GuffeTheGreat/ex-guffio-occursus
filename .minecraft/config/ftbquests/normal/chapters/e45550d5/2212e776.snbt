@@ -2,11 +2,10 @@
 	title: "Why did the Invetion of dry erase board amaze the world?",
 	icon: "pyrotech:drying_rack",
 	x: 0.0d,
-	y: -4.5d,
+	y: -5.0d,
 	description: "Because it was re-markable",
 	dependencies: [
-		"88f5f305",
-		"1ecff8ec"
+		"88f5f305"
 	],
 	tasks: [{
 		uid: "56c3db2e",
@@ -23,9 +22,9 @@
 		}]
 	}],
 	rewards: [{
-		uid: "b209c7ce",
+		uid: "2477fedf",
 		type: "item",
-		item: "cuisine:material 1 2",
+		item: "cuisine:material 1 3",
 		count: 4
 	}]
 }

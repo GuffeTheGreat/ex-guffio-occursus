@@ -1,34 +1,57 @@
 {
 	title: "Overworld Cassiterite and \"Gem\" Vein",
-	icon: "contenttweaker:sub_block_holder_1 1 5",
+	icon: "contenttweaker:sub_block_holder_6 1 1",
 	x: -1.0d,
-	y: 8.5d,
+	y: 5.5d,
+	dependencies: [
+		"7a70a48c"
+	],
 	tasks: [{
-		uid: "eb27ec12",
+		uid: "4aaa1828",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_1 1 5"
+			item: "contenttweaker:sub_block_holder_6 1 1"
 		}]
 	},
 	{
-		uid: "56925914",
+		uid: "16084781",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_5"
+			item: "contenttweaker:sub_block_holder_18 1 3"
 		}]
 	},
 	{
-		uid: "d80b3ba7",
+		uid: "624010ad",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_1"
+			item: "contenttweaker:sub_block_holder_0 1 12"
 		}]
 	},
 	{
-		uid: "97113cbe",
+		uid: "c2844ab8",
 		type: "item",
 		items: [{
 			item: "contenttweaker:sub_block_holder_0 1 1"
 		}]
+	}],
+	rewards: [{
+		uid: "9d359a8d",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_6 1 1"
+	},
+	{
+		uid: "d777089d",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_18 1 3"
+	},
+	{
+		uid: "a1008dfe",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0 1 12"
+	},
+	{
+		uid: "10867e9c",
+		type: "item",
+		item: "contenttweaker:sub_block_holder_0 1 1"
 	}]
 }

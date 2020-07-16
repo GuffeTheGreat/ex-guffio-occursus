@@ -1,9 +1,25 @@
  import mods.efabct.EFabRecipe;
  
+//ActualEfab
+recipes.addShapedMirrored("1x_tile_efab_grid_shaped", <efab:grid>, [
+	[<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>],
+	[<ore:plateBronze>, <minecraft:crafting_table>, <ore:plateBronze>],
+	[<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>]
+]);
+
+//Tank
+recipes.addShapedMirrored("1x_tile_efab_tank_shaped", <efab:tank>, [
+	[<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>],
+	[<ore:plateBronze>, <pyrotech:tank>, <ore:plateBronze>],
+	[<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>]
+]);
+
+
+
 //bookShelf
  EFabRecipe.shaped(<minecraft:bookshelf>, [
 [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],
-[<minecraft:book>, <minecraft:enchanted_book>, <minecraft:book>],
+[<minecraft:book>, <minecraft:book>, <minecraft:book>],
 [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>]])
     .time(10)
     .fluid(<liquid:xpjuice> * 1000);

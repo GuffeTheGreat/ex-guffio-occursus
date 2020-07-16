@@ -1,0 +1,15 @@
+{
+	x: -2.5d,
+	y: -14.0d,
+	dependencies: [
+		"d600a6e1"
+	],
+	tasks: [{
+		uid: "8fa21952",
+		type: "item",
+		items: [{
+			item: "minecraft:stone 1 6"
+		}],
+		count: 10L
+	}]
+}

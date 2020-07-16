@@ -4,6 +4,11 @@ mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device1>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device1:1>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:material:6>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:stone_decoration:3>);
+mods.jei.JEI.removeAndHide(<immersiveintelligence:material:19>);
+
+
+//ByeMechanicalSaw
+mods.jei.JEI.removeAndHide(<immersiveintelligence:wooden_multiblock:2>);
 
 //CokeOven
 recipes.remove(<immersiveengineering:stone_decoration>*3);
@@ -11,9 +16,13 @@ recipes.remove(<immersiveengineering:stone_decoration>*3);
 //AlloyKIln
 recipes.remove(<immersiveengineering:stone_decoration:10>*2);
 recipes.addShapedMirrored("2x_tile_immersiveengineering_stone_decoration_alloybrick_shaped", <immersiveengineering:stone_decoration:10> * 2, [
-	[<enderio:item_alloy_endergy_ingot>, <pyrotech:material:5>],
-	[<pyrotech:material:5>, <enderio:item_alloy_endergy_ingot>]
+	[<thebetweenlands:limestone_bricks>, <pyrotech:material:5>],
+	[<pyrotech:material:5>, <thebetweenlands:limestone_bricks>]
 ]);
+
+//AlloykilnRecipe
+mods.immersiveengineering.AlloySmelter.addRecipe(<metallurgy:angmallen_ingot>, <ore:ingotIron>, <ore:ingotGold>, 2000);
+mods.immersiveengineering.AlloySmelter.addRecipe(<metallurgy:angmallen_ingot>, <ore:ingotGold>, <ore:ingotIron>, 2000);
 
 //ChangeCraftingComponentBlueprintCausenoAluminium
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));

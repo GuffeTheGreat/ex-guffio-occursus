@@ -20,7 +20,7 @@
   },
   "chickens:whitechicken": {
     "name": "WhiteChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:15",
     "drop_item": "minecraft:bone",
@@ -30,7 +30,7 @@
   },
   "chickens:yellowchicken": {
     "name": "YellowChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:11",
     "drop_item": "minecraft:dye:11",
@@ -40,7 +40,7 @@
   },
   "chickens:bluechicken": {
     "name": "BlueChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:4",
     "drop_item": "minecraft:dye:4",
@@ -50,7 +50,7 @@
   },
   "chickens:greenchicken": {
     "name": "GreenChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:2",
     "drop_item": "minecraft:dye:2",
@@ -60,7 +60,7 @@
   },
   "chickens:redchicken": {
     "name": "RedChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:1",
     "drop_item": "minecraft:dye:1",
@@ -70,7 +70,7 @@
   },
   "chickens:blackchicken": {
     "name": "BlackChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye",
     "drop_item": "minecraft:dye",
@@ -80,7 +80,7 @@
   },
   "chickens:pinkchicken": {
     "name": "PinkChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:9",
     "drop_item": "minecraft:dye:9",
@@ -90,7 +90,7 @@
   },
   "chickens:purplechicken": {
     "name": "PurpleChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:5",
     "drop_item": "minecraft:dye:5",
@@ -100,7 +100,7 @@
   },
   "chickens:orangechicken": {
     "name": "OrangeChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:14",
     "drop_item": "minecraft:dye:14",
@@ -110,7 +110,7 @@
   },
   "chickens:lightbluechicken": {
     "name": "LightBlueChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:12",
     "drop_item": "minecraft:dye:12",
@@ -120,7 +120,7 @@
   },
   "chickens:limechicken": {
     "name": "LimeChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:10",
     "drop_item": "minecraft:dye:10",
@@ -130,7 +130,7 @@
   },
   "chickens:graychicken": {
     "name": "GrayChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:8",
     "drop_item": "minecraft:dye:8",
@@ -140,7 +140,7 @@
   },
   "chickens:cyanchicken": {
     "name": "CyanChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:6",
     "drop_item": "minecraft:dye:6",
@@ -150,7 +150,7 @@
   },
   "chickens:silverdyechicken": {
     "name": "SilverDyeChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:7",
     "drop_item": "minecraft:dye:7",
@@ -160,7 +160,7 @@
   },
   "chickens:magentachicken": {
     "name": "MagentaChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:13",
     "drop_item": "minecraft:dye:13",
@@ -170,7 +170,7 @@
   },
   "chickens:flintchicken": {
     "name": "FlintChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:flint",
     "drop_item": "minecraft:flint",
@@ -180,7 +180,7 @@
   },
   "chickens:quartzchicken": {
     "name": "QuartzChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:quartz",
     "drop_item": "minecraft:quartz",
@@ -190,7 +190,7 @@
   },
   "chickens:logchicken": {
     "name": "LogChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:log",
     "drop_item": "minecraft:log",
@@ -200,7 +200,7 @@
   },
   "chickens:sandchicken": {
     "name": "SandChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:sand",
     "drop_item": "minecraft:sand",
@@ -210,7 +210,7 @@
   },
   "chickens:stringchicken": {
     "name": "StringChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:string",
     "drop_item": "minecraft:spider_eye",
@@ -230,7 +230,7 @@
   },
   "chickens:gunpowderchicken": {
     "name": "GunpowderChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:gunpowder",
     "drop_item": "minecraft:gunpowder",
@@ -240,7 +240,7 @@
   },
   "chickens:redstonechicken": {
     "name": "RedstoneChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:redstone",
     "drop_item": "minecraft:redstone",
@@ -250,7 +250,7 @@
   },
   "chickens:glasschicken": {
     "name": "GlassChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:glass",
     "drop_item": "minecraft:glass",
@@ -260,7 +260,7 @@
   },
   "chickens:ironchicken": {
     "name": "IronChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:iron_ingot",
     "drop_item": "minecraft:iron_ingot",
@@ -270,7 +270,7 @@
   },
   "chickens:coalchicken": {
     "name": "CoalChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:coal",
     "drop_item": "minecraft:coal",
@@ -280,7 +280,7 @@
   },
   "chickens:brownchicken": {
     "name": "BrownChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:dye:3",
     "drop_item": "minecraft:dye:3",
@@ -290,7 +290,7 @@
   },
   "chickens:goldchicken": {
     "name": "GoldChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:gold_nugget",
     "drop_item": "minecraft:gold_nugget",
@@ -300,7 +300,7 @@
   },
   "chickens:snowballchicken": {
     "name": "SnowballChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:snowball",
     "drop_item": "minecraft:snowball",
@@ -310,7 +310,7 @@
   },
   "chickens:waterchicken": {
     "name": "WaterChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "chickens:liquid_egg",
     "drop_item": "chickens:liquid_egg",
@@ -320,7 +320,7 @@
   },
   "chickens:lavachicken": {
     "name": "LavaChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "chickens:liquid_egg:1",
     "drop_item": "chickens:liquid_egg:1",
@@ -330,7 +330,7 @@
   },
   "chickens:claychicken": {
     "name": "ClayChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:clay_ball",
     "drop_item": "minecraft:clay_ball",
@@ -340,7 +340,7 @@
   },
   "chickens:leatherchicken": {
     "name": "LeatherChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:leather",
     "drop_item": "minecraft:leather",
@@ -350,7 +350,7 @@
   },
   "chickens:netherwartchicken": {
     "name": "NetherwartChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:nether_wart",
     "drop_item": "minecraft:nether_wart",
@@ -360,7 +360,7 @@
   },
   "chickens:diamondchicken": {
     "name": "DiamondChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:diamond",
     "drop_item": "minecraft:diamond",
@@ -370,7 +370,7 @@
   },
   "chickens:blazechicken": {
     "name": "BlazeChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:blaze_rod",
     "drop_item": "minecraft:blaze_rod",
@@ -380,7 +380,7 @@
   },
   "chickens:slimechicken": {
     "name": "SlimeChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:slime_ball",
     "drop_item": "minecraft:slime_ball",
@@ -390,7 +390,7 @@
   },
   "chickens:enderchicken": {
     "name": "EnderChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:ender_pearl",
     "drop_item": "minecraft:ender_pearl",
@@ -400,7 +400,7 @@
   },
   "chickens:ghastchicken": {
     "name": "GhastChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:ghast_tear",
     "drop_item": "minecraft:ghast_tear",
@@ -410,7 +410,7 @@
   },
   "chickens:emeraldchicken": {
     "name": "EmeraldChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:emerald",
     "drop_item": "minecraft:emerald",
@@ -420,7 +420,7 @@
   },
   "chickens:magmachicken": {
     "name": "MagmaChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:magma_cream",
     "drop_item": "minecraft:magma_cream",
@@ -430,7 +430,7 @@
   },
   "chickens:pshardchicken": {
     "name": "pShardChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:prismarine_shard",
     "drop_item": "minecraft:prismarine_shard",
@@ -440,7 +440,7 @@
   },
   "chickens:pcrystalchicken": {
     "name": "pCrystalChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:prismarine_crystals",
     "drop_item": "minecraft:prismarine_crystals",
@@ -450,7 +450,7 @@
   },
   "chickens:obsidianchicken": {
     "name": "obsidianChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:obsidian",
     "drop_item": "minecraft:obsidian",
@@ -460,7 +460,7 @@
   },
   "chickens:soulsandchicken": {
     "name": "soulSandChicken",
-    "is_enabled": true,
+    "is_enabled": false,
     "lay_coefficient": 1.0,
     "lay_item": "minecraft:soul_sand",
     "drop_item": "minecraft:soul_sand",

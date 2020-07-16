@@ -1,5 +1,7 @@
 import mods.pyrotech.StoneKiln;
 import mods.pyrotech.BrickKiln;
+import mods.pyrotech.BrickCrucible;
+import mods.pyrotech.StoneCrucible;
 
 mods.jei.JEI.removeAndHide(<embers:cinder_plinth>);
 mods.jei.JEI.removeAndHide(<embers:stamp_bar_raw>);
@@ -20,8 +22,7 @@ furnace.remove(<soot:stamp_nugget_raw>);
 recipes.remove(<minecraft:bread>);
 
 //DarkAshes
-recipes.addShapeless("2x_item_dust_ash_shapeless", <embers:dust_ash> * 2, [<rockhounding_chemistry:chemical_dusts:24>, <bonfires:ash_pile>]);
-
+recipes.addShapeless("2x_item_dust_ash_shapeless", <embers:dust_ash> * 2, [<ore:dustCarbon>, <ore:dustAsh>]);
 
 //Ashenstone
 recipes.remove(<embers:ashen_stone> * 4);

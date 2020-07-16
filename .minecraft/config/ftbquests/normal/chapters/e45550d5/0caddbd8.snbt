@@ -14,11 +14,6 @@
 		}]
 	},
 	{
-		uid: "e00da4df",
-		type: "fluid",
-		fluid: "wood_tar"
-	},
-	{
 		uid: "a27b0995",
 		type: "item",
 		items: [{
@@ -30,5 +25,46 @@
 		{
 			item: "primal:charcoal_good"
 		}]
+	},
+	{
+		uid: "72b69471",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:bucket_clay",
+			tag: {
+				Fluid: {
+					FluidName: "wood_tar",
+					Amount: 1000
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:bucket_terra",
+			tag: {
+				Fluid: {
+					FluidName: "wood_tar",
+					Amount: 1000
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "primal:bucket_cinis",
+			tag: {
+				Fluid: {
+					FluidName: "wood_tar",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
 	}]
 }

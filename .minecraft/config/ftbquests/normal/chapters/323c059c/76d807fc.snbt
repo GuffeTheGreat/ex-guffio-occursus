@@ -1,0 +1,30 @@
+{
+	icon: "prodigytech:primordialis_reactor",
+	x: -7.0d,
+	y: -12.5d,
+	dependencies: [
+		"81fd77d8",
+		"78b12902"
+	],
+	tasks: [{
+		uid: "e267698b",
+		type: "item",
+		items: [{
+			item: "prodigytech:primordialis_reactor"
+		}]
+	},
+	{
+		uid: "efacf8ca",
+		type: "item",
+		items: [{
+			item: "prodigytech:atomic_reshaper"
+		}]
+	},
+	{
+		uid: "85d98159",
+		type: "item",
+		items: [{
+			item: "prodigytech:primordium"
+		}]
+	}]
+}

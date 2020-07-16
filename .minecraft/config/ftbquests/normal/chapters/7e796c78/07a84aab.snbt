@@ -1,24 +1,34 @@
 {
-	title: "Overworld Gold Magnetite Vein",
-	icon: "minecraft:gold_ore",
+	title: "Overworld Magnetite Vein",
+	icon: "contenttweaker:sub_block_holder_16 1 15",
 	x: -1.0d,
-	y: -0.5d,
+	y: -2.5d,
+	dependencies: [
+		"8401a6e8"
+	],
 	tasks: [{
 		uid: "ea647d3b",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_2 1 10"
+			item: "contenttweaker:sub_block_holder_16 1 15"
 		}]
 	},
 	{
 		uid: "a5e5cd07",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_2 1 9"
+			item: "contenttweaker:sub_block_holder_16 1 12"
 		}]
 	},
 	{
-		uid: "f7377623",
+		uid: "06cfdcff",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ore"
+		}]
+	},
+	{
+		uid: "340c6bab",
 		type: "item",
 		items: [{
 			item: "minecraft:gold_ore"
@@ -35,7 +45,12 @@
 		item: "contenttweaker:sub_block_holder_2 1 9"
 	},
 	{
-		uid: "41c8ae06",
+		uid: "b80d204e",
+		type: "item",
+		item: "minecraft:iron_ore"
+	},
+	{
+		uid: "73433bf4",
 		type: "item",
 		item: "minecraft:gold_ore"
 	}]

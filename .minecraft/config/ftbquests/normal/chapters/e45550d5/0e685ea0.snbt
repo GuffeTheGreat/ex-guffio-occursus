@@ -2,13 +2,12 @@
 	title: "If trees could kill you, they wood",
 	icon: "minecraft:log",
 	x: -1.5d,
-	y: -2.5d,
+	y: -3.5d,
 	text: [
 		"Now that you have some sticks, rocks, and plant fibres, can you craft your first axe, and get some wood."
 	],
 	dependencies: [
-		"4c31648d",
-		"df4db9c8"
+		"7335d067"
 	],
 	tasks: [{
 		uid: "6e2fa5f4",
@@ -62,7 +61,43 @@
 																														item: {
 																															item: {
 																																item: {
-																																	item: "primal:logs 1 1"
+																																	item: {
+																																		item: {
+																																			item: {
+																																				item: {
+																																					item: {
+																																						item: {
+																																							item: {
+																																								item: {
+																																									item: {
+																																										item: {
+																																											item: {
+																																												item: {
+																																													item: "primal:logs 1 1"
+																																												},
+																																												Count: 1b
+																																											},
+																																											Count: 1b
+																																										},
+																																										Count: 1b
+																																									},
+																																									Count: 1b
+																																								},
+																																								Count: 1b
+																																							},
+																																							Count: 1b
+																																						},
+																																						Count: 1b
+																																					},
+																																					Count: 1b
+																																				},
+																																				Count: 1b
+																																			},
+																																			Count: 1b
+																																		},
+																																		Count: 1b
+																																	},
+																																	Count: 1b
 																																},
 																																Count: 1b
 																															},
@@ -157,7 +192,43 @@
 																														item: {
 																															item: {
 																																item: {
-																																	item: "primal:logs"
+																																	item: {
+																																		item: {
+																																			item: {
+																																				item: {
+																																					item: {
+																																						item: {
+																																							item: {
+																																								item: {
+																																									item: {
+																																										item: {
+																																											item: {
+																																												item: {
+																																													item: "primal:logs"
+																																												},
+																																												Count: 1b
+																																											},
+																																											Count: 1b
+																																										},
+																																										Count: 1b
+																																									},
+																																									Count: 1b
+																																								},
+																																								Count: 1b
+																																							},
+																																							Count: 1b
+																																						},
+																																						Count: 1b
+																																					},
+																																					Count: 1b
+																																				},
+																																				Count: 1b
+																																			},
+																																			Count: 1b
+																																		},
+																																		Count: 1b
+																																	},
+																																	Count: 1b
 																																},
 																																Count: 1b
 																															},

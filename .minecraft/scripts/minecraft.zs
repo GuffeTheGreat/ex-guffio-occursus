@@ -1,8 +1,10 @@
+import mods.pyrotech.BrickCrucible;
+import mods.pyrotech.StoneCrucible;
+
 mods.jei.JEI.removeAndHide(<minecraft:diamond_pickaxe>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:pickaxe_steel>);
 mods.jei.JEI.removeAndHide(<appliedenergistics2:nether_quartz_pickaxe>);
 mods.jei.JEI.removeAndHide(<embers:pickaxe_silver>);
-
 mods.jei.JEI.removeAndHide(<minecraft:chainmail_helmet>);
 mods.jei.JEI.removeAndHide(<minecraft:chainmail_chestplate>);
 mods.jei.JEI.removeAndHide(<minecraft:chainmail_leggings>);
@@ -11,12 +13,19 @@ mods.jei.JEI.removeAndHide(<minecraft:furnace>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_furnace_double>);
 mods.jei.JEI.removeAndHide(<atum:limestone_furnace>);
 mods.jei.JEI.removeAndHide(<draconicevolution:draconium_chest>);
-//Shears
+
 //CraftingTable
 recipes.remove(<minecraft:crafting_table>);
 recipes.addShapedMirrored("1x_tile_workbench_shaped", <minecraft:crafting_table>, [
 	[<ore:plankWood>,<ore:plankWood>],
 	[<ore:plankWood>,<ore:plankWood>]
+]);
+
+//Bucket
+recipes.remove(<minecraft:bucket>);
+recipes.addShapedMirrored("1x_item_bucket_shaped", <minecraft:bucket>, [
+	[<ore:plateIron>, null, <ore:plateIron>],
+	[null, <ore:plateIron>, null]
 ]);
 
 //Dispensor
@@ -38,11 +47,7 @@ recipes.addShapedMirrored("1x_item_brewingStand_shaped", <minecraft:brewing_stan
 recipes.remove(<minecraft:flint_and_steel>);
 recipes.addShapeless("1x_item_flintAndSteel_shapeless", <minecraft:flint_and_steel>, [<pyrotech:material:10>, <materialpart:Crude_Steel:ring>]);
 
-
-
-
 #RemoveGallgagherreicpe
-
 recipes.remove(<minecraft:soul_sand>*4);
 recipes.remove(<minecraft:glowstone_dust>*4);
 recipes.remove(<minecraft:sand>*4);
@@ -58,6 +63,13 @@ recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
 	[<ore:stone>, <thaumcraft:inlay>, <ore:stone>]
 ]);
 
+//NewStickRecipe
+recipes.addShapedMirrored("4x_item_stick_shaped", <minecraft:stick> * 4, [
+	[<ore:plankWood>],
+	[<ore:plankWood>]
+]);
+
+
 //Gunpowder
 //CraftingTable
 recipes.remove(<minecraft:gunpowder>);
@@ -65,10 +77,29 @@ recipes.addShapeless("1x_item_sulphur_shapeless", <minecraft:gunpowder>*2, [<ore
 //Labblender
 //mods.rockhounding_chemistry.LabBlender.add([<immersiveengineering:material:24>, <ore:dustSulfur>, <ore:compoundCharcoal>], <minecraft:gunpowder>*4);
 
+//Randomcleanuprecipes
+furnace.remove(<minecraft:stick>*3);
+mods.primal.Cauldron.removeRecipe("primal:stick_from_corypha");
+mods.primal.Cauldron.removeRecipe("primal:stick_from_lacquer");
+
+//SugarCleanup
+recipes.removeShapeless(<minecraft:sugar>*1);
+mods.magneticraft.Grinder.removeRecipe(<minecraft:reeds>);
+//GlassRecipes
+mods.atum.Kiln.blacklist("minecraft:glass");
+furnace.remove(<minecraft:glass>);
+recipes.removeShapeless(<minecraft:glass>);
+mods.pyrotech.BrickKiln.removeRecipes(<minecraft:glass>);
+mods.pyrotech.StoneKiln.removeRecipes(<minecraft:glass>);
+BrickCrucible.addRecipe("glass", <liquid:glass> * 1000, <minecraft:sand>, 1 * 60 * 20);
+StoneCrucible.addRecipe("glass1", <liquid:glass> * 1000, <minecraft:sand>, 1 * 60 * 20);
+mods.embers.Melter.add(<liquid:glass>*1000,<minecraft:sand>);
+mods.crossroads.HeatingCrucible.addRecipe(<minecraft:sand>, <liquid:glass>*1000,"tile.sand.default");
+//GlassSolidifying
+mods.crossroads.FluidCoolingChamber.addRecipe(<minecraft:glass>,<liquid:glass> * 1000,500,50);
 //CharcoalCleanup
 furnace.remove(<minecraft:coal:1>);
 recipes.remove(<minecraft:coal:1>);
-recipes.addShapeless("9x_item_charcoal_shapeless", <minecraft:coal:1> * 9, [<ore:blockCharcoal>]);
 recipes.remove(<actuallyadditions:block_misc:5>);
 recipes.remove(<pyrotech:charcoal_block>);
 recipes.remove(<metallurgy:charcoal_block>);

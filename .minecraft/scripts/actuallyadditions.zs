@@ -7,6 +7,7 @@ mods.jei.JEI.removeAndHide(<actuallyadditions:block_grinder_double>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_laser_relay>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_laser_relay_advanced>);
 mods.jei.JEI.removeAndHide(<actuallyadditions:block_laser_relay_extreme>);
+mods.jei.JEI.removeAndHide(<actuallyadditions:block_atomic_reconstructor>);
 
 mods.actuallyadditions.Empowerer.addRecipe(<actuallyadditions:item_crystal_empowered>, <actuallyadditions:item_crystal>, <alchemistry:ingot:104>, <silentgems:gemsuper>, <bloodarsenal:blood_diamond>, <iceandfire:fire_dragon_heart>, 500, 100);
 

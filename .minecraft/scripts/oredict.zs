@@ -27,6 +27,9 @@
 //Sulfur
 <ore:dustSulfur>.remove(<crossroads:sulfur>);
 
+//Sulfur
+<ore:gemQuartz>.remove(<crossroads:pure_quartz>);
+
 //MortarIngredients
 <ore:mortalIngredient>.remove(<minecraft:sand>);
 <ore:mortalIngredient>.add(<pyrotech:rock:5>);
@@ -55,6 +58,7 @@
 
 //Ashaddition
 <ore:dustAsh>.add(<bonfires:ash_pile>);
+<ore:dustAsh>.add(<pyrotech:material>);
 
 //AACrystals
 <ore:gemRestonia>.add(<actuallyadditions:item_crystal>);

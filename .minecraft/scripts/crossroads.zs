@@ -19,6 +19,16 @@ recipes.addShapedMirrored("1x_tile_master_axis_shaped", <crossroads:master_axis>
 	[<embers:plate_iron>, <embers:plate_tin>, <embers:plate_iron>]
 ]);
 
+
+//FluidcoolingChamber
+recipes.addShapedMirrored("1x_tile_fluid_cooling_chamber_shaped", <crossroads:fluid_cooling_chamber>, [
+	[<ore:boltIron>, <ore:plateCopper>, <ore:boltIron>],
+	[<ore:plateIron>, <pyrotech:tank>, <ore:plateIron>],
+	[<ore:boltIron>, <ore:plateIron>, <ore:boltIron>]
+]);
+
+
+
 //HeatExchanger
 recipes.remove(<crossroads:heat_exchanger>);
 recipes.addShapedMirrored("1x_tile_heat_exchanger_shaped", <crossroads:heat_exchanger>, [

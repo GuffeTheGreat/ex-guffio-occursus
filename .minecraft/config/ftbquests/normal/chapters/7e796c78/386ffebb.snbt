@@ -1,53 +1,57 @@
 {
-	icon: "contenttweaker:sub_block_holder_5 1 1",
+	title: "Overworld Soapstone Vein",
+	icon: "contenttweaker:sub_block_holder_13 1 6",
 	x: -1.0d,
-	y: 9.5d,
+	y: 6.5d,
+	dependencies: [
+		"c092e7cb"
+	],
 	tasks: [{
-		uid: "893ad62b",
+		uid: "2d75e049",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_5 1 1"
+			item: "contenttweaker:sub_block_holder_13 1 6"
 		}]
 	},
 	{
-		uid: "a799c954",
+		uid: "a76b5c13",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_5 1 6"
+			item: "contenttweaker:sub_block_holder_17 1 14"
 		}]
 	},
 	{
-		uid: "c7832285",
+		uid: "53cbc0a4",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_4 1 13"
+			item: "contenttweaker:sub_block_holder_9 1 12"
 		}]
 	},
 	{
-		uid: "d7734d1c",
+		uid: "69d210a1",
 		type: "item",
 		items: [{
-			item: "contenttweaker:sub_block_holder_0 1 5"
+			item: "contenttweaker:sub_block_holder_18 1 14"
 		}]
 	}],
 	rewards: [{
-		uid: "ef9df56d",
+		uid: "2ec3d3ad",
 		type: "item",
-		item: "contenttweaker:sub_block_holder_5 1 1"
+		item: "contenttweaker:sub_block_holder_13 1 6"
 	},
 	{
-		uid: "9ba69e4e",
+		uid: "2ef524c8",
 		type: "item",
-		item: "contenttweaker:sub_block_holder_5 1 6"
+		item: "contenttweaker:sub_block_holder_17 1 14"
 	},
 	{
-		uid: "90ea3877",
+		uid: "a75c7290",
 		type: "item",
-		item: "contenttweaker:sub_block_holder_4 1 13"
+		item: "contenttweaker:sub_block_holder_9 1 12"
 	},
 	{
-		uid: "cafb3954",
+		uid: "597d912c",
 		type: "item",
-		item: "contenttweaker:sub_block_holder_0 1 5"
+		item: "contenttweaker:sub_block_holder_18 1 14"
 	}]
 }

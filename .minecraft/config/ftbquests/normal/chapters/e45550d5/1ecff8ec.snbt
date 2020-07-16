@@ -1,7 +1,7 @@
 {
 	icon: "primal:plant_fiber",
 	x: 0.0d,
-	y: -2.5d,
+	y: -0.5d,
 	text: [
 		"In this pack will different things require different qualities of cordages. The first you can make is made out of plant fibre. Plant fibres can be gotten from breaking tall grass. The grass will even regrow over time."
 	],

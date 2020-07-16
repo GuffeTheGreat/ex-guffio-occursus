@@ -15,13 +15,23 @@ addDefaultMutations:
     Notes:
         Adds all of the mutation biomes that would be added by the default GenLayerHills layer.
 
-setHill:
+removeHill:
     Arguments:
-        Non_Null_Biome_ID, Non_Null_Biome_ID_Array
+        Non_Null_Biome_ID
     Usage:
-        biome ID, hill biome ID array
+        biome ID
     Notes:
-        Sets the hill biomes for the provided biomeID.
+        Removes the hill biomes for the provided biome.
+
+addDefaultHills:
+    Notes:
+        Adds all of the hill biomes that would be added by the default GenLayerHills layer.
+
+removeMutation:
+    Arguments:
+        Non_Null_Biome_ID
+    Notes:
+        Removes the mutation biome for the provided biome.
 
 setMutation:
     Arguments:
@@ -31,21 +41,11 @@ setMutation:
     Notes:
         Sets the mutation biome for the provided biomeID.
 
-removeMutation:
+setHill:
     Arguments:
-        Non_Null_Biome_ID
-    Notes:
-        Removes the mutation biome for the provided biome.
-
-addDefaultHills:
-    Notes:
-        Adds all of the hill biomes that would be added by the default GenLayerHills layer.
-
-removeHill:
-    Arguments:
-        Non_Null_Biome_ID
+        Non_Null_Biome_ID, Non_Null_Biome_ID_Array
     Usage:
-        biome ID
+        biome ID, hill biome ID array
     Notes:
-        Removes the hill biomes for the provided biome.
+        Sets the hill biomes for the provided biomeID.
 

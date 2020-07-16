@@ -1,0 +1,58 @@
+{
+	title: "Crude Tools",
+	x: -1.5d,
+	y: -2.0d,
+	dependencies: [
+		"4c31648d",
+		"df4db9c8",
+		"1ecff8ec"
+	],
+	tasks: [{
+		uid: "23eaad7a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"bonfires:reinforce": {
+					maxLevel: 10,
+					level: 0
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "57e7ed25",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"bonfires:reinforce": {
+					maxLevel: 10,
+					level: 0
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c4b54e35",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"bonfires:reinforce": {
+					maxLevel: 10,
+					level: 0
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "pyrotech:crude_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

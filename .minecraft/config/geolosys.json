@@ -1,18 +1,22 @@
 {
 	"ores": [{
 			"blocks": [
-				"thaumcraft:ore_amber",
-				90,
-				"metallurgy:atlarus_ore",
-				10
+				"contenttweaker:sub_block_holder_2:5",
+				35,
+				"minecraft:iron_ore",
+				30,
+				"contenttweaker:sub_block_holder_7:2",
+				10,
+				"metallurgy:copper_ore",
+				25
 			],
 			"samples": [
-				"botania:mushroom",
+				"plants2:cosmetic_3:13",
 				100
 			],
-			"yMin": 2,
-			"yMax": 20,
-			"chance": 3,
+			"yMin": 30,
+			"yMax": 50,
+			"chance": 7,
 			"size":80,
 			"dimWhitelist": [
 				0
@@ -21,51 +25,45 @@
 		},
 		{
 			"blocks": [
-				"contenttweaker:tetrahedrite_block",
-				40,
-				"contenttweaker:stibnite_block",
-				35,
-				"metallurgy:copper_ore",
-				25
+				"minecraft:coal_ore",
+				60,
+				"contenttweaker:sub_block_holder_10:14",
+				40
 			],
 			"samples": [
-				"botania:mushroom:1",
+				"plants2:harvest_1:4",
 				125
 			],
 			"yMin": 10,
 			"yMax": 30,
 			"chance": 6,
 			"size": 100,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		},
 		{
 			"blocks": [
-				"contenttweaker:chalcopyrite_block",
-				30,
-				"contenttweaker:malachite_block",
-				25,
-				"metallurgy:copper_ore",
-				20,
-				"contenttweaker:pyrite_block",
-				20,
+				"contenttweaker:sub_block_holder_16:15",
+				45,
+				"contenttweaker:sub_block_holder_16:12",
+				10,
 				"minecraft:iron_ore",
-				10
+				25,
+				"minecraft:gold_ore",
+				20
 			],
 			"samples": [
-				"botania:mushroom:2",
+				"plants2:cosmetic_4:8",
 				100
 			],
-			"yMin": 30,
-			"yMax": 60,
-			"chance": 5,
+			"yMin": 25,
+			"yMax": 55,
+			"chance": 7,
 			"size": 100,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		},
@@ -73,84 +71,57 @@
 			"blocks": [
 				"minecraft:coal_ore",
 				70,
-				"contenttweaker:graphite_block",
+				"contenttweaker:sub_block_holder_9:11",
 				20,
 				"minecraft:diamond_ore",
 				10
 			],
 			"samples": [
-				"botania:mushroom:3",
+				"plants2:cosmetic_4:14",
 				100
 			],
 			"yMin": 5,
 			"yMax": 20,
 			"chance": 3,
 			"size": 200,
-			"dimBlacklist": [
-				-1,
-				1
-			],
-			"density": 1.0
-		},
-		{
-			"blocks": [
-				"thaumcraft:ore_amber",
-				95,
-				"metallurgy:atlarus_ore",
-				5
-			],
-			"samples": [
-				"botania:mushroom:4",
-				100
-			],
-			"yMin": 2,
-			"yMax": 15,
-			"chance": 3,
-			"size": 75,
-			"dimBlacklist": [
-				-1,
-				1
-			],
-			"density": 1.0,
-            "biomes": [
-       "thaumcraft:magical_forest"
-			],
-			"isWhitelist": true
-		},
-		{
-			"blocks": [
-				"contenttweaker:beryllium_block",
-				60,
-				"minecraft:emerald_ore",
-				25,
-				"aoa3:jade_ore",
-				15
-			],
-			"samples": [
-				"botania:mushroom:5",
-				100
-			],
-			"yMin": 32,
-			"yMax": 60,
-			"chance": 5,
-			"size": 90,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		},
 		{
 			"blocks": [
 				"metallurgy:tin_ore",
-				50,
-				"contenttweaker:cassiterite_block",
-				40,				
-				"aoa3:amethyst_ore",
-				10
+				45,
+				"contenttweaker:sub_block_holder_6:1",
+				55
 			],
 			"samples": [
-				"botania:mushroom:6",
+				"plants2:cosmetic_6:3",
+				100
+			],
+			"yMin": 2,
+			"yMax": 50,
+			"chance": 5,
+			"size": 125,
+			"dimWhitelist": [
+				0
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"contenttweaker:sub_block_holder_18",
+				30,
+				"contenttweaker:sub_block_holder_18:5",
+				30,
+				"contenttweaker:sub_block_holder_15:6",
+				25,
+				"contenttweaker:sub_block_holder_16:7",
+				15
+			],
+			"samples": [
+				"plants2:cosmetic_4:10",
 				100
 			],
 			"yMin": 32,
@@ -165,217 +136,165 @@
 		},
 		{
 			"blocks": [
-				"contenttweaker:magnetite_block",
+				"contenttweaker:sub_block_holder_4:10",
+				45,
+				"silentgems:gemore",
+				35,				
+				"thaumcraft:ore_cinnabar",
+				20
+			],
+			"samples": [
+				"plants2:cosmetic_0:8",
+				100
+			],
+			"yMin": 32,
+			"yMax": 60,
+			"chance": 4,
+			"size": 90,
+			"dimWhitelist": [
+				0
+			],
+			"density": 1.0
+		},
+		{
+			"blocks": [
+				"silentgems:gemore:10",
 				50,
-				"contenttweaker:vanadiummagnetite_block",
+				"contenttweaker:sub_block_holder_11",
 				20,
-				"minecraft:iron_ore",
+				"minecraft:lapis_ore",
 				20,
-				"minecraft:gold_ore",
+				"contenttweaker:sub_block_holder_1:5",
 				10
 			],
 			"samples": [
-				"botania:mushroom:7",
+				"plants2:cosmetic_5:1",
 				100
 			],
 			"yMin": 4,
 			"yMax": 32,
-			"chance": 6,
+			"chance": 4,
 			"size": 150,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		},
 		{
 			"blocks": [
-				"contenttweaker:spodumene_block",
-				15,
-				"immersiveintelligence:ore:3",
-				50,
-				"contenttweaker:lepidolite_block",
-				20,
-				"metallurgy:potash_ore",
-				15
+				"contenttweaker:sub_block_holder_5:5",
+				45,
+				"contenttweaker:sub_block_holder_0:5",
+				35,
+				"contenttweaker:sub_block_holder_4:5",
+				20
 			],
 			"samples": [
-				"botania:mushroom:8",
+				"plants2:cosmetic_3:4",
 				100
 			],
 			"yMin": 32,
 			"yMax": 60,
-			"chance": 5,
+			"chance": 4,
 			"size": 90,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		},
 				{
 			"blocks": [
-				"embers:ore_nickel",
+				"contenttweaker:sub_block_holder_2:5",
 				35,
-				"contenttweaker:cobaltite_block",
+				"contenttweaker:sub_block_holder_11:10",
 				20,
-				"contenttweaker:garnierite_block",
+				"contenttweaker:sub_block_holder_6:1",
 				25,
-				"contenttweaker:pentlandite_block",
+				"contenttweaker:sub_block_holder_9:1",
 				25
 			],
 			"samples": [
-				"botania:mushroom:9",
+				"plants2:cosmetic_2:8",
 				100
 			],
 			"yMin": 32,
 			"yMax": 60,
-			"chance": 5,
+			"chance": 3,
 			"size": 125,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		},
 		{
 			"blocks": [
-				"contenttweaker:galena_block",
-				40,
-				"embers:ore_lead",
-				35,
-				"metallurgy:silver_ore",
-				25
+				"contenttweaker:sub_block_holder_6:1",
+				50,
+				"contenttweaker:sub_block_holder_18:3",
+				25,
+				"contenttweaker:sub_block_holder_0:12",
+				15,
+				"contenttweaker:sub_block_holder_0:1",
+				10
 			],
 			"samples": [
-				"botania:mushroom:10",
+				"plants2:cosmetic_5:5",
 				100
 			],
 			"yMin": 6,
 			"yMax": 32,
 			"chance": 3,
 			"size": 100,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		},
 		{
 			"blocks": [
-				"minecraft:lapis_ore",
+				"contenttweaker:sub_block_holder_13:6",
 				40,
-				"contenttweaker:sodalite_block",
+				"contenttweaker:sub_block_holder_17:14",
 				25,
-				"aoa3:sapphire_ore",
+				"contenttweaker:sub_block_holder_9:12",
 				15,
-				"contenttweaker:calcite_block",
+				"contenttweaker:sub_block_holder_18:14",
 				20
 			],
 			"samples": [
-				"botania:mushroom:11",
-				40
+				"<plants2:cataplant>",
+				100
 			],
 			"yMin": 12,
 			"yMax": 44,
 			"chance": 3,
 			"size": 100,
-			"dimBlacklist": [
-				-1,
-				1
-			],
-			"density": 1.0
-		},
-		{
-			"blocks": [
-				"metallurgy:oureclase_ore",
-				55
-				"metallurgy:orichalcum_ore",
-				45
-			],
-			"samples": [
-				"botania:mushroom:12",
-				100
-			],
-			"yMin": 3,
-			"yMax": 20,
-			"chance": 5,
-			"size": 150,
-			"dimBlacklist": [
-				-1,
-				1
-			],
-			"density": 1.0,
-			"biomes": [
-			],
-			"isWhitelist": true
-		},
-		{
-			"blocks": [
-				"minecraft:redstone_ore",
-				70,
-				"thaumcraft:ore_cinnabar",
-				15,
-				"contenttweaker:ruby_block",
-				15
-			],
-			"samples": [
-				"botania:mushroom:14",
-				100
-			],
-			"yMin": 8,
-			"yMax": 43,
-			"chance": 3,
-			"size": 125,
-			"dimBlacklist": [
-				-1,
-				1
-			],
-			"density": 1.0
-		},
-		{
-			"blocks": [
-				"contenttweaker:soapstone_block",
-				30,
-				"contenttweaker:talc_block",
-				20,
-				"contenttweaker:glauconite_block",
-				25,
-				"contenttweaker:pentlandite_block",
-				25
-			],
-			"samples": [
-				"botania:mushroom:13",
-				100
-			],
-			"yMin": 16,
-			"yMax": 50,
-			"chance": 6,
-			"size": 100,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		},
 				{
 			"blocks": [
-				"minecraft:coal_ore",
-				70,
-				"actuallyadditions:block_misc:3",
-				30
+				"contenttweaker:sub_block_holder_17:11",
+				20,
+				"contenttweaker:sub_block_holder_7:13",
+				30,
+				"contenttweaker:sub_block_holder_2:3",
+				25,
+				"contenttweaker:sub_block_holder_11:12",
+				25
 			],
 			"samples": [
-				"botania:mushroom:15",
+				"plants2:cosmetic_3:2",
 				100
 			],
 			"yMin": 16,
 			"yMax": 50,
-			"chance": 6,
+			"chance": 2,
 			"size": 100,
-			"dimBlacklist": [
-				-1,
-				1
+			"dimWhitelist": [
+				0
 			],
 			"density": 1.0
 		}

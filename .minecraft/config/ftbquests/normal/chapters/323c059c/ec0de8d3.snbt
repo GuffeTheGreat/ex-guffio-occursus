@@ -1,0 +1,28 @@
+{
+	x: -7.0d,
+	y: -9.5d,
+	dependencies: [
+		"fc7e7e8b"
+	],
+	tasks: [{
+		uid: "bf12bc43",
+		type: "item",
+		items: [{
+			item: "prodigytech:rotary_grinder"
+		}]
+	},
+	{
+		uid: "19c3ffe0",
+		type: "item",
+		items: [{
+			item: "prodigytech:heat_sawmill"
+		}]
+	},
+	{
+		uid: "d8f16afb",
+		type: "item",
+		items: [{
+			item: "prodigytech:blower_furnace"
+		}]
+	}]
+}

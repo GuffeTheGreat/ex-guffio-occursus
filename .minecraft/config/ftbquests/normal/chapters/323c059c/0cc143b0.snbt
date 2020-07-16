@@ -1,0 +1,45 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:thaumonomicon"
+	},
+	x: -1.0d,
+	y: -2.0d,
+	dependencies: [
+		"eaf15105",
+		"e18e919f",
+		"34e8bd9d"
+	],
+	tasks: [{
+		uid: "fdbb16f9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "63f5e7ce",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	},
+	{
+		uid: "deb76e8f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	icon: "thaumcraft:smelter_basic",
+	x: 0.5d,
+	y: -5.0d,
+	dependencies: [
+		"2fec3958",
+		"760dd22d"
+	],
+	tasks: [{
+		uid: "279ecb78",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	},
+	{
+		uid: "61b9fe6f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}],
+		count: 2L
+	},
+	{
+		uid: "53662aa5",
+		type: "item",
+		items: [{
+			item: "thaumcraft:jar_normal"
+		}]
+	},
+	{
+		uid: "451ec39f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tube"
+		}]
+	}]
+}

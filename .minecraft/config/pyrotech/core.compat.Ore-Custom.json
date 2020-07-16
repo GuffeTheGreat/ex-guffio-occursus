@@ -57,8 +57,6 @@
     "oreGold": {
       "slagColor": "fcee4b",
       "langKey": [
-        "atum:tile.atum.goldOre",
-        "geolosys:geolosys.cluster.gold",
         "minecraft:tile.oreGold"
       ],
       "output": [
@@ -86,8 +84,6 @@
     "oreIron": {
       "slagColor": "d8af93",
       "langKey": [
-        "atum:tile.atum.ironOre",
-        "geolosys:geolosys.cluster.iron",
         "minecraft:tile.oreIron"
       ],
       "output": [
@@ -200,21 +196,10 @@
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
-        "crossroads:tile.ore_tin",
-        "embers:tile.ore_tin",
-        "geolosys:geolosys.cluster.tin",
-        "libvulpes:material.Tin",
-        "metallurgy:tile.metallurgy.tin_ore",
-        "nuclearcraft:tile.nuclearcraft.ore.tin"
+        "metallurgy:tile.metallurgy.tin_ore"
       ],
       "output": [
-        "crossroads:nugget_tin:0",
-        "embers:nugget_tin:0",
-        "libvulpes:productnugget:5",
-        "magneticraft:nuggets:13",
-        "metallurgy:tin_nugget:0",
-        "primal:tin_nugget:0",
-        "thaumcraft:nugget:2"
+        "metallurgy:tin_nugget:0"
       ]
     },
     "oreUranium": {

@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: -8.0d,
+	dependencies: [
+		"9bdbf630"
+	],
+	tasks: [{
+		uid: "fd67f3d4",
+		type: "item",
+		items: [{
+			item: "prodigytech:solid_fuel_aeroheater"
+		}]
+	}]
+}

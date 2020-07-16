@@ -1,3 +1,5 @@
+mods.jei.JEI.removeAndHide(<rockhounding_chemistry:chemical_items:3>);
+
 //MetalAlloyer
 //Enderium
 //mods.rockhounding_chemistry.MetalAlloyer.add(["dustSilver", "dustPlatinum", "dustLead", "dustEnder"], [20, 20, 10, 50], <contenttweaker:material_part:75>);

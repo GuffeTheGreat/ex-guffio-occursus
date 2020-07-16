@@ -1,0 +1,29 @@
+{
+	icon: "crossroads:gear_copper",
+	x: -5.5d,
+	y: -5.0d,
+	dependencies: [
+		"924839fb"
+	],
+	tasks: [{
+		uid: "6b98f1a0",
+		type: "item",
+		items: [{
+			item: "crossroads:steam_turbine"
+		}]
+	},
+	{
+		uid: "c06269b0",
+		type: "item",
+		items: [{
+			item: "crossroads:rotary_pump"
+		}]
+	},
+	{
+		uid: "439d5813",
+		type: "item",
+		items: [{
+			item: "crossroads:grindstone"
+		}]
+	}]
+}

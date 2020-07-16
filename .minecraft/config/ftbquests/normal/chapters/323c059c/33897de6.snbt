@@ -1,0 +1,16 @@
+{
+	icon: "embers:crystal_ember",
+	x: -4.0d,
+	y: -5.0d,
+	dependencies: [
+		"15b1749a"
+	],
+	tasks: [{
+		uid: "ed020443",
+		type: "item",
+		items: [{
+			item: "embers:shard_ember"
+		}],
+		count: 8L
+	}]
+}

@@ -7,15 +7,13 @@
 		id: "primal:flint_shears"
 	},
 	x: 3.0d,
-	y: -0.5d,
+	y: -2.0d,
 	text: [
 		"Shears are pretty useful. Butchering Sheep for wool has been disabled. So you will need shears to get that.",
 		""
 	],
 	dependencies: [
-		"4c31648d",
-		"df4db9c8",
-		"1ecff8ec"
+		"3416c4fd"
 	],
 	tasks: [{
 		uid: "0d16dfe7",

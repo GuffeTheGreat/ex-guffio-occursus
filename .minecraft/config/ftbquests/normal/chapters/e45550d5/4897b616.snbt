@@ -22,9 +22,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "0d1fdaef",
+		uid: "93354925",
 		type: "item",
-		item: "minecraft:stone",
-		count: 6
+		item: "minecraft:stone_slab"
 	}]
 }

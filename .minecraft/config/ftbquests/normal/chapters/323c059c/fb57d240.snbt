@@ -1,0 +1,35 @@
+{
+	icon: "embers:stamper_base",
+	x: -2.5d,
+	y: -6.5d,
+	dependencies: [
+		"201e477e",
+		"aa015a1b"
+	],
+	tasks: [{
+		uid: "cd928f3b",
+		type: "item",
+		items: [{
+			item: "embers:stamper_base"
+		}]
+	},
+	{
+		uid: "3ec7f051",
+		type: "item",
+		items: [{
+			item: "embers:stamper"
+		}]
+	},
+	{
+		uid: "833a0eee",
+		type: "item",
+		items: [{
+			item: "embers:bin"
+		}]
+	}],
+	rewards: [{
+		uid: "7c7d58ca",
+		type: "item",
+		item: "embers:stamp_flat"
+	}]
+}

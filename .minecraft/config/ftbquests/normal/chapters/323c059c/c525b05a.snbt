@@ -1,0 +1,15 @@
+{
+	x: -5.5d,
+	y: 1.0d,
+	tasks: [{
+		uid: "16d8c61d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thebetweenlands:swamp_talisman"
+		}],
+		ignore_nbt: 1b
+	}]
+}

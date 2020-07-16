@@ -2,15 +2,12 @@ import moretweaker.betweenlands.Animator;
 import moretweaker.betweenlands.DruidAltar;
 import moretweaker.betweenlands.Purifier;
 
+mods.jei.JEI.removeAndHide(<thebetweenlands:bl_bucket>);
+
 //Purifier
-/*
-Purifier.addRecipe(<thebetweenlands:betweenstone>, <thebetweenlands:cragrock>);
-Purifier.addRecipe(<ore:crushedSulfur>, <jaopca:item_crushedpurifiedsulfur>);
-Purifier.addRecipe(<ore:crushedSyrmorite>, <jaopca:item_crushedpurifiedsyrmorite>);
-Purifier.addRecipe(<ore:crushedOctine>, <jaopca:item_crushedpurifiedoctine>);
-Purifier.addRecipe(<ore:crushedScabyst>, <jaopca:item_crushedpurifiedscabyst>);
-Purifier.addRecipe(<ore:crushedValonite>, <jaopca:item_crushedpurifiedvalonite>);
-*/
+Purifier.addRecipe(<botania:specialflower>.withTag({type: "manastar"}), <botania:specialflower>.withTag({type: "puredaisy"}));
+
+
 //AnimatorRecipes
 Animator.addRecipe(<rats:raw_rat>, 10, 10, "rats:rat");
 Animator.addRecipe(<pyrotech:wool_tarred>, 25, 15, "primal:ovis_atre");
@@ -33,10 +30,18 @@ recipes.addShapedMirrored("1x_tile_thebetweenlands_animator_shaped", <thebetween
 ]);
 
 //Sulfurfurnace
+recipes.remove(<thebetweenlands:sulfur_furnace>);
 recipes.addShapedMirrored("1x_tile_thebetweenlands_sulfur_furnace_shaped", <thebetweenlands:sulfur_furnace>, [
 	[<thebetweenlands:betweenstone>, <thebetweenlands:betweenstone>, <thebetweenlands:betweenstone>],
 	[<materialpart:syrmorite:plate>, <thaumcraft:nitor_yellow>, <materialpart:syrmorite:plate>],
 	[<thebetweenlands:betweenstone>, <materialpart:syrmorite:gear>, <thebetweenlands:betweenstone>]
+]);
+
+//SyrmoriteBucket
+recipes.remove(<thebetweenlands:bl_bucket:1>);
+recipes.addShapedMirrored("1x_item_thebetweenlands_bl_bucket_syrmorite_shaped", <thebetweenlands:bl_bucket:1>.withTag({Fluid: {}}), [
+	[<ore:plateSyrmorite>, null, <ore:plateSyrmorite>],
+	[null, <ore:plateSyrmorite>, null]
 ]);
 
 
