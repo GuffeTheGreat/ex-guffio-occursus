@@ -21,11 +21,11 @@
 		  "meta": 0
 		},
 		"d": {
-		  "id": "metallurgy:atlarus_block",
+		  "id": "minecraft:stone",
 		  "meta": 0
 		},
 		"e": {
-		  "id": "metallurgy:midasium_block",
+		  "id": "minecraft:dirt",
 		  "meta": 0
 		},
 		"f": {

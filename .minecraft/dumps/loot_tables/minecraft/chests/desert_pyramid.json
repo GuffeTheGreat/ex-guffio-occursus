@@ -1,0 +1,978 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "minecraft:diamond",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "minecraft:iron_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ore"
+        },
+        {
+          "entryName": "minecraft:gold_ingot",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "minecraft:emerald",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:emerald"
+        },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:spider_eye",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 25,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 7.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:saddle",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "minecraft:iron_horse_armor",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:iron_horse_armor"
+        },
+        {
+          "entryName": "minecraft:golden_horse_armor",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_horse_armor"
+        },
+        {
+          "entryName": "minecraft:diamond_horse_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:diamond_horse_armor"
+        },
+        {
+          "entryName": "minecraft:book",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "minecraft:golden_apple",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "minecraft:golden_apple#0",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "entryName": "empty",
+          "weight": 15,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "quark:treasure_map",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "functions": [
+            {
+              "function": "quark:set_treasure"
+            }
+          ],
+          "name": "minecraft:filled_map"
+        },
+        {
+          "entryName": "quark:rune",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 15.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "quark:rune"
+        },
+        {
+          "entryName": "silentgemsGems1",
+          "weight": 16,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 47.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "silentgems:gem"
+        },
+        {
+          "entryName": "silentgemsGems2",
+          "weight": 16,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": {
+                "min": 0.0,
+                "max": 47.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "silentgems:gem"
+        },
+        {
+          "entryName": "actuallyadditions:drillCore",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 16.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "actuallyadditions:item_misc"
+        },
+        {
+          "entryName": "actuallyadditions:batWings",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 15.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "actuallyadditions:item_misc"
+        },
+        {
+          "entryName": "cyclicmagic:item.tool_push",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:tool_push"
+        },
+        {
+          "entryName": "cyclicmagic:item.sprout_seed",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:sprout_seed"
+        },
+        {
+          "entryName": "cyclicmagic:item.ender_lightning",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:ender_lightning"
+        },
+        {
+          "entryName": "cyclicmagic:item.glove_climb",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:glove_climb"
+        },
+        {
+          "entryName": "cyclicmagic:item.emerald_sword",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:emerald_sword"
+        },
+        {
+          "entryName": "cyclicmagic:item.charm_void",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:charm_void"
+        },
+        {
+          "entryName": "cyclicmagic:item.tool_prospector",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:tool_prospector"
+        },
+        {
+          "entryName": "cyclicmagic:item.book_ender",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:book_ender"
+        },
+        {
+          "entryName": "cyclicmagic:item.tool_warp_home",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:tool_warp_home"
+        },
+        {
+          "entryName": "cyclicmagic:item.emerald_pickaxe",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:emerald_pickaxe"
+        },
+        {
+          "entryName": "cyclicmagic:item.charm_fire",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:charm_fire"
+        },
+        {
+          "entryName": "cyclicmagic:item.evoker_fang",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:evoker_fang"
+        },
+        {
+          "entryName": "cyclicmagic:item.tool_warp_spawn",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:tool_warp_spawn"
+        },
+        {
+          "entryName": "cyclicmagic:item.inventory_food",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:inventory_food"
+        },
+        {
+          "entryName": "cyclicmagic:item.heart_food",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:heart_food"
+        },
+        {
+          "entryName": "cyclicmagic:item.ender_dungeon",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:ender_dungeon"
+        },
+        {
+          "entryName": "cyclicmagic:item.tool_elevate",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:tool_elevate"
+        },
+        {
+          "entryName": "cyclicmagic:item.crafting_food",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:crafting_food"
+        },
+        {
+          "entryName": "cyclicmagic:item.apple_emerald",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:apple_emerald"
+        },
+        {
+          "entryName": "cyclicmagic:item.sack_ender",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:sack_ender"
+        },
+        {
+          "entryName": "cyclicmagic:item.ender_tnt_6",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:ender_tnt_6"
+        },
+        {
+          "entryName": "cyclicmagic:item.charm_air",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:charm_air"
+        },
+        {
+          "entryName": "cyclicmagic:item.cyclic_wand_build",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:cyclic_wand_build"
+        },
+        {
+          "entryName": "cyclicmagic:item.tool_harvest_crops",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:tool_harvest_crops"
+        },
+        {
+          "entryName": "cyclicmagic:item.charm_wing",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:charm_wing"
+        },
+        {
+          "entryName": "cyclicmagic:item.corrupted_chorus",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:corrupted_chorus"
+        },
+        {
+          "entryName": "cyclicmagic:item.ender_pearl_mounted",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:ender_pearl_mounted"
+        },
+        {
+          "entryName": "cyclicmagic:item.charm_antidote",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:charm_antidote"
+        },
+        {
+          "entryName": "cyclicmagic:item.tool_auto_torch",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:tool_auto_torch"
+        },
+        {
+          "entryName": "cyclicmagic:item.emerald_chestplate",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:emerald_chestplate"
+        },
+        {
+          "entryName": "cyclicmagic:item.ender_pearl_reuse",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "name": "cyclicmagic:ender_pearl_reuse"
+        },
+        {
+          "entryName": "astralsorcery:constellation_paper",
+          "weight": 10,
+          "quality": 2,
+          "type": "item",
+          "name": "astralsorcery:itemconstellationpaper"
+        },
+        {
+          "entryName": "nuclearcraft:dominos",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:dominos"
+        },
+        {
+          "entryName": "nuclearcraft:milk_chocolate",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:milk_chocolate"
+        },
+        {
+          "entryName": "nuclearcraft:marshmallow",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:marshmallow"
+        },
+        {
+          "entryName": "nuclearcraft:smore",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 2.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:smore"
+        },
+        {
+          "entryName": "nuclearcraft:record_end_of_the_world",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:record_end_of_the_world"
+        },
+        {
+          "entryName": "nuclearcraft:record_money_for_nothing",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:record_money_for_nothing"
+        },
+        {
+          "entryName": "nuclearcraft:record_wanderer",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:record_wanderer"
+        },
+        {
+          "entryName": "nuclearcraft:record_hyperspace",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "nuclearcraft:record_hyperspace"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    },
+    {
+      "name": "pool1",
+      "entries": [
+        {
+          "entryName": "minecraft:bone",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "minecraft:gunpowder",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "entryName": "minecraft:rotten_flesh",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "minecraft:string",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "minecraft:sand",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:sand"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "Ender IO",
+      "entries": [
+        {
+          "entryName": "enderio:chests/desert_pyramid",
+          "weight": 1,
+          "quality": 1,
+          "type": "loot_table",
+          "name": "enderio:chests/desert_pyramid"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      }
+    },
+    {
+      "name": "bewitchment_materials_pool",
+      "entries": [
+        {
+          "entryName": "bewitchment_materials_entry",
+          "weight": 5,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "bewitchment:chests/materials"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "manuscript",
+      "entries": [
+        {
+          "entryName": "iceandfire:manuscript",
+          "weight": 20,
+          "quality": 5,
+          "type": "item",
+          "name": "iceandfire:manuscript"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "silver_ingot",
+      "entries": [
+        {
+          "entryName": "iceandfire:silver_ingot",
+          "weight": 15,
+          "quality": 12,
+          "type": "item",
+          "name": "iceandfire:silver_ingot"
+        },
+        {
+          "entryName": "iceandfire:silver_nugget",
+          "weight": 20,
+          "quality": 6,
+          "type": "item",
+          "name": "iceandfire:silver_nugget"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 3.0
+      },
+      "bonus_rolls": {
+        "min": 1.0,
+        "max": 2.0
+      },
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "pneumaticcraft_inject_pool",
+      "entries": [
+        {
+          "entryName": "pneumaticcraft_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "pneumaticcraft:inject/simple_dungeon_loot"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "randomthings:biomeCrystal",
+      "entries": [
+        {
+          "entryName": "randomthings:biomeCrystal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            null
+          ],
+          "name": "randomthings:biomecrystal"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "rats:contaminated_food",
+      "entries": [
+        {
+          "entryName": "rats:contaminated_food",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "name": "rats:contaminated_food"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 5.0
+      },
+      "conditions": [
+        {
+          "chance": 0.4,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "token_fragment",
+      "entries": [
+        {
+          "entryName": "rats:token_fragment",
+          "weight": 8,
+          "quality": 10,
+          "type": "item",
+          "name": "rats:token_fragment"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.2,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "rat_upgrade_basic",
+      "entries": [
+        {
+          "entryName": "rats:rat_upgrade_basic",
+          "weight": 3,
+          "quality": 8,
+          "type": "item",
+          "name": "rats:rat_upgrade_basic"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.05,
+          "condition": "minecraft:random_chance"
+        }
+      ]
+    },
+    {
+      "name": "botania_inject_pool",
+      "entries": [
+        {
+          "entryName": "botania_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "botania:inject/desert_pyramid"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "capsulePool",
+      "entries": [
+        {
+          "entryName": "capsule:capsuleLootsEntryconfig_capsule_loot_common",
+          "weight": 10,
+          "quality": 0,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "capsule.loot.CapsuleLootEntry"
+        },
+        {
+          "entryName": "capsule:capsuleLootsEntryconfig_capsule_loot_uncommon",
+          "weight": 6,
+          "quality": 0,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "capsule.loot.CapsuleLootEntry"
+        },
+        {
+          "entryName": "capsule:capsuleLootsEntryconfig_capsule_loot_rare",
+          "weight": 2,
+          "quality": 0,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "capsule.loot.CapsuleLootEntry"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

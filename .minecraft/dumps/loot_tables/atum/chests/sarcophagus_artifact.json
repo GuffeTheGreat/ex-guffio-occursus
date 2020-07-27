@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "name": "atum:sarcophagus_guaranteed_artifact",
+      "entries": [
+        {
+          "entryName": "atum:artifacts",
+          "weight": 1,
+          "quality": 2,
+          "type": "loot_table",
+          "name": "atum:artifacts"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "atum:sarcophagus_loot",
+      "entries": [
+        {
+          "entryName": "atum:chests/pharaoh",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "atum:chests/pharaoh"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

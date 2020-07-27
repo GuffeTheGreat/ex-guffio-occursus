@@ -24,8 +24,32 @@
     }
   },
   {
+    "placeType": "Horizontal",
+    "hasGUI": true,
+    "resourceName": "steam_turbine",
+    "model": "contenttweaker:steam_turbine",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
     "resourceName": "autoclave",
-    "model": "requious:assembly_slab",
+    "model": "contenttweaker:autoclave",
     "placeType": "Up",
     "hasGUI": true,
     "colorA": {
@@ -86,8 +110,80 @@
   {
     "placeType": "Up",
     "hasGUI": true,
+    "resourceName": "ratcraftingtable",
+    "model": "contenttweaker:ratcraftingtable",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "hasGUI": true,
+    "resourceName": "chemicalsplitter",
+    "model": "contenttweaker:chemicalsplitter",
+    "colors": [ 
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "hasGUI": true,
+    "resourceName": "chemicalformer",
+    "model": "contenttweaker:chemicalformer",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "hasGUI": true,
     "resourceName": "steam_furnace",
-    "model": "contenttweaker:steam_furnace",
+    "model": "requious:assembly_cauldron_open",
     "colors": [
       {
         "r": 255,
@@ -111,7 +207,7 @@
     "placeType": "Up",
     "hasGUI": true,
     "resourceName": "alloy_furnace",
-    "model": "contenttweaker:alloy_furnace",
+    "model": "requious:assembly_cauldron_closed",
     "colors": [
       {
         "r": 255,
@@ -135,7 +231,7 @@
     "placeType": "Up",
     "hasGUI": true,
     "resourceName": "fuel_furnace",
-    "model": "contenttweaker:fuel_furnace",
+    "model": "requious:assembly_crystallizer",
     "colors": [
       {
         "r": 255,
@@ -160,6 +256,30 @@
     "hasGUI": true,
     "resourceName": "compressor",
     "model": "contenttweaker:compressor",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+{
+    "placeType": "Up",
+    "hasGUI": true,
+    "resourceName": "sulfuricacidchamber",
+    "model": "contenttweaker:sulfuricacidchamber",
     "colors": [
       {
         "r": 255,

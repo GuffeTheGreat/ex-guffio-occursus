@@ -1,0 +1,11 @@
+{
+	x: -8.5d,
+	y: 0.5d,
+	tasks: [{
+		uid: "ebf64c58",
+		type: "item",
+		items: [{
+			item: "contenttweaker:case_basic"
+		}]
+	}]
+}

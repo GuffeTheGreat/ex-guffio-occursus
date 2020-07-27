@@ -1,0 +1,42 @@
+{
+	title: "Brutally Chopping Up Villagers for your own Benefit",
+	icon: {
+		ForgeCaps: {
+			"bonfires:reinforce": {
+				maxLevel: 10,
+				level: 0
+			},
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "bewitchment:athame"
+	},
+	x: 0.5d,
+	y: -2.0d,
+	dependencies: [
+		"979b2c49",
+		"55017a1b"
+	],
+	tasks: [{
+		uid: "38bf0321",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"bonfires:reinforce": {
+					maxLevel: 10,
+					level: 0
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bewitchment:athame"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9e706d6d",
+		type: "item",
+		items: [{
+			item: "bewitchment:heart"
+		}]
+	}]
+}

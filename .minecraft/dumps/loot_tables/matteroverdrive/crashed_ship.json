@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "name": "crashedShip",
+      "entries": [
+        {
+          "entryName": "matteroverdrive:tritanium_nugget",
+          "weight": 80,
+          "quality": 0,
+          "type": "item",
+          "name": "matteroverdrive:tritanium_nugget"
+        },
+        {
+          "entryName": "matteroverdrive:battery",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "matteroverdrive:battery"
+        },
+        {
+          "entryName": "empty",
+          "weight": 10,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

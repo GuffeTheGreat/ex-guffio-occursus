@@ -24,7 +24,48 @@
 		uid: "eaf32ece",
 		type: "item",
 		items: [{
-			item: "metallurgy:silver_ore"
+			item: {
+				item: {
+					item: {
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														item: {
+															item: {
+																item: {
+																	item: "metallurgy:silver_ore"
+																},
+																Count: 1b
+															},
+															Count: 1b
+														},
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
+						},
+						Count: 1b
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
 		}]
 	}],
 	rewards: [{

@@ -1,0 +1,1810 @@
+{
+  "pools": [
+    {
+      "name": "atum:iron_armor_35",
+      "entries": [
+        {
+          "entryName": "atum_desert_helmet_iron_black",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1908001}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_red",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:11546150}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_green",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:6192150}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_brown",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8606770}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3949738}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_purple",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8991416}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_cyan",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1481884}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_light_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:10329495}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:4673362}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_pink",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:15961002}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_lime",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8439583}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16701501}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_light_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3847130}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_magenta",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:13061821}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_orange",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16351261}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_helmet_iron_white",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16383998}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_black",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1908001}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_red",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:11546150}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_green",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:6192150}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_brown",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8606770}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3949738}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_purple",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8991416}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_cyan",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1481884}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_light_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:10329495}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:4673362}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_pink",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:15961002}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_lime",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8439583}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16701501}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_light_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3847130}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_magenta",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:13061821}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_orange",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16351261}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_chest_iron_white",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16383998}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_black",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1908001}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_red",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:11546150}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_green",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:6192150}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_brown",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8606770}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3949738}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_purple",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8991416}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_cyan",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1481884}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_light_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:10329495}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:4673362}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_pink",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:15961002}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_lime",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8439583}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16701501}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_light_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3847130}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_magenta",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:13061821}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_orange",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16351261}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_legs_iron_white",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16383998}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_black",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1908001}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_red",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:11546150}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_green",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:6192150}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_brown",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8606770}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3949738}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_purple",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8991416}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_cyan",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1481884}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_light_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:10329495}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:4673362}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_pink",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:15961002}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_lime",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8439583}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16701501}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_light_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3847130}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_magenta",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:13061821}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_orange",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16351261}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "atum_desert_boots_iron_white",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16383998}}",
+              "function": "minecraft:set_nbt"
+            },
+            {
+              "levels": {
+                "min": 30.0,
+                "max": 40.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "atum:desert_boots_iron"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

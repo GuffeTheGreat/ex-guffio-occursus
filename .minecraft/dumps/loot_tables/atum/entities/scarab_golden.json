@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "atum:crunchy_golden_scarab",
+      "entries": [
+        {
+          "entryName": "crunchy_golden_scarab",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:crunchy_golden_scarab"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

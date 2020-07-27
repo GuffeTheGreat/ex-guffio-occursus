@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "prodigytech:blocks/ferramic_block",
+      "particle": "prodigytech:blocks/ferramic_block"
+    },
+    "model": "contenttweaker:machine_case",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

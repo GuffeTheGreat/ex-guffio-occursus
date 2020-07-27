@@ -1,0 +1,98 @@
+{
+  "pools": [
+    {
+      "name": "atum:limestone_weapons_0",
+      "entries": [
+        {
+          "entryName": "limestone_pickaxe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:limestone_pickaxe"
+        },
+        {
+          "entryName": "limestone_axe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:limestone_axe"
+        },
+        {
+          "entryName": "limestone_hoe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:limestone_hoe"
+        },
+        {
+          "entryName": "limestone_shovel",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:limestone_shovel"
+        },
+        {
+          "entryName": "limestone_sword",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:limestone_sword"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

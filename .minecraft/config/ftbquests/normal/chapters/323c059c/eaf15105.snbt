@@ -1,6 +1,6 @@
 {
 	icon: "crossroads:heating_crucible",
-	x: -2.5d,
+	x: -4.0d,
 	y: -0.5d,
 	dependencies: [
 		"db3eedab"

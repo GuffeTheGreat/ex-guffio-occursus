@@ -1,0 +1,25 @@
+{
+	title: "Salt Automation",
+	icon: "crossroads:water_centrifuge",
+	x: -10.0d,
+	y: -9.5d,
+	shape: "rsquare",
+	dependencies: [
+		"a86cab3f"
+	],
+	tasks: [{
+		uid: "f54641ac",
+		type: "item",
+		items: [{
+			item: "crossroads:water_centrifuge"
+		}]
+	},
+	{
+		uid: "7fb3d3d1",
+		type: "item",
+		items: [{
+			item: "crossroads:dust_salt"
+		}],
+		count: 64L
+	}]
+}

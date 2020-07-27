@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "name": "atum:atums_bounty_fish",
+      "entries": [
+        {
+          "entryName": "fish_forsaken",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:fish_forsaken"
+        },
+        {
+          "entryName": "fish_mummified",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:fish_mummified"
+        },
+        {
+          "entryName": "fish_jeweled",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:fish_jeweled"
+        },
+        {
+          "entryName": "fish_skeletal",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:fish_skeletal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

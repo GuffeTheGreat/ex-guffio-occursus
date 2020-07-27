@@ -1,0 +1,277 @@
+{
+  "pools": [
+    {
+      "name": "atum:artifacts",
+      "entries": [
+        {
+          "entryName": "gebs_toil",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:gebs_toil"
+        },
+        {
+          "entryName": "atums_homecoming",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:atums_homecoming"
+        },
+        {
+          "entryName": "gebs_might",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:gebs_might"
+        },
+        {
+          "entryName": "anubiss_mercy",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:anubiss_mercy"
+        },
+        {
+          "entryName": "atums_bounty",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:atums_bounty"
+        },
+        {
+          "entryName": "ras_fury",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:ras_fury"
+        },
+        {
+          "entryName": "tefnuts_blessing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:tefnuts_blessing"
+        },
+        {
+          "entryName": "feet_of_ra",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:feet_of_ra"
+        },
+        {
+          "entryName": "seths_sting",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:seths_sting"
+        },
+        {
+          "entryName": "seths_venom",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:seths_venom"
+        },
+        {
+          "entryName": "feet_of_atum",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:feet_of_atum"
+        },
+        {
+          "entryName": "horuss_soaring",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:horuss_soaring"
+        },
+        {
+          "entryName": "body_of_ra",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:body_of_ra"
+        },
+        {
+          "entryName": "isis_healing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:isis_healing"
+        },
+        {
+          "entryName": "legs_of_ra",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:legs_of_ra"
+        },
+        {
+          "entryName": "shus_swiftness",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:shus_swiftness"
+        },
+        {
+          "entryName": "halo_of_ra",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:halo_of_ra"
+        },
+        {
+          "entryName": "montus_blast",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:montus_blast"
+        },
+        {
+          "entryName": "montus_strike",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:montus_strike"
+        },
+        {
+          "entryName": "nuits_duality",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:nuits_duality"
+        },
+        {
+          "entryName": "horuss_ascension",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:horuss_ascension"
+        },
+        {
+          "entryName": "legs_of_atum",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:legs_of_atum"
+        },
+        {
+          "entryName": "tefnuts_call",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:tefnuts_call"
+        },
+        {
+          "entryName": "atums_will",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:atums_will"
+        },
+        {
+          "entryName": "ptahs_decadence",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:ptahs_decadence"
+        },
+        {
+          "entryName": "ptahs_undoing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:ptahs_undoing"
+        },
+        {
+          "entryName": "eyes_of_atum",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:eyes_of_atum"
+        },
+        {
+          "entryName": "body_of_atum",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:body_of_atum"
+        },
+        {
+          "entryName": "shus_breath",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:shus_breath"
+        },
+        {
+          "entryName": "shus_exile",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:shus_exile"
+        },
+        {
+          "entryName": "gebs_grounding",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:gebs_grounding"
+        },
+        {
+          "entryName": "nuits_vanishing",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:nuits_vanishing"
+        },
+        {
+          "entryName": "tefnuts_rain",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:tefnuts_rain"
+        },
+        {
+          "entryName": "anubiss_wrath",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:anubiss_wrath"
+        },
+        {
+          "entryName": "nuits_ire",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:nuits_ire"
+        },
+        {
+          "entryName": "nuits_quarter",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:nuits_quarter"
+        },
+        {
+          "entryName": "anputs_hunger",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:anputs_hunger"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

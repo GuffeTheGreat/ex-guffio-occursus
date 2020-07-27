@@ -1,4 +1,5 @@
 {
+	icon: "prodigytech:ferramic_ingot",
 	x: -8.5d,
 	y: -8.0d,
 	dependencies: [
@@ -9,6 +10,13 @@
 		type: "item",
 		items: [{
 			item: "prodigytech:ferramic_ingot"
+		}]
+	},
+	{
+		uid: "dfa79eca",
+		type: "item",
+		items: [{
+			item: "contenttweaker:case_ferramic"
 		}]
 	}]
 }

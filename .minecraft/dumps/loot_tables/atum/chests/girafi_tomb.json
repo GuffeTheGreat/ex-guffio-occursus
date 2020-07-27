@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "name": "atum:girafi_tomb_loot",
+      "entries": [
+        {
+          "entryName": "atum:chests/pyramid_chest",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "atum:chests/pyramid_chest"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "atum:girafi_tomb_idol",
+      "entries": [
+        {
+          "entryName": "idol_of_labor",
+          "weight": 1,
+          "quality": 1,
+          "type": "item",
+          "name": "atum:idol_of_labor"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

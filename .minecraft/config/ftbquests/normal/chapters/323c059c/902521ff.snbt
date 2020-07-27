@@ -25,5 +25,12 @@
 		items: [{
 			item: "crossroads:grindstone"
 		}]
+	},
+	{
+		uid: "76ccfc85",
+		type: "item",
+		items: [{
+			item: "crossroads:master_axis"
+		}]
 	}]
 }

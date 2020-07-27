@@ -1,0 +1,509 @@
+{
+  "pools": [
+    {
+      "name": "atum:crate",
+      "entries": [
+        {
+          "entryName": "saddle",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:saddle"
+        },
+        {
+          "entryName": "graverobbers_map",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:graverobbers_map"
+        },
+        {
+          "entryName": "string",
+          "weight": 75,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "feather",
+          "weight": 75,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:feather"
+        },
+        {
+          "entryName": "leather",
+          "weight": 75,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:leather"
+        },
+        {
+          "entryName": "cloth_scrap",
+          "weight": 75,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:cloth_scrap"
+        },
+        {
+          "entryName": "gunpowder",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "entryName": "fertile_soil_pile",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:fertile_soil_pile"
+        },
+        {
+          "entryName": "rotten_flesh",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "entryName": "dusty_bone",
+          "weight": 100,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:dusty_bone"
+        },
+        {
+          "entryName": "redstone",
+          "weight": 50,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:redstone"
+        },
+        {
+          "entryName": "coal",
+          "weight": 45,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "date",
+          "weight": 45,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:date"
+        },
+        {
+          "entryName": "emmer_seeds",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:emmer_seeds"
+        },
+        {
+          "entryName": "melon_seeds",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "entryName": "golden_date",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:golden_date"
+        },
+        {
+          "entryName": "golden_date_enchanted",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:golden_date_enchanted"
+        },
+        {
+          "entryName": "atum:chests/subloot/limestone_weapons_0",
+          "weight": 150,
+          "quality": 2,
+          "type": "loot_table",
+          "name": "atum:chests/subloot/limestone_weapons_0"
+        },
+        {
+          "entryName": "atum:chests/subloot/iron_weapons_0",
+          "weight": 25,
+          "quality": 2,
+          "type": "loot_table",
+          "name": "atum:chests/subloot/iron_weapons_0"
+        },
+        {
+          "entryName": "atum:chests/subloot/iron_weapons_25",
+          "weight": 10,
+          "quality": 2,
+          "type": "loot_table",
+          "name": "atum:chests/subloot/iron_weapons_25"
+        },
+        {
+          "entryName": "atum:chests/subloot/iron_armor_0",
+          "weight": 25,
+          "quality": 2,
+          "type": "loot_table",
+          "name": "atum:chests/subloot/iron_armor_0"
+        },
+        {
+          "entryName": "atum:chests/subloot/iron_armor_25",
+          "weight": 10,
+          "quality": 2,
+          "type": "loot_table",
+          "name": "atum:chests/subloot/iron_armor_25"
+        },
+        {
+          "entryName": "iron_ingot",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ore"
+        },
+        {
+          "entryName": "gold_ingot",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "pharaoh_torch",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:pharaoh_torch"
+        },
+        {
+          "entryName": "coin_dirty",
+          "weight": 45,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:coin_dirty"
+        },
+        {
+          "entryName": "loot_dirty_ring",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:loot_dirty_ring"
+        },
+        {
+          "entryName": "loot_dirty_necklace",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:loot_dirty_necklace"
+        },
+        {
+          "entryName": "loot_dirty_broach",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:loot_dirty_broach"
+        },
+        {
+          "entryName": "loot_dirty_scepter",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:loot_dirty_scepter"
+        },
+        {
+          "entryName": "loot_dirty_idol",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:loot_dirty_idol"
+        },
+        {
+          "entryName": "name_tag",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "desert_wolf_iron_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:desert_wolf_iron_armor"
+        },
+        {
+          "entryName": "desert_wolf_gold_armor",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:desert_wolf_gold_armor"
+        },
+        {
+          "entryName": "desert_wolf_diamond_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:desert_wolf_diamond_armor"
+        },
+        {
+          "entryName": "camel_iron_armor",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:camel_iron_armor"
+        },
+        {
+          "entryName": "camel_gold_armor",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:camel_gold_armor"
+        },
+        {
+          "entryName": "camel_diamond_armor",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:camel_diamond_armor"
+        },
+        {
+          "entryName": "disenchanting_scroll",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:disenchanting_scroll"
+        },
+        {
+          "entryName": "enchanted_book",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:book"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 6.0
+      }
+    },
+    {
+      "name": "atum:ruins_sand",
+      "entries": [
+        {
+          "entryName": "sand",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:sand"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "atum:ruins_artifact",
+      "entries": [
+        {
+          "entryName": "atum:artifacts",
+          "weight": 1,
+          "quality": 2,
+          "type": "loot_table",
+          "name": "atum:artifacts"
+        },
+        {
+          "entryName": "empty",
+          "weight": 175,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

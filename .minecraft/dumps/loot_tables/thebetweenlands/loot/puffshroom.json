@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "name": "puffshroom",
+      "entries": [
+        {
+          "entryName": "thebetweenlands:puffshroom_tendril",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "thebetweenlands:puffshroom_tendril"
+        }
+      ],
+      "rolls": {
+        "min": 1.0,
+        "max": 2.0
+      }
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

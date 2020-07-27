@@ -1,0 +1,133 @@
+{
+  "pools": [
+    {
+      "name": "atum:diamond_weapons_25",
+      "entries": [
+        {
+          "entryName": "diamond_pickaxe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 30.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_pickaxe"
+        },
+        {
+          "entryName": "diamond_axe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 30.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_axe"
+        },
+        {
+          "entryName": "diamond_hoe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "function": "minecraft:enchant_randomly"
+            }
+          ],
+          "name": "minecraft:diamond_hoe"
+        },
+        {
+          "entryName": "diamond_shovel",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 30.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_shovel"
+        },
+        {
+          "entryName": "diamond_sword",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "levels": {
+                "min": 20.0,
+                "max": 30.0
+              },
+              "treasure": true,
+              "function": "minecraft:enchant_with_levels"
+            }
+          ],
+          "name": "minecraft:diamond_sword"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "pools": [
+    {
+      "name": "atum:warlord_coin",
+      "entries": [
+        {
+          "entryName": "coin_dirty",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "atum:coin_dirty"
+        },
+        {
+          "entryName": "empty",
+          "weight": 3,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "atum:warlord_desert_armor",
+      "entries": [
+        {
+          "entryName": "desert_helmet_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:desert_helmet_iron"
+        },
+        {
+          "entryName": "desert_chest_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:desert_chest_iron"
+        },
+        {
+          "entryName": "desert_legs_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:desert_legs_iron"
+        },
+        {
+          "entryName": "desert_boots_iron",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:desert_boots_iron"
+        },
+        {
+          "entryName": "empty",
+          "weight": 8,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": {
+        "min": 0.0,
+        "max": 1.0
+      },
+      "conditions": [
+        {
+          "inverse": false,
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

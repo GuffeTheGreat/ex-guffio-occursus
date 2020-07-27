@@ -1,0 +1,18 @@
+{
+  "id": "Villager_173,63,139",
+  "name": "Villager",
+  "icon": "waypoint-normal.png",
+  "x": 173,
+  "y": 63,
+  "z": 139,
+  "r": 206,
+  "g": 195,
+  "b": 22,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

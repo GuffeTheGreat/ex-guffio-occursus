@@ -1,0 +1,28 @@
+{
+	icon: "prodigytech:zorrasteel_ingot",
+	x: -8.5d,
+	y: -14.0d,
+	shape: "rsquare",
+	dependencies: [
+		"3621b89d"
+	],
+	tasks: [{
+		uid: "305c6441",
+		type: "item",
+		items: [{
+			item: "prodigytech:zorrasteel_ingot"
+		}]
+	},
+	{
+		uid: "35e15db4",
+		type: "item",
+		items: [{
+			item: "prodigytech:zorra_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "1cc1fd0c",
+		type: "item",
+		item: "rats:rat_upgrade_lumberjack"
+	}]
+}

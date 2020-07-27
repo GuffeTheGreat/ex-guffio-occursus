@@ -2,6 +2,7 @@
 	icon: "crossroads:heat_exchanger",
 	x: -8.5d,
 	y: -3.5d,
+	shape: "rsquare",
 	dependencies: [
 		"6042b89d"
 	],

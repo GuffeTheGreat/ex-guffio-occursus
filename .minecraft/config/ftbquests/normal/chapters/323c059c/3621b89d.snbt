@@ -1,14 +1,15 @@
 {
 	x: -7.0d,
 	y: -14.0d,
+	shape: "diamond",
 	dependencies: [
 		"76d807fc"
 	],
 	tasks: [{
-		uid: "0e9b4eee",
+		uid: "708c1892",
 		type: "item",
 		items: [{
-			item: "metallurgy:steel_ingot"
+			item: "immersiveengineering:metal 1 8"
 		}]
 	}]
 }

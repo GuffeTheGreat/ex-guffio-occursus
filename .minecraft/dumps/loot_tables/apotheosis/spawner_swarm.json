@@ -1,0 +1,203 @@
+{
+  "pools": [
+    {
+      "field_186453_a": [
+        {
+          "entryName": "placebo_loot_entry_22",
+          "weight": 1,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_23",
+          "weight": 1,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_24",
+          "weight": 1,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_25",
+          "weight": 1,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_26",
+          "weight": 1,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_27",
+          "weight": 1,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_28",
+          "weight": 1,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_29",
+          "weight": 1,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_30",
+          "weight": 3,
+          "quality": 4,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_31",
+          "weight": 3,
+          "quality": 4,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_32",
+          "weight": 10,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_33",
+          "weight": 10,
+          "quality": 3,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_34",
+          "weight": 1,
+          "quality": 2,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_35",
+          "weight": 5,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_36",
+          "weight": 5,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_37",
+          "weight": 3,
+          "quality": 1,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_38",
+          "weight": 1,
+          "quality": 3,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_39",
+          "weight": 3,
+          "quality": 0,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_40",
+          "weight": 3,
+          "quality": 0,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_41",
+          "weight": 3,
+          "quality": 0,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_42",
+          "weight": 3,
+          "quality": 0,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.placebo.loot.PlaceboLootEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_43",
+          "weight": 3,
+          "quality": 5,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.util.ChestBuilder$EnchantedEntry"
+        },
+        {
+          "entryName": "placebo_loot_entry_44",
+          "weight": 4,
+          "quality": 5,
+          "type": "loottweaker:best_effort",
+          "_comment": "A best effort serialisation of a non-serialisable entry",
+          "class": "shadows.util.ChestBuilder$AffixEntry"
+        }
+      ],
+      "field_186454_b": [],
+      "field_186455_c": {
+        "min": 5.0,
+        "max": 6.0
+      },
+      "field_186456_d": {
+        "min": 1.0,
+        "max": 4.0
+      },
+      "name": "placebo_loot_pool_1",
+      "isFrozen": false
+    }
+  ]
+}

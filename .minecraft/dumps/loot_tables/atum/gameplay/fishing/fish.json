@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "name": "atum:fish",
+      "entries": [
+        {
+          "entryName": "fish_skeletal",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:fish_skeletal"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

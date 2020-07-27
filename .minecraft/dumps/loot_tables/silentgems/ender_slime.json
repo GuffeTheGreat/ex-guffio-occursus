@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "name": "main",
+      "entries": [
+        {
+          "entryName": "silentgems:craftingmaterial",
+          "weight": 1,
+          "quality": 0,
+          "conditions": [
+            {
+              "chance": 0.075,
+              "looting_multiplier": 0.025,
+              "condition": "minecraft:random_chance_with_looting"
+            }
+          ],
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 31.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "silentgems:craftingmaterial"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

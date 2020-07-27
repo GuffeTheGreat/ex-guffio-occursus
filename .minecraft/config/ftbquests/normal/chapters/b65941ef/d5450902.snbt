@@ -1,0 +1,29 @@
+{
+	icon: "bloodmagic:soul_snare",
+	x: 0.5d,
+	y: -5.0d,
+	dependencies: [
+		"c4d6d41e"
+	],
+	tasks: [{
+		uid: "2c524baa",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	},
+	{
+		uid: "268d0981",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6106378302476884828L,
+					AS_Amulet_HolderMost: 4863570407252250259L
+				}
+			},
+			id: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}]
+}

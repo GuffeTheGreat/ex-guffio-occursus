@@ -1,0 +1,194 @@
+{
+  "pools": [
+    {
+      "name": "atum:iron_weapons_0",
+      "entries": [
+        {
+          "entryName": "atum_shortbow",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:short_bow"
+        },
+        {
+          "entryName": "iron_pickaxe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:iron_pickaxe"
+        },
+        {
+          "entryName": "iron_axe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:iron_axe"
+        },
+        {
+          "entryName": "iron_hoe",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:iron_hoe"
+        },
+        {
+          "entryName": "iron_shovel",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "minecraft:iron_shovel"
+        },
+        {
+          "entryName": "iron_scimitar",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:iron_scimitar"
+        },
+        {
+          "entryName": "iron_dagger",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:iron_dagger"
+        },
+        {
+          "entryName": "iron_khopesh",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:iron_khopesh"
+        },
+        {
+          "entryName": "iron_club",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:iron_club"
+        },
+        {
+          "entryName": "brigand_shield",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:brigand_shield"
+        },
+        {
+          "entryName": "iron_greatsword",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "atum:iron_greatsword"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -16,21 +16,21 @@ item.contenttweaker.energy_star.name=Energy Star
 tile.contenttweaker.blast_gel_block.name=Block of Blast Gel
 tile.contenttweaker.blast_gel_processed.name=Blast Precursor
 
-tile.contenttweaker.case_karmesine.name=Karmesine Hull
-tile.contenttweaker.case_ovium.name=Ovium Hull
-tile.contenttweaker.case_jauxum.name=Jauxum Hull
-tile.contenttweaker.case_terrax.name=Terrax Hull
-tile.contenttweaker.case_aurorium.name=Aurorium Hull
-tile.contenttweaker.case_astrium.name=Astrium Hull
-tile.contenttweaker.case_palladium.name=Palladium Hull
+tile.contenttweaker.case_ferramic.name=Ferramic Hull
+tile.contenttweaker.case_basic.name=Basic Hull
+tile.contenttweaker.case_intermediate.name=Intermediate Hull
+tile.contenttweaker.case_advanced.name=Advanced Hull
+tile.contenttweaker.case_elite.name=Elite Hull
+tile.contenttweaker.case_insane.name=Insane Casing
+tile.contenttweaker.case_ludicrous.name=Ludicrous Hull
+tile.contenttweaker.case_absurd.name=Absurd Hull
+tile.contenttweaker.case_divine.name=Divine Hull
+tile.contenttweaker.case_transcendent.name=Transcendent Hull
 
-tile.contenttweaker.case_seismum.name=Seismum Hull
-tile.contenttweaker.case_fractum.name=Fractum Hull
-tile.contenttweaker.case_uru.name=Uru Hull
-tile.contenttweaker.case_vibranium.name=Vibranium Hull
 
 tile.autoclave.name=Gem Refinery
 tile.laser.name=Laser Emitter
+tile.sulfuricacidchamber.name=Chemical Dissolver
 
 fluid.fuel=Fuel
 fluid.gas=Fuel Gas
@@ -39,6 +39,7 @@ fluid.dragon_breath=Dragon's Breath
 requious.unit.laser.nuclear=Nuclear: %sn
 requious.unit.laser.laser=Laser: %sh
 
+requious.jei.recipe.sulfuricacidchamber=Chemical Dissolver
 requious.jei.recipe.autoclave=Gem Refinery
 requious.jei.recipe.laser=Laser Emitter
 requious.jei.recipe.assembler=Assembler
@@ -128,12 +129,24 @@ item.contenttweaker.absurdfield_generator.name=Absurd Field Generator
 item.contenttweaker.divinefield_generator.name=Divine Field Generator
 item.contenttweaker.transcendentfield_generator.name=Transcendent Field Generators
 
+item.contenttweaker.lignite.name=Lignite
+item.contenttweaker.bone_stock.name=Bone Stock
+item.contenttweaker.hide_stock.name=Hide Stock
+item.contenttweaker.swollen_hide_stock.name=Swollen Hide Stock
+item.contenttweaker.swollen_fish_stock.name=Swollen Fish Stock
+item.contenttweaker.fish_stock=Fish Stock
 item.contenttweaker.carbon_fibres.name=Carbon Fibres
 item.contenttweaker.quarryrat.name=Quarry Rat
 item.contenttweaker.dmrat.name=Digital Miner Rat
 
 fluid.diluted_sulfuric_acid=Diluted Sulfuric Acid
 fluid.hydrogen_sulfide=Hydrogen Sulfide
+fluid.glue_liquor=Glue Liquor
+fluid.limewater=Limewater
+fluid.purificatinfluid=Purification Fluid
+fluid.carbonicacid=Carbonic Acid
+fluid.phosphoricacid=Phosphoric Acid
+fluid.ethanoicacid=Ethanoic Acid
 fluid.polyethylene=Polyethylene
 fluid.polytetrafluoroethylene=Polytetrafluoroethylene
 fluid.sulfuric_diesel=Sulfuric Diesel
@@ -164,7 +177,7 @@ fluid.mineraloil=Mineral Oil
 fluid.gascondensates=Gas Condensates
 fluid.lng=LNG
 fluid.glass=Liquid Glass
-fluid.ice=Liquid Ice
+fluid.ember=Liquid Embers
 fluid.fluidedmana=Mana
 fluid.hotnaturalgas=Hot Natural Gas
 fluid.refinedmana=Refined Mana

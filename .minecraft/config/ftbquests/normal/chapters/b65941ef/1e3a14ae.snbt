@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -3.0d,
+	dependencies: [
+		"25a2a69f"
+	],
+	tasks: [{
+		uid: "f519f542",
+		type: "item",
+		items: [{
+			item: "embers:reaction_chamber"
+		}]
+	}]
+}

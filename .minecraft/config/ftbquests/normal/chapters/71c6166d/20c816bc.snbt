@@ -1,6 +1,6 @@
 {
 	icon: "minecraft:book",
-	x: 2.5d,
+	x: 1.5d,
 	y: -4.5d,
 	shape: "rsquare",
 	text: [

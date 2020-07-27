@@ -55,7 +55,6 @@
         "immersiveengineering:tile.immersiveengineering.ore.copper",
         "libvulpes:material.Copper",
         "magneticraft:tile.magneticraft.ores_copper",
-        "metallurgy:tile.metallurgy.copper_ore",
         "nuclearcraft:tile.nuclearcraft.ore.copper"
       ],
       "output": [
@@ -64,7 +63,6 @@
         "immersiveengineering:metal:20",
         "libvulpes:productnugget:4",
         "magneticraft:nuggets:2",
-        "metallurgy:copper_nugget:0",
         "primal:copper_nugget:0",
         "thaumcraft:nugget:1"
       ]
@@ -119,16 +117,6 @@
         "thaumcraft:nugget:4"
       ]
     },
-    "oreMithril": {
-      "slagColor": "9cf9ff",
-      "langKey": [
-        "metallurgy:tile.metallurgy.mithril_ore"
-      ],
-      "output": [
-        "magneticraft:nuggets:9",
-        "metallurgy:mithril_nugget:0"
-      ]
-    },
     "oreNickel": {
       "slagColor": "e4e5d8",
       "langKey": [
@@ -155,43 +143,39 @@
     "oreOsmium": {
       "slagColor": "9babc4",
       "langKey": [
-        "geolosys:geolosys.cluster.osmium",
-        "metallurgy:tile.metallurgy.osmium_ore"
+        "geolosys:geolosys.cluster.osmium"
       ],
       "output": [
-        "magneticraft:nuggets:11",
-        "metallurgy:osmium_nugget:0"
+        "magneticraft:nuggets:11"
       ]
     },
     "orePlatinum": {
       "slagColor": "55f3ff",
       "langKey": [
         "geolosys:geolosys.cluster.platinum",
-        "immersiveintelligence:tile.immersiveintelligence.ore.platinum",
-        "metallurgy:tile.metallurgy.platinum_ore"
+        "immersiveintelligence:tile.immersiveintelligence.ore.platinum"
       ],
       "output": [
         "immersiveintelligence:material_nugget:2",
-        "metallurgy:platinum_nugget:0",
         "primal:platinum_nugget:0"
       ]
     },
     "oreSilver": {
       "slagColor": "e8f6fd",
       "langKey": [
+        "bewitchment:tile.bewitchment.silver_ore",
         "embers:tile.ore_silver",
         "geolosys:geolosys.cluster.silver",
         "iceandfire:tile.iceandfire.silverOre",
         "immersiveengineering:tile.immersiveengineering.ore.silver",
-        "magneticraft:tile.magneticraft.ores_lead",
-        "metallurgy:tile.metallurgy.silver_ore"
+        "magneticraft:tile.magneticraft.ores_lead"
       ],
       "output": [
+        "bewitchment:silver_nugget:0",
         "embers:nugget_silver:0",
         "iceandfire:silver_nugget:0",
         "immersiveengineering:metal:23",
         "magneticraft:nuggets:12",
-        "metallurgy:silver_nugget:0",
         "primal:silver_nugget:0",
         "thaumcraft:nugget:3"
       ]
@@ -212,7 +196,6 @@
         "embers:tile.ore_tin",
         "geolosys:geolosys.cluster.tin",
         "libvulpes:material.Tin",
-        "metallurgy:tile.metallurgy.tin_ore",
         "nuclearcraft:tile.nuclearcraft.ore.tin"
       ],
       "output": [
@@ -220,7 +203,6 @@
         "embers:nugget_tin:0",
         "libvulpes:productnugget:5",
         "magneticraft:nuggets:13",
-        "metallurgy:tin_nugget:0",
         "primal:tin_nugget:0",
         "thaumcraft:nugget:2"
       ]

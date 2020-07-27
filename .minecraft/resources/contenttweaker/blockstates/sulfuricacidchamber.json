@@ -1,0 +1,35 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "contenttweaker:machine",
+    "textures": {
+	    "0": "contenttweaker:blocks/sulfuricacid",
+	    "down": "contenttweaker:blocks/ironcasing",
+      "up": "contenttweaker:blocks/sulfuricacidchambertop",
+      "north": "contenttweaker:blocks/sulfuricacidchamberfront",
+	    "south": "contenttweaker:blocks/sulfuricacidchamberside",
+            "west": "contenttweaker:blocks/sulfuricacidchamberside",
+            "east": "contenttweaker:blocks/sulfuricacidchamberside",
+      "particle": "contenttweaker:blocks/sulfuricacidchamberside"
+    },
+    "transform": "forge:default-block"
+  },
+  "variants":{
+    "normal":[{}],
+    "inventory":[{}],
+    "facing": {
+		"down":  { "x": 180 },
+        "up":    { },
+        "north": { "x": 90 },
+        "south": { "x": 90, "y": 180 },
+        "west":  { "x": 90, "y": 270 },
+        "east":  { "x": 90, "y": 90 }
+    },
+     "active": {
+      "true": {
+        "textures": {}
+      },
+      "false": {}
+    }
+  }
+}

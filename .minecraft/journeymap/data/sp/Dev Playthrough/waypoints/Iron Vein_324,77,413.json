@@ -1,0 +1,18 @@
+{
+  "id": "Iron Vein_324,77,413",
+  "name": "Iron Vein",
+  "icon": "waypoint-normal.png",
+  "x": 324,
+  "y": 77,
+  "z": 413,
+  "r": 204,
+  "g": 242,
+  "b": 31,
+  "enable": true,
+  "type": "Normal",
+  "origin": "journeymap",
+  "dimensions": [
+    0
+  ],
+  "persistent": true
+}

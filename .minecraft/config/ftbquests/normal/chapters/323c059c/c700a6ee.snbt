@@ -1,0 +1,28 @@
+{
+	x: -5.5d,
+	y: -0.5d,
+	dependencies: [
+		"db3eedab"
+	],
+	tasks: [{
+		uid: "3f7efd8e",
+		type: "item",
+		items: [{
+			item: "pyrotech:brick_sawmill"
+		}]
+	},
+	{
+		uid: "61b03d13",
+		type: "item",
+		items: [{
+			item: "pyrotech:brick_kiln"
+		}]
+	},
+	{
+		uid: "09bcc398",
+		type: "item",
+		items: [{
+			item: "pyrotech:brick_oven"
+		}]
+	}]
+}

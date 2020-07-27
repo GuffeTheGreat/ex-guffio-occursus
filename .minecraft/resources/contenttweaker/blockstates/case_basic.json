@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "0": "immersiveengineering/block/metal/storage_steel",
+      "particle": "immersiveengineering/block/metal/storage_steel"
+    },
+    "model": "contenttweaker:machine_case",
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

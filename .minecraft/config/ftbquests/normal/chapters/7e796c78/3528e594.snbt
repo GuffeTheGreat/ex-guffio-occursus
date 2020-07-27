@@ -10,7 +10,48 @@
 		uid: "de9bf865",
 		type: "item",
 		items: [{
-			item: "metallurgy:tin_ore"
+			item: {
+				item: {
+					item: {
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														item: {
+															item: {
+																item: {
+																	item: "metallurgy:tin_ore"
+																},
+																Count: 1b
+															},
+															Count: 1b
+														},
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
+						},
+						Count: 1b
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
 		}]
 	},
 	{

@@ -10,5 +10,10 @@
 		items: [{
 			item: "pyrotech:stone_kiln"
 		}]
+	}],
+	rewards: [{
+		uid: "694bb2a5",
+		type: "item",
+		item: "prodigytech:fuel_pellet_64"
 	}]
 }

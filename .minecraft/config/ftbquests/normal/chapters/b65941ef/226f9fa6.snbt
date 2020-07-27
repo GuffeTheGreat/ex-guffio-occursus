@@ -1,0 +1,13 @@
+{
+	icon: "rats:ratlantis_portal",
+	x: 0.5d,
+	y: 1.0d,
+	dependencies: [
+		"e612ebcf"
+	],
+	tasks: [{
+		uid: "fdbef854",
+		type: "dimension",
+		dim: -8
+	}]
+}

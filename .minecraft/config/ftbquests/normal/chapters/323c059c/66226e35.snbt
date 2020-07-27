@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: -8.0d,
+	dependencies: [
+		"cbb33d43"
+	],
+	tasks: [{
+		uid: "0b4aedba",
+		type: "item",
+		items: [{
+			item: "bewitchment:spinning_wheel"
+		}]
+	}]
+}

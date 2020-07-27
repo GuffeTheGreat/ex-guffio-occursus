@@ -1,0 +1,36 @@
+{
+	title: "New Dimension, New Gems",
+	x: 1.5d,
+	y: -0.5d,
+	dependencies: [
+		"226f9fa6"
+	],
+	tasks: [{
+		uid: "a7f68aa1",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 16"
+		}]
+	},
+	{
+		uid: "756f1c6f",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 32"
+		}]
+	},
+	{
+		uid: "93512062",
+		type: "item",
+		items: [{
+			item: "iceandfire:sapphire_gem"
+		}]
+	},
+	{
+		uid: "da3e970a",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 6"
+		}]
+	}]
+}

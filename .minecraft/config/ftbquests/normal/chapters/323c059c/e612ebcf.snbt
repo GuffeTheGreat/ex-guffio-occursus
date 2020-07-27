@@ -1,15 +1,15 @@
 {
 	x: -2.5d,
 	y: -14.0d,
+	shape: "diamond",
 	dependencies: [
 		"d600a6e1"
 	],
 	tasks: [{
-		uid: "8fa21952",
+		uid: "916d297c",
 		type: "item",
 		items: [{
-			item: "minecraft:stone 1 6"
-		}],
-		count: 10L
+			item: "rats:chunky_cheese_token"
+		}]
 	}]
 }

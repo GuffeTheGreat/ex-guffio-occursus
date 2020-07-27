@@ -19,7 +19,48 @@
 		uid: "00f028f4",
 		type: "item",
 		items: [{
-			item: "metallurgy:copper_ore"
+			item: {
+				item: {
+					item: {
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														item: {
+															item: {
+																item: {
+																	item: "metallurgy:copper_ore"
+																},
+																Count: 1b
+															},
+															Count: 1b
+														},
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
+						},
+						Count: 1b
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
 		}]
 	}]
 }

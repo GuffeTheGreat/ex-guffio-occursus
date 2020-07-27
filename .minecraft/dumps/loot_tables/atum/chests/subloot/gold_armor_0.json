@@ -1,0 +1,1298 @@
+{
+  "pools": [
+    {
+      "name": "atum:gold_armor_0",
+      "entries": [
+        {
+          "entryName": "atum_desert_helmet_gold_black",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1908001}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_red",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:11546150}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_green",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:6192150}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_brown",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8606770}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3949738}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_purple",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8991416}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_cyan",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1481884}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_light_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:10329495}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:4673362}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_pink",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:15961002}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_lime",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8439583}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16701501}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_light_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3847130}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_magenta",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:13061821}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_orange",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16351261}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_helmet_gold_white",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16383998}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_helmet_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_black",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1908001}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_red",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:11546150}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_green",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:6192150}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_brown",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8606770}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3949738}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_purple",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8991416}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_cyan",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1481884}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_light_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:10329495}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:4673362}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_pink",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:15961002}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_lime",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8439583}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16701501}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_light_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3847130}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_magenta",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:13061821}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_orange",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16351261}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_chest_gold_white",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16383998}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_chest_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_black",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1908001}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_red",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:11546150}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_green",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:6192150}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_brown",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8606770}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3949738}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_purple",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8991416}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_cyan",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1481884}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_light_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:10329495}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:4673362}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_pink",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:15961002}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_lime",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8439583}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16701501}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_light_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3847130}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_magenta",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:13061821}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_orange",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16351261}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_legs_gold_white",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16383998}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_legs_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_black",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1908001}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_red",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:11546150}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_green",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:6192150}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_brown",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8606770}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3949738}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_purple",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8991416}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_cyan",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:1481884}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_light_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:10329495}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_gray",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:4673362}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_pink",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:15961002}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_lime",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:8439583}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16701501}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_light_blue",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:3847130}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_magenta",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:13061821}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_orange",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16351261}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        },
+        {
+          "entryName": "atum_desert_boots_gold_white",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.25,
+                "max": 0.75
+              },
+              "function": "minecraft:set_damage"
+            },
+            {
+              "tag": "{display:{color:16383998}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "atum:desert_boots_gold"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

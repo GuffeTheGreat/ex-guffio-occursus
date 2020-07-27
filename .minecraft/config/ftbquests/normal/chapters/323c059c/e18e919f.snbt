@@ -3,7 +3,9 @@
 	x: -5.5d,
 	y: -2.0d,
 	dependencies: [
-		"a1a5e06b"
+		"eaf15105",
+		"a1a5e06b",
+		"c700a6ee"
 	],
 	tasks: [{
 		uid: "c4cac46f",
@@ -17,6 +19,13 @@
 		type: "item",
 		items: [{
 			item: "efab:tank"
+		}]
+	},
+	{
+		uid: "068c282c",
+		type: "item",
+		items: [{
+			item: "efab:gearbox"
 		}]
 	}]
 }

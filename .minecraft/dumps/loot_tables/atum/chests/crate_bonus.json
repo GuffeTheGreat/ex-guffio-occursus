@@ -1,0 +1,192 @@
+{
+  "pools": [
+    {
+      "name": "atum:crate_bonus_axe",
+      "entries": [
+        {
+          "entryName": "limestone_axe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:limestone_axe"
+        },
+        {
+          "entryName": "wooden_axe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:wooden_axe"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "atum:crate_bonus_pikckaxe",
+      "entries": [
+        {
+          "entryName": "limestone_pickaxe",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "name": "atum:limestone_pickaxe"
+        },
+        {
+          "entryName": "wooden_pickaxe",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "name": "minecraft:wooden_pickaxe"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "atum:crate_bonus_food",
+      "entries": [
+        {
+          "entryName": "date",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:date"
+        },
+        {
+          "entryName": "emmer_bread",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:emmer_bread"
+        },
+        {
+          "entryName": "crunchy_scarab",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:crunchy_scarab"
+        }
+      ],
+      "rolls": 3.0
+    },
+    {
+      "name": "atum:crate_bonus_wood",
+      "entries": [
+        {
+          "entryName": "stick",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:deadwood_stick"
+        },
+        {
+          "entryName": "plank_palm",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:palm_planks"
+        },
+        {
+          "entryName": "plank_deadwood",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 12.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:deadwood_planks"
+        },
+        {
+          "entryName": "palm_log",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:palm_log"
+        },
+        {
+          "entryName": "deadwood_log",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "atum:deadwood_log"
+        }
+      ],
+      "rolls": 4.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "pools": [
+    {
+      "name": "neo_ratlantean",
+      "entries": [
+        {
+          "entryName": "rats:psionic_rat_brain",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rats:psionic_rat_brain"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "main",
+      "entries": [],
+      "rolls": {
+        "min": 5.0,
+        "max": 10.0
+      }
+    }
+  ]
+}
