@@ -10,7 +10,7 @@
 		},
 		id: "bewitchment:athame"
 	},
-	x: 0.5d,
+	x: 0.0d,
 	y: -2.0d,
 	dependencies: [
 		"979b2c49",

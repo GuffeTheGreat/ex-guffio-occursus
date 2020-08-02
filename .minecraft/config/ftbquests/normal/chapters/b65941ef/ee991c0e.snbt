@@ -1,0 +1,22 @@
+{
+	icon: "crossroads:void_crystal",
+	x: -2.0d,
+	y: -15.5d,
+	dependencies: [
+		"7a2908d8"
+	],
+	tasks: [{
+		uid: "df558aec",
+		type: "item",
+		items: [{
+			item: "crossroads:void_crystal"
+		}]
+	},
+	{
+		uid: "311ab00f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stone_eldritch_tile"
+		}]
+	}]
+}

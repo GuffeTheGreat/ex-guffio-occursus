@@ -1,6 +1,6 @@
 {
 	title: "New Dimension, New Gems",
-	x: 1.5d,
+	x: 1.0d,
 	y: -0.5d,
 	dependencies: [
 		"226f9fa6"

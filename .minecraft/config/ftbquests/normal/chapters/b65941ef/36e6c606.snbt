@@ -1,0 +1,19 @@
+{
+	x: -5.5d,
+	y: -5.0d,
+	dependencies: [
+		"970829e5"
+	],
+	tasks: [{
+		uid: "c0363f33",
+		type: "item",
+		items: [{
+			item: "crossroads:salt_reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "b64171f3",
+		type: "item",
+		item: "actuallyadditions:block_breaker"
+	}]
+}

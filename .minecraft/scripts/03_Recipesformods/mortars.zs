@@ -30,6 +30,9 @@ var mortarRecipes as IItemStack[IItemStack] = {
 	<primal:bark_corypha> : <primal:tannin_ground>,
 	<thebetweenlands:items_misc:13> : <primal:tannin_ground>,
 	<thebetweenlands:items_crushed:16> : <primal:tannin_ground>,
+	<contenttweaker:dry_ice> : <contenttweaker:dry_ice_dust>,
+	<minecraft:clay_ball> : <contenttweaker:clay_dust>,
+	<minecraft:clay> : <contenttweaker:clay_dust>*4,
 	<cuisine:crops:13> : <primal:corn_ground>,
 	<primal:dry_grass> : <primal:plant_fiber_pulp>,
 	<primal:nether_root> : <primal:nether_fiber_pulp>,
@@ -64,7 +67,7 @@ for input, output in mortarRecipes {
 	mods.nuclearcraft.Manufactory.addRecipe(input, output);
 
 	#Magneticcraft
-	mods.magneticraft.Grinder.addRecipe(input, output, <minecraft:bedrock>, 0.0, 30, true);
+	mods.magneticraft.Grinder.addRecipe(input, output, null, 0.0, 30, true);
 
 
 }

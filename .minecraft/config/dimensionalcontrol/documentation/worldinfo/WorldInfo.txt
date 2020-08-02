@@ -3,34 +3,6 @@ results when used dimension specific.
 
 
 
-setDifficulty:
-    Arguments:
-        String
-    Usage:
-        difficulty
-    Notes:
-        Sets the difficulty. Options are "Peaceful", "Easy", "Normal", "Hard".
-
-setRaining:
-    Arguments:
-        Boolean
-    Notes:
-        Sets permanent raining.
-
-setWorldType:
-    Arguments:
-        String
-    Usage:
-        WorldType ID
-    Notes:
-        Sets the world type.
-
-setThundering:
-    Arguments:
-        Boolean
-    Notes:
-        Sets permanent thundering.
-
 setSeed:
     Arguments:
         Long
@@ -38,6 +10,12 @@ setSeed:
         seed
     Notes:
         Sets the world seed.
+
+setDifficultyLocked:
+    Arguments:
+        Boolean
+    Notes:
+        Sets if the difficulty is locked.
 
 setMapFeaturesEnabled:
     Arguments:
@@ -59,9 +37,31 @@ setCommandsAllowed:
     Notes:
         Sets if commands are allowed.
 
-setDifficultyLocked:
+setThundering:
     Arguments:
         Boolean
     Notes:
-        Sets if the difficulty is locked.
+        Sets permanent thundering.
+
+setDifficulty:
+    Arguments:
+        String
+    Usage:
+        difficulty
+    Notes:
+        Sets the difficulty. Options are "Peaceful", "Easy", "Normal", "Hard".
+
+setRaining:
+    Arguments:
+        Boolean
+    Notes:
+        Sets permanent raining.
+
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType ID
+    Notes:
+        Sets the world type.
 

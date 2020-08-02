@@ -301,9 +301,29 @@ purificationfluid.register();
 var carbonFibres as Item = VanillaFactory.createItem("carbon_fibres");
 carbonFibres.register();
 
+#Carbonmesh
+var carbonMesh as Item = VanillaFactory.createItem("carbon_mesh");
+carbonMesh.register();
+
+#Carbonplate
+var carbonPlate as Item = VanillaFactory.createItem("carbon_plate");
+carbonPlate.register();
+
 #lignite
 var lignite as Item = VanillaFactory.createItem("lignite");
 lignite.register();
+
+#dryice
+var dryice as Item = VanillaFactory.createItem("dry_ice");
+dryice.register();
+
+#dryicedust
+var dryicedust as Item = VanillaFactory.createItem("dry_ice_dust");
+dryicedust.register();
+
+#claydust
+var claydust as Item = VanillaFactory.createItem("clay_dust");
+claydust.register();
 
 #bonestock
 var boneStock as Item = VanillaFactory.createItem("bone_stock");
@@ -325,6 +345,14 @@ swollenFishStock.register();
 var swollenhideStock as Item = VanillaFactory.createItem("swollen_hide_stock");
 swollenhideStock.register();
 
+#hempcloth
+var hempCloth as Item = VanillaFactory.createItem("hemp_cloth");
+hempCloth.register();
+
+#AluminoSilicateWOol
+var alumino_silicate_wool as Item = VanillaFactory.createItem("alumino_silicate_wool");
+alumino_silicate_wool.register();
+
 #Quarry Rat
 var quarryRat as Item = VanillaFactory.createItem("quarryrat");
 quarryRat.register();
@@ -332,6 +360,10 @@ quarryRat.register();
 #Digital Miner Rat
 var digitalMinerRat as Item = VanillaFactory.createItem("dmrat");
 digitalMinerRat.register();
+
+#PrimordialGoop
+var primordialGoop as Item = VanillaFactory.createItem("primordialGoop");
+primordialGoop.register();
 
 //Microcraftingparts
 //Parts

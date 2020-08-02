@@ -1,6 +1,6 @@
 {
 	title: "Collecting More Metals",
-	x: -0.5d,
+	x: -1.0d,
 	y: -0.5d,
 	dependencies: [
 		"e612ebcf",

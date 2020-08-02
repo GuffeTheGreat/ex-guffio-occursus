@@ -5,15 +5,15 @@ import crafttweaker.item.WeightedItemStack;
 
 var assembler = <assembly:assembler>;
 
-var x = assembler.setItemSlot(1,1,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
-x = assembler.setItemSlot(1,2,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
-x = assembler.setItemSlot(1,3,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
-x = assembler.setItemSlot(2,1,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
-x = assembler.setItemSlot(2,2,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
-x = assembler.setFluidSlot(2,3,mods.requious.ComponentFace.all(),12000).setAccess(true,false).setGroup("input");
-x = assembler.setItemSlot(6,1,mods.requious.ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output");
-x = assembler.setItemSlot(6,2,mods.requious.ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output");
-x = assembler.setItemSlot(6,3,mods.requious.ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output");
+assembler.setItemSlot(1,1,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
+assembler.setItemSlot(1,2,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
+assembler.setItemSlot(1,3,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
+assembler.setItemSlot(2,1,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
+assembler.setItemSlot(2,2,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
+assembler.setFluidSlot(2,3,mods.requious.ComponentFace.all(),12000).setAccess(true,false).setGroup("input");
+assembler.setItemSlot(6,1,mods.requious.ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output");
+assembler.setItemSlot(6,2,mods.requious.ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output");
+assembler.setItemSlot(6,3,mods.requious.ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output");
 
 assembler.setJEIItemSlot(0,0,"input");
 assembler.setJEIItemSlot(1,0,"input");

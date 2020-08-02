@@ -100,10 +100,12 @@ recipes.addShapedMirrored("1x_tile_steam_turbine_shaped", <crossroads:steam_turb
 //SaltReactor
 recipes.remove(<crossroads:salt_reactor>);
 recipes.addShapedMirrored("1x_tile_salt_reactor_shaped", <crossroads:salt_reactor>, [
-	[<ore:plateSilver>, <crossroads:fluid_tube>, <ore:plateSilver>],
-	[<crossroads:fluid_tube>, <actuallyadditions:block_misc:9>, <crossroads:fluid_tube>],
-	[<ore:plateSilver>, <ore:plateCopper>, <ore:plateSilver>]
+	[<ore:plateVanadium>, <crossroads:fluid_tube>, <ore:plateVanadium>],
+	[<crossroads:fluid_tube>, <contenttweaker:case_basic>, <crossroads:fluid_tube>],
+	[<ore:plateVanadium>, <ore:plateCopper>, <ore:plateVanadium>]
 ]);
+
+
 
 //Radiator
 recipes.remove(<crossroads:radiator>);
@@ -120,4 +122,41 @@ recipes.addShapedMirrored("1x_tile_fat_collector_shaped", <crossroads:fat_collec
 	[<ore:plateIron>, <pyrotech:tank>, <ore:plateIron>],
 	[<ore:boltIron>, <ore:plateCopper>, <ore:boltIron>]
 ]);
+
+//ArcaneExtractor
+recipes.remove(<crossroads:arcane_extractor>);
+recipes.addShapedMirrored("1x_tile_arcane_extractor_shaped", <crossroads:arcane_extractor>, [
+	[<embers:ashen_stone>, <ore:obsidian>, <embers:ashen_stone>],
+	[<ore:obsidian>, <crossroads:lens_array>, null],
+	[<embers:ashen_stone>, <ore:obsidian>, <embers:ashen_stone>]
+]);
+
+//LensArray
+recipes.remove(<crossroads:lens_array>);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("guffe:shaped/internal/altar/crystallens", <crossroads:lens_array>, 200, 60, [
+	<crossroads:pure_quartz>, <ore:plateSilver>, <crossroads:pure_quartz>,
+	<ore:gemRuby>, <ore:gemEmerald>, <ore:gemDiamond>,
+	<crossroads:pure_quartz>, <ore:plateSilver>, <crossroads:pure_quartz>]);
+
+//SmallStabilizier
+recipes.remove(<crossroads:small_quartz_stabilizer>);
+recipes.addShapedMirrored("1x_tile_small_quartz_stabilizer_shaped", <crossroads:small_quartz_stabilizer>, [
+	[null, <crossroads:luminescent_quartz>, null],
+	[<crossroads:pure_quartz>, <crossroads:pure_quartz>, <crossroads:pure_quartz>],
+	[<crossroads:pure_quartz>, <crossroads:block_pure_quartz>, <crossroads:pure_quartz>]
+]);
+
+//ArcaneReflector
+recipes.remove(<crossroads:arcane_reflector>);
+recipes.addShapedMirrored("1x_tile_arcane_reflector_shaped", <crossroads:arcane_reflector>, [
+	[null, null, null],
+	[<ore:stone>, <astralsorcery:itemcraftingcomponent:3>, <ore:stone>],
+	[null, null, null]
+]);
+
+
+
+
+
+
 

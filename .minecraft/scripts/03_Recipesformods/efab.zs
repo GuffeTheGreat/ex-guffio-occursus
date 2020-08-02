@@ -213,3 +213,14 @@ EFabRecipe.shaped(<minecraft:enchanting_table>, [
     .time(20*60*4)
 	.tier("UPGRADE_MAGIC")
 	.fluid(<liquid:xpjuice> * 10000);
+
+
+EFabRecipe.shaped(<nuclearcraft:upgrade>, [
+	[<ore:plateCobalt>, <ore:plateRedstoneAlloy>, <ore:plateCobalt>],
+	[<ore:plateRedstoneAlloy>, <ore:plateIron>, <ore:ingotRedstoneAlloy>],
+	[<ore:plateCobalt>, <ore:plateRedstoneAlloy>, <ore:plateCobalt>]
+])
+    .time(20*60)
+	.tier("UPGRADE_DIGITAL")
+	.fluid(<liquid:lubricant> * 2000)
+	.rfPerTick(1000);

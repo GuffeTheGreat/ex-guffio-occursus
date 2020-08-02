@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -17.0d,
+	dependencies: [
+		"f096d31e",
+		"ee991c0e"
+	],
+	tasks: [{
+		uid: "b4f0da4b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:metal_alchemical_advanced"
+		}]
+	}]
+}

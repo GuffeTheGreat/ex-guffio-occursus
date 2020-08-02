@@ -61,7 +61,7 @@ add([<ore:dustTantalite>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:10
 add([<ore:dustRedstone>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:1009>*16],200);
 add([<ore:dustCinnabar>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:60>*16],200);
 add([<ore:dustPyrite>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:1008>*16],200);
-add([<ore:dustBrownLimonite>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:10015>*16],200);
+add([<ore:dustBrownLimonite>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:1015>*16],200);
 add([<ore:dustYellowLimonite>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:1016>*16],200);
 add([<ore:dustBandedIron>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:10>*16],200);
 add([<ore:dustTricalciumPhosphate>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:1020>*16],200);

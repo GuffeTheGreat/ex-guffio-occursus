@@ -11,9 +11,13 @@ Constructor:
     Notes:
         Constructs the layer with its seed and parent layers. The first layer is the normal biome map, and the second is the hill/river initialization layer.
 
-addDefaultMutations:
+setMutation:
+    Arguments:
+        Non_Null_Biome_ID, Non_Null_Biome_ID
+    Usage:
+        biome ID, mutation biome ID
     Notes:
-        Adds all of the mutation biomes that would be added by the default GenLayerHills layer.
+        Sets the mutation biome for the provided biomeID.
 
 setHill:
     Arguments:
@@ -23,13 +27,13 @@ setHill:
     Notes:
         Sets the hill biomes for the provided biomeID.
 
-setMutation:
-    Arguments:
-        Non_Null_Biome_ID, Non_Null_Biome_ID
-    Usage:
-        biome ID, mutation biome ID
+addDefaultMutations:
     Notes:
-        Sets the mutation biome for the provided biomeID.
+        Adds all of the mutation biomes that would be added by the default GenLayerHills layer.
+
+addDefaultHills:
+    Notes:
+        Adds all of the hill biomes that would be added by the default GenLayerHills layer.
 
 removeHill:
     Arguments:
@@ -38,10 +42,6 @@ removeHill:
         biome ID
     Notes:
         Removes the hill biomes for the provided biome.
-
-addDefaultHills:
-    Notes:
-        Adds all of the hill biomes that would be added by the default GenLayerHills layer.
 
 removeMutation:
     Arguments:

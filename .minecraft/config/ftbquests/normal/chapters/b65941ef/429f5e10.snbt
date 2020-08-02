@@ -1,0 +1,29 @@
+{
+	icon: "botania:pool",
+	x: -4.0d,
+	y: -12.5d,
+	dependencies: [
+		"d76aacb7"
+	],
+	tasks: [{
+		uid: "d6ffc3b8",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 2"
+		}]
+	},
+	{
+		uid: "947aef62",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	},
+	{
+		uid: "9af3af74",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}]
+	}]
+}

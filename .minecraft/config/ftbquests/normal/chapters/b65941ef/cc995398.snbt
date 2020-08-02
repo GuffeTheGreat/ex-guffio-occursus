@@ -1,7 +1,8 @@
 {
+	title: "Basic Machine Parts",
 	icon: "prodigytech:circuit_crude",
 	x: -8.5d,
-	y: -1.0d,
+	y: -0.5d,
 	dependencies: [
 		"d5775432"
 	],
@@ -10,42 +11,6 @@
 		type: "item",
 		items: [{
 			item: "prodigytech:circuit_crude"
-		}]
-	},
-	{
-		uid: "4ec9e30e",
-		type: "item",
-		items: [{
-			item: "contenttweaker:basicmotor"
-		}],
-		count: 32L
-	},
-	{
-		uid: "785e2189",
-		type: "item",
-		items: [{
-			item: "contenttweaker:basicpiston"
-		}]
-	},
-	{
-		uid: "03678869",
-		type: "item",
-		items: [{
-			item: "contenttweaker:basicrobotarm"
-		}]
-	},
-	{
-		uid: "fe5a50e7",
-		type: "item",
-		items: [{
-			item: "contenttweaker:basicvalve"
-		}]
-	},
-	{
-		uid: "f563d19c",
-		type: "item",
-		items: [{
-			item: "contenttweaker:basicconveyor"
 		}]
 	}]
 }

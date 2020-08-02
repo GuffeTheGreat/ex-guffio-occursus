@@ -364,7 +364,7 @@ gold.registerParts(["gear","dust","plate","dense_plate","crushed_ore","clump","c
 
 //Tin
 var tin = MaterialSystem.getMaterialBuilder().setName("Tin").setColor(Color.fromHex("43464b")).build();
-tin.registerParts(["gear","dust","plate","doubleingot","tiny_pile","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+tin.registerParts(["rotor","gear","dust","plate","doubleingot","tiny_pile","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //Garnierite
 var garnierite = MaterialSystem.getMaterialBuilder().setName("Garnierite").setColor(Color.fromHex("f9e4b7")).build();
@@ -380,11 +380,19 @@ cobaltite.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore
 
 //Cobalt
 var cobalt = MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(Color.fromHex("1338be")).build();
-cobalt.registerParts(["dust","tiny_pile","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+cobalt.registerParts(["dust","tiny_pile","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust","plate","bolt","rod"] as string[]);
 
 var moltenCobalt = cobalt.registerPart("molten").getData();
 moltenCobalt.addDataValue("temperature", "3000");
 moltenCobalt.addDataValue("luminosity", "10");
+
+//Eletricalsteel
+var eletricalsteel = MaterialSystem.getMaterialBuilder().setName("Electrical Steel").setColor(Color.fromHex("d3d3d3")).build();
+eletricalsteel.registerParts(["dust","plate","rotor","ring","bolt","rod"] as string[]);
+
+//RedstoneAlloy
+var redstonealloy = MaterialSystem.getMaterialBuilder().setName("Redstone Alloy").setColor(Color.fromHex("d3d3d3")).build();
+redstonealloy.registerParts(["dust","plate"] as string[]);
 
 //Galena
 var galena = MaterialSystem.getMaterialBuilder().setName("Galena").setColor(Color.fromHex("2f1538")).build();
@@ -584,7 +592,7 @@ antimony.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_ore"
 
 //Aluminum
 var aluminum = MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(Color.fromHex("b19cd9")).build();
-aluminum.registerParts(["dust","plate","doubleingot","tiny_pile","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+aluminum.registerParts(["dense_plate","bolt","dust","plate","doubleingot","tiny_pile","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
 
 //magnesium
 var magnesium = MaterialSystem.getMaterialBuilder().setName("Magnesium").setColor(Color.fromHex("c377e0")).build();
@@ -946,3 +954,17 @@ for material, color in gemMap {
   part.registerPart("flaked");
   part.registerPart("point"); 
 }
+
+
+//RandomassDusts
+//SiliconDioxide
+var silicondioxide = MaterialSystem.getMaterialBuilder().setName("Silicon Dioxide").setColor(Color.fromHex("ececec")).build();
+silicondioxide.registerParts(["tiny_pile","dust","block"] as string[]);
+
+//AntimonyTrioxide
+var antimonytrioxide = MaterialSystem.getMaterialBuilder().setName("Antimony Trioxide").setColor(Color.fromHex("dedede")).build();
+antimonytrioxide.registerParts(["tiny_pile","dust","block"] as string[]);
+
+//Cupric Oxide
+var cupricoxide = MaterialSystem.getMaterialBuilder().setName("Cupric Oxide").setColor(Color.fromHex("141414")).build();
+cupricoxide.registerParts(["tiny_pile","dust","block"] as string[]);

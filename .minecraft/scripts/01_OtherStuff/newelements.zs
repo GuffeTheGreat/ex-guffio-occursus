@@ -295,15 +295,13 @@ mods.alchemistry.Util.createCompound(1050, "Stibnite", 209, 211, 212,
 [["antimony", 2],
  ["sulfur", 3]]);
 
-mods.alchemistry.Util.createCompound(1051, "Valonite", 209, 211, 212,
-[["syrmorite", 4],
-["silicon", 1],
- ["oxygen", 2]]);
+mods.alchemistry.Util.createCompound(1051, "Valonite", 224, 17, 95,
+[["syrmorite", 1],
+ ["Aluminum Oxide", 1]]);
 
 mods.alchemistry.Util.createCompound(1052, "Scabyst", 209, 211, 212,
-[["syrmorite", 2],
-["lithium", 1],
- ["oxygen", 2]]);
+[["octine", 1],
+ ["Aluminum Oxide", 1]]);
 
 mods.alchemistry.Util.createCompound(1053, "Sapphire", 209, 211, 212,
 [["iron", 1],

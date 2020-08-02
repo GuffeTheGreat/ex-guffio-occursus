@@ -20,10 +20,6 @@ recipes.addShapedMirrored("2x_tile_immersiveengineering_stone_decoration_alloybr
 	[<pyrotech:material:5>, <thebetweenlands:limestone_bricks>]
 ]);
 
-//AlloykilnRecipe
-mods.immersiveengineering.AlloySmelter.addRecipe(<materialpart:Soldering_Alloy:ingot>*4, <ore:ingotIron>*3, <ore:ingotTin>, 1500);
-mods.immersiveengineering.AlloySmelter.addRecipe(<materialpart:Soldering_Alloy:ingot>*4, <ore:ingotTin>, <ore:ingotIron>*3, 1500);
-
 //ChangeCraftingComponentBlueprintCausenoAluminium
 recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
 recipes.addShapedMirrored("1x_item_immersiveengineering_blueprint_shaped", <immersiveengineering:blueprint>.withTag({blueprint: "components"}), [
@@ -137,6 +133,9 @@ recipes.addShapedMirrored("2x_tile_immersiveengineering_metal_decoration0_heavy_
 	[<ore:plateAluminium>, <immersiveengineering:material:9>, <ore:plateAluminium>]
 ]);
 
-
+//Chemicalbath
+mods.immersiveintelligence.ChemicalBath.removeRecipe(<minecraft:planks:1>);
+mods.immersiveintelligence.ChemicalBath.removeRecipe(<immersiveintelligence:material_dust:8>);
+mods.immersiveintelligence.ChemicalBath.removeRecipe(<immersiveintelligence:material:*>);
 
 

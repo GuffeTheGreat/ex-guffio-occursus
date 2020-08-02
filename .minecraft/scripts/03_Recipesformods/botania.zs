@@ -26,9 +26,15 @@ mods.botania.PureDaisy.addRecipe(<minecraft:stonebrick>,<pyrotech:stone_bricks>)
 mods.botania.PureDaisy.addRecipe(<thebetweenlands:rubber_block>,<thaumcraft:amber_block>);
 mods.botania.PureDaisy.addRecipe(<minecraft:obsidian>,<contenttweaker:ember_block>);
 
+//Shulkmenot
+recipes.addShapedMirrored("1x_tile_botania:flower_shulk_me_not_shaped", <botania:specialflower>.withTag({type: "shulk_me_not"}), [
+	[<minecraft:chorus_fruit_popped>, <botania:specialflower>.withTag({type: "manastar"}), <minecraft:chorus_fruit_popped>],
+	[<botania:petal:10>, <bewitchment:hellebore>, <botania:petal:10>],
+	[<minecraft:chorus_fruit_popped>, <thaumadditions:dna_sample>.withTag({Entity: {Id: "minecraft:shulker"}}), <minecraft:chorus_fruit_popped>]
+]);
+
 
 val supermap = {
-
 <silentgems:gemsuper> : [<ore:flawlessRuby>,<ore:ingotGaiasteel>],
 <silentgems:gemsuper:1> : [<ore:flawlessGarnet>,<ore:ingotCube>],
 <silentgems:gemsuper:2> : [<ore:flawlessTopaz>,<ore:ingotScandium>],

@@ -78,7 +78,12 @@ recipes.addShapedMirrored("1x_tile_contenttweaker_case_astrium_shaped", <content
 	[<ore:plateFerramic>, <ore:plateFerramic>, <ore:plateFerramic>]
 ]);
 
-
+//DryIce
+mods.embers.Melter.add(<liquid:carbondioxide>*144,<contenttweaker:dry_ice>);
+mods.nuclearcraft.Melter.addRecipe(<contenttweaker:dry_ice>, <liquid:carbondioxide>*144);
+mods.crossroads.HeatingCrucible.addRecipe(<contenttweaker:dry_ice>, <liquid:carbondioxide>*144,"tile.iceandfire.dragon_ice");
+mods.crossroads.FluidCoolingChamber.addRecipe(<contenttweaker:dry_ice>,<liquid:carbondioxide> * 144,-79,5);
+//mods.nuclearcraft.IngotFormer.addRecipe(ILiquidStack fluidInput, IIngredient itemOutput);
 
 
 

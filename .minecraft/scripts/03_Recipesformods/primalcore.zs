@@ -172,51 +172,6 @@ mods.jei.JEI.removeAndHide(<primal:diamond_knapp>);
 mods.jei.JEI.removeAndHide(<primal:obsidian_knapp>);
 mods.jei.JEI.removeAndHide(<primal:flint_hatchet>);
 
-#Cauldron
-//Glue
-mods.primal.Cauldron.addRecipe(
-    "glue", 
-    2, 
-    <liquid:ethanol>*100, 
-    <liquid:glue>*200, 
-    [<primal:hide_raw>*4,<pyrotech:material:28>*2,<thebetweenlands:items_misc:23>*3,<thebetweenlands:items_misc:14>], 
-    []
-);
-//Ehtanol
-mods.primal.Cauldron.addRecipe(
-    "ethanol", 
-    2, 
-    <liquid:water>*100, 
-    <liquid:ethanol>*100, 
-    [<prodigytech:flour>*2,<minecraft:sugar>*4], 
-    []
-);
-//Yeast
-mods.primal.Cauldron.addRecipe(
-    "yeast", 
-    2, 
-    <liquid:water>*200, 
-    [<cuisine:food:1>*4], 
-    [<prodigytech:flour>*8]
-);
-//Dough
-mods.primal.Cauldron.addRecipe(
-    "dough", 
-    2, 
-    <liquid:milk>*200, 
-    [<cuisine:food:1>,<prodigytech:flour>,<ore:dustSalt>,<minecraft:egg>], 
-    [<cuisine:food:2>]
-);
-//Sulfuricacid
-mods.primal.Cauldron.addRecipe(
-    "sulfuracid", 
-    2, 
-    <liquid:water>*200,
-    <liquid:sulfuric_acid>*100, 
-    [<ore:dustSulfur>], 
-    []
-);
-
 
 
 

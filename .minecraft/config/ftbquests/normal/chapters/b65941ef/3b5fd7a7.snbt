@@ -1,0 +1,29 @@
+{
+	icon: "enderio:item_material 1 20",
+	x: -2.5d,
+	y: -14.0d,
+	dependencies: [
+		"9874b716"
+	],
+	tasks: [{
+		uid: "8ced5606",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 75"
+		}]
+	},
+	{
+		uid: "767a465f",
+		type: "item",
+		items: [{
+			item: "enderio:block_infinity_fog"
+		}]
+	},
+	{
+		uid: "38e9145d",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 20"
+		}]
+	}]
+}

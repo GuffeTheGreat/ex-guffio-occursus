@@ -1,0 +1,34 @@
+{
+	icon: "thaumcraft:causality_collapser",
+	x: 0.0d,
+	y: -15.5d,
+	dependencies: [
+		"7a2908d8"
+	],
+	tasks: [{
+		uid: "475e1bd0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:causality_collapser"
+		}]
+	},
+	{
+		uid: "ae163f92",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	},
+	{
+		uid: "4a6b5bcd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

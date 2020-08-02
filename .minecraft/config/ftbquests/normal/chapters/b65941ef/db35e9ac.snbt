@@ -1,0 +1,30 @@
+{
+	icon: "modularmachinery:blockcontroller",
+	x: -4.0d,
+	y: -0.5d,
+	dependencies: [
+		"cc995398",
+		"55017a1b"
+	],
+	tasks: [{
+		uid: "ad660229",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	},
+	{
+		uid: "ac62a11c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}]
+	},
+	{
+		uid: "2dcbf7d7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}]
+}

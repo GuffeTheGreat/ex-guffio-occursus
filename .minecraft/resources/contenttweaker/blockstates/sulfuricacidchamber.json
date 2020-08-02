@@ -18,7 +18,7 @@
     "normal":[{}],
     "inventory":[{}],
     "facing": {
-		"down":  { "x": 180 },
+        "down":  { "x": 180 },
         "up":    { },
         "north": { "x": 90 },
         "south": { "x": 90, "y": 180 },

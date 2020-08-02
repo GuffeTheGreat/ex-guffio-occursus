@@ -40,7 +40,40 @@
 														item: {
 															item: {
 																item: {
-																	item: "metallurgy:copper_ore"
+																	item: {
+																		item: {
+																			item: {
+																				item: {
+																					item: {
+																						item: {
+																							item: {
+																								item: {
+																									item: {
+																										item: {
+																											item: {
+																												item: "metallurgy:copper_ore"
+																											},
+																											Count: 1b
+																										},
+																										Count: 1b
+																									},
+																									Count: 1b
+																								},
+																								Count: 1b
+																							},
+																							Count: 1b
+																						},
+																						Count: 1b
+																					},
+																					Count: 1b
+																				},
+																				Count: 1b
+																			},
+																			Count: 1b
+																		},
+																		Count: 1b
+																	},
+																	Count: 1b
 																},
 																Count: 1b
 															},

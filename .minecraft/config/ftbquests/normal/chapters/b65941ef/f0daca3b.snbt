@@ -1,0 +1,24 @@
+{
+	icon: "minecraft:nether_star",
+	x: -1.0d,
+	y: -9.5d,
+	dependencies: [
+		"82c14d3d",
+		"b256b686"
+	],
+	tasks: [{
+		uid: "5cca6f84",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}],
+		count: 3L
+	},
+	{
+		uid: "834244a6",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	}]
+}

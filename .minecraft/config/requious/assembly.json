@@ -1,6 +1,6 @@
 [
   {
-    "placeType": "Horizontal",
+    "placeType": "Up",
     "hasGUI": true,
     "resourceName": "assembler",
     "model": "contenttweaker:assembler",
@@ -24,10 +24,82 @@
     }
   },
   {
-    "placeType": "Horizontal",
+    "placeType": "Up",
     "hasGUI": true,
-    "resourceName": "steam_turbine",
-    "model": "contenttweaker:steam_turbine",
+    "resourceName": "gas_turbine",
+    "model": "contenttweaker:gas_turbine",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "hasGUI": true,
+    "resourceName": "extractor",
+    "model": "contenttweaker:extractor",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "hasGUI": true,
+    "resourceName": "wiremill",
+    "model": "contenttweaker:wiremill",
+    "colors": [
+      {
+        "r": 255,
+        "g": 255,
+        "b": 255,
+        "a": 255
+      }
+    ],
+    "hardness": 5.0,
+    "blastResistance": 5.0,
+    "aabb": {
+      "x1": 0.0,
+      "y1": 0.0,
+      "z1": 0.0,
+      "x2": 1.0,
+      "y2": 1.0,
+      "z2": 1.0
+    }
+  },
+  {
+    "placeType": "Up",
+    "hasGUI": true,
+    "resourceName": "actual_autoclave",
+    "model": "contenttweaker:actual_autoclave",
     "colors": [
       {
         "r": 255,
@@ -69,7 +141,7 @@
     "resourceName": "laser",
     "model": "requious:assembly_laser",
     "placeType": "Any",
-    "hasGUI": true,
+    "hasGUI": false,
     "colorA": {
       "r": 255,
       "g": 255,

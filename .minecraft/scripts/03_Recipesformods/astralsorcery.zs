@@ -1,6 +1,6 @@
   import mods.efabct.EFabRecipe;
 
-
+val rockCrystal = mods.astralsorcery.Utils.getCrystalORIngredient(false, false);
  
 
 //InfusedGlass
@@ -27,3 +27,24 @@ EFabRecipe.shaped(<astralsorcery:itemwand>, [
 	[<ore:stoneMarble>, null, null]])
 .time(20*60*1)
 	.fluid(<liquid:fluidedmana> * 1000);
+
+#Starlight Crafting Altar
+	mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2");
+	mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/upgrade_tier2", <astralsorcery:blockaltar:1>, 120, 600, [
+	<ore:plateManasteel>, rockCrystal, <ore:plateManasteel>,
+	<astralsorcery:blockmarble:4>, <forge:bucketfilled>.withTag({FluidName: "astralsorcery.liquidstarlight", Amount: 1000}), <astralsorcery:blockmarble:4>,
+	<astralsorcery:blockmarble:2>, <ore:plateManasteel>, <astralsorcery:blockmarble:2>]);
+
+//Lens
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/glasslens");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/glasslens", <astralsorcery:itemcraftingcomponent:3>, 120, 200, [
+	null, <ore:paneGlassColorless>, null,
+	<ore:paneGlassColorless>, <crossroads:luminescent_quartz>, <ore:paneGlassColorless>,
+	null, <ore:paneGlassColorless>, null]);
+
+//Lightwell
+mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/lightwell");
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/altar/lightwell", <astralsorcery:blockwell>, 120, 200, [
+	<astralsorcery:blockmarble:6>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:blockmarble:6>,
+	<astralsorcery:blockmarble:4>, rockCrystal, <astralsorcery:blockmarble:4>,
+	<ore:gemGarnet>, <astralsorcery:blockmarble:6>, <ore:gemHeliodor>]);

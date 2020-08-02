@@ -1,0 +1,14 @@
+{
+	x: -7.0d,
+	y: -6.5d,
+	dependencies: [
+		"970829e5"
+	],
+	tasks: [{
+		uid: "7e152bcc",
+		type: "item",
+		items: [{
+			item: "emergingtechnology:scrubber"
+		}]
+	}]
+}

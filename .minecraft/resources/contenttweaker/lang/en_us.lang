@@ -1,21 +1,3 @@
-tile.contenttweaker.solid_fuel.name=Solid Fuel
-tile.contenttweaker.white_fuel.name=High Age Fuel
-
-item.contenttweaker.sulfur.name=Brimstone
-item.contenttweaker.blast_gel.name=Blast Gel
-item.contenttweaker.fuse.name=Fuse
-
-item.contenttweaker.sulfuel.name=Sulfuel
-item.contenttweaker.sulfuel_empowered.name=Cracked Sulfuel
-item.contenttweaker.sulfuel_hp.name=Dense Sulfuel
-item.contenttweaker.sulfuel_nuclear.name=Nuclear Sulfuel
-
-item.contenttweaker.radioactive_glass.name=Radioactive Glass
-item.contenttweaker.energy_star.name=Energy Star
-
-tile.contenttweaker.blast_gel_block.name=Block of Blast Gel
-tile.contenttweaker.blast_gel_processed.name=Blast Precursor
-
 tile.contenttweaker.case_ferramic.name=Ferramic Hull
 tile.contenttweaker.case_basic.name=Basic Hull
 tile.contenttweaker.case_intermediate.name=Intermediate Hull
@@ -27,18 +9,27 @@ tile.contenttweaker.case_absurd.name=Absurd Hull
 tile.contenttweaker.case_divine.name=Divine Hull
 tile.contenttweaker.case_transcendent.name=Transcendent Hull
 
-
+tile.actual_autoclave.name=Autoclave
+tile.assembler.name=Assembler
+tile.gas_turbine.name=Extractor
+tile.gas_turbine.name=Wiremill
+tile.gas_turbine.name=Gas Turbine
 tile.autoclave.name=Gem Refinery
 tile.laser.name=Laser Emitter
+tile.chemicalsplitter.name=Chemical Splitter
+tile.chemicalformer=Chemical Former
 tile.sulfuricacidchamber.name=Chemical Dissolver
-
-fluid.fuel=Fuel
-fluid.gas=Fuel Gas
-fluid.dragon_breath=Dragon's Breath
 
 requious.unit.laser.nuclear=Nuclear: %sn
 requious.unit.laser.laser=Laser: %sh
 
+requious.jei.recipe.actual_autoclave=Autoclave
+requious.jei.recipe.assembler=Assembler
+requious.jei.recipe.extractor=Extractor
+requious.jei.recipe.wiremill=Wiremill
+requious.jei.recipe.chemicalsplitter=Chemical Splitter
+requious.jei.recipe.chemicalformer=Chemical Former
+requious.jei.recipe.gas_turbine=Gas Turbine
 requious.jei.recipe.sulfuricacidchamber=Chemical Dissolver
 requious.jei.recipe.autoclave=Gem Refinery
 requious.jei.recipe.laser=Laser Emitter
@@ -130,14 +121,21 @@ item.contenttweaker.divinefield_generator.name=Divine Field Generator
 item.contenttweaker.transcendentfield_generator.name=Transcendent Field Generators
 
 item.contenttweaker.lignite.name=Lignite
+item.contenttweaker.hemp_cloth.name=Hemp Cloth
 item.contenttweaker.bone_stock.name=Bone Stock
+item.contenttweaker.dry_ice.name=Dry Ice
+item.contenttweaker.dry_ice_dust.name=Dry Ice Dust
+item.contenttweaker.clay_dust.name=Clay Dust
 item.contenttweaker.hide_stock.name=Hide Stock
 item.contenttweaker.swollen_hide_stock.name=Swollen Hide Stock
 item.contenttweaker.swollen_fish_stock.name=Swollen Fish Stock
 item.contenttweaker.fish_stock=Fish Stock
 item.contenttweaker.carbon_fibres.name=Carbon Fibres
+item.contenttweaker.carbon_mesh.name=Carbon Mesh
+item.contenttweaker.carbon_plate.name=Carbon Plate
 item.contenttweaker.quarryrat.name=Quarry Rat
 item.contenttweaker.dmrat.name=Digital Miner Rat
+item.contenttweaker.alumino_silicate_wool.name=Digital Miner Rat
 
 fluid.diluted_sulfuric_acid=Diluted Sulfuric Acid
 fluid.hydrogen_sulfide=Hydrogen Sulfide

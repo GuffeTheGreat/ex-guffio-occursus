@@ -49,7 +49,7 @@ recipes.addShapedMirrored("1x_tile_cuisine_mill_shaped", <cuisine:mill>, [
 
 
 //Basinthrowingremove
-//BasinThrowing.removeAll();
+BasinThrowing.removeAll();
 
 //LiquidIce
 BasinSqueezing.add(<item:minecraft:ice>, <liquid:ice> * 1000);

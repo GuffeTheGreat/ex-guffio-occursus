@@ -1,6 +1,6 @@
 {
 	icon: "bloodmagic:soul_snare",
-	x: 0.5d,
+	x: 0.0d,
 	y: -5.0d,
 	dependencies: [
 		"c4d6d41e"

@@ -2,7 +2,7 @@
 //Basic
 recipes.addShapedMirrored("1x_tile_modularmachinery_blockcasing_plain_shaped", <modularmachinery:blockcasing>, [
 	[null, <modularmachinery:itemmodularium>, null],
-	[<modularmachinery:itemmodularium>, <actuallyadditions:block_misc:9>, <modularmachinery:itemmodularium>],
+	[<modularmachinery:itemmodularium>, <contenttweaker:case_basic>, <modularmachinery:itemmodularium>],
 	[null, <modularmachinery:itemmodularium>, null]
 ]);
 //Intermediate
@@ -61,6 +61,13 @@ recipes.addShapedMirrored("1x_tile_modularmachinery_blockfluidoutputhatch_tiny_s
 	[<ore:plateSteel>, <contenttweaker:basicvalve>, <ore:plateSteel>],
 	[<ore:plateSteel>, <modularmachinery:blockcasing>, <ore:plateSteel>],
 	[<ore:plateSteel>, <contenttweaker:basicvalve>, <ore:plateSteel>]
+]);
+
+//Controller
+recipes.addShapedMirrored("1x_tile_modularmachinery_blockcontroller_shaped", <modularmachinery:blockcontroller>, [
+	[<modularmachinery:itemmodularium>, <ore:circuitBasic>, <modularmachinery:itemmodularium>],
+	[<ore:circuitBasic>, <contenttweaker:case_basic>, <ore:circuitBasic>],
+	[<modularmachinery:itemmodularium>, <ore:circuitBasic>, <modularmachinery:itemmodularium>]
 ]);
 
 

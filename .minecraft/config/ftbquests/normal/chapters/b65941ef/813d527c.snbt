@@ -1,0 +1,45 @@
+{
+	title: "Carbon Dust Production",
+	icon: "rockhounding_chemistry:chemical_dusts 1 24",
+	x: -5.5d,
+	y: -6.5d,
+	dependencies: [
+		"36e6c606",
+		"aa54e339"
+	],
+	tasks: [{
+		uid: "1d26f7cb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dry_ice"
+		}]
+	},
+	{
+		uid: "bfc43d8e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dry_ice_dust"
+		}]
+	},
+	{
+		uid: "d73f60f1",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 999"
+		}]
+	},
+	{
+		uid: "2d5c3e40",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 6"
+		}]
+	},
+	{
+		uid: "cea0e72b",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:chemical_dusts 1 24"
+		}]
+	}]
+}

@@ -1,6 +1,6 @@
 {
 	icon: "rats:ratlantis_portal",
-	x: 0.5d,
+	x: 0.0d,
 	y: 1.0d,
 	dependencies: [
 		"e612ebcf"

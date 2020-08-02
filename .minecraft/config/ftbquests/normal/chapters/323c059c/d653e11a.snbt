@@ -1,7 +1,7 @@
 {
 	icon: "prodigytech:zorrasteel_ingot",
-	x: -8.5d,
-	y: -14.0d,
+	x: -10.0d,
+	y: -15.5d,
 	shape: "rsquare",
 	dependencies: [
 		"3621b89d"

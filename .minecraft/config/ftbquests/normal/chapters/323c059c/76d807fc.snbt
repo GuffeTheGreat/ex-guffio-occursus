@@ -1,7 +1,7 @@
 {
 	icon: "prodigytech:primordialis_reactor",
-	x: -7.0d,
-	y: -12.5d,
+	x: -8.5d,
+	y: -14.0d,
 	dependencies: [
 		"81fd77d8",
 		"78b12902"

@@ -39,7 +39,7 @@
     "oreCobalt": {
       "slagColor": "1c5bc1",
       "langKey": [
-        "contenttweaker:tile.contenttweaker.sub_block_holder_12",
+        "contenttweaker:tile.contenttweaker.sub_block_holder_11",
         "magneticraft:tile.magneticraft.ores_cobalt"
       ],
       "output": [

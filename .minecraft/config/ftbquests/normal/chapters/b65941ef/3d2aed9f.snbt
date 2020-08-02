@@ -1,0 +1,45 @@
+{
+	icon: "contenttweaker:basicmotor",
+	x: -10.0d,
+	y: -0.5d,
+	shape: "rsquare",
+	dependencies: [
+		"cc995398"
+	],
+	tasks: [{
+		uid: "f607c563",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basicmotor"
+		}],
+		count: 36L
+	},
+	{
+		uid: "7c1bcf1b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basicpiston"
+		}]
+	},
+	{
+		uid: "7d4a7b44",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basicrobotarm"
+		}]
+	},
+	{
+		uid: "b97f5599",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basicconveyor"
+		}]
+	},
+	{
+		uid: "a143e342",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basicvalve"
+		}]
+	}]
+}

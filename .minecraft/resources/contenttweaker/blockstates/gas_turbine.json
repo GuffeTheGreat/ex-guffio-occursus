@@ -1,0 +1,35 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "contenttweaker:machine",
+    "textures": {
+	    "0": "immersiveengineering:block/metal/storage_steel",
+	    "down": "requious:blocks/decal_fan",
+      "up": "requious:blocks/decal_fan",
+      "north": "requious:blocks/decal_fan",
+	    "east": "requious:blocks/decal_fan",
+	    "south": "requious:blocks/decal_fan",
+	    "west": "requious:blocks/decal_fan",
+      "particle": "immersiveengineering:block/metal/storage_steel"
+    },
+    "transform": "forge:default-block"
+  },
+  "variants":{
+    "normal":[{}],
+    "inventory":[{}],
+    "facing": {
+		    "down":  { "x": 180 },
+        "up":    { },
+        "north": { "x": 90 },
+        "south": { "x": 90, "y": 180 },
+        "west":  { "x": 90, "y": 270 },
+        "east":  { "x": 90, "y": 90 }
+    },
+    "active": {
+      "true": {
+        "textures": {}
+      },
+      "false": {}
+    }
+  }
+}

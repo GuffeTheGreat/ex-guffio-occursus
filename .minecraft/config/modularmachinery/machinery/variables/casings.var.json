@@ -1,5 +1,24 @@
 {
     "casings_all": [
+        "modularmagic:blockwillproviderinput"
+        "modularmagic:blockwillprovideroutput"
+        "modularmagic:blocklifeessenceproviderinput"
+        "modularmagic:blocklifeessenceprovideroutput"
+        "modularmagic:blockaspectproviderinput"
+        "modularmagic:blockaspectprovideroutput"
+        "modularmagic:blockstarlightproviderinput"
+        "modularmagic:blockstarlightprovideroutput"
+        "modularmagic:blockconstellationprovider"
+        "modulardiversity:blockemberoutputhatch"
+        "modulardiversity:blockemberinputhatch"
+        "modulardiversity:blockmanainputhatch"
+        "modulardiversity:blockmanaoutputhatch"
+        "modulardiversity:blockjackhatch"
+        "modulardiversity:blockhotairinputhatch"
+        "modulardiversity:blockhotairoutputhatch"
+        "modulardiversity:blockbiomedetector"
+        "modulardiversity:blockdaylightdetector"
+        "modulardiversity:blockweatherdetector"
         "modularmachinery:blockcasing",
         "modularmachinery:blockinputbus",
         "modularmachinery:blockenergyinputhatch",

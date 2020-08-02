@@ -1,7 +1,7 @@
 {
 	icon: "prodigytech:energion_aeroheater",
-	x: -7.0d,
-	y: -11.0d,
+	x: -8.5d,
+	y: -12.5d,
 	dependencies: [
 		"ff000209",
 		"a86cab3f"

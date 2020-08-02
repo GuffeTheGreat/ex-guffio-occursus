@@ -2,36 +2,6 @@ import mods.modularmachinery.RecipeBuilder;
 
  //mods.modularmachinery.RecipeBuilder.newBuilder(String recipeRegistryName, String associatedMachineRegistryName, int processingTickTime, int sortingPriority);
 
-//Distilliery
-//Creosotetolubricant
-var creosote = RecipeBuilder.newBuilder("Creosotetolubricant", "skycauldron", 120);
-creosote.addEnergyPerTickInput(1000);
-creosote.addFluidInput(<liquid:creosote>*1000);
-creosote.addFluidOutput(<liquid:lubricant> * 500);
-creosote.build();
-//Oil
-var oil = RecipeBuilder.newBuilder("oil", "skycauldron", 200);
-oil.addEnergyPerTickInput(1000);
-oil.addFluidInput(<liquid:oil>*1000);
-oil.addFluidOutput(<liquid:desaltedoil> * 900);
-oil.addItemOutput(<cuisine:material:3>);
-oil.build();
-//Manapool
-var manapool = RecipeBuilder.newBuilder("manapool", "skycauldron", 100);
-manapool.addEnergyPerTickInput(2000);
-manapool.addItemInput(<botania:pool:2>*1);
-manapool.addItemOutput(<botania:pool>);
-manapool.build();
-//Oil
-var residualoil = RecipeBuilder.newBuilder("residualOil", "skycauldron", 400);
-residualoil.addEnergyPerTickInput(1000);
-residualoil.addFluidInput(<liquid:oil_residue>*1000);
-residualoil.addFluidOutput(<liquid:mineraloil> * 900);
-residualoil.addItemOutput(<immersivepetroleum:material>);
-residualoil.build();
-
-
-
 #Pyrolyseoven
  //Poor
 var poorCharcoalBirch = RecipeBuilder.newBuilder("PyrolysePoorCharcoalBirch", "pyrolyseoven", 320);

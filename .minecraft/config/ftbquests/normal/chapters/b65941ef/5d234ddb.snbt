@@ -1,0 +1,122 @@
+{
+	title: "Your first Distillery",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:distillery"
+		}
+	},
+	x: -4.0d,
+	y: -3.5d,
+	dependencies: [
+		"1e3a14ae",
+		"db35e9ac"
+	],
+	tasks: [{
+		uid: "c936bb41",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:distillery"
+			}
+		}]
+	},
+	{
+		uid: "71649109",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "63c82a1b",
+		type: "item",
+		items: [{
+			item: "embers:wall_caminite_brick"
+		}],
+		count: 24L
+	},
+	{
+		uid: "32d13b21",
+		type: "item",
+		items: [{
+			item: "embers:stone_edge"
+		}],
+		count: 2L
+	},
+	{
+		uid: "3259e492",
+		type: "item",
+		items: [{
+			item: "embers:large_tank"
+		}]
+	},
+	{
+		uid: "db647bc4",
+		type: "item",
+		items: [{
+			item: "embers:stairs_caminite_brick"
+		}],
+		count: 12L
+	},
+	{
+		uid: "50c498e4",
+		type: "item",
+		items: [{
+			item: "embers:block_caminite_brick_slab"
+		}],
+		count: 25L
+	},
+	{
+		uid: "5ff9a48f",
+		type: "item",
+		items: [{
+			item: "embers:reaction_chamber"
+		}],
+		count: 4L
+	},
+	{
+		uid: "ac1dcc5d",
+		type: "item",
+		items: [{
+			id: "embers:copper_cell",
+			tag: {
+				emberCapacity: 24000.0d,
+				ember: 0.0d
+			}
+		}],
+		count: 4L
+	},
+	{
+		uid: "95fb4156",
+		type: "item",
+		items: [{
+			item: "embers:mini_boiler"
+		}],
+		count: 4L
+	},
+	{
+		uid: "aad5580e",
+		type: "item",
+		items: [{
+			item: "embers:ember_pipe"
+		}],
+		count: 4L
+	},
+	{
+		uid: "cda2526a",
+		type: "item",
+		items: [{
+			item: "embers:mech_core"
+		}],
+		count: 2L
+	},
+	{
+		uid: "1a78acc4",
+		type: "item",
+		items: [{
+			item: "embers:heat_coil"
+		}]
+	}]
+}
