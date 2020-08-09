@@ -12,57 +12,37 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
-setBlockToReplaceOreDict:
-    Arguments:
-        String
-    Usage:
-        ore dict name
-    Notes:
-        Sets the ore dictionary for the block to be replaced.
-
-setBiome:
-    Arguments:
-        Non_Null_Biome_ID
-    Usage:
-        biome id
-    Notes:
-        Sets the biome id. Can be an int or String.
-
-setBlockToReplace:
-    Arguments:
-        String, Integer
-    Usage:
-        block id, meta
-    Notes:
-        Sets the block to be replaced with the provided meta.
-
-setBlockToReplace:
-    Arguments:
-        String
-    Usage:
-        block id
-    Notes:
-        Sets the block to be replaced. This counts for any meta.
-
-getBlockToReplace:
-    Notes:
-        Returns the BlockData object for the block to be replaced so functions can be called on it.
-
-setZMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Z coordinates.
-
-setYMin:
+setXMin:
     Arguments:
         float
     Usage:
         min
     Notes:
-        Sets the min Y coordinate.
+        Sets the min X coordinate.
+
+setXMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max X coordinate.
+
+setXMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max X coordinates.
+
+setDimensionType:
+    Arguments:
+        String
+    Usage:
+        dimension type
+    Notes:
+        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
 setReplacement:
     Arguments:
@@ -80,6 +60,38 @@ setReplacement:
     Notes:
         Sets the block replacement and meta.
 
+setZMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Z coordinate.
+
+setYMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Y coordinate.
+
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
+
+setZMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min Z coordinate.
+
 getLocationData:
     Notes:
         Returns the LocationData object so functions can be called on it.
@@ -92,61 +104,49 @@ setYMinMax:
     Notes:
         Sets the min and max Y coordinates.
 
-setYMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max Y coordinate.
-
-setZMin:
+setYMin:
     Arguments:
         float
     Usage:
         min
     Notes:
-        Sets the min Z coordinate.
+        Sets the min Y coordinate.
 
-setZMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max Z coordinate.
-
-setDimensionType:
+setBlockToReplaceOreDict:
     Arguments:
         String
     Usage:
-        dimension type
+        ore dict name
     Notes:
-        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
+        Sets the ore dictionary for the block to be replaced.
 
-setXMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
+getBlockToReplace:
     Notes:
-        Sets the min and max X coordinates.
+        Returns the BlockData object for the block to be replaced so functions can be called on it.
 
-setXMin:
+setBlockToReplace:
     Arguments:
-        float
+        String, Integer
     Usage:
-        min
+        block id, meta
     Notes:
-        Sets the min X coordinate.
+        Sets the block to be replaced with the provided meta.
 
-setXMax:
+setBlockToReplace:
     Arguments:
-        float
+        String
     Usage:
-        max
+        block id
     Notes:
-        Sets the max X coordinate.
+        Sets the block to be replaced. This counts for any meta.
+
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
 
 addGenerationPoint:
     Arguments:

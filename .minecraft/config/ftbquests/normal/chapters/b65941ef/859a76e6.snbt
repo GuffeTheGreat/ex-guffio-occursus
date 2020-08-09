@@ -1,0 +1,40 @@
+{
+	title: "Electric Best Friend",
+	icon: "modularmachinery:blockcontroller",
+	x: -5.5d,
+	y: -13.0d,
+	dependencies: [
+		"add6449d"
+	],
+	tasks: [{
+		uid: "de152f5a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "3ddedec8",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basiccircuitry"
+		}],
+		count: 4L
+	},
+	{
+		uid: "0c3844cd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 15L
+	},
+	{
+		uid: "ea86a0d7",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0"
+		}],
+		count: 16L
+	}]
+}

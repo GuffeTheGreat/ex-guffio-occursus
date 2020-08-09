@@ -8,14 +8,23 @@
 		uid: "892529e7",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"bonfires:reinforce": {
-					maxLevel: 10,
-					level: 0
+			item: {
+				item: {
+					item: {
+						ForgeCaps: {
+							"bonfires:reinforce": {
+								maxLevel: 10,
+								level: 0
+							},
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "primal:flint_pickaxe",
+						Count: 1b
+					},
+					Count: 1b
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "primal:flint_pickaxe"
+				Count: 1b
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -24,14 +33,23 @@
 		uid: "686180ef",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"bonfires:reinforce": {
-					maxLevel: 10,
-					level: 0
+			item: {
+				item: {
+					item: {
+						ForgeCaps: {
+							"bonfires:reinforce": {
+								maxLevel: 10,
+								level: 0
+							},
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "primal:flint_axe",
+						Count: 1b
+					},
+					Count: 1b
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "primal:flint_axe"
+				Count: 1b
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
@@ -40,14 +58,23 @@
 		uid: "62767f2b",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"bonfires:reinforce": {
-					maxLevel: 10,
-					level: 0
+			item: {
+				item: {
+					item: {
+						ForgeCaps: {
+							"bonfires:reinforce": {
+								maxLevel: 10,
+								level: 0
+							},
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "primal:flint_shovel",
+						Count: 1b
+					},
+					Count: 1b
 				},
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "primal:flint_shovel"
+				Count: 1b
+			}
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b

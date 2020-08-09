@@ -118,7 +118,8 @@ var iceandfireArmor as IItemStack[] = [
 	<iceandfire:armor_silver_helmet>,
 	<iceandfire:armor_silver_chestplate>,
 	<iceandfire:armor_silver_leggings>,
-	<iceandfire:armor_silver_boots>
+	<iceandfire:armor_silver_boots>,
+	<iceandfire:dragon_ice>
 ];
 
 

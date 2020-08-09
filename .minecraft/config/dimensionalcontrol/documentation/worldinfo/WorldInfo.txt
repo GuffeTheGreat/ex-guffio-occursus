@@ -11,6 +11,34 @@ setSeed:
     Notes:
         Sets the world seed.
 
+setDifficulty:
+    Arguments:
+        String
+    Usage:
+        difficulty
+    Notes:
+        Sets the difficulty. Options are "Peaceful", "Easy", "Normal", "Hard".
+
+setWorldType:
+    Arguments:
+        String
+    Usage:
+        WorldType ID
+    Notes:
+        Sets the world type.
+
+setRaining:
+    Arguments:
+        Boolean
+    Notes:
+        Sets permanent raining.
+
+setThundering:
+    Arguments:
+        Boolean
+    Notes:
+        Sets permanent thundering.
+
 setDifficultyLocked:
     Arguments:
         Boolean
@@ -36,32 +64,4 @@ setCommandsAllowed:
         Boolean
     Notes:
         Sets if commands are allowed.
-
-setThundering:
-    Arguments:
-        Boolean
-    Notes:
-        Sets permanent thundering.
-
-setDifficulty:
-    Arguments:
-        String
-    Usage:
-        difficulty
-    Notes:
-        Sets the difficulty. Options are "Peaceful", "Easy", "Normal", "Hard".
-
-setRaining:
-    Arguments:
-        Boolean
-    Notes:
-        Sets permanent raining.
-
-setWorldType:
-    Arguments:
-        String
-    Usage:
-        WorldType ID
-    Notes:
-        Sets the world type.
 

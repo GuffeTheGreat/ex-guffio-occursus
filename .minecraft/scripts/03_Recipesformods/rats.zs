@@ -37,6 +37,14 @@ recipes.remove(<rats:rat_upgrade_enchanter>);
 recipes.remove(<rats:rat_upgrade_disenchanter>);
 recipes.remove(<rats:rat_upgrade_milker>);
 
+//ChunkyCheeseToken
+recipes.remove(<rats:chunky_cheese_token>);
+recipes.addShapedMirrored("1x_item_rats_chunky_cheese_token_shaped", <rats:chunky_cheese_token>, [
+	[<rats:token_piece>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "caeles"}]}), <rats:token_piece>],
+	[<thebetweenlands:ring_of_recruitment>.giveBack(), <ore:plateDawnstone>, <thebetweenlands:ring_of_dispersion>.giveBack()],
+	[<rats:token_piece>, <prodigytech:inferno_crystal>, <rats:token_piece>]
+]);
+
 
 
 

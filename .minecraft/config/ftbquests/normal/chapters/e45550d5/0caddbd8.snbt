@@ -20,49 +20,92 @@
 			item: "minecraft:coal 1 1"
 		},
 		{
-			item: "primal:charcoal_fair"
+			item: {
+				item: {
+					item: {
+						item: "primal:charcoal_fair"
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
 		},
 		{
-			item: "primal:charcoal_good"
+			item: {
+				item: {
+					item: {
+						item: "primal:charcoal_good"
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
 		}]
 	},
 	{
 		uid: "72b69471",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "primal:bucket_clay",
-			tag: {
-				Fluid: {
-					FluidName: "wood_tar",
-					Amount: 1000
-				}
+			item: {
+				item: {
+					item: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "primal:bucket_clay",
+						tag: {
+							Fluid: {
+								FluidName: "wood_tar",
+								Amount: 1000
+							}
+						},
+						Count: 1b
+					},
+					Count: 1b
+				},
+				Count: 1b
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "primal:bucket_terra",
-			tag: {
-				Fluid: {
-					FluidName: "wood_tar",
-					Amount: 1000
-				}
+			item: {
+				item: {
+					item: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "primal:bucket_terra",
+						tag: {
+							Fluid: {
+								FluidName: "wood_tar",
+								Amount: 1000
+							}
+						},
+						Count: 1b
+					},
+					Count: 1b
+				},
+				Count: 1b
 			}
 		},
 		{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "primal:bucket_cinis",
-			tag: {
-				Fluid: {
-					FluidName: "wood_tar",
-					Amount: 1000
-				}
+			item: {
+				item: {
+					item: {
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						},
+						id: "primal:bucket_cinis",
+						tag: {
+							Fluid: {
+								FluidName: "wood_tar",
+								Amount: 1000
+							}
+						},
+						Count: 1b
+					},
+					Count: 1b
+				},
+				Count: 1b
 			}
 		}],
 		ignore_nbt: 1b

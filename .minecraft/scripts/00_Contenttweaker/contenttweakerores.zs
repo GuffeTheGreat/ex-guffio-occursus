@@ -7,69 +7,10 @@ import mods.contenttweaker.MaterialSystem;
 import mods.contenttweaker.Material;
 import mods.contenttweaker.Fluid;
 
-var poor = VanillaFactory.createBlock("pile_poor", <blockmaterial:wood>);
-poor.setLightOpacity(0);
-poor.setLightValue(0);
-poor.setBlockHardness(5.0);
-poor.setBlockResistance(5.0);
-poor.setToolClass("axe");
-poor.setToolLevel(0);
-poor.setBlockSoundType(<soundtype:wood>);
-poor.setSlipperiness(0.6);
-poor.setPassable(false);
-poor.register();
-
-var fair = VanillaFactory.createBlock("pile_fair", <blockmaterial:wood>);
-fair.setLightOpacity(0);
-fair.setLightValue(0);
-fair.setBlockHardness(5.0);
-fair.setBlockResistance(5.0);
-fair.setToolClass("axe");
-fair.setToolLevel(0);
-fair.setBlockSoundType(<soundtype:wood>);
-fair.setSlipperiness(0.6);
-fair.setPassable(false);
-fair.register();
-
-var good = VanillaFactory.createBlock("pile_good", <blockmaterial:wood>);
-good.setLightOpacity(0);
-good.setLightValue(0);
-good.setBlockHardness(5.0);
-good.setBlockResistance(5.0);
-good.setToolClass("axe");
-good.setToolLevel(0);
-good.setBlockSoundType(<soundtype:wood>);
-good.setSlipperiness(0.6);
-good.setPassable(false);
-good.register();
-
-var high = VanillaFactory.createBlock("pile_high", <blockmaterial:wood>);
-high.setLightOpacity(0);
-high.setLightValue(0);
-high.setBlockHardness(5.0);
-high.setBlockResistance(5.0);
-high.setToolClass("axe");
-high.setToolLevel(0);
-high.setBlockSoundType(<soundtype:wood>);
-high.setSlipperiness(0.6);
-high.setPassable(false);
-high.register();
-
-var pure = VanillaFactory.createBlock("pile_pure", <blockmaterial:wood>);
-pure.setLightOpacity(0);
-pure.setLightValue(0);
-pure.setBlockHardness(5.0);
-pure.setBlockResistance(5.0);
-pure.setToolClass("axe");
-pure.setToolLevel(0);
-pure.setBlockSoundType(<soundtype:wood>);
-pure.setSlipperiness(0.6);
-pure.setPassable(false);
-pure.register();
 //OORES---------------------------
 
 //emberblock
-var ember = VanillaFactory.createBlock("ember_block", <blockmaterial:rock>);
+var ember = VanillaFactory.createBlock("ember_block", <blockmaterial:circuits>);
 ember.setLightOpacity(0);
 ember.setLightValue(5);
 ember.setBlockHardness(5.0);

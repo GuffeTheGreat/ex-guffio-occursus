@@ -17,10 +17,34 @@ sulfuricAcidDiluted.register();
   #Hydrogen Sulfide
 var hydrogenSulfide = mods.contenttweaker.VanillaFactory.createFluid("hydrogen_sulfide", Color.fromHex("FFFFE6"));
 hydrogenSulfide.density = 200;
-hydrogenSulfide.gaseous = true;
+hydrogenSulfide.gaseous = false;
 hydrogenSulfide.viscosity = 300;
 hydrogenSulfide.temperature = 1000;
 hydrogenSulfide.register();
+
+  #Hydrogen Cyanide
+var hydrogenCyanide = mods.contenttweaker.VanillaFactory.createFluid("hydrogen_cyanide", Color.fromHex("4e82b4"));
+hydrogenCyanide.density = 200;
+hydrogenCyanide.gaseous = false;
+hydrogenCyanide.viscosity = 300;
+hydrogenCyanide.temperature = 200;
+hydrogenCyanide.register();
+
+  #Potassium Cyanide
+var potassiumCyanide = mods.contenttweaker.VanillaFactory.createFluid("potassium_cyanide", Color.fromHex("7fff94"));
+potassiumCyanide.density = 200;
+potassiumCyanide.gaseous = false;
+potassiumCyanide.viscosity = 300;
+potassiumCyanide.temperature = 200;
+potassiumCyanide.register();
+
+  #Potassium Cyanide Solution
+var potassiumCyanideS = mods.contenttweaker.VanillaFactory.createFluid("potassium_cyanide_solution", Color.fromHex("40fd14"));
+potassiumCyanideS.density = 200;
+potassiumCyanideS.gaseous = false;
+potassiumCyanideS.viscosity = 300;
+potassiumCyanideS.temperature = 200;
+potassiumCyanideS.register();
 
   #Polyethylene
 var polyethylene = mods.contenttweaker.VanillaFactory.createFluid("polyethylene", Color.fromHex("e6e6e6"));
@@ -37,11 +61,33 @@ teflon.temperature = 1000;
 teflon.register();
 
 #Mutagen
-var mutagen = mods.contenttweaker.VanillaFactory.createFluid("Mutagen", Color.fromHex("cc8899"));
+var mutagen = mods.contenttweaker.VanillaFactory.createFluid("mutagen", Color.fromHex("cc8899"));
 mutagen.density = 10000;
 mutagen.viscosity = 10000;
 mutagen.temperature = 1000;
 mutagen.register();
+
+#Acetone
+var acetone = mods.contenttweaker.VanillaFactory.createFluid("acetone", Color.fromHex("cc8899"));
+acetone.density = 10000;
+acetone.viscosity = 10000;
+acetone.temperature = 1000;
+acetone.register();
+
+#Aceticacid
+var aceticacid = mods.contenttweaker.VanillaFactory.createFluid("aceticacid", Color.fromHex("cc8899"));
+aceticacid.density = 10000;
+aceticacid.viscosity = 10000;
+aceticacid.temperature = 1000;
+aceticacid.register();
+
+#CalciumAcetate
+var acetatecs = mods.contenttweaker.VanillaFactory.createFluid("calcium_acetate_solution", Color.fromHex("cc8899"));
+acetatecs.density = 10000;
+acetatecs.viscosity = 10000;
+acetatecs.temperature = 1000;
+acetatecs.register();
+
 
 #Embers
 var ember = mods.contenttweaker.VanillaFactory.createFluid("ember", Color.fromHex("e05a00"));
@@ -281,6 +327,13 @@ mana.viscosity = 4000;
 mana.temperature = 300;
 mana.register();
 
+  #fish
+var fish = mods.contenttweaker.VanillaFactory.createFluid("fish_oil", Color.fromHex("e1ad01"));
+fish.density = 10000;
+fish.viscosity = 4000;
+fish.temperature = 300;
+fish.register();
+
   #refinedmana
 var refinedmana = mods.contenttweaker.VanillaFactory.createFluid("refinedmana", Color.fromHex("89cff0"));
 refinedmana.density = 10000;
@@ -304,10 +357,6 @@ carbonFibres.register();
 #Carbonmesh
 var carbonMesh as Item = VanillaFactory.createItem("carbon_mesh");
 carbonMesh.register();
-
-#Carbonplate
-var carbonPlate as Item = VanillaFactory.createItem("carbon_plate");
-carbonPlate.register();
 
 #lignite
 var lignite as Item = VanillaFactory.createItem("lignite");
@@ -362,8 +411,12 @@ var digitalMinerRat as Item = VanillaFactory.createItem("dmrat");
 digitalMinerRat.register();
 
 #PrimordialGoop
-var primordialGoop as Item = VanillaFactory.createItem("primordialGoop");
+var primordialGoop as Item = VanillaFactory.createItem("primordialgoop");
 primordialGoop.register();
+
+#Mortar
+var mortar as Item = VanillaFactory.createItem("mortar");
+mortar.register();
 
 //Microcraftingparts
 //Parts
@@ -377,7 +430,20 @@ for techTiers in techTiers {
     item.register();
   }
 }
-
+for techTiers in techTiers {
+//emberblock
+var circuitry = VanillaFactory.createBlock(techTiers + "circuitry", <blockmaterial:circuits>);
+circuitry.setLightOpacity(0);
+circuitry.setLightValue(0);
+circuitry.setBlockHardness(5.0);
+circuitry.setBlockResistance(5.0);
+circuitry.setToolClass("pickaxe");
+circuitry.setToolLevel(0);
+circuitry.setBlockSoundType(<soundtype:metal>);
+circuitry.setSlipperiness(0.6);
+circuitry.setPassable(false);
+circuitry.register();
+}
   #Ludicrous and Divine Microcrafting parts
 var lastTiers = ["transcendent"] as string[];
 for lastTiers in lastTiers {

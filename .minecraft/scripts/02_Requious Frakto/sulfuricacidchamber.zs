@@ -74,3 +74,6 @@ add([<ore:dustSoapstone>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:10
 add([<ore:dustGlauconite>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:1048>*16],200);
 add([<ore:dustPentlandite>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:1047>*16],200);
 add([<ore:dustTalc>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:1046>*16],200);
+add([<thebetweenlands:items_crushed:20>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:21>],200);
+add([<thebetweenlands:items_crushed:24>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:21>],200);
+add([<thebetweenlands:items_crushed:30>], <liquid:sulfuric_acid>*100, [<alchemistry:compound:21>],200);

@@ -199,7 +199,8 @@ mods.prodigytech.magneticreassembler.removeAll();
 recipes.remove(<prodigytech:inferno_fuel>);
 recipes.addShapeless("1x_item_prodigytech_inferno_fuel_shapeless", <prodigytech:inferno_fuel>, [<ore:dustAsh>, <ore:dustCoal>, <ore:powderBlaze>, <embers:dust_ember>]);
 
-
+//RandomRemovedRecicpes
+recipes.remove(<prodigytech:carbon_plate>*1);
 
 
 

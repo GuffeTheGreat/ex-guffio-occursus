@@ -9,7 +9,15 @@
 		uid: "e749a3e4",
 		type: "item",
 		items: [{
-			item: "primal:mortar"
+			item: {
+				item: {
+					item: {
+						item: "primal:mortar"
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
 		}],
 		count: 32L
 	}]

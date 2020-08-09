@@ -1,7 +1,0 @@
-{
-	title: "Starting Automation with Rats",
-	icon: "rats:raw_rat",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

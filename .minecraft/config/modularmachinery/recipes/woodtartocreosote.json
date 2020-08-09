@@ -1,0 +1,24 @@
+{
+    "machine": "distillery",
+    "registryName": "woodtardistillation",
+    "recipeTime": 1,
+    "requirements": [
+		{
+			"type": "ember",
+			"io-type": "input",
+			 "ember": 200
+		},
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "wood_tar",
+            "amount": 1000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "creosote",
+			"amount": 500
+        }
+    ]
+}

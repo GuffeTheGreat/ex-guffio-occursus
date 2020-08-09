@@ -1,9 +1,9 @@
 {
 	icon: "crossroads:void_crystal",
-	x: -2.0d,
-	y: -15.5d,
+	x: -2.5d,
+	y: -16.0d,
 	dependencies: [
-		"7a2908d8"
+		"9874b716"
 	],
 	tasks: [{
 		uid: "df558aec",
@@ -13,10 +13,10 @@
 		}]
 	},
 	{
-		uid: "311ab00f",
+		uid: "89efe659",
 		type: "item",
 		items: [{
-			item: "thaumcraft:stone_eldritch_tile"
+			item: "thaumicaugmentation:stone"
 		}]
 	}]
 }

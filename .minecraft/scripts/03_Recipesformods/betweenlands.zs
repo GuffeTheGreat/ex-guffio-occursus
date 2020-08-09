@@ -27,7 +27,7 @@ recipes.addShapedMirrored("1x_tile_thebetweenlands_purifier_shaped", <thebetween
 recipes.remove(<thebetweenlands:animator>);
 recipes.addShapedMirrored("1x_tile_thebetweenlands_animator_shaped", <thebetweenlands:animator>, [
 	[<thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>, <thebetweenlands:weedwood_planks>],
-	[<ore:rodValonite>, <thebetweenlands:wight_heart>, <ore:rodValonite>],
+	[<ore:rodValonite>, <thebetweenlands:spirit_fruit>, <ore:rodValonite>],
 	[<thebetweenlands:betweenstone>, <thebetweenlands:purified_swamp_dirt>, <thebetweenlands:betweenstone>]
 ]);
 

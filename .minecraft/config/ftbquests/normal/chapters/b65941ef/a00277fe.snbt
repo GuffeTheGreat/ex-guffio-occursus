@@ -1,7 +1,7 @@
 {
 	title: "Starting into Chemistry",
 	icon: "advancedrocketry:electrolyser",
-	x: -8.5d,
+	x: -7.0d,
 	y: -3.5d,
 	dependencies: [
 		"208522ed"
@@ -130,5 +130,18 @@
 		uid: "7107847e",
 		type: "item",
 		item: "libvulpes:holoprojector"
+	},
+	{
+		uid: "180eedd9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6106378302476884828L,
+					AS_Amulet_HolderMost: 4863570407252250259L
+				}
+			},
+			id: "immersivepetroleum:schematic"
+		}
 	}]
 }

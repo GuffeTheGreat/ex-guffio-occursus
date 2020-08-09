@@ -1,0 +1,24 @@
+{
+    "machine": "distillery",
+    "registryName": "fishoildistillation",
+    "recipeTime": 1,
+    "requirements": [
+		{
+			"type": "ember",
+			"io-type": "input",
+			 "ember": 200
+		},
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "fish_oil",
+            "amount": 1000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "lubricant",
+			"amount": 500
+        }
+    ]
+}

@@ -1,14 +1,20 @@
-//Neutronium
-mods.alchemistry.Combiner.addRecipe(<avaritia:resource:2>,
-    [<alchemistry:element>]);
-mods.alchemistry.Combiner.addRecipe(<avaritia:resource:3>,
-    [<alchemistry:element>*9]);
-mods.alchemistry.Combiner.addRecipe(<avaritia:resource:4>,
-    [<alchemistry:element>*64,<alchemistry:element>*17]);
+//RemovedItems
+mods.jei.JEI.removeAndHide(<alchemistry:electrolyzer>);
+mods.jei.JEI.removeAndHide(<alchemistry:evaporator>);
+mods.jei.JEI.removeAndHide(<alchemistry:atomizer>);
+mods.jei.JEI.removeAndHide(<alchemistry:liquifier>);
+mods.jei.JEI.removeAndHide(<alchemistry:chemical_combiner>);
+mods.jei.JEI.removeAndHide(<alchemistry:fission_casing>);
+mods.jei.JEI.removeAndHide(<alchemistry:fission_core>);
+mods.jei.JEI.removeAndHide(<alchemistry:fission_controller>);
+mods.jei.JEI.removeAndHide(<alchemistry:fusion_casing>);
+mods.jei.JEI.removeAndHide(<alchemistry:fusion_controller>);
+mods.jei.JEI.removeAndHide(<alchemistry:fusion_core>);
 
-mods.alchemistry.Dissolver.addRecipe(<avaritia:resource:2>, true, 1,
-[[100, <alchemistry:element>]]);
-mods.alchemistry.Dissolver.addRecipe(<avaritia:resource:3>, true, 1,
-[[100, <alchemistry:element>*9]]);
-mods.alchemistry.Dissolver.addRecipe(<avaritia:resource:4>, true, 1,
-[[100, <alchemistry:element>*81]]);
+mods.alchemistry.Combiner.removeAllRecipes();
+
+//ChemicalCrafterRecipes
+mods.alchemistry.Combiner.addRecipe(<nuclearcraft:water_source>,
+    [<materialpart:manasteel:plate>,<iceandfire:shiny_scales>,<materialpart:manasteel:plate>,
+    <alchemistry:compound:7>*64,<contenttweaker:case_intermediate>,<alchemistry:compound:7>*64,
+    <materialpart:manasteel:plate>,<iceandfire:shiny_scales>,<materialpart:manasteel:plate>]);

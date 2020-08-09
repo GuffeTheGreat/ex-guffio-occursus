@@ -10,7 +10,7 @@ import crafttweaker.item.IIngredient;
 import mods.pyrotech.Burn;
 import mods.pyrotech.CompactingBin;
 import mods.pyrotech.MechanicalCompactor;
-
+/*
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
 mods.jei.JEI.removeAndHide(<pyrotech:log_pile>);
@@ -31,7 +31,7 @@ mods.jei.JEI.removeAndHide(<pyrotech:bone_pickaxe>);
 mods.jei.JEI.removeAndHide(<pyrotech:flint_pickaxe>);
 mods.jei.JEI.removeAndHide(<pyrotech:obsidian_pickaxe>);
 mods.jei.JEI.removeAndHide(<pyrotech:bucket_clay>);
-
+*/
 var counter = 0;
 
 //Liquidclay
@@ -49,15 +49,7 @@ mods.crossroads.HeatingCrucible.addRecipe(<minecraft:clay>, <liquid:liquid_clay>
 //EasyAsh
 StoneKiln.addRecipe("ashpile", <pyrotech:material>, <ore:logWood>, 1200);
 BrickKiln.addRecipe("ashpile2", <pyrotech:material>, <ore:logWood>, 600);
-
-//BoneAsh
-StoneKiln.addRecipe("boneash", <primal:ash_bone>, <ore:bone>, 1200);
-BrickKiln.addRecipe("boneash2", <primal:ash_bone>, <ore:bone>, 600);
-
-//WolfAsh
-StoneKiln.addRecipe("wolfash", <primal:ash_wolf>, <primal:pelt_wolf>, 1200);
-BrickKiln.addRecipe("wolfash2", <primal:ash_wolf>, <primal:pelt_wolf>, 600);
-
+/*
 //BurningRecipes
 Burn.removeAllRecipes();
 //TarUse
@@ -175,7 +167,7 @@ Burn.createBuilder("bamboocharcoal", <cuisine:material:6>, "zawa:bamboo_decortat
     .addFailureItem(<primal:charcoal_mote> * 8) // charcoal flakes
     .setRequiresRefractoryBlocks(false)
     .register();
-
+*/
 //Anvils
 recipes.remove(<pyrotech:anvil_granite>);
 recipes.remove(<pyrotech:anvil_iron_plated>);
@@ -209,10 +201,6 @@ recipes.addShapedMirrored("1x_item_pyrotech_obsidian_shears_shaped", <pyrotech:o
 	[<pyrotech:material:33>, null],
 	[<ore:cordageQuality>, <pyrotech:material:33>]
 ]);
-
-//Straw
-recipes.remove(<pyrotech:material:2>);
-recipes.addShapeless("1x_item_pyrotech_straw_shapeless", <pyrotech:material:2>, [<primal:thatching_dry>, <pyrotech:material:13>, <primal:plant_cordage>]);
 
 //Bellow
 recipes.remove(<pyrotech:bellows>);
@@ -296,22 +284,6 @@ for input, output in hammerRecipes {
 
 var pickaxeRecipes as IItemStack[IIngredient] = {
 	<minecraft:flint> : <pyrotech:material:10>*2,
-    <pyrotech:material:10> : <primal:flint_point>*2,
-    <minecraft:bone> : <primal:sharp_bone>,
-    <primal:sharp_bone> : <pyrotech:material:11>*2,
-    <pyrotech:material:11> : <primal:bone_point>*2,
-    <primal:ancient_ice> : <primal:ancient_ice_chunk>*4,
-    <primal:calcified_paraffin> : <primal:paraffin_clump>*4,
-    <minecraft:coal:1> : <primal:charcoal_mote>*6,
-    <primal:charcoal_fair> : <primal:charcoal_mote>*8,
-    <primal:charcoal_good> : <primal:charcoal_mote>*10,
-    <primal:charcoal_high> : <primal:charcoal_mote>*12,
-    <primal:charcoal_pure> : <primal:charcoal_mote>*16,
-    <primal:metalblock:4> : <minecraft:coal:1>*9,
-    <pyrotech:charcoal_block> : <primal:charcoal_fair>*9,
-    <actuallyadditions:block_misc:5> : <primal:charcoal_good>*9,
-    <rockhounding_chemistry:misc_blocks_a:11> : <primal:charcoal_high>*9,
-    <advancedrocketry:basalt> : <primal:charcoal_pure>*9
 	};
 
 counter = 0;
@@ -321,11 +293,6 @@ for input, output in pickaxeRecipes {
 	IroncladAnvil.addRecipe("ironpickaxe"+ counter, output, input, 8, "pickaxe");
 
 }
-
-//CompactingBin
-recipes.remove(<primal:thatching_wet>);
-CompactingBin.addRecipe("thatchingfromgrass", <primal:thatching_wet>, <minecraft:tallgrass:1>, 4);
-CompactingBin.addRecipe("thatchingfromrush", <primal:thatching_wet>, <primal:rush_stems>, 2);
 
 //StoneMacines
 recipes.remove(<pyrotech:stone_kiln>);
@@ -381,15 +348,12 @@ recipes.addShapedMirrored("1x_tile_pyrotech_brick_crucible_shaped", <pyrotech:br
 
 //SoakingPotReecipes
 #RemovedRecipes
+SoakingPot.removeRecipes(<minecraft:dirt:2>);
 SoakingPot.removeRecipes(<pyrotech:living_tar>);
 SoakingPot.removeRecipes(<minecraft:coal_block>);
 
 #TreatedRecipes
 SoakingPot.addRecipe("treated_planks_from_planks", <immersiveengineering:treated_wood>, <liquid:creosote>*200, <ore:plankWood>, 2 * 60 * 20);
-
-//TannedHide
-SoakingPot.addRecipe("tanned_hide", <primal:hide_tanned>, <liquid:tannin>*250, <primal:hide_dried>, 3 * 30 * 20);
-SoakingPot.addRecipe("tanned_pigman_hide", <primal:pigman_hide_tanned>, <liquid:tannin>*250, <primal:pigman_hide_dried>, 3 * 30 * 20);
 
 //Thaumcraft
 SoakingPot.addRecipe("salismundus", <thaumcraft:salis_mundus>, <liquid:fluidedmana>*250, <ore:dustDiamond>, 4 * 30 * 20);
@@ -398,6 +362,9 @@ SoakingPot.addRecipe("quicksilver", <thaumcraft:quicksilver>, <liquid:fluidedman
 
 //Sugar
 SoakingPot.addRecipe("sugarfrombamboo", <minecraft:sugar>, <liquid:sugarcane_juice>*200, <ore:charcoal>, 2 * 30 * 20);
+
+//CarbonFibres
+SoakingPot.addRecipe("carbonfibre", <contenttweaker:carbon_fibres>, <liquid:plastic>*250, <ore:dustCarbon>, 2 * 30 * 20);
 /*
 //Sugar
 SoakingPot.addRecipe("bonestock0", <harvestcraft:stockitem>*3, <liquid:phosphoricacid>*200, <minecraft:bone>, 2 * 30 * 20);
@@ -452,28 +419,29 @@ recipes.addShapedMirrored("1x_item_pyrotech_crude_pickaxe_shaped", <pyrotech:cru
 //RefractoryClay
 recipes.remove(<pyrotech:material:4> * 5);
 recipes.addShapedMirrored("5x_item_pyrotech_refractory_clay_ball_shaped", <pyrotech:material:4> * 5, [
-    [<ore:clayball>, <ore:dustAsh>, <ore:clayball>],
-    [<primal:adobe_clump>, <pyrotech:material:*>, <primal:adobe_clump>],
-    [<ore:clayball>, <ore:dustAsh>, <ore:clayball>]
+    [<minecraft:clay_ball>, <ore:dustAsh>, <minecraft:clay_ball>],
+    [<ore:dustBrick>, <pyrotech:material:3>, <ore:dustBrick>],
+    [<minecraft:clay_ball>, <ore:dustAsh>, <minecraft:clay_ball>]
 ]);
 
 
 //CombingStone
 var stoneRecipes as IItemStack[IIngredient] = {
-	<pyrotech:rock> : <minecraft:cobblestone>,
-	<pyrotech:rock:1> : <pyrotech:cobblestone:2>,
-	<pyrotech:rock:2> : <pyrotech:cobblestone:1>,
-	<pyrotech:rock:3> : <pyrotech:cobblestone>,
-	<pyrotech:rock:8> : <pyrotech:cobblestone:3>
-	};
+    <pyrotech:rock> : <minecraft:cobblestone>,
+    <pyrotech:rock:1> : <pyrotech:cobblestone:2>,
+    <pyrotech:rock:2> : <pyrotech:cobblestone:1>,
+    <pyrotech:rock:3> : <pyrotech:cobblestone>,
+    <pyrotech:rock:8> : <pyrotech:cobblestone:3>
+    };
 for rock, stone in stoneRecipes {
 recipes.addShapedMirrored(stone, [
     [rock, rock, rock],
-    [rock, <primal:mortar>, rock],
+    [rock, <minecraft:clay_ball>, rock],
     [rock, rock, rock]
 ]);
     recipes.remove(stone);
 }
+
 
 #CompactingBin
 recipes.remove(<pyrotech:compacting_bin>);
@@ -490,21 +458,13 @@ PitKiln.addRecipe("brick", <minecraft:brick>, <pyrotech:material:24>, 7 * 60 * 2
     <pyrotech:material:7>,
     <pyrotech:material>
 ]);
+/*
 PitKiln.addRecipe("claybucket", <primal:bucket_clay>, <primal:bucket_clay_soft>, 2 * 60 * 20, 0.33, [
     <pyrotech:material:6>, // randomly chosen failure items
     <pyrotech:material:7>,
     <pyrotech:material>
 ]);
-PitKiln.addRecipe("terrabucket", <primal:bucket_terra>, <primal:bucket_terra_soft>, 2 * 60 * 20, 0.33, [
-    <pyrotech:material:6>, // randomly chosen failure items
-    <pyrotech:material:7>,
-    <pyrotech:material>
-]);
-PitKiln.addRecipe("cinisbucket", <primal:bucket_cinis>, <primal:bucket_cinis_soft>, 2 * 60 * 20, 0.33, [
-    <pyrotech:material:6>, // randomly chosen failure items
-    <pyrotech:material:7>,
-    <pyrotech:material>
-]);
+*/
 PitKiln.addRecipe("shears", <pyrotech:clay_shears>, <pyrotech:unfired_clay_shears>, 2 * 60 * 20, 0.33, [
     <pyrotech:material:6>, // randomly chosen failure items
     <pyrotech:material:7>,
@@ -550,7 +510,7 @@ PitKiln.addRecipe("stoneslab_from_cobblestone", <minecraft:stone_slab>, <minecra
     <pyrotech:rock> * 5,
     <pyrotech:rock> * 6
 ]);
-
+/*
 //OtherKilns
 StoneKiln.removeRecipes(<pyrotech:material:15>);
 BrickKiln.removeRecipes(<pyrotech:material:15>);
@@ -566,3 +526,4 @@ StoneKiln.addRecipe("bucket2", <primal:bucket_terra>, <primal:bucket_terra_soft>
 BrickKiln.addRecipe("bucket3", <primal:bucket_terra>, <primal:bucket_terra_soft>, 1200, 0.02, [<pyrotech:material>]);
 StoneKiln.addRecipe("bucket4", <primal:bucket_clay>, <primal:bucket_clay_soft>, 1800, 0.08, [<pyrotech:material>]);
 BrickKiln.addRecipe("bucket5", <primal:bucket_clay>, <primal:bucket_clay_soft>, 1200, 0.02, [<pyrotech:material>]);
+*/

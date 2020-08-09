@@ -1,11 +1,13 @@
 {
 	icon: "crossroads:beacon_harness",
-	x: 1.0d,
-	y: -9.5d,
+	x: -2.5d,
+	y: -14.5d,
 	shape: "rsquare",
 	dependencies: [
-		"f0daca3b"
+		"f0daca3b",
+		"9874b716"
 	],
+	optional: true,
 	tasks: [{
 		uid: "9943de17",
 		type: "item",
@@ -19,5 +21,10 @@
 		items: [{
 			item: "crossroads:beacon_harness"
 		}]
+	}],
+	rewards: [{
+		uid: "6e2ee42f",
+		type: "item",
+		item: "randomthings:spectrelens"
 	}]
 }

@@ -1,0 +1,10 @@
+//RecipesYAY
+mods.nuclearcraft.Pressurizer.addRecipe(<ore:frozenBlock>*9,<iceandfire:dragon_ice>);
+mods.nuclearcraft.Pressurizer.addRecipe(<ore:wireCopper>*8,<libvulpes:coil0:4>);
+mods.nuclearcraft.Pressurizer.addRecipe(<contenttweaker:carbon_mesh>,<prodigytech:carbon_plate>);
+mods.nuclearcraft.Pressurizer.addRecipe(<minecraft:dye:4>*9,<minecraft:lapis_block>);
+mods.nuclearcraft.Pressurizer.addRecipe(<ore:sand>*4,<minecraft:sandstone>);
+mods.nuclearcraft.Pressurizer.addRecipe(<ore:string>*4,<minecraft:wool>);
+mods.nuclearcraft.Pressurizer.addRecipe(<ore:ingotIron>*9,<minecraft:iron_block>);
+mods.nuclearcraft.Pressurizer.addRecipe(<ore:ingotGold>*9,<minecraft:gold_block>);
+mods.nuclearcraft.Pressurizer.addRecipe(<ore:ingotGold>*4,<minecraft:gold_block>);

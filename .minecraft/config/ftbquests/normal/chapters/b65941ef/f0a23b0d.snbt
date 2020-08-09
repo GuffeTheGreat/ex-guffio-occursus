@@ -1,0 +1,17 @@
+{
+	x: -8.5d,
+	y: -16.0d,
+	shape: "diamond",
+	dependencies: [
+		"105cfaf9",
+		"5936a8b7"
+	],
+	tasks: [{
+		uid: "7cfa3682",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}],
+		count: 14L
+	}]
+}

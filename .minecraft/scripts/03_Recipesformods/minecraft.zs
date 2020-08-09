@@ -2,9 +2,6 @@ import mods.pyrotech.BrickCrucible;
 import mods.pyrotech.StoneCrucible;
 
 mods.jei.JEI.removeAndHide(<minecraft:beetroot_soup>);
-mods.jei.JEI.removeAndHide(<minecraft:diamond_pickaxe>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:pickaxe_steel>);
-mods.jei.JEI.removeAndHide(<appliedenergistics2:nether_quartz_pickaxe>);
 mods.jei.JEI.removeAndHide(<minecraft:chainmail_helmet>);
 mods.jei.JEI.removeAndHide(<minecraft:chainmail_chestplate>);
 mods.jei.JEI.removeAndHide(<minecraft:chainmail_leggings>);
@@ -33,10 +30,12 @@ recipes.addShapedMirrored("1x_item_bucket_shaped", <minecraft:bucket>, [
 //Dispensor
 recipes.remove(<minecraft:dispenser>);
 recipes.addShapedMirrored("1x_tile_dispenser_shaped", <minecraft:dispenser>, [
-	[<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-	[<minecraft:cobblestone>, <minecraft:bow>, <minecraft:cobblestone>],
-	[<minecraft:cobblestone>, <thaumcraft:inlay>, <minecraft:cobblestone>]
+	[<ore:cobblestone>, <ore:ringCrudeSteel>, <ore:cobblestone>],
+	[<ore:springIron>, <minecraft:bow>, <ore:springIron>],
+	[<ore:cobblestone>, <thaumcraft:inlay>, <ore:cobblestone>]
 ]);
+
+
 
 //Brewingstand
 recipes.remove(<minecraft:brewing_stand>);
@@ -84,15 +83,9 @@ recipes.remove(<minecraft:gunpowder>);
 //Labblender
 //mods.rockhounding_chemistry.LabBlender.add([<immersiveengineering:material:24>, <ore:dustSulfur>, <ore:compoundCharcoal>], <minecraft:gunpowder>*4);
 
-//Randomcleanuprecipes
-furnace.remove(<minecraft:stick>*3);
-mods.primal.Cauldron.removeRecipe("primal:stick_from_corypha");
-mods.primal.Cauldron.removeRecipe("primal:stick_from_lacquer");
-
 //SugarCleanup
 recipes.removeShapeless(<minecraft:sugar>*1);
 mods.magneticraft.Grinder.removeRecipe(<minecraft:reeds>);
-mods.enderio.SagMill.removeRecipe(<minecraft:reeds>);
 
 //GlassRecipes
 mods.atum.Kiln.blacklist("minecraft:glass");
@@ -108,45 +101,6 @@ mods.crossroads.HeatingCrucible.addRecipe(<minecraft:sand>, <liquid:glass>*1000,
 //GlassSolidifying
 mods.crossroads.FluidCoolingChamber.addRecipe(<minecraft:glass>,<liquid:glass> * 1000,500,50);
 
-//CharcoalCleanup
-furnace.remove(<minecraft:coal:1>);
-recipes.remove(<minecraft:coal:1>);
-recipes.remove(<primal:metalblock:4>);
-recipes.remove(<actuallyadditions:block_misc:5>);
-recipes.remove(<pyrotech:charcoal_block>);
-recipes.remove(<rockhounding_chemistry:misc_blocks_a:11>);
-recipes.addShapedMirrored("poorcharcoalblock", <primal:metalblock:4>, [
-	[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
-	[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>],
-	[<minecraft:coal:1>, <minecraft:coal:1>, <minecraft:coal:1>]
-]);
-recipes.addShapedMirrored("faircharcoalblock", <pyrotech:charcoal_block>, [
-	[<primal:charcoal_fair>, <primal:charcoal_fair>, <primal:charcoal_fair>],
-	[<primal:charcoal_fair>, <primal:charcoal_fair>, <primal:charcoal_fair>],
-	[<primal:charcoal_fair>, <primal:charcoal_fair>, <primal:charcoal_fair>]
-]);
-recipes.addShapedMirrored("1x_tile_pyrotech_charcoal_block_shaped", <actuallyadditions:block_misc:5>, [
-	[<primal:charcoal_good>, <primal:charcoal_good>, <primal:charcoal_good>],
-	[<primal:charcoal_good>, <primal:charcoal_good>, <primal:charcoal_good>],
-	[<primal:charcoal_good>, <primal:charcoal_good>, <primal:charcoal_good>]
-]);
-recipes.addShapedMirrored("1x_tile_metallurgy_charcoal_block_shaped", <rockhounding_chemistry:misc_blocks_a:11>, [
-	[<primal:charcoal_high>, <primal:charcoal_high>, <primal:charcoal_high>],
-	[<primal:charcoal_high>, <primal:charcoal_high>, <primal:charcoal_high>],
-	[<primal:charcoal_high>, <primal:charcoal_high>, <primal:charcoal_high>]
-]);
-recipes.addShapedMirrored("1x_tile_rockhounding_chemistry_misc_blocks_a_charcoal_block_shaped", <advancedrocketry:basalt>, [
-	[<primal:charcoal_pure>, <primal:charcoal_pure>, <primal:charcoal_pure>],
-	[<primal:charcoal_pure>, <primal:charcoal_pure>, <primal:charcoal_pure>],
-	[<primal:charcoal_pure>, <primal:charcoal_pure>, <primal:charcoal_pure>]
-]);
-
-//PreMetalSaddle
-recipes.remove(<minecraft:saddle>);
-recipes.addShapedMirrored("1x_item_saddle_shaped", <minecraft:saddle>, [
-	[<ore:leather>, <ore:leather>, <ore:leather>],
-	[<ore:cordageLeather>, <ore:wool>, <ore:cordageLeather>]
-]);
 //PaperCleanup
 recipes.remove(<minecraft:paper>);
 
@@ -194,37 +148,6 @@ furnace.remove(<minecraft:netherbrick>);
 //Planks
 recipes.remove(<minecraft:planks:*>);
 
-furnace.setFuel(<minecraft:coal:1>, 1200);
-furnace.setFuel(<primal:charcoal_pure>, 3200);
-furnace.setFuel(<primal:charcoal_mote>, 200);
-
-//CharcoalPiles
-recipes.addShapedMirrored("1x_tile_contenttweaker_pile_poor_shaped", <contenttweaker:pile_poor>, [
-	[<ore:poorWood>, <ore:poorWood>, <ore:poorWood>],
-	[<ore:poorWood>, <ore:poorWood>, <ore:poorWood>],
-	[<ore:poorWood>, <ore:poorWood>, <ore:poorWood>]
-]);
-recipes.addShapedMirrored("1x_tile_contenttweaker_pile_fair_shaped", <contenttweaker:pile_fair>, [
-	[<ore:fairWood>, <ore:fairWood>, <ore:fairWood>],
-	[<ore:fairWood>, <ore:fairWood>, <ore:fairWood>],
-	[<ore:fairWood>, <ore:fairWood>, <ore:fairWood>]
-]);
-recipes.addShapedMirrored("1x_tile_contenttweaker_pile_good_shaped", <contenttweaker:pile_good>, [
-	[<ore:goodWood>, <ore:goodWood>, <ore:goodWood>],
-	[<ore:goodWood>, <ore:goodWood>, <ore:goodWood>],
-	[<ore:goodWood>, <ore:goodWood>, <ore:goodWood>]
-]);
-recipes.addShapedMirrored("1x_tile_contenttweaker_pile_high_shaped", <contenttweaker:pile_high>, [
-	[<ore:highWood>, <ore:highWood>, <ore:highWood>],
-	[<ore:highWood>, <ore:highWood>, <ore:highWood>],
-	[<ore:highWood>, <ore:highWood>, <ore:highWood>]
-]);
-recipes.addShapedMirrored("1x_tile_contenttweaker_pile_pure_shaped", <contenttweaker:pile_pure>, [
-	[<ore:pureWood>, <ore:pureWood>, <ore:pureWood>],
-	[<ore:pureWood>, <ore:pureWood>, <ore:pureWood>],
-	[<ore:pureWood>, <ore:pureWood>, <ore:pureWood>]
-]);
-
 //LeatherArmor
 recipes.remove(<minecraft:leather_chestplate>);
 recipes.addShapedMirrored("1x_item_chestplateCloth_shaped", <minecraft:leather_chestplate>, [
@@ -251,13 +174,61 @@ recipes.addShapedMirrored("1x_item_bootsCloth_shaped", <minecraft:leather_boots>
 	[<ore:cordageQuality>, <ore:leather>, <ore:cordageQuality>]
 ]);
 
-//Leathercleanup
+//Noteblock
+recipes.remove(<minecraft:noteblock>);
+recipes.addShapedMirrored("1x_tile_musicBlock_shaped", <minecraft:noteblock>, [
+	[<ore:plankWood>, <pyrotech:material:20>, <ore:plankWood>],
+	[<ore:barsIron>, <thaumcraft:inlay>, <ore:barsIron>],
+	[<ore:plankWood>, <pyrotech:material:20>, <ore:plankWood>]
+]);
+
+//Rails
+recipes.remove(<minecraft:golden_rail>);
+recipes.addShapedMirrored("6x_tile_goldenRail_shaped", <minecraft:golden_rail> * 6, [
+	[<ore:boltCrudeSteel>, <ore:ingotRedAlloy>, <ore:boltCrudeSteel>],
+	[<ore:rodGold>, <ore:slatWood>, <ore:rodGold>],
+	[<ore:boltCrudeSteel>, <ore:ingotRedAlloy>, <ore:boltCrudeSteel>]
+]);
+recipes.remove(<minecraft:detector_rail>);
+recipes.addShapedMirrored("6x_tile_detectorRail_shaped", <minecraft:detector_rail> * 6, [
+	[<ore:boltCrudeSteel>, <ore:ingotRedAlloy>, <ore:boltCrudeSteel>],
+	[<ore:stickIron>, <ore:slatWood>, <ore:stickIron>],
+	[<ore:boltCrudeSteel>, <ore:ingotRedAlloy>, <ore:boltCrudeSteel>]
+]);
+recipes.remove(<minecraft:rail>);
+recipes.addShapedMirrored("6x_tile_rail_shaped", <minecraft:rail> * 6, [
+	[<ore:boltCrudeSteel>, null, <ore:boltCrudeSteel>],
+	[<ore:stickIron>, <ore:slatWood>, <ore:stickIron>],
+	[<ore:boltCrudeSteel>, null, <ore:boltCrudeSteel>]
+]);
+
+
+
+
+//GiantRecipeCleanup
+recipes.remove(<minecraft:sand>);
+recipes.remove(<minecraft:web>);
+recipes.remove(<minecraft:grass>*4);
+recipes.removeShaped(<minecraft:wool>);
+recipes.removeShaped(<minecraft:stone:*>);
+recipes.removeShaped(<minecraft:sandstone>);
+mods.magneticraft.HydraulicPress.removeRecipe(<minecraft:stone:1>, 0);
+mods.magneticraft.HydraulicPress.removeRecipe(<minecraft:stone:2>, 0);
+//mods.magneticraft.HydraulicPress.removeRecipe(<minecraft:stone:3>, 0);
+//mods.magneticraft.HydraulicPress.removeRecipe(<minecraft:cobblestone>, 0);
+furnace.remove(<minecraft:cobblestone>);
+furnace.remove(<minecraft:wool>);
+furnace.remove(<minecraft:dirt>);
+furnace.remove(<minecraft:grass>);
+furnace.remove(<minecraft:stone>,<iceandfire:frozen_stone>);
+furnace.remove(<minecraft:cobblestone>);
+furnace.remove(<minecraft:gravel>);
+furnace.remove(<minecraft:grass_path>);
+furnace.remove(<minecraft:stick>*3);
+mods.pyrotech.BrickKiln.removeRecipes(<minecraft:cobblestone>);
+mods.pyrotech.StoneKiln.removeRecipes(<minecraft:cobblestone>);
 mods.bloodmagic.AlchemyTable.removeRecipe([<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:flint>,<minecraft:water_bucket>]);
-
-
-
-
-
+mods.crossroads.FusionBeam.removeRecipe(<minecraft:stone>,false);
 
 
 

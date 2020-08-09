@@ -11,7 +11,12 @@ val alloymap = {
 <immersiveengineering:metal:6>*2 : [<ore:ingotNickel>,<ore:ingotCopper>],
 <embers:ingot_electrum>*2 : [<ore:ingotGold>,<ore:ingotSilver>],
 <embers:ingot_bronze>*4 : [<ore:ingotCopper>*3,<ore:ingotTin>],
-<rockhounding_chemistry:misc_blocks_a:13>*4 : [<contenttweaker:carbon_plate>,<ore:blockGlassColorless>*4],
+<rockhounding_chemistry:misc_blocks_a:13>*4 : [<prodigytech:carbon_plate>,<ore:blockGlassColorless>*4],
+<contenttweaker:alumino_silicate_wool>*2 : [<ore:dustSiliconDioxide>,<ore:dustRuby>],
+<contenttweaker:alumino_silicate_wool>*2 : [<ore:dustSiliconDioxide>,<ore:dustGreenSapphire>],
+<contenttweaker:alumino_silicate_wool>*2 : [<ore:dustSiliconDioxide>,<ore:dustValonite>],
+<contenttweaker:alumino_silicate_wool>*2 : [<ore:dustSiliconDioxide>,<ore:dustSapphire>],
+<contenttweaker:alumino_silicate_wool>*2 : [<ore:dustSiliconDioxide>,<ore:dustScabyst>],
 <modularmachinery:itemmodularium>*2 : [<ore:ingotNickel>,<ore:ingotSilver>]
 
 

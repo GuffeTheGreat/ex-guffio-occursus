@@ -12,6 +12,8 @@ recipes.remove(<scannable:module_blank>);
 recipes.addShapedMirrored("1x_item_scannable_module_blank_shaped", <scannable:module_blank>, [
 	[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],
 	[<ore:plateGold>, <ore:plateGold>, <ore:plateGold>],
-	[<enderio:item_endergy_conduit:4>, <enderio:item_endergy_conduit:4>, <enderio:item_endergy_conduit:4>]
+	[<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>]
 ]);
+
+
 

@@ -1,3 +1,5 @@
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
 //BasicCasing
 //Basic
 recipes.addShapedMirrored("1x_tile_modularmachinery_blockcasing_plain_shaped", <modularmachinery:blockcasing>, [
@@ -42,27 +44,6 @@ recipes.addShapedMirrored("64x_tile_modularmachinery_blockcasing_plain_shaped", 
 	[null, <modularmachinery:itemmodularium>, null]
 ]);
 
-//Firebox
-recipes.addShapedMirrored("1x_tile_modularmachinery_blockcasing_firebox_shaped", <modularmachinery:blockcasing:2>, [
-	[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>],
-	[<ore:plateSteel>, <modularmachinery:blockcasing>, <ore:plateSteel>],
-	[<ore:stickSteel>, <ore:stickSteel>, <ore:stickSteel>]
-]);
-
-//HotairOutput
-recipes.addShapedMirrored("1x_tile_blockhotairoutputhatch_shaped", <modulardiversity:blockhotairoutputhatch>, [
-	[<ore:plateSteel>, <prodigytech:air_funnel>, <ore:plateSteel>],
-	[<ore:plateSteel>, <modularmachinery:blockcasing>, <ore:plateSteel>],
-	[<ore:plateSteel>, <prodigytech:air_funnel>, <ore:plateSteel>]
-]);
-
-//BasicFluidOutput
-recipes.addShapedMirrored("1x_tile_modularmachinery_blockfluidoutputhatch_tiny_shaped", <modularmachinery:blockfluidoutputhatch>, [
-	[<ore:plateSteel>, <contenttweaker:basicvalve>, <ore:plateSteel>],
-	[<ore:plateSteel>, <modularmachinery:blockcasing>, <ore:plateSteel>],
-	[<ore:plateSteel>, <contenttweaker:basicvalve>, <ore:plateSteel>]
-]);
-
 //Controller
 recipes.addShapedMirrored("1x_tile_modularmachinery_blockcontroller_shaped", <modularmachinery:blockcontroller>, [
 	[<modularmachinery:itemmodularium>, <ore:circuitBasic>, <modularmachinery:itemmodularium>],
@@ -70,6 +51,39 @@ recipes.addShapedMirrored("1x_tile_modularmachinery_blockcontroller_shaped", <mo
 	[<modularmachinery:itemmodularium>, <ore:circuitBasic>, <modularmachinery:itemmodularium>]
 ]);
 
+//Hatches
+val hatchmap = {
+<ore:plateManasteel> : [<botania:manaresource:2>,<modulardiversity:blockmanainputhatch>,<modulardiversity:blockmanaoutputhatch>],
+<ore:plateFerramic> : [<prodigytech:air_funnel>,<modulardiversity:blockhotairinputhatch>,<modulardiversity:blockhotairoutputhatch>]
+
+
+} as IItemStack[][IIngredient];
+
+for key, value in hatchmap {
+
+recipes.addShapedMirrored(value[1], [
+	[key, key, key],
+	[value[0], <modularmachinery:blockcasing>, value[0]],
+	[key, key, key]
+]);
+recipes.addShapedMirrored(value[2], [
+	[key, value[0], key],
+	[key, <modularmachinery:blockcasing>, key],
+	[key, value[0], key]
+]);
+}
+
+//onewayputs
+recipes.addShapedMirrored("1x_tile_blockconstellationprovider_shaped", <modularmagic:blockconstellationprovider>, [
+	[<ore:ingotAstralStarmetal>, <astralsorcery:itemperkseal>, <ore:ingotAstralStarmetal>],
+	[<astralsorcery:itemperkseal>, <modularmachinery:blockcasing>, <astralsorcery:itemperkseal>],
+	[<ore:ingotAstralStarmetal>, <astralsorcery:itemperkseal>, <ore:ingotAstralStarmetal>]
+]);
+recipes.addShapedMirrored("1x_tile_blockweatherdetector_shaped", <modulardiversity:blockweatherdetector>, [
+	[<ore:plateSteel>, <quark:rain_detector>, <ore:plateSteel>],
+	[<quark:rain_detector>, <modularmachinery:blockcasing>, <quark:rain_detector>],
+	[<ore:plateSteel>, <quark:rain_detector>, <ore:plateSteel>]
+]);
 
 
 

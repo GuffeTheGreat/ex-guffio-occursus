@@ -13,7 +13,6 @@ import crafttweaker.item.IIngredient;
 
 //Agglomeration.addRecipe(<modularmachinery:itemmodularium> * 3, [<minecraft:sugar>, <minecraft:iron_ingot>, <exnihilocreatio:item_material:2>], 20, 0xFFFFFF, 0xF1C232, <minecraft:wool>, <minecraft:wool>, <minecraft:wool>, null, null, null);
 
-//
 //Manastar
 FluidToItem.transform(<botania:specialflower>.withTag({type: "manastar"}), <liquid:fluidedmana>, <botania:petal:*>*16, true);
 
@@ -25,6 +24,12 @@ mods.botania.PureDaisy.addRecipe(<crossroads:block_salt>,<crossroads:block_pure_
 mods.botania.PureDaisy.addRecipe(<minecraft:stonebrick>,<pyrotech:stone_bricks>);
 mods.botania.PureDaisy.addRecipe(<thebetweenlands:rubber_block>,<thaumcraft:amber_block>);
 mods.botania.PureDaisy.addRecipe(<minecraft:obsidian>,<contenttweaker:ember_block>);
+mods.botania.PureDaisy.addRecipe(<minecraft:snow>,<minecraft:ice>);
+mods.botania.PureDaisy.addRecipe(<rats:marbled_cheese_raw>,<astralsorcery:blockmarble>);
+mods.botania.PureDaisy.addRecipe(<astralsorcery:blockinfusedwood>,<botania:livingwood>);
+mods.botania.PureDaisy.addRecipe(<thaumcraft:stone_eldritch_tile>,<botania:livingrock>);
+mods.botania.PureDaisy.addRecipe(<atum:sand>,<minecraft:sand>);
+mods.botania.PureDaisy.addRecipe(<minecraft:sand>,<minecraft:glass>);
 
 //Shulkmenot
 recipes.addShapedMirrored("1x_tile_botania:flower_shulk_me_not_shaped", <botania:specialflower>.withTag({type: "shulk_me_not"}), [
@@ -33,6 +38,27 @@ recipes.addShapedMirrored("1x_tile_botania:flower_shulk_me_not_shaped", <botania
 	[<minecraft:chorus_fruit_popped>, <thaumadditions:dna_sample>.withTag({Entity: {Id: "minecraft:shulker"}}), <minecraft:chorus_fruit_popped>]
 ]);
 
+//DilutedManapool
+recipes.remove(<botania:pool:2>);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("guffe:shaped/internal/altar/dilutedpool", <botania:pool:2>, 120, 200, [
+	null, null, null,
+	<ore:blockMarble>, <thaumcraft:salis_mundus>, <ore:blockMarble>,
+	<ore:blockMarble>, <ore:blockMarble>, <ore:blockMarble>]);
+
+//Manapool
+recipes.remove(<botania:pool>);
+mods.astralsorcery.Altar.addAttunementAltarRecipe("guffe:shaped/internal/altar/manapool", <botania:pool>, 500, 600, [
+null, null, null,
+			<ore:livingrock>, <thaumcraft:salis_mundus>, <ore:livingrock>,
+			<ore:livingrock>, <ore:livingrock>, <ore:livingrock>,
+			<botania:manaresource:23>, <botania:manaresource:23>, <botania:manaresource:23>, <botania:manaresource:23>]);
+
+//Manaspreader
+recipes.remove(<botania:spreader>);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("guffe:shaped/internal/altar/spreader", <botania:spreader>, 120, 200, [
+	<botania:livingwood>, <botania:livingwood>, <botania:livingwood>,
+	<ore:gemGreenSapphire>, <botania:petal:9>, <astralsorcery:itemcraftingcomponent:3>,
+	<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]);
 
 val supermap = {
 <silentgems:gemsuper> : [<ore:flawlessRuby>,<ore:ingotGaiasteel>],

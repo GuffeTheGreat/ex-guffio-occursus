@@ -18,10 +18,10 @@ recipes.addShapeless("2x_item_dust_ash_shapeless", <embers:dust_ash> * 2, [<ore:
 
 //Ashenstone
 recipes.remove(<embers:ashen_stone> * 4);
-recipes.addShapedMirrored("4x_tile_ashen_stone_shaped", <embers:ashen_stone> * 4, [
-	[<embers:dust_ash>, <primal:hardened_stone>, <embers:dust_ash>],
-	[<primal:hardened_stone>, <embers:dust_ash>, <primal:hardened_stone>],
-	[<embers:dust_ash>, <primal:hardened_stone>, <embers:dust_ash>]
+recipes.addShapedMirrored("5x_tile_ashen_stone_shaped", <embers:ashen_stone> * 5, [
+	[<ore:stone>, <embers:dust_ash>, <ore:stone>],
+	[<embers:dust_ash>, <ore:stone>, <embers:dust_ash>],
+	[<ore:stone>, <embers:dust_ash>, <ore:stone>]
 ]);
 
 //CaminiteBrick
@@ -230,7 +230,7 @@ mods.embers.Alchemy.add(<embers:ashen_cloth>, [<immersiveengineering:material:5>
 
 //FelPumpkin
 recipes.remove(<botania:felpumpkin>);
-mods.embers.Alchemy.add(<botania:felpumpkin>, [<minecraft:pumpkin>, <thebetweenlands:shimmer_stone>, <minecraft:gunpowder>, <minecraft:fermented_spider_eye>, <primal:ovis_atre_wool>], {"copper": 32 to 64, "dawnstone": 16 to 48});
+mods.embers.Alchemy.add(<botania:felpumpkin>, [<minecraft:pumpkin>, <thebetweenlands:shimmer_stone>, <minecraft:gunpowder>, <minecraft:fermented_spider_eye>, <thebetweenlands:pyrad_flame>], {"copper": 32 to 64, "dawnstone": 16 to 48});
 
 //CatalyticPlug
 mods.embers.Alchemy.remove(<embers:catalytic_plug>);

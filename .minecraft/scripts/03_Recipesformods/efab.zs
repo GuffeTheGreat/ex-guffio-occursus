@@ -29,7 +29,7 @@ EFabRecipe.shaped(<crossroads:steam_boiler>, [
 ])
 .time(20*60*1)
 	.tier("GEARBOX");
-	
+		
 //bookShelf
  EFabRecipe.shaped(<minecraft:bookshelf>, [
 [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],

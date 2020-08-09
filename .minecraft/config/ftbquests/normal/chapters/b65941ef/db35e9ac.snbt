@@ -1,6 +1,6 @@
 {
 	icon: "modularmachinery:blockcontroller",
-	x: -4.0d,
+	x: -5.5d,
 	y: -0.5d,
 	dependencies: [
 		"cc995398",

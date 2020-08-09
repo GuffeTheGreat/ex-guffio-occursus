@@ -6,8 +6,8 @@
 			dynamicmachine: "modularmachinery:distillery"
 		}
 	},
-	x: -4.0d,
-	y: -3.5d,
+	x: -5.5d,
+	y: -2.0d,
 	dependencies: [
 		"1e3a14ae",
 		"db35e9ac"

@@ -154,6 +154,19 @@ recipes.addShapedMirrored("1x_tile_arcane_reflector_shaped", <crossroads:arcane_
 	[null, null, null]
 ]);
 
+//VoidCrystal
+mods.astralsorcery.Altar.addAttunementAltarRecipe("guffe:shaped/internal/altar/voidcrystal", <crossroads:void_crystal>, 500, 600, [
+			<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vacuos"}]}), <crossroads:pure_quartz>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vacuos"}]}),
+			<crossroads:pure_quartz>, <prodigytech:aeternus_crystal>, <crossroads:pure_quartz>,
+			<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vacuos"}]}), <crossroads:pure_quartz>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vacuos"}]}),
+			<astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>]);
+
+//BeaconHarness
+mods.astralsorcery.Altar.addAttunementAltarRecipe("guffe:shaped/internal/altar/infinityreagent", <crossroads:beacon_harness>, 500, 600, [
+			<arcanearchives:shaped_quartz>, <crossroads:lens_array>, <arcanearchives:shaped_quartz>,
+			<crossroads:lens_array>, <crossroads:luminescent_quartz>, <crossroads:lens_array>,
+			<arcanearchives:shaped_quartz>, <crossroads:lens_array>, <arcanearchives:shaped_quartz>,
+			<crossroads:pure_quartz>, <crossroads:pure_quartz>, <crossroads:pure_quartz>, <crossroads:pure_quartz>]);
 
 
 

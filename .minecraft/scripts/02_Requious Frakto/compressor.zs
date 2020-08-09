@@ -1,29 +1,24 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
-import crafttweaker.liquid.ILiquidStack;
-import crafttweaker.item.WeightedItemStack;
+import mods.requious.AssemblyRecipe;
+import mods.requious.ComponentFace;
+import mods.requious.GaugeDirection;
+import mods.requious.SlotVisual;
+/*
+val compressor = <assembly:compressor>;
 
-var compressor = <assembly:compressor>;
+compressor.setItemSlot(3, 2, ComponentFace.all(), 64000).setAccess(true, false).setHandAccess(true,false).setGroup("input");
+compressor.setItemSlot(5, 2, ComponentFace.all(), 128000).setAccess(false, true).setHandAccess(false,true).setGroup("output");
 
-var x = compressor.setItemSlot(1,1,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
-x = compressor.setItemSlot(1,2,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
-x = compressor.setItemSlot(1,3,mods.requious.ComponentFace.all(),64).setAccess(true,false).setGroup("input");
-x = compressor.setFluidSlot(2,2,mods.requious.ComponentFace.back(),12000).setAccess(true,false).setGroup("input");
-x = compressor.setItemSlot(6,1,mods.requious.ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output");
-x = compressor.setItemSlot(6,2,mods.requious.ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output");
-x = compressor.setItemSlot(6,3,mods.requious.ComponentFace.all(),64).setAccess(false,true).setHandAccess(false,true).setGroup("output");
+compressor.setEnergySlot(3, 3, ComponentFace.all(), 16000).setAccess(true, false).setUnit("fe").setBackground(SlotVisual.createGauge("requious:textures/gui/assembly_gauges.png", 2, 1, 3, 1, GaugeDirection.up(), false)).setGroup("input");
+compressor.setDurationSlot(4, 2).setVisual(SlotVisual.arrowRight()).setGroup("duration");
 
-compressor.setJEIItemSlot(0,0,"input");
-compressor.setJEIItemSlot(1,0,"input");
-compressor.setJEIItemSlot(2,0,"input");
-compressor.setJEIFluidSlot(3,0,"input");
-compressor.setJEIDurationSlot(4,0,"duration",mods.requious.SlotVisual.create(1,1).addPart("requious:textures/gui/assembly_gauges.png",0,8));
-compressor.setJEIItemSlot(5,0,"output");
-compressor.setJEIItemSlot(6,0,"output");
-compressor.setJEIItemSlot(7,0,"output");
+compressor.setJEIItemSlot(3, 2, "input");
+compressor.setJEIDurationSlot(4, 2, "duration", SlotVisual.arrowRight());
+compressor.setJEIItemSlot(5, 2, "output");
 
-function add(inputItems as IIngredient[], inputFluid as ILiquidStack, outputItems as IItemStack[]){
-	var compressor = <assembly:compressor>;
+function add(inputItems as IIngredient[], outputItems as IItemStack[], energy as int, ticks as int){
+	var assembler = <assembly:compressor>;
 	var recipe = mods.requious.AssemblyRecipe.create(function(container) {
 		for item in outputItems {
 			container.addItemOutput("output",item);
@@ -32,34 +27,14 @@ function add(inputItems as IIngredient[], inputFluid as ILiquidStack, outputItem
 	for item in inputItems {
 		recipe = recipe.requireItem("input",item);
 	}
-	if(!isNull(inputFluid))
-		recipe = recipe.requireFluid("input",inputFluid);
-	
-	compressor.addRecipe(recipe);
-	compressor.addJEIRecipe(recipe);	
-}
-/*
-function addRandom(inputItems as IIngredient[], inputFluid as ILiquidStack, outputItems as WeightedItemStack[]){
-	var compressor = <assembly:compressor>;
-	var recipe = mods.requious.AssemblyRecipe.create(function(container) {
-		for item in outputItems {
-			if(container.jei)
-				container.addItemOutput("output",item.stack.withLore(["§d§l" ~ item.percent ~ "%"]));
-			else if(container.random.nextDouble() < item.chance)
-				container.addItemOutput("output",item.stack);
-		}
-	});
-	for item in inputItems {
-		recipe = recipe.requireItem("input",item);
-	}
-	if(!isNull(inputFluid))
-		recipe = recipe.requireFluid("input",inputFluid);
-	
-	compressor.addRecipe(recipe);
-	compressor.addJEIRecipe(recipe);
-}
 
-addRandom([<contenttweaker:sulfur>,<ore:coal>*2], <liquid:steam> * 1500, [<contenttweaker:sulfuel> % 20, <minecraft:cobblestone> % 80]);
-addRandom([<contenttweaker:sulfuel>*2,<contenttweaker:solid_fuel>*4], <liquid:gas> * 500, [<contenttweaker:sulfuel_empowered> % 40, <minecraft:cobblestone> % 60]);
-add([<contenttweaker:sulfuel_empowered>*3,<minecraft:tnt>*25], <liquid:steam> * 10000, [<contenttweaker:sulfuel_hp>]);
+	recipe.requireEnergy("input", energy);
+	recipe.requireDuration("duration", ticks);
+
+	assembler.addRecipe(recipe);
+	assembler.addJEIRecipe(recipe);	
+}
+add([<contenttweaker:carbon_mesh>],[<prodigytech:carbon_plate>],10000,20);
+add([<immersiveengineering:material:20>*16],[<libvulpes:coil0:4>],5000,20);
+add([<ore:frozenBlock>*9],[<iceandfire:dragon_ice>],2500,20);
 */

@@ -56,12 +56,42 @@
 																																												item: {
 																																													item: {
 																																														item: {
-																																															ForgeCaps: {
-																																																"customnpcs:itemscripteddata": {}
+																																															item: {
+																																																item: {
+																																																	item: {
+																																																		item: {
+																																																			item: {
+																																																				item: {
+																																																					item: {
+																																																						item: {
+																																																							item: {
+																																																								item: {
+																																																									ForgeCaps: {
+																																																										"customnpcs:itemscripteddata": {}
+																																																									},
+																																																									id: "exoplanets:metalore",
+																																																									Count: 1b,
+																																																									Damage: 3s
+																																																								},
+																																																								Count: 1b
+																																																							},
+																																																							Count: 1b
+																																																						},
+																																																						Count: 1b
+																																																					},
+																																																					Count: 1b
+																																																				},
+																																																				Count: 1b
+																																																			},
+																																																			Count: 1b
+																																																		},
+																																																		Count: 1b
+																																																	},
+																																																	Count: 1b
+																																																},
+																																																Count: 1b
 																																															},
-																																															id: "exoplanets:metalore",
-																																															Count: 1b,
-																																															Damage: 3s
+																																															Count: 1b
 																																														},
 																																														Count: 1b
 																																													},

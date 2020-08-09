@@ -6,25 +6,26 @@ import mods.efabct.EFabRecipe;
 //Mundane
 recipes.remove(<silentgems:craftingmaterial:24> * 24);
 recipes.addShapedMirrored("24x_item_silentgems_armorlatticemundane_shaped", <silentgems:craftingmaterial:24> * 24, [
-    [<ore:cordageGeneral>, <minecraft:leather>, <ore:cordageGeneral>],
-    [<minecraft:leather>, <ore:stickWood>, <minecraft:leather>],
-    [<ore:cordageGeneral>, <minecraft:leather>, <ore:cordageGeneral>]
+    [<ore:string>, <ore:leather>, <ore:string>],
+    [<ore:leather>, <ore:stickStone>, <ore:leather>],
+    [<ore:string>, <ore:leather>, <ore:string>]
 ]);
+
 //Regular
 recipes.remove(<silentgems:craftingmaterial:25> * 24);
- recipes.addShapedMirrored("24x_item_silentgems_armorlatticeregular_shaped", <silentgems:craftingmaterial:25> * 24, [
-    [<ore:cordageQuality>, <primal:leather_boiled>, <ore:cordageQuality>],
-    [<primal:leather_boiled>, <ore:rodCrudeSteel>, <primal:leather_boiled>],
-    [<ore:cordageQuality>, <primal:leather_boiled>, <ore:cordageQuality>]
+recipes.addShapedMirrored("24x_item_silentgems_armorlatticeregular_shaped", <silentgems:craftingmaterial:25> * 24, [
+    [<bloodarsenal:blood_burned_string>, <ore:plateIron>, <bloodarsenal:blood_burned_string>],
+    [<ore:plateIron>, <ore:stickSteel>, <ore:plateIron>],
+    [<bloodarsenal:blood_burned_string>, <ore:plateIron>, <bloodarsenal:blood_burned_string>]
 ]);
+
 //Super
 recipes.remove(<silentgems:craftingmaterial:26> * 24);
 recipes.addShapedMirrored("24x_item_silentgems_armorlatticesuper_shaped", <silentgems:craftingmaterial:26> * 24, [
-    [<ore:cordageNether>, <thaumcraft:fabric>, <ore:cordageNether>],
-    [<thaumcraft:fabric>, <ore:stickAluminum>, <thaumcraft:fabric>],
-    [<ore:cordageNether>, <thaumcraft:fabric>, <ore:cordageNether>]
+    [<bewitchment:spirit_string>, <bewitchment:sanguine_cloth>, <bewitchment:spirit_string>],
+    [<bewitchment:sanguine_cloth>, <avaritia:resource>, <bewitchment:sanguine_cloth>],
+    [<bewitchment:spirit_string>, <bewitchment:sanguine_cloth>, <bewitchment:spirit_string>]
 ]);
-
 
 val armormap = {
 
@@ -37,8 +38,6 @@ val armormap = {
 <ore:plateSyrmorite> : [<materialpart:Syrmorite:Bolt>,<thebetweenlands:syrmorite_helmet>,<thebetweenlands:syrmorite_chestplate>,<thebetweenlands:syrmorite_leggings>,<thebetweenlands:syrmorite_boots>],
 
 <ore:plateGold> : [<materialpart:Gold:Bolt>,<minecraft:golden_helmet>,<minecraft:golden_chestplate>,<minecraft:golden_leggings>,<minecraft:golden_boots>],
-
-<ore:plateTritanium> : [<materialpart:Tritanium:Bolt>,<matteroverdrive:tritanium_helmet>,<matteroverdrive:tritanium_chestplate>,<matteroverdrive:tritanium_leggings>,<matteroverdrive:tritanium_boots>],
 
 <ore:plateIron> : [<materialpart:Iron:Bolt>,<minecraft:iron_helmet>,<minecraft:iron_chestplate>,<minecraft:iron_leggings>,<minecraft:iron_boots>]
 

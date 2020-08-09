@@ -153,7 +153,7 @@ addChemicalSplitterRecipe([<alchemistry:element:20>*3,<alchemistry:compound:14>*
 addChemicalSplitterRecipe([<alchemistry:element:20>*3,<alchemistry:compound:14>*5,<alchemistry:element:17>],[<alchemistry:compound:1020>*9],1000,30);
 
 //Pyrochlore
-addChemicalSplitterRecipe([<alchemistry:element:20>*2,<alchemistry:element:41>*5,<alchemistry:element:8>*7],[<alchemistry:compound:1021>*11],1000,30);
+addChemicalSplitterRecipe([<alchemistry:element:20>*2,<alchemistry:element:41>*2,<alchemistry:element:8>*7],[<alchemistry:compound:1021>*11],1000,30);
 
 //MixedGem
 addChemicalSplitterRecipe([<alchemistry:compound:1041>,<alchemistry:compound:1037>],[<alchemistry:compound:1042>*2],1000,30);
@@ -161,8 +161,8 @@ addChemicalSplitterRecipe([<alchemistry:compound:1041>,<alchemistry:compound:103
 //Asbestos
 addChemicalSplitterRecipe([<alchemistry:element:12>*3,<alchemistry:element:14>*2,<alchemistry:element:1>*4,<alchemistry:element:8>*9],[<alchemistry:compound:1043>*18],1000,30);
 
-//MixedGem
-addChemicalSplitterRecipe([<alchemistry:compound:1>*8,<alchemistry:compound:10>,<alchemistry:compound:1053>],[<alchemistry:compound:1042>*10],1000,30);
+//Diatomite
+addChemicalSplitterRecipe([<alchemistry:compound:1>*8,<alchemistry:compound:10>,<alchemistry:compound:1053>],[<alchemistry:compound:1044>*10],1000,30);
 
 //Wulfenite
 addChemicalSplitterRecipe([<alchemistry:element:82>,<alchemistry:element:42>,<alchemistry:element:8>*4],[<alchemistry:compound:1061>*6],1000,30);

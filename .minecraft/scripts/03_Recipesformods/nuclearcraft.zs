@@ -12,11 +12,13 @@ recipes.addShapedMirrored("1x_tile_nuclearcraft_water_source_shaped", <nuclearcr
 
 //AlloySmelter
 recipes.remove(<nuclearcraft:alloy_furnace>);
-recipes.addShapedMirrored("1x_tile_nuclearcraft_melter_shaped", <nuclearcraft:alloy_furnace>, [
-	[<ore:circuitBasic>, <ore:plateSteel>, <ore:circuitBasic>],
-	[<magneticraft:electric_furnace>, <contenttweaker:case_basic>, <magneticraft:electric_furnace>],
-	[<enderio:item_endergy_conduit:4>, <ore:plateSteel>, <enderio:item_endergy_conduit:4>]
+recipes.addShapedMirrored("1x_tile_nuclearcraft_alloy_furnace_shaped", <nuclearcraft:alloy_furnace>, [
+	[<ore:circuitBasic>, <contenttweaker:basicrobotarm>, <ore:circuitBasic>],
+	[<thebetweenlands:sulfur_furnace>, <contenttweaker:case_basic>, <thebetweenlands:sulfur_furnace>],
+	[<immersiveengineering:material:20>, <contenttweaker:basicmotor>, <immersiveengineering:material:20>]
 ]);
+
+
 
 //SpeedUpgrade
 recipes.remove(<nuclearcraft:upgrade>);

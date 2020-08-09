@@ -4,13 +4,6 @@ import mods.cuisine.BasinThrowing;
 import mods.cuisine.BasinSqueezing;
 
 
-//Bamboopile2
-recipes.addShapedMirrored("1x_tile_bamboo_decortation_shaped", <zawa:bamboo_decortation>, [
-	[<cuisine:bamboo>, <cuisine:bamboo>],
-	[<cuisine:bamboo>, <cuisine:bamboo>]
-]);
-
-
 var food as IItemStack[] = [
 	<cuisine:material:2>
 ];
@@ -50,12 +43,6 @@ recipes.addShapedMirrored("1x_tile_cuisine_mill_shaped", <cuisine:mill>, [
 
 //Basinthrowingremove
 BasinThrowing.removeAll();
-
-//LiquidIce
-BasinSqueezing.add(<item:minecraft:ice>, <liquid:ice> * 1000);
-//SugarcaneJuicefrom
-BasinSqueezing.add(<item:primal:daucus_murn_fronds_withered>, <liquid:sugarcane_juice> * 300);
-
 
 //Firepit
 recipes.remove(<cuisine:fire_pit>);

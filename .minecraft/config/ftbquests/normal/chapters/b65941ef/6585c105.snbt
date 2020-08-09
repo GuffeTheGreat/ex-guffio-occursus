@@ -25,5 +25,12 @@
 			}
 		}],
 		ignore_nbt: 1b
+	},
+	{
+		uid: "f623b7cd",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}]
 	}]
 }

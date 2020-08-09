@@ -56,10 +56,40 @@
 																																												item: {
 																																													item: {
 																																														item: {
-																																															ForgeCaps: {
-																																																"customnpcs:itemscripteddata": {}
+																																															item: {
+																																																item: {
+																																																	item: {
+																																																		item: {
+																																																			item: {
+																																																				item: {
+																																																					item: {
+																																																						item: {
+																																																							item: {
+																																																								item: {
+																																																									ForgeCaps: {
+																																																										"customnpcs:itemscripteddata": {}
+																																																									},
+																																																									id: "cyclicmagic:nether_emerald_ore",
+																																																									Count: 1b
+																																																								},
+																																																								Count: 1b
+																																																							},
+																																																							Count: 1b
+																																																						},
+																																																						Count: 1b
+																																																					},
+																																																					Count: 1b
+																																																				},
+																																																				Count: 1b
+																																																			},
+																																																			Count: 1b
+																																																		},
+																																																		Count: 1b
+																																																	},
+																																																	Count: 1b
+																																																},
+																																																Count: 1b
 																																															},
-																																															id: "cyclicmagic:nether_emerald_ore",
 																																															Count: 1b
 																																														},
 																																														Count: 1b

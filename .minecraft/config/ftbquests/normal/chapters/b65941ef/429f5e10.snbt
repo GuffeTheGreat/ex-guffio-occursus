@@ -1,7 +1,7 @@
 {
 	icon: "botania:pool",
 	x: -4.0d,
-	y: -12.5d,
+	y: -13.0d,
 	dependencies: [
 		"d76aacb7"
 	],

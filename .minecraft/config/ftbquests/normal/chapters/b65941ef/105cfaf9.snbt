@@ -1,0 +1,29 @@
+{
+	icon: "alchemistry:element 1 13",
+	x: -8.5d,
+	y: -14.5d,
+	dependencies: [
+		"0cd8a92e"
+	],
+	tasks: [{
+		uid: "bbc61313",
+		type: "item",
+		items: [{
+			item: "alchemistry:element 1 13"
+		}]
+	},
+	{
+		uid: "d958dd53",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 1259"
+		}]
+	},
+	{
+		uid: "99ccc3e2",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 13"
+		}]
+	}]
+}

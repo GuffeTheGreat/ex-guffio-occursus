@@ -28,15 +28,11 @@
 		ignore_nbt: 1b
 	},
 	{
-		uid: "89152f47",
+		uid: "4021d7ad",
 		type: "item",
 		items: [{
-			ForgeCaps: {
-				"astralsorcery:cap_item_amulet_holder": {}
-			},
-			id: "bloodmagic:lava_crystal"
+			item: "bloodmagic:blood_rune"
 		}],
-		ignore_damage: true,
-		ignore_nbt: 1b
+		count: 8L
 	}]
 }

@@ -9,7 +9,15 @@
 		uid: "285ba03b",
 		type: "item",
 		items: [{
-			item: "primal:plant_fiber"
+			item: {
+				item: {
+					item: {
+						item: "primal:plant_fiber"
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
 		}],
 		count: 8L
 	},
@@ -17,7 +25,15 @@
 		uid: "09aefc0d",
 		type: "item",
 		items: [{
-			item: "primal:plant_cordage"
+			item: {
+				item: {
+					item: {
+						item: "primal:plant_cordage"
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
 		}]
 	}]
 }

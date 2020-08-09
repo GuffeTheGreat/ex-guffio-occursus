@@ -1,6 +1,8 @@
 {
-	x: -5.5d,
-	y: -5.0d,
+	title: "Self Sustaining Carbon Production",
+	icon: "emergingtechnology:scrubber",
+	x: -7.0d,
+	y: -6.5d,
 	dependencies: [
 		"970829e5"
 	],
@@ -9,6 +11,34 @@
 		type: "item",
 		items: [{
 			item: "crossroads:salt_reactor"
+		}]
+	},
+	{
+		uid: "2fe6f71e",
+		type: "item",
+		items: [{
+			item: "emergingtechnology:scrubber"
+		}]
+	},
+	{
+		uid: "b445affd",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dry_ice"
+		}]
+	},
+	{
+		uid: "1d86a4fb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dry_ice_dust"
+		}]
+	},
+	{
+		uid: "c52b5978",
+		type: "item",
+		items: [{
+			item: "alchemistry:compound 1 999"
 		}]
 	}],
 	rewards: [{

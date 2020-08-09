@@ -6,13 +6,6 @@ val rockCrystal = mods.astralsorcery.Utils.getCrystalORIngredient(false, false);
 //InfusedGlass
 mods.astralsorcery.StarlightInfusion.addInfusion(<rockhounding_chemistry:misc_blocks_a:13>, <astralsorcery:iteminfusedglass>, false, 0.5, 100);
 
-//InfinityReagent
-mods.astralsorcery.Altar.addAttunementAltarRecipe("guffe:shaped/internal/altar/infinityreagent", <enderio:item_material:75>, 500, 600, [
-			<botanicadds:mana_lapis>, <astralsorcery:itemusabledust:1>, <botanicadds:mana_lapis>,
-			<astralsorcery:itemusabledust:1>, <thebetweenlands:ring_of_summoning>, <astralsorcery:itemusabledust:1>,
-			<botanicadds:mana_lapis>, <astralsorcery:itemusabledust:1>, <botanicadds:mana_lapis>,
-			<thaumcraft:nitor_black>, <thaumcraft:nitor_black>, <thaumcraft:nitor_black>, <thaumcraft:nitor_black>]);
-
 //ResonatingWand
 recipes.remove(<astralsorcery:itemwand>);
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_basicwand");
@@ -48,3 +41,14 @@ mods.astralsorcery.Altar.addDiscoveryAltarRecipe("astralsorcery:shaped/internal/
 	<astralsorcery:blockmarble:6>, <astralsorcery:itemcraftingcomponent:3>, <astralsorcery:blockmarble:6>,
 	<astralsorcery:blockmarble:4>, rockCrystal, <astralsorcery:blockmarble:4>,
 	<ore:gemGarnet>, <astralsorcery:blockmarble:6>, <ore:gemHeliodor>]);
+
+
+
+
+
+
+
+
+
+
+

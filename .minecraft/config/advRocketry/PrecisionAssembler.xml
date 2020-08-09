@@ -32,23 +32,106 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="true">
-	<Recipe timeRequired="2000" power="16000">
+	<Recipe timeRequired="200" power="500">
 		<input>
-			<fluidStack>silicone;4000</fluidStack>
-			<oreDict>plateSteel;48</oreDict>
-			<oreDict>ingotZircaloy;24</oreDict>
-			<oreDict>ingotVanasteel;16</oreDict>
-			<oreDict>circuitAdvanced;8</oreDict>
-			<itemStack>contenttweaker:advancedpiston;6</itemStack>
-			<oreDict>exquisiteChrysoprase;2</oreDict>
-			<itemStack>enderio:block_dark_steel_anvil</itemStack>
+			<fluidStack>soldering_alloy;288</fluidStack>
+			<oreDict>rodSteel;2</oreDict>
+			<oreDict>circuitBasic;2</oreDict>
+			<oreDict>wireCopper;2</oreDict>
+			<oreDict>plateSilicon;2</oreDict>
+			<oreDict>gemSapphire</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:basicemitter</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="500">
+		<input>
+			<fluidStack>soldering_alloy;288</fluidStack>
+			<oreDict>rodSteel;2</oreDict>
+			<oreDict>circuitBasic;2</oreDict>
+			<oreDict>wireCopper;2</oreDict>
+			<oreDict>plateSilicon;2</oreDict>
+			<oreDict>gemGreenSapphire</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:basicsensor</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="1000">
+		<input>
+			<fluidStack>soldering_alloy;288</fluidStack>
+			<oreDict>gearElectricalSteel;4</oreDict>
+			<oreDict>plateElectricalSteel;4</oreDict>
+			<oreDict>circuitBasic;2</oreDict>
+			<itemStack>enderio:item_endergy_conduit;4;4</itemStack>
+			<itemStack>contenttweaker:case_basic</itemStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:basiccircuitry</itemStack>
+		</output>
+	</Recipe>
+		<Recipe timeRequired="600" power="200">
+		<input>
+			<fluidStack>electrical_steel;576</fluidStack>
+			<itemStack>contenttweaker:basicemitter;4</itemStack>
+			<oreDict>circuitBasic;4</oreDict>
+			<oreDict>dustEnderPearl</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:basicfield_generator</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="40" power="200">
+		<input>
+			<oreDict>wireCopper;4</oreDict>
+			<oreDict>plasticBlack</oreDict>
+        </input>
+		<output>
+			<itemStack>enderio:item_endergy_conduit;4;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="2400" power="2000">
+		<input>
+			<fluidStack>phtalic;20000</fluidStack>
+			<oreDict>ingotAluminium;64</oreDict>
+			<oreDict>plasticRed;16</oreDict>
+			<oreDict>dustBedrock;12</oreDict>
+			<oreDict>ingotNiobium;8</oreDict>
+			<oreDict>ingotLithiumManganeseDioxide;8</oreDict>
+			<itemStack>deepmoblearning:pristine_matter_wither_skeleton;5</itemStack>
+			<itemStack>contenttweaker:basicfield_generator;2</itemStack>
+			<itemStack>rats:idol_of_ratlantis</itemStack>
+        </input>
+		<output>
+			<itemStack>minecraft:obsidian</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1200" power="4000">
+		<input>
+			<oreDict>plateSteel;16</oreDict>
+			<oreDict>ingotNiobiumTin;12</oreDict>
+			<oreDict>plasticLightGray;8</oreDict>
+			<oreDict>dustHexamine;8</oreDict>
+			<itemStack>prodigytech:carbon_plate;4</itemStack>
+			<oreDict>circuitBasic;4</oreDict>
+			<itemStack>contenttweaker:basicvalve;2</itemStack>
 			<itemStack>minecraft:paper</itemStack>
         </input>
 		<output>
-			<itemStack>magneticraft:hydraulic_press</itemStack>
+			<itemStack>magneticraft:oil_heater</itemStack>
 		</output>
 	</Recipe>
-
+    <Recipe timeRequired="200" power="1000">
+		<input>
+			<fluidStack>soldering_alloy;288</fluidStack>
+			<itemStack>contenttweaker:alumino_silicate_wool;8</itemStack>
+			<itemStack>libvulpes:coil0;1;4</itemStack>
+        </input>
+		<output>
+			<itemStack>immersiveengineering:metal_decoration0</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="1000" power ="1">
 		<input>
 			<itemStack>libvulpes:battery</itemStack>

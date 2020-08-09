@@ -41,6 +41,24 @@
 			<itemStack>minecraft:coal;1;1</itemStack>
 		</output>
 	</Recipe>
+	<Recipe timeRequired="40" power="250">
+		<input>
+			<fluidStack>oxygen;1000</fluidStack>
+			<oreDict>dustCarbon</oreDict>
+        </input>
+		<output>
+			<fluidStack>carbon_monoxide;1000</fluidStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="200" power="200">
+		<input>
+			<fluidStack>carbondioxide;1000</fluidStack>
+			<oreDict>dustCarbon</oreDict>
+        </input>
+		<output>
+			<fluidStack>carbon_monoxide;2000</fluidStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="100" power ="10">
 		<input>
 			<fluidStack>oxygen;10</fluidStack>

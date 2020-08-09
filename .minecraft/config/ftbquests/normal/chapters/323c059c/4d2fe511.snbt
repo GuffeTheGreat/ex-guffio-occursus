@@ -9,7 +9,15 @@
 		uid: "24d11ae2",
 		type: "item",
 		items: [{
-			item: "enderio:item_alloy_endergy_ingot"
+			item: {
+				item: {
+					item: {
+						item: "enderio:item_alloy_endergy_ingot"
+					},
+					Count: 1b
+				},
+				Count: 1b
+			}
 		}]
 	}]
 }

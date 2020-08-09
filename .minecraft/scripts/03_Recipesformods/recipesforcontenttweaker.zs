@@ -1,39 +1,50 @@
 import mods.pyrotech.StoneKiln;
 import mods.pyrotech.BrickKiln;
+import mods.efabct.EFabRecipe;
 
-/*//Basic Motor
-recipes.addShapedMirrored("1x_item_contenttweaker_basicmotor_shaped", <contenttweaker:basicmotor>, [
-	[<contenttweaker:material_part:1916>, <enderio:item_endergy_conduit:4>, <immersiveengineering:material:2>],
-	[<enderio:item_endergy_conduit:4>, <immersiveengineering:material:2>, <enderio:item_endergy_conduit:4>],
-	[<immersiveengineering:material:2>, <enderio:item_endergy_conduit:4>, <contenttweaker:material_part:1916>]
-]);
-*/
-//Basic Piston
-recipes.addShapedMirrored("1x_item_contenttweaker_basicpiston_shaped", <contenttweaker:basicpiston>, [
-	[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
-	[<enderio:item_endergy_conduit:4>, <ore:stickSteel>, <ore:stickSteel>],
-	[<enderio:item_endergy_conduit:4>, <contenttweaker:basicmotor>, <ore:gearSteel>]
-]);
 
-//BasicRobotArm
-recipes.addShapedMirrored("1x_item_contenttweaker_basicrobotarm_shaped", <contenttweaker:basicrobotarm>, [
-	[<contenttweaker:basicmotor>, <ore:stickSteel>, <contenttweaker:basicmotor>],
-	[<ore:stickSteel>, null, <ore:stickSteel>],
-	[null, null, <contenttweaker:basicpiston>]
-]);
 
-//BasicEmitter
-recipes.addShapedMirrored("1x_item_contenttweaker_basicemitter_shaped", <contenttweaker:basicemitter>, [
-	[<ore:ingotTantalum>, <ore:ingotTantalum>, <ore:circuitBasic>],
-	[<enderio:item_endergy_conduit:4>, <ore:gemQuartz>, <ore:ingotTantalum>],
-	[<ore:circuitBasic>, <enderio:item_endergy_conduit:4>, <ore:ingotTantalum>]
-]);
+//BasicMachineParts
+EFabRecipe.shaped(<contenttweaker:basicmotor>, [
+[<ore:wireCopper>, <immersiveengineering:wirecoil>, <ore:rodSteel>],
+[<immersiveengineering:wirecoil>, <immersiveintelligence:material_ingot:5>, <immersiveengineering:wirecoil>],
+[<ore:rodSteel>, <immersiveengineering:wirecoil>, <ore:wireCopper>]])
+    .time(30)
+    .tier("GEARBOX")
+    .fluid(<liquid:lubricant> * 250);
+EFabRecipe.shaped(<contenttweaker:basicvalve>, [
+[<ore:boltSteel>, <ore:rotorTin>, <ore:boltSteel>],
+[<crossroads:fluid_tube>, <crossroads:fluid_tube>, <crossroads:fluid_tube>],
+[<ore:wireCopper>, <contenttweaker:basicmotor>, <ore:wireCopper>]])
+    .time(60)
+    .tier("GEARBOX")
+    .fluid(<liquid:plastic> * 250);
+EFabRecipe.shaped(<contenttweaker:basicrobotarm>, [
+[<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>],
+[<contenttweaker:basicmotor>, <ore:stickSteel>, <contenttweaker:basicmotor>],
+[<contenttweaker:basicpiston>, <ore:circuitBasic>, <ore:stickSteel>]])
+    .time(60)
+    .tier("GEARBOX")
+    .fluid(<liquid:soldering_alloy> * 288);
+EFabRecipe.shaped(<contenttweaker:basicconveyor>, [
+[<ore:plasticBlack>, <ore:plasticBlack>, <ore:plasticBlack>],
+[<ore:wireCopper>, <contenttweaker:basicmotor>, <ore:wireCopper>],
+[<ore:plasticBlack>, <ore:plasticBlack>, <ore:plasticBlack>]])
+    .time(60)
+    .tier("GEARBOX")
+    .fluid(<liquid:lubricant> * 500);
+EFabRecipe.shaped(<contenttweaker:basicpiston>, [
+[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
+[<immersiveengineering:material:20>, <ore:stickSteel>, <ore:stickSteel>],
+[<immersiveengineering:material:20>, <contenttweaker:basicmotor>, <ore:gearSteel>]])
+    .time(60)
+    .tier("GEARBOX")
+    .fluid(<liquid:lubricant> * 500);
 
-//Basic Conveyorbelt
-recipes.addShapedMirrored("1x_item_contenttweaker_basicconveyor_shaped", <contenttweaker:basicconveyor>, [
-	[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>],
-	[<contenttweaker:basicmotor>, <enderio:item_endergy_conduit:4>, <contenttweaker:basicmotor>],
-	[<ore:plateRubber>, <ore:plateRubber>, <ore:plateRubber>]
+//CarbonMesh
+recipes.addShapedMirrored("1x_item_contenttweaker_carbon_mesh_shaped", <contenttweaker:carbon_mesh>, [
+	[<contenttweaker:carbon_fibres>, <contenttweaker:carbon_fibres>],
+	[<contenttweaker:carbon_fibres>, <contenttweaker:carbon_fibres>]
 ]);
 
 //Smeltingthedusts

@@ -3,6 +3,7 @@ mods.jei.JEI.removeAndHide(<magneticraft:crushing_table>);
 //NewOilHeating
 mods.magneticraft.OilHeater.addRecipe(<liquid:desaltedoil> * 10, <liquid:hot_crude> * 100, 10, 2500);
 mods.magneticraft.OilHeater.addRecipe(<liquid:natural_gas> * 10, <liquid:hotnaturalgas> * 100, 10, 2500);
+mods.magneticraft.OilHeater.addRecipe(<liquid:calcium_acetate_solution> * 100, <liquid:acetone> * 100, 10, 3000);
 mods.magneticraft.OilHeater.removeRecipe(<liquid:oil>);
 mods.magneticraft.OilHeater.removeRecipe(<liquid:water>);
 
@@ -81,14 +82,25 @@ recipes.addShapedMirrored(
 //ElectricFurnace
 recipes.remove(<magneticraft:electric_furnace>);
 recipes.addShapedMirrored("1x_tile_magneticraft_electric_furnace_off_north_shaped", <magneticraft:electric_furnace>, [
-	[<enderio:item_endergy_conduit:4>, <magneticraft:brick_furnace>, <enderio:item_endergy_conduit:4>],
-	[<prodigytech:circuit_crude>, <contenttweaker:case_basic>, <prodigytech:circuit_crude>],
-	[<enderio:item_endergy_conduit:4>, <enderio:item_endergy_conduit:4>, <enderio:item_endergy_conduit:4>]
+	[<ore:wireCopper>, <magneticraft:brick_furnace>, <ore:wireCopper>],
+	[<ore:circuitBasic>, <contenttweaker:case_basic>, <ore:circuitBasic>],
+	[<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>]
 ]);
+
+
 
 //SieveRecipes
 #Glowstone
 mods.magneticraft.Sieve.addRecipe(<minecraft:glowstone_dust>, <materialpart:Redstone:tiny_pile>*3, 1.0, <materialpart:Phosphate:tiny_pile>*3, 1, <materialpart:Gold:tiny_pile>*3, 1, 40, true);
+
+//CopperCoil
+recipes.remove(<magneticraft:copper_coil>);
+recipes.addShapedMirrored("1x_item_magneticraft_copper_coil_normal_shaped", <magneticraft:copper_coil>, [
+	[null, <ore:wireCopper>, null],
+	[<ore:wireCopper>, <ore:plateIron>, <ore:wireCopper>],
+	[null, <ore:wireCopper>, null]
+]);
+
 
 
 

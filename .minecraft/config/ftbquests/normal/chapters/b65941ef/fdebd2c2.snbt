@@ -1,4 +1,5 @@
 {
+	icon: "astralsorcery:blockwell",
 	x: -2.5d,
 	y: -8.0d,
 	dependencies: [
@@ -9,6 +10,29 @@
 		type: "item",
 		items: [{
 			item: "astralsorcery:blockwell"
+		}]
+	},
+	{
+		uid: "6a192f4a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "astralsorcery.liquidstarlight",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3378b552",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
 		}]
 	}]
 }

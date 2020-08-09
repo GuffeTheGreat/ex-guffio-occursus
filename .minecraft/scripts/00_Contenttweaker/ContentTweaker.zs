@@ -388,11 +388,19 @@ moltenCobalt.addDataValue("luminosity", "10");
 
 //Eletricalsteel
 var eletricalsteel = MaterialSystem.getMaterialBuilder().setName("Electrical Steel").setColor(Color.fromHex("d3d3d3")).build();
-eletricalsteel.registerParts(["dust","plate","rotor","ring","bolt","rod"] as string[]);
+eletricalsteel.registerParts(["gear","dust","plate","rotor","ring","bolt","rod"] as string[]);
+
+var meletricalsteel = eletricalsteel.registerPart("molten").getData();
+meletricalsteel.addDataValue("temperature", "3000");
+meletricalsteel.addDataValue("luminosity", "10");
 
 //RedstoneAlloy
 var redstonealloy = MaterialSystem.getMaterialBuilder().setName("Redstone Alloy").setColor(Color.fromHex("d3d3d3")).build();
 redstonealloy.registerParts(["dust","plate"] as string[]);
+
+//hopgraphite
+var hopgraphite = MaterialSystem.getMaterialBuilder().setName("HOP Graphite").setColor(Color.fromHex("0c0f12")).build();
+hopgraphite.registerParts(["plate"] as string[]);
 
 //Galena
 var galena = MaterialSystem.getMaterialBuilder().setName("Galena").setColor(Color.fromHex("2f1538")).build();
@@ -968,3 +976,11 @@ antimonytrioxide.registerParts(["tiny_pile","dust","block"] as string[]);
 //Cupric Oxide
 var cupricoxide = MaterialSystem.getMaterialBuilder().setName("Cupric Oxide").setColor(Color.fromHex("141414")).build();
 cupricoxide.registerParts(["tiny_pile","dust","block"] as string[]);
+
+//Potassium Cyanide
+var potassiumcyanide = MaterialSystem.getMaterialBuilder().setName("Potassium Cyanide").setColor(Color.fromHex("7fff94")).build();
+potassiumcyanide.registerParts(["tiny_pile","dust","block"] as string[]);
+
+//brick
+var brick = MaterialSystem.getMaterialBuilder().setName("Brick").setColor(Color.fromHex("8d2c19")).build();
+brick.registerParts(["dust"] as string[]);
