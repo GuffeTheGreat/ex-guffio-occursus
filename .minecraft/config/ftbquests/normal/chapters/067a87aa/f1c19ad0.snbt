@@ -1,0 +1,24 @@
+{
+	icon: "thebetweenlands:items_misc 1 27",
+	x: 1.5d,
+	y: -8.0d,
+	dependencies: [
+		"71ef3a85"
+	],
+	tasks: [{
+		uid: "87e08580",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:limestone"
+		}],
+		count: 8L
+	},
+	{
+		uid: "23cab0a2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 27"
+		}],
+		count: 8L
+	}]
+}

@@ -45,7 +45,31 @@
 																																			item: {
 																																				item: {
 																																					item: {
-																																						item: "metallurgy:quicksilver_ingot"
+																																						item: {
+																																							item: {
+																																								item: {
+																																									item: {
+																																										item: {
+																																											item: {
+																																												item: {
+																																													item: {
+																																														item: "metallurgy:quicksilver_ingot"
+																																													},
+																																													Count: 1b
+																																												},
+																																												Count: 1b
+																																											},
+																																											Count: 1b
+																																										},
+																																										Count: 1b
+																																									},
+																																									Count: 1b
+																																								},
+																																								Count: 1b
+																																							},
+																																							Count: 1b
+																																						},
+																																						Count: 1b
 																																					},
 																																					Count: 1b
 																																				},

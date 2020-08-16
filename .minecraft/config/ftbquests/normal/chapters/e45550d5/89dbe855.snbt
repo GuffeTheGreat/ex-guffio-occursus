@@ -12,7 +12,31 @@
 			item: {
 				item: {
 					item: {
-						item: "primal:mortar"
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														item: "primal:mortar"
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
+						},
+						Count: 1b
 					},
 					Count: 1b
 				},

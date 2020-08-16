@@ -2,13 +2,13 @@
 mods.jei.JEI.removeAndHide(<randomthings:blockbreaker>);
 //ItemCollector
 recipes.remove(<randomthings:itemcollector>);
-mods.botania.RuneAltar.addRecipe(<randomthings:itemcollector>,[<ore:gemTanzanite>, <ore:rodNeodymium>, <actuallyadditions:block_misc:2>, <actuallyadditions:block_misc:2>], 200);
+mods.botania.RuneAltar.addRecipe(<randomthings:itemcollector>,[<ore:gemTanzanite>, <ore:rodNeodymium>, <ore:plateVoid>, <ore:plateVoid>], 200);
 
 //AdvancedItemCollector
 recipes.remove(<randomthings:advanceditemcollector>);
 recipes.addShapedMirrored("1x_tile_advancedItemCollector_shaped", <randomthings:advanceditemcollector>, [
 	[null, <ore:flawlessHeliodor>, null],
-	[<actuallyadditions:item_crystal:3>, <randomthings:itemcollector>, <actuallyadditions:item_crystal:3>]
+	[<ore:plateHOPGraphite>, <randomthings:itemcollector>, <ore:plateHOPGraphite>]
 ]);
 
 //Chunkanalyzer
@@ -19,9 +19,6 @@ recipes.addShapedMirrored("1x_item_chunkAnalyzer_shaped", <randomthings:chunkana
 	[<ore:circuitBasic>, <ore:plateAluminium>, <ore:circuitBasic>]
 ]);
 
-//Blazeandsteel
-recipes.remove(<randomthings:blazeandsteel>);
-recipes.addShapeless("1x_item_blazeAndSteel_shapeless", <randomthings:blazeandsteel>, [<minecraft:blaze_powder>, <materialpart:Crude_Steel:ring>]);
 
 
 

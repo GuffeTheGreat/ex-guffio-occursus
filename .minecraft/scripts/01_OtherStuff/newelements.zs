@@ -1,30 +1,156 @@
 
 #loader alchemistry
 //Sunnarium
-mods.alchemistry.Util.createElement(190,"sunnarium","Su", 255, 255, 102);
+mods.alchemistry.Util.createElement(172,"sunnarion","Su", 255, 255, 102);
 //Neutronium
 mods.alchemistry.Util.createElement(0,"neutronium","Nt", 28, 28, 38);
 
 //Naqudah
-mods.alchemistry.Util.createElement(119,"naquadah","Nq", 18, 17, 17);
+//mods.alchemistry.Util.createElement(119,"naquadah","Nq", 18, 17, 17);
 
-//Mana
-mods.alchemistry.Util.createElement(120,"octine","Oc", 0, 255, 244);
+//Naqudah
+//mods.alchemistry.Util.createElement(120,"naquadah","Nq", 18, 17, 17);
 
-//Tritanium
-mods.alchemistry.Util.createElement(121,"tritanium","Tn", 0, 255, 244);
+//Naqudah
+mods.alchemistry.Util.createElement(121,"naquadah","Nq", 18, 17, 17);
 
-//Adamantium
-mods.alchemistry.Util.createElement(122,"adamant","Ad", 0, 255, 244);
+//Naqudria
+mods.alchemistry.Util.createElement(122,"naquadaria","Nr", 18, 17, 17);
 
-//Duranium
-mods.alchemistry.Util.createElement(123,"syrmorite","Sy", 0, 255, 244);
+//Naqudah
+//mods.alchemistry.Util.createElement(123,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(124,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(125,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(126,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(127,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(128,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(129,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(130,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(131,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(132,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(133,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(134,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(135,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(136,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(137,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(138,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(139,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(140,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(141,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(142,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(143,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(144,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(145,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(146,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(147,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(148,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(149,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(150,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(151,"naquadah","Nq", 18, 17, 17);
+//Naqudah
+//mods.alchemistry.Util.createElement(152,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(153,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(154,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(155,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(156,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(157,"naquadah","Nq", 18, 17, 17);
+
+//Octine
+mods.alchemistry.Util.createElement(158,"octine","Oc", 0, 255, 244);
+
+//Syrmorite
+mods.alchemistry.Util.createElement(159,"syrmorite","Sy", 0, 255, 244);
 
 //Draconium
-mods.alchemistry.Util.createElement(124,"draconium","D", 0, 255, 244);
+mods.alchemistry.Util.createElement(160,"draconium","D", 0, 255, 244);
 
-//Infinity
-mods.alchemistry.Util.createElement(200,"infinity","If", 240, 255, 255);
+//Naqudah
+//mods.alchemistry.Util.createElement(161,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(162,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(163,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(164,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(165,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(166,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(167,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(168,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(169,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(170,"naquadah","Nq", 18, 17, 17);
+
+//Naqudah
+//mods.alchemistry.Util.createElement(171,"naquadah","Nq", 18, 17, 17);
 
   //Compuounds
 mods.alchemistry.Util.createCompound(999, "Carbon Dioxide", 0, 0, 0,

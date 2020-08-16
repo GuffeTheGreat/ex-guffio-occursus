@@ -7,7 +7,6 @@ mods.jei.JEI.removeAndHide(<minecraft:chainmail_chestplate>);
 mods.jei.JEI.removeAndHide(<minecraft:chainmail_leggings>);
 mods.jei.JEI.removeAndHide(<minecraft:chainmail_boots>);
 mods.jei.JEI.removeAndHide(<minecraft:furnace>);
-mods.jei.JEI.removeAndHide(<actuallyadditions:block_furnace_double>);
 mods.jei.JEI.removeAndHide(<atum:limestone_furnace>);
 
 //Bookshelf

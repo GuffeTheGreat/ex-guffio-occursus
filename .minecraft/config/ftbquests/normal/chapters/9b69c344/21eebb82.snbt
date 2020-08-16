@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -0.5d,
+	dependencies: [
+		"a95280d1"
+	],
+	tasks: [{
+		uid: "04f87583",
+		type: "item",
+		items: [{
+			item: "magneticraft:sluice_box"
+		}]
+	}]
+}

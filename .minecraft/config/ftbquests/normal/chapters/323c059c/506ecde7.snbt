@@ -117,15 +117,39 @@
 			item: {
 				item: {
 					item: {
-						ForgeCaps: {
-							"astralsorcery:cap_item_amulet_holder": {}
-						},
-						id: "primal:bucket_clay",
-						tag: {
-							Fluid: {
-								FluidName: "fluidedmana",
-								Amount: 1000
-							}
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														ForgeCaps: {
+															"astralsorcery:cap_item_amulet_holder": {}
+														},
+														id: "primal:bucket_clay",
+														tag: {
+															Fluid: {
+																FluidName: "fluidedmana",
+																Amount: 1000
+															}
+														},
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
 						},
 						Count: 1b
 					},
@@ -138,15 +162,39 @@
 			item: {
 				item: {
 					item: {
-						ForgeCaps: {
-							"astralsorcery:cap_item_amulet_holder": {}
-						},
-						id: "primal:bucket_terra",
-						tag: {
-							Fluid: {
-								FluidName: "fluidedmana",
-								Amount: 1000
-							}
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														ForgeCaps: {
+															"astralsorcery:cap_item_amulet_holder": {}
+														},
+														id: "primal:bucket_terra",
+														tag: {
+															Fluid: {
+																FluidName: "fluidedmana",
+																Amount: 1000
+															}
+														},
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
 						},
 						Count: 1b
 					},
@@ -172,15 +220,39 @@
 			item: {
 				item: {
 					item: {
-						ForgeCaps: {
-							"astralsorcery:cap_item_amulet_holder": {}
-						},
-						id: "primal:bucket_cinis",
-						tag: {
-							Fluid: {
-								FluidName: "fluidedmana",
-								Amount: 1000
-							}
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														ForgeCaps: {
+															"astralsorcery:cap_item_amulet_holder": {}
+														},
+														id: "primal:bucket_cinis",
+														tag: {
+															Fluid: {
+																FluidName: "fluidedmana",
+																Amount: 1000
+															}
+														},
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
 						},
 						Count: 1b
 					},

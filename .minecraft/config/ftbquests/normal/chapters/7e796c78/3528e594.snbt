@@ -45,7 +45,31 @@
 																																			item: {
 																																				item: {
 																																					item: {
-																																						item: "metallurgy:tin_ore"
+																																						item: {
+																																							item: {
+																																								item: {
+																																									item: {
+																																										item: {
+																																											item: {
+																																												item: {
+																																													item: {
+																																														item: "metallurgy:tin_ore"
+																																													},
+																																													Count: 1b
+																																												},
+																																												Count: 1b
+																																											},
+																																											Count: 1b
+																																										},
+																																										Count: 1b
+																																									},
+																																									Count: 1b
+																																								},
+																																								Count: 1b
+																																							},
+																																							Count: 1b
+																																						},
+																																						Count: 1b
 																																					},
 																																					Count: 1b
 																																				},

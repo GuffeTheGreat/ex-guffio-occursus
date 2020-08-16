@@ -22,5 +22,14 @@ recipes.addShapedMirrored("1x_tile_bewitchment_distillery_shaped", <bewitchment:
 	[<ore:plateSilver>, <ore:gemPyrope>, <ore:plateSilver>]
 ]);
 
+//SpinningWheel
+recipes.remove(<bewitchment:athame>);
+recipes.addShapedMirrored("1x_tile_bewitchment_spinning_wheel_shaped", <bewitchment:spinning_wheel>, [
+	[null, <ore:string>, <ore:stickWood>],
+	[<ore:string>, <ore:gemValonite>, <ore:stickWood>],
+	[<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]
+]);
+
+
 
 

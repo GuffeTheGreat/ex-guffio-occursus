@@ -1,7 +1,5 @@
 import mods.immersiveintelligence.PrecissionAssembler;
 //Removedthings
-mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device1>);
-mods.jei.JEI.removeAndHide(<immersiveengineering:wooden_device1:1>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:material:6>);
 mods.jei.JEI.removeAndHide(<immersiveengineering:stone_decoration:3>);
 mods.jei.JEI.removeAndHide(<immersiveintelligence:material:19>);
@@ -9,6 +7,15 @@ mods.jei.JEI.removeAndHide(<immersiveintelligence:material:19>);
 
 //ByeMechanicalSaw
 mods.jei.JEI.removeAndHide(<immersiveintelligence:wooden_multiblock:2>);
+
+//CreativeTransmissionBox
+mods.biggercraftingtables.Big.addShaped(<immersiveintelligence:mechanical_device:1>, [
+	[<ore:densePlateSteel>, <ore:densePlateSteel>, <immersiveintelligence:metal_decoration:5>, <ore:densePlateSteel>, <ore:densePlateSteel>],
+	[<immersiveengineering:metal_decoration0:5>, <immersiveintelligence:metal_decoration:2>, <immersiveintelligence:metal_decoration:5>, <immersiveintelligence:metal_decoration:2>, <immersiveengineering:metal_decoration0:5>],
+	[<immersiveintelligence:mechanical_device>, <ore:gearSteel>, <immersiveintelligence:mechanical_device>, <ore:gearSteel>, <immersiveintelligence:mechanical_device>],
+	[<immersiveengineering:metal_decoration0:5>, <immersiveintelligence:metal_decoration:2>, <immersiveintelligence:metal_decoration:5>, <immersiveintelligence:metal_decoration:2>, <immersiveengineering:metal_decoration0:5>],
+	[<ore:densePlateSteel>, <ore:densePlateSteel>, <immersiveintelligence:metal_decoration:5>, <ore:densePlateSteel>, <ore:densePlateSteel>]
+]);
 
 //CokeOven
 recipes.remove(<immersiveengineering:stone_decoration>*3);
@@ -139,13 +146,13 @@ mods.immersivepetroleum.Distillation.addRecipe([<liquid:lng>*700,<liquid:gascond
 recipes.remove(<immersiveengineering:metal_decoration0:4> * 2);
 recipes.addShapedMirrored("2x_tile_immersiveengineering_metal_decoration0_light_engineering_shaped", <immersiveengineering:metal_decoration0:4> * 2, [
 	[<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>],
-	[<contenttweaker:basicpiston>, <actuallyadditions:block_misc:9>, <contenttweaker:basicpiston>],
+	[<contenttweaker:basicpiston>, <contenttweaker:case_basic>, <contenttweaker:basicpiston>],
 	[<ore:plateSteel>, <immersiveengineering:material:8>, <ore:plateSteel>]
 ]);
 recipes.remove(<immersiveengineering:metal_decoration0:5> * 2);
 recipes.addShapedMirrored("2x_tile_immersiveengineering_metal_decoration0_heavy_engineering_shaped", <immersiveengineering:metal_decoration0:5> * 2, [
 	[<ore:plateAluminium>, <immersiveengineering:material:9>, <ore:plateAluminium>],
-	[<contenttweaker:intermediatepiston>, <emergingtechnology:machinecase>, <contenttweaker:intermediatepiston>],
+	[<contenttweaker:intermediatepiston>, <contenttweaker:case_intermediate>, <contenttweaker:intermediatepiston>],
 	[<ore:plateAluminium>, <immersiveengineering:material:9>, <ore:plateAluminium>]
 ]);
 

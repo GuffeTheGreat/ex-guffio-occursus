@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 3.5d,
+	dependencies: [
+		"d7d375ec"
+	],
+	tasks: [{
+		uid: "5a99bce0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:creative_energy_cell"
+		}]
+	}]
+}

@@ -47,7 +47,31 @@
 																																			item: {
 																																				item: {
 																																					item: {
-																																						item: "metallurgy:iron_dust"
+																																						item: {
+																																							item: {
+																																								item: {
+																																									item: {
+																																										item: {
+																																											item: {
+																																												item: {
+																																													item: {
+																																														item: "metallurgy:iron_dust"
+																																													},
+																																													Count: 1b
+																																												},
+																																												Count: 1b
+																																											},
+																																											Count: 1b
+																																										},
+																																										Count: 1b
+																																									},
+																																									Count: 1b
+																																								},
+																																								Count: 1b
+																																							},
+																																							Count: 1b
+																																						},
+																																						Count: 1b
 																																					},
 																																					Count: 1b
 																																				},

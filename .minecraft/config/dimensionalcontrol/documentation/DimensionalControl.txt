@@ -5,15 +5,13 @@ will be printed.
 
 
 
-setDefaultPreset:
+printDocumentation:
     Arguments:
-        String
-    Usage:
-        preset name
+        boolean
     Default Values:
-        Default
+        true
     Notes:
-        Sets the preset to be loaded when the default/no option is chosen.
+        Used to set whether DimensionalControl should print config documentation.
 
 printDefaultConfigs:
     Arguments:
@@ -23,11 +21,13 @@ printDefaultConfigs:
     Notes:
         Used to set whether DC should print default config files. This will replace files. Always backup first!
 
-printDocumentation:
+setDefaultPreset:
     Arguments:
-        boolean
+        String
+    Usage:
+        preset name
     Default Values:
-        true
+        Default
     Notes:
-        Used to set whether DimensionalControl should print config documentation.
+        Sets the preset to be loaded when the default/no option is chosen.
 

@@ -12,7 +12,31 @@
 			item: {
 				item: {
 					item: {
-						item: "primal:plant_fiber"
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														item: "primal:plant_fiber"
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
+						},
+						Count: 1b
 					},
 					Count: 1b
 				},
@@ -28,7 +52,31 @@
 			item: {
 				item: {
 					item: {
-						item: "primal:plant_cordage"
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														item: "primal:plant_cordage"
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
+						},
+						Count: 1b
 					},
 					Count: 1b
 				},

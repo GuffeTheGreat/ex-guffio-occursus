@@ -1,6 +1,11 @@
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
+import mods.thaumcraft.SalisMundus;
+
+//Thaumonomicon
+SalisMundus.removeSingleConversion(<thaumcraft:thaumonomicon>);
+SalisMundus.addSingleConversion(<blockstate:minecraft:bookshelf>.block, <thaumcraft:thaumonomicon:1>);
 
 #Salismundus
 recipes.remove(<thaumcraft:salis_mundus>);
@@ -29,7 +34,6 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumiumboots", "METALLURG
 #Thauometer
 recipes.remove(<thaumcraft:thaumometer>);
 mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:thaumometer>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("thaumometer", "", 20, [<aspect:aer>, <aspect:ignis>, <aspect:terra>, <aspect:aqua>, <aspect:ordo>, <aspect:perditio>], <thaumcraft:thaumometer>, [[null,<ore:plateGold>,null], [<ore:plateGold>,<thebetweenlands:silt_glass_pane>,<ore:plateGold>], [null,<ore:plateGold>,null]]);
 
 //FormationWand
 mods.astralsorcery.Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_architect");
@@ -93,7 +97,7 @@ mods.thaumcraft.Crucible.registerRecipe("alumentum", "BASEALCHEMY", <thaumcraft:
 mods.thaumcraft.Crucible.registerRecipe("rawrat", "BASEALCHEMY", <rats:raw_rat>, <minecraft:chicken>, [<aspect:rattus>*10]);
 
 #ChorusFruit
-//mods.thaumcraft.Crucible.registerRecipe("chorusfruit", "HEDGEALCHEMY", <minecraft:chorus_fruit>, <ore:listAllfruit>, [<aspect:vitium>*2,<aspect:alienis>*2]);
+mods.thaumcraft.Crucible.registerRecipe("chorusfruit", "HEDGEALCHEMY", <minecraft:chorus_fruit>, <ore:listAllfruit>, [<aspect:vitium>*5]);
 
 #Pastureseed
 mods.thaumcraft.Crucible.registerRecipe("pastureseed", "HEDGEALCHEMY", <botania:grassseeds>, <minecraft:tallgrass:1>, [<aspect:herba>*5,<aspect:ventus>*10]);
@@ -104,7 +108,7 @@ mods.thaumcraft.Crucible.registerRecipe("levettationidol", "HEDGEALCHEMY", <bass
 
 #AlchemicalBrass
 mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot:2>);
-mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrass", "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotCopper>, [<aspect:instrumentum> * 5]);
+mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrass", "METALLURGY", <thaumcraft:ingot:2>, <ore:ingotBronze>, [<aspect:instrumentum> * 5]);
 mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrassgood", "METALLURGY", <thaumcraft:ingot:2>*2, <ore:ingotBrass>, [<aspect:instrumentum> * 5]);
 
 #MagicTallow

@@ -1,6 +1,7 @@
  import mods.efabct.EFabRecipe;
 
 //ActualEfab
+recipes.remove(<efab:grid>);
 recipes.addShapedMirrored("1x_tile_efab_grid_shaped", <efab:grid>, [
 	[<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>],
 	[<ore:plateBronze>, <minecraft:crafting_table>, <ore:plateBronze>],
@@ -8,6 +9,7 @@ recipes.addShapedMirrored("1x_tile_efab_grid_shaped", <efab:grid>, [
 ]);
 
 //Tank
+recipes.remove(<efab:tank>);
 recipes.addShapedMirrored("1x_tile_efab_tank_shaped", <efab:tank>, [
 	[<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>],
 	[<ore:plateBronze>, <pyrotech:tank>, <ore:plateBronze>],
@@ -20,15 +22,6 @@ recipes.addShapedMirrored("1x_item_efab_upgrade_magic_shaped", <efab:upgrade_mag
 	[<ore:plateAlchemicalBrass>, <thaumcraft:salis_mundus>, <ore:plateAlchemicalBrass>],
 	[<ore:boltAlchemicalBrass>, <ore:plateAlchemicalBrass>, <ore:boltAlchemicalBrass>]
 ]);
-
-//Boiler
-EFabRecipe.shaped(<crossroads:steam_boiler>, [
-	[<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>],
-	[<ore:plateBronze>, <pyrotech:tank>, <ore:plateBronze>],
-	[<ore:boltBronze>, <ore:plateCopper>, <ore:boltBronze>]
-])
-.time(20*60*1)
-	.tier("GEARBOX");
 		
 //bookShelf
  EFabRecipe.shaped(<minecraft:bookshelf>, [
@@ -53,16 +46,6 @@ EFabRecipe.shaped(<crossroads:steam_boiler>, [
 	[null, <botania:specialflower>.withTag({type: "manastar"}), null]])
 	    .time(40)
     .manaPerTick(1000);
-
-    //Arcanestone
- EFabRecipe.shaped(<thaumcraft:stone_arcane>*6, [
-	[<embers:ashen_stone>, <embers:ashen_stone>, <embers:ashen_stone>],
-	[<thaumcraft:crystal_essence>, <thaumcraft:alumentum>, <thaumcraft:crystal_essence>],
-	[<embers:ashen_stone>, <embers:ashen_stone>, <embers:ashen_stone>]])
-	    .time(10)
-	.tier("UPGRADE_MAGIC")
-	.fluid(<liquid:liquid_death> * 50)
-    .manaPerTick(500);
 
     //Manasteelarmor
  //Helmet
@@ -154,7 +137,7 @@ EFabRecipe.shaped(<botania:manasteelchest>, [
     //TerrasteelArmor
 //Helmet
     EFabRecipe.shaped(<botania:terrasteelhelm>, [
-	[<materialpart:Terrasteel:Bolt>, <actuallyadditions:item_crystal:4>, <materialpart:Terrasteel:Bolt>],
+	[<materialpart:Terrasteel:Bolt>, <botania:rune:4>, <materialpart:Terrasteel:Bolt>],
 	[<materialpart:Terrasteel:Plate>, <botania:elementiumhelm>, <materialpart:Terrasteel:Plate>],
 	[<materialpart:Terrasteel:Bolt>, <materialpart:Terrasteel:Plate>, <materialpart:Terrasteel:Bolt>]])
 	    .time(100)
@@ -165,7 +148,7 @@ EFabRecipe.shaped(<botania:manasteelchest>, [
 
 //Chestplate 
     EFabRecipe.shaped(<botania:terrasteelchest>, [
-	[<materialpart:Terrasteel:Bolt>, <actuallyadditions:item_crystal:4>, <materialpart:Terrasteel:Bolt>],
+	[<materialpart:Terrasteel:Bolt>, <botania:rune:5>, <materialpart:Terrasteel:Bolt>],
 	[<materialpart:Terrasteel:Plate>, <botania:elementiumchest>, <materialpart:Terrasteel:Plate>],
 	[<materialpart:Terrasteel:Bolt>, <materialpart:Terrasteel:Plate>, <materialpart:Terrasteel:Bolt>]])
 	    .time(100)
@@ -176,7 +159,7 @@ EFabRecipe.shaped(<botania:manasteelchest>, [
 
 //Leggings
     EFabRecipe.shaped(<botania:terrasteellegs>, [
-	[<materialpart:Terrasteel:Bolt>, <actuallyadditions:item_crystal:4>, <materialpart:Terrasteel:Bolt>],
+	[<materialpart:Terrasteel:Bolt>, <botania:rune:6>, <materialpart:Terrasteel:Bolt>],
 	[<materialpart:Terrasteel:Plate>, <botania:elementiumlegs>, <materialpart:Terrasteel:Plate>],
 	[<materialpart:Terrasteel:Bolt>, <materialpart:Terrasteel:Plate>, <materialpart:Terrasteel:Bolt>]])
 	    .time(100)
@@ -187,7 +170,7 @@ EFabRecipe.shaped(<botania:manasteelchest>, [
 
 //Boots 
     EFabRecipe.shaped(<botania:terrasteelboots>, [
-	[<materialpart:Terrasteel:Bolt>, <actuallyadditions:item_crystal:4>, <materialpart:Terrasteel:Bolt>],
+	[<materialpart:Terrasteel:Bolt>, <botania:rune:7>, <materialpart:Terrasteel:Bolt>],
 	[<materialpart:Terrasteel:Plate>, <botania:elementiumboots>, <materialpart:Terrasteel:Plate>],
 	[<materialpart:Terrasteel:Bolt>, <materialpart:Terrasteel:Plate>, <materialpart:Terrasteel:Bolt>]])
 	    .time(100)
@@ -197,14 +180,6 @@ EFabRecipe.shaped(<botania:manasteelchest>, [
     .manaPerTick(20000);
 
 //Enchantingtable
-EFabRecipe.shaped(<thaumcraft:thaumonomicon:1>, [
-	[<thaumcraft:amber_block>, <thaumcraft:salis_mundus>, <thaumcraft:amber_block>],
-	[<thaumcraft:salis_mundus>, <thaumcraft:thaumonomicon>, <thaumcraft:salis_mundus>],
-	[<thaumcraft:amber_block>, <thaumcraft:salis_mundus>, <thaumcraft:amber_block>]])
-	.time(20*60*5)
-	.tier("UPGRADE_MAGIC")
-	.fluid(<liquid:fluidedmana> * 10000);
-
 EFabRecipe.shaped(<minecraft:enchanting_table>, [
 	[null, <minecraft:enchanted_book>, null],
 	[<ore:gemDiamond>, <ore:obsidian>, <ore:gemDiamond>],
@@ -216,11 +191,11 @@ EFabRecipe.shaped(<minecraft:enchanting_table>, [
 
 
 EFabRecipe.shaped(<nuclearcraft:upgrade>, [
-	[<ore:plateCobalt>, <ore:plateRedstoneAlloy>, <ore:plateCobalt>],
-	[<ore:plateRedstoneAlloy>, <ore:plateIron>, <ore:ingotRedstoneAlloy>],
-	[<ore:plateCobalt>, <ore:plateRedstoneAlloy>, <ore:plateCobalt>]
+	[<ore:boltCobalt>, <ore:plateRedstoneAlloy>, <ore:boltCobalt>],
+	[<ore:plateRedstoneAlloy>, <ore:plateIron>, <ore:plateRedstoneAlloy>],
+	[<ore:boltCobalt>, <ore:plateRedstoneAlloy>, <ore:boltCobalt>]
 ])
     .time(20*60)
 	.tier("UPGRADE_DIGITAL")
-	.fluid(<liquid:lubricant> * 2000)
+	.fluid(<liquid:lubricant> * 1000)
 	.rfPerTick(1000);

@@ -1,0 +1,12 @@
+{
+	title: "Between a Moss and a Dark Place",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thebetweenlands:swamp_talisman"
+	},
+	always_invisible: false,
+	group: -968775138,
+	default_quest_shape: ""
+}

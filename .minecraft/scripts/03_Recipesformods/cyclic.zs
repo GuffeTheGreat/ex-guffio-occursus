@@ -24,18 +24,7 @@ recipes.addShapedMirrored("1x_tile_cable_wireless_fluid_shaped", <cyclicmagic:ca
 	[<alchemistry:ingot:27>, null, <alchemistry:ingot:27>]
 ]);
 */
-//Experience
-mods.embers.Melter.add(<liquid:xpjuice>*160,<actuallyadditions:item_solidified_experience>);
-mods.nuclearcraft.Melter.addRecipe(<actuallyadditions:item_solidified_experience>, <liquid:xpjuice>*160);
-mods.crossroads.HeatingCrucible.addRecipe(<actuallyadditions:item_solidified_experience>, <liquid:xpjuice>*160,"tile.xpjuice");
 
-//Automaticfishingnet
-recipes.remove(<cyclicmagic:block_fishing>);
-recipes.addShapedMirrored("1x_tile_block_fishing_shaped", <cyclicmagic:block_fishing>, [
-	[<ore:circuitBasic>, <contenttweaker:basicvalve>, <ore:circuitBasic>],
-	[<ore:fishtrap>, <actuallyadditions:block_misc:9>, <ore:fishtrap>],
-	[<contenttweaker:basicmotor>, <contenttweaker:basicmotor>, <contenttweaker:basicmotor>]
-]);
 
 //EasySailorCharm
 recipes.remove(<cyclicmagic:charm_boat>);

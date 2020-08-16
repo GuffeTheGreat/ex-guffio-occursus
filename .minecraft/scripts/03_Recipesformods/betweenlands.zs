@@ -4,9 +4,6 @@ import moretweaker.betweenlands.Purifier;
 
 mods.jei.JEI.removeAndHide(<thebetweenlands:bl_bucket>);
 
-//PurifierRecipes
-Purifier.addRecipe(<botania:specialflower>.withTag({type: "manastar"}), <botania:specialflower>.withTag({type: "puredaisy"}));
-
 //Gj
 DruidAltar.addRecipe(<minecraft:cookie>, [<crossroads:hamster_wheel>.withTag({RepairCost: 0, display: {Name: "Guffe"}}),<minecraft:clay_ball>,<avaritia:resource:5>,<cuisine:food:2>]);
 

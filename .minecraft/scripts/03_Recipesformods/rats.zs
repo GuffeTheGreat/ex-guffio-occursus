@@ -21,7 +21,7 @@ mods.rats.recipes.addChefRatRecipe(<avaritia:ultimate_stew>, <rats:confit_byaldi
 mods.rats.recipes.removeGemcutterRatRecipe(<rats:rat_diamond>);
 mods.rats.recipes.addGemcutterRatRecipe(<botania:manaresource:2>, <rats:rat_diamond>*8);
 mods.rats.recipes.removeGemcutterRatRecipe(<rats:little_black_squash_balls>);
-mods.rats.recipes.addGemcutterRatRecipe(<actuallyadditions:item_crystal_empowered:3>, <rats:little_black_squash_balls>);
+mods.rats.recipes.addGemcutterRatRecipe(<silentgems:gemsuper:30>, <rats:little_black_squash_balls>);
 
 
 //RatUpgradeinseperatetable

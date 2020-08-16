@@ -1,0 +1,16 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"4f2716b7",
+		"122799e2"
+	],
+	tasks: [{
+		uid: "e28dc798",
+		type: "item",
+		items: [{
+			item: "bewitchment:stone_witches_altar"
+		}],
+		count: 6L
+	}]
+}

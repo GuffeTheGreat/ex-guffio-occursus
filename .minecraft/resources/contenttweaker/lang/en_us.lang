@@ -207,5 +207,6 @@ contenttweaker.part.flaked=Flawed %s
 contenttweaker.part.point=Chipped %s
 contenttweaker.part.chunk=%s Chunk
 contenttweaker.part.tiny_pile=Tiny Pile of %s Dust
+contenttweaker.part.poor_ore=Native %s Ore
 
-tile.alchemistry.chemical_combiner.name=Chemical Crafter
+tile.chemical_combiner.name=Chemical Crafter

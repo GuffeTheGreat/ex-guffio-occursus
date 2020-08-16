@@ -81,7 +81,7 @@ recipes.addShapedMirrored("1x_item_cuisine_material_lilypad_shaped", <cuisine:fa
 
 //Knife
 recipes.addShapedMirrored("1x_item_cuisine_material_knife_shaped", <cuisine:kitchen_knife>, [
-	[null, <actuallyadditions:item_misc:2>],
+	[null, <ore:plateIron>],
 	[<ore:stickWood>, null]
 ]);
 

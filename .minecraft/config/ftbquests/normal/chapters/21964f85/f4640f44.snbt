@@ -1,0 +1,43 @@
+{
+	title: "Research Time :D",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:thaumonomicon"
+	},
+	x: -4.0d,
+	y: -5.5d,
+	dependencies: [
+		"049951e3"
+	],
+	tasks: [{
+		uid: "4214856b",
+		type: "item",
+		title: "Normal Thaumonomicon",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon"
+		},
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:thaumonomicon",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bb8f23e6",
+		type: "command",
+		command: "/thaumcraft warp @p set 0 PERM"
+	},
+	{
+		uid: "340f7a39",
+		type: "command",
+		command: "/thaumcraft warp @p set 0 TEMP"
+	}]
+}

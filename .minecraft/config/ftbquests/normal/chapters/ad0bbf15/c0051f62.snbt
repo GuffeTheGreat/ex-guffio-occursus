@@ -1,0 +1,66 @@
+{
+	icon: "embers:ember_activator",
+	x: 3.5d,
+	y: -1.5d,
+	dependencies: [
+		"8853897b",
+		"7f8d7355"
+	],
+	tasks: [{
+		uid: "e0d266c8",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	},
+	{
+		uid: "33b5c272",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	},
+	{
+		uid: "019d2228",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	},
+	{
+		uid: "5caa48a1",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "embers:tinker_hammer",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "735cb0ea",
+		type: "item",
+		items: [{
+			id: "embers:copper_cell",
+			tag: {
+				emberCapacity: 24000.0d,
+				ember: 0.0d
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "45b81775",
+		type: "item",
+		item: "embers:ember_emitter",
+		count: 4
+	},
+	{
+		uid: "ff85b851",
+		type: "item",
+		item: "embers:ember_receiver",
+		count: 4
+	}]
+}

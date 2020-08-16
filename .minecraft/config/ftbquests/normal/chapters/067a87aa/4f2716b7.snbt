@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -3.5d,
+	dependencies: [
+		"f875fec5",
+		"c9bd4ff4"
+	],
+	tasks: [{
+		uid: "6fb4cec0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}]
+	},
+	{
+		uid: "bffd1065",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 39"
+		}]
+	}]
+}

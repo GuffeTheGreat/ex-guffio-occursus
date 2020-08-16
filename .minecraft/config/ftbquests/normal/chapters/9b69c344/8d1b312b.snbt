@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -3.5d,
+	dependencies: [
+		"e9b534da"
+	],
+	tasks: [{
+		uid: "a93af189",
+		type: "item",
+		items: [{
+			item: "efab:grid"
+		}]
+	}]
+}

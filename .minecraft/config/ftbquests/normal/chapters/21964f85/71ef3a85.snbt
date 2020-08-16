@@ -1,0 +1,11 @@
+{
+	x: -8.0d,
+	y: -7.0d,
+	tasks: [{
+		uid: "04641506",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:druid_altar"
+		}]
+	}]
+}

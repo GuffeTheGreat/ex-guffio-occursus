@@ -1,0 +1,22 @@
+{
+	title: "New Processing Ways, New Resources",
+	x: 0.0d,
+	y: -0.5d,
+	dependencies: [
+		"21eebb82"
+	],
+	tasks: [{
+		uid: "c4a0133c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 477"
+		}]
+	},
+	{
+		uid: "4a739bf9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 634"
+		}]
+	}]
+}

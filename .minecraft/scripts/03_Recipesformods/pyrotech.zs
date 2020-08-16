@@ -10,28 +10,17 @@ import crafttweaker.item.IIngredient;
 import mods.pyrotech.Burn;
 import mods.pyrotech.CompactingBin;
 import mods.pyrotech.MechanicalCompactor;
-/*
+
 //RemovedItems
 mods.jei.JEI.removeAndHide(<pyrotech:worktable>);
-mods.jei.JEI.removeAndHide(<pyrotech:log_pile>);
 mods.jei.JEI.removeAndHide(<pyrotech:worktable_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:stone_shears>);
-mods.jei.JEI.removeAndHide(<pyrotech:bone_shears>);
 mods.jei.JEI.removeAndHide(<pyrotech:shelf>);
 mods.jei.JEI.removeAndHide(<pyrotech:shelf_stone>);
 mods.jei.JEI.removeAndHide(<pyrotech:crate>);
 mods.jei.JEI.removeAndHide(<pyrotech:crate_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:flint_shears>);
-mods.jei.JEI.removeAndHide(<pyrotech:bucket_wood>);
-mods.jei.JEI.removeAndHide(<pyrotech:bucket_stone>);
-mods.jei.JEI.removeAndHide(<pyrotech:bucket_clay_unfired>);
 mods.jei.JEI.removeAndHide(<pyrotech:dense_coal_ore>);
 mods.jei.JEI.removeAndHide(<pyrotech:dense_nether_coal_ore>);
-mods.jei.JEI.removeAndHide(<pyrotech:bone_pickaxe>);
-mods.jei.JEI.removeAndHide(<pyrotech:flint_pickaxe>);
-mods.jei.JEI.removeAndHide(<pyrotech:obsidian_pickaxe>);
-mods.jei.JEI.removeAndHide(<pyrotech:bucket_clay>);
-*/
+
 var counter = 0;
 
 //Liquidclay
@@ -208,35 +197,6 @@ recipes.addShapedMirrored("pyrotech_tech/machine/bellows", <pyrotech:bellows>, [
 	[<pyrotech:material:20>, <pyrotech:material:16>, <pyrotech:material:20>],
 	[<minecraft:leather>, <pyrotech:material:27>, <minecraft:leather>],
 	[<pyrotech:stone_bricks>, null, <pyrotech:stone_bricks>]
-]);
-//Mechanicalmachines
-recipes.remove(<pyrotech:mechanical_bellows>);
-recipes.remove(<pyrotech:mechanical_hopper>);
-recipes.remove(<pyrotech:mechanical_compacting_bin>);
-recipes.remove(<pyrotech:mechanical_mulch_spreader>);
-//Bellow
-recipes.addShapedMirrored("pyrotech_tech/machine/mechanical_bellows", <pyrotech:mechanical_bellows>, [
-	[<pyrotech:material:23>, <ore:plateIron>, <pyrotech:material:23>],
-	[<pyrotech:material:27>, <pyrotech:bellows>, <pyrotech:material:27>],
-	[<pyrotech:planks_tarred>, null, <pyrotech:planks_tarred>]
-	]);
-//Mulcher
-recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_mulch_spreader_shaped", <pyrotech:mechanical_mulch_spreader>, [
-	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>],
-	[<pyrotech:mechanical_hopper>, <minecraft:dispenser>, <pyrotech:mechanical_hopper>],
-	[<pyrotech:stone_bricks>, <pyrotech:planks_tarred>, <pyrotech:stone_bricks>]
-]);
-//Hopper
-recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_hopper_shaped", <pyrotech:mechanical_hopper>, [
-	[<pyrotech:material:16>, null, <pyrotech:material:16>],
-	[<pyrotech:planks_tarred>, <pyrotech:material:27>, <pyrotech:planks_tarred>],
-	[null, <pyrotech:material:16>, null]
-]);
-//Compactor
-recipes.addShapedMirrored("1x_tile_pyrotech_mechanical_compacting_bin_shaped", <pyrotech:mechanical_compacting_bin>, [
-	[<pyrotech:material:16>, <pyrotech:material:23>, <pyrotech:material:16>],
-	[<pyrotech:mechanical_hopper>, <pyrotech:compacting_bin>, <minecraft:piston>],
-	[<pyrotech:stone_bricks>, <immersiveengineering:treated_wood>, <pyrotech:stone_bricks>]
 ]);
 
 //StoneTorches
@@ -445,11 +405,13 @@ recipes.addShapedMirrored(stone, [
 
 #CompactingBin
 recipes.remove(<pyrotech:compacting_bin>);
-recipes.addShapedMirrored(<pyrotech:compacting_bin>, [
-    [<ore:cobblestone>, null, <ore:cobblestone>],
+recipes.addShapedMirrored("1x_tile_pyrotech_compacting_bin_shaped", <pyrotech:compacting_bin>, [
     [<ore:plankWood>, null, <ore:plankWood>],
-    [<ore:cobblestone>, <ore:slabWood>, <ore:cobblestone>]
+    [<ore:plankWood>, null, <ore:plankWood>],
+    [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]
 ]);
+
+
 
 //RedoingAllTHekilnkilnRecipes
 PitKiln.removeAllRecipes();

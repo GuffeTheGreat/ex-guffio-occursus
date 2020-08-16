@@ -49,11 +49,13 @@ recipes.remove(<embers:plate_bronze>);
 
 //TinkersHammer
 recipes.remove(<embers:tinker_hammer>);
-recipes.addShapedMirrored("1x_item_tinker_hammer_shaped", <embers:tinker_hammer>, [
-	[<ore:ingotIron>, <ore:cordageQuality>, <ore:ingotIron>],
+recipes.addShapedMirrored("1x_item_tinker_hammer_shaped", <embers:tinker_hammer>.withTag({}), [
+	[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
 	[<ore:ingotIron>, <ore:stickWood>, <ore:ingotIron>],
 	[null, <ore:stickWood>, null]
 ]);
+
+
 
 //AshenArmor
 recipes.remove(<embers:ashen_cloak_head>);
@@ -149,42 +151,32 @@ recipes.addShapedMirrored("1x_tile_block_tank_shaped", <embers:block_tank>, [
 
 //EmberUsers
 recipes.remove(<embers:ember_emitter>);
-recipes.addShapedMirrored("1x_tile_ember_emitter_shaped", <embers:ember_emitter>*4, [
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("emberemitter", "", 10, [<aspect:ignis>*2, <aspect:terra>*1], <embers:ember_emitter>*4, [[null, <thaumcraft:ingot:2>, null],
 	[null, <thaumcraft:ingot:2>, null],
-	[null, <thaumcraft:ingot:2>, null],
-	[<ore:plateIron>, <embers:plate_caminite>, <ore:plateIron>]
-]);
+	[<ore:plateIron>, <embers:plate_caminite>, <ore:plateIron>]]);
 recipes.remove(<embers:ember_receiver>);
-recipes.addShapedMirrored("4x_tile_ember_receiver_shaped", <embers:ember_receiver> * 4, [
-	[null, null, null],
-	[<ore:plateIron>, null, <ore:plateIron>],
-	[<thaumcraft:ingot:2>, <embers:plate_caminite>, <thaumcraft:ingot:2>]
-]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("emberreceiver", "", 10, [<aspect:ignis>*2, <aspect:terra>*1], <embers:ember_receiver>*4, [[<ore:plateIron>, null, <ore:plateIron>],
+	[<thaumcraft:ingot:2>, <embers:plate_caminite>, <thaumcraft:ingot:2>]]);
 recipes.remove(<embers:ember_activator>);
-recipes.addShapedMirrored("1x_tile_ember_activator_shaped", <embers:ember_activator>, [
-	[<ore:plateAlchemicalBrass>, null, <ore:plateAlchemicalBrass>],
-	[<ore:plateAlchemicalBrass>, <ore:plateCopper>, <ore:plateAlchemicalBrass>],
-	[<ore:plateSyrmorite>, <pyrotech:brick_kiln>, <ore:plateSyrmorite>]
-]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("emberactivator", "", 25, [<aspect:ignis>*5, <aspect:terra>*2], <embers:ember_activator>, [[<ore:plateAlchemicalBrass>, null, <ore:plateAlchemicalBrass>],
+	[<ore:plateAlchemicalBrass>, <ore:plateBronze>, <ore:plateAlchemicalBrass>],
+	[<embers:brick_caminite>, <ore:nitor>, <embers:brick_caminite>]]);
+
 //CopperCell
 recipes.remove(<embers:copper_cell>);
-recipes.addShapedMirrored("1x_tile_copper_cell_shaped", <embers:copper_cell>, [
-	[<embers:block_caminite_brick>, <ore:plateAlchemicalBrass>, <embers:block_caminite_brick>],
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("coppercell", "", 20, [<aspect:ignis>*4, <aspect:terra>*2], <embers:copper_cell>, [[<embers:block_caminite_brick>, <ore:plateAlchemicalBrass>, <embers:block_caminite_brick>],
 	[<ore:plateAlchemicalBrass>, <ore:blockSheetmetalCopper>, <ore:plateAlchemicalBrass>],
-	[<embers:block_caminite_brick>, <ore:plateAlchemicalBrass>, <embers:block_caminite_brick>]
-]);
-//StampBase
+	[<embers:block_caminite_brick>, <ore:plateAlchemicalBrass>, <embers:block_caminite_brick>]]);
+
+//Stamper
 recipes.remove(<embers:stamper_base>);
-recipes.addShapedMirrored("1x_tile_stamper_base_shaped", <embers:stamper_base>, [
-	[<thaumcraft:ingot>, null, <thaumcraft:ingot>],
-	[<embers:block_caminite_brick>, <crossroads:fluid_cooling_chamber>, <embers:block_caminite_brick>]
-]);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("stamp_base", "", 20, [<aspect:ignis>*4, <aspect:terra>*2], <embers:stamper_base>, [[<thaumcraft:ingot>, null, <thaumcraft:ingot>],
+	[<embers:block_caminite_brick>, <crossroads:fluid_cooling_chamber>, <embers:block_caminite_brick>]]);
 recipes.remove(<embers:stamper>);
-recipes.addShapedMirrored("1x_tile_stamper_shaped", <embers:stamper>, [
-	[<embers:brick_caminite>, <thaumcraft:ingot:2>, <embers:brick_caminite>],
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("stamper", "", 20, [<aspect:ignis>*6, <aspect:terra>*2], <embers:stamper>, [[<embers:brick_caminite>, <ore:plateAlchemicalBrass>, <embers:brick_caminite>],
 	[<embers:brick_caminite>, <minecraft:piston>, <embers:brick_caminite>],
-	[<embers:brick_caminite>, null, <embers:brick_caminite>]
-]);
+	[<embers:brick_caminite>, null, <embers:brick_caminite>]]);
+	
 //EmberBoreLootOnly
 recipes.remove(<embers:ember_bore>);
 

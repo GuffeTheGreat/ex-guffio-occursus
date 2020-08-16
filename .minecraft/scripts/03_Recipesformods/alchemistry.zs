@@ -3,7 +3,6 @@ mods.jei.JEI.removeAndHide(<alchemistry:electrolyzer>);
 mods.jei.JEI.removeAndHide(<alchemistry:evaporator>);
 mods.jei.JEI.removeAndHide(<alchemistry:atomizer>);
 mods.jei.JEI.removeAndHide(<alchemistry:liquifier>);
-mods.jei.JEI.removeAndHide(<alchemistry:chemical_combiner>);
 mods.jei.JEI.removeAndHide(<alchemistry:fission_casing>);
 mods.jei.JEI.removeAndHide(<alchemistry:fission_core>);
 mods.jei.JEI.removeAndHide(<alchemistry:fission_controller>);

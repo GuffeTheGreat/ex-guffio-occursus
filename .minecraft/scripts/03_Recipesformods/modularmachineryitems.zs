@@ -10,19 +10,19 @@ recipes.addShapedMirrored("1x_tile_modularmachinery_blockcasing_plain_shaped", <
 //Intermediate
 recipes.addShapedMirrored("2x_tile_modularmachinery_blockcasing_plain_shaped", <modularmachinery:blockcasing> * 2, [
 	[null, <modularmachinery:itemmodularium>, null],
-	[<modularmachinery:itemmodularium>, <emergingtechnology:machinecase>, <modularmachinery:itemmodularium>],
+	[<modularmachinery:itemmodularium>, <contenttweaker:case_intermediate>, <modularmachinery:itemmodularium>],
 	[null, <modularmachinery:itemmodularium>, null]
 ]);
 //Advanced
 recipes.addShapedMirrored("4x_tile_modularmachinery_blockcasing_plain_shaped", <modularmachinery:blockcasing> * 4, [
 	[null, <modularmachinery:itemmodularium>, null],
-	[<modularmachinery:itemmodularium>, <nuclearcraft:part:11>, <modularmachinery:itemmodularium>],
+	[<modularmachinery:itemmodularium>, <contenttweaker:case_advanced>, <modularmachinery:itemmodularium>],
 	[null, <modularmachinery:itemmodularium>, null]
 ]);
 //Elite
 recipes.addShapedMirrored("8x_tile_modularmachinery_blockcasing_plain_shaped", <modularmachinery:blockcasing> * 8, [
 	[null, <modularmachinery:itemmodularium>, null],
-	[<modularmachinery:itemmodularium>, <nuclearcraft:part:10>, <modularmachinery:itemmodularium>],
+	[<modularmachinery:itemmodularium>, <contenttweaker:case_elite>, <modularmachinery:itemmodularium>],
 	[null, <modularmachinery:itemmodularium>, null]
 ]);
 //Insane
@@ -34,22 +34,26 @@ recipes.addShapedMirrored("16x_tile_modularmachinery_blockcasing_plain_shaped", 
 //Ludicrous
 recipes.addShapedMirrored("32x_tile_modularmachinery_blockcasing_plain_shaped", <modularmachinery:blockcasing> * 32, [
 	[null, <modularmachinery:itemmodularium>, null],
-	[<modularmachinery:itemmodularium>, <alchemistry:fission_casing>, <modularmachinery:itemmodularium>],
+	[<modularmachinery:itemmodularium>, <contenttweaker:case_ludicrous>, <modularmachinery:itemmodularium>],
 	[null, <modularmachinery:itemmodularium>, null]
 ]);
 //Absurd
 recipes.addShapedMirrored("64x_tile_modularmachinery_blockcasing_plain_shaped", <modularmachinery:blockcasing> * 64, [
 	[null, <modularmachinery:itemmodularium>, null],
-	[<modularmachinery:itemmodularium>, <alchemistry:fusion_casing>, <modularmachinery:itemmodularium>],
+	[<modularmachinery:itemmodularium>, <contenttweaker:case_absurd>, <modularmachinery:itemmodularium>],
 	[null, <modularmachinery:itemmodularium>, null]
 ]);
 
 //Controller
-recipes.addShapedMirrored("1x_tile_modularmachinery_blockcontroller_shaped", <modularmachinery:blockcontroller>, [
-	[<modularmachinery:itemmodularium>, <ore:circuitBasic>, <modularmachinery:itemmodularium>],
-	[<ore:circuitBasic>, <contenttweaker:case_basic>, <ore:circuitBasic>],
-	[<modularmachinery:itemmodularium>, <ore:circuitBasic>, <modularmachinery:itemmodularium>]
+mods.biggercraftingtables.Big.addShaped(<modularmachinery:blockcontroller>, [
+	[<ore:plateSilver>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <ore:plateSilver>],
+	[<modularmachinery:itemmodularium>, <ore:circuitBasic>, <ore:circuitBasic>, <ore:circuitBasic>, <modularmachinery:itemmodularium>],
+	[<modularmachinery:itemmodularium>, <contenttweaker:basicmotor>, <contenttweaker:case_basic>, <contenttweaker:basicmotor>, <modularmachinery:itemmodularium>],
+	[<modularmachinery:itemmodularium>, <ore:circuitBasic>, <ore:circuitBasic>, <ore:circuitBasic>, <modularmachinery:itemmodularium>],
+	[<ore:plateSilver>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <modularmachinery:itemmodularium>, <ore:plateSilver>]
 ]);
+
+
 
 //Hatches
 val hatchmap = {

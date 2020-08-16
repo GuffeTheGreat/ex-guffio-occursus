@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -3.0d,
+	dependencies: [
+		"66acca4a"
+	],
+	tasks: [{
+		uid: "6dace826",
+		type: "item",
+		items: [{
+			item: "cuisine:mill"
+		}]
+	}]
+}

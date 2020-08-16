@@ -22,7 +22,6 @@ Carving.addVariation("guidebooks", <gbook:guidebook>.withTag({Book: "rockhoundin
 Carving.addVariation("guidebooks", <silentgems:guide_book>);
 Carving.addVariation("guidebooks", <patchouli:guide_book>.withTag({"patchouli:book": "deepmoblearning:book"}));
 Carving.addVariation("guidebooks", <magneticraft:guide_book>);
-Carving.addVariation("guidebooks", <actuallyadditions:item_booklet>);
 
 //Stamps
 Carving.addGroup("stamps");

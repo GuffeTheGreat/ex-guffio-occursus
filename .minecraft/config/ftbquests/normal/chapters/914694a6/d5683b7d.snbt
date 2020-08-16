@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 0.5d,
+	dependencies: [
+		"b26522cd"
+	],
+	tasks: [{
+		uid: "234f4c03",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6106378302476884828L,
+					AS_Amulet_HolderMost: 4863570407252250259L
+				}
+			},
+			id: "pyrotech:flint_and_tinder"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

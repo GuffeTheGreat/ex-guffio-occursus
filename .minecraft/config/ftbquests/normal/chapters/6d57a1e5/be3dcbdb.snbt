@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 3.5d,
+	dependencies: [
+		"d7d375ec"
+	],
+	tasks: [{
+		uid: "128a9875",
+		type: "item",
+		items: [{
+			item: "iceandfire:creative_dragon_meal"
+		}]
+	}]
+}

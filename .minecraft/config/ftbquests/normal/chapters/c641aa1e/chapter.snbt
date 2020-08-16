@@ -1,0 +1,7 @@
+{
+	title: "Dimension Hopping",
+	icon: "arcaneworld:return_portal",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -23,13 +23,37 @@
 			item: {
 				item: {
 					item: {
-						ForgeCaps: {
-							"astralsorcery:cap_item_amulet_holder": {
-								AS_Amulet_HolderLeast: -6106378302476884828L,
-								AS_Amulet_HolderMost: 4863570407252250259L
-							}
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														ForgeCaps: {
+															"astralsorcery:cap_item_amulet_holder": {
+																AS_Amulet_HolderLeast: -6106378302476884828L,
+																AS_Amulet_HolderMost: 4863570407252250259L
+															}
+														},
+														id: "primal:flint_shears",
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
+							},
+							Count: 1b
 						},
-						id: "primal:flint_shears",
 						Count: 1b
 					},
 					Count: 1b

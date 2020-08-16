@@ -49,7 +49,7 @@ global addRatTableRecipe as function(IItemStack[], IIngredient[], int)void = fun
 	rat.addJEIRecipe(recipe);
 };
 
-addRatTableRecipe([<rats:rat_upgrade_basic>],[<rats:cheese>*4,<ore:gemDiamond>*4],20);
+addRatTableRecipe([<rats:rat_upgrade_basic>],[<rats:cheese>*4,<ore:dustDiamond>*4],20);
 addRatTableRecipe([<rats:rat_upgrade_basic>],[<rats:cheese>*4,<rats:rat_diamond>*4],30);
 addRatTableRecipe([<rats:rat_upgrade_speed>],[<rats:rat_upgrade_basic>,<minecraft:sugar>*4,<cuisine:material:7>*2,<ore:dustRedstone>*2],30);
 addRatTableRecipe([<rats:rat_upgrade_platter>],[<rats:rat_upgrade_basic>,<cuisine:placed_dish>*2],30);
@@ -62,7 +62,7 @@ addRatTableRecipe([<rats:rat_upgrade_chef>],[<rats:rat_upgrade_basic>,<rats:chef
 addRatTableRecipe([<rats:rat_upgrade_crafting>],[<rats:rat_upgrade_basic>,<pyrotech:iron_hammer>,<microblockcbe:saw_iron>,<minecraft:iron_pickaxe>,<minecraft:iron_axe>],30);
 addRatTableRecipe([<rats:rat_upgrade_whitelist>],[<rats:rat_upgrade_basic>,<minecraft:paper>,<essentials:sorting_hopper>],30);
 addRatTableRecipe([<rats:rat_upgrade_blacklist>],[<rats:rat_upgrade_basic>,<cyclicmagic:carbon_paper>,<essentials:sorting_hopper>],30);
-addRatTableRecipe([<rats:rat_upgrade_flight>],[<rats:rat_upgrade_basic>,<minecraft:feather>*8,<ore:gemLapis>*5,<ore:gemSodalite>*5,<ore:gemIolite>*5,<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "volatus"}]})],60);
+addRatTableRecipe([<rats:rat_upgrade_flight>],[<rats:rat_upgrade_basic>,<minecraft:feather>*4,<ore:gemLapis>*2,<ore:gemSodalite>*2,<ore:gemIolite>*2],60);
 addRatTableRecipe([<rats:rat_upgrade_dragon>],[<rats:rat_upgrade_flight>,<rats:rat_upgrade_warrior>,<rats:rat_upgrade_asbestos>,<ore:gemCarnelian>*10,<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "draco"}]})],120);
 addRatTableRecipe([<rats:rat_upgrade_aquatic>],[<rats:rat_upgrade_underwater>,<rats:fish_barrel>*4,<ore:seaSerpentScales>],60);
 addRatTableRecipe([<rats:rat_upgrade_underwater>],[<rats:rat_upgrade_basic>,<minecraft:fish:3>*4,<minecraft:prismarine_shard>*4],60);

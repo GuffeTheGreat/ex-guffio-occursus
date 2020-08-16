@@ -1,6 +1,7 @@
 {
-	x: 0.0d,
-	y: 3.0d,
+	icon: "minecraft:crafting_table",
+	x: 1.0d,
+	y: -0.5d,
 	dependencies: [
 		"6bd1c17c"
 	],
@@ -9,6 +10,13 @@
 		type: "item",
 		items: [{
 			item: "minecraft:crafting_table"
+		}]
+	},
+	{
+		uid: "db463605",
+		type: "item",
+		items: [{
+			item: "pyrotech:chopping_block"
 		}]
 	}]
 }

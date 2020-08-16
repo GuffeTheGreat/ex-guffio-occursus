@@ -66,7 +66,7 @@
       "8": "spodumene_ore",
       "9": "pyrope_ore",
       "10": "green_sapphire_dense_ore",
-      "11": "vanadium_magnetite_dense_ore",
+      "11": "goethite_block",
       "12": "neodymium_dense_ore",
       "13": "aluminium_dense_ore",
       "14": "spinel_dense_ore",
@@ -217,7 +217,7 @@
       "15": "uranium238_dense_ore"
     },
     "12": {
-      "0": "vanadium_magnetite_block",
+      "0": "goethite_dense_ore",
       "1": "soapstone_ore",
       "2": "galena_ore",
       "3": "moldavite_dense_ore",
@@ -238,7 +238,7 @@
       "0": "pitchblende_ore",
       "1": "brown_limonite_dense_ore",
       "2": "tetrahedrite_ore",
-      "3": "copper_dense_ore",
+      "3": "goethite_ore",
       "4": "cobalt_dense_ore",
       "5": "black_diamond_ore",
       "6": "lanthanum_dense_ore",
@@ -272,7 +272,6 @@
     },
     "15": {
       "0": "kunzite_ore",
-      "1": "vanadium_magnetite_ore",
       "2": "bauxite_dense_ore",
       "3": "banded_iron_dense_ore",
       "4": "magnetite_ore",

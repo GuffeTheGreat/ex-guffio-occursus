@@ -48,7 +48,6 @@
     "oreCopper": {
       "slagColor": "ffaa1c",
       "langKey": [
-        "crossroads:tile.ore_copper",
         "embers:tile.ore_copper",
         "geolosys:geolosys.cluster.copper",
         "immersiveengineering:tile.immersiveengineering.ore.copper",
@@ -57,7 +56,6 @@
         "nuclearcraft:tile.nuclearcraft.ore.copper"
       ],
       "output": [
-        "crossroads:nugget_copper:0",
         "embers:nugget_copper:0",
         "immersiveengineering:metal:20",
         "libvulpes:productnugget:4",
@@ -186,14 +184,12 @@
     "oreTin": {
       "slagColor": "c3e9ff",
       "langKey": [
-        "crossroads:tile.ore_tin",
         "embers:tile.ore_tin",
         "geolosys:geolosys.cluster.tin",
         "libvulpes:material.Tin",
         "nuclearcraft:tile.nuclearcraft.ore.tin"
       ],
       "output": [
-        "crossroads:nugget_tin:0",
         "embers:nugget_tin:0",
         "libvulpes:productnugget:5",
         "magneticraft:nuggets:13",

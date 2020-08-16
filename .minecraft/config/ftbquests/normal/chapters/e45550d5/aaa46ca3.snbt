@@ -11,14 +11,38 @@
 			item: {
 				item: {
 					item: {
-						ForgeCaps: {
-							"bonfires:reinforce": {
-								maxLevel: 10,
-								level: 0
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														ForgeCaps: {
+															"bonfires:reinforce": {
+																maxLevel: 10,
+																level: 0
+															},
+															"astralsorcery:cap_item_amulet_holder": {}
+														},
+														id: "primal:flint_pickaxe",
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
 							},
-							"astralsorcery:cap_item_amulet_holder": {}
+							Count: 1b
 						},
-						id: "primal:flint_pickaxe",
 						Count: 1b
 					},
 					Count: 1b
@@ -36,14 +60,38 @@
 			item: {
 				item: {
 					item: {
-						ForgeCaps: {
-							"bonfires:reinforce": {
-								maxLevel: 10,
-								level: 0
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														ForgeCaps: {
+															"bonfires:reinforce": {
+																maxLevel: 10,
+																level: 0
+															},
+															"astralsorcery:cap_item_amulet_holder": {}
+														},
+														id: "primal:flint_axe",
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
 							},
-							"astralsorcery:cap_item_amulet_holder": {}
+							Count: 1b
 						},
-						id: "primal:flint_axe",
 						Count: 1b
 					},
 					Count: 1b
@@ -61,14 +109,38 @@
 			item: {
 				item: {
 					item: {
-						ForgeCaps: {
-							"bonfires:reinforce": {
-								maxLevel: 10,
-								level: 0
+						item: {
+							item: {
+								item: {
+									item: {
+										item: {
+											item: {
+												item: {
+													item: {
+														ForgeCaps: {
+															"bonfires:reinforce": {
+																maxLevel: 10,
+																level: 0
+															},
+															"astralsorcery:cap_item_amulet_holder": {}
+														},
+														id: "primal:flint_shovel",
+														Count: 1b
+													},
+													Count: 1b
+												},
+												Count: 1b
+											},
+											Count: 1b
+										},
+										Count: 1b
+									},
+									Count: 1b
+								},
+								Count: 1b
 							},
-							"astralsorcery:cap_item_amulet_holder": {}
+							Count: 1b
 						},
-						id: "primal:flint_shovel",
 						Count: 1b
 					},
 					Count: 1b

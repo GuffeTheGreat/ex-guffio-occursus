@@ -1,0 +1,14 @@
+{
+	x: 9.5d,
+	y: -1.5d,
+	dependencies: [
+		"66acca4a"
+	],
+	tasks: [{
+		uid: "06377d1b",
+		type: "item",
+		items: [{
+			item: "pyrotech:soaking_pot"
+		}]
+	}]
+}

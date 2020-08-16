@@ -212,7 +212,7 @@ pyrite.registerParts(["block","tiny_pile","dust","crushed_ore","ore","clump","cr
 
 //Copper
 var copper = MaterialSystem.getMaterialBuilder().setName("Copper").setColor(Color.fromHex("b87333")).build();
-copper.registerParts(["dust","gear","rod","plate","doubleingot","bolt","tiny_pile","crushed_ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+copper.registerParts(["poor_ore","dust","gear","rod","plate","doubleingot","bolt","tiny_pile","shard"] as string[]);
 
 //Zinc
 var zinc = MaterialSystem.getMaterialBuilder().setName("Zinc").setColor(Color.fromHex("669966")).build();
@@ -270,9 +270,9 @@ pyrochlore.registerParts(["dust","crushed_ore","ore","clump","crystal","dense_or
 var magnetite = MaterialSystem.getMaterialBuilder().setName("Magnetite").setColor(Color.fromHex("010203")).build();
 magnetite.registerParts(["block","dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust","tiny_pile"] as string[]);
 
-//Vanadium Magnetite
-var vanadiummagnetite = MaterialSystem.getMaterialBuilder().setName("Vanadium Magnetite").setColor(Color.fromHex("071630")).build();
-vanadiummagnetite.registerParts(["block","dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust"] as string[]);
+//Goethite
+var goethite = MaterialSystem.getMaterialBuilder().setName("Goethite").setColor(Color.fromHex("010203")).build();
+goethite.registerParts(["block","dust","crushed_ore","ore","clump","crystal","dense_ore","chunk","shard","purified_ore","pure_dust","dirty_dust","tiny_pile"] as string[]);
 
 //GarnetSnad
 var mixedgarnet = MaterialSystem.getMaterialBuilder().setName("Mixed Gem").setColor(Color.fromHex("ff5e13")).build();

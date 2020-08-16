@@ -9,8 +9,8 @@
 		},
 		id: "pyrotech:crude_axe"
 	},
-	x: 0.0d,
-	y: 0.0d,
+	x: -2.0d,
+	y: -0.5d,
 	dependencies: [
 		"10a62a2f"
 	],

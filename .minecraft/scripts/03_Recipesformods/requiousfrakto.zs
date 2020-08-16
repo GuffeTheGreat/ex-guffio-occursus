@@ -26,6 +26,14 @@ recipes.addShapedMirrored("1x_tile_wiremill_shaped", <requious:wiremill>, [
 	[<contenttweaker:basicmotor>, <immersiveengineering:material:20>, <contenttweaker:basicmotor>]
 ]);
 
+//RatCraftingTable
+recipes.addShapedMirrored("1x_tile_ratcraftingtable_shaped", <requious:ratcraftingtable>, [
+	[<ore:blockCheese>, <rats:rat_crafting_table>, <ore:blockCheese>],
+	[<ore:plateTin>, <ore:ingotRedAlloy>, <ore:plateTin>],
+	[<ore:blockCheese>, <rats:rat_crafting_table>, <ore:blockCheese>]
+]);
+
+
 //Compressor
 recipes.addShapedMirrored("1x_tile_compressor_shaped", <requious:compressor>, [
 	[null, <ore:circuitBasic>, null],
@@ -33,5 +41,7 @@ recipes.addShapedMirrored("1x_tile_compressor_shaped", <requious:compressor>, [
 	[<immersiveengineering:material:20>, <ore:circuitBasic>, <immersiveengineering:material:20>]
 ]);
 
+//AutomatedArcaneWorkbench
+mods.thaumcraft.Infusion.registerRecipe("automatedworkbench", "", <thaumcraft:arcane_workbench>, 50, [<aspect:fabrico>*48, <aspect:machina>*16, <aspect:auram>*8], <thaumcraft:arcane_workbench>, [<thaumadditions:adaminite_nugget>, <thaumicrestoration:item_primal_modulator>, <thaumcraft:metal_alchemical_advanced>, <thaumadditions:mithrillium_resonator>, <thaumadditions:adaminite_nugget>,<thaumcraft:mind:1>]);
 
 

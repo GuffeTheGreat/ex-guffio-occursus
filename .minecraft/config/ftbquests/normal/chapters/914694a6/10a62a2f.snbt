@@ -1,8 +1,8 @@
 {
 	title: "Collecting Sticks And Stones",
 	icon: "pyrotech:material 1 12",
-	x: 0.0d,
-	y: -1.5d,
+	x: -3.5d,
+	y: -0.5d,
 	tasks: [{
 		uid: "407a5ed2",
 		type: "item",
