@@ -1,7 +1,0 @@
-{
-	title: "Your Journey Starts Here",
-	icon: "pyrotech:bloomery",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

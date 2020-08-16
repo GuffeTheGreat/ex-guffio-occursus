@@ -1,7 +1,0 @@
-{
-	title: "Tech Support",
-	icon: "crossroads:fluid_cooling_chamber",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

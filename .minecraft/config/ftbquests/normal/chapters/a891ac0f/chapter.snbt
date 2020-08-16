@@ -1,7 +1,0 @@
-{
-	title: "Info Library",
-	icon: "chisel:bookshelf_darkoak",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

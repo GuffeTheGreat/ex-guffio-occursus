@@ -26,6 +26,14 @@ setYMin:
     Notes:
         Sets the min Y coordinate.
 
+setXMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min X coordinate.
+
 setYMax:
     Arguments:
         float
@@ -34,21 +42,13 @@ setYMax:
     Notes:
         Sets the max Y coordinate.
 
-setZMinMax:
+setDimensionType:
     Arguments:
-        float, float
+        String
     Usage:
-        min, max
+        dimension type
     Notes:
-        Sets the min and max Z coordinates.
-
-setZMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min Z coordinate.
+        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
 setZMax:
     Arguments:
@@ -58,22 +58,6 @@ setZMax:
     Notes:
         Sets the max Z coordinate.
 
-setXMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max X coordinates.
-
-setXMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min X coordinate.
-
 setXMax:
     Arguments:
         float
@@ -82,6 +66,30 @@ setXMax:
     Notes:
         Sets the max X coordinate.
 
+setXMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max X coordinates.
+
+setZMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min Z coordinate.
+
+setZMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Z coordinates.
+
 setYMinMax:
     Arguments:
         float, float
@@ -89,12 +97,4 @@ setYMinMax:
         min, max
     Notes:
         Sets the min and max Y coordinates.
-
-setDimensionType:
-    Arguments:
-        String
-    Usage:
-        dimension type
-    Notes:
-        Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 

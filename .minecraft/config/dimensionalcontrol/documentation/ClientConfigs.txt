@@ -5,7 +5,7 @@ will be ignored on dedicated servers.
 
 newLoadingScreen:
     Arguments:
-        Integer, int array
+        int array, Integer
     Usage:
         toDimension, fromDimension
     Notes:
@@ -13,7 +13,7 @@ newLoadingScreen:
 
 newLoadingScreen:
     Arguments:
-        int array, Integer
+        Integer, int array
     Usage:
         toDimension, fromDimension
     Notes:

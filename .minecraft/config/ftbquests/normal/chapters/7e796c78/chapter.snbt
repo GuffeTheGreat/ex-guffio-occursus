@@ -1,8 +1,0 @@
-{
-	title: "Ore Spawn",
-	icon: "minecraft:diamond_ore",
-	disable_toast: true,
-	always_invisible: false,
-	group: -1466848241,
-	default_quest_shape: ""
-}
