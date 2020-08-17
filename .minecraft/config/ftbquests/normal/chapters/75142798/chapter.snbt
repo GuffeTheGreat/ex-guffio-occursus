@@ -1,0 +1,7 @@
+{
+	title: "Flower Powah",
+	icon: "botania:pool",
+	always_invisible: false,
+	group: -1548001463,
+	default_quest_shape: ""
+}

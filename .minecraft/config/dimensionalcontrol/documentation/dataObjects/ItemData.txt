@@ -2,14 +2,6 @@ These are the functions which can be called on an ItemData object.
 
 
 
-setDurabilityMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max durability.
-
 setEnchantmentLevelsMinMax:
     Arguments:
         float, float
@@ -17,14 +9,6 @@ setEnchantmentLevelsMinMax:
         min, max
     Notes:
         Sets the min and max enchantment levels.
-
-setEnchantmentLevelsMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min enchantment level.
 
 setEnchantmentLevelsMax:
     Arguments:
@@ -34,13 +18,21 @@ setEnchantmentLevelsMax:
     Notes:
         Sets the max enchantment level.
 
-setItem:
+setDurabilityMinMax:
     Arguments:
-        String, Integer
+        float, float
     Usage:
-        item name, meta
+        min, max
     Notes:
-        Sets the item with the provided meta.
+        Sets the min and max durability.
+
+setEnchantmentLevelsMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min enchantment level.
 
 setItem:
     Arguments:
@@ -49,6 +41,14 @@ setItem:
         item name
     Notes:
         Sets the item. This counts for any meta.
+
+setItem:
+    Arguments:
+        String, Integer
+    Usage:
+        item name, meta
+    Notes:
+        Sets the item with the provided meta.
 
 setItem:
     Arguments:
@@ -66,54 +66,6 @@ setOreDict:
     Notes:
         Sets the ore dictionary.
 
-setNBT:
-    Arguments:
-        String
-    Usage:
-        NBT Json
-    Notes:
-        Sets the NBT from the provided Json string.
-
-setDurabilityMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min durability.
-
-setDurabilityMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max durability.
-
-setEnchantment:
-    Arguments:
-        String
-    Usage:
-        enchantment path
-    Notes:
-        Sets the enchantment.
-
-setCountMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max stack count.
-
-setPotionType:
-    Arguments:
-        String
-    Usage:
-        potion type
-    Notes:
-        Sets the potion type.
-
 setCountMin:
     Arguments:
         float
@@ -129,4 +81,52 @@ setCountMax:
         max
     Notes:
         Sets the max stack count.
+
+setCountMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max stack count.
+
+setDurabilityMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min durability.
+
+setEnchantment:
+    Arguments:
+        String
+    Usage:
+        enchantment path
+    Notes:
+        Sets the enchantment.
+
+setPotionType:
+    Arguments:
+        String
+    Usage:
+        potion type
+    Notes:
+        Sets the potion type.
+
+setDurabilityMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max durability.
+
+setNBT:
+    Arguments:
+        String
+    Usage:
+        NBT Json
+    Notes:
+        Sets the NBT from the provided Json string.
 

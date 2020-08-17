@@ -1,0 +1,7 @@
+{
+	title: "Blood for the Blood God",
+	icon: "bloodmagic:altar",
+	always_invisible: false,
+	group: -1548001463,
+	default_quest_shape: ""
+}

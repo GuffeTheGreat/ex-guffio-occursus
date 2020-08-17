@@ -1,0 +1,13 @@
+{
+	title: "Rollin', Rollin', Rollin', Got Me Stargazin",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "astralsorcery:blockaltar",
+		Damage: 2s
+	},
+	always_invisible: false,
+	group: -1548001463,
+	default_quest_shape: ""
+}

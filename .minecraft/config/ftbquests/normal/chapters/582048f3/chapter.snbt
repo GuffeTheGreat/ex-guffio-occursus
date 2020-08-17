@@ -1,0 +1,7 @@
+{
+	title: "Which Witch to Bewitch",
+	icon: "bewitchment:stone_witches_altar",
+	always_invisible: false,
+	group: -1548001463,
+	default_quest_shape: ""
+}
