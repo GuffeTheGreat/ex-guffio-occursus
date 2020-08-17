@@ -29,12 +29,10 @@ recipes.addShapedMirrored("1x_item_bucket_shaped", <minecraft:bucket>, [
 //Dispensor
 recipes.remove(<minecraft:dispenser>);
 recipes.addShapedMirrored("1x_tile_dispenser_shaped", <minecraft:dispenser>, [
-	[<ore:cobblestone>, <ore:ringCrudeSteel>, <ore:cobblestone>],
+	[<ore:cobblestone>, <ore:ringIron>, <ore:cobblestone>],
 	[<ore:springIron>, <minecraft:bow>, <ore:springIron>],
 	[<ore:cobblestone>, <thaumcraft:inlay>, <ore:cobblestone>]
 ]);
-
-
 
 //Brewingstand
 recipes.remove(<minecraft:brewing_stand>);
@@ -184,21 +182,21 @@ recipes.addShapedMirrored("1x_tile_musicBlock_shaped", <minecraft:noteblock>, [
 //Rails
 recipes.remove(<minecraft:golden_rail>);
 recipes.addShapedMirrored("6x_tile_goldenRail_shaped", <minecraft:golden_rail> * 6, [
-	[<ore:boltCrudeSteel>, <ore:ingotRedAlloy>, <ore:boltCrudeSteel>],
-	[<ore:rodGold>, <ore:slatWood>, <ore:rodGold>],
-	[<ore:boltCrudeSteel>, <ore:ingotRedAlloy>, <ore:boltCrudeSteel>]
+	[<ore:boltIron>, <ore:ingotRedAlloy>, <ore:boltIron>],
+	[<ore:rodGold>, <minecraft:ladder>, <ore:rodGold>],
+	[<ore:boltIron>, <ore:ingotRedAlloy>, <ore:boltIron>]
 ]);
 recipes.remove(<minecraft:detector_rail>);
 recipes.addShapedMirrored("6x_tile_detectorRail_shaped", <minecraft:detector_rail> * 6, [
-	[<ore:boltCrudeSteel>, <ore:ingotRedAlloy>, <ore:boltCrudeSteel>],
-	[<ore:stickIron>, <ore:slatWood>, <ore:stickIron>],
-	[<ore:boltCrudeSteel>, <ore:ingotRedAlloy>, <ore:boltCrudeSteel>]
+	[<ore:boltIron>, <ore:ingotRedAlloy>, <ore:boltIron>],
+	[<ore:stickIron>, <minecraft:ladder>, <ore:stickIron>],
+	[<ore:boltIron>, <ore:ingotRedAlloy>, <ore:boltIron>]
 ]);
 recipes.remove(<minecraft:rail>);
 recipes.addShapedMirrored("6x_tile_rail_shaped", <minecraft:rail> * 6, [
-	[<ore:boltCrudeSteel>, null, <ore:boltCrudeSteel>],
-	[<ore:stickIron>, <ore:slatWood>, <ore:stickIron>],
-	[<ore:boltCrudeSteel>, null, <ore:boltCrudeSteel>]
+	[<ore:boltIron>, null, <ore:boltIron>],
+	[<ore:stickIron>, <minecraft:ladder>, <ore:stickIron>],
+	[<ore:boltIron>, null, <ore:boltIron>]
 ]);
 
 

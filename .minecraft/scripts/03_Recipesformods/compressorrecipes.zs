@@ -7,4 +7,5 @@ mods.nuclearcraft.Pressurizer.addRecipe(<ore:sand>*4,<minecraft:sandstone>);
 mods.nuclearcraft.Pressurizer.addRecipe(<ore:string>*4,<minecraft:wool>);
 mods.nuclearcraft.Pressurizer.addRecipe(<ore:ingotIron>*9,<minecraft:iron_block>);
 mods.nuclearcraft.Pressurizer.addRecipe(<ore:ingotGold>*9,<minecraft:gold_block>);
-mods.nuclearcraft.Pressurizer.addRecipe(<ore:ingotGold>*4,<minecraft:gold_block>);
+mods.nuclearcraft.Pressurizer.addRecipe(<quark:glass_shards>*4,<minecraft:glass>);
+mods.nuclearcraft.Pressurizer.addRecipe(<embers:shard_ember>*6,<embers:crystal_ember>);

@@ -1,0 +1,21 @@
+{
+	icon: "embers:shard_ember",
+	x: 0.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "8060d5ed",
+		type: "item",
+		items: [{
+			item: "embers:shard_ember"
+		}],
+		count: 8L
+	},
+	{
+		uid: "5d440575",
+		type: "item",
+		items: [{
+			item: "embers:blend_caminite"
+		}],
+		count: 8L
+	}]
+}

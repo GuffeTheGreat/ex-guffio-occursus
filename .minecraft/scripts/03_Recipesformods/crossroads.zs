@@ -76,10 +76,12 @@ recipes.addShapedMirrored("12x_tile_fluid_tube_shaped", <crossroads:fluid_tube> 
 //HeatingChamber
 recipes.remove(<crossroads:heating_chamber>);
 recipes.addShapedMirrored("1x_tile_heating_chamber_shaped", <crossroads:heating_chamber>, [
-	[<ore:plateObsidian>, <contenttweaker:material_part:245>, <ore:plateObsidian>],
-	[<ore:plateCrudeSteel>, <thebetweenlands:sulfur_furnace>, <ore:plateCrudeSteel>],
-	[<ore:plateObsidian>, <ore:plateObsidian>, <ore:plateObsidian>]
+	[<ore:ingotGraphite>, <ore:plateCopper>, <ore:ingotGraphite>],
+	[<ore:plateOctine>, <thebetweenlands:sulfur_furnace>, <ore:plateOctine>],
+	[<ore:ingotGraphite>, <embers:superheater>, <ore:ingotGraphite>]
 ]);
+
+
 
 //RotaryPUmp
 recipes.remove(<crossroads:rotary_pump>);

@@ -1,0 +1,12 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "1e64f53a",
+		type: "item",
+		items: [{
+			item: "bewitchment:stone_witches_altar"
+		}],
+		count: 6L
+	}]
+}

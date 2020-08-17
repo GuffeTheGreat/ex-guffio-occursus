@@ -3,6 +3,12 @@ import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
 import mods.thaumcraft.SalisMundus;
 
+//AlchemicalBrassCleanup
+mods.nuclearcraft.AlloyFurnace.removeRecipeWithOutput(<thaumcraft:ingot:2>);
+mods.immersiveengineering.AlloySmelter.removeRecipe(<thaumcraft:ingot:2>);
+mods.immersiveengineering.ArcFurnace.removeRecipe(<thaumcraft:ingot:2>);
+recipes.remove(<thaumcraft:ingot:2>);
+
 //Thaumonomicon
 SalisMundus.removeSingleConversion(<thaumcraft:thaumonomicon>);
 SalisMundus.addSingleConversion(<blockstate:minecraft:bookshelf>.block, <thaumcraft:thaumonomicon:1>);
@@ -47,7 +53,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tile.paving_stone_barrier"
 recipes.remove(<thaumcraft:smelter_basic>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tile.smelter.basic", "ESSENTIASMELTER", 50, [<aspect:ignis>], <thaumcraft:smelter_basic>, [
 [<ore:plateAlchemicalBrass>,<thaumcraft:crucible>,<ore:plateAlchemicalBrass>], 
-[<ore:plateOctine>,<pyrotech:brick_kiln>,<ore:plateOctine>], 
+[<ore:plateOctine>,<ore:nitor>,<ore:plateOctine>], 
 [<ore:plateOctine>,<ore:plateOctine>,<ore:plateOctine>]]);
 recipes.remove(<thaumcraft:smelter_thaumium>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("tile.smelter.thaumium", "ESSENTIASMELTERTHAUMIUM", 250, [<aspect:ignis>*2], <thaumcraft:smelter_thaumium>, [
@@ -133,3 +139,10 @@ mods.thaumcraft.Crucible.registerRecipe("glowstone", "BASEALCHEMY", <minecraft:g
 mods.thaumcraft.Crucible.registerRecipe("caminiteblend", "BASEALCHEMY", <embers:blend_caminite>*5, <pyrotech:material:4>, [<aspect:machina> * 2, <aspect:praecantatio> * 2]);
 
 
+//Infusion----------------------------------------------------------
+//ArcaneBore
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:turret:2>);
+mods.thaumcraft.Infusion.registerRecipe("bore", "", <minecraft:diamond>, 15, [<aspect:machina>*100,<aspect:potentia>*25,<aspect:terra>*25,<aspect:vacuos>*25, <aspect:motus>*25], <thaumcraft:turret>, [<thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:mechanism_complex>, <ore:plateAlchemicalBrass>, <thaumcraft:thaumium_pick>, <thaumcraft:thaumium_shovel>, <thaumcraft:morphic_resonator>, <contenttweaker:advancedpiston>]);
+//VoidSyphon
+mods.thaumcraft.Infusion.removeRecipe(<thaumcraft:void_siphon>);
+mods.thaumcraft.Infusion.registerRecipe("voidsyphon", "", <thaumcraft:void_siphon>, 10, [<aspect:vacuos>*100,<aspect:alienis>*50,<aspect:perditio>*50,<aspect:fabrico>*50], <crossroads:void_crystal>, [<thaumcraft:stone_arcane>, <thaumcraft:stone_arcane>, <thaumcraft:metal_alchemical_advanced>, <ore:plateAlchemicalBrass>, <ore:plateAlchemicalBrass>, <minecraft:nether_star>]);

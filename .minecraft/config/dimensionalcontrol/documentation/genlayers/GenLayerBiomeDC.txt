@@ -11,21 +11,33 @@ Constructor:
     Notes:
         Constructs the layer with its seed and parent layer.
 
-setSpecialVariantChance:
-    Arguments:
-        String, int
-    Usage:
-        biome type, chance
+fillWithVanillaBiomes:
     Notes:
-        Sets the chance for the special variant biome to be used for the provided type. The chance is 1 in the provided number. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
+        Fills all BiomeEntry lists with the entries they would contain in vanilla.
 
-setSpecialVariantChance:
+fillWithVanillaBiomes:
     Arguments:
-        int
+        String
     Usage:
-        chance
+        biome type
     Notes:
-        Sets the global chance for the special variant biome to be used. This will set the chance for all types. Set this before you set specific ones or it will overwrite. The chance is 1 in the provided number.
+        Fills the BiomeEntry list for the provided type with the entries it would contain in vanilla. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
+
+removeEntriesForBiome:
+    Arguments:
+        String, Non_Null_Biome_ID
+    Usage:
+        biome type, biome ID
+    Notes:
+        Removes any entries with the provided biome entry from the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
+
+removeEntriesForBiome:
+    Arguments:
+        String, Non_Null_Biome_ID
+    Usage:
+        biome type, biome ID
+    Notes:
+        Removes any entries with the provided biome entry from the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
 
 setSpecialVariantBiome:
     Arguments:
@@ -45,45 +57,33 @@ setSpecialBiome:
 
 addBiome:
     Arguments:
-        String, Non_Null_Biome_ID
-    Usage:
-        biome type, biome ID
-    Notes:
-        Adds the provided biome id to the provided type with a weight of 1. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
-
-addBiome:
-    Arguments:
         String, Non_Null_Biome_ID, int
     Usage:
         biome type, biome ID, weight
     Notes:
         Adds the provided biome id to the provided type with the provided weight. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
 
-removeEntriesForBiome:
+addBiome:
     Arguments:
         String, Non_Null_Biome_ID
     Usage:
         biome type, biome ID
     Notes:
-        Removes any entries with the provided biome entry from the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
+        Adds the provided biome id to the provided type with a weight of 1. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
 
-removeEntriesForBiome:
+setSpecialVariantChance:
     Arguments:
-        String, Non_Null_Biome_ID
+        int
     Usage:
-        biome type, biome ID
+        chance
     Notes:
-        Removes any entries with the provided biome entry from the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
+        Sets the global chance for the special variant biome to be used. This will set the chance for all types. Set this before you set specific ones or it will overwrite. The chance is 1 in the provided number.
 
-fillWithVanillaBiomes:
-    Notes:
-        Fills all BiomeEntry lists with the entries they would contain in vanilla.
-
-fillWithVanillaBiomes:
+setSpecialVariantChance:
     Arguments:
-        String
+        String, int
     Usage:
-        biome type
+        biome type, chance
     Notes:
-        Fills the BiomeEntry list for the provided type with the entries it would contain in vanilla. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
+        Sets the chance for the special variant biome to be used for the provided type. The chance is 1 in the provided number. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
 

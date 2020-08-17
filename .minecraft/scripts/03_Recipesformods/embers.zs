@@ -86,13 +86,13 @@ recipes.addShapedMirrored("1x_item_ashen_cloak_head_shaped", <embers:ashen_cloak
 //MantleCartridges
 recipes.remove(<embers:ember_jar>);
 recipes.addShapedMirrored("1x_item_ember_jar_shaped", <embers:ember_jar>, [
-	[<ore:rodDawnstone>, <ore:plateCrudeSteel>, <ore:rodDawnstone>],
+	[<ore:rodDawnstone>, <ore:plateSteel>, <ore:rodDawnstone>],
 	[<ore:blockGlass>, <embers:shard_ember>, <ore:blockGlass>],
 	[null, <ore:blockGlass>, null]
 ]);
 recipes.remove(<embers:ember_cartridge>);
 recipes.addShapedMirrored("1x_item_ember_cartridge_shaped", <embers:ember_cartridge>, [
-	[<ore:rodDawnstone>, <ore:plateDenseCrudeSteel>, <ore:rodDawnstone>],
+	[<ore:rodDawnstone>, <ore:plateSteel>, <ore:rodDawnstone>],
 	[<ore:blockGlass>, <embers:crystal_ember>, <ore:blockGlass>],
 	[null, <ore:blockGlass>, null]
 ]);
@@ -176,7 +176,14 @@ recipes.remove(<embers:stamper>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("stamper", "", 20, [<aspect:ignis>*6, <aspect:terra>*2], <embers:stamper>, [[<embers:brick_caminite>, <ore:plateAlchemicalBrass>, <embers:brick_caminite>],
 	[<embers:brick_caminite>, <minecraft:piston>, <embers:brick_caminite>],
 	[<embers:brick_caminite>, null, <embers:brick_caminite>]]);
-	
+
+//Atmopsheric Gauge
+recipes.remove(<embers:ember_detector>);
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("gauge", "", 25, [<aspect:ignis>*8, <aspect:terra>*4], <embers:stamper>, [
+[<embers:dust_ember>, <ore:plateIron>, <embers:dust_ember>],
+	[<ore:plateAlchemicalBrass>, <ore:dustRedstone>, <ore:plateAlchemicalBrass>],
+	[<embers:dust_ember>, <ore:plateIron>, <embers:dust_ember>]]);
+
 //EmberBoreLootOnly
 recipes.remove(<embers:ember_bore>);
 
@@ -190,27 +197,21 @@ recipes.addShapedMirrored("1x_tile_mixer_shaped", <embers:mixer>, [
 
 //ExchangeTablet
 recipes.remove(<embers:alchemy_tablet>);
-recipes.addShapedMirrored("1x_tile_alchemy_tablet_shaped", <embers:alchemy_tablet>, [
-	[null, <ore:plateAlchemicalBrass>, null],
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("exchangetablet", "", 50, [<aspect:ignis>*10, <aspect:terra>*4], <embers:alchemy_tablet>, [[null, <ore:plateAlchemicalBrass>, null],
 	[<embers:stairs_caminite_brick>, <thaumcraft:amber_block>, <embers:stairs_caminite_brick>],
-	[<embers:block_caminite_brick>, <thaumcraft:ingot:2>, <embers:block_caminite_brick>]
-]);
+	[<embers:block_caminite_brick>, <thaumcraft:ingot:2>, <embers:block_caminite_brick>]]);
 
 //AlchemyPedestal
 recipes.remove(<embers:alchemy_pedestal>);
-recipes.addShapedMirrored("1x_tile_alchemy_pedestal_shaped", <embers:alchemy_pedestal>, [
-	[<ore:plateAlchemicalBrass>, null, <ore:plateAlchemicalBrass>],
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("exchangetablet", "", 10, [<aspect:ignis>*5, <aspect:terra>*4], <embers:alchemy_pedestal>, [[<ore:plateAlchemicalBrass>, null, <ore:plateAlchemicalBrass>],
 	[<thaumcraft:ingot:2>, <embers:crystal_ember>, <thaumcraft:ingot:2>],
-	[<embers:stairs_caminite_brick>, <thaumcraft:amber_block>, <embers:stairs_caminite_brick>]
-]);
-
+	[<embers:stairs_caminite_brick>, <thaumcraft:amber_block>, <embers:stairs_caminite_brick>]]);
 //Beamcannon
 recipes.remove(<embers:beam_cannon>);
-recipes.addShapedMirrored("1x_tile_beam_cannon_shaped", <embers:beam_cannon>, [
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("beamcannon", "", 40, [<aspect:ignis>*8, <aspect:terra>*4], <embers:beam_cannon>, [[<ore:plateAlchemicalBrass>, <embers:crystal_ember>, <ore:plateAlchemicalBrass>],
 	[<ore:plateAlchemicalBrass>, <embers:crystal_ember>, <ore:plateAlchemicalBrass>],
-	[<ore:plateAlchemicalBrass>, <embers:crystal_ember>, <ore:plateAlchemicalBrass>],
-	[<thaumcraft:ingot:2>, <embers:block_caminite_brick>, <thaumcraft:ingot:2>]
-]);
+	[<thaumcraft:ingot:2>, <embers:block_caminite_brick>, <thaumcraft:ingot:2>]]);
+
 
 //WindingGears
 mods.embers.Alchemy.remove(<embers:winding_gears>);
@@ -308,7 +309,7 @@ recipes.addShapedMirrored("1x_tile_mech_core_shaped", <embers:mech_core>, [
 	[<ore:plateIron>, <ore:boltIron>, <ore:plateIron>]
 ]);
 
-
+//mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("exchangetablet", "", 50, [<aspect:ignis>*10, <aspect:terra>*4], <embers:alchemy_tablet>, []);
 
 
 

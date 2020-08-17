@@ -1,0 +1,367 @@
+{
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:insanecircuitry@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:insanecircuitry@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:insanecircuitry@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:insanecircuitry@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:insanecircuitry@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_glass"},
+            "elements": [
+                "nuclearcraft:fission_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","multiblockData":{"isReactorOn":"0b","fuelComponentCount":"0","totalEfficiency":"0.0d","clusterCount":"0","usefulPartCount":"0L","totalHeatMult":"0L","meanHeatMult":"0.0d","cooling":"0L","logic":{"heatBuffer":{"heatStored":"0L","heatCapacity":"50000L"}},"logicID":"","rawHeating":"0L","meanEfficiency":"0.0d","sparsityEfficiencyMult":"0.0d"},"radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","multiblockData":{"isReactorOn":"0b","fuelComponentCount":"0","totalEfficiency":"0.0d","clusterCount":"0","usefulPartCount":"0L","totalHeatMult":"0L","meanHeatMult":"0.0d","cooling":"0L","logic":{"heatBuffer":{"heatStored":"0L","heatCapacity":"25000L"}},"logicID":"","rawHeating":"0L","meanEfficiency":"0.0d","sparsityEfficiencyMult":"0.0d"},"radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "nbt": {"casingColor":"16777215","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "nbt": {"redstoneControl":"0b","isRedstonePowered":"0b","multiblockData":{"isReactorOn":"0b","fuelComponentCount":"0","totalEfficiency":"0.0d","clusterCount":"0","usefulPartCount":"0L","totalHeatMult":"0L","meanHeatMult":"0.0d","cooling":"0L","logic":{"heatBuffer":{"heatStored":"0L","heatCapacity":"50000L"}},"logicID":"","rawHeating":"0L","meanEfficiency":"0.0d","sparsityEfficiencyMult":"0.0d"},"radiationLevel":"0.0d","ForgeCaps":{"nuclearcraft:capability_default_radiation_resistance":{"shieldingRadResistance":"0.0d","radiationResistance":"0.0d"}},"alternateComparator":"0b","id":"nuclearcraft:fission_casing"},
+            "elements": [
+                "nuclearcraft:fission_casing@0"
+            ]
+        }
+    ]}

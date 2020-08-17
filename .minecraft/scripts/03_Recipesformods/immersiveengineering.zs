@@ -83,20 +83,6 @@ recipes.addShapedMirrored("8x_tile_immersiveengineering_conveyor_immersiveengine
 	[<ore:plateIron>, <minecraft:redstone>, <ore:plateIron>]
 ]);
 */
-//Blastfurnace'
-recipes.remove(<immersiveengineering:stone_decoration:2>);
-recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_reinforced_shaped", <immersiveengineering:stone_decoration:2> * 3, [
-	[<materialpart:Crude_Steel:bolt>, <materialpart:Crude_Steel:plate>, <materialpart:Crude_Steel:bolt>],
-	[<immersiveengineering:stone_decoration:1>, <immersiveengineering:stone_decoration:1>, <immersiveengineering:stone_decoration:1>],
-	[<materialpart:Crude_Steel:bolt>, <materialpart:Crude_Steel:plate>, <materialpart:Crude_Steel:bolt>]
-]);
-recipes.addShapedMirrored("1x_tile_immersiveengineering_stone_decoration_blastbrick_reinforced_shaped", <immersiveengineering:stone_decoration:2>, [
-	[<immersiveengineering:stone_decoration_slab:2>],
-	[<immersiveengineering:stone_decoration_slab:2>]
-]);
-
-
-
 
 recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
 recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_shapedXD", <immersiveengineering:stone_decoration:1> * 3, [

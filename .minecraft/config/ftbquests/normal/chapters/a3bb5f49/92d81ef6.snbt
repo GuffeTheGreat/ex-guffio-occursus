@@ -1,0 +1,14 @@
+{
+	x: 5.5d,
+	y: -5.0d,
+	dependencies: [
+		"51513bef"
+	],
+	tasks: [{
+		uid: "c20fa5e2",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_smelter"
+		}]
+	}]
+}

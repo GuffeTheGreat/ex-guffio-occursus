@@ -1,0 +1,11 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	tasks: [{
+		uid: "8ecb7d69",
+		type: "item",
+		items: [{
+			item: "thaumcraft:salis_mundus"
+		}]
+	}]
+}

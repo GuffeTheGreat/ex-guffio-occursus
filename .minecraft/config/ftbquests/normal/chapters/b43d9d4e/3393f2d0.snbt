@@ -1,0 +1,15 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"bbd6b316"
+	],
+	tasks: [{
+		uid: "3e8ff8ae",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:limestone"
+		}],
+		count: 8L
+	}]
+}

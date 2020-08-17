@@ -14,7 +14,10 @@ import mods.thaumcraft.SalisMundus;
 
 //Agglomeration.addRecipe(<modularmachinery:itemmodularium> * 3, [<minecraft:sugar>, <minecraft:iron_ingot>, <exnihilocreatio:item_material:2>], 20, 0xFFFFFF, 0xF1C232, <minecraft:wool>, <minecraft:wool>, <minecraft:wool>, null, null, null);
 
+
+//Flowers----------------------------------------
 //RosaArcana
+mods.botania.Apothecary.removeRecipe(<botania:specialflower>);
 mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<ore:petalPurple>, <ore:petalMagenta>, <contenttweaker:advancedvalve>, <cyclicmagic:exp_pylon>, <forge:bucketfilled>.withTag({FluidName: "xpjuice", Amount: 1000})]);
 
 //PureDaisy
@@ -22,6 +25,33 @@ mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "pureda
 
 //ShulkMeNot
 mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "shulk_me_not"}), [<ore:petalPurple>, <ore:petalPurple>, <ore:petalMagenta>, <ore:petalMagenta>, <thaumadditions:dna_sample>.withTag({Entity: {Id: "minecraft:shulker"}}), <minecraft:chorus_fruit_popped>, <minecraft:chorus_fruit_popped>]);
+
+//Manastar
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "manastar"}), [<ore:petalBlue>, <ore:petalBlue>, <thaumcraft:salis_mundus>]);
+
+//Narslimmus
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<ore:petalLime>,<ore:petalLime>,<ore:petalGreen>,<ore:petalGreen>, <botania:manaresource:23>,<botania:manaresource:23>,<minecraft:slime>,<minecraft:slime>,<deepmoblearning:pristine_matter_slime>]);
+
+//Spectrolus
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<ore:petalGreen>,<ore:petalRed>,<ore:petalBlue>,<ore:petalWhite>, <botania:manaresource:23>,<botania:manaresource:23>,<quark:rune:16>,<quark:rune:16>,<chisel:futura:3>]);
+
+//Rafflowsia
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<ore:petalPurple>,<ore:petalPurple>,<ore:petalGreen>,<ore:petalGreen>, <botania:manaresource:23>,<botania:manaresource:23>,<cyclicmagic:tool_harvest_weeds>,<cyclicmagic:tool_harvest_weeds>,<rats:rattrap>]);
+
+//Dandeflion
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<ore:petalLime>,<ore:petalLime>,<ore:petalGreen>,<ore:petalGreen>, <botania:manaresource:23>,<botania:manaresource:23>,<botania:cellblock>,<botania:cellblock>,<minecraft:skull:3>.withTag({SkullOwner: {Id: "8c826f34-113b-4238-a173-44639c53b6e6"}})]);
+
+//Entropyuum
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<ore:petalRed>,<ore:petalRed>,<ore:petalGray>,<ore:petalGray>, <botania:manaresource:23>,<botania:manaresource:23>,<minecraft:tnt>,<minecraft:tnt>,<ore:plateTitanium>]);
+
+//Munchdew
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<ore:petalLime>,<ore:petalLime>,<ore:petalGreen>,<ore:petalGreen>, <botania:manaresource:23>,<botania:manaresource:23>,<minecraft:slime>,<minecraft:slime>,<deepmoblearning:pristine_matter_slime>]);
+
+//Gourmayllis
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<ore:petalLime>,<ore:petalLime>,<ore:petalGreen>,<ore:petalGreen>, <botania:manaresource:23>,<botania:manaresource:23>,<minecraft:slime>,<minecraft:slime>,<deepmoblearning:pristine_matter_slime>]);
+
+//Kekimurus
+mods.botania.Apothecary.addRecipe(<botania:specialflower>.withTag({type: "arcanerose"}), [<ore:petalLime>,<ore:petalLime>,<ore:petalGreen>,<ore:petalGreen>, <botania:manaresource:23>,<botania:manaresource:23>,<minecraft:slime>,<minecraft:slime>,<deepmoblearning:pristine_matter_slime>]);
 
 //Puredaisyrecipes
 mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
@@ -51,6 +81,8 @@ mods.botania.PureDaisy.addRecipe(<minecraft:stained_glass:15>,<quark:crystal:8>)
 recipes.remove(<botania:pool:2>);
 SalisMundus.addSingleConversion(<ore:stone>, <botania:altar>);
 
+//PetalApotachary
+recipes.remove(<botania:altar>);
 
 
 //DilutedManapool

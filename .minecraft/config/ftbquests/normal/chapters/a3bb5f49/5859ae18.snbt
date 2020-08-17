@@ -1,0 +1,15 @@
+{
+	x: 4.5d,
+	y: -1.0d,
+	dependencies: [
+		"a46775cb",
+		"e0181312"
+	],
+	tasks: [{
+		uid: "3f0900b0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}]
+}
