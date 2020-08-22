@@ -22,7 +22,7 @@ recipes.addShapedMirrored("1x_item_efab_upgrade_magic_shaped", <efab:upgrade_mag
 	[<ore:plateAlchemicalBrass>, <thaumcraft:salis_mundus>, <ore:plateAlchemicalBrass>],
 	[<ore:boltAlchemicalBrass>, <ore:plateAlchemicalBrass>, <ore:boltAlchemicalBrass>]
 ]);
-		
+
 //bookShelf
  EFabRecipe.shaped(<minecraft:bookshelf>, [
 [<ore:plankTreatedWood>, <ore:plankTreatedWood>, <ore:plankTreatedWood>],

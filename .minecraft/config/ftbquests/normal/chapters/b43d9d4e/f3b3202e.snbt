@@ -1,0 +1,27 @@
+{
+	title: "Collecting Middle Gems",
+	x: -3.5d,
+	y: 0.0d,
+	dependencies: [
+		"bbd6b316"
+	],
+	tasks: [{
+		uid: "3330c793",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:aqua_middle_gem_ore"
+		},
+		{
+			item: "thebetweenlands:crimson_middle_gem_ore"
+		},
+		{
+			item: "thebetweenlands:green_middle_gem_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "d8ffd9f2",
+		type: "choice",
+		icon: "thebetweenlands:aqua_middle_gem",
+		table: 1
+	}]
+}

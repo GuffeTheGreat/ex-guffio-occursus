@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: -2.5d,
+	dependencies: [
+		"b8e9ff69"
+	],
+	tasks: [{
+		uid: "9460f07f",
+		type: "item",
+		items: [{
+			item: "pyrotech:brick_sawmill"
+		}]
+	}]
+}

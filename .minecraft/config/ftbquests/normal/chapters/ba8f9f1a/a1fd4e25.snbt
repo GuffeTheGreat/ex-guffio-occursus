@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -7.5d,
+	dependencies: [
+		"ad04db5c"
+	],
+	tasks: [{
+		uid: "347903b3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:case_ferramic"
+		}]
+	}]
+}

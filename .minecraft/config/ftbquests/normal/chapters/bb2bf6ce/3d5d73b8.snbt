@@ -1,0 +1,11 @@
+{
+	x: 0.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "285f47a8",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine"
+		}]
+	}]
+}

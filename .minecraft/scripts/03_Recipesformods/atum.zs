@@ -1,4 +1,5 @@
 mods.jei.JEI.removeAndHide(<atum:quern>);
+mods.jei.JEI.removeAndHide(<atum:kiln>);
 
 //SpinningWheel
 recipes.remove(<atum:spinning_wheel>);

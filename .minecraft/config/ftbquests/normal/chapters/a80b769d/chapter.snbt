@@ -1,0 +1,7 @@
+{
+	title: "Ratlantis",
+	icon: "rats:idol_of_ratlantis",
+	always_invisible: false,
+	group: -1271030450,
+	default_quest_shape: ""
+}

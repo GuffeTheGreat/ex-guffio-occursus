@@ -1,0 +1,13 @@
+{
+	title: "Middle Gems",
+	loot_size: 1,
+	rewards: [{
+		item: "thebetweenlands:aqua_middle_gem_ore"
+	},
+	{
+		item: "thebetweenlands:crimson_middle_gem_ore"
+	},
+	{
+		item: "thebetweenlands:green_middle_gem_ore"
+	}]
+}

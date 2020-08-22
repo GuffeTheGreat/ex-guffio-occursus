@@ -1,6 +1,19 @@
 mods.prodigytech.atomicreshaper.addRecipeMulti(<iceandfire:pixie_wings>, 100, 120, [<minecraft:elytra>]);
 mods.prodigytech.atomicreshaper.addRecipeMulti(<silentgems:gemsuper:47>, 300, 120, [<thaumcraft:primordial_pearl>]);
+mods.prodigytech.atomicreshaper.addRecipeMulti(<minecraft:iron_ingot>, 300, 80, [<immersiveintelligence:material_ingot:5>]);
 
+//FerramicIngot
+mods.prodigytech.explosionfurnace.recipes.addRecipe(<ore:ingotFatInducedIron>, <materialpart:ferramic:ingot>, 360,<ore:dustSalt>, 4);
+mods.prodigytech.explosionfurnace.recipes.removeRecipeByOutput(<prodigytech:ferramic_nugget>);
+mods.prodigytech.explosionfurnace.recipes.removeRecipeByOutput(<prodigytech:ferramic_ingot>);
+
+//ExplosionFurnace
+recipes.remove(<prodigytech:explosion_furnace>);
+recipes.addShapedMirrored("1x_tile_prodigytech_explosion_furnace_shaped", <prodigytech:explosion_furnace>, [
+	[<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>],
+	[<pyrotech:stone_bricks>, <thaumcraft:alumentum>, <pyrotech:stone_bricks>],
+	[<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]
+]);
 
 //Magneticreassembler
 recipes.remove(<prodigytech:magnetic_reassembler>);

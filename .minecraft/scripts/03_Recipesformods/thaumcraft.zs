@@ -121,10 +121,12 @@ mods.thaumcraft.Crucible.registerRecipe("Alchemicalbrassgood", "METALLURGY", <th
 mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:tallow>);
 mods.thaumcraft.Crucible.registerRecipe("tallow", "HEDGEALCHEMY", <thaumcraft:tallow>, <ore:tallow>, [<aspect:ignis>]);
 
+#DupingBlazePowder
+mods.thaumcraft.Crucible.registerRecipe("blaze", "HEDGEALCHEMY", <minecraft:blaze_powder>*2, <minecraft:blaze_powder>, [<aspect:alkimia>*5,<aspect:ignis>*5,<aspect:potentia>]);
+
 #Thaumium
 mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:ingot>);
-mods.thaumcraft.Crucible.registerRecipe("Thaumium", "BASEALCHEMY", <thaumcraft:ingot>, <thebetweenlands:items_misc:11>, [<aspect:praecantatio> * 5, <aspect:terra> * 5]);
-mods.thaumcraft.Crucible.registerRecipe("Thaumiumfromaldourite", "METALLURGY", <thaumcraft:ingot> *4, <ore:ingotPurplegold>, [<aspect:praecantatio> * 5, <aspect:terra> * 5]);
+mods.thaumcraft.Crucible.registerRecipe("Thaumiumfromaldourite", "METALLURGY", <thaumcraft:ingot>, <ore:ingotPurplegold>, [<aspect:praecantatio> * 5, <aspect:terra> * 5]);
 
 //Nitor
 mods.thaumcraft.Crucible.removeRecipe(<thaumcraft:nitor_yellow>);

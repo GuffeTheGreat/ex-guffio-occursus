@@ -1,0 +1,26 @@
+{
+	icon: "minecraft:iron_ingot",
+	x: -4.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "05892a8d",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "3f90087c",
+		type: "item",
+		items: [{
+			item: "alchemistry:ingot 1 29"
+		}]
+	},
+	{
+		uid: "8e0cb472",
+		type: "item",
+		items: [{
+			item: "pyrotech:anvil_iron_plated"
+		}]
+	}]
+}

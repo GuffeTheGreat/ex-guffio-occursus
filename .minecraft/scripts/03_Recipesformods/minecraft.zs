@@ -26,6 +26,15 @@ recipes.addShapedMirrored("1x_item_bucket_shaped", <minecraft:bucket>, [
 	[null, <ore:plateIron>, null]
 ]);
 
+//Anvil
+recipes.remove(<minecraft:anvil>);
+recipes.addShapedMirrored("1x_tile_anvil_intact_shaped", <minecraft:anvil>, [
+	[<ore:blockZorrasteel>, <ore:blockZorrasteel>, <ore:blockZorrasteel>],
+	[null, <ore:ingotZorrasteel>, null],
+	[<ore:ingotZorrasteel>, <ore:ingotZorrasteel>, <ore:ingotZorrasteel>]
+]);
+
+
 //Dispensor
 recipes.remove(<minecraft:dispenser>);
 recipes.addShapedMirrored("1x_tile_dispenser_shaped", <minecraft:dispenser>, [
@@ -56,10 +65,11 @@ recipes.remove(<minecraft:glowstone_dust>*4);
 //Piston
 recipes.remove(<minecraft:piston>);
 recipes.addShapedMirrored("1x_tile_pistonBase_shaped", <minecraft:piston>, [
-	[<pyrotech:material:5>, <ore:plankTreatedWood>, <pyrotech:material:5>],
-	[<ore:stone>, <crossroads:axle>, <ore:stone>],
-	[<ore:stone>, <thaumcraft:inlay>, <ore:stone>]
+	[<ore:plankWood>, <pyrotech:material:5>, <ore:plankWood>],
+	[<ore:cobblestone>, <crossroads:axle>, <ore:cobblestone>],
+	[<ore:cobblestone>, <thaumcraft:inlay>, <ore:cobblestone>]
 ]);
+
 
 //NewStickRecipe
 recipes.addShapedMirrored("4x_item_stick_shaped", <minecraft:stick> * 4, [
@@ -68,6 +78,7 @@ recipes.addShapedMirrored("4x_item_stick_shaped", <minecraft:stick> * 4, [
 ]);
 
 //Cauldron
+recipes.remove(<minecraft:cauldron>);
 recipes.addShapedMirrored("1x_item_cauldron_shaped", <minecraft:cauldron>, [
 	[<ore:plateIron>, null, <ore:plateIron>],
 	[<ore:plateIron>, null, <ore:plateIron>],
@@ -175,7 +186,7 @@ recipes.addShapedMirrored("1x_item_bootsCloth_shaped", <minecraft:leather_boots>
 recipes.remove(<minecraft:noteblock>);
 recipes.addShapedMirrored("1x_tile_musicBlock_shaped", <minecraft:noteblock>, [
 	[<ore:plankWood>, <pyrotech:material:20>, <ore:plankWood>],
-	[<ore:barsIron>, <thaumcraft:inlay>, <ore:barsIron>],
+	[<minecraft:iron_bars>, <thaumcraft:inlay>, <minecraft:iron_bars>],
 	[<ore:plankWood>, <pyrotech:material:20>, <ore:plankWood>]
 ]);
 
@@ -200,9 +211,17 @@ recipes.addShapedMirrored("6x_tile_rail_shaped", <minecraft:rail> * 6, [
 ]);
 
 
+//Shears
+recipes.remove(<minecraft:shears>);
+recipes.addShapedMirrored("1x_item_shears_shaped", <minecraft:shears>, [
+	[null, <ore:plateIron>],
+	[<ore:plateIron>, null]
+]);
 
 
 //GiantRecipeCleanup
+recipes.remove(<minecraft:reeds>);
+recipes.remove(<minecraft:glass>);
 recipes.remove(<minecraft:sand>);
 recipes.remove(<minecraft:web>);
 recipes.remove(<minecraft:grass>*4);
@@ -226,6 +245,9 @@ mods.pyrotech.BrickKiln.removeRecipes(<minecraft:cobblestone>);
 mods.pyrotech.StoneKiln.removeRecipes(<minecraft:cobblestone>);
 mods.bloodmagic.AlchemyTable.removeRecipe([<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:flint>,<minecraft:water_bucket>]);
 mods.crossroads.FusionBeam.removeRecipe(<minecraft:stone>,false);
+mods.crossroads.FusionBeam.removeRecipe(<minecraft:stone>,true);
+mods.crossroads.FusionBeam.removeRecipe(<minecraft:cobblestone>,false);
+mods.crossroads.FusionBeam.removeRecipe(<minecraft:stonebrick>,true);
 
 
 

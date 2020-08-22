@@ -10,5 +10,12 @@
 		items: [{
 			item: "thaumcraft:crucible"
 		}]
+	},
+	{
+		uid: "12c57fcd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
 	}]
 }

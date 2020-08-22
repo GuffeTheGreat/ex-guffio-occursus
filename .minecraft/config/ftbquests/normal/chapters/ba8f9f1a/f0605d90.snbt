@@ -1,0 +1,20 @@
+{
+	icon: "pyrotech:material 1 1",
+	x: -2.5d,
+	y: -6.5d,
+	dependencies: [
+		"dfe2cfbd"
+	],
+	tasks: [{
+		uid: "98133d44",
+		type: "item",
+		items: [{
+			item: "pyrotech:material 1 1"
+		}]
+	},
+	{
+		uid: "9bb86b7b",
+		type: "fluid",
+		fluid: "coal_tar"
+	}]
+}

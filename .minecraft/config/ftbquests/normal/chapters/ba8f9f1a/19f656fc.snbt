@@ -1,0 +1,24 @@
+{
+	title: "Heating Up!",
+	icon: "crossroads:steam_boiler",
+	x: -1.0d,
+	y: -6.0d,
+	dependencies: [
+		"fc8459d4"
+	],
+	tasks: [{
+		uid: "be677455",
+		type: "item",
+		items: [{
+			item: "crossroads:steam_boiler"
+		}]
+	},
+	{
+		uid: "ba72d93c",
+		type: "item",
+		items: [{
+			item: "crossroads:dust_salt"
+		}],
+		count: 8L
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"12ce363d"
+	],
+	tasks: [{
+		uid: "2c8c6f0d",
+		type: "item",
+		items: [{
+			item: "rats:marbled_cheese"
+		}]
+	}]
+}

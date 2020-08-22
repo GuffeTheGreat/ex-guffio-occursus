@@ -44,6 +44,8 @@ mods.immersiveengineering.Blueprint.addRecipe("blueprint", <modularmachinery:ite
 //CraftingComponentsRecipes
 mods.immersiveengineering.Blueprint.addRecipe("blueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:clay_forge"}), [<minecraft:paper>, <minecraft:paper>,<avaritia:resource:4>*16,<minecraft:paper>*8,<avaritia:block_resource:1>*3]);
 
+//ArcFurnaceRecipe
+mods.immersiveengineering.ArcFurnace.addRecipe(<avaritia:resource:1>, <ore:ingotIridium>*16, null, 2000, 1024000, [<avaritia:resource>*5, <ore:netherStar>*2,<ore:flawlessDilithium>], "Alloying");
 //Pressrecipes
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22>*2, <ore:ingotSilver>, <immersiveengineering:mold:4>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:20>*2, <ore:ingotBrass>, <immersiveengineering:mold:4>, 2000, 16);
@@ -56,7 +58,9 @@ mods.immersiveengineering.BottlingMachine.addRecipe(<pyrotech:material:3>, <ore:
 mods.immersiveengineering.BottlingMachine.addRecipe(<minecraft:sugar>, <ore:charcoalGrade>, <liquid:sugarcane_juice>*200);
 mods.immersiveengineering.BottlingMachine.addRecipe(<thaumcraft:quicksilver>, <ore:dustCinnabar>, <liquid:fluidedmana>*100);
 mods.immersiveengineering.BottlingMachine.addRecipe(<thaumcraft:nugget:9>*3, <crossroads:pure_quartz>, <liquid:fluidedmana>*50);
-mods.immersiveengineering.BottlingMachine.addRecipe(<thaumcraft:salis_mundus>, <ore:dustDiamond>, <liquid:fluidedmana>*250);
+mods.immersiveengineering.BottlingMachine.addRecipe(<thaumcraft:salis_mundus>, <thebetweenlands:items_crushed:45>, <liquid:fluidedmana>*250);
+mods.immersiveengineering.BottlingMachine.addRecipe(<thaumcraft:salis_mundus>, <thebetweenlands:items_crushed:28>, <liquid:fluidedmana>*250);
+mods.immersiveengineering.BottlingMachine.addRecipe(<thaumcraft:salis_mundus>, <thebetweenlands:items_crushed:32>, <liquid:fluidedmana>*250);
 mods.immersiveengineering.BottlingMachine.addRecipe(<pyrotech:material:25>, <ore:sugarcane>, <liquid:water>*125);
 mods.immersiveengineering.BottlingMachine.addRecipe(<pyrotech:material:25>, <pyrotech:rock:7>, <liquid:water>*125);
 mods.immersiveengineering.BottlingMachine.addRecipe(<pyrotech:material:30>, <pyrotech:material:29>, <liquid:wood_tar>*125);
@@ -84,17 +88,15 @@ recipes.addShapedMirrored("8x_tile_immersiveengineering_conveyor_immersiveengine
 ]);
 */
 
+//BlastBrick
 recipes.remove(<immersiveengineering:stone_decoration:1> * 3);
-recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_shapedXD", <immersiveengineering:stone_decoration:1> * 3, [
-	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>],
-	[<minecraft:nether_brick>, <silentgems:craftingmaterial:19>, <minecraft:nether_brick>],
-	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>]
-]);
 recipes.addShapedMirrored("3x_tile_immersiveengineering_stone_decoration_blastbrick_shaped", <immersiveengineering:stone_decoration:1> * 3, [
-	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>],
-	[<minecraft:nether_brick>, <ore:plateCrudeSteel>, <minecraft:nether_brick>],
-	[<botania:quartz:2>, <pyrotech:material:33>, <botania:quartz:2>]
+	[<pyrotech:material:5>, <prodigytech:tartaric_stoker>, <pyrotech:material:5>],
+	[<minecraft:netherbrick>, <minecraft:blaze_powder>, <minecraft:netherbrick>],
+	[<pyrotech:material:5>, <prodigytech:tartaric_stoker>, <pyrotech:material:5>]
 ]);
+
+
 
 //Cokeoven
 mods.immersiveengineering.CokeOven.removeAll();

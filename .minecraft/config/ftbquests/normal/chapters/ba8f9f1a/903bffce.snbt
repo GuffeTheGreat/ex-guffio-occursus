@@ -1,0 +1,22 @@
+{
+	icon: "efab:grid",
+	x: -0.5d,
+	y: -3.5d,
+	dependencies: [
+		"fc8459d4"
+	],
+	tasks: [{
+		uid: "44b1b618",
+		type: "item",
+		items: [{
+			item: "efab:grid"
+		}]
+	},
+	{
+		uid: "5113fb1c",
+		type: "item",
+		items: [{
+			item: "efab:tank"
+		}]
+	}]
+}

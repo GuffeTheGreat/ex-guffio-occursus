@@ -1,0 +1,23 @@
+{
+	icon: "crossroads:fat_collector",
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"fc8459d4"
+	],
+	tasks: [{
+		uid: "6675775a",
+		type: "item",
+		items: [{
+			item: "crossroads:fat_collector"
+		}]
+	},
+	{
+		uid: "b1b25460",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 52"
+		}],
+		count: 4L
+	}]
+}

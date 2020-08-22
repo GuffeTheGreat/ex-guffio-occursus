@@ -2,6 +2,6 @@
 	title: "Dont Worry The Purple Stuff is Fine",
 	icon: "thaumcraft:salis_mundus",
 	always_invisible: false,
-	group: 0,
+	group: -1154746674,
 	default_quest_shape: ""
 }

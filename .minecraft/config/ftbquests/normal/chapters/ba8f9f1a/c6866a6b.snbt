@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	dependencies: [
+		"e0683710"
+	],
+	tasks: [{
+		uid: "9a823e7f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 634"
+		}]
+	},
+	{
+		uid: "09fc12d4",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone"
+		}]
+	}]
+}

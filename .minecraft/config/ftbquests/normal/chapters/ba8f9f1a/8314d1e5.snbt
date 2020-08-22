@@ -1,0 +1,43 @@
+{
+	icon: "crossroads:heating_crucible",
+	x: -3.0d,
+	y: -4.0d,
+	dependencies: [
+		"b8e9ff69"
+	],
+	tasks: [{
+		uid: "b6a5fd86",
+		type: "item",
+		items: [{
+			item: "crossroads:heating_crucible"
+		}]
+	},
+	{
+		uid: "de7a74ac",
+		type: "item",
+		items: [{
+			item: "crossroads:coal_heater"
+		}]
+	},
+	{
+		uid: "a74f7c65",
+		type: "item",
+		items: [{
+			item: "crossroads:fluid_cooling_chamber"
+		}]
+	},
+	{
+		uid: "eecef0cc",
+		type: "item",
+		items: [{
+			item: "crossroads:fluid_tube"
+		}]
+	},
+	{
+		uid: "9aa74850",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_hopper"
+		}]
+	}]
+}

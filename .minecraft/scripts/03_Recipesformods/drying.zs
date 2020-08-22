@@ -9,6 +9,8 @@ DryingRack.removeAllRecipes();
 var counter = 0;
 
 var dryingRecipes as IItemStack[IItemStack] = {
+    <pyrotech:material:12> : <pyrotech:material:13>,
+    <thebetweenlands:swamp_reed_item> : <thebetweenlands:items_misc:6>,
     <pyrotech:material:25> : <minecraft:paper>,
     <thebetweenlands:items_misc:13> : <thebetweenlands:items_misc:32>,
     <minecraft:wheat> : <pyrotech:material:2>,

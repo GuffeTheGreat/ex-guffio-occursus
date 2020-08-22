@@ -414,9 +414,13 @@ digitalMinerRat.register();
 var primordialGoop as Item = VanillaFactory.createItem("primordialgoop");
 primordialGoop.register();
 
-#Mortar
-var mortar as Item = VanillaFactory.createItem("mortar");
-mortar.register();
+#BronzeCompound
+var bronze as Item = VanillaFactory.createItem("bronze_mix");
+bronze.register();
+
+#SolderingAlloyMix
+var soldering as Item = VanillaFactory.createItem("soldering_alloy_mix");
+soldering.register();
 
 //Microcraftingparts
 //Parts

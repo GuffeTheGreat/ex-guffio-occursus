@@ -55,8 +55,6 @@ recipes.addShapedMirrored("1x_item_tinker_hammer_shaped", <embers:tinker_hammer>
 	[null, <ore:stickWood>, null]
 ]);
 
-
-
 //AshenArmor
 recipes.remove(<embers:ashen_cloak_head>);
 recipes.remove(<embers:ashen_cloak_chest>);
@@ -170,7 +168,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("coppercell", "", 20, [<asp
 
 //Stamper
 recipes.remove(<embers:stamper_base>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("stamp_base", "", 20, [<aspect:ignis>*4, <aspect:terra>*2], <embers:stamper_base>, [[<thaumcraft:ingot>, null, <thaumcraft:ingot>],
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("stamp_base", "", 20, [<aspect:ignis>*4, <aspect:terra>*2], <embers:stamper_base>, [[<ore:ingotIron>, null, <ore:ingotIron>],
 	[<embers:block_caminite_brick>, <crossroads:fluid_cooling_chamber>, <embers:block_caminite_brick>]]);
 recipes.remove(<embers:stamper>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("stamper", "", 20, [<aspect:ignis>*6, <aspect:terra>*2], <embers:stamper>, [[<embers:brick_caminite>, <ore:plateAlchemicalBrass>, <embers:brick_caminite>],
@@ -179,7 +177,7 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("stamper", "", 20, [<aspect
 
 //Atmopsheric Gauge
 recipes.remove(<embers:ember_detector>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("gauge", "", 25, [<aspect:ignis>*8, <aspect:terra>*4], <embers:stamper>, [
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("gauge", "", 25, [<aspect:ignis>*8, <aspect:terra>*4], <embers:ember_detector>, [
 [<embers:dust_ember>, <ore:plateIron>, <embers:dust_ember>],
 	[<ore:plateAlchemicalBrass>, <ore:dustRedstone>, <ore:plateAlchemicalBrass>],
 	[<embers:dust_ember>, <ore:plateIron>, <embers:dust_ember>]]);
@@ -203,9 +201,10 @@ mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("exchangetablet", "", 50, [
 
 //AlchemyPedestal
 recipes.remove(<embers:alchemy_pedestal>);
-mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("exchangetablet", "", 10, [<aspect:ignis>*5, <aspect:terra>*4], <embers:alchemy_pedestal>, [[<ore:plateAlchemicalBrass>, null, <ore:plateAlchemicalBrass>],
+mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("exchangepdestal", "", 10, [<aspect:ignis>*5, <aspect:terra>*4], <embers:alchemy_pedestal>, [[<ore:plateAlchemicalBrass>, null, <ore:plateAlchemicalBrass>],
 	[<thaumcraft:ingot:2>, <embers:crystal_ember>, <thaumcraft:ingot:2>],
 	[<embers:stairs_caminite_brick>, <thaumcraft:amber_block>, <embers:stairs_caminite_brick>]]);
+
 //Beamcannon
 recipes.remove(<embers:beam_cannon>);
 mods.thaumcraft.ArcaneWorkbench.registerShapedRecipe("beamcannon", "", 40, [<aspect:ignis>*8, <aspect:terra>*4], <embers:beam_cannon>, [[<ore:plateAlchemicalBrass>, <embers:crystal_ember>, <ore:plateAlchemicalBrass>],

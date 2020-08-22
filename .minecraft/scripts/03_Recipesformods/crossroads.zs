@@ -61,17 +61,38 @@ recipes.addShapedMirrored("1x_tile_water_centrifuge_shaped", <crossroads:water_c
 recipes.remove(<crossroads:coal_heater>);
 recipes.addShapedMirrored("1x_tile_coal_heater_shaped", <crossroads:coal_heater>, [
 	[<pyrotech:material:16>, <ore:plateCopper>, <pyrotech:material:16>],
-	[<ore:plateIron>, <pyrotech:stone_kiln>, <ore:plateIron>],
-	[<pyrotech:material:16>, <pyrotech:material:16>, <pyrotech:material:16>]
+	[<ore:plateIron>, null, <ore:plateIron>],
+	[<pyrotech:stone_bricks>, <pyrotech:stone_bricks>, <pyrotech:stone_bricks>]
 ]);
+
+//Crossroads
+recipes.remove(<crossroads:steam_boiler>);
+recipes.addShapedMirrored("1x_tile_steam_boiler_shaped", <crossroads:steam_boiler>, [
+	[<ore:boltBronze>, <ore:plateBronze>, <ore:boltBronze>],
+	[<ore:plateBronze>, <pyrotech:tank>, <ore:plateBronze>],
+	[<ore:boltBronze>, <ore:plateCopper>, <ore:boltBronze>]
+]);
+
+//FatCollector
+recipes.remove(<crossroads:fat_collector>);
+recipes.addShapedMirrored("1x_tile_fat_collector_shaped", <crossroads:fat_collector>, [
+	[<ore:boltTin>, <crossroads:heating_crucible>, <ore:boltTin>],
+	[<ore:plateTin>, <pyrotech:tank>, <ore:plateTin>],
+	[<ore:boltTin>, <ore:plateCopper>, <ore:boltTin>]
+]);
+
+
+
 
 //Fluidtube
 recipes.remove(<crossroads:fluid_tube>*8);
-recipes.addShapedMirrored("12x_tile_fluid_tube_shaped", <crossroads:fluid_tube> * 12, [
-	[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>],
+recipes.addShapedMirrored("10x_tile_fluid_tube_shaped", <crossroads:fluid_tube> * 8, [
+	[<ore:plateCopper>, <pyrotech:material:5>, <ore:plateCopper>],
 	[null, null, null],
-	[<ore:plateBronze>, <ore:plateBronze>, <ore:plateBronze>]
+	[<ore:plateCopper>, <pyrotech:material:5>, <ore:plateCopper>]
 ]);
+
+
 
 //HeatingChamber
 recipes.remove(<crossroads:heating_chamber>);
@@ -171,7 +192,9 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("guffe:shaped/internal/altar/i
 			<crossroads:pure_quartz>, <crossroads:pure_quartz>, <crossroads:pure_quartz>, <crossroads:pure_quartz>]);
 
 
-
-
-
+//NewStoneFusionBeams
+mods.crossroads.FusionBeam.addRecipe(<minecraft:stone>,1,<thaumicaugmentation:stone>,false);
+mods.crossroads.FusionBeam.addRecipe(<minecraft:stone>,1,<thebetweenlands:limestone>,true);
+mods.crossroads.FusionBeam.addRecipe(<thebetweenlands:limestone>,4,<minecraft:stone>,false);
+mods.crossroads.FusionBeam.addRecipe(<thaumicaugmentation:stone>,4,<minecraft:stone>,true);
 

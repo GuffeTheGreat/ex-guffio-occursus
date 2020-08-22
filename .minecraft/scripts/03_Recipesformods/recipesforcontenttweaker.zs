@@ -1,5 +1,6 @@
 import mods.pyrotech.StoneKiln;
 import mods.pyrotech.BrickKiln;
+import mods.pyrotech.Bloomery;
 import mods.efabct.EFabRecipe;
 
 
@@ -88,14 +89,17 @@ recipes.addShapedMirrored("1x_tile_contenttweaker_case_astrium_shaped", <content
 	[<ore:plateFerramic>, null, <ore:plateFerramic>],
 	[<ore:plateFerramic>, <ore:plateFerramic>, <ore:plateFerramic>]
 ]);
+/*
+//AlloyMixes
+//SolderingAlloy
+recipes.addShapeless("1x_item_contenttweaker_soldering_alloy_mix_shapeless", <contenttweaker:soldering_alloy_mix>, [<ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustTin>, <ore:dustAntimony>]);
+Bloomery.createBloomeryBuilder("solderingalloy",<materialpart:soldering_alloy:clump>,<contenttweaker:soldering_alloy_mix>,true);
+//Bronze
+recipes.addShapeless("1x_item_contenttweaker_bronze_mix_shapeless", <contenttweaker:bronze_mix>, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>]);
+Bloomery.createBloomeryBuilder("bronze",<materialpart:bronze:clump>,<contenttweaker:bronze_mix>,true);
 
-//DryIce
-mods.embers.Melter.add(<liquid:carbondioxide>*144,<contenttweaker:dry_ice>);
-mods.nuclearcraft.Melter.addRecipe(<contenttweaker:dry_ice>, <liquid:carbondioxide>*144);
-mods.crossroads.HeatingCrucible.addRecipe(<contenttweaker:dry_ice>, <liquid:carbondioxide>*144,"tile.iceandfire.dragon_ice");
-mods.crossroads.FluidCoolingChamber.addRecipe(<contenttweaker:dry_ice>,<liquid:carbondioxide> * 144,-79,5);
-//mods.nuclearcraft.IngotFormer.addRecipe(ILiquidStack fluidInput, IIngredient itemOutput);
-
+*/
+//<materialpart:angmallen:plate>
 
 
 

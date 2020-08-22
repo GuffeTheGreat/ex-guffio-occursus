@@ -1,0 +1,29 @@
+{
+	icon: "thaumcraft:centrifuge",
+	x: 0.5d,
+	y: 5.5d,
+	dependencies: [
+		"a46775cb"
+	],
+	tasks: [{
+		uid: "d148e1b4",
+		type: "item",
+		items: [{
+			item: "thaumcraft:centrifuge"
+		}]
+	},
+	{
+		uid: "42d2c699",
+		type: "item",
+		items: [{
+			id: "thaumcraft:phial",
+			tag: {
+				Aspects: [{
+					amount: 10,
+					key: "caeles"
+				}]
+			},
+			Damage: 1s
+		}]
+	}]
+}

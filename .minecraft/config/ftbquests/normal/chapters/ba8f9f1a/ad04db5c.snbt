@@ -1,0 +1,25 @@
+{
+	icon: "prodigytech:explosion_furnace",
+	x: 0.5d,
+	y: -6.5d,
+	dependencies: [
+		"f0605d90",
+		"1ad62576",
+		"19f656fc",
+		"c740241a"
+	],
+	tasks: [{
+		uid: "77563a14",
+		type: "item",
+		items: [{
+			item: "prodigytech:explosion_furnace"
+		}]
+	},
+	{
+		uid: "1875de58",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 2184"
+		}]
+	}]
+}

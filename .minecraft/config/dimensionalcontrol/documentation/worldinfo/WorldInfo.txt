@@ -39,12 +39,6 @@ setDifficulty:
     Notes:
         Sets the difficulty. Options are "Peaceful", "Easy", "Normal", "Hard".
 
-setMapFeaturesEnabled:
-    Arguments:
-        Boolean
-    Notes:
-        Sets if map features are enabled.
-
 setGeneratorOptions:
     Arguments:
         String
@@ -52,6 +46,12 @@ setGeneratorOptions:
         vanilla generation options string
     Notes:
         Sets the generator options string. This is the string used by the vanilla Customized world type for customizing the world.
+
+setMapFeaturesEnabled:
+    Arguments:
+        Boolean
+    Notes:
+        Sets if map features are enabled.
 
 setCommandsAllowed:
     Arguments:

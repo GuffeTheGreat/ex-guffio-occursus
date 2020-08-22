@@ -1,0 +1,37 @@
+{
+	x: -2.5d,
+	y: -5.5d,
+	dependencies: [
+		"fc8459d4"
+	],
+	tasks: [{
+		uid: "b58f1ade",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_compacting_bin"
+		}]
+	},
+	{
+		uid: "402f568d",
+		type: "item",
+		items: [{
+			item: "pyrotech:mechanical_bellows"
+		}]
+	}],
+	rewards: [{
+		uid: "4f5ed727",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6106378302476884828L,
+					AS_Amulet_HolderMost: 4863570407252250259L
+				}
+			},
+			id: "pyrotech:cog_bone",
+			tag: {
+				Unbreakable: 1
+			}
+		}
+	}]
+}

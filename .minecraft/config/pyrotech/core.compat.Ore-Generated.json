@@ -56,6 +56,7 @@
         "nuclearcraft:tile.nuclearcraft.ore.copper"
       ],
       "output": [
+        "contenttweaker:material_part:2175",
         "embers:nugget_copper:0",
         "immersiveengineering:metal:20",
         "libvulpes:productnugget:4",

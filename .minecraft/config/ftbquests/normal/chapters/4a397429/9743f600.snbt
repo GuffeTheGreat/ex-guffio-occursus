@@ -1,4 +1,5 @@
 {
+	icon: "embers:stamper_base",
 	x: 0.0d,
 	y: 0.0d,
 	dependencies: [

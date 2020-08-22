@@ -5,12 +5,12 @@
 #PotassiumCyanide
 mods.nuclearcraft.ChemicalReactor.addRecipe(<liquid:hydrogen_cyanide>*1000, <liquid:potassium_hydroxide_solution>*1000, <liquid:potassium_cyanide_solution>*1000, <liquid:water>*1000);
 //MixerRecipes
-#HydrogenSulfide
-mods.immersiveengineering.Mixer.addRecipe(<liquid:hydrogen_sulfide>*3000, <liquid:hydrogen>*2000, [<ore:dustSulfur>], 5000);
 #CalciumAcetateSolution
 mods.immersiveengineering.Mixer.addRecipe(<liquid:calcium_acetate_solution>*3000, <liquid:aceticacid>*2000, [<ore:dustCalcite>], 5000);
 
 //ARChemicalReactor
+//HydrogenSulfide
+mods.advancedrocketry.ChemicalReactor.addRecipe(<liquid:hydrogen_sulfide>*3000, 80, 100, <liquid:hydrogen>*2000, <liquid:sulfur>*1000);
 //SulfuricAcid
 mods.advancedrocketry.ChemicalReactor.addRecipe(<liquid:sulfuric_acid>*7000, 80, 100, <liquid:oxygen>*4000, <liquid:hydrogen_sulfide>*3000);
 //CarbonicAcid
