@@ -6,6 +6,7 @@ import mods.cuisine.Mill;
 
 var mortarRecipes as IItemStack[IItemStack] = {
 	<embers:crystal_ember> : <embers:dust_ember>,
+	<minecraft:brick> : <materialpart:brick:dust>,
 	<cuisine:crops:5> : <cuisine:material:4>,
 	<cuisine:crops:8> : <cuisine:material:5>,
 	<minecraft:wheat> : <cuisine:food:1>,

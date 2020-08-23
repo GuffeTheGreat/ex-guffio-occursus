@@ -19,12 +19,6 @@ setWorldType:
     Notes:
         Sets the world type.
 
-setRaining:
-    Arguments:
-        Boolean
-    Notes:
-        Sets permanent raining.
-
 setDifficulty:
     Arguments:
         String
@@ -38,6 +32,12 @@ setThundering:
         Boolean
     Notes:
         Sets permanent thundering.
+
+setRaining:
+    Arguments:
+        Boolean
+    Notes:
+        Sets permanent raining.
 
 setMapFeaturesEnabled:
     Arguments:

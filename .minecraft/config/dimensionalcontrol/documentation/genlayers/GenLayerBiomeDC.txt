@@ -11,14 +11,6 @@ Constructor:
     Notes:
         Constructs the layer with its seed and parent layer.
 
-setSpecialBiome:
-    Arguments:
-        String, Non_Null_Biome_ID
-    Usage:
-        biome type, biome ID
-    Notes:
-        Sets the special biome for the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
-
 addBiome:
     Arguments:
         String, Non_Null_Biome_ID, int
@@ -34,14 +26,6 @@ addBiome:
         biome type, biome ID
     Notes:
         Adds the provided biome id to the provided type with a weight of 1. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
-
-setSpecialVariantBiome:
-    Arguments:
-        String, Non_Null_Biome_ID
-    Usage:
-        biome type, biome ID
-    Notes:
-        Sets the special variant biome for the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
 
 setSpecialVariantChance:
     Arguments:
@@ -59,9 +43,29 @@ setSpecialVariantChance:
     Notes:
         Sets the global chance for the special variant biome to be used. This will set the chance for all types. Set this before you set specific ones or it will overwrite. The chance is 1 in the provided number.
 
-fillWithVanillaBiomes:
+setSpecialVariantBiome:
+    Arguments:
+        String, Non_Null_Biome_ID
+    Usage:
+        biome type, biome ID
     Notes:
-        Fills all BiomeEntry lists with the entries they would contain in vanilla.
+        Sets the special variant biome for the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
+
+removeEntriesForBiome:
+    Arguments:
+        String, Non_Null_Biome_ID
+    Usage:
+        biome type, biome ID
+    Notes:
+        Removes any entries with the provided biome entry from the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
+
+removeEntriesForBiome:
+    Arguments:
+        String, Non_Null_Biome_ID
+    Usage:
+        biome type, biome ID
+    Notes:
+        Removes any entries with the provided biome entry from the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
 
 fillWithVanillaBiomes:
     Arguments:
@@ -71,19 +75,15 @@ fillWithVanillaBiomes:
     Notes:
         Fills the BiomeEntry list for the provided type with the entries it would contain in vanilla. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
 
-removeEntriesForBiome:
-    Arguments:
-        String, Non_Null_Biome_ID
-    Usage:
-        biome type, biome ID
+fillWithVanillaBiomes:
     Notes:
-        Removes any entries with the provided biome entry from the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
+        Fills all BiomeEntry lists with the entries they would contain in vanilla.
 
-removeEntriesForBiome:
+setSpecialBiome:
     Arguments:
         String, Non_Null_Biome_ID
     Usage:
         biome type, biome ID
     Notes:
-        Removes any entries with the provided biome entry from the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy"
+        Sets the special biome for the provided type. Type options are "Ocean", "Desert", "Warm", "Cool", "Icy".
 

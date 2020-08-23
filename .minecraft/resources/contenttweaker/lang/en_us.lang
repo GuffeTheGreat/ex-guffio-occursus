@@ -120,6 +120,60 @@ item.contenttweaker.absurdfield_generator.name=Absurd Field Generator
 item.contenttweaker.divinefield_generator.name=Divine Field Generator
 item.contenttweaker.transcendentfield_generator.name=Transcendent Field Generators
 
+item.contenttweaker.asoc_plate.name=ASoC
+item.contenttweaker.circuit_plate.name=Integrated Logic Circuit
+item.contenttweaker.cpu_plate.name=Central Processing Unit
+item.contenttweaker.hpic_plate.name=High Power IC
+item.contenttweaker.nand_plate.name=NAND Memory Chip
+item.contenttweaker.nanocpu_plate.name=Nanocomponent Central Processing Unit
+item.contenttweaker.nor_plate.name=NOR Memory Chip
+item.contenttweaker.pic_plate.name=Power IC
+item.contenttweaker.qbit_plate.name=QBit Processing Unit
+item.contenttweaker.soc_plate.name=SoC
+item.contenttweaker.ram_plate.name=Random Access Memory Chip
+
+item.contenttweaker.asoc_wafer.name=ASoC Wafer
+item.contenttweaker.circuit_wafer.name=Integrated Logic Circuit Wafer
+item.contenttweaker.cpu_wafer.name=Central Processing Unit Wafer
+item.contenttweaker.hpic_wafer.name=HPIC Wafer
+item.contenttweaker.nand_wafer.name=NAND Memory Chip Wafer
+item.contenttweaker.nanocpu_wafer.name=NanoCPU Wafer
+item.contenttweaker.nor_wafer.name=NOR Memory Chip Wafer
+item.contenttweaker.pic_wafer.name=PIC Wafer
+item.contenttweaker.qbit_wafer.name=QBit Wafer
+item.contenttweaker.soc_wafer.name=SoC Wafer
+item.contenttweaker.ram_wafer.name=Random Access Memory Chip Wafer
+
+item.contenttweaker.electronic_diode.name=Electronic Diode
+item.contenttweaker.refined_diode.name=Refined Diode
+item.contenttweaker.micro_diode.name=Micro Diode
+item.contenttweaker.nano_diode.name=Nano Diode
+item.contenttweaker.quantum_diode.name=Quantum Diode
+item.contenttweaker.crystal_diode.name=Crystal Diode
+item.contenttweaker.wetware_diode.name=Wetware Diode
+
+item.contenttweaker.electronic_resistor.name=Electronic Resistor
+item.contenttweaker.refined_resistor.name=Refined Resistor
+item.contenttweaker.micro_resistor.name=Micro Resistor
+item.contenttweaker.nano_resistor.name=Nano Resistor
+item.contenttweaker.quantum_resistor.name=Quantum Resistor
+item.contenttweaker.crystal_resistor.name=Crystal Resistor
+item.contenttweaker.wetware_resistor.name=Wetware Resistor
+
+item.contenttweaker.refined_capacitator.name=Refined Capacitator
+item.contenttweaker.micro_capacitator.name=Micro Capacitator
+item.contenttweaker.nano_capacitator.name=Nano Capacitator
+item.contenttweaker.quantum_capacitator.name=Quantum Capacitator
+item.contenttweaker.crystal_capacitator.name=Crystal Capacitator
+item.contenttweaker.wetware_capacitator.name=Wetware Capacitator
+
+item.contenttweaker.refined_transistor.name=Refined Transistor
+item.contenttweaker.micro_transistor.name=Micro Transistor
+item.contenttweaker.nano_transistor.name=Nano Transistor
+item.contenttweaker.quantum_transistor.name=Quantum Transistor
+item.contenttweaker.crystal_transistor.name=Crystal Transistor
+item.contenttweaker.wetware_transistor.name=Wetware Transistor
+
 item.contenttweaker.lignite.name=Lignite
 item.contenttweaker.hemp_cloth.name=Hemp Cloth
 item.contenttweaker.bone_stock.name=Bone Stock

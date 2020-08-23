@@ -12,6 +12,14 @@ addTiledTexture:
     Notes:
         Adds a tiled texture. Documentation can be found in documentation/gui/guiElements/Tiled_Texture.txt
 
+addStretchedTexture:
+    Arguments:
+        String, String
+    Usage:
+        anchor point, texture location
+    Notes:
+        Adds a stretched texture. Documentation can be found in documentation/gui/guiElements/Stretched_Texture.txt
+
 addAnimatedTexture:
     Arguments:
         String, String
@@ -27,12 +35,4 @@ addText:
         anchor point, text
     Notes:
         Adds a text string. Documentation can be found in documentation/gui/guiElements/Text.txt
-
-addStretchedTexture:
-    Arguments:
-        String, String
-    Usage:
-        anchor point, texture location
-    Notes:
-        Adds a stretched texture. Documentation can be found in documentation/gui/guiElements/Stretched_Texture.txt
 

@@ -350,13 +350,391 @@ purificationfluid.register();
 
 
 //ITEMS-----------------------------
+//BOARD-------------------------------------------
+#basic_board
+var basic_board as Item = VanillaFactory.createItem("basic_board");
+basic_board.register();
+
+#intermediate_board
+var intermediate_board as Item = VanillaFactory.createItem("intermediate_board");
+intermediate_board.register();
+
+#advanced_board
+var advanced_board as Item = VanillaFactory.createItem("advanced_board");
+advanced_board.register();
+
+#elite_board
+var elite_board as Item = VanillaFactory.createItem("elite_board");
+elite_board.register();
+
+#insane_board
+var insane_board as Item = VanillaFactory.createItem("insane_board");
+insane_board.register();
+
+#ludicrous_board
+var ludicrous_board as Item = VanillaFactory.createItem("ludicrous_board");
+ludicrous_board.register();
+
+#absurd_board
+var absurd_board as Item = VanillaFactory.createItem("absurd_board");
+absurd_board.register();
+
+#divine_board
+var divine_board as Item = VanillaFactory.createItem("divine_board");
+divine_board.register();
+
+#phenolic_board
+var phenolic_board as Item = VanillaFactory.createItem("phenolic_board");
+phenolic_board.register();
+
+#coated_board
+var coated_board as Item = VanillaFactory.createItem("coated_board");
+coated_board.register();
+
+#plastic_board
+var plastic_board as Item = VanillaFactory.createItem("plastic_board");
+plastic_board.register();
+
+#epoxy_board
+var epoxy_board as Item = VanillaFactory.createItem("epoxy_board");
+epoxy_board.register();
+
+#fiber_reinforced_board
+var fiber_reinforced_board as Item = VanillaFactory.createItem("fiber_reinforced_board");
+fiber_reinforced_board.register();
+
+#multi_fiber_reinforced_board
+var multi_fiber_reinforced_board as Item = VanillaFactory.createItem("multi_fiber_reinforced_board");
+multi_fiber_reinforced_board.register();
+
+#wetware_board
+var wetware_board as Item = VanillaFactory.createItem("wetware_board");
+wetware_board.register();
+
+#radox_board
+var radox_board as Item = VanillaFactory.createItem("radox_board");
+radox_board.register();
+//PROCESSORS-------------------------------------------
+#primitive_processor
+var primitive_processor as Item = VanillaFactory.createItem("primitive_processor");
+primitive_processor.register();
+
+#electronic_processor
+var electronicProcessor as Item = VanillaFactory.createItem("electronic_processor");
+electronicProcessor.register();
+
+#refined_processor
+var refined_processor as Item = VanillaFactory.createItem("refined_processor");
+refined_processor.register();
+
+#micro_processor
+var micro_processor as Item = VanillaFactory.createItem("micro_processor");
+micro_processor.register();
+
+#nano_processor
+var nano_processor as Item = VanillaFactory.createItem("nano_processor");
+nano_processor.register();
+
+#quantum_processor
+var quantum_processor as Item = VanillaFactory.createItem("quantum_processor");
+quantum_processor.register();
+
+#crystal_processor
+var crystal_processor as Item = VanillaFactory.createItem("crystal_processor");
+crystal_processor.register();
+
+#wetware_processor
+var wetware_processor as Item = VanillaFactory.createItem("wetware_processor");
+wetware_processor.register();
+//ASSEMBLYS-------------------------------------------
+#primitive_assembly
+var primitive_assembly as Item = VanillaFactory.createItem("primitive_assembly");
+primitive_assembly.register();
+
+#electronic_assembly
+var electronic_assembly as Item = VanillaFactory.createItem("electronic_assembly");
+electronic_assembly.register();
+
+#refined_assembly
+var refined_assembly as Item = VanillaFactory.createItem("refined_assembly");
+refined_assembly.register();
+
+#micro_assembly
+var micro_assembly as Item = VanillaFactory.createItem("micro_assembly");
+micro_assembly.register();
+
+#nano_assembly
+var nano_assembly as Item = VanillaFactory.createItem("nano_assembly");
+nano_assembly.register();
+
+#quantum_assembly
+var quantum_assembly as Item = VanillaFactory.createItem("quantum_assembly");
+quantum_assembly.register();
+
+#crystal assembly
+var crystal_assembly as Item = VanillaFactory.createItem("crystal_assembly");
+crystal_assembly.register();
+
+#wetware_assembly
+var wetware_assembly as Item = VanillaFactory.createItem("wetware_assembly");
+wetware_assembly.register();
+//COMPUTERS-------------------------------------------
+#electronic_computer
+var electronic_computer as Item = VanillaFactory.createItem("electronic_computer");
+electronic_computer.register();
+
+#refined_computer
+var refined_computer as Item = VanillaFactory.createItem("refined_computer");
+refined_computer.register();
+
+#micro_computer
+var micro_computer as Item = VanillaFactory.createItem("micro_computer");
+micro_computer.register();
+
+#nano_computer
+var nano_computer as Item = VanillaFactory.createItem("nano_computer");
+nano_computer.register();
+
+#quantum_computer
+var quantum_computer as Item = VanillaFactory.createItem("quantum_computer");
+quantum_computer.register();
+
+#crystal computer
+var crystal_computer as Item = VanillaFactory.createItem("crystal_computer");
+crystal_computer.register();
+
+#wetware_computer
+var wetware_computer as Item = VanillaFactory.createItem("wetware_computer");
+wetware_computer.register();
+//MAINFRAMES-------------------------------------------
+#refined_mainframe
+var refined_mainframe as Item = VanillaFactory.createItem("refined_mainframe");
+refined_mainframe.register();
+
+#micro_mainframe
+var micro_mainframe as Item = VanillaFactory.createItem("micro_mainframe");
+micro_mainframe.register();
+
+#nano_mainframe
+var nano_mainframe as Item = VanillaFactory.createItem("nano_mainframe");
+nano_mainframe.register();
+
+#quantum_mainframe
+var quantum_mainframe as Item = VanillaFactory.createItem("quantum_mainframe");
+quantum_mainframe.register();
+
+#crystal mainframe
+var crystal_mainframe as Item = VanillaFactory.createItem("crystal_mainframe");
+crystal_mainframe.register();
+
+#wetware_mainframe
+var wetware_mainframe as Item = VanillaFactory.createItem("wetware_mainframe");
+wetware_mainframe.register();
+//DIODES-------------------------------------------
+#electronic_diode
+var electronic_diode as Item = VanillaFactory.createItem("electronic_diode");
+electronic_diode.register();
+
+#refined_diode
+var refined_diode as Item = VanillaFactory.createItem("refined_diode");
+refined_diode.register();
+
+#micro_diode
+var micro_diode as Item = VanillaFactory.createItem("micro_diode");
+micro_diode.register();
+
+#nano_diode
+var nano_diode as Item = VanillaFactory.createItem("nano_diode");
+nano_diode.register();
+
+#quantum_diode
+var quantum_diode as Item = VanillaFactory.createItem("quantum_diode");
+quantum_diode.register();
+
+#crystal diode
+var crystal_diode as Item = VanillaFactory.createItem("crystal_diode");
+crystal_diode.register();
+
+#wetware_diode
+var wetware_diode as Item = VanillaFactory.createItem("wetware_diode");
+wetware_diode.register();
+//CAPACITATORS-------------------------------------------
+
+#refined_capacitator
+var refined_capacitator as Item = VanillaFactory.createItem("refined_capacitator");
+refined_capacitator.register();
+
+#micro_acapacitator
+var micro_capacitator as Item = VanillaFactory.createItem("micro_capacitator");
+micro_capacitator.register();
+
+#nano_capacitator
+var nano_capacitator as Item = VanillaFactory.createItem("nano_capacitator");
+nano_capacitator.register();
+
+#quantum_capacitator
+var quantum_capacitator as Item = VanillaFactory.createItem("quantum_capacitator");
+quantum_capacitator.register();
+
+#crystal capacitator
+var crystal_capacitator as Item = VanillaFactory.createItem("crystal_capacitator");
+crystal_capacitator.register();
+
+#wetware_capacitator
+var wetware_capacitator as Item = VanillaFactory.createItem("wetware_capacitator");
+wetware_capacitator.register();
+//TRANSISTORS-------------------------------------------
+
+#refined_transistor
+var refined_transistor as Item = VanillaFactory.createItem("refined_transistor");
+refined_transistor.register();
+
+#micro_transistor
+var micro_transistor as Item = VanillaFactory.createItem("micro_transistor");
+micro_transistor.register();
+
+#nano_transistor
+var nano_transistor as Item = VanillaFactory.createItem("nano_transistor");
+nano_transistor.register();
+
+#quantum_transistor
+var quantum_transistor as Item = VanillaFactory.createItem("quantum_transistor");
+quantum_transistor.register();
+
+#crystal atransistor
+var crystal_transistor as Item = VanillaFactory.createItem("crystal_transistor");
+crystal_transistor.register();
+
+#wetware_transistor
+var wetware_transistor as Item = VanillaFactory.createItem("wetware_transistor");
+wetware_transistor.register();
+//RESISTOR-------------------------------------------
+#resistor
+var resistor as Item = VanillaFactory.createItem("resistor");
+resistor.register();
+
+#refined_resistor
+var refined_resistor as Item = VanillaFactory.createItem("refined_resistor");
+refined_resistor.register();
+
+#micro_resistor
+var micro_resistor as Item = VanillaFactory.createItem("micro_resistor");
+micro_resistor.register();
+
+#nano_resistor
+var nano_resistor as Item = VanillaFactory.createItem("nano_resistor");
+nano_resistor.register();
+
+#quantum_resistor
+var quantum_resistor as Item = VanillaFactory.createItem("quantum_resistor");
+quantum_resistor.register();
+
+#crystal resistor
+var crystal_resistor as Item = VanillaFactory.createItem("crystal_resistor");
+crystal_resistor.register();
+
+#wetware_resistor
+var wetware_resistor as Item = VanillaFactory.createItem("wetware_resistor");
+wetware_resistor.register();
+
+//bouleandwafer-------------------------------------------
+#glowstoneBoule
+var glowstoneBoule as Item = VanillaFactory.createItem("glowstone_boule");
+glowstoneBoule.register();
+#naquadahBoule
+var naquadahBoule as Item = VanillaFactory.createItem("naquadah_boule");
+naquadahBoule.register();
+#europiumBoule
+var europiumBoule as Item = VanillaFactory.createItem("europium_boule");
+europiumBoule.register();
+#americiumBoule
+var americiumBoule as Item = VanillaFactory.createItem("americium_boule");
+americiumBoule.register();
+#glowstoneWafer
+var glowstoneWafer as Item = VanillaFactory.createItem("glowstone_wafer");
+glowstoneWafer.register();
+#naquadahWafer
+var naquadahWafer as Item = VanillaFactory.createItem("naquadah_wafer");
+naquadahWafer.register();
+#europiumWafer
+var europiumWafer as Item = VanillaFactory.createItem("europium_wafer");
+europiumWafer.register();
+#americiumWafer
+var americiumWafer as Item = VanillaFactory.createItem("americium_wafer");
+americiumWafer.register();
+
+//engravedlasers-------------------------------------------
+#asocWafer
+var asocplate as Item = VanillaFactory.createItem("asoc_plate");
+asocplate.register();
+#circuitWafer
+var circuitplate as Item = VanillaFactory.createItem("circuit_plate");
+circuitplate.register();
+#cpuWafer
+var cpuplate as Item = VanillaFactory.createItem("cpu_plate");
+cpuplate.register();
+#hpicWafer
+var hpicplate as Item = VanillaFactory.createItem("hpic_plate");
+hpicplate.register();
+#ramWafer
+var nandplate as Item = VanillaFactory.createItem("nand_plate");
+nandplate.register();
+#ramWafer
+var nanocpuplate as Item = VanillaFactory.createItem("nanocpu_plate");
+nanocpuplate.register();
+#ramWafer
+var norplate as Item = VanillaFactory.createItem("nor_plate");
+norplate.register();
+#ramWafer
+var picplate as Item = VanillaFactory.createItem("pic_plate");
+picplate.register();
+#ramWafer
+var qbitplate as Item = VanillaFactory.createItem("qbit_plate");
+qbitplate.register();
+#ramWafer
+var socplate as Item = VanillaFactory.createItem("soc_plate");
+socplate.register();
+#ramWafer
+var ramplate as Item = VanillaFactory.createItem("ram_plate");
+ramplate.register();
+#asocWafer
+var asocWafer as Item = VanillaFactory.createItem("asoc_wafer");
+asocWafer.register();
+#circuitWafer
+var circuitWafer as Item = VanillaFactory.createItem("circuit_wafer");
+circuitWafer.register();
+#cpuWafer
+var cpuWafer as Item = VanillaFactory.createItem("cpu_wafer");
+cpuWafer.register();
+#hpicWafer
+var hpicWafer as Item = VanillaFactory.createItem("hpic_wafer");
+hpicWafer.register();
+#ramWafer
+var nandWafer as Item = VanillaFactory.createItem("nand_wafer");
+nandWafer.register();
+#ramWafer
+var nanocpuWafer as Item = VanillaFactory.createItem("nanocpu_wafer");
+nanocpuWafer.register();
+#ramWafer
+var norWafer as Item = VanillaFactory.createItem("nor_wafer");
+norWafer.register();
+#ramWafer
+var picWafer as Item = VanillaFactory.createItem("pic_wafer");
+picWafer.register();
+#ramWafer
+var qbitWafer as Item = VanillaFactory.createItem("qbit_wafer");
+qbitWafer.register();
+#ramWafer
+var socWafer as Item = VanillaFactory.createItem("soc_wafer");
+socWafer.register();
+#ramWafer
+var ramWafer as Item = VanillaFactory.createItem("ram_wafer");
+ramWafer.register();
+
+//OTHERSTUFF-------------------------------------------
 #Carbonfirbres
 var carbonFibres as Item = VanillaFactory.createItem("carbon_fibres");
 carbonFibres.register();
-
-#Carbonmesh
-var carbonMesh as Item = VanillaFactory.createItem("carbon_mesh");
-carbonMesh.register();
 
 #lignite
 var lignite as Item = VanillaFactory.createItem("lignite");

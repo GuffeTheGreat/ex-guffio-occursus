@@ -10,6 +10,30 @@ setFeature:
     Notes:
         Sets the feature id. Used for things like structures.
 
+setBiome:
+    Arguments:
+        Non_Null_Biome_ID
+    Usage:
+        biome id
+    Notes:
+        Sets the biome id. Can be an int or String.
+
+setYMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max Y coordinates.
+
+setXMin:
+    Arguments:
+        float
+    Usage:
+        min
+    Notes:
+        Sets the min X coordinate.
+
 setYMin:
     Arguments:
         float
@@ -26,53 +50,13 @@ setDimensionType:
     Notes:
         Sets the dimension type. Vanilla options are "overworld", "the_nether", "the_end"
 
-setXMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min X coordinate.
-
-setXMax:
+setYMax:
     Arguments:
         float
     Usage:
         max
     Notes:
-        Sets the max X coordinate.
-
-setXMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max X coordinates.
-
-setYMinMax:
-    Arguments:
-        float, float
-    Usage:
-        min, max
-    Notes:
-        Sets the min and max Y coordinates.
-
-setZMax:
-    Arguments:
-        float
-    Usage:
-        max
-    Notes:
-        Sets the max Z coordinate.
-
-setZMin:
-    Arguments:
-        float
-    Usage:
-        min
-    Notes:
-        Sets the min Z coordinate.
+        Sets the max Y coordinate.
 
 setZMinMax:
     Arguments:
@@ -82,19 +66,35 @@ setZMinMax:
     Notes:
         Sets the min and max Z coordinates.
 
-setYMax:
+setXMax:
     Arguments:
         float
     Usage:
         max
     Notes:
-        Sets the max Y coordinate.
+        Sets the max X coordinate.
 
-setBiome:
+setZMin:
     Arguments:
-        Non_Null_Biome_ID
+        float
     Usage:
-        biome id
+        min
     Notes:
-        Sets the biome id. Can be an int or String.
+        Sets the min Z coordinate.
+
+setXMinMax:
+    Arguments:
+        float, float
+    Usage:
+        min, max
+    Notes:
+        Sets the min and max X coordinates.
+
+setZMax:
+    Arguments:
+        float
+    Usage:
+        max
+    Notes:
+        Sets the max Z coordinate.
 
