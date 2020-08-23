@@ -1,0 +1,7 @@
+{
+	title: "Hell of a Place",
+	icon: "minecraft:netherrack",
+	always_invisible: false,
+	group: -1271030450,
+	default_quest_shape: ""
+}

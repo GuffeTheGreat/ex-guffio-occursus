@@ -1,0 +1,30 @@
+{
+	icon: "thaumcraft:infusion_matrix",
+	x: 1.0d,
+	y: 5.5d,
+	dependencies: [
+		"112a0282"
+	],
+	tasks: [{
+		uid: "b92ab0e1",
+		type: "item",
+		items: [{
+			item: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "a063064a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderLeast: -6106378302476884828L,
+					AS_Amulet_HolderMost: 4863570407252250259L
+				}
+			},
+			id: "thaumcraft:caster_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

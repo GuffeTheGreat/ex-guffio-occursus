@@ -103,8 +103,16 @@ null, null, null,
 recipes.remove(<botania:spreader>);
 mods.astralsorcery.Altar.addDiscoveryAltarRecipe("guffe:shaped/internal/altar/spreader", <botania:spreader>, 120, 200, [
 	<botania:livingwood>, <botania:livingwood>, <botania:livingwood>,
-	<ore:gemGreenSapphire>, <botania:petal:9>, <astralsorcery:itemcraftingcomponent:3>,
+	<ore:gemGreenSapphire>, <botania:petal:*>, <astralsorcery:itemcraftingcomponent:3>,
 	<botania:livingwood>, <botania:livingwood>, <botania:livingwood>]);
+
+//ElvenManaSpreader
+recipes.remove(<botania:spreader:2>);
+mods.astralsorcery.Altar.addAttunementAltarRecipe("guffe:shaped/internal/altar/elvenspreader", <botania:spreader:2>, 500, 600, [
+<botania:dreamwood>, <botania:dreamwood>, <botania:dreamwood>,
+			<ore:flawlessGreenSapphire>, <botania:petal:*>, <astralsorcery:itemcraftingcomponent:3>,
+			<botania:dreamwood>, <botania:dreamwood>, <botania:dreamwood>,
+			<botania:manaresource:8>, <botania:manaresource:8>, <botania:manaresource:8>, <botania:manaresource:8>]);
 
 val supermap = {
 <silentgems:gemsuper> : [<ore:flawlessRuby>,<ore:ingotGaiasteel>],

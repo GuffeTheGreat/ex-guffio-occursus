@@ -48,7 +48,12 @@ recipes.addShapedMirrored("4x_tile_wireless_receiver_shaped", <cyclicmagic:wirel
 	[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
 ]);
 
-
+//Sprinkler
+recipes.remove(<botania:pool:2>);
+mods.astralsorcery.Altar.addDiscoveryAltarRecipe("guffe:shaped/internal/altar/sprinkler", <cyclicmagic:sprinkler>, 120, 200, [
+	null, null, null,
+	<minecraft:iron_bars>, <contenttweaker:basicvalve>, <minecraft:iron_bars>,
+	<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]);
 
 
 

@@ -1,0 +1,14 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"766f2ac8"
+	],
+	tasks: [{
+		uid: "cb664eb0",
+		type: "item",
+		items: [{
+			item: "thaumicrestoration:block_infuser"
+		}]
+	}]
+}

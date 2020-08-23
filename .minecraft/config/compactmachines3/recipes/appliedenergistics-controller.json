@@ -4,7 +4,7 @@
 	  "target-item": "thaumcraft:metal_alchemical_advanced",
 	  "target-count": 1,
 	  "duration": 200,
-	  "catalyst": "thaumcraft:primordial_pearl",
+	  "catalyst": "thaumcraft:morphic_resonator",
 	  "catalyst-meta": "0",
 		
 	  "input-types": {
@@ -13,7 +13,7 @@
 		  "meta": 0
 		},
 		"b": {
-		  "id": "thaumcraft:metal_void",
+		  "id": "botania:storage",
 		  "meta": 0
 		},
 		"c": {
@@ -21,14 +21,10 @@
 		  "meta": 0
 		},
 		"d": {
-		  "id": "minecraft:stone",
+		  "id": "thaumicaugmentation:stone",
 		  "meta": 0
 		},
 		"e": {
-		  "id": "minecraft:dirt",
-		  "meta": 0
-		},
-		"f": {
 		  "id": "thaumcraft:metal_alchemical",
 		  "meta": 0
 		}
@@ -42,7 +38,7 @@
 		  ],
 		  [
 			"c",
-			"f",
+			"e",
 			"c"
 		  ],
 		  [
@@ -54,7 +50,7 @@
 		[
 		  [
 			"c",
-			"e",
+			"d",
 			"c"
 		  ],
 		  [
@@ -64,7 +60,7 @@
 		  ],
 		  [
 			"c",
-			"e",
+			"d",
 			"c"
 		  ]
 		],
@@ -76,7 +72,7 @@
 		  ],
 		  [
 			"c",
-			"f",
+			"e",
 			"c"
 		  ],
 		  [

@@ -1,0 +1,30 @@
+{
+	icon: "thaumcraft:ingot 1 1",
+	x: 2.5d,
+	y: 2.5d,
+	dependencies: [
+		"cb20ae0b",
+		"766f2ac8"
+	],
+	tasks: [{
+		uid: "bd4c8641",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_siphon"
+		}]
+	},
+	{
+		uid: "5c209f74",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	},
+	{
+		uid: "f289fefb",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}]
+	}]
+}

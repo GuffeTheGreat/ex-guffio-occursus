@@ -1,7 +1,7 @@
 {
 	icon: "thaumcraft:centrifuge",
-	x: 0.5d,
-	y: 5.5d,
+	x: -2.0d,
+	y: 4.0d,
 	dependencies: [
 		"a46775cb"
 	],

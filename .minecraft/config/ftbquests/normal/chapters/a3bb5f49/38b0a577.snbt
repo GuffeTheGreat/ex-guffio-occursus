@@ -1,0 +1,32 @@
+{
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "thaumcraft:primordial_pearl"
+	},
+	x: 5.5d,
+	y: 1.0d,
+	dependencies: [
+		"22c666f4"
+	],
+	tasks: [{
+		uid: "8bfaf610",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e400974d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:primordialgoop"
+		}]
+	}]
+}

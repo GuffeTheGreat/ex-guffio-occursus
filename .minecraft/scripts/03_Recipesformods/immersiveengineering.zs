@@ -45,7 +45,10 @@ mods.immersiveengineering.Blueprint.addRecipe("blueprint", <modularmachinery:ite
 mods.immersiveengineering.Blueprint.addRecipe("blueprint", <modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:clay_forge"}), [<minecraft:paper>, <minecraft:paper>,<avaritia:resource:4>*16,<minecraft:paper>*8,<avaritia:block_resource:1>*3]);
 
 //ArcFurnaceRecipe
+mods.immersiveengineering.ArcFurnace.addRecipe(<botania:manaresource:4>, <ore:ingotThaumiumTerra>, null, 20*60*2, 2500, [<ore:ingotManasteel>, <botanicadds:mana_lapis>,<ore:quartzMana>,<ore:powderMana>], "Alloying");
 mods.immersiveengineering.ArcFurnace.addRecipe(<avaritia:resource:1>, <ore:ingotIridium>*16, null, 2000, 1024000, [<avaritia:resource>*5, <ore:netherStar>*2,<ore:flawlessDilithium>], "Alloying");
+
+
 //Pressrecipes
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:22>*2, <ore:ingotSilver>, <immersiveengineering:mold:4>, 2000);
 mods.immersiveengineering.MetalPress.addRecipe(<immersiveengineering:material:20>*2, <ore:ingotBrass>, <immersiveengineering:mold:4>, 2000, 16);

@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -9.0d,
+	dependencies: [
+		"28e980b0"
+	],
+	tasks: [{
+		uid: "a2cd181b",
+		type: "item",
+		items: [{
+			item: "prodigytech:ore_refinery"
+		}]
+	}]
+}

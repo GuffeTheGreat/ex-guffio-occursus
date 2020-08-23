@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: -3.5d,
+	tasks: [{
+		uid: "1addf1d0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "fluidedmana",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

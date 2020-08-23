@@ -1,0 +1,29 @@
+{
+	title: "Crafting With Mana",
+	x: 3.5d,
+	y: -2.0d,
+	dependencies: [
+		"dec5bd29"
+	],
+	tasks: [{
+		uid: "b6bd9191",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 23"
+		}]
+	},
+	{
+		uid: "b5fb3c2c",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}]
+	},
+	{
+		uid: "c06f7b74",
+		type: "item",
+		items: [{
+			item: "botanicadds:mana_lapis"
+		}]
+	}]
+}

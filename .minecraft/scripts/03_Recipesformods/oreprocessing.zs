@@ -1,7 +1,9 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
 import mods.pyrotech.IroncladAnvil;
 import mods.inworldcrafting.FluidToItem;
+import mods.prodigytech.orerefinery;
 
 var counter = 0;
 
@@ -100,7 +102,7 @@ val gemmap = {
 
     <silentgems:gem:6> : [<materialpart:Green_Sapphire:exquisite>,<materialpart:Green_Sapphire:flawless>,<materialpart:Green_Sapphire:flaked>,<materialpart:Green_Sapphire:point>] 
 } as IItemStack[][IItemStack];
-counter = 0;
+
 for gem, types in gemmap {
 counter = counter +1;
  
@@ -118,22 +120,55 @@ counter = counter +1;
     mods.rats.recipes.addGemcutterRatRecipe(types[2], types[3]*2);
 }
 
-var hammerRecipes as IItemStack[IIngredient] = {
-   /* <minecraft:coal:1> : <primal:charcoal_mote>*6,
-    <primal:charcoal_fair> : <primal:charcoal_mote>*8,
-    <primal:charcoal_good> : <primal:charcoal_mote>*10,
-    <primal:charcoal_high> : <primal:charcoal_mote>*12,
-    <primal:charcoal_pure> : <primal:charcoal_mote>*16,
-    <actuallyadditions:block_misc:5> : <minecraft:coal:1>*9,
-    <chisel:block_charcoal2:1> : <primal:charcoal_fair>*9,
-    <pyrotech:charcoal_block> : <primal:charcoal_good>*9,
-    <metallurgy:charcoal_block> : <primal:charcoal_high>*9,
-    <rockhounding_chemistry:misc_blocks_a:11> : <primal:charcoal_pure>*9*/
-    };
+val dustmap = {
 
-counter = 0;
-for input, output in hammerRecipes {
+<materialpart:cassiterite:ore> : [<materialpart:cassiterite:crushed_ore>,<materialpart:cassiterite:dirty_dust>,<materialpart:cassiterite:dust>,<materialpart:tin:dust>],
+
+<materialpart:cuprite:ore> : [<materialpart:cuprite:crushed_ore>,<materialpart:cuprite:dirty_dust>,<materialpart:cuprite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:hematite:ore> : [<materialpart:hematite:crushed_ore>,<materialpart:hematite:dirty_dust>,<materialpart:hematite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:senarmontite:ore> : [<materialpart:senarmontite:crushed_ore>,<materialpart:senarmontite:dirty_dust>,<materialpart:senarmontite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:baryte:ore> : [<materialpart:baryte:crushed_ore>,<materialpart:baryte:dirty_dust>,<materialpart:baryte:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:celestine:ore> : [<materialpart:celestine:crushed_ore>,<materialpart:celestine:dirty_dust>,<materialpart:celestine:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:chalcopyrite:ore> : [<materialpart:chalcopyrite:crushed_ore>,<materialpart:chalcopyrite:dirty_dust>,<materialpart:chalcopyrite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:proustite:ore> : [<materialpart:proustite:crushed_ore>,<materialpart:proustite:dirty_dust>,<materialpart:proustite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:acanthite:ore> : [<materialpart:acanthite:crushed_ore>,<materialpart:acanthite:dirty_dust>,<materialpart:acanthite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:sperrylite:ore> : [<materialpart:sperrylite:crushed_ore>,<materialpart:sperrylite:dirty_dust>,<materialpart:sperrylite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:graphite:ore> : [<materialpart:graphite:crushed_ore>,<materialpart:graphite:dirty_dust>,<materialpart:graphite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:calcite:ore> : [<materialpart:calcite:crushed_ore>,<materialpart:calcite:dirty_dust>,<materialpart:calcite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:pentlandite:ore> : [<materialpart:pentlandite:crushed_ore>,<materialpart:pentlandite:dirty_dust>,<materialpart:pentlandite:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:galena:ore> : [<materialpart:galena:crushed_ore>,<materialpart:galena:dirty_dust>,<materialpart:galena:dust>,<materialpart:cinnabar:dust>],
+
+<materialpart:redstone:ore> : [<materialpart:redstone:crushed_ore>,<materialpart:redstone:dirty_dust>,<minecraft:redstone>,<materialpart:cinnabar:dust>],
+
+<thaumcraft:ore_cinnabar> : [<materialpart:cinnabar:crushed_ore>,<materialpart:cinnabar:dirty_dust>,<materialpart:cinnabar:dust>,<minecraft:redstone>]
+
+
+
+} as IItemStack[][IItemStack];
+
+for key, value in dustmap {
     counter = counter +1;
-    GraniteAnvil.addRecipe("granitehammer"+counter, output, input, 8, "hammer");
-    IroncladAnvil.addRecipe("ironhammer"+counter, output, input, 8, "hammer");
-}
+
+    //ProcessingOrestoCrushedOre
+    IroncladAnvil.addRecipe("breakingore"+counter, value[0], key, 8, "hammer");
+    orerefinery.addRecipe(key, value[0]*2, <materialpart:stone:dust>, 0.5, 10);
+
+    //ProcessingCrushedOrestodirtydust
+    IroncladAnvil.addRecipe("beatingcrushed"+counter, value[1], value[0], 8, "hammer");
+    orerefinery.addRecipe(value[0], value[1], value[3], 0.1, 10);
+
+    //TurningDirtyDustintodust
+    mods.inworldcrafting.FluidToItem.transform(value[2], <liquid:water>, value[1], false);
+    }

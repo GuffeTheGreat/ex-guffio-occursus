@@ -1,0 +1,14 @@
+{
+	x: 7.0d,
+	y: 2.5d,
+	dependencies: [
+		"468e3e54"
+	],
+	tasks: [{
+		uid: "ad9132ee",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"28e980b0"
+	],
+	tasks: [{
+		uid: "0d269e90",
+		type: "item",
+		items: [{
+			item: "prodigytech:magnetic_reassembler"
+		}]
+	}]
+}

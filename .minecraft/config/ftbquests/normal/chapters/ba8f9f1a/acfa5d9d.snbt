@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: -8.0d,
+	dependencies: [
+		"c86c377e"
+	],
+	tasks: [{
+		uid: "21962ab4",
+		type: "item",
+		items: [{
+			item: "prodigytech:atomic_reshaper"
+		}]
+	}]
+}

@@ -1,0 +1,13 @@
+{
+	icon: "astralsorcery:blockcustomore 1 1",
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"3d893f72"
+	],
+	tasks: [{
+		uid: "67494edf",
+		type: "checkmark",
+		title: "Mineralis Ritual"
+	}]
+}

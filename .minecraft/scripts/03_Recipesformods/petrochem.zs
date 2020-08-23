@@ -18,7 +18,7 @@ mods.advancedrocketry.ChemicalReactor.addRecipe(<liquid:carbonicacid>*2000, 80, 
 //Aceticacid
 mods.advancedrocketry.ChemicalReactor.addRecipe(<liquid:aceticacid>*2000, 80, 100, <liquid:methanol>*1000, <liquid:carbon_monoxide>*1000);
 //Methanol
-mods.advancedrocketry.ChemicalReactor.addRecipe(<liquid:methanol>*250, 80, 100, <liquid:hydrogen>*500, <liquid:carbon_monoxide>*250);
+mods.advancedrocketry.ChemicalReactor.addRecipe(<liquid:methanol>*750, 80, 100, <liquid:hydrogen>*500, <liquid:carbon_monoxide>*250);
 //Electro CSTR
 //HydrogenCyanide
 mods.rockhounding_chemistry.StirredTank.add(<liquid:methane>*5000, <liquid:ammonia>*4000, <liquid:hydrogen_cyanide>*3000, <liquid:hydrogen>*6000, 0);

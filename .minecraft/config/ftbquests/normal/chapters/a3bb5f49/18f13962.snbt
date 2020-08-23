@@ -1,0 +1,33 @@
+{
+	icon: "thaumicaugmentation:material 1 3",
+	x: 2.5d,
+	y: 5.5d,
+	dependencies: [
+		"88c81662"
+	],
+	tasks: [{
+		uid: "de1d2176",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:material 1 3"
+		}]
+	},
+	{
+		uid: "d88d63bf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					augment: {},
+					energy: {
+						energy: 0L
+					}
+				},
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -381,7 +381,7 @@ mithril.registerParts(["rod","bolt","plate","doubleingot"] as string[]);
 
 //Steel
 var steel = MaterialSystem.getMaterialBuilder().setName("Steel").setColor(Color.fromHex("7b9095")).build();
-steel.registerParts(["dense_plate","gear","rod","bolt","plate","doubleingot"] as string[]);
+steel.registerParts(["ingot","dense_plate","gear","rod","bolt","plate","doubleingot"] as string[]);
 
 //Brass
 var brass = MaterialSystem.getMaterialBuilder().setName("Brass").setColor(Color.fromHex("ffa500")).build();
@@ -509,3 +509,7 @@ potassiumcyanide.registerParts(["tiny_pile","dust","block"] as string[]);
 //brick
 var brick = MaterialSystem.getMaterialBuilder().setName("Brick").setColor(Color.fromHex("8d2c19")).build();
 brick.registerParts(["dust"] as string[]);
+
+//stone
+var stone = MaterialSystem.getMaterialBuilder().setName("Stone").setColor(Color.fromHex("888c8d")).build();
+stone.registerParts(["dust"] as string[]);

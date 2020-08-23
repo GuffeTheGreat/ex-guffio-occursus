@@ -218,6 +218,42 @@ recipes.addShapedMirrored("1x_item_shears_shaped", <minecraft:shears>, [
 	[<ore:plateIron>, null]
 ]);
 
+//RandomRecipes
+recipes.addShapedMirrored("polishedgranite", <minecraft:stone:2> * 4, [
+	[<minecraft:stone:1>, <minecraft:stone:1>],
+	[<minecraft:stone:1>, <minecraft:stone:1>]
+]);
+recipes.addShapedMirrored("polisheddiorite", <minecraft:stone:4> * 4, [
+	[<minecraft:stone:3>, <minecraft:stone:3>],
+	[<minecraft:stone:3>, <minecraft:stone:3>]
+]);
+recipes.addShapedMirrored("polishedandesite", <minecraft:stone:6> * 4, [
+	[<minecraft:stone:5>, <minecraft:stone:5>],
+	[<minecraft:stone:5>, <minecraft:stone:5>]
+]);
+
+//Hopper
+recipes.remove(<minecraft:hopper>);
+recipes.addShapedMirrored("1x_tile_hopper_shaped", <minecraft:hopper>, [
+	[<ore:plateIron>, <minecraft:chest>, <ore:plateIron>],
+	[<ore:plateIron>, <ore:gearIron>, <ore:plateIron>],
+	[null, <ore:plateIron>, null]
+]);
+recipes.remove(<essentials:sorting_hopper>);
+recipes.addShapedMirrored("1x_tile_sorting_hopper_shaped", <essentials:sorting_hopper>, [
+	[<ore:plateBronze>, <minecraft:chest>, <ore:plateBronze>],
+	[<ore:plateBronze>, <ore:gearBronze>, <ore:plateBronze>],
+	[null, <ore:plateBronze>, null]
+]);
+recipes.remove(<thebetweenlands:syrmorite_hopper>);
+recipes.addShapedMirrored("1x_tile_thebetweenlands_syrmorite_hopper_shaped", <thebetweenlands:syrmorite_hopper>, [
+	[<ore:plateSyrmorite>, <minecraft:chest>, <ore:plateSyrmorite>],
+	[<ore:plateSyrmorite>, <ore:gearSyrmorite>, <ore:plateSyrmorite>],
+	[null, <ore:plateSyrmorite>, null]
+]);
+
+
+
 
 //GiantRecipeCleanup
 recipes.remove(<minecraft:reeds>);

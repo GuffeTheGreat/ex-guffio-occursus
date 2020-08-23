@@ -24,8 +24,8 @@ mods.jei.JEI.removeAndHide(<pyrotech:dense_nether_coal_ore>);
 var counter = 0;
 
 //stonesmelting
-BrickKiln.addRecipe("cobbedstone0",<minecraft:stone>,<quark:biome_cobblestone:2>,20*60*7,0.08,[<pyrotech:rock>*5,<bonfires:ash_pile>]);
-StoneKiln.addRecipe("cobbedstone1",<minecraft:stone>,<quark:biome_cobblestone:2>,20*60*7,0.02,[<pyrotech:rock>*5,<bonfires:ash_pile>]);
+BrickKiln.addRecipe("cobbedstone0",<minecraft:stone>,<quark:biome_cobblestone:2>,20*60*7,0.02,[<pyrotech:rock>*5,<bonfires:ash_pile>]);
+StoneKiln.addRecipe("cobbedstone1",<minecraft:stone>,<quark:biome_cobblestone:2>,20*60*7,0.08,[<pyrotech:rock>*5,<bonfires:ash_pile>]);
 
 //MiddleGem
 BrickKiln.addRecipe("aqua",<thebetweenlands:aqua_middle_gem>,<ore:oreAquaMiddleGem>,20*60*8,0.5,[<thebetweenlands:items_crushed:45>]);
@@ -115,16 +115,6 @@ GraniteAnvil.removeRecipes(<pyrotech:material:15>);
 IroncladAnvil.removeRecipes(<pyrotech:material:15>);
 
 var hammerRecipes as IItemStack[IIngredient] = {
-   /* <minecraft:coal:1> : <materialpart:angmallen:cassiterite_ore>,
-    <primal:charcoal_fair> : <materialpart:angmallen:plate>,
-	<primal:charcoal_good> : <primal:charcoal_mote>*10,
-    <primal:charcoal_high> : <primal:charcoal_mote>*12,
-    <primal:charcoal_pure> : <primal:charcoal_mote>*16,
-    <actuallyadditions:block_misc:5> : <minecraft:coal:1>*9,
-    <chisel:block_charcoal2:1> : <primal:charcoal_fair>*9,
-	<pyrotech:charcoal_block> : <primal:charcoal_good>*9,
-    <metallurgy:charcoal_block> : <primal:charcoal_high>*9,
-    <rockhounding_chemistry:misc_blocks_a:11> : <primal:charcoal_pure>*9*/
 	};
 
 counter = 0;

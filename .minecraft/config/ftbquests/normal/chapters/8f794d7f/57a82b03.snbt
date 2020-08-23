@@ -1,0 +1,29 @@
+{
+	icon: "astralsorcery:blockbore",
+	x: 1.5d,
+	y: 3.0d,
+	dependencies: [
+		"0782ce13"
+	],
+	tasks: [{
+		uid: "ab7facfc",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockbore"
+		}]
+	},
+	{
+		uid: "72bb8263",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockchalice"
+		}]
+	},
+	{
+		uid: "26501b67",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockborehead"
+		}]
+	}]
+}

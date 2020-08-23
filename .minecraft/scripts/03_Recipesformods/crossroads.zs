@@ -195,6 +195,7 @@ mods.astralsorcery.Altar.addAttunementAltarRecipe("guffe:shaped/internal/altar/i
 //NewStoneFusionBeams
 mods.crossroads.FusionBeam.addRecipe(<minecraft:stone>,1,<thaumicaugmentation:stone>,false);
 mods.crossroads.FusionBeam.addRecipe(<minecraft:stone>,1,<thebetweenlands:limestone>,true);
+/*
 mods.crossroads.FusionBeam.addRecipe(<thebetweenlands:limestone>,4,<minecraft:stone>,false);
 mods.crossroads.FusionBeam.addRecipe(<thaumicaugmentation:stone>,4,<minecraft:stone>,true);
-
+*/

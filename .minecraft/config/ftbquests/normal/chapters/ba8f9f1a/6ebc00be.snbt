@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: -6.0d,
+	dependencies: [
+		"28e980b0"
+	],
+	tasks: [{
+		uid: "1f827250",
+		type: "item",
+		items: [{
+			item: "prodigytech:heat_sawmill"
+		}]
+	}]
+}

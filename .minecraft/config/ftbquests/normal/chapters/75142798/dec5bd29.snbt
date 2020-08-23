@@ -1,0 +1,18 @@
+{
+	x: 3.5d,
+	y: -3.5d,
+	dependencies: [
+		"a4fd1d91",
+		"70379de8"
+	],
+	tasks: [{
+		uid: "3649b7ef",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "shulk_me_not"
+			}
+		}]
+	}]
+}

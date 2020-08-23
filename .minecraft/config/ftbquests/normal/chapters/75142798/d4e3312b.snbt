@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 0.0d,
+	dependencies: [
+		"fe2227e6"
+	],
+	tasks: [{
+		uid: "0dd36a1f",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}]
+}

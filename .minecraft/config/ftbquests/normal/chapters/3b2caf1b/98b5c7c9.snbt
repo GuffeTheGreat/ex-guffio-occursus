@@ -1,0 +1,19 @@
+{
+	icon: "minecraft:quartz",
+	x: -0.5d,
+	y: -2.5d,
+	tasks: [{
+		uid: "8431959b",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	},
+	{
+		uid: "8cb3bf80",
+		type: "item",
+		items: [{
+			item: "silentgems:gem 1 45"
+		}]
+	}]
+}

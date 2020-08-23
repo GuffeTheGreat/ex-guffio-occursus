@@ -20,13 +20,13 @@ setAbsRender:
     Notes:
         Sets the width and height to render the texture in pixels.
 
-setRelRenderWidth:
+setAbsRenderHeight:
     Arguments:
         int
     Usage:
-        width
+        height
     Notes:
-        Sets the width to render the texture relative to the screen size.
+        Sets the height to render the texture in pixels.
 
 setAbsRenderWidth:
     Arguments:
@@ -36,14 +36,6 @@ setAbsRenderWidth:
     Notes:
         Sets the width to render the texture in pixels.
 
-setAbsRenderHeight:
-    Arguments:
-        int
-    Usage:
-        height
-    Notes:
-        Sets the height to render the texture in pixels.
-
 setRelRenderHeight:
     Arguments:
         int
@@ -51,4 +43,12 @@ setRelRenderHeight:
         height
     Notes:
         Sets the height to render the texture relative to the screen size.
+
+setRelRenderWidth:
+    Arguments:
+        int
+    Usage:
+        width
+    Notes:
+        Sets the width to render the texture relative to the screen size.
 

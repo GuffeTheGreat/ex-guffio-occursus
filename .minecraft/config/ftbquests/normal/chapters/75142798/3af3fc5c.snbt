@@ -1,14 +1,14 @@
 {
-	x: -3.0d,
+	x: 5.0d,
 	y: -2.0d,
 	dependencies: [
-		"b8e9ff69"
+		"fe2227e6"
 	],
 	tasks: [{
-		uid: "ae0db097",
+		uid: "4cddbc00",
 		type: "item",
 		items: [{
-			item: "magneticraft:sluice_box"
+			item: "botania:pool"
 		}]
 	}]
 }

@@ -1,0 +1,30 @@
+{
+	icon: "astralsorcery:blockstarlightinfuser",
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"83437401"
+	],
+	tasks: [{
+		uid: "9697d275",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	},
+	{
+		uid: "6fbf1e52",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:iteminfusedglass",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

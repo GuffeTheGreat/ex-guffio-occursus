@@ -6,10 +6,10 @@
 		"c6866a6b"
 	],
 	tasks: [{
-		uid: "b3a0368d",
+		uid: "a8303f54",
 		type: "item",
 		items: [{
-			item: "nuclearcraft:alloy"
+			item: "contenttweaker:material_part 1 2178"
 		}]
 	}]
 }

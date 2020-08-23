@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: -2.5d,
+	dependencies: [
+		"58e28abb"
+	],
+	tasks: [{
+		uid: "5bdf9ef2",
+		type: "item",
+		items: [{
+			item: "rockhounding_chemistry:alloy_items_deco 1 28"
+		}]
+	}]
+}
